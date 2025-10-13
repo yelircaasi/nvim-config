@@ -1,10 +1,10 @@
-vim.opt.rtp:prepend("/nix/store/9af9rww8nnrpfpjhz1sk8yg27q049rby-vimplugin-nvim-treesitter-2025-05-24")
-require('nvim-treesitter')
-require'nvim-treesitter.configs'.setup {
-    -- ensure_installed = { "python", "lua", "javascript" },  -- Ensure installed parsers
-    highlight = { enable = true },
-    fold = { enable = false }  -- Disable folding if necessary
-  }
+-- vim.opt.rtp:prepend("/nix/store/9af9rww8nnrpfpjhz1sk8yg27q049rby-vimplugin-nvim-treesitter-2025-05-24")
+-- require('nvim-treesitter')
+-- require'nvim-treesitter.configs'.setup {
+--     -- ensure_installed = { "python", "lua", "javascript" },  -- Ensure installed parsers
+--    highlight = { enable = true },
+--     fold = { enable = false }  -- Disable folding if necessary
+--  }
 
 function addRelPath(dir)
     local spath =
