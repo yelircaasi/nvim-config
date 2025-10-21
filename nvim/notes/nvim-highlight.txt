@@ -1,0 +1,679 @@
+
+SpecialKey     xxx guifg=#491d5e
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+EndOfBuffer    xxx links to NonText
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+TermCursor     xxx cterm=reverse gui=reverse
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+NonText        xxx guifg=#111211
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+Directory      xxx guifg=#13446c
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+ErrorMsg       xxx guifg=#bd1dc5
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+IncSearch      xxx links to CurSearch
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+Search         xxx guifg=#8aa88a guibg=#003600
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+CurSearch      xxx guifg=#809880 guibg=#002600
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+MoreMsg        xxx guifg=#1db6c5
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+ModeMsg        xxx guifg=#376808
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+LineNr         xxx guifg=#333833
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+LineNrAbove    xxx links to LineNr
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+LineNrBelow    xxx links to LineNr
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+CursorLineNr   xxx cterm=bold gui=bold
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+CursorLineSign xxx links to SignColumn
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+CursorLineFold xxx links to FoldColumn
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+Question       xxx guifg=#402967
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+StatusLine     xxx guifg=#455684 guibg=#111211
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+StatusLineNC   xxx guifg=#455684 guibg=#111211
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+WinSeparator   xxx guifg=#111211 guibg=#000800
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+VertSplit      xxx links to WinSeparator
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+Title          xxx cterm=bold gui=bold guifg=NvimLightGrey2
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+Visual         xxx guifg=#061815 guibg=#0d8f77
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+VisualNC       xxx cleared
+WarningMsg     xxx guifg=#cbc383
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+WildMenu       xxx links to PmenuSel
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+Folded         xxx guifg=#808080 guibg=#001300
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+FoldColumn     xxx links to SignColumn
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+DiffAdd        xxx guifg=#668366 guibg=#002200
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+DiffChange     xxx guifg=#7f86f3 guibg=#050a58
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+DiffDelete     xxx guifg=#d5776f
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+DiffText       xxx guifg=#050a58 guibg=#7f86f3
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+SignColumn     xxx guifg=#1b8984
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+Conceal        xxx guifg=#808080 guibg=#000800
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+SpellBad       xxx cterm=undercurl gui=undercurl guisp=NvimLightRed
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+SpellCap       xxx cterm=undercurl gui=undercurl guisp=NvimLightYellow
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+SpellRare      xxx cterm=undercurl gui=undercurl guisp=NvimLightCyan
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+SpellLocal     xxx cterm=undercurl gui=undercurl guisp=NvimLightGreen
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+Pmenu          xxx guifg=#505ad6 guibg=#000800
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+PmenuSel       xxx guifg=#737df1 guibg=#002600
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+PmenuMatch     xxx cterm=bold gui=bold
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+PmenuMatchSel  xxx cterm=bold gui=bold
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+PmenuKind      xxx links to Pmenu
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+PmenuKindSel   xxx links to PmenuSel
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+PmenuExtra     xxx links to Pmenu
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+PmenuExtraSel  xxx links to PmenuSel
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+PmenuSbar      xxx links to Pmenu
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+PmenuThumb     xxx guibg=#777777
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+TabLine        xxx links to StatusLineNC
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+TabLineSel     xxx gui=bold
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+TabLineFill    xxx links to TabLine
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+CursorColumn   xxx guibg=#000e00
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+CursorLine     xxx guibg=#000e00
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+ColorColumn    xxx guibg=#9b73f1
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+QuickFixLine   xxx guifg=#a30101
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+Whitespace     xxx links to NonText
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+NormalNC       xxx links to Normal
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+MsgSeparator   xxx links to StatusLine
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+NormalFloat    xxx guifg=#808080 guibg=#000800
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+MsgArea        xxx cleared
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+FloatBorder    xxx links to NormalFloat
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+WinBar         xxx guifg=#dddddd guibg=#000800
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+WinBarNC       xxx guifg=#dddddd guibg=#000800
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+Cursor         xxx guifg=bg guibg=fg
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+FloatTitle     xxx links to Title
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+FloatFooter    xxx links to FloatTitle
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+StatusLineTerm xxx links to StatusLine
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+StatusLineTermNC xxx links to StatusLineNC
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+RedrawDebugNormal xxx cterm=reverse gui=reverse
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+Underlined     xxx cterm=underline gui=underline
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+lCursor        xxx guifg=bg guibg=fg
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+CursorIM       xxx links to Cursor
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+ComplMatchIns  xxx cleared
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+Substitute     xxx links to Search
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+VisualNOS      xxx links to Visual
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+Normal         xxx guifg=#808080 guibg=#000800
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+Character      xxx links to Constant
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+Constant       xxx guifg=NvimLightGrey2
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+Number         xxx links to Constant
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+Boolean        xxx links to Constant
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+Float          xxx links to Number
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+Conditional    xxx links to Statement
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+Statement      xxx guifg=#3f0d08
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+Repeat         xxx links to Statement
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+Label          xxx links to Statement
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+Keyword        xxx links to Statement
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+Exception      xxx links to Statement
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+Include        xxx links to PreProc
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+PreProc        xxx guifg=#123622
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+Define         xxx links to PreProc
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+Macro          xxx links to PreProc
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+PreCondit      xxx links to PreProc
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+StorageClass   xxx links to Type
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+Type           xxx guifg=NvimLightGrey2
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+Structure      xxx links to Type
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+Typedef        xxx links to Type
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+Tag            xxx links to Special
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+Special        xxx guifg=#49125e
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+SpecialChar    xxx links to Special
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+SpecialComment xxx links to Special
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+Debug          xxx links to Special
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+Ignore         xxx links to Normal
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+LspCodeLens    xxx links to NonText
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+LspCodeLensSeparator xxx links to LspCodeLens
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+LspInlayHint   xxx links to NonText
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+LspReferenceRead xxx links to LspReferenceText
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+LspReferenceText xxx links to Visual
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+LspReferenceWrite xxx links to LspReferenceText
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+LspReferenceTarget xxx links to LspReferenceText
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+LspSignatureActiveParameter xxx links to Visual
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+SnippetTabstop xxx links to Visual
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+DiagnosticFloatingError xxx links to DiagnosticError
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+DiagnosticError xxx guifg=#bd1dc5
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+DiagnosticFloatingWarn xxx guifg=#cbc383
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+DiagnosticWarn xxx guifg=#cbc383
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+DiagnosticFloatingInfo xxx guifg=#555555
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+DiagnosticInfo xxx guifg=#555555
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+DiagnosticFloatingHint xxx guifg=#9b73f1
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+DiagnosticHint xxx guifg=#9b73f1
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+DiagnosticFloatingOk xxx guifg=#555555
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+DiagnosticOk   xxx guifg=#555555
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+DiagnosticVirtualTextError xxx links to DiagnosticError
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+DiagnosticVirtualTextWarn xxx links to DiagnosticWarn
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+DiagnosticVirtualTextInfo xxx links to DiagnosticInfo
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+DiagnosticVirtualTextHint xxx links to DiagnosticHint
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+DiagnosticVirtualTextOk xxx links to DiagnosticOk
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+DiagnosticVirtualLinesError xxx links to DiagnosticError
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+DiagnosticVirtualLinesWarn xxx links to DiagnosticWarn
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+DiagnosticVirtualLinesInfo xxx links to DiagnosticInfo
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+DiagnosticVirtualLinesHint xxx links to DiagnosticHint
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+DiagnosticVirtualLinesOk xxx links to DiagnosticOk
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+DiagnosticSignError xxx links to DiagnosticError
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+DiagnosticSignWarn xxx links to DiagnosticWarn
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+DiagnosticSignInfo xxx links to DiagnosticInfo
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+DiagnosticSignHint xxx links to DiagnosticHint
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+DiagnosticSignOk xxx links to DiagnosticOk
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+DiagnosticUnnecessary xxx links to Comment
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+Comment        xxx guifg=#333933
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+@variable      xxx guifg=#13446c
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+@variable.builtin xxx links to Special
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+@variable.parameter.builtin xxx links to Special
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+@constant      xxx links to Constant
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+@constant.builtin xxx links to Special
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+@module        xxx links to Structure
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+@module.builtin xxx links to Special
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+@label         xxx links to Label
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+@string        xxx links to String
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+String         xxx guifg=#808080
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+@string.regexp xxx links to @string.special
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+@string.special xxx links to SpecialChar
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+@string.escape xxx links to @string.special
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+@string.special.url xxx links to Underlined
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+@character     xxx links to Character
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+@character.special xxx links to SpecialChar
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+@boolean       xxx links to Boolean
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+@number        xxx links to Number
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+@number.float  xxx links to Float
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+@type          xxx links to Type
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+@type.builtin  xxx links to Special
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+@attribute     xxx links to Macro
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+@attribute.builtin xxx links to Special
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+@property      xxx links to Identifier
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+Identifier     xxx guifg=#426989
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+@function      xxx links to Function
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+Function       xxx guifg=#246b44
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+@function.builtin xxx links to Special
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+@constructor   xxx links to Special
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+@operator      xxx links to Operator
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+Operator       xxx guifg=#246b44
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+@keyword       xxx links to Keyword
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+@punctuation   xxx links to Delimiter
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+Delimiter      xxx guifg=#123622
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+@punctuation.special xxx links to Special
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+@comment       xxx links to Comment
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+@comment.error xxx links to DiagnosticError
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+@comment.warning xxx links to DiagnosticWarn
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+@comment.note  xxx links to DiagnosticInfo
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+@comment.todo  xxx links to Todo
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+Todo           xxx cterm=bold gui=bold guifg=NvimLightGrey2
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+@markup        xxx links to Special
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+@markup.strong xxx cterm=bold gui=bold
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+@markup.italic xxx cterm=italic gui=italic
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+@markup.strikethrough xxx cterm=strikethrough gui=strikethrough
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+@markup.underline xxx cterm=underline gui=underline
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+@markup.heading xxx links to Title
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+@markup.link   xxx links to Underlined
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+@diff          xxx cleared
+@diff.plus     xxx links to Added
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+Added          xxx guifg=#368366
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+@diff.minus    xxx guifg=#d5776f
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+Removed        xxx guifg=#d5776f
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+@diff.delta    xxx links to Changed
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+Changed        xxx guifg=#7f86f3
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+@tag           xxx links to Tag
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+@tag.builtin   xxx links to Special
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+@markup.heading.1.delimiter.vimdoc xxx cterm=underdouble,nocombine gui=underdouble,nocombine guifg=bg guibg=bg guisp=fg
+@markup.heading.2.delimiter.vimdoc xxx cterm=underline,nocombine gui=underline,nocombine guifg=bg guibg=bg guisp=fg
+@lsp           xxx cleared
+@lsp.type.class xxx links to @type
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+@lsp.type.comment xxx links to @comment
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+@lsp.type.decorator xxx links to @attribute
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+@lsp.type.enum xxx links to @type
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+@lsp.type.enumMember xxx links to @constant
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+@lsp.type.event xxx links to @type
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+@lsp.type.function xxx links to @function
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+@lsp.type.interface xxx links to @type
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+@lsp.type.keyword xxx links to @keyword
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+@lsp.type.macro xxx links to @constant.macro
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+@lsp.type.method xxx links to @function.method
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+@lsp.type.modifier xxx links to @type.qualifier
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+@lsp.type.namespace xxx links to @module
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+@lsp.type.number xxx links to @number
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+@lsp.type.operator xxx links to @operator
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+@lsp.type.parameter xxx links to @variable.parameter
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+@lsp.type.property xxx links to @property
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+@lsp.type.regexp xxx links to @string.regexp
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+@lsp.type.string xxx links to @string
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+@lsp.type.struct xxx links to @type
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+@lsp.type.type xxx links to @type
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+@lsp.type.typeParameter xxx links to @type.definition
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+@lsp.type.variable xxx links to @variable
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+@lsp.mod.deprecated xxx links to DiagnosticDeprecated
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+DiagnosticDeprecated xxx cterm=strikethrough gui=strikethrough guisp=NvimLightRed
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+FloatShadow    xxx guibg=#002600
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+FloatShadowThrough xxx guibg=#118811
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+MatchParen     xxx guibg=#51136e
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+RedrawDebugClear xxx guibg=#dddddd
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+RedrawDebugComposed xxx guibg=#dddddd
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+RedrawDebugRecompose xxx guibg=#dddddd
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+Error          xxx guifg=#bd1dc5 guibg=#000800
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+DiagnosticUnderlineError xxx cterm=underline gui=underline guisp=NvimLightRed
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+DiagnosticUnderlineWarn xxx cterm=underline gui=underline guisp=NvimLightYellow
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+DiagnosticUnderlineInfo xxx cterm=underline gui=underline guisp=NvimLightCyan
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+DiagnosticUnderlineHint xxx cterm=underline gui=underline guisp=NvimLightBlue
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+DiagnosticUnderlineOk xxx cterm=underline gui=underline guisp=NvimLightGreen
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+NvimInternalError xxx ctermfg=9 ctermbg=9 guifg=Red guibg=Red
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+NvimAssignment xxx links to Operator
+NvimPlainAssignment xxx links to NvimAssignment
+NvimAugmentedAssignment xxx links to NvimAssignment
+NvimAssignmentWithAddition xxx links to NvimAugmentedAssignment
+NvimAssignmentWithSubtraction xxx links to NvimAugmentedAssignment
+NvimAssignmentWithConcatenation xxx links to NvimAugmentedAssignment
+NvimOperator   xxx links to Operator
+NvimUnaryOperator xxx links to NvimOperator
+NvimUnaryPlus  xxx links to NvimUnaryOperator
+NvimUnaryMinus xxx links to NvimUnaryOperator
+NvimNot        xxx links to NvimUnaryOperator
+NvimBinaryOperator xxx links to NvimOperator
+NvimComparison xxx links to NvimBinaryOperator
+NvimComparisonModifier xxx links to NvimComparison
+NvimBinaryPlus xxx links to NvimBinaryOperator
+NvimBinaryMinus xxx links to NvimBinaryOperator
+NvimConcat     xxx links to NvimBinaryOperator
+NvimConcatOrSubscript xxx links to NvimConcat
+NvimOr         xxx links to NvimBinaryOperator
+NvimAnd        xxx links to NvimBinaryOperator
+NvimMultiplication xxx links to NvimBinaryOperator
+NvimDivision   xxx links to NvimBinaryOperator
+NvimMod        xxx links to NvimBinaryOperator
+NvimTernary    xxx links to NvimOperator
+NvimTernaryColon xxx links to NvimTernary
+NvimParenthesis xxx links to Delimiter
+NvimLambda     xxx links to NvimParenthesis
+NvimNestingParenthesis xxx links to NvimParenthesis
+NvimCallingParenthesis xxx links to NvimParenthesis
+NvimSubscript  xxx links to NvimParenthesis
+NvimSubscriptBracket xxx links to NvimSubscript
+NvimSubscriptColon xxx links to NvimSubscript
+NvimCurly      xxx links to NvimSubscript
+NvimContainer  xxx links to NvimParenthesis
+NvimDict       xxx links to NvimContainer
+NvimList       xxx links to NvimContainer
+NvimIdentifier xxx links to Identifier
+NvimIdentifierScope xxx links to NvimIdentifier
+NvimIdentifierScopeDelimiter xxx links to NvimIdentifier
+NvimIdentifierName xxx links to NvimIdentifier
+NvimIdentifierKey xxx links to NvimIdentifier
+NvimColon      xxx links to Delimiter
+NvimComma      xxx links to Delimiter
+NvimArrow      xxx links to Delimiter
+NvimRegister   xxx links to SpecialChar
+NvimNumber     xxx links to Number
+NvimFloat      xxx links to NvimNumber
+NvimNumberPrefix xxx links to Type
+NvimOptionSigil xxx links to Type
+NvimOptionName xxx links to NvimIdentifier
+NvimOptionScope xxx links to NvimIdentifierScope
+NvimOptionScopeDelimiter xxx links to NvimIdentifierScopeDelimiter
+NvimEnvironmentSigil xxx links to NvimOptionSigil
+NvimEnvironmentName xxx links to NvimIdentifier
+NvimString     xxx links to String
+NvimStringBody xxx links to NvimString
+NvimStringQuote xxx links to NvimString
+NvimStringSpecial xxx links to SpecialChar
+NvimSingleQuote xxx links to NvimStringQuote
+NvimSingleQuotedBody xxx links to NvimStringBody
+NvimSingleQuotedQuote xxx links to NvimStringSpecial
+NvimDoubleQuote xxx links to NvimStringQuote
+NvimDoubleQuotedBody xxx links to NvimStringBody
+NvimDoubleQuotedEscape xxx links to NvimStringSpecial
+NvimFigureBrace xxx links to NvimInternalError
+NvimSingleQuotedUnknownEscape xxx links to NvimInternalError
+NvimSpacing    xxx links to Normal
+NvimInvalidSingleQuotedUnknownEscape xxx links to NvimInternalError
+NvimInvalid    xxx links to Error
+NvimInvalidAssignment xxx links to NvimInvalid
+NvimInvalidPlainAssignment xxx links to NvimInvalidAssignment
+NvimInvalidAugmentedAssignment xxx links to NvimInvalidAssignment
+NvimInvalidAssignmentWithAddition xxx links to NvimInvalidAugmentedAssignment
+NvimInvalidAssignmentWithSubtraction xxx links to NvimInvalidAugmentedAssignment
+NvimInvalidAssignmentWithConcatenation xxx links to NvimInvalidAugmentedAssignment
+NvimInvalidOperator xxx links to NvimInvalid
+NvimInvalidUnaryOperator xxx links to NvimInvalidOperator
+NvimInvalidUnaryPlus xxx links to NvimInvalidUnaryOperator
+NvimInvalidUnaryMinus xxx links to NvimInvalidUnaryOperator
+NvimInvalidNot xxx links to NvimInvalidUnaryOperator
+NvimInvalidBinaryOperator xxx links to NvimInvalidOperator
+NvimInvalidComparison xxx links to NvimInvalidBinaryOperator
+NvimInvalidComparisonModifier xxx links to NvimInvalidComparison
+NvimInvalidBinaryPlus xxx links to NvimInvalidBinaryOperator
+NvimInvalidBinaryMinus xxx links to NvimInvalidBinaryOperator
+NvimInvalidConcat xxx links to NvimInvalidBinaryOperator
+NvimInvalidConcatOrSubscript xxx links to NvimInvalidConcat
+NvimInvalidOr  xxx links to NvimInvalidBinaryOperator
+NvimInvalidAnd xxx links to NvimInvalidBinaryOperator
+NvimInvalidMultiplication xxx links to NvimInvalidBinaryOperator
+NvimInvalidDivision xxx links to NvimInvalidBinaryOperator
+NvimInvalidMod xxx links to NvimInvalidBinaryOperator
+NvimInvalidTernary xxx links to NvimInvalidOperator
+NvimInvalidTernaryColon xxx links to NvimInvalidTernary
+NvimInvalidDelimiter xxx links to NvimInvalid
+NvimInvalidParenthesis xxx links to NvimInvalidDelimiter
+NvimInvalidLambda xxx links to NvimInvalidParenthesis
+NvimInvalidNestingParenthesis xxx links to NvimInvalidParenthesis
+NvimInvalidCallingParenthesis xxx links to NvimInvalidParenthesis
+NvimInvalidSubscript xxx links to NvimInvalidParenthesis
+NvimInvalidSubscriptBracket xxx links to NvimInvalidSubscript
+NvimInvalidSubscriptColon xxx links to NvimInvalidSubscript
+NvimInvalidCurly xxx links to NvimInvalidSubscript
+NvimInvalidContainer xxx links to NvimInvalidParenthesis
+NvimInvalidDict xxx links to NvimInvalidContainer
+NvimInvalidList xxx links to NvimInvalidContainer
+NvimInvalidValue xxx links to NvimInvalid
+NvimInvalidIdentifier xxx links to NvimInvalidValue
+NvimInvalidIdentifierScope xxx links to NvimInvalidIdentifier
+NvimInvalidIdentifierScopeDelimiter xxx links to NvimInvalidIdentifier
+NvimInvalidIdentifierName xxx links to NvimInvalidIdentifier
+NvimInvalidIdentifierKey xxx links to NvimInvalidIdentifier
+NvimInvalidColon xxx links to NvimInvalidDelimiter
+NvimInvalidComma xxx links to NvimInvalidDelimiter
+NvimInvalidArrow xxx links to NvimInvalidDelimiter
+NvimInvalidRegister xxx links to NvimInvalidValue
+NvimInvalidNumber xxx links to NvimInvalidValue
+NvimInvalidFloat xxx links to NvimInvalidNumber
+NvimInvalidNumberPrefix xxx links to NvimInvalidNumber
+NvimInvalidOptionSigil xxx links to NvimInvalidIdentifier
+NvimInvalidOptionName xxx links to NvimInvalidIdentifier
+NvimInvalidOptionScope xxx links to NvimInvalidIdentifierScope
+NvimInvalidOptionScopeDelimiter xxx links to NvimInvalidIdentifierScopeDelimiter
+NvimInvalidEnvironmentSigil xxx links to NvimInvalidOptionSigil
+NvimInvalidEnvironmentName xxx links to NvimInvalidIdentifier
+NvimInvalidString xxx links to NvimInvalidValue
+NvimInvalidStringBody xxx links to NvimStringBody
+NvimInvalidStringQuote xxx links to NvimInvalidString
+NvimInvalidStringSpecial xxx links to NvimStringSpecial
+NvimInvalidSingleQuote xxx links to NvimInvalidStringQuote
+NvimInvalidSingleQuotedBody xxx links to NvimInvalidStringBody
+NvimInvalidSingleQuotedQuote xxx links to NvimInvalidStringSpecial
+NvimInvalidDoubleQuote xxx links to NvimInvalidStringQuote
+NvimInvalidDoubleQuotedBody xxx links to NvimInvalidStringBody
+NvimInvalidDoubleQuotedEscape xxx links to NvimInvalidStringSpecial
+NvimInvalidDoubleQuotedUnknownEscape xxx links to NvimInvalidValue
+NvimInvalidFigureBrace xxx links to NvimInvalidDelimiter
+NvimInvalidSpacing xxx links to ErrorMsg
+NvimDoubleQuotedUnknownEscape xxx links to NvimInvalidValue
+CmpItemAbbrDeprecatedDefault xxx guifg=#ffffff
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+CmpItemKindDefault xxx guifg=#eeeeee
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+RainbowDelimiter1 xxx guifg=#2b1400
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+RainbowDelimiter2 xxx guifg=#4f473b
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+RainbowDelimiter3 xxx guifg=#381900
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+RainbowDelimiter4 xxx guifg=#726c62
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+RainbowDelimiter5 xxx guifg=#51331a
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+RainbowDelimiter6 xxx guifg=#959189
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+RainbowDelimiter7 xxx guifg=#78604d
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+NeotreeFileName xxx guifg=#9a9a9a
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+VM_Mono        xxx links to IncSearch
+	Last set from ~/.local/share/nvim/lazy/vim-visual-multi/plugin/visual-multi.vim line 39
+VM_Cursor      xxx links to Visual
+	Last set from ~/.local/share/nvim/lazy/vim-visual-multi/plugin/visual-multi.vim line 40
+VM_Extend      xxx links to PmenuSel
+	Last set from ~/.local/share/nvim/lazy/vim-visual-multi/plugin/visual-multi.vim line 41
+VM_Insert      xxx links to DiffChange
+	Last set from ~/.local/share/nvim/lazy/vim-visual-multi/plugin/visual-multi.vim line 42
+MultiCursor    xxx links to VM_Cursor
+	Last set from ~/.local/share/nvim/lazy/vim-visual-multi/plugin/visual-multi.vim line 43
+NeotestPassed  xxx ctermfg=10 guifg=#96f291
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+NeotestFailed  xxx ctermfg=9 guifg=#f70067
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+NeotestRunning xxx ctermfg=11 guifg=#ffec63
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+NeotestSkipped xxx ctermfg=14 guifg=#00f1f5
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+NeotestTest    xxx links to Normal
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+NeotestNamespace xxx ctermfg=13 guifg=#d484ff
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+NeotestFocused xxx cterm=bold,underline gui=bold,underline
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+NeotestFile    xxx ctermfg=14 guifg=#00f1f5
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+NeotestDir     xxx ctermfg=14 guifg=#00f1f5
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+NeotestIndent  xxx ctermfg=248 guifg=#8b8b8b
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+NeotestExpandMarker xxx ctermfg=248 guifg=#8094b4
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+NeotestAdapterName xxx ctermfg=9 guifg=#f70067
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+NeotestWinSelect xxx ctermfg=14 gui=bold guifg=#00f1f5
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+NeotestMarked  xxx ctermfg=130 gui=bold guifg=#f79000
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+NeotestTarget  xxx ctermfg=9 guifg=#f70067
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+NeotestWatching xxx ctermfg=11 guifg=#ffec63
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+NeotestUnknown xxx links to Normal
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+Floaterm       xxx links to Normal
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+FloatermNC     xxx links to NormalNC
+	Last set from ~/.local/share/nvim/lazy/vim-floaterm/plugin/floaterm.vim line 52
+FloatermBorder xxx links to Normal
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)

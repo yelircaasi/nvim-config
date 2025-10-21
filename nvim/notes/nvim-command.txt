@@ -1,0 +1,154 @@
+
+    Name              Args Address Complete    Definition
+    ConformInfo       0                        <Lua 113: ~/.local/share/nvim/lazy/conform.nvim/plugin/conform.lua:1>
+                                               Show information about Conform formatters
+	Last set from ~/.local/share/nvim/lazy/conform.nvim/plugin/conform.lua (run Nvim with -V1 for more details)
+!   Copilot           *    .       <Lua function> <Lua 98: ~/.local/share/nvim/lazy/lazy.nvim/lua/lazy/core/handler/cmd.lua:16>
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+!   DiffviewClose     *    .       <Lua function> <Lua 94: ~/.local/share/nvim/lazy/lazy.nvim/lua/lazy/core/handler/cmd.lua:16>
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+!   DiffviewFocusFiles *   .       <Lua function> <Lua 90: ~/.local/share/nvim/lazy/lazy.nvim/lua/lazy/core/handler/cmd.lua:16>
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+!   DiffviewOpen      *    .       <Lua function> <Lua 92: ~/.local/share/nvim/lazy/lazy.nvim/lua/lazy/core/handler/cmd.lua:16>
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+!   DiffviewToggleFiles *  .       <Lua function> <Lua 88: ~/.local/share/nvim/lazy/lazy.nvim/lua/lazy/core/handler/cmd.lua:16>
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+    DoMatchParen      0                        call s:DoMatchParen()
+	Last set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/plugin/matchparen.vim line 213
+    EditQuery         ?                        <Lua 7: vim/_defaults.lua:24>
+                                               Edit treesitter query
+	Last set from Lua (run Nvim with -V1 for more details)
+    FloatermFirst     0                        call floaterm#first()
+	Last set from ~/.local/share/nvim/lazy/vim-floaterm/plugin/floaterm.vim line 48
+!   FloatermHide      ?    0c ?    customlist  call floaterm#hide(<bang>0, <count>, <q-args>)
+	Last set from ~/.local/share/nvim/lazy/vim-floaterm/plugin/floaterm.vim line 38
+!   FloatermKill      ?    0c ?    customlist  call floaterm#kill(<bang>0, <count>, <q-args>)
+	Last set from ~/.local/share/nvim/lazy/vim-floaterm/plugin/floaterm.vim line 40
+    FloatermLast      0                        call floaterm#last()
+	Last set from ~/.local/share/nvim/lazy/vim-floaterm/plugin/floaterm.vim line 49
+!   FloatermNew       *    .       customlist  call floaterm#run('new', <bang>0, [visualmode(), <range>, <line1>, <line2>], <q-args>)
+	Last set from ~/.local/share/nvim/lazy/vim-floaterm/plugin/floaterm.vim line 32
+    FloatermNext      0                        call floaterm#next()
+	Last set from ~/.local/share/nvim/lazy/vim-floaterm/plugin/floaterm.vim line 47
+    FloatermPrev      0                        call floaterm#prev()
+	Last set from ~/.local/share/nvim/lazy/vim-floaterm/plugin/floaterm.vim line 46
+!   FloatermSend      ?    .       customlist  call floaterm#send(<bang>0, visualmode(), <range>, <line1>, <line2>, <q-args>)
+	Last set from ~/.local/share/nvim/lazy/vim-floaterm/plugin/floaterm.vim line 44
+!   FloatermShow      ?    0c ?    customlist  call floaterm#show(<bang>0, <count>, <q-args>)
+	Last set from ~/.local/share/nvim/lazy/vim-floaterm/plugin/floaterm.vim line 36
+!   FloatermToggle    ?    0c ?    customlist  call floaterm#toggle(<bang>0, <count>, <q-args>)
+	Last set from ~/.local/share/nvim/lazy/vim-floaterm/plugin/floaterm.vim line 42
+    FloatermUpdate    *            customlist  call floaterm#run('update', 0, [], <q-args>)
+	Last set from ~/.local/share/nvim/lazy/vim-floaterm/plugin/floaterm.vim line 34
+!   Inspect           0                        <Lua 5: vim/_defaults.lua:3>
+                                               Inspect highlights and extmarks at the cursor
+	Last set from Lua (run Nvim with -V1 for more details)
+    InspectTree       ?    0c ?                <Lua 6: vim/_defaults.lua:11>
+                                               Inspect treesitter language tree for buffer
+	Last set from Lua (run Nvim with -V1 for more details)
+!|  Lazy              ?            <Lua function> <Lua 73: ~/.local/share/nvim/lazy/lazy.nvim/lua/lazy/view/commands.lua:113>
+                                               Lazy
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+!|  Man               *    .  ?    <Lua function> <Lua 174: ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/plugin/man.lua:6>
+	Last set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/plugin/man.lua (run Nvim with -V1 for more details)
+    MatchDebug        0                        call matchit#Match_debug()
+	Last set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 113
+    MatchDisable      0                        :call MatchDisable()
+	Last set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 116
+    MatchEnable       0                        :call MatchEnable()
+	Last set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 119
+!   Neotest           *    .       <Lua function> <Lua 163: ~/.local/share/nvim/lazy/neotest/plugin/neotest.lua:164>
+	Last set from ~/.local/share/nvim/lazy/neotest/plugin/neotest.lua (run Nvim with -V1 for more details)
+    NoMatchParen      0                        call s:NoMatchParen()
+	Last set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/plugin/matchparen.vim line 214
+    Open              1            file        <Lua 8: vim/_defaults.lua:28>
+                                               Open file with system default handler. See :help vim.ui.open()
+	Last set from Lua (run Nvim with -V1 for more details)
+!   PickMe            *    .       <Lua function> <Lua 96: ~/.local/share/nvim/lazy/lazy.nvim/lua/lazy/core/handler/cmd.lua:16>
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+    PlenaryBustedDirectory +       file        lua require('plenary.test_harness').test_directory_command([[<args>]])
+	Last set from ~/.local/share/nvim/lazy/plenary.nvim/plugin/plenary.vim line 6
+    PlenaryBustedFile 1            file        lua require('plenary.test_harness').test_file([[<args>]])
+	Last set from ~/.local/share/nvim/lazy/plenary.nvim/plugin/plenary.vim line 3
+|   TOhtml            ?    %                   <Lua 178: ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/plugin/tohtml.lua:6>
+	Last set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/plugin/tohtml.lua (run Nvim with -V1 for more details)
+|   TSBufDisable      1            custom      lua require'nvim-treesitter.configs'.commands.TSBufDisable['run<bang>'](<f-args>)
+	Last set from ~/.local/share/nvim/lazy/nvim-treesitter/plugin/nvim-treesitter.lua (run Nvim with -V1 for more details)
+|   TSBufEnable       1            custom      lua require'nvim-treesitter.configs'.commands.TSBufEnable['run<bang>'](<f-args>)
+	Last set from ~/.local/share/nvim/lazy/nvim-treesitter/plugin/nvim-treesitter.lua (run Nvim with -V1 for more details)
+|   TSBufToggle       1            custom      lua require'nvim-treesitter.configs'.commands.TSBufToggle['run<bang>'](<f-args>)
+	Last set from ~/.local/share/nvim/lazy/nvim-treesitter/plugin/nvim-treesitter.lua (run Nvim with -V1 for more details)
+|   TSConfigInfo      0                        lua require'nvim-treesitter.configs'.commands.TSConfigInfo['run<bang>'](<f-args>)
+	Last set from ~/.local/share/nvim/lazy/nvim-treesitter/plugin/nvim-treesitter.lua (run Nvim with -V1 for more details)
+|   TSDisable         +            custom      lua require'nvim-treesitter.configs'.commands.TSDisable['run<bang>'](<f-args>)
+	Last set from ~/.local/share/nvim/lazy/nvim-treesitter/plugin/nvim-treesitter.lua (run Nvim with -V1 for more details)
+|   TSEditQuery       +            custom      lua require'nvim-treesitter.configs'.commands.TSEditQuery['run<bang>'](<f-args>)
+	Last set from ~/.local/share/nvim/lazy/nvim-treesitter/plugin/nvim-treesitter.lua (run Nvim with -V1 for more details)
+|   TSEditQueryUserAfter +         custom      lua require'nvim-treesitter.configs'.commands.TSEditQueryUserAfter['run<bang>'](<f-args>)
+	Last set from ~/.local/share/nvim/lazy/nvim-treesitter/plugin/nvim-treesitter.lua (run Nvim with -V1 for more details)
+|   TSEnable          +            custom      lua require'nvim-treesitter.configs'.commands.TSEnable['run<bang>'](<f-args>)
+	Last set from ~/.local/share/nvim/lazy/nvim-treesitter/plugin/nvim-treesitter.lua (run Nvim with -V1 for more details)
+!|  TSInstall         +            custom      lua require'nvim-treesitter.install'.commands.TSInstall['run<bang>'](<f-args>)
+	Last set from ~/.local/share/nvim/lazy/nvim-treesitter/plugin/nvim-treesitter.lua (run Nvim with -V1 for more details)
+!|  TSInstallFromGrammar +         custom      lua require'nvim-treesitter.install'.commands.TSInstallFromGrammar['run<bang>'](<f-args>)
+	Last set from ~/.local/share/nvim/lazy/nvim-treesitter/plugin/nvim-treesitter.lua (run Nvim with -V1 for more details)
+|   TSInstallInfo     0                        lua require'nvim-treesitter.info'.commands.TSInstallInfo['run<bang>'](<f-args>)
+	Last set from ~/.local/share/nvim/lazy/nvim-treesitter/plugin/nvim-treesitter.lua (run Nvim with -V1 for more details)
+!|  TSInstallSync     +            custom      lua require'nvim-treesitter.install'.commands.TSInstallSync['run<bang>'](<f-args>)
+	Last set from ~/.local/share/nvim/lazy/nvim-treesitter/plugin/nvim-treesitter.lua (run Nvim with -V1 for more details)
+|   TSModuleInfo      ?            custom      lua require'nvim-treesitter.info'.commands.TSModuleInfo['run<bang>'](<f-args>)
+	Last set from ~/.local/share/nvim/lazy/nvim-treesitter/plugin/nvim-treesitter.lua (run Nvim with -V1 for more details)
+|   TSToggle          +            custom      lua require'nvim-treesitter.configs'.commands.TSToggle['run<bang>'](<f-args>)
+	Last set from ~/.local/share/nvim/lazy/nvim-treesitter/plugin/nvim-treesitter.lua (run Nvim with -V1 for more details)
+|   TSUninstall       +            custom      lua require'nvim-treesitter.install'.commands.TSUninstall['run<bang>'](<f-args>)
+	Last set from ~/.local/share/nvim/lazy/nvim-treesitter/plugin/nvim-treesitter.lua (run Nvim with -V1 for more details)
+|   TSUpdate          *            custom      lua require'nvim-treesitter.install'.commands.TSUpdate['run<bang>'](<f-args>)
+	Last set from ~/.local/share/nvim/lazy/nvim-treesitter/plugin/nvim-treesitter.lua (run Nvim with -V1 for more details)
+|   TSUpdateSync      *            custom      lua require'nvim-treesitter.install'.commands.TSUpdateSync['run<bang>'](<f-args>)
+	Last set from ~/.local/share/nvim/lazy/nvim-treesitter/plugin/nvim-treesitter.lua (run Nvim with -V1 for more details)
+!   Telescope         *    .       <Lua function> <Lua 81: ~/.local/share/nvim/lazy/lazy.nvim/lua/lazy/core/handler/cmd.lua:16>
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+    TermExec          *    0c ?    <Lua function> <Lua 140: ~/.local/share/nvim/lazy/toggleterm.nvim/lua/toggleterm.lua:419>
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+!   TermSelect        0                        <Lua 138: ~/.local/share/nvim/lazy/toggleterm.nvim/lua/toggleterm.lua:396>
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+    ToggleTerm        *    0c ?    <Lua function> <Lua 142: ~/.local/share/nvim/lazy/toggleterm.nvim/lua/toggleterm.lua:425>
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+    ToggleTermSendCurrentLine ?                <Lua 146: ~/.local/share/nvim/lazy/toggleterm.nvim/lua/toggleterm.lua:445>
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+    ToggleTermSendVisualLines ? .              <Lua 144: ~/.local/share/nvim/lazy/toggleterm.nvim/lua/toggleterm.lua:433>
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+    ToggleTermSendVisualSelection ? .          <Lua 145: ~/.local/share/nvim/lazy/toggleterm.nvim/lua/toggleterm.lua:439>
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+    ToggleTermSetName ?    0c ?                <Lua 147: ~/.local/share/nvim/lazy/toggleterm.nvim/lua/toggleterm.lua:449>
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+!   ToggleTermToggleAll 0                      <Lua 143: ~/.local/share/nvim/lazy/toggleterm.nvim/lua/toggleterm.lua:429>
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+    Tutor             ?            custom      call tutor#TutorCmd(<q-args>)
+	Last set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/plugin/tutor.vim line 12
+|   UpdateRemotePlugins 0                      call remote#host#UpdateRemotePlugins()
+	Last set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/plugin/rplugin.vim line 65
+|   VMClear           0                        call vm#hard_reset()
+	Last set from ~/.local/share/nvim/lazy/vim-visual-multi/plugin/visual-multi.vim line 29
+|   VMDebug           0                        call vm#special#commands#debug()
+	Last set from ~/.local/share/nvim/lazy/vim-visual-multi/plugin/visual-multi.vim line 28
+!   VMFromSearch      0                        call vm#special#commands#deprecated('VMFromSearch')
+	Last set from ~/.local/share/nvim/lazy/vim-visual-multi/plugin/visual-multi.vim line 36
+|   VMLive            0                        call vm#special#commands#live()
+	Last set from ~/.local/share/nvim/lazy/vim-visual-multi/plugin/visual-multi.vim line 30
+!   VMRegisters       ?                        call vm#special#commands#show_registers(<bang>0, <q-args>)
+	Last set from ~/.local/share/nvim/lazy/vim-visual-multi/plugin/visual-multi.vim line 32
+!   VMSearch          ?    .                   call vm#special#commands#search(<bang>0, <line1>, <line2>, <q-args>)
+	Last set from ~/.local/share/nvim/lazy/vim-visual-multi/plugin/visual-multi.vim line 33
+    VMTheme           ?            customlist  call vm#themes#load(<q-args>)
+	Last set from ~/.local/share/nvim/lazy/vim-visual-multi/plugin/visual-multi.vim line 26
+    WeztermSpawn      *            shellcmd    lua require('wezterm').spawn(<f-args>)
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+    WhichKey          *                        <Lua 199: ~/.local/share/nvim/lazy/which-key.nvim/lua/which-key/config.lua:306>
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+!   Yazi              *    .       <Lua function> <Lua 104: ~/.local/share/nvim/lazy/lazy.nvim/lua/lazy/core/handler/cmd.lua:16>
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+!   Yazi cwd          *    .       <Lua function> <Lua 106: ~/.local/share/nvim/lazy/lazy.nvim/lua/lazy/core/handler/cmd.lua:16>
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+!   Yazi toggle       *    .       <Lua function> <Lua 108: ~/.local/share/nvim/lazy/lazy.nvim/lua/lazy/core/handler/cmd.lua:16>
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)

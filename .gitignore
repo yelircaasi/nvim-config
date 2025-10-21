@@ -1,4 +1,5 @@
 .cache
+OLD/
 
 # Compiled Lua sources
 luac.out
