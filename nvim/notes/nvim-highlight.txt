@@ -154,7 +154,7 @@ Normal         xxx guifg=#808080 guibg=#000800
 	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
 Character      xxx links to Constant
 	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
-Constant       xxx guifg=NvimLightGrey2
+Constant       xxx guifg=#aaaaaa
 	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
 Number         xxx links to Constant
 	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
@@ -164,7 +164,7 @@ Float          xxx links to Number
 	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
 Conditional    xxx links to Statement
 	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
-Statement      xxx guifg=#3f0d08
+Statement      xxx guifg=#913d55
 	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
 Repeat         xxx links to Statement
 	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
@@ -274,7 +274,7 @@ DiagnosticSignOk xxx links to DiagnosticOk
 	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
 DiagnosticUnnecessary xxx links to Comment
 	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
-Comment        xxx guifg=#333933
+Comment        xxx guifg=#625c3f
 	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
 @variable      xxx guifg=#13446c
 	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
@@ -294,7 +294,7 @@ Comment        xxx guifg=#333933
 	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
 @string        xxx links to String
 	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
-String         xxx guifg=#808080
+String         xxx guifg=#3e4966
 	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
 @string.regexp xxx links to @string.special
 	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
@@ -637,6 +637,12 @@ VM_Insert      xxx links to DiffChange
 	Last set from ~/.local/share/nvim/lazy/vim-visual-multi/plugin/visual-multi.vim line 42
 MultiCursor    xxx links to VM_Cursor
 	Last set from ~/.local/share/nvim/lazy/vim-visual-multi/plugin/visual-multi.vim line 43
+Floaterm       xxx links to Normal
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+FloatermNC     xxx links to NormalNC
+	Last set from ~/.local/share/nvim/lazy/vim-floaterm/plugin/floaterm.vim line 52
+FloatermBorder xxx links to Normal
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
 NeotestPassed  xxx ctermfg=10 guifg=#96f291
 	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
 NeotestFailed  xxx ctermfg=9 guifg=#f70067
@@ -670,10 +676,4 @@ NeotestTarget  xxx ctermfg=9 guifg=#f70067
 NeotestWatching xxx ctermfg=11 guifg=#ffec63
 	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
 NeotestUnknown xxx links to Normal
-	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
-Floaterm       xxx links to Normal
-	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
-FloatermNC     xxx links to NormalNC
-	Last set from ~/.local/share/nvim/lazy/vim-floaterm/plugin/floaterm.vim line 52
-FloatermBorder xxx links to Normal
 	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)

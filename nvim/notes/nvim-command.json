@@ -5,8 +5,8 @@
         "args": "0",
         "address": null,
         "complete": null,
-        "definition": "<Lua 113: ~/.local/share/nvim/lazy/conform.nvim/plugin/conform.lua:1>\t\t\t                                   Show information about Conform formatters\t\tLast set from ~/.local/share/nvim/lazy/conform.nvim/plugin/conform.lua (run Nvim with -V1 for more details)",
-        "description": null
+        "definition": "<Lua 146: ~/.local/share/nvim/lazy/conform.nvim/plugin/conform.lua:1>",
+        "description": "Show information about Conform formatters"
     },
     "Copilot": {
         "annotation": "!",
@@ -14,8 +14,8 @@
         "args": "*",
         "address": ".",
         "complete": "<Lua function>",
-        "definition": "<Lua 98: ~/.local/share/nvim/lazy/lazy.nvim/lua/lazy/core/handler/cmd.lua:16>\t\tLast set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)",
-        "description": null
+        "definition": "<Lua 106: ~/.local/share/nvim/lazy/lazy.nvim/lua/lazy/core/handler/cmd.lua:16>",
+        "description": "Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)"
     },
     "DiffviewClose": {
         "annotation": "!",
@@ -23,8 +23,8 @@
         "args": "*",
         "address": ".",
         "complete": "<Lua function>",
-        "definition": "<Lua 94: ~/.local/share/nvim/lazy/lazy.nvim/lua/lazy/core/handler/cmd.lua:16>\t\tLast set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)",
-        "description": null
+        "definition": "<Lua 88: ~/.local/share/nvim/lazy/lazy.nvim/lua/lazy/core/handler/cmd.lua:16>",
+        "description": "Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)"
     },
     "DiffviewFocusFiles": {
         "annotation": "!",
@@ -32,8 +32,8 @@
         "args": "*",
         "address": ".",
         "complete": "<Lua function>",
-        "definition": "<Lua 90: ~/.local/share/nvim/lazy/lazy.nvim/lua/lazy/core/handler/cmd.lua:16>\t\tLast set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)",
-        "description": null
+        "definition": "<Lua 84: ~/.local/share/nvim/lazy/lazy.nvim/lua/lazy/core/handler/cmd.lua:16>",
+        "description": "Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)"
     },
     "DiffviewOpen": {
         "annotation": "!",
@@ -41,8 +41,8 @@
         "args": "*",
         "address": ".",
         "complete": "<Lua function>",
-        "definition": "<Lua 92: ~/.local/share/nvim/lazy/lazy.nvim/lua/lazy/core/handler/cmd.lua:16>\t\tLast set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)",
-        "description": null
+        "definition": "<Lua 86: ~/.local/share/nvim/lazy/lazy.nvim/lua/lazy/core/handler/cmd.lua:16>",
+        "description": "Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)"
     },
     "DiffviewToggleFiles": {
         "annotation": "!",
@@ -50,8 +50,8 @@
         "args": "*",
         "address": ".",
         "complete": "<Lua function>",
-        "definition": "<Lua 88: ~/.local/share/nvim/lazy/lazy.nvim/lua/lazy/core/handler/cmd.lua:16>\t\tLast set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)",
-        "description": null
+        "definition": "<Lua 82: ~/.local/share/nvim/lazy/lazy.nvim/lua/lazy/core/handler/cmd.lua:16>",
+        "description": "Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)"
     },
     "DoMatchParen": {
         "annotation": "_",
@@ -59,8 +59,8 @@
         "args": "0",
         "address": null,
         "complete": null,
-        "definition": "call s:DoMatchParen()\t\tLast set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/plugin/matchparen.vim line 213",
-        "description": null
+        "definition": "call s:DoMatchParen()",
+        "description": "Last set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/plugin/matchparen.vim line 213"
     },
     "EditQuery": {
         "annotation": "_",
@@ -68,8 +68,8 @@
         "args": "?",
         "address": null,
         "complete": null,
-        "definition": "<Lua 7: vim/_defaults.lua:24>\t\t\t                                   Edit treesitter query\t\tLast set from Lua (run Nvim with -V1 for more details)",
-        "description": null
+        "definition": "<Lua 7: vim/_defaults.lua:24>",
+        "description": "Edit treesitter query"
     },
     "FloatermFirst": {
         "annotation": "_",
@@ -77,8 +77,8 @@
         "args": "0",
         "address": null,
         "complete": null,
-        "definition": "call floaterm#first()\t\tLast set from ~/.local/share/nvim/lazy/vim-floaterm/plugin/floaterm.vim line 48",
-        "description": null
+        "definition": "call floaterm#first()",
+        "description": "Last set from ~/.local/share/nvim/lazy/vim-floaterm/plugin/floaterm.vim line 48"
     },
     "FloatermHide": {
         "annotation": "!",
@@ -86,8 +86,8 @@
         "args": "?",
         "address": "0c ?",
         "complete": "customlist",
-        "definition": "call floaterm#hide(<bang>0, <count>, <q-args>)\t\tLast set from ~/.local/share/nvim/lazy/vim-floaterm/plugin/floaterm.vim line 38",
-        "description": null
+        "definition": "call floaterm#hide(<bang>0, <count>, <q-args>)",
+        "description": "Last set from ~/.local/share/nvim/lazy/vim-floaterm/plugin/floaterm.vim line 38"
     },
     "FloatermKill": {
         "annotation": "!",
@@ -95,8 +95,8 @@
         "args": "?",
         "address": "0c ?",
         "complete": "customlist",
-        "definition": "call floaterm#kill(<bang>0, <count>, <q-args>)\t\tLast set from ~/.local/share/nvim/lazy/vim-floaterm/plugin/floaterm.vim line 40",
-        "description": null
+        "definition": "call floaterm#kill(<bang>0, <count>, <q-args>)",
+        "description": "Last set from ~/.local/share/nvim/lazy/vim-floaterm/plugin/floaterm.vim line 40"
     },
     "FloatermLast": {
         "annotation": "_",
@@ -104,8 +104,8 @@
         "args": "0",
         "address": null,
         "complete": null,
-        "definition": "call floaterm#last()\t\tLast set from ~/.local/share/nvim/lazy/vim-floaterm/plugin/floaterm.vim line 49",
-        "description": null
+        "definition": "call floaterm#last()",
+        "description": "Last set from ~/.local/share/nvim/lazy/vim-floaterm/plugin/floaterm.vim line 49"
     },
     "FloatermNew": {
         "annotation": "!",
@@ -113,8 +113,8 @@
         "args": "*",
         "address": ".",
         "complete": "customlist",
-        "definition": "call floaterm#run('new', <bang>0, [visualmode(), <range>, <line1>, <line2>], <q-args>)\t\tLast set from ~/.local/share/nvim/lazy/vim-floaterm/plugin/floaterm.vim line 32",
-        "description": null
+        "definition": "call floaterm#run('new', <bang>0, [visualmode(), <range>, <line1>, <line2>], <q-args>)",
+        "description": "Last set from ~/.local/share/nvim/lazy/vim-floaterm/plugin/floaterm.vim line 32"
     },
     "FloatermNext": {
         "annotation": "_",
@@ -122,8 +122,8 @@
         "args": "0",
         "address": null,
         "complete": null,
-        "definition": "call floaterm#next()\t\tLast set from ~/.local/share/nvim/lazy/vim-floaterm/plugin/floaterm.vim line 47",
-        "description": null
+        "definition": "call floaterm#next()",
+        "description": "Last set from ~/.local/share/nvim/lazy/vim-floaterm/plugin/floaterm.vim line 47"
     },
     "FloatermPrev": {
         "annotation": "_",
@@ -131,8 +131,8 @@
         "args": "0",
         "address": null,
         "complete": null,
-        "definition": "call floaterm#prev()\t\tLast set from ~/.local/share/nvim/lazy/vim-floaterm/plugin/floaterm.vim line 46",
-        "description": null
+        "definition": "call floaterm#prev()",
+        "description": "Last set from ~/.local/share/nvim/lazy/vim-floaterm/plugin/floaterm.vim line 46"
     },
     "FloatermSend": {
         "annotation": "!",
@@ -140,8 +140,8 @@
         "args": "?",
         "address": ".",
         "complete": "customlist",
-        "definition": "call floaterm#send(<bang>0, visualmode(), <range>, <line1>, <line2>, <q-args>)\t\tLast set from ~/.local/share/nvim/lazy/vim-floaterm/plugin/floaterm.vim line 44",
-        "description": null
+        "definition": "call floaterm#send(<bang>0, visualmode(), <range>, <line1>, <line2>, <q-args>)",
+        "description": "Last set from ~/.local/share/nvim/lazy/vim-floaterm/plugin/floaterm.vim line 44"
     },
     "FloatermShow": {
         "annotation": "!",
@@ -149,8 +149,8 @@
         "args": "?",
         "address": "0c ?",
         "complete": "customlist",
-        "definition": "call floaterm#show(<bang>0, <count>, <q-args>)\t\tLast set from ~/.local/share/nvim/lazy/vim-floaterm/plugin/floaterm.vim line 36",
-        "description": null
+        "definition": "call floaterm#show(<bang>0, <count>, <q-args>)",
+        "description": "Last set from ~/.local/share/nvim/lazy/vim-floaterm/plugin/floaterm.vim line 36"
     },
     "FloatermToggle": {
         "annotation": "!",
@@ -158,8 +158,8 @@
         "args": "?",
         "address": "0c ?",
         "complete": "customlist",
-        "definition": "call floaterm#toggle(<bang>0, <count>, <q-args>)\t\tLast set from ~/.local/share/nvim/lazy/vim-floaterm/plugin/floaterm.vim line 42",
-        "description": null
+        "definition": "call floaterm#toggle(<bang>0, <count>, <q-args>)",
+        "description": "Last set from ~/.local/share/nvim/lazy/vim-floaterm/plugin/floaterm.vim line 42"
     },
     "FloatermUpdate": {
         "annotation": "_",
@@ -167,8 +167,8 @@
         "args": "*",
         "address": null,
         "complete": "customlist",
-        "definition": "call floaterm#run('update', 0, [], <q-args>)\t\tLast set from ~/.local/share/nvim/lazy/vim-floaterm/plugin/floaterm.vim line 34",
-        "description": null
+        "definition": "call floaterm#run('update', 0, [], <q-args>)",
+        "description": "Last set from ~/.local/share/nvim/lazy/vim-floaterm/plugin/floaterm.vim line 34"
     },
     "Inspect": {
         "annotation": "!",
@@ -176,8 +176,8 @@
         "args": "0",
         "address": null,
         "complete": null,
-        "definition": "<Lua 5: vim/_defaults.lua:3>\t\t\t                                   Inspect highlights and extmarks at the cursor\t\tLast set from Lua (run Nvim with -V1 for more details)",
-        "description": null
+        "definition": "<Lua 5: vim/_defaults.lua:3>",
+        "description": "Inspect highlights and extmarks at the cursor"
     },
     "InspectTree": {
         "annotation": "_",
@@ -185,8 +185,8 @@
         "args": "?",
         "address": "0c ?",
         "complete": null,
-        "definition": "<Lua 6: vim/_defaults.lua:11>\t\t\t                                   Inspect treesitter language tree for buffer\t\tLast set from Lua (run Nvim with -V1 for more details)",
-        "description": null
+        "definition": "<Lua 6: vim/_defaults.lua:11>",
+        "description": "Inspect treesitter language tree for buffer"
     },
     "Lazy": {
         "annotation": "!|",
@@ -194,8 +194,8 @@
         "args": "?",
         "address": null,
         "complete": "<Lua function>",
-        "definition": "<Lua 73: ~/.local/share/nvim/lazy/lazy.nvim/lua/lazy/view/commands.lua:113>\t\t\t                                   Lazy\t\tLast set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)",
-        "description": null
+        "definition": "<Lua 73: ~/.local/share/nvim/lazy/lazy.nvim/lua/lazy/view/commands.lua:113>",
+        "description": "Lazy"
     },
     "Man": {
         "annotation": "!|",
@@ -203,8 +203,8 @@
         "args": "*",
         "address": ".  ?",
         "complete": "<Lua function>",
-        "definition": "<Lua 174: ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/plugin/man.lua:6>\t\tLast set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/plugin/man.lua (run Nvim with -V1 for more details)",
-        "description": null
+        "definition": "<Lua 180: ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/plugin/man.lua:6>",
+        "description": "Last set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/plugin/man.lua (run Nvim with -V1 for more details)"
     },
     "MatchDebug": {
         "annotation": "_",
@@ -212,8 +212,8 @@
         "args": "0",
         "address": null,
         "complete": null,
-        "definition": "call matchit#Match_debug()\t\tLast set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 113",
-        "description": null
+        "definition": "call matchit#Match_debug()",
+        "description": "Last set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 113"
     },
     "MatchDisable": {
         "annotation": "_",
@@ -221,8 +221,8 @@
         "args": "0",
         "address": null,
         "complete": null,
-        "definition": ":call MatchDisable()\t\tLast set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 116",
-        "description": null
+        "definition": ":call MatchDisable()",
+        "description": "Last set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 116"
     },
     "MatchEnable": {
         "annotation": "_",
@@ -230,8 +230,8 @@
         "args": "0",
         "address": null,
         "complete": null,
-        "definition": ":call MatchEnable()\t\tLast set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 119",
-        "description": null
+        "definition": ":call MatchEnable()",
+        "description": "Last set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 119"
     },
     "Neotest": {
         "annotation": "!",
@@ -239,8 +239,8 @@
         "args": "*",
         "address": ".",
         "complete": "<Lua function>",
-        "definition": "<Lua 163: ~/.local/share/nvim/lazy/neotest/plugin/neotest.lua:164>\t\tLast set from ~/.local/share/nvim/lazy/neotest/plugin/neotest.lua (run Nvim with -V1 for more details)",
-        "description": null
+        "definition": "<Lua 155: ~/.local/share/nvim/lazy/neotest/plugin/neotest.lua:164>",
+        "description": "Last set from ~/.local/share/nvim/lazy/neotest/plugin/neotest.lua (run Nvim with -V1 for more details)"
     },
     "NoMatchParen": {
         "annotation": "_",
@@ -248,8 +248,8 @@
         "args": "0",
         "address": null,
         "complete": null,
-        "definition": "call s:NoMatchParen()\t\tLast set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/plugin/matchparen.vim line 214",
-        "description": null
+        "definition": "call s:NoMatchParen()",
+        "description": "Last set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/plugin/matchparen.vim line 214"
     },
     "Open": {
         "annotation": "_",
@@ -257,8 +257,8 @@
         "args": "1",
         "address": null,
         "complete": "file",
-        "definition": "<Lua 8: vim/_defaults.lua:28>\t\t\t                                   Open file with system default handler. See :help vim.ui.open()\t\tLast set from Lua (run Nvim with -V1 for more details)",
-        "description": null
+        "definition": "<Lua 8: vim/_defaults.lua:28>",
+        "description": "Open file with system default handler. See :help vim.ui.open()"
     },
     "PickMe": {
         "annotation": "!",
@@ -266,8 +266,8 @@
         "args": "*",
         "address": ".",
         "complete": "<Lua function>",
-        "definition": "<Lua 96: ~/.local/share/nvim/lazy/lazy.nvim/lua/lazy/core/handler/cmd.lua:16>\t\tLast set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)",
-        "description": null
+        "definition": "<Lua 92: ~/.local/share/nvim/lazy/lazy.nvim/lua/lazy/core/handler/cmd.lua:16>",
+        "description": "Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)"
     },
     "PlenaryBustedDirectory": {
         "annotation": "_",
@@ -275,8 +275,8 @@
         "args": "+",
         "address": null,
         "complete": "file",
-        "definition": "lua require('plenary.test_harness').test_directory_command([[<args>]])\t\tLast set from ~/.local/share/nvim/lazy/plenary.nvim/plugin/plenary.vim line 6",
-        "description": null
+        "definition": "lua require('plenary.test_harness').test_directory_command([[<args>]])",
+        "description": "Last set from ~/.local/share/nvim/lazy/plenary.nvim/plugin/plenary.vim line 6"
     },
     "PlenaryBustedFile": {
         "annotation": "_",
@@ -284,8 +284,8 @@
         "args": "1",
         "address": null,
         "complete": "file",
-        "definition": "lua require('plenary.test_harness').test_file([[<args>]])\t\tLast set from ~/.local/share/nvim/lazy/plenary.nvim/plugin/plenary.vim line 3",
-        "description": null
+        "definition": "lua require('plenary.test_harness').test_file([[<args>]])",
+        "description": "Last set from ~/.local/share/nvim/lazy/plenary.nvim/plugin/plenary.vim line 3"
     },
     "TOhtml": {
         "annotation": "|",
@@ -293,8 +293,8 @@
         "args": "?",
         "address": "%",
         "complete": null,
-        "definition": "<Lua 178: ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/plugin/tohtml.lua:6>\t\tLast set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/plugin/tohtml.lua (run Nvim with -V1 for more details)",
-        "description": null
+        "definition": "<Lua 184: ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/plugin/tohtml.lua:6>",
+        "description": "Last set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/plugin/tohtml.lua (run Nvim with -V1 for more details)"
     },
     "TSBufDisable": {
         "annotation": "|",
@@ -302,8 +302,8 @@
         "args": "1",
         "address": null,
         "complete": "custom",
-        "definition": "lua require'nvim-treesitter.configs'.commands.TSBufDisable['run<bang>'](<f-args>)\t\tLast set from ~/.local/share/nvim/lazy/nvim-treesitter/plugin/nvim-treesitter.lua (run Nvim with -V1 for more details)",
-        "description": null
+        "definition": "lua require'nvim-treesitter.configs'.commands.TSBufDisable['run<bang>'](<f-args>)",
+        "description": "Last set from ~/.local/share/nvim/lazy/nvim-treesitter/plugin/nvim-treesitter.lua (run Nvim with -V1 for more details)"
     },
     "TSBufEnable": {
         "annotation": "|",
@@ -311,8 +311,8 @@
         "args": "1",
         "address": null,
         "complete": "custom",
-        "definition": "lua require'nvim-treesitter.configs'.commands.TSBufEnable['run<bang>'](<f-args>)\t\tLast set from ~/.local/share/nvim/lazy/nvim-treesitter/plugin/nvim-treesitter.lua (run Nvim with -V1 for more details)",
-        "description": null
+        "definition": "lua require'nvim-treesitter.configs'.commands.TSBufEnable['run<bang>'](<f-args>)",
+        "description": "Last set from ~/.local/share/nvim/lazy/nvim-treesitter/plugin/nvim-treesitter.lua (run Nvim with -V1 for more details)"
     },
     "TSBufToggle": {
         "annotation": "|",
@@ -320,8 +320,8 @@
         "args": "1",
         "address": null,
         "complete": "custom",
-        "definition": "lua require'nvim-treesitter.configs'.commands.TSBufToggle['run<bang>'](<f-args>)\t\tLast set from ~/.local/share/nvim/lazy/nvim-treesitter/plugin/nvim-treesitter.lua (run Nvim with -V1 for more details)",
-        "description": null
+        "definition": "lua require'nvim-treesitter.configs'.commands.TSBufToggle['run<bang>'](<f-args>)",
+        "description": "Last set from ~/.local/share/nvim/lazy/nvim-treesitter/plugin/nvim-treesitter.lua (run Nvim with -V1 for more details)"
     },
     "TSConfigInfo": {
         "annotation": "|",
@@ -329,8 +329,8 @@
         "args": "0",
         "address": null,
         "complete": null,
-        "definition": "lua require'nvim-treesitter.configs'.commands.TSConfigInfo['run<bang>'](<f-args>)\t\tLast set from ~/.local/share/nvim/lazy/nvim-treesitter/plugin/nvim-treesitter.lua (run Nvim with -V1 for more details)",
-        "description": null
+        "definition": "lua require'nvim-treesitter.configs'.commands.TSConfigInfo['run<bang>'](<f-args>)",
+        "description": "Last set from ~/.local/share/nvim/lazy/nvim-treesitter/plugin/nvim-treesitter.lua (run Nvim with -V1 for more details)"
     },
     "TSDisable": {
         "annotation": "|",
@@ -338,8 +338,8 @@
         "args": "+",
         "address": null,
         "complete": "custom",
-        "definition": "lua require'nvim-treesitter.configs'.commands.TSDisable['run<bang>'](<f-args>)\t\tLast set from ~/.local/share/nvim/lazy/nvim-treesitter/plugin/nvim-treesitter.lua (run Nvim with -V1 for more details)",
-        "description": null
+        "definition": "lua require'nvim-treesitter.configs'.commands.TSDisable['run<bang>'](<f-args>)",
+        "description": "Last set from ~/.local/share/nvim/lazy/nvim-treesitter/plugin/nvim-treesitter.lua (run Nvim with -V1 for more details)"
     },
     "TSEditQuery": {
         "annotation": "|",
@@ -347,8 +347,8 @@
         "args": "+",
         "address": null,
         "complete": "custom",
-        "definition": "lua require'nvim-treesitter.configs'.commands.TSEditQuery['run<bang>'](<f-args>)\t\tLast set from ~/.local/share/nvim/lazy/nvim-treesitter/plugin/nvim-treesitter.lua (run Nvim with -V1 for more details)",
-        "description": null
+        "definition": "lua require'nvim-treesitter.configs'.commands.TSEditQuery['run<bang>'](<f-args>)",
+        "description": "Last set from ~/.local/share/nvim/lazy/nvim-treesitter/plugin/nvim-treesitter.lua (run Nvim with -V1 for more details)"
     },
     "TSEditQueryUserAfter": {
         "annotation": "|",
@@ -356,8 +356,8 @@
         "args": "+",
         "address": null,
         "complete": "custom",
-        "definition": "lua require'nvim-treesitter.configs'.commands.TSEditQueryUserAfter['run<bang>'](<f-args>)\t\tLast set from ~/.local/share/nvim/lazy/nvim-treesitter/plugin/nvim-treesitter.lua (run Nvim with -V1 for more details)",
-        "description": null
+        "definition": "lua require'nvim-treesitter.configs'.commands.TSEditQueryUserAfter['run<bang>'](<f-args>)",
+        "description": "Last set from ~/.local/share/nvim/lazy/nvim-treesitter/plugin/nvim-treesitter.lua (run Nvim with -V1 for more details)"
     },
     "TSEnable": {
         "annotation": "|",
@@ -365,8 +365,8 @@
         "args": "+",
         "address": null,
         "complete": "custom",
-        "definition": "lua require'nvim-treesitter.configs'.commands.TSEnable['run<bang>'](<f-args>)\t\tLast set from ~/.local/share/nvim/lazy/nvim-treesitter/plugin/nvim-treesitter.lua (run Nvim with -V1 for more details)",
-        "description": null
+        "definition": "lua require'nvim-treesitter.configs'.commands.TSEnable['run<bang>'](<f-args>)",
+        "description": "Last set from ~/.local/share/nvim/lazy/nvim-treesitter/plugin/nvim-treesitter.lua (run Nvim with -V1 for more details)"
     },
     "TSInstall": {
         "annotation": "!|",
@@ -374,8 +374,8 @@
         "args": "+",
         "address": null,
         "complete": "custom",
-        "definition": "lua require'nvim-treesitter.install'.commands.TSInstall['run<bang>'](<f-args>)\t\tLast set from ~/.local/share/nvim/lazy/nvim-treesitter/plugin/nvim-treesitter.lua (run Nvim with -V1 for more details)",
-        "description": null
+        "definition": "lua require'nvim-treesitter.install'.commands.TSInstall['run<bang>'](<f-args>)",
+        "description": "Last set from ~/.local/share/nvim/lazy/nvim-treesitter/plugin/nvim-treesitter.lua (run Nvim with -V1 for more details)"
     },
     "TSInstallFromGrammar": {
         "annotation": "!|",
@@ -383,8 +383,8 @@
         "args": "+",
         "address": null,
         "complete": "custom",
-        "definition": "lua require'nvim-treesitter.install'.commands.TSInstallFromGrammar['run<bang>'](<f-args>)\t\tLast set from ~/.local/share/nvim/lazy/nvim-treesitter/plugin/nvim-treesitter.lua (run Nvim with -V1 for more details)",
-        "description": null
+        "definition": "lua require'nvim-treesitter.install'.commands.TSInstallFromGrammar['run<bang>'](<f-args>)",
+        "description": "Last set from ~/.local/share/nvim/lazy/nvim-treesitter/plugin/nvim-treesitter.lua (run Nvim with -V1 for more details)"
     },
     "TSInstallInfo": {
         "annotation": "|",
@@ -392,8 +392,8 @@
         "args": "0",
         "address": null,
         "complete": null,
-        "definition": "lua require'nvim-treesitter.info'.commands.TSInstallInfo['run<bang>'](<f-args>)\t\tLast set from ~/.local/share/nvim/lazy/nvim-treesitter/plugin/nvim-treesitter.lua (run Nvim with -V1 for more details)",
-        "description": null
+        "definition": "lua require'nvim-treesitter.info'.commands.TSInstallInfo['run<bang>'](<f-args>)",
+        "description": "Last set from ~/.local/share/nvim/lazy/nvim-treesitter/plugin/nvim-treesitter.lua (run Nvim with -V1 for more details)"
     },
     "TSInstallSync": {
         "annotation": "!|",
@@ -401,8 +401,8 @@
         "args": "+",
         "address": null,
         "complete": "custom",
-        "definition": "lua require'nvim-treesitter.install'.commands.TSInstallSync['run<bang>'](<f-args>)\t\tLast set from ~/.local/share/nvim/lazy/nvim-treesitter/plugin/nvim-treesitter.lua (run Nvim with -V1 for more details)",
-        "description": null
+        "definition": "lua require'nvim-treesitter.install'.commands.TSInstallSync['run<bang>'](<f-args>)",
+        "description": "Last set from ~/.local/share/nvim/lazy/nvim-treesitter/plugin/nvim-treesitter.lua (run Nvim with -V1 for more details)"
     },
     "TSModuleInfo": {
         "annotation": "|",
@@ -410,8 +410,8 @@
         "args": "?",
         "address": null,
         "complete": "custom",
-        "definition": "lua require'nvim-treesitter.info'.commands.TSModuleInfo['run<bang>'](<f-args>)\t\tLast set from ~/.local/share/nvim/lazy/nvim-treesitter/plugin/nvim-treesitter.lua (run Nvim with -V1 for more details)",
-        "description": null
+        "definition": "lua require'nvim-treesitter.info'.commands.TSModuleInfo['run<bang>'](<f-args>)",
+        "description": "Last set from ~/.local/share/nvim/lazy/nvim-treesitter/plugin/nvim-treesitter.lua (run Nvim with -V1 for more details)"
     },
     "TSToggle": {
         "annotation": "|",
@@ -419,8 +419,8 @@
         "args": "+",
         "address": null,
         "complete": "custom",
-        "definition": "lua require'nvim-treesitter.configs'.commands.TSToggle['run<bang>'](<f-args>)\t\tLast set from ~/.local/share/nvim/lazy/nvim-treesitter/plugin/nvim-treesitter.lua (run Nvim with -V1 for more details)",
-        "description": null
+        "definition": "lua require'nvim-treesitter.configs'.commands.TSToggle['run<bang>'](<f-args>)",
+        "description": "Last set from ~/.local/share/nvim/lazy/nvim-treesitter/plugin/nvim-treesitter.lua (run Nvim with -V1 for more details)"
     },
     "TSUninstall": {
         "annotation": "|",
@@ -428,8 +428,8 @@
         "args": "+",
         "address": null,
         "complete": "custom",
-        "definition": "lua require'nvim-treesitter.install'.commands.TSUninstall['run<bang>'](<f-args>)\t\tLast set from ~/.local/share/nvim/lazy/nvim-treesitter/plugin/nvim-treesitter.lua (run Nvim with -V1 for more details)",
-        "description": null
+        "definition": "lua require'nvim-treesitter.install'.commands.TSUninstall['run<bang>'](<f-args>)",
+        "description": "Last set from ~/.local/share/nvim/lazy/nvim-treesitter/plugin/nvim-treesitter.lua (run Nvim with -V1 for more details)"
     },
     "TSUpdate": {
         "annotation": "|",
@@ -437,8 +437,8 @@
         "args": "*",
         "address": null,
         "complete": "custom",
-        "definition": "lua require'nvim-treesitter.install'.commands.TSUpdate['run<bang>'](<f-args>)\t\tLast set from ~/.local/share/nvim/lazy/nvim-treesitter/plugin/nvim-treesitter.lua (run Nvim with -V1 for more details)",
-        "description": null
+        "definition": "lua require'nvim-treesitter.install'.commands.TSUpdate['run<bang>'](<f-args>)",
+        "description": "Last set from ~/.local/share/nvim/lazy/nvim-treesitter/plugin/nvim-treesitter.lua (run Nvim with -V1 for more details)"
     },
     "TSUpdateSync": {
         "annotation": "|",
@@ -446,8 +446,8 @@
         "args": "*",
         "address": null,
         "complete": "custom",
-        "definition": "lua require'nvim-treesitter.install'.commands.TSUpdateSync['run<bang>'](<f-args>)\t\tLast set from ~/.local/share/nvim/lazy/nvim-treesitter/plugin/nvim-treesitter.lua (run Nvim with -V1 for more details)",
-        "description": null
+        "definition": "lua require'nvim-treesitter.install'.commands.TSUpdateSync['run<bang>'](<f-args>)",
+        "description": "Last set from ~/.local/share/nvim/lazy/nvim-treesitter/plugin/nvim-treesitter.lua (run Nvim with -V1 for more details)"
     },
     "Telescope": {
         "annotation": "!",
@@ -455,8 +455,8 @@
         "args": "*",
         "address": ".",
         "complete": "<Lua function>",
-        "definition": "<Lua 81: ~/.local/share/nvim/lazy/lazy.nvim/lua/lazy/core/handler/cmd.lua:16>\t\tLast set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)",
-        "description": null
+        "definition": "<Lua 104: ~/.local/share/nvim/lazy/lazy.nvim/lua/lazy/core/handler/cmd.lua:16>",
+        "description": "Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)"
     },
     "TermExec": {
         "annotation": "_",
@@ -464,8 +464,8 @@
         "args": "*",
         "address": "0c ?",
         "complete": "<Lua function>",
-        "definition": "<Lua 140: ~/.local/share/nvim/lazy/toggleterm.nvim/lua/toggleterm.lua:419>\t\tLast set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)",
-        "description": null
+        "definition": "<Lua 136: ~/.local/share/nvim/lazy/toggleterm.nvim/lua/toggleterm.lua:419>",
+        "description": "Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)"
     },
     "TermSelect": {
         "annotation": "!",
@@ -473,8 +473,8 @@
         "args": "0",
         "address": null,
         "complete": null,
-        "definition": "<Lua 138: ~/.local/share/nvim/lazy/toggleterm.nvim/lua/toggleterm.lua:396>\t\tLast set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)",
-        "description": null
+        "definition": "<Lua 134: ~/.local/share/nvim/lazy/toggleterm.nvim/lua/toggleterm.lua:396>",
+        "description": "Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)"
     },
     "ToggleTerm": {
         "annotation": "_",
@@ -482,8 +482,8 @@
         "args": "*",
         "address": "0c ?",
         "complete": "<Lua function>",
-        "definition": "<Lua 142: ~/.local/share/nvim/lazy/toggleterm.nvim/lua/toggleterm.lua:425>\t\tLast set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)",
-        "description": null
+        "definition": "<Lua 138: ~/.local/share/nvim/lazy/toggleterm.nvim/lua/toggleterm.lua:425>",
+        "description": "Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)"
     },
     "ToggleTermSendCurrentLine": {
         "annotation": "_",
@@ -491,8 +491,8 @@
         "args": "?",
         "address": null,
         "complete": null,
-        "definition": "<Lua 146: ~/.local/share/nvim/lazy/toggleterm.nvim/lua/toggleterm.lua:445>\t\tLast set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)",
-        "description": null
+        "definition": "<Lua 142: ~/.local/share/nvim/lazy/toggleterm.nvim/lua/toggleterm.lua:445>",
+        "description": "Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)"
     },
     "ToggleTermSendVisualLines": {
         "annotation": "_",
@@ -500,8 +500,8 @@
         "args": "?",
         "address": ".",
         "complete": null,
-        "definition": "<Lua 144: ~/.local/share/nvim/lazy/toggleterm.nvim/lua/toggleterm.lua:433>\t\tLast set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)",
-        "description": null
+        "definition": "<Lua 140: ~/.local/share/nvim/lazy/toggleterm.nvim/lua/toggleterm.lua:433>",
+        "description": "Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)"
     },
     "ToggleTermSendVisualSelection": {
         "annotation": "_",
@@ -509,8 +509,8 @@
         "args": "?",
         "address": ".",
         "complete": null,
-        "definition": "<Lua 145: ~/.local/share/nvim/lazy/toggleterm.nvim/lua/toggleterm.lua:439>\t\tLast set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)",
-        "description": null
+        "definition": "<Lua 141: ~/.local/share/nvim/lazy/toggleterm.nvim/lua/toggleterm.lua:439>",
+        "description": "Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)"
     },
     "ToggleTermSetName": {
         "annotation": "_",
@@ -518,8 +518,8 @@
         "args": "?",
         "address": "0c ?",
         "complete": null,
-        "definition": "<Lua 147: ~/.local/share/nvim/lazy/toggleterm.nvim/lua/toggleterm.lua:449>\t\tLast set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)",
-        "description": null
+        "definition": "<Lua 143: ~/.local/share/nvim/lazy/toggleterm.nvim/lua/toggleterm.lua:449>",
+        "description": "Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)"
     },
     "ToggleTermToggleAll": {
         "annotation": "!",
@@ -527,8 +527,8 @@
         "args": "0",
         "address": null,
         "complete": null,
-        "definition": "<Lua 143: ~/.local/share/nvim/lazy/toggleterm.nvim/lua/toggleterm.lua:429>\t\tLast set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)",
-        "description": null
+        "definition": "<Lua 139: ~/.local/share/nvim/lazy/toggleterm.nvim/lua/toggleterm.lua:429>",
+        "description": "Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)"
     },
     "Tutor": {
         "annotation": "_",
@@ -536,8 +536,8 @@
         "args": "?",
         "address": null,
         "complete": "custom",
-        "definition": "call tutor#TutorCmd(<q-args>)\t\tLast set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/plugin/tutor.vim line 12",
-        "description": null
+        "definition": "call tutor#TutorCmd(<q-args>)",
+        "description": "Last set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/plugin/tutor.vim line 12"
     },
     "UpdateRemotePlugins": {
         "annotation": "|",
@@ -545,8 +545,8 @@
         "args": "0",
         "address": null,
         "complete": null,
-        "definition": "call remote#host#UpdateRemotePlugins()\t\tLast set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/plugin/rplugin.vim line 65",
-        "description": null
+        "definition": "call remote#host#UpdateRemotePlugins()",
+        "description": "Last set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/plugin/rplugin.vim line 65"
     },
     "VMClear": {
         "annotation": "|",
@@ -554,8 +554,8 @@
         "args": "0",
         "address": null,
         "complete": null,
-        "definition": "call vm#hard_reset()\t\tLast set from ~/.local/share/nvim/lazy/vim-visual-multi/plugin/visual-multi.vim line 29",
-        "description": null
+        "definition": "call vm#hard_reset()",
+        "description": "Last set from ~/.local/share/nvim/lazy/vim-visual-multi/plugin/visual-multi.vim line 29"
     },
     "VMDebug": {
         "annotation": "|",
@@ -563,8 +563,8 @@
         "args": "0",
         "address": null,
         "complete": null,
-        "definition": "call vm#special#commands#debug()\t\tLast set from ~/.local/share/nvim/lazy/vim-visual-multi/plugin/visual-multi.vim line 28",
-        "description": null
+        "definition": "call vm#special#commands#debug()",
+        "description": "Last set from ~/.local/share/nvim/lazy/vim-visual-multi/plugin/visual-multi.vim line 28"
     },
     "VMFromSearch": {
         "annotation": "!",
@@ -572,8 +572,8 @@
         "args": "0",
         "address": null,
         "complete": null,
-        "definition": "call vm#special#commands#deprecated('VMFromSearch')\t\tLast set from ~/.local/share/nvim/lazy/vim-visual-multi/plugin/visual-multi.vim line 36",
-        "description": null
+        "definition": "call vm#special#commands#deprecated('VMFromSearch')",
+        "description": "Last set from ~/.local/share/nvim/lazy/vim-visual-multi/plugin/visual-multi.vim line 36"
     },
     "VMLive": {
         "annotation": "|",
@@ -581,8 +581,8 @@
         "args": "0",
         "address": null,
         "complete": null,
-        "definition": "call vm#special#commands#live()\t\tLast set from ~/.local/share/nvim/lazy/vim-visual-multi/plugin/visual-multi.vim line 30",
-        "description": null
+        "definition": "call vm#special#commands#live()",
+        "description": "Last set from ~/.local/share/nvim/lazy/vim-visual-multi/plugin/visual-multi.vim line 30"
     },
     "VMRegisters": {
         "annotation": "!",
@@ -590,8 +590,8 @@
         "args": "?",
         "address": null,
         "complete": null,
-        "definition": "call vm#special#commands#show_registers(<bang>0, <q-args>)\t\tLast set from ~/.local/share/nvim/lazy/vim-visual-multi/plugin/visual-multi.vim line 32",
-        "description": null
+        "definition": "call vm#special#commands#show_registers(<bang>0, <q-args>)",
+        "description": "Last set from ~/.local/share/nvim/lazy/vim-visual-multi/plugin/visual-multi.vim line 32"
     },
     "VMSearch": {
         "annotation": "!",
@@ -599,8 +599,8 @@
         "args": "?",
         "address": ".",
         "complete": null,
-        "definition": "call vm#special#commands#search(<bang>0, <line1>, <line2>, <q-args>)\t\tLast set from ~/.local/share/nvim/lazy/vim-visual-multi/plugin/visual-multi.vim line 33",
-        "description": null
+        "definition": "call vm#special#commands#search(<bang>0, <line1>, <line2>, <q-args>)",
+        "description": "Last set from ~/.local/share/nvim/lazy/vim-visual-multi/plugin/visual-multi.vim line 33"
     },
     "VMTheme": {
         "annotation": "_",
@@ -608,8 +608,8 @@
         "args": "?",
         "address": null,
         "complete": "customlist",
-        "definition": "call vm#themes#load(<q-args>)\t\tLast set from ~/.local/share/nvim/lazy/vim-visual-multi/plugin/visual-multi.vim line 26",
-        "description": null
+        "definition": "call vm#themes#load(<q-args>)",
+        "description": "Last set from ~/.local/share/nvim/lazy/vim-visual-multi/plugin/visual-multi.vim line 26"
     },
     "WeztermSpawn": {
         "annotation": "_",
@@ -617,8 +617,8 @@
         "args": "*",
         "address": null,
         "complete": "shellcmd",
-        "definition": "lua require('wezterm').spawn(<f-args>)\t\tLast set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)",
-        "description": null
+        "definition": "lua require('wezterm').spawn(<f-args>)",
+        "description": "Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)"
     },
     "WhichKey": {
         "annotation": "_",
@@ -626,8 +626,8 @@
         "args": "*",
         "address": null,
         "complete": null,
-        "definition": "<Lua 199: ~/.local/share/nvim/lazy/which-key.nvim/lua/which-key/config.lua:306>\t\tLast set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)",
-        "description": null
+        "definition": "<Lua 144: ~/.local/share/nvim/lazy/which-key.nvim/lua/which-key/config.lua:306>",
+        "description": "Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)"
     },
     "Yazi": {
         "annotation": "!",
@@ -635,8 +635,8 @@
         "args": "*",
         "address": ".",
         "complete": "<Lua function>",
-        "definition": "<Lua 104: ~/.local/share/nvim/lazy/lazy.nvim/lua/lazy/core/handler/cmd.lua:16>\t\tLast set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)",
-        "description": null
+        "definition": "<Lua 98: ~/.local/share/nvim/lazy/lazy.nvim/lua/lazy/core/handler/cmd.lua:16>",
+        "description": "Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)"
     },
     "Yazi cwd": {
         "annotation": "!",
@@ -644,8 +644,8 @@
         "args": "*",
         "address": ".",
         "complete": "<Lua function>",
-        "definition": "<Lua 106: ~/.local/share/nvim/lazy/lazy.nvim/lua/lazy/core/handler/cmd.lua:16>\t\tLast set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)",
-        "description": null
+        "definition": "<Lua 100: ~/.local/share/nvim/lazy/lazy.nvim/lua/lazy/core/handler/cmd.lua:16>",
+        "description": "Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)"
     },
     "Yazi toggle": {
         "annotation": "!",
@@ -653,7 +653,7 @@
         "args": "*",
         "address": ".",
         "complete": "<Lua function>",
-        "definition": "<Lua 108: ~/.local/share/nvim/lazy/lazy.nvim/lua/lazy/core/handler/cmd.lua:16>\t\tLast set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)",
-        "description": null
+        "definition": "<Lua 102: ~/.local/share/nvim/lazy/lazy.nvim/lua/lazy/core/handler/cmd.lua:16>",
+        "description": "Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)"
     }
 }

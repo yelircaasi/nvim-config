@@ -9,7 +9,7 @@
 vim.cmd("syntax reset")
 --vim.g.colors_name = 'melange'
 
--- local bg = vim.opt.background:get()
+-- local bg = vim.opt.background:get(n)
 
 -- package.loaded['melange/palettes/' .. bg] = nil -- Only needed for development
 --local palette = require('melange/palettes/' .. bg)
@@ -47,107 +47,114 @@ local underline = enable_font_variants
 local undercurl = enable_font_variants
 local strikethrough = enable_font_variants
 
+-- local aliases = {
+-- 	DARK_PINK = "#913d55",
+--
+--
+-- }
+
 for name, attrs in pairs({
-        ---- :help highlight-default -------------------------------
+	---- :help highlight-default -------------------------------
 
-        Normal = { bg = "#000800", fg = "#808080" },
-        NormalFloat = { bg = "#000800", fg = "#808080" },
-        NormalNC = "Normal",
+	Normal = { bg = "#000800", fg = "#808080" },
+	NormalFloat = { bg = "#000800", fg = "#808080" },
+	NormalNC = "Normal",
 
-        -- Cursor: TODO...
+	-- Cursor: TODO...
 
-        WinSeparator = { bg = "#000800", fg = "#111211" },
-        -- VertSplit = { bg = "<|color.nvim.VertSplit.bg |>", fg = "<|color.nvim.VertSplit.fg |>" },
-        -- Special = { fg = "<|%color.nvim.Special |>" },
-        -- CursorLine = { bg = "<|%color.nvim.CursorLine.bg |>" },
+	WinSeparator = { bg = "#000800", fg = "#111211" },
+	-- VertSplit = { bg = "<|color.nvim.VertSplit.bg |>", fg = "<|color.nvim.VertSplit.fg |>" },
+	-- Special = { fg = "<|%color.nvim.Special |>" },
+	-- CursorLine = { bg = "<|%color.nvim.CursorLine.bg |>" },
 
-        Identifier = { fg = "#426989" }, --$color.nvim.Identifier.fg$" },
-        ["@variable"] = { fg = "#13446c" },
-        Function = { fg = "#246b44" },
-        Statement = { fg = "#3f0d08" },
-        Directory = { fg = "#13446c" },
-        String = { fg = "#808080" },
-        Comment = { fg = "#333933" },
-        PreProc = { fg = "#123622" },
-        Operator = { fg = "#246b44" },
-        Delimiter = { fg = "#123622" },
-        NeotreeFileName = { fg = "#9a9a9a" },
+	Identifier = { fg = "#426989" }, --$color.nvim.Identifier.fg$" },
+	["@variable"] = { fg = "#13446c" },
+	Function = { fg = "#246b44" },
+	Statement = { fg = "#913d55" },
+	Constant = { fg = "#aaaaaa" },
+	Directory = { fg = "#13446c" },
+	String = { fg = "#3e4966" }, -- 808080 55668f 1c2e8b
+	Comment = { fg = "#625c3f" }, -- 333933
+	PreProc = { fg = "#123622" },
+	Operator = { fg = "#246b44" },
+	Delimiter = { fg = "#123622" },
+	NeotreeFileName = { fg = "#9a9a9a" },
 
-        -- inheriting background from default Nvim* colors
-        Search = { fg = "#8AA88A", bg = "#003600" },
-        CurSearch = { fg = "#809880", bg = "#002600" },
+	-- inheriting background from default Nvim* colors
+	Search = { fg = "#8AA88A", bg = "#003600" },
+	CurSearch = { fg = "#809880", bg = "#002600" },
 
-        StatusLine = { fg = "#455684", bg = "#111211" },
-        StatusLineNC = { fg = "#455684", bg = "#111211" },
-        Visual = { fg = "#061815", bg = "#0d8f77" },
-        Folded = { fg = "#808080", bg = "#001300" },
-        DiffAdd = { fg = "#668366", bg = "#002200" },
-        DiffChange = { fg = "#7f86f3", bg = "#050a58" },
-        DiffDelete = { fg = "#d5776f" },
-        DiffText = { fg = "#050a58", bg = "#7f86f3" },
-        Pmenu = { fg = "#505ad6", bg = "#000800" },
-        PmenuSel = { fg = "#737df1", bg = "#002600" },
-        PmenuThumb = { bg = "#777777" },
-        CursorColumn = { bg = "#000e00" },
-        CursorLine = { bg = "#000e00" },
-        ColorColumn = { bg = "#9b73f1" },
-        WinBar = { fg = "#dddddd", bg = "#000800" },
-        WinBarNC = { fg = "#dddddd", bg = "#000800" },
-        FloatShadow = { bg = "#002600" },
-        FloatShadowThrough = {
-                bg = "#118811",
-        },
-        MatchParen = { bg = "#51136e" },
-        RedrawDebugClear = { bg = "#dddddd" },
-        RedrawDebugComposed = {
-                bg = "#dddddd",
-        },
-        RedrawDebugRecompose = {
-                bg = "#dddddd",
-        },
-        Error = { fg = "#bd1dc5", bg = "#000800" },
+	StatusLine = { fg = "#455684", bg = "#111211" },
+	StatusLineNC = { fg = "#455684", bg = "#111211" },
+	Visual = { fg = "#061815", bg = "#0d8f77" },
+	Folded = { fg = "#808080", bg = "#001300" },
+	DiffAdd = { fg = "#668366", bg = "#002200" },
+	DiffChange = { fg = "#7f86f3", bg = "#050a58" },
+	DiffDelete = { fg = "#d5776f" },
+	DiffText = { fg = "#050a58", bg = "#7f86f3" },
+	Pmenu = { fg = "#505ad6", bg = "#000800" },
+	PmenuSel = { fg = "#737df1", bg = "#002600" },
+	PmenuThumb = { bg = "#777777" },
+	CursorColumn = { bg = "#000e00" },
+	CursorLine = { bg = "#000e00" },
+	ColorColumn = { bg = "#9b73f1" },
+	WinBar = { fg = "#dddddd", bg = "#000800" },
+	WinBarNC = { fg = "#dddddd", bg = "#000800" },
+	FloatShadow = { bg = "#002600" },
+	FloatShadowThrough = {
+		bg = "#118811",
+	},
+	MatchParen = { bg = "#51136e" },
+	RedrawDebugClear = { bg = "#dddddd" },
+	RedrawDebugComposed = {
+		bg = "#dddddd",
+	},
+	RedrawDebugRecompose = {
+		bg = "#dddddd",
+	},
+	Error = { fg = "#bd1dc5", bg = "#000800" },
 
-        -- inheriting foreground from default Nvim* colors
-        SpecialKey = { fg = "#491d5e" },
-        NonText = { fg = "#111211" },
-        Directory = { fg = "#13446c" },
-        ErrorMsg = { fg = "#bd1dc5" },
-        MoreMsg = { fg = "#1db6c5" },
-        ModeMsg = { fg = "#376808" },
-        LineNr = { fg = "#333833" },
-        Question = { fg = "#402967" },
-        WarningMsg = { fg = "#CBC383" },
-        SignColumn = { fg = "#1b8984" },
-        Conceal = { fg = "#808080", bg = "#000800" },
-        QuickFixLine = { fg = "#A30101" },
-        Special = { fg = "#49125e" },
+	-- inheriting foreground from default Nvim* colors
+	SpecialKey = { fg = "#491d5e" },
+	NonText = { fg = "#111211" },
+	Directory = { fg = "#13446c" },
+	ErrorMsg = { fg = "#bd1dc5" },
+	MoreMsg = { fg = "#1db6c5" },
+	ModeMsg = { fg = "#376808" },
+	LineNr = { fg = "#333833" },
+	Question = { fg = "#402967" },
+	WarningMsg = { fg = "#CBC383" },
+	SignColumn = { fg = "#1b8984" },
+	Conceal = { fg = "#808080", bg = "#000800" },
+	QuickFixLine = { fg = "#A30101" },
+	Special = { fg = "#49125e" },
 
-        DiagnosticError = { fg = "#bd1dc5" },
-        DiagnosticFloatingWarn = { fg = "#CBC383" },
-        DiagnosticWarn = { fg = "#CBC383" },
-        DiagnosticFloatingInfo = { fg = "#555555" },
-        DiagnosticInfo = { fg = "#555555" },
-        DiagnosticFloatingHint = { fg = "#9b73f1" },
-        DiagnosticHint = { fg = "#9b73f1" },
-        DiagnosticFloatingOk = { fg = "#555555" },
-        DiagnosticOk = { fg = "#555555" },
-        Added = { fg = "#368366" },
-        ["@diff.minus"] = { fg = "#d5776f" },
-        Removed = { fg = "#d5776f" },
-        Changed = { fg = "#7f86f3" },
-        CmpItemAbbrDeprecatedDefault = { fg = "#ffffff" },
-        CmpItemKindDefault = { fg = "#eeeeee" },
-        RainbowDelimiter1 = { fg = "#2b1400" },
-        RainbowDelimiter2 = { fg = "#4f473b" },
-        RainbowDelimiter3 = { fg = "#381900" },
-        RainbowDelimiter4 = { fg = "#726c62" },
-        RainbowDelimiter5 = { fg = "#51331a" },
-        RainbowDelimiter6 = { fg = "#959189" },
-        RainbowDelimiter7 = { fg = "#78604d" },
+	DiagnosticError = { fg = "#bd1dc5" },
+	DiagnosticFloatingWarn = { fg = "#CBC383" },
+	DiagnosticWarn = { fg = "#CBC383" },
+	DiagnosticFloatingInfo = { fg = "#555555" },
+	DiagnosticInfo = { fg = "#555555" },
+	DiagnosticFloatingHint = { fg = "#9b73f1" },
+	DiagnosticHint = { fg = "#9b73f1" },
+	DiagnosticFloatingOk = { fg = "#555555" },
+	DiagnosticOk = { fg = "#555555" },
+	Added = { fg = "#368366" },
+	["@diff.minus"] = { fg = "#d5776f" },
+	Removed = { fg = "#d5776f" },
+	Changed = { fg = "#7f86f3" },
+	CmpItemAbbrDeprecatedDefault = { fg = "#ffffff" },
+	CmpItemKindDefault = { fg = "#eeeeee" },
+	RainbowDelimiter1 = { fg = "#2b1400" },
+	RainbowDelimiter2 = { fg = "#4f473b" },
+	RainbowDelimiter3 = { fg = "#381900" },
+	RainbowDelimiter4 = { fg = "#726c62" },
+	RainbowDelimiter5 = { fg = "#51331a" },
+	RainbowDelimiter6 = { fg = "#959189" },
+	RainbowDelimiter7 = { fg = "#78604d" },
 }) do
-        if type(attrs) == "table" then
-                vim.api.nvim_set_hl(0, name, attrs)
-        else
-                vim.api.nvim_set_hl(0, name, { link = attrs })
-        end
+	if type(attrs) == "table" then
+		vim.api.nvim_set_hl(0, name, attrs)
+	else
+		vim.api.nvim_set_hl(0, name, { link = attrs })
+	end
 end

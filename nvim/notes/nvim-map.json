@@ -19,7 +19,7 @@
         "mode": "n",
         "keybind": "<Space>fh",
         "annotation": "*",
-        "definition": "<Lua 193: ~/.config/nvim/lua/mappings.lua:49>",
+        "definition": "<Lua 196: ~/.config/nvim/lua/mappings.lua:49>",
         "description": "Find Help Tags",
         "origin": "Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)"
     },
@@ -27,7 +27,7 @@
         "mode": "n",
         "keybind": "<Space>fb",
         "annotation": "*",
-        "definition": "<Lua 192: ~/.config/nvim/lua/mappings.lua:48>",
+        "definition": "<Lua 195: ~/.config/nvim/lua/mappings.lua:48>",
         "description": "Find Buffers",
         "origin": "Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)"
     },
@@ -35,7 +35,7 @@
         "mode": "n",
         "keybind": "<Space>fg",
         "annotation": "*",
-        "definition": "<Lua 191: ~/.config/nvim/lua/mappings.lua:47>",
+        "definition": "<Lua 194: ~/.config/nvim/lua/mappings.lua:47>",
         "description": "Live Grep",
         "origin": "Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)"
     },
@@ -43,7 +43,7 @@
         "mode": "n",
         "keybind": "<Space>gf",
         "annotation": "*",
-        "definition": "<Lua 189: ~/.config/nvim/lua/mappings.lua:46>",
+        "definition": "<Lua 192: ~/.config/nvim/lua/mappings.lua:46>",
         "description": "Find Git Files",
         "origin": "Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)"
     },

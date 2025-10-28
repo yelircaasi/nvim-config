@@ -5,16 +5,16 @@ s  <Tab>       * <Lua 26: vim/_defaults.lua:229>
 n  <Space>ft   * <Cmd>FloatermToggle<CR>
                  Toggle floaterm
 	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
-n  <Space>fh   * <Lua 193: ~/.config/nvim/lua/mappings.lua:49>
+n  <Space>fh   * <Lua 196: ~/.config/nvim/lua/mappings.lua:49>
                  Find Help Tags
 	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
-n  <Space>fb   * <Lua 192: ~/.config/nvim/lua/mappings.lua:48>
+n  <Space>fb   * <Lua 195: ~/.config/nvim/lua/mappings.lua:48>
                  Find Buffers
 	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
-n  <Space>fg   * <Lua 191: ~/.config/nvim/lua/mappings.lua:47>
+n  <Space>fg   * <Lua 194: ~/.config/nvim/lua/mappings.lua:47>
                  Live Grep
 	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
-n  <Space>gf   * <Lua 189: ~/.config/nvim/lua/mappings.lua:46>
+n  <Space>gf   * <Lua 192: ~/.config/nvim/lua/mappings.lua:46>
                  Find Git Files
 	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
 n  <Space>ff   * <Lua 74: ~/.config/nvim/lua/mappings.lua:45>

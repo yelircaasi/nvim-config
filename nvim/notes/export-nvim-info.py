@@ -1,9 +1,7 @@
 import json
-from pathlib import Path
 import re
 import subprocess
-import time
-
+from pathlib import Path
 
 NOTES_DIR = Path.home() / ".config/nvim/notes"
 
@@ -12,22 +10,31 @@ def export_info(task: str) -> Path:
     destination = NOTES_DIR / f"nvim-{task}.txt"
     # os.system(f'nvim --headless -c "set columns=1000" -c "redir! > {destination}"   -c "verbose {task}"  -c "redir END" -c "q" > /dev/null')
     cmd = [
-        "nvim", "--headless",
-        "-c", "set columns=1000",
-        "-c", f"redir! > {destination}",
-        "-c", f"verbose {task}",
-        "-c", "redir END",
-        "-c", "q",
+        "nvim",
+        "--headless",
+        "-c",
+        "set columns=1000",
+        "-c",
+        f"redir! > {destination}",
+        "-c",
+        f"verbose {task}",
+        "-c",
+        "redir END",
+        "-c",
+        "q",
     ]
     subprocess.run(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
     return destination
 
 
-colors_txt   = export_info("highlight")
+colors_txt = export_info("highlight")
 mappings_txt = export_info("map")
 commands_txt = export_info("command")
 
-colors_json, mappings_json, commands_json = map(lambda s: s.parent / s.name.replace(".txt", ".json"), (colors_txt, mappings_txt, commands_txt))
+colors_json, mappings_json, commands_json = map(
+    lambda s: s.parent / s.name.replace(".txt", ".json"),
+    (colors_txt, mappings_txt, commands_txt),
+)
 
 
 BLOCK_SPLITTER = re.compile(r"\n(?=[^\s])")
@@ -37,7 +44,7 @@ COLOR_PATTERN = re.compile(
         r"(?P<body>[^\n]+)"
         r"(\n\s+(?P<note>[^\s][^\n]+))?"
     ),
-    re.MULTILINE
+    re.MULTILINE,
 )
 COLOR_BODY_PATTERN = re.compile(
     (
@@ -98,7 +105,6 @@ MAPPING_PATTERN = re.compile(
         r"( +(?P<definition>[^\n]+))?"
         r"(\n {5,}(?P<description>[^\n]+))?"
         r"\n\s+(?P<origin>Last set [^\n]+)"
-
     )
 )
 MAPPING_KEYS = (
@@ -108,7 +114,6 @@ MAPPING_KEYS = (
     "definition",
     "description",
     "origin",
-
 )
 
 
@@ -125,7 +130,7 @@ def parse_colors(raw: str) -> dict[str, dict[str, str]]:
             gd = result.groupdict()
             gd |= re.search(COLOR_BODY_PATTERN, gd["body"] or "").groupdict()
             c.update({gd["name"]: {key: gd[key] for key in COLOR_KEYS}})
-                
+
         else:
             print(block)
 
@@ -155,9 +160,9 @@ def parse_mappings(raw: str) -> dict[str, dict[str, str]]:
 def parse_commands(raw: str) -> dict[str, dict[str, str]]:
     c = {}
 
-    raw = re.sub(r"\n?\tLast set ", "\t\tLast set ", raw)
+    raw = re.sub(r"\n?\tLast set ", "\n\t\tLast set ", raw)
     raw = re.sub("\n?    Name", " Name", raw)
-    raw = re.sub("\n            ", "\t\t\t", raw)
+    raw = re.sub("\n            ", "\n\t\t\t", raw)
     raw = re.sub(r"\n    ", "\n_   ", raw)
     # print(raw[:500])
 
@@ -175,13 +180,13 @@ def parse_commands(raw: str) -> dict[str, dict[str, str]]:
     return c
 
 
-colors_raw   = colors_txt.read_text()
+colors_raw = colors_txt.read_text()
 mappings_raw = mappings_txt.read_text()
 commands_raw = commands_txt.read_text()
 
 subprocess.run(["clear"])
 
-colors   = parse_colors(colors_raw)
+colors = parse_colors(colors_raw)
 mappings = parse_mappings(mappings_raw)
 commands = parse_commands(commands_raw)
 
@@ -192,4 +197,3 @@ mappings_json.write_text(json.dumps(mappings, indent=4))
 commands_json.write_text(json.dumps(commands, indent=4))
 
 # print(commands_json)
-
