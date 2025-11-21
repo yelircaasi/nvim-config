@@ -1,4 +1,20 @@
 M = {
+
+	{
+		"ribru17/bamboo.nvim",
+		lazy = false,
+		priority = 1000,
+		config = function()
+			require("bamboo").setup({
+				style = "multiplex",
+				colors = {
+					bg0 = "#020802",
+				},
+				-- highlights = { Normal = { bg = "#020802" } },
+			})
+			require("bamboo").load()
+		end,
+	},
 	{
 		"nvim-treesitter/nvim-treesitter",
 		build = ":TSUpdate",

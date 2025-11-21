@@ -42,11 +42,21 @@ AUTOMATIC/TOGGLABLE FUNCTIONALITIES
 local map = vim.keymap.set
 
 -- telescope ----------------------------------------------------------------------------------------------------------
-map("n", "<leader>ff", function() require("telescope.builtin").find_files() end, { desc = "Find Files" })
-map("n", "<leader>gf", function() require("telescope.builtin").git_files() end, { desc = "Find Git Files" })
-map("n", "<leader>fg", function() require("telescope.builtin").live_grep() end, { desc = "Live Grep" })
-map("n", "<leader>fb", function() require("telescope.builtin").buffers() end, { desc = "Find Buffers" })
-map("n", "<leader>fh", function() require("telescope.builtin").help_tags() end, { desc = "Find Help Tags" })
+map("n", "<leader>ff", function()
+	require("telescope.builtin").find_files()
+end, { desc = "Find Files" })
+map("n", "<leader>gf", function()
+	require("telescope.builtin").git_files()
+end, { desc = "Find Git Files" })
+map("n", "<leader>fg", function()
+	require("telescope.builtin").live_grep()
+end, { desc = "Live Grep" })
+map("n", "<leader>fb", function()
+	require("telescope.builtin").buffers()
+end, { desc = "Find Buffers" })
+map("n", "<leader>fh", function()
+	require("telescope.builtin").help_tags()
+end, { desc = "Find Help Tags" })
 
 -- floaterm -----------------------------------------------------------------------------------------------------------
 vim.keymap.set("n", "<leader>ft", "<Cmd>FloatermToggle<CR>", { desc = "Toggle floaterm" })
@@ -57,33 +67,49 @@ vim.keymap.set("t", "<leader>ft", "<C-\\><C-n><Cmd>FloatermToggle<CR>", { desc =
 local lsp_keymaps_group = vim.api.nvim_create_augroup("LspKeymaps", { clear = true })
 
 vim.api.nvim_create_autocmd("LspAttach", {
-    group = lsp_keymaps_group,
-    callback = function(ev)
-        local lsp_map = function(keys, func, desc)
-            vim.keymap.set("n", keys, func, { buffer = ev.buf, desc = "LSP: " .. desc })
-        end
+	group = lsp_keymaps_group,
+	callback = function(ev)
+		local lsp_map = function(keys, func, desc)
+			vim.keymap.set("n", keys, func, { buffer = ev.buf, desc = "LSP: " .. desc })
+		end
 
-        -- Navigation and Information
-        lsp_map("gd", vim.lsp.buf.definition, "Go to Definition")
-        lsp_map("gD", vim.lsp.buf.declaration, "Go to Declaration")
-        lsp_map("gr", vim.lsp.buf.references, "Go to References")
-        lsp_map("gI", vim.lsp.buf.implementation, "Go to Implementation")
-        lsp_map("K", vim.lsp.buf.hover, "Hover Documentation")
-        lsp_map("<C-k>", vim.lsp.buf.signature_help, "Signature Help")
+		-- Navigation and Information
+		lsp_map("gd", vim.lsp.buf.definition, "Go to Definition")
+		lsp_map("gD", vim.lsp.buf.declaration, "Go to Declaration")
+		lsp_map("gr", vim.lsp.buf.references, "Go to References")
+		lsp_map("gI", vim.lsp.buf.implementation, "Go to Implementation")
+		lsp_map("K", vim.lsp.buf.hover, "Hover Documentation")
+		lsp_map("<C-k>", vim.lsp.buf.signature_help, "Signature Help")
 
-        -- Actions
-        lsp_map("<leader>ca", vim.lsp.buf.code_action, "Code Action")
-        lsp_map("<leader>rn", vim.lsp.buf.rename, "Rename")
+		-- Actions
+		lsp_map("<leader>ca", vim.lsp.buf.code_action, "Code Action")
+		lsp_map("<leader>rn", vim.lsp.buf.rename, "Rename")
 
-        -- Diagnostics
-        lsp_map("[d", vim.diagnostic.goto_prev, "Previous Diagnostic")
-        lsp_map("]d", vim.diagnostic.goto_next, "Next Diagnostic")
-        lsp_map("<leader>dl", vim.diagnostic.open_float, "Show Line Diagnostics")
+		-- Diagnostics
+		lsp_map("[d", vim.diagnostic.goto_prev, "Previous Diagnostic")
+		lsp_map("]d", vim.diagnostic.goto_next, "Next Diagnostic")
+		lsp_map("<leader>dl", vim.diagnostic.open_float, "Show Line Diagnostics")
 
-        -- format on save (to use LSP formatter instead of conform)
-        -- vim.api.nvim_buf_create_autocmd("BufWritePre", {
-        --   buffer = ev.buf,
-        --   callback = function() vim.lsp.buf.format { async = false } end
-        -- })
-    end,
+		-- format on save (to use LSP formatter instead of conform)
+		-- vim.api.nvim_buf_create_autocmd("BufWritePre", {
+		--   buffer = ev.buf,
+		--   callback = function() vim.lsp.buf.format { async = false } end
+		-- })
+		--
+		local bufopts = { noremap = true, silent = true, buffer = bufnr }
+	end,
 })
+
+-- quickfix -----------------------------------------------------------------------------------------------------------
+vim.keymap.set("i", "kj", "<escape>")
+vim.keymap.set("n", "<leader>wq", function()
+	vim.cmd("wq")
+end)
+vim.keymap.set("n", "<leader>ww", function()
+	vim.cmd("w")
+end)
+vim.keymap.set("n", "<leader>q", function()
+	-- Populates the Quickfix list with all diagnostics from the current buffer
+	vim.diagnostic.setqflist({ bufnr = 0 })
+	vim.cmd("copen")
+end, { desc = "Open Quickfix with diagnostics" })

@@ -71,9 +71,11 @@ for name, attrs in pairs({
 	["@variable"] = { fg = "#13446c" },
 	Function = { fg = "#246b44" },
 	Statement = { fg = "#913d55" },
-	Constant = { fg = "#aaaaaa" },
+	Constant = { fg = "#7080a8" },
+	Type = { fg = "#8888dd" },
+	["@module"] = { fg = "#aaaacc" },
 	Directory = { fg = "#13446c" },
-	String = { fg = "#3e4966" }, -- 808080 55668f 1c2e8b
+	String = { fg = "#434f6f" }, --"#3e4966" }, -- 808080 55668f 1c2e8b
 	Comment = { fg = "#625c3f" }, -- 333933
 	PreProc = { fg = "#123622" },
 	Operator = { fg = "#246b44" },
@@ -127,7 +129,7 @@ for name, attrs in pairs({
 	SignColumn = { fg = "#1b8984" },
 	Conceal = { fg = "#808080", bg = "#000800" },
 	QuickFixLine = { fg = "#A30101" },
-	Special = { fg = "#49125e" },
+	Special = { fg = "#741d96" }, --"#49125e" },
 
 	DiagnosticError = { fg = "#bd1dc5" },
 	DiagnosticFloatingWarn = { fg = "#CBC383" },

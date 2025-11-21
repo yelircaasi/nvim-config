@@ -16,8 +16,10 @@ end
 
 addRelPath()
 
+vim.api.nvim_set_hl(0, "Normal", { bg = "#020802" })
 require("options")
-require("colors")
+
+-- require("colors")
 require("config.lazy")
 require("commands")
 require("mappings")
@@ -36,3 +38,4 @@ require("which-key").setup()
 
 vim.cmd("hi link Floaterm Normal")
 vim.cmd("hi link FloatermBorder Normal")
+vim.api.nvim_set_hl(0, "Normal", { bg = "#020802" })
