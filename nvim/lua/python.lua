@@ -30,10 +30,6 @@ vim.lsp.config["pyright"] = {
 	},
 }
 
--- LSP Diagnostics Configuration for Neovim 0.11+
--- Place this require in your init.lua: require("lsp_diagnostics")
-
--- 1. Define the different display modes
 local diagnostic_modes = {
 	{
 		name = "End of Line (Virtual Text)",
@@ -71,10 +67,10 @@ local diagnostic_modes = {
 			signs = {
 				-- Custom mapping for signs if you want specific characters
 				text = {
-					[vim.diagnostic.severity.ERROR] = "",
-					[vim.diagnostic.severity.WARN] = "",
-					[vim.diagnostic.severity.HINT] = "",
-					[vim.diagnostic.severity.INFO] = "",
+					[vim.diagnostic.severity.ERROR] = "E",
+					[vim.diagnostic.severity.WARN] = "W",
+					[vim.diagnostic.severity.HINT] = "H",
+					[vim.diagnostic.severity.INFO] = "I",
 				},
 			},
 			underline = false, -- Often cleaner to disable underline in "minimal" mode
@@ -85,13 +81,13 @@ local diagnostic_modes = {
 
 -- State tracking
 local current_mode_index = 1
-local diagnostics_active = true
+local diagnostics_active = false
 
 -- 2. Function to set the configuration
 local function set_diagnostics_mode()
 	if not diagnostics_active then
 		vim.diagnostic.enable(false)
-		print("LSP Diagnostics: OFF")
+		-- print("LSP Diagnostics: OFF")
 		return
 	end
 
