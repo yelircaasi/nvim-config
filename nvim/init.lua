@@ -4,10 +4,11 @@
 --    ensure_installed = { "python", "lua", "javascript" },  -- Ensure installed parsers
 --    highlight = { enable = true },
 --    fold = { enable = false }  -- Disable folding if necessary
---}
+-- }
 
 function addRelPath(dir)
 	local spath = debug.getinfo(1, "S").source:sub(2):gsub("^([^/])", "./%1"):gsub("[^/]*$", "")
+	print(spath)
 	dir = dir and (dir .. "/") or ""
 	spath = spath .. dir
 	package.path = spath .. "?.lua;" .. spath .. "?/init.lua"
@@ -17,6 +18,7 @@ end
 addRelPath()
 
 vim.api.nvim_set_hl(0, "Normal", { bg = "#020802" })
+
 require("options")
 
 -- require("colors")
@@ -39,3 +41,4 @@ require("which-key").setup()
 vim.cmd("hi link Floaterm Normal")
 vim.cmd("hi link FloatermBorder Normal")
 vim.api.nvim_set_hl(0, "Normal", { bg = "#020802" })
+print("reached end of init.lua")
