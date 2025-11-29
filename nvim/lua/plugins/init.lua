@@ -1,5 +1,15 @@
 M = {
 	{
+		"mrcjkb/haskell-tools.nvim",
+		version = "^6", -- Recommended
+		lazy = false, -- This plugin is already lazy
+	},
+	{
+		"mrcjkb/rustaceanvim",
+		version = "^6", -- Recommended
+		lazy = false, -- This plugin is already lazy
+	},
+	{
 		"saghen/blink.cmp",
 		-- optional: provides snippets for the snippet source
 		dependencies = { "rafamadriz/friendly-snippets" },
@@ -136,8 +146,20 @@ M = {
 					-- To organize the imports.
 					"ruff_organize_imports",
 				},
+				nix = {
+					"alejandra",
+				},
 				lua = {
 					"stylua",
+				},
+				haskell = {
+					"fourmolu",
+				},
+				rust = {
+					"rustfmt",
+				},
+				go = {
+					"gofmt",
 				},
 			},
 		},
