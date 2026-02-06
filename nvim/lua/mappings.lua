@@ -139,3 +139,43 @@ end)
 vim.keymap.set("x", "g<C-x>", function()
 	require("dial.map").manipulate("decrement", "gvisual")
 end)
+
+--- zen-mode ----------------------------------------------------------------------------------------------------------
+
+vim.keymap.set("n", "<leader>zm", function()
+	require("zen-mode").toggle({
+		window = {
+			width = 0.85, -- width will be 85% of the editor width
+		},
+	})
+end)
+--- blink ----------------------------------------------------------------------------------------------------------
+require("blink.cmp").setup({
+	keymap = {
+		-- 'default' for vim-like (C-y to accept)
+		-- 'super-tab' for vscode-like (Tab to accept/jump)
+		-- 'enter' for enter to accept
+		preset = "super-tab",
+
+		-- You can still override specific keys on top of the preset
+		["<C-k>"] = { "select_prev", "fallback" },
+		["<C-j>"] = { "select_next", "fallback" },
+
+		["<C-space>"] = { "show", "show_documentation", "hide_documentation" },
+		["<C-e>"] = { "hide", "fallback" },
+		["<CR>"] = { "accept", "fallback" },
+
+		["<Tab>"] = { "snippet_forward", "fallback" },
+		["<S-Tab>"] = { "snippet_backward", "fallback" },
+
+		["<C-j>"] = { "select_next", "fallback" },
+		["<C-k>"] = { "select_prev", "fallback" },
+
+		["<C-b>"] = { "scroll_documentation_up", "fallback" },
+		["<C-f>"] = { "scroll_documentation_down", "fallback" },
+	},
+})
+
+--- zen-mode ----------------------------------------------------------------------------------------------------------
+--- zen-mode ----------------------------------------------------------------------------------------------------------
+--- zen-mode ----------------------------------------------------------------------------------------------------------
