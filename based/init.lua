@@ -59,6 +59,21 @@ local PLUGIN_DECLARATION = {
 	{ "nvim-lualine/lualine.nvim", gh, false },
 	{ "monaqa/dial.nvim", gh, false },
 	{ "mikavilpas/yazi.nvim", gh, false },
+
+
+    { "stevearc/conform.nvim", gh, false },
+    { "akinsho/toggleterm.nvim", gh, false },
+    { "voldikss/vim-floaterm", gh, false },
+    { "folke/which-key.nvim", gh, false },
+    { "kevinhwang91/nvim-bqf", gh, false },
+    { "nvim-mini/mini.nvim", gh, false },
+    { "lewis6991/gitsigns.nvim", gh, false },
+    { "folke/todo-comments.nvim", gh, false },
+    { "nvim-telescope/telescope.nvim", gh, false },
+    { "nvim-lua/plenary.nvim", gh, false },
+    { "sindrets/diffview.nvim", gh, false },
+    { "2KAbhishek/markit.nvim", gh, false },
+    { "2KAbhishek/pickme.nvim", gh, false },
     -- "stevearc/conform.nvim",
 	-- "akinsho/toggleterm.nvim",
 	-- "voldikss/vim-floaterm",
@@ -76,6 +91,24 @@ local PLUGIN_DECLARATION = {
 	-- "nvim-neotest/neotest",
 	-- "mg979/vim-visual-multi",
 	-- "willothy/wezterm.nvim" -> just vendor
+
+
+    { "stevearc/conform.nvim", gh, false },
+    { "akinsho/toggleterm.nvim", gh, false },
+    { "voldikss/vim-floaterm", gh, false },
+    { "folke/which-key.nvim", gh, false },
+    { "kevinhwang91/nvim-bqf", gh, false },
+    { "nvim-mini/mini.nvim", gh, false },
+    { "lewis6991/gitsigns.nvim", gh, false },
+    { "folke/todo-comments.nvim", gh, false },
+    { "nvim-telescope/telescope.nvim", gh, false },
+    { "nvim-lua/plenary.nvim", gh, false },
+    { "sindrets/diffview.nvim", gh, false },
+    { "2KAbhishek/markit.nvim", gh, false },
+    { "2KAbhishek/pickme.nvim", gh, false },
+    { "nvim-treesitter/nvim-treesitter-textobjects", gh, false },
+    { "nvim-neotest/neotest", gh, false },
+    { "mg979/vim-visual-multi", gh, false },
 }
 
 local make_specs = function(plugin_ids)
@@ -97,6 +130,7 @@ local make_specs = function(plugin_ids)
 
 	for _, info in ipairs(plugin_ids) do
 		local id, expander, lazy = unpack(info)
+		-- local user, repo = string.match(id, "([^/]+)/([^/]+)")
 		local nix_path = get_nix_path(id)
 		local group = lazy and "lazy" or "eager"
 		if nix_path then
@@ -111,35 +145,12 @@ local make_specs = function(plugin_ids)
 end
 
 
-local create_spec_list = function()
-    local specs = {}
-	
-	print(has_nix)
-    if has_nix then
-        for id, info in pairs(DEFAULT_SPECS) do
-            if plugin_locations[id] then
-				-- local user, repo = string.match(id, "([^/]+)/([^/]+)")
-				vim.opt.rtp:prepend(plugin_locations[id].path)
-            else
-                print("Plugin " .. id .. " not installed via Nix!")
-                table.insert(specs, { src = DEFAULT_SPECS[id].src })
-            end
-        end
-    else
-        for id, info in pairs(DEFAULT_SPECS) do
-            table.insert(specs, { src = info.src })
-        end
-    end
-    return specs
-end
-
 --------------
 
 -- local has_nix = vim.uv.fs_stat("/nix/store") ~= nil
 
 PLUGIN_SPECS = make_specs(PLUGIN_DECLARATION)
-print(vim.inspect(PLUGIN_SPECS))
--- local specs = create_specs(has_nix)
+-- print(vim.inspect(PLUGIN_SPECS))
 vim.pack.add(PLUGIN_SPECS.git.eager)
 
 require('nvim-treesitter.configs').setup({
