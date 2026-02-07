@@ -44,20 +44,21 @@ local cb = function(id) return "https://codeberg.org/" .. id end
 local plugin_ids_eager = {}
 local plugin_ids_lazy = {}
 
-local plugin_ids_eager = {
-	{ "stevearc/oil.nvim", gh },
-    { "Saghen/blink.cmp", gh },
-    { "nvim-mini/mini.pick", gh },
-    { "L3MON4D3/LuaSnip", gh },
-    { "mrcjkb/rustaceanvim", gh },
-    { "nvim-treesitter/nvim-treesitter", gh },
-    { "mrcjkb/haskell-tools.nvim", gh },
-    { "ribru17/bamboo.nvim", gh },
+local PLUGIN_DECLARATION = {
+	-- id, url expander, lazy
+	{ "stevearc/oil.nvim", gh, false },
+    { "Saghen/blink.cmp", gh, false },
+    { "nvim-mini/mini.pick", gh, false },
+    { "L3MON4D3/LuaSnip", gh, false },
+    { "mrcjkb/rustaceanvim", gh, false },
+    { "nvim-treesitter/nvim-treesitter", gh, false },
+    { "mrcjkb/haskell-tools.nvim", gh, false },
+    { "ribru17/bamboo.nvim", gh, false },
 
-	-- "folke/zen-mode.nvim",
-	-- "nvim-lualine/lualine.nvim",
-	-- "monaqa/dial.nvim",
-	-- "mikavilpas/yazi.nvim",
+	{ "folke/zen-mode.nvim", gh, false },
+	{ "nvim-lualine/lualine.nvim", gh, false },
+	{ "monaqa/dial.nvim", gh, false },
+	{ "mikavilpas/yazi.nvim", gh, false },
     -- "stevearc/conform.nvim",
 	-- "akinsho/toggleterm.nvim",
 	-- "voldikss/vim-floaterm",
@@ -77,28 +78,44 @@ local plugin_ids_eager = {
 	-- "willothy/wezterm.nvim" -> just vendor
 }
 
--- local DEFAULT_SPECS = vim.iter(plugin_ids):map(function(id) return id, { src = gh(id) } end):totable()
-local make_default_specs = function(plugin_ids)
-	local default_specs = {}
+local make_specs = function(plugin_ids)
+	
+	local specs = {
+		nix = {
+			lazy = {},
+		    eager = {},
+		},
+		git = {
+			lazy = {},
+		    eager = {},
+		}
+	}
+
+	local has_nix, plugin_locations = pcall(dofile, NVIM_DIR .. "/nix_plugins.lua")
+
+	local get_nix_path = function(_id) if has_nix then return plugin_locations[_id] end end
+
 	for _, info in ipairs(plugin_ids) do
-		local id, expander = unpack(info)
-		default_specs[id] = { src = expander(id) }
+		local id, expander, lazy = unpack(info)
+		local nix_path = get_nix_path(id)
+		local group = lazy and "lazy" or "eager"
+		if nix_path then
+			local path = plugin_locations[id].path
+			table.insert(specs.nix.lazy, { path = path })
+			if not lazy then vim.opt.rtp:prepend(path) end
+		else
+			table.insert(specs.git[group], { src = expander(id) })
+		end
 	end
-	return default_specs
+	return specs
 end
 
-DEFAULT_SPECS = make_default_specs(plugin_ids_eager)
-print(DEFAULT_SPECS)
 
-local nix_specs_eager = {}
-local nix_specs_lazy = {}
-local native_specs_eager = {}
-local native_specs_lazy = {}
-
-local create_spec_list = function(has_nix)
+local create_spec_list = function()
     local specs = {}
+	
+	print(has_nix)
     if has_nix then
-        local plugin_locations = dofile(NVIM_DIR .. "/nix_plugins.lua")
         for id, info in pairs(DEFAULT_SPECS) do
             if plugin_locations[id] then
 				-- local user, repo = string.match(id, "([^/]+)/([^/]+)")
@@ -118,9 +135,12 @@ end
 
 --------------
 
-local has_nix = vim.uv.fs_stat("/nix/store") ~= nil
-local specs = create_spec_list(has_nix)
-vim.pack.add(specs)
+-- local has_nix = vim.uv.fs_stat("/nix/store") ~= nil
+
+PLUGIN_SPECS = make_specs(PLUGIN_DECLARATION)
+print(vim.inspect(PLUGIN_SPECS))
+-- local specs = create_specs(has_nix)
+vim.pack.add(PLUGIN_SPECS.git.eager)
 
 require('nvim-treesitter.configs').setup({
     ensure_installed = has_nix and {} or { "lua", "python", "rust", "typescript", "haskell" },
