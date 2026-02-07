@@ -1,3 +1,5 @@
+-- TODO: see https://www.reddit.com/r/neovim/comments/1afw5tc/rustaceanvim_now_with_neotest_integration/
+print("Hello")
 local o = vim.opt
 local g = vim.g
 local map = vim.keymap.set
@@ -14,6 +16,8 @@ o.winborder = "rounded"
 o.termguicolors = true
 o.undofile = true
 o.incsearch = true
+o.timeout = true
+o.timeoutlen = 300
 
 map("n", "<leader>o", ":update<CR> :source<CR>")
 map("n", "<leader>ww", ":write<CR>")
@@ -50,67 +54,45 @@ local plugin_ids_lazy = {}
 
 local PLUGIN_DECLARATION = {
 	-- id, url expander, lazy
-	{ "stevearc/oil.nvim", gh, false },
-	{ "Saghen/blink.cmp", gh, false },
-	{ "nvim-mini/mini.pick", gh, false },
-	{ "L3MON4D3/LuaSnip", gh, false },
-	{ "mrcjkb/rustaceanvim", gh, false },
-	{ "nvim-treesitter/nvim-treesitter", gh, false },
-	{ "mrcjkb/haskell-tools.nvim", gh, false },
-	{ "ribru17/bamboo.nvim", gh, false },
 
-	{ "folke/zen-mode.nvim", gh, false },
-	{ "nvim-lualine/lualine.nvim", gh, false },
-	{ "monaqa/dial.nvim", gh, false },
-	{ "mikavilpas/yazi.nvim", gh, false },
 
-	{ "stevearc/conform.nvim", gh, false },
-	{ "akinsho/toggleterm.nvim", gh, false },
-	{ "voldikss/vim-floaterm", gh, false },
-	{ "folke/which-key.nvim", gh, false },
-	{ "kevinhwang91/nvim-bqf", gh, false },
-	{ "nvim-mini/mini.nvim", gh, false },
-	{ "lewis6991/gitsigns.nvim", gh, false },
-	{ "folke/todo-comments.nvim", gh, false },
-	{ "nvim-telescope/telescope.nvim", gh, false },
-	{ "nvim-lua/plenary.nvim", gh, false },
-	{ "sindrets/diffview.nvim", gh, false },
-	{ "2KAbhishek/markit.nvim", gh, false },
-	{ "2KAbhishek/pickme.nvim", gh, false },
-	-- "stevearc/conform.nvim",
-	-- "akinsho/toggleterm.nvim",
-	-- "voldikss/vim-floaterm",
-	-- "folke/which-key.nvim",
-	-- "kevinhwang91/nvim-bqf",
-	-- "echasnovski/mini.nvim",
-	-- "lewis6991/gitsigns.nvim",
-	-- "folke/todo-comments.nvim",
-	-- "nvim-telescope/telescope.nvim",
-	-- "nvim-lua/plenary.nvim", -- dependency of telescope
-	-- "sindrets/diffview.nvim",
-	-- "2kabhishek/markit.nvim",
-	-- "2KAbhishek/pickme.nvim",
-	-- "nvim-treesitter/nvim-treesitter-textobjects",
-	-- "nvim-neotest/neotest",
-	-- "mg979/vim-visual-multi",
+	
 	-- "willothy/wezterm.nvim" -> just vendor
-
-	{ "stevearc/conform.nvim", gh, false },
-	{ "akinsho/toggleterm.nvim", gh, false },
-	{ "voldikss/vim-floaterm", gh, false },
-	{ "folke/which-key.nvim", gh, false },
-	{ "kevinhwang91/nvim-bqf", gh, false },
-	{ "nvim-mini/mini.nvim", gh, false },
-	{ "lewis6991/gitsigns.nvim", gh, false },
-	{ "folke/todo-comments.nvim", gh, false },
-	{ "nvim-telescope/telescope.nvim", gh, false },
-	{ "nvim-lua/plenary.nvim", gh, false },
-	{ "sindrets/diffview.nvim", gh, false },
-	{ "2KAbhishek/markit.nvim", gh, false },
+	-- { "2KAbhishek/markit.nvim", gh, false },
 	{ "2KAbhishek/pickme.nvim", gh, false },
-	{ "nvim-treesitter/nvim-treesitter-textobjects", gh, false },
-	{ "nvim-neotest/neotest", gh, false },
+	{ "akinsho/toggleterm.nvim", gh, false },
+	{ "chentoast/marks.nvim", gh, false },
+	{ "folke/snacks.nvim", gh, false },
+	{ "folke/todo-comments.nvim", gh, false },
+	{ "folke/which-key.nvim", gh, false },
+	{ "folke/zen-mode.nvim", gh, false },
+	{ "kevinhwang91/nvim-bqf", gh, false },
+	{ "L3MON4D3/LuaSnip", gh, false },
+	{ "lewis6991/gitsigns.nvim", gh, false },
 	{ "mg979/vim-visual-multi", gh, false },
+	{ "mikavilpas/yazi.nvim", gh, false },
+	{ "monaqa/dial.nvim", gh, false },
+	{ "mrcjkb/haskell-tools.nvim", gh, false }, -- already lazy
+	{ "mrcjkb/rustaceanvim", gh, false }, -- already lazy
+	{ "nvim-lua/plenary.nvim", gh, false },
+	{ "nvim-lualine/lualine.nvim", gh, false },
+	{ "nvim-mini/mini.nvim", gh, false },
+	{ "nvim-mini/mini.pick", gh, false },
+	{ "nvim-neotest/neotest", gh, false },   
+	{ "MrcJkb/neotest-haskell", gh, false }, -- TODO
+	{ "nvim-neotest/neotest-python", gh, false },
+	{ "nvim-neotest/nvim-nio", gh, false },
+	{ "nvim-telescope/telescope.nvim", gh, false },
+	{ "nvim-treesitter/nvim-treesitter-textobjects", gh, false },
+	{ "nvim-treesitter/nvim-treesitter", gh, false },
+	{ "rafamadriz/friendly-snippets", gh, false },
+	{ "ribru17/bamboo.nvim", gh, false },
+	{ "Saghen/blink.cmp", gh, false },
+	{ "sindrets/diffview.nvim", gh, false },
+	{ "stevearc/conform.nvim", gh, false },
+	{ "stevearc/oil.nvim", gh, false },
+	{ "voldikss/vim-floaterm", gh, false },
+    { "nvim-telescope/telescope-fzf-native.nvim", gh, false },
 }
 
 local make_specs = function(plugin_ids)
@@ -140,7 +122,7 @@ local make_specs = function(plugin_ids)
 		local group = lazy and "lazy" or "eager"
 		if nix_path then
 			local path = plugin_locations[id].path
-			table.insert(specs.nix.lazy, { path = path })
+			table.insert(specs.nix[group], { path = path })
 			if not lazy then
 				vim.opt.rtp:prepend(path)
 			end
@@ -263,36 +245,47 @@ vim.cmd("set completeopt+=noselect")
 
 -- vim.pack.add({ { src = "https://github.com/ii14/neorepl.nvim" } })
 
--- TODO: process old lazy.nvim config and keybinds
---[[
+-- conform.nvim ---------------------------------------------------------------
 
+require("conform").setup({
+			formatters_by_ft = {
+				python = {
+					-- To fix auto-fixable lint errors.
+					"ruff_fix",
+					-- To run the Ruff formatter.
+					"ruff_format",
+					-- To organize the imports.
+					"ruff_organize_imports",
+				},
+				nix = {
+					"alejandra",
+				},
+				lua = {
+					"stylua",
+				},
+				haskell = {
+					"fourmolu",
+				},
+				rust = {
+					"rustfmt",
+				},
+				go = {
+					"gofmt",
+				},
+			},
+		})
 
-M = {
+			-- Optional: format on save
+vim.api.nvim_create_autocmd("BufWritePre", {
+				callback = function(args)
+					require("conform").format({ bufnr = args.buf })
+				end,
+			})
+
+-- blink.cmp ------------------------------------------------------------------
+
+require("blink.cmp").setup(
 	{
-		"mrcjkb/haskell-tools.nvim",
-		version = "^6", -- Recommended
-		lazy = false, -- This plugin is already lazy
-	},
-	{
-		"mrcjkb/rustaceanvim",
-		version = "^6", -- Recommended
-		lazy = false, -- This plugin is already lazy
-	},
-	{
-		"saghen/blink.cmp",
-		-- optional: provides snippets for the snippet source
-		dependencies = { "rafamadriz/friendly-snippets" },
-
-		-- use a release tag to download pre-built binaries
-		version = "1.*",
-		-- AND/OR build from source, requires nightly: https://rust-lang.github.io/rustup/concepts/channels.html#working-with-nightly-rust
-		-- build = 'cargo build --release',
-		-- If you use nix, you can build from source using latest nightly rust with:
-		-- build = 'nix run .#build-plugin',
-
-		---@module 'blink.cmp'
-		---@type blink.cmp.Config
-		opts = {
 			-- 'default' (recommended) for mappings similar to built-in completions (C-y to accept)
 			-- 'super-tab' for mappings similar to vscode (tab to accept)
 			-- 'enter' for enter to accept
@@ -328,65 +321,39 @@ M = {
 			--
 			-- See the fuzzy documentation for more information
 			fuzzy = { implementation = "prefer_rust_with_warning" },
-		},
-		opts_extend = { "sources.default" },
-	},
+		}
+)
 
-	{
-		"folke/zen-mode.nvim",
-		opts = {
+-- zen-mode.nvim
+
+require("zen-mode").setup({
 			wezterm = {
 				enabled = false,
 				-- can be either an absolute font size or the number of incremental steps
 				font = "+4", -- (10% increase per step)
 			},
-		},
-	},
-	{
-		"nvim-lualine/lualine.nvim",
-		lazy = false,
+		})
 
-		config = function()
-			require("lualine").setup()
-		end,
-	},
-	{
-		"monaqa/dial.nvim",
-		lazy = true,
-		config = function()
-			local augend = require("dial.augend")
-			require("dial.config").augends:register_group({
+-- lualine --------------------------------------------------------------------
+
+require("lualine").setup()
+
+-- dial.nvim ------------------------------------------------------------------
+
+local augend = require("dial.augend")
+require("dial.config").augends:register_group({
 				default = {
 					augend.integer.alias.decimal,
 					augend.integer.alias.hex,
 					augend.date.alias["%Y/%m/%d"],
-					augend.constant.alias.Bool,
 					augend.constant.alias.bool,
 				},
 			})
-		end,
-	},
 
-	{
-		"ribru17/bamboo.nvim",
-		lazy = false,
-		priority = 1000,
-		config = function()
-			require("bamboo").setup({
-				style = "multiplex",
-				colors = {
-					bg0 = "#020802",
-				},
-				-- highlights = { Normal = { bg = "#020802" } },
-			})
-			require("bamboo").load()
-		end,
-	},
-	{
-		"nvim-treesitter/nvim-treesitter",
-		build = ":TSUpdate",
-		config = function()
-			require("nvim-treesitter.configs").setup({
+-- nvim-treesitter ------------------------------------------------------------
+
+if has_nix then
+ require("nvim-treesitter.configs").setup({
 				ensure_installed = {
 					"python",
 					"lua",
@@ -401,106 +368,59 @@ M = {
 				highlight = { enable = true },
 				indent = { enable = true },
 			})
-		end,
-	},
-	{
-		"stevearc/conform.nvim",
-		opts = {
-			formatters_by_ft = {
-				python = {
-					-- To fix auto-fixable lint errors.
-					"ruff_fix",
-					-- To run the Ruff formatter.
-					"ruff_format",
-					-- To organize the imports.
-					"ruff_organize_imports",
-				},
-				nix = {
-					"alejandra",
-				},
-				lua = {
-					"stylua",
-				},
-				haskell = {
-					"fourmolu",
-				},
-				rust = {
-					"rustfmt",
-				},
-				go = {
-					"gofmt",
-				},
-			},
-		},
-		config = function(_, opts)
-			require("conform").setup(opts)
+end
 
-			-- Optional: format on save
-			vim.api.nvim_create_autocmd("BufWritePre", {
-				callback = function(args)
-					require("conform").format({ bufnr = args.buf })
-				end,
-			})
-		end,
-	},
-	-- {
-	-- 	"nvim-tree/nvim-tree.lua",
-	-- 	dependencies = { "nvim-tree/nvim-web-devicons" }, -- optional icons
-	-- 	config = function()
-	-- 		require("nvim-tree").setup({})
-	-- 	end,
-	-- },
-	-- {
-	{
-		"mikavilpas/yazi.nvim",
-		version = "*", -- use the latest stable version
-		event = "VeryLazy",
-		dependencies = {
-			{ "nvim-lua/plenary.nvim", lazy = true },
-		},
-		keys = {
-			{
-				"<leader>-",
-				mode = { "n", "v" },
-				"<cmd>Yazi<cr>",
-				desc = "Open yazi at the current file",
-			},
-			{
-				-- Open in the current working directory
-				"<leader>cw",
-				"<cmd>Yazi cwd<cr>",
-				desc = "Open the file manager in nvim's working directory",
-			},
-			{
-				"<c-up>",
-				"<cmd>Yazi toggle<cr>",
-				desc = "Resume the last yazi session",
-			},
-		},
-		---@type YaziConfig | {}
-		opts = {
+-- nvim-tree ------------------------------------------------------------------
+
+-- require("nvim-tree").setup({})
+
+-- yazi.nvim: TODO ------------------------------------------------------------
+
+function load_yazi()
+    require("yazi").setup({
 			-- if you want to open yazi instead of netrw, see below for more info
 			open_for_directories = true,
-			keymaps = {
-				show_help = "<f1>",
-			},
-		},
-		init = function()
-			-- mark netrw as loaded so it's not loaded at all.
-			-- More details: https://github.com/mikavilpas/yazi.nvim/issues/802
-			vim.g.loaded_netrwPlugin = 1
-		end,
-	},
-	{
-		"willothy/wezterm.nvim",
-		config = true,
-	},
-	{
-		"akinsho/toggleterm.nvim",
-		version = "*",
-		opts = {
+			keymaps = {show_help = "<f1>"},
+	})
+end
+
+-- mark netrw as loaded so it's not loaded at all.
+-- More details: https://github.com/mikavilpas/yazi.nvim/issues/802
+vim.g.loaded_netrwPlugin = 1
+
+vim.keymap.set(
+	{ "n", "v" },
+	"<leader>-",
+	function()
+		load_yazi()
+		vim.cmd("Yazi")
+	end,
+	{ desc = "Open yazi at the current file." }
+)
+vim.keymap.set(
+	{ "n", "v" },
+	"<leader>cw",
+	function()
+		load_yazi()
+		vim.cmd("Yazi cwd")
+	end,
+	{ desc = "Open the file manager in nvim's working directory." }
+)
+vim.keymap.set(
+	{ "n", "v" },
+	"<c-up>",
+	function()
+		load_yazi()
+		vim.cmd("Yazi toggle")
+	end,
+	{ desc = "Resume the last yazi session." }
+)
+
+-- toggleterm.nvim ------------------------------------------------------------
+
+require("toggleterm").setup({
 			-- Your other toggleterm options here...
-			open_mapping = [[<c-\>]DELETE_ME],
+			open_mapping = [[<c-\>]],
 			direction = "float",
 			-- This is the key to inheriting your colorscheme's background
 			highlights = {
@@ -511,137 +431,59 @@ M = {
 					link = "NormalFloat",
 				},
 			},
-		},
-		config = function()
-			require("toggleterm").setup()
-		end,
-	},
-	{
-		"voldikss/vim-floaterm",
-		config = function()
-			-- Optional: Set global configurations for floaterm if needed
-			vim.g.floaterm_width = 0.8
-			vim.g.floaterm_height = 0.8
+})
 
-			-- This is the crucial part for color integration
-		end,
-	},
-	{
-		"folke/which-key.nvim",
-		event = "VeryLazy",
-		init = function()
-			vim.o.timeout = true
-			vim.o.timeoutlen = 300
-		end,
-		opts = {
-			-- your configuration comes here
-			-- or leave it empty to use the default settings
-		},
-	},
-	-- {
-	-- 	"hrsh7th/nvim-cmp",
-	-- 	version = false, -- last release is way too old
-	-- 	event = "InsertEnter",
-	-- 	dependencies = {
-	-- 	  "hrsh7th/cmp-nvim-lsp",
-	-- 	  "hrsh7th/cmp-buffer",
-	-- 	  "hrsh7th/cmp-path",
-	-- 	},
-	-- 	-- Not all LSP servers add brackets when completing a function.
-	-- 	-- To better deal with this, LazyVim adds a custom option to cmp,
-	-- 	-- that you can configure. For example:
-	-- 	--
-	-- 	-- ```lua
-	-- 	-- opts = {
-	-- 	--   auto_brackets = { "python" }
-	-- 	-- }
-	-- 	-- ```
-	-- 	opts = function()
-	-- 	  -- Register nvim-cmp lsp capabilities
-	-- 	  vim.lsp.config("*", { capabilities = require("cmp_nvim_lsp").default_capabilities() })
 
-	-- 	  vim.api.nvim_set_hl(0, "CmpGhostText", { link = "Comment", default = true })
-	-- 	  local cmp = require("cmp")
-	-- 	  local defaults = require("cmp.config.default")()
-	-- 	  local auto_select = true
-	-- 	  return {
-	-- 		auto_brackets = {}, -- configure any filetype to auto add brackets
-	-- 		completion = {
-	-- 		  completeopt = "menu,menuone,noinsert" .. (auto_select and "" or ",noselect"),
-	-- 		},
-	-- 		preselect = auto_select and cmp.PreselectMode.Item or cmp.PreselectMode.None,
-	-- 		mapping = cmp.mapping.preset.insert({
-	-- 		  ["<C-b>"] = cmp.mapping.scroll_docs(-4),
-	-- 		  ["<C-f>"] = cmp.mapping.scroll_docs(4),
-	-- 		  ["<C-n>"] = cmp.mapping.select_next_item({ behavior = cmp.SelectBehavior.Insert }),
-	-- 		  ["<C-p>"] = cmp.mapping.select_prev_item({ behavior = cmp.SelectBehavior.Insert }),
-	-- 		  ["<C-Space>"] = cmp.mapping.complete(),
-	-- 		  ["<CR>"] = LazyVim.cmp.confirm({ select = auto_select }),
-	-- 		  ["<C-y>"] = LazyVim.cmp.confirm({ select = true }),
-	-- 		  ["<S-CR>"] = LazyVim.cmp.confirm({ behavior = cmp.ConfirmBehavior.Replace }), -- Accept currently selected item. Set `select` to `false` to only confirm explicitly selected items.
-	-- 		  ["<C-CR>"] = function(fallback)
-	-- 			cmp.abort()
-	-- 			fallback()
-	-- 		  end,
-	-- 		  ["<tab>"] = function(fallback)
-	-- 			return LazyVim.cmp.map({ "snippet_forward", "ai_nes", "ai_accept" }, fallback)()
-	-- 		  end,
-	-- 		}),
-	-- 		sources = cmp.config.sources({
-	-- 		  { name = "lazydev" },
-	-- 		  { name = "nvim_lsp" },
-	-- 		  { name = "path" },
-	-- 		}, {
-	-- 		  { name = "buffer" },
-	-- 		}),
-	-- 		formatting = {
-	-- 		  format = function(entry, item)
-	-- 			local icons = LazyVim.config.icons.kinds
-	-- 			if icons[item.kind] then
-	-- 			  item.kind = icons[item.kind] .. item.kind
-	-- 			end
+-- vim-floaterm ---------------------------------------------------------------
 
-	-- 			local widths = {
-	-- 			  abbr = vim.g.cmp_widths and vim.g.cmp_widths.abbr or 40,
-	-- 			  menu = vim.g.cmp_widths and vim.g.cmp_widths.menu or 30,
-	-- 			}
+vim.g.floaterm_width = 0.8
+vim.g.floaterm_height = 0.8
 
-	-- 			for key, width in pairs(widths) do
-	-- 			  if item[key] and vim.fn.strdisplaywidth(item[key]) > width then
-	-- 				item[key] = vim.fn.strcharpart(item[key], 0, width - 1) .. "…"
-	-- 			  end
-	-- 			end
+-- wezterm: TODO: vendor ------------------------------------------------------
 
-	-- 			return item
-	-- 		  end,
-	-- 		},
-	-- 		experimental = {
-	-- 		  -- only show ghost text when we show ai completions
-	-- 		  ghost_text = vim.g.ai_cmp and {
-	-- 			hl_group = "CmpGhostText",
-	-- 		  } or false,
-	-- 		},
-	-- 		sorting = defaults.sorting,
-	-- 	  }
-	-- 	end,
-	-- 	main = "lazyvim.util.cmp",
-	--   },
-	{
-		"L3MON4D3/LuaSnip",
-		dependencies = { "rafamadriz/friendly-snippets" }, -- Optional: for pre-made snippets
-		build = "make install_jsregexp", -- For regex snippets
-		event = "InsertEnter",
-	},
-	{
-		"hrsh7th/nvim-cmp",
-		event = "InsertEnter",
-		dependencies = {
-			"hrsh7th/cmp-nvim-lsp",
-			"hrsh7th/cmp-buffer",
-			"hrsh7th/cmp-path",
-			"saadparwaiz1/cmp_luasnip",
-		},
-		config = function()
+    -- https://github.com/willothy/wezterm.nvim
+	-- https://github.com/ianhomer/wezterm.nvim
+	-- https://github.com/aca/wezterm.nvim
+	-- https://github.com/letieu/wezterm-move.nvim
+	-- https://github.com/jonboh/wezterm-mux.nvim -> https://github.com/mrjones2014/smart-splits.nvim
+
+
+-- zen-mode.nvim --------------------------------------------------------------
+
+vim.keymap.set(
+	"n",
+	"<leader>zm",
+	function()
+		require("zen-mode").toggle({
+			window = {
+				width = .85 -- width will be 85% of the editor width
+			}
+		})
+	end,
+	{ desc = "Toggle zen mode."}
+)
+
+-- which-key ------------------------------------------------------------------
+
+require("which-key").setup()
+
+-- LuaSnip --------------------------------------------------------------------
+
+require("luasnip").setup()
+        -- "L3MON4D3/LuaSnip",
+		-- dependencies = { "rafamadriz/friendly-snippets" }, -- Optional: for pre-made snippets
+		-- build = "make install_jsregexp", -- For regex snippets
+		-- event = "InsertEnter",
+
+-- nvim-cmp (old) -------------------------------------------------------------
+
+-- dependencies = {
+-- 	"hrsh7th/cmp-nvim-lsp",
+-- 	"hrsh7th/cmp-buffer",
+-- 	"hrsh7th/cmp-path",
+-- 	"saadparwaiz1/cmp_luasnip",
+-- }
+local old_setup_nvim_cmp = function()
 			vim.lsp.config("*", { capabilities = require("cmp_nvim_lsp").default_capabilities() })
 			vim.api.nvim_set_hl(0, "CmpGhostText", { link = "Comment", default = true })
 			local cmp = require("cmp")
@@ -734,18 +576,18 @@ M = {
 				},
 				sorting = defaults.sorting,
 			}
-		end,
-	},
-	{
-		"kevinhwang91/nvim-bqf",
-		ft = "qf", -- Lazy load on opening the quickfix window
-	},
-	{
-		"echasnovski/mini.nvim",
-		version = "*", -- or pin to a specific release
-		event = "VeryLazy",
-		config = function()
-			-- We just setup the modules we want to use
+		end
+
+
+
+
+		-- 
+
+
+
+-- mini.nvim ------------------------------------------------------------------
+
+-- We just setup the modules we want to use
 			require("mini.pairs").setup()
 			require("mini.icons").setup()
 			require("mini.surround").setup()
@@ -757,114 +599,59 @@ M = {
 			-- require("mini.marks").setup()
 			-- require("mini.fold").setup()
 			-- require("mini.terminal").setup()
-		end,
-	},
 
-	{
-		"lewis6991/gitsigns.nvim",
-		event = { "BufReadPre", "BufNewFile" }, -- Load on file read or new file
-		config = function()
-			require("gitsigns").setup({
-				-- You can add configuration here later
-			})
-		end,
-	},
+-- nvim-bqf: TODO should lazy load on opening the quickfix window -> ft = "qf"
 
-	{
-		"folke/todo-comments.nvim",
-		event = { "BufReadPre", "BufNewFile" }, -- Load on file read
-		dependencies = { "nvim-lua/plenary.nvim" },
-		config = function()
-			require("todo-comments").setup({
-				-- No options needed for basic setup
-			})
-		end,
-	},
-	{
-		"nvim-telescope/telescope.nvim",
-		cmd = "Telescope", -- Lazy load on command
-		dependencies = {
-			"nvim-lua/plenary.nvim",
-			{
-				"nvim-telescope/telescope-fzf-native.nvim",
-				-- This will build the C extension for faster sorting
-				build = "make",
-			},
-		},
-		config = function()
-			local telescope = require("telescope")
-			telescope.setup({
+-- gitsigns.nvim --------------------------------------------------------------
+
+-- event = { "BufReadPre", "BufNewFile" }
+require("gitsigns").setup({})
+
+-- todo-comments.nvim ---------------------------------------------------------
+
+require("todo-comments").setup({})
+
+-- telescope.nvim: TODO -------------------------------------------------------
+
+-- cmd = "Telescope" -- lazy load on command Telescope
+-- dependencies = {
+-- 	"nvim-lua/plenary.nvim",
+-- 	{
+-- 		"nvim-telescope/telescope-fzf-native.nvim",
+-- 		build = "make",
+-- 	},
+-- }
+local telescope = require("telescope")
+telescope.setup({
 				defaults = {
-					-- We'll keep this simple for now
 					file_ignore_patterns = { "%.git/", "node_modules/", "%.venv/" },
 				},
 			})
-			-- This is crucial to load the fzf-native extension
-			telescope.load_extension("fzf")
-		end,
-	},
-	{
-		"sindrets/diffview.nvim",
-		cmd = { "DiffviewOpen", "DiffviewClose", "DiffviewToggleFiles", "DiffviewFocusFiles" },
-		dependencies = { "nvim-lua/plenary.nvim" },
-		config = function()
-			require("diffview").setup({})
-		end,
-	},
-	--   {
-	-- 	"chentoast/marks.nvim",
-	-- 	event = "VeryLazy",
-	-- 	opts = {},
-	--   },
-	{
-		"2kabhishek/markit.nvim",
-		dependencies = { "2kabhishek/pickme.nvim" },
-		config = {}, -- load_config('tools.marks'),
-		event = { "BufReadPre", "BufNewFile" },
-	},
-	{
-		"2KAbhishek/pickme.nvim",
-		cmd = "PickMe",
-		event = "VeryLazy",
-		dependencies = {
-			-- Include at least one of these pickers:
-			"folke/snacks.nvim", -- For snacks.picker
-			-- 'nvim-telescope/telescope.nvim', -- For telescope
-			-- 'ibhagwan/fzf-lua', -- For fzf-lua
-		},
-		opts = {
-			picker_provider = "snacks", -- Default provider
-		},
-	},
-	-- {
-	-- 	'stevearc/oil.nvim',
-	-- 	---@module 'oil'
-	-- 	---@type oil.SetupOpts
-	-- 	opts = {},
-	-- 	-- Optional dependencies
-	-- 	dependencies = { { "nvim-mini/mini.icons", opts = {} } },
-	-- 	-- dependencies = { "nvim-tree/nvim-web-devicons" }, -- use if you prefer nvim-web-devicons
-	-- 	-- Lazy loading is not recommended because it is very tricky to make it work correctly in all situations.
-	-- 	lazy = false,
-	--   },
-	{
-		"nvim-treesitter/nvim-treesitter-textobjects",
-		lazy = true,
-		dependencies = { "nvim-treesitter/nvim-treesitter" },
-	},
-	-- TODO: https://tamerlan.dev/setting-up-a-testing-environment-in-neovim/
-	{
-		"nvim-neotest/neotest",
-		dependencies = {
-			"nvim-lua/plenary.nvim",
-			"nvim-treesitter/nvim-treesitter",
-			"antoinemadec/FixCursorHold.nvim",
-			"nvim-neotest/nvim-nio",
+telescope.load_extension("fzf")
 
-			"nvim-neotest/neotest-python",
-		},
-		config = function()
-			require("neotest").setup({
+-- diffview.nvim --------------------------------------------------------------
+
+-- cmd = { "DiffviewOpen", "DiffviewClose", "DiffviewToggleFiles", "DiffviewFocusFiles" }
+require("diffview").setup({})
+
+-- markit.nvim ----------------------------------------------------------------
+
+-- require("markit").setup({})
+
+-- marks.nvim ---------
+
+require("marks").setup({})
+
+-- neotest --------------------------------------------------------------------
+
+-- dependencies = {
+-- 	"nvim-lua/plenary.nvim",
+-- 	"nvim-treesitter/nvim-treesitter",
+-- 	"antoinemadec/FixCursorHold.nvim",
+-- 	"nvim-neotest/nvim-nio",
+-- 	"nvim-neotest/neotest-python",
+-- }
+require("neotest").setup({
 				adapters = {
 					require("neotest-python")({
 						-- Extra arguments for nvim-dap configuration
@@ -892,27 +679,48 @@ M = {
 					}),
 				},
 			})
-		end,
-	},
-	-- {
-	-- 	"zbirenbaum/copilot.lua",
-	-- 	cmd = "Copilot",
-	-- 	event = "InsertEnter",
-	-- 	config = function()
-	-- 		require("copilot").setup({
-	-- 			suggestion = { enabled = true },
-	-- 			panel = { enabled = true },
-	-- 		})
-	-- 	end,
-	-- },
-	{
-		"mg979/vim-visual-multi",
-		branch = "master",
-		init = function()
-			vim.g.VM_default_mappings = true
-		end,
-	},
-}
 
-]]
 
+
+-- TODO: process old lazy.nvim config and keybinds
+
+-- pickme 
+
+require("pickme").setup({
+	picker_provider = "snacks",
+})
+
+-- nvim-treesitter-textobjects ------------------------------------------------
+
+require("nvim-treesitter-textobjects").setup({
+  select = {
+    -- Automatically jump forward to textobj, similar to targets.vim
+    lookahead = true,
+    -- You can choose the select mode (default is charwise 'v')
+    --
+    -- Can also be a function which gets passed a table with the keys
+    -- * query_string: eg '@function.inner'
+    -- * method: eg 'v' or 'o'
+    -- and should return the mode ('v', 'V', or '<c-v>') or a table
+    -- mapping query_strings to modes.
+    selection_modes = {
+      ['@parameter.outer'] = 'v', -- charwise
+      ['@function.outer'] = 'V', -- linewise
+      -- ['@class.outer'] = '<c-v>', -- blockwise
+    },
+    -- If you set this to `true` (default is `false`) then any textobject is
+    -- extended to include preceding or succeeding whitespace. Succeeding
+    -- whitespace has priority in order to act similarly to eg the built-in
+    -- `ap`.
+    --
+    -- Can also be a function which gets passed a table with the keys
+    -- * query_string: eg '@function.inner'
+    -- * selection_mode: eg 'v'
+    -- and should return true of false
+    include_surrounding_whitespace = false,
+  },
+})
+
+-- vim-visual-multi
+
+vim.g.VM_default_mappings = true
