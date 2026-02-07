@@ -15,31 +15,35 @@ o.termguicolors = true
 o.undofile = true
 o.incsearch = true
 
-map('n', '<leader>o', ':update<CR> :source<CR>')
-map('n', '<leader>ww', ':write<CR>')
-map('n', '<leader>qq', ':quit<CR>')
-map('n', '<leader>wq', ':wq<CR>')
-map('n', '<leader>f', ":Pick files<CR>")
+map("n", "<leader>o", ":update<CR> :source<CR>")
+map("n", "<leader>ww", ":write<CR>")
+map("n", "<leader>qq", ":quit<CR>")
+map("n", "<leader>wq", ":wq<CR>")
+map("n", "<leader>f", ":Pick files<CR>")
 -- map('t', '^[', "^\^N")
-map('t', '<Esc>', [[<C-\><C-n>]], { desc = "Exit terminal mode" })
-map('t', 'kj', [[<C-\><C-n>]], { desc = "Exit terminal mode" })
+map("t", "<Esc>", [[<C-\><C-n>]], { desc = "Exit terminal mode" })
+map("t", "kj", [[<C-\><C-n>]], { desc = "Exit terminal mode" })
 -- map('t', '^O', '^\^O')
-map('t', '<C-o>', [[<C-\><C-o>]], { desc = "Temporary normal mode" })
-map('n', '<leader>lf', vim.lsp.buf.format)
-map('n', '<leader>h', ":Pick help")
-map('n', '<leader>e', ":Oil<CR>")
-map({ 'n', 'v', 'x' }, '<leader>y', '"+y<CR>')
-map({ 'n', 'v', 'x' }, '<leader>d', '+d<CR>')
-
-
+map("t", "<C-o>", [[<C-\><C-o>]], { desc = "Temporary normal mode" })
+map("n", "<leader>lf", vim.lsp.buf.format)
+map("n", "<leader>h", ":Pick help")
+map("n", "<leader>e", ":Oil<CR>")
+map({ "n", "v", "x" }, "<leader>y", '"+y<CR>')
+map({ "n", "v", "x" }, "<leader>d", "+d<CR>")
 
 --------------------
 
 local NVIM_DIR = vim.fn.expand("~/.config/nvim")
 
-local gh = function(id) return "https://github.com/" .. id end
-local gl = function(id) return "https://gitlab.com/" .. id end
-local cb = function(id) return "https://codeberg.org/" .. id end
+local gh = function(id)
+	return "https://github.com/" .. id
+end
+local gl = function(id)
+	return "https://gitlab.com/" .. id
+end
+local cb = function(id)
+	return "https://codeberg.org/" .. id
+end
 
 local plugin_ids_eager = {}
 local plugin_ids_lazy = {}
@@ -47,34 +51,33 @@ local plugin_ids_lazy = {}
 local PLUGIN_DECLARATION = {
 	-- id, url expander, lazy
 	{ "stevearc/oil.nvim", gh, false },
-    { "Saghen/blink.cmp", gh, false },
-    { "nvim-mini/mini.pick", gh, false },
-    { "L3MON4D3/LuaSnip", gh, false },
-    { "mrcjkb/rustaceanvim", gh, false },
-    { "nvim-treesitter/nvim-treesitter", gh, false },
-    { "mrcjkb/haskell-tools.nvim", gh, false },
-    { "ribru17/bamboo.nvim", gh, false },
+	{ "Saghen/blink.cmp", gh, false },
+	{ "nvim-mini/mini.pick", gh, false },
+	{ "L3MON4D3/LuaSnip", gh, false },
+	{ "mrcjkb/rustaceanvim", gh, false },
+	{ "nvim-treesitter/nvim-treesitter", gh, false },
+	{ "mrcjkb/haskell-tools.nvim", gh, false },
+	{ "ribru17/bamboo.nvim", gh, false },
 
 	{ "folke/zen-mode.nvim", gh, false },
 	{ "nvim-lualine/lualine.nvim", gh, false },
 	{ "monaqa/dial.nvim", gh, false },
 	{ "mikavilpas/yazi.nvim", gh, false },
 
-
-    { "stevearc/conform.nvim", gh, false },
-    { "akinsho/toggleterm.nvim", gh, false },
-    { "voldikss/vim-floaterm", gh, false },
-    { "folke/which-key.nvim", gh, false },
-    { "kevinhwang91/nvim-bqf", gh, false },
-    { "nvim-mini/mini.nvim", gh, false },
-    { "lewis6991/gitsigns.nvim", gh, false },
-    { "folke/todo-comments.nvim", gh, false },
-    { "nvim-telescope/telescope.nvim", gh, false },
-    { "nvim-lua/plenary.nvim", gh, false },
-    { "sindrets/diffview.nvim", gh, false },
-    { "2KAbhishek/markit.nvim", gh, false },
-    { "2KAbhishek/pickme.nvim", gh, false },
-    -- "stevearc/conform.nvim",
+	{ "stevearc/conform.nvim", gh, false },
+	{ "akinsho/toggleterm.nvim", gh, false },
+	{ "voldikss/vim-floaterm", gh, false },
+	{ "folke/which-key.nvim", gh, false },
+	{ "kevinhwang91/nvim-bqf", gh, false },
+	{ "nvim-mini/mini.nvim", gh, false },
+	{ "lewis6991/gitsigns.nvim", gh, false },
+	{ "folke/todo-comments.nvim", gh, false },
+	{ "nvim-telescope/telescope.nvim", gh, false },
+	{ "nvim-lua/plenary.nvim", gh, false },
+	{ "sindrets/diffview.nvim", gh, false },
+	{ "2KAbhishek/markit.nvim", gh, false },
+	{ "2KAbhishek/pickme.nvim", gh, false },
+	-- "stevearc/conform.nvim",
 	-- "akinsho/toggleterm.nvim",
 	-- "voldikss/vim-floaterm",
 	-- "folke/which-key.nvim",
@@ -92,41 +95,43 @@ local PLUGIN_DECLARATION = {
 	-- "mg979/vim-visual-multi",
 	-- "willothy/wezterm.nvim" -> just vendor
 
-
-    { "stevearc/conform.nvim", gh, false },
-    { "akinsho/toggleterm.nvim", gh, false },
-    { "voldikss/vim-floaterm", gh, false },
-    { "folke/which-key.nvim", gh, false },
-    { "kevinhwang91/nvim-bqf", gh, false },
-    { "nvim-mini/mini.nvim", gh, false },
-    { "lewis6991/gitsigns.nvim", gh, false },
-    { "folke/todo-comments.nvim", gh, false },
-    { "nvim-telescope/telescope.nvim", gh, false },
-    { "nvim-lua/plenary.nvim", gh, false },
-    { "sindrets/diffview.nvim", gh, false },
-    { "2KAbhishek/markit.nvim", gh, false },
-    { "2KAbhishek/pickme.nvim", gh, false },
-    { "nvim-treesitter/nvim-treesitter-textobjects", gh, false },
-    { "nvim-neotest/neotest", gh, false },
-    { "mg979/vim-visual-multi", gh, false },
+	{ "stevearc/conform.nvim", gh, false },
+	{ "akinsho/toggleterm.nvim", gh, false },
+	{ "voldikss/vim-floaterm", gh, false },
+	{ "folke/which-key.nvim", gh, false },
+	{ "kevinhwang91/nvim-bqf", gh, false },
+	{ "nvim-mini/mini.nvim", gh, false },
+	{ "lewis6991/gitsigns.nvim", gh, false },
+	{ "folke/todo-comments.nvim", gh, false },
+	{ "nvim-telescope/telescope.nvim", gh, false },
+	{ "nvim-lua/plenary.nvim", gh, false },
+	{ "sindrets/diffview.nvim", gh, false },
+	{ "2KAbhishek/markit.nvim", gh, false },
+	{ "2KAbhishek/pickme.nvim", gh, false },
+	{ "nvim-treesitter/nvim-treesitter-textobjects", gh, false },
+	{ "nvim-neotest/neotest", gh, false },
+	{ "mg979/vim-visual-multi", gh, false },
 }
 
 local make_specs = function(plugin_ids)
-	
 	local specs = {
 		nix = {
 			lazy = {},
-		    eager = {},
+			eager = {},
 		},
 		git = {
 			lazy = {},
-		    eager = {},
-		}
+			eager = {},
+		},
 	}
 
 	local has_nix, plugin_locations = pcall(dofile, NVIM_DIR .. "/nix_plugins.lua")
 
-	local get_nix_path = function(_id) if has_nix then return plugin_locations[_id] end end
+	local get_nix_path = function(_id)
+		if has_nix then
+			return plugin_locations[_id]
+		end
+	end
 
 	for _, info in ipairs(plugin_ids) do
 		local id, expander, lazy = unpack(info)
@@ -136,14 +141,15 @@ local make_specs = function(plugin_ids)
 		if nix_path then
 			local path = plugin_locations[id].path
 			table.insert(specs.nix.lazy, { path = path })
-			if not lazy then vim.opt.rtp:prepend(path) end
+			if not lazy then
+				vim.opt.rtp:prepend(path)
+			end
 		else
 			table.insert(specs.git[group], { src = expander(id) })
 		end
 	end
 	return specs
 end
-
 
 --------------
 
@@ -153,35 +159,34 @@ PLUGIN_SPECS = make_specs(PLUGIN_DECLARATION)
 -- print(vim.inspect(PLUGIN_SPECS))
 vim.pack.add(PLUGIN_SPECS.git.eager)
 
-require('nvim-treesitter.configs').setup({
-    ensure_installed = has_nix and {} or { "lua", "python", "rust", "typescript", "haskell" },
-    highlight = { enable = true },
-    parser_install_dir = not has_nix and vim.fn.stdpath("data") .. "/parsers" or nil,
-})
+if has_nix then
+	require("nvim-treesitter.configs").setup({
+		ensure_installed = has_nix and {} or { "lua", "python", "rust", "typescript", "haskell" },
+		highlight = { enable = true },
+		parser_install_dir = not has_nix and vim.fn.stdpath("data") .. "/parsers" or nil,
+	})
+end
 
 --------------
 
+vim.keymap.set("n", "<leader>lu", function()
+	-- Create a new empty floating window or split
+	vim.cmd("vsplit | enew")
+	vim.bo.filetype = "lua"
+	vim.bo.bufhidden = "hide"
 
-
-vim.keymap.set('n', '<leader>lu', function()
-    -- Create a new empty floating window or split
-    vim.cmd('vsplit | enew')
-    vim.bo.filetype = 'lua'
-    vim.bo.bufhidden = 'hide'
-    
-    -- Map <CR> to execute the current line or selection
-    vim.keymap.set('n', '<CR>', ':.lua<CR>', { buffer = true })
-    vim.keymap.set('v', '<CR>', ':lua<CR>', { buffer = true })
+	-- Map <CR> to execute the current line or selection
+	vim.keymap.set("n", "<CR>", ":.lua<CR>", { buffer = true })
+	vim.keymap.set("v", "<CR>", ":lua<CR>", { buffer = true })
 end, { desc = "Open Lua Scratchpad" })
 
-
 require("bamboo").setup({
-				style = "multiplex",
-				colors = {
-    bg0 = "#020802",
-				},
-				-- highlights = { Normal = { bg = "#020802" } },
-			})
+	style = "multiplex",
+	colors = {
+		bg0 = "#020802",
+	},
+	-- highlights = { Normal = { bg = "#020802" } },
+})
 require("bamboo").load()
 -- require("vague").setup({ transparent = true })
 vim.cmd("colorscheme bamboo")
@@ -194,30 +199,30 @@ require("oil").setup()
 -- require('nvim-treesitter')
 -- require('nvim-treesitter.install').prefer_git = true
 local ts_languages = {
-    "python",
-    "lua",
-    "javascript",
-    "typescript",
-    "nix",
-    "json",
-    "yaml",
-    "toml",
-    "markdown",
-    "rust",
-    "haskell",
-    "zig"
+	"python",
+	"lua",
+	"javascript",
+	"typescript",
+	"nix",
+	"json",
+	"yaml",
+	"toml",
+	"markdown",
+	"rust",
+	"haskell",
+	"zig",
 }
-require('nvim-treesitter').setup {
-  -- Directory to install parsers and queries to (prepended to `runtimepath` to have priority)
-  install_dir = vim.fn.stdpath('data') .. '/site',
-  ensure_installed = ts_languages,
-  highlight = { enable = true },
-  indent = { enable = true },
-}
+require("nvim-treesitter").setup({
+	-- Directory to install parsers and queries to (prepended to `runtimepath` to have priority)
+	install_dir = vim.fn.stdpath("data") .. "/site",
+	ensure_installed = ts_languages,
+	highlight = { enable = true },
+	indent = { enable = true },
+})
 -- require('nvim-treesitter').install({ "typescript", "javascript", "python", "rust", "haskell", "zig" }):wait(300000) -- wait max. 5 minutes
 -- require('nvim-treesitter.configs').setup({
 --     ensure_installed = { "typescript", "javascript", "python", "rust", "haskell" },
---     highlight = { 
+--     highlight = {
 --         enable = true,
 --         -- Setting this to true will run `:h syntax` and tree-sitter at the same time.
 --         -- Set to `false` if you want only tree-sitter.
@@ -235,31 +240,28 @@ vim.lsp.enable("lua_ls")
 vim.lsp.enable("ruff")
 vim.lsp.enable("tinymist")
 vim.lsp.config("lua_ls", {
-		settings = {
-			Lua = {
-				workspace = { library = vim.api.nvim_get_runtime_file("", true), }
-			}
-		}
-	}
-)
+	settings = {
+		Lua = {
+			workspace = { library = vim.api.nvim_get_runtime_file("", true) },
+		},
+	},
+})
 vim.lsp.config("ruff", {}) -- TODO
 vim.lsp.config("tinymist", {}) -- TODO
 vim.lsp.config("rust-analyzer", {}) -- TODO
 vim.lsp.config("haskell-ls", {}) -- TODO
 
-vim.api.nvim_create_autocmd('LspAttach', {
+vim.api.nvim_create_autocmd("LspAttach", {
 	callback = function(ev)
 		local client = vim.lsp.get_client_by_id(ev.data.client_id)
-		if client:supports_method('textDocument/completion') then
+		if client:supports_method("textDocument/completion") then
 			vim.lsp.completion.enable(true, client.id, ev.buf, { autotrigger = true })
 		end
 	end,
 })
-vim.cmd('set completeopt+=noselect')
+vim.cmd("set completeopt+=noselect")
 
 -- vim.pack.add({ { src = "https://github.com/ii14/neorepl.nvim" } })
-
-
 
 -- TODO: process old lazy.nvim config and keybinds
 --[[
@@ -913,3 +915,4 @@ M = {
 }
 
 ]]
+
