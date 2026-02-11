@@ -19,6 +19,7 @@ o.incsearch = true
 o.timeout = true
 o.timeoutlen = 300
 
+
 map("n", "<leader>o", ":update<CR> :source<CR>")
 map("n", "<leader>ww", ":write<CR>")
 map("n", "<leader>qq", ":quit<CR>")
@@ -34,6 +35,627 @@ map("n", "<leader>h", ":Pick help")
 map("n", "<leader>e", ":Oil<CR>")
 map({ "n", "v", "x" }, "<leader>y", '"+y<CR>')
 map({ "n", "v", "x" }, "<leader>d", "+d<CR>")
+
+
+
+-- FROM PREVIOUS CONFIG -----------------------------------------------------------------------------------------------
+
+
+-- local current_dir = vim.fn.getcwd()
+-- vim.cmd.cd(config_dir)
+
+local config_dir = vim.fn.fnamemodify(debug.getinfo(1).source:sub(2), ":p:h")
+vim.opt.runtimepath:prepend(config_dir)
+-- print(config_dir)
+
+package.path = config_dir .. "/lua/?.lua;" .. config_dir .. "/lua/?/init.lua;" .. package.path
+
+vim.api.nvim_set_hl(0, "Normal", { bg = "#020802" })
+
+
+vim.diagnostic.config({ virtual_text = false, virtual_lines = { current_line = true } })
+vim.cmd("hi link Floaterm Normal")
+vim.cmd("hi link FloatermBorder Normal")
+vim.api.nvim_set_hl(0, "Normal", { bg = "#020802" })
+
+-- lua.cmd.cd(current_dir)
+-- print("reached end of init.lua")
+
+
+
+
+----------------------------------------------------------------------------------------------------------------------- LSP
+local diagnostic_modes = {
+	{
+		name = "End of Line (Virtual Text)",
+		config = {
+			virtual_text = {
+				prefix = "●", -- Could be '■', '▎', 'x'
+				spacing = 4,
+				source = "if_many",
+			},
+			virtual_lines = false,
+			signs = true,
+			underline = true,
+			update_in_insert = false,
+		},
+	},
+	{
+		name = "Under Line (Virtual Lines)",
+		config = {
+			virtual_text = false,
+			-- 'virtual_lines' is now a built-in handler in Nvim 0.10/0.11+
+			virtual_lines = {
+				only_current_line = true, -- Only show for current line to reduce clutter
+				highlight_whole_line = false,
+			},
+			signs = true,
+			underline = true,
+			update_in_insert = false,
+		},
+	},
+	{
+		name = "Gutter Only (Signs)",
+		config = {
+			virtual_text = false,
+			virtual_lines = false,
+			signs = {
+				-- Custom mapping for signs if you want specific characters
+				text = {
+					[vim.diagnostic.severity.ERROR] = "E",
+					[vim.diagnostic.severity.WARN] = "W",
+					[vim.diagnostic.severity.HINT] = "H",
+					[vim.diagnostic.severity.INFO] = "I",
+				},
+			},
+			underline = false, -- Often cleaner to disable underline in "minimal" mode
+			update_in_insert = false,
+		},
+	},
+}
+
+-- State tracking
+local current_mode_index = 1
+local diagnostics_active = false
+
+-- 2. Function to set the configuration
+local function set_diagnostics_mode()
+	if not diagnostics_active then
+		vim.diagnostic.enable(false)
+		-- print("LSP Diagnostics: OFF")
+		return
+	end
+
+	vim.diagnostic.enable(true)
+	local mode = diagnostic_modes[current_mode_index]
+	vim.diagnostic.config(mode.config)
+	print("LSP Mode: " .. mode.name)
+end
+
+-- 3. Keybind: Toggle On/Off
+vim.keymap.set("n", "<leader>dt", function()
+	diagnostics_active = not diagnostics_active
+	set_diagnostics_mode()
+end, { desc = "Toggle LSP Diagnostics" })
+
+-- 4. Keybind: Cycle Modes
+vim.keymap.set("n", "<leader>dm", function()
+	-- Only cycle if active; otherwise turn on and reset to 1
+	if not diagnostics_active then
+		diagnostics_active = true
+		current_mode_index = 1
+	else
+		current_mode_index = current_mode_index + 1
+		if current_mode_index > #diagnostic_modes then
+			current_mode_index = 1
+		end
+	end
+	set_diagnostics_mode()
+end, { desc = "Cycle LSP Diagnostic Modes" })
+
+-- Initialize on startup
+set_diagnostics_mode()
+
+
+
+-- HASKELL
+
+vim.lsp.config["haskell-language-server"] = {
+	cmd = { "haskell-language-server" },
+	filetypes = { "haskell" },
+	root_markers = { { "*.cabal" }, ".git" },
+	settings = {},
+}
+
+-- LUA
+
+vim.lsp.config["luals"] = {
+	-- Command and arguments to start the server.
+	cmd = { "lua-language-server" },
+	-- Filetypes to automatically attach to.
+	filetypes = { "lua" },
+	-- Sets the "workspace" to the directory where any of these files is found.
+	-- Files that share a root directory will reuse the LSP server connection.
+	-- Nested lists indicate equal priority, see |vim.lsp.Config|.
+	root_markers = { { ".luarc.json", ".luarc.jsonc" }, ".git" },
+	-- Specific settings to send to the server. The schema is server-defined.
+	-- Example: https://raw.githubusercontent.com/LuaLS/vscode-lua/master/setting/schema.json
+	settings = {
+		Lua = {
+			runtime = {
+				version = "LuaJIT",
+			},
+			workspace = {
+				library = vim.api.nvim_get_runtime_file("", true),
+			},
+			diagnostics = {
+				globals = {
+					"vim",
+				},
+			},
+		},
+	},
+}
+
+-- PYTHON
+
+vim.lsp.config["ruff"] = {
+	-- Command and arguments to start the server.
+	cmd = { "ruff", "server" },
+	-- Filetypes to automatically attach to.
+	filetypes = { "python" },
+	-- Sets the "workspace" to the directory where any of these files is found.
+	-- Files that share a root directory will reuse the LSP server connection.
+	-- Nested lists indicate equal priority, see |vim.lsp.Config|.
+	root_markers = { { ".ruff_cache", "pyproject.toml" }, ".git" },
+	-- Specific settings to send to the server. The schema is server-defined.
+	-- Example: https://raw.githubusercontent.com/LuaLS/vscode-lua/master/setting/schema.json
+	settings = {},
+}
+
+vim.lsp.config["pyright"] = {
+	cmd = { "pyright-langserver", "--stdio" },
+	filetypes = { "python" },
+	root_markers = {
+		{ "pyproject.toml", "setup.py", "setup.cfg", "requirements.txt", "Pipfile" },
+		".git",
+	},
+	settings = {
+		python = {
+			analysis = {
+				autoSearchPaths = true,
+				useLibraryCodeForTypes = true,
+				typeCheckingMode = "basic", -- You can change this to "strict"
+			},
+		},
+	},
+}
+
+-- NIX
+
+vim.lsp.config["nixd"] = {
+	cmd = { "nixd" },
+	filetypes = { "nix" },
+	root_markers = { "flake.nix", ".git" },
+	settings = {},
+}
+
+-- RUST
+
+vim.lsp.config["rust-analyzer"] = {
+	cmd = { "rust-analyzer" },
+	filetypes = { "rust" },
+	root_markers = { { "Cargo.toml", "cargo.lock" }, ".git" },
+	settings = {},
+}
+
+
+
+----------------------------------------------------------------------------------------------------------------------- LAZY
+
+local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
+-- print(lazypath)
+if not vim.loop.fs_stat(lazypath) then
+	-- vim.fn.system({
+	-- 	"git",
+	-- 	"clone",
+	-- 	"--filter=blob:none",
+	-- 	"https://github.com/folke/lazy.nvim",
+	-- 	lazypath,
+	-- })
+end
+vim.opt.rtp:prepend(lazypath)
+
+
+
+----------------------------------------------------------------------------------------------------------------------- COMMANDS (empty)
+
+----------------------------------------------------------------------------------------------------------------------- COLORS
+
+
+--vim.api.nvim_set_hl(0, "Comment", { bg = "Purple" })
+--vim.api.nvim_set_hl(0, 'Normal', { fg = "Green", bg = "Red" })
+--vim.api.nvim_set_hl(0, 'Error', { fg = "<white>", undercurl = true })
+--vim.api.nvim_set_hl(0, 'Cursor', { reverse = true })
+
+--vim.cmd("highlight clear")
+
+-- print(vim.opt.rtp)
+vim.cmd("syntax reset")
+--vim.g.colors_name = 'melange'
+
+-- local bg = vim.opt.background:get(n)
+
+-- package.loaded['melange/palettes/' .. bg] = nil -- Only needed for development
+--local palette = require('melange/palettes/' .. bg)
+
+--local a = palette.a -- Grays
+--local b = palette.b -- Bright foreground colors
+--local c = palette.c -- Foreground colors
+--local d = palette.d -- Background colors
+
+-- See https://github.com/neovim/neovim/pull/7406
+--[[
+vim.g.terminal_color_0 = "$color.terminalColor00$"
+vim.g.terminal_color_1 = "$color.terminalColor01$"
+vim.g.terminal_color_2 = "$color.terminalColor02$"
+vim.g.terminal_color_3 = "$color.terminalColor03$"
+vim.g.terminal_color_4 = "$color.terminalColor04$"
+vim.g.terminal_color_5 = "$color.terminalColor05$"
+vim.g.terminal_color_6 = "$color.terminalColor06$"
+vim.g.terminal_color_7 = "$color.terminalColor07$"
+vim.g.terminal_color_8 = "$color.terminalColor08$"
+vim.g.terminal_color_9 = "$color.terminalColor09$"
+vim.g.terminal_color_10 = "$color.terminalColor0A$"
+vim.g.terminal_color_11 = "$color.terminalColor0B$"
+vim.g.terminal_color_12 = "$color.terminalColor0C$"
+vim.g.terminal_color_13 = "$color.terminalColor0D$"
+vim.g.terminal_color_14 = "$color.terminalColor0E$"
+vim.g.terminal_color_15 = "$color.terminalColor0F$"
+--]]
+local enable_font_variants = true
+--vim.g.melange_enable_font_variants == nil or vim.g.melange_enable_font_variants
+
+local bold = enable_font_variants
+local italic = enable_font_variants
+local underline = enable_font_variants
+local undercurl = enable_font_variants
+local strikethrough = enable_font_variants
+
+-- local aliases = {
+-- 	DARK_PINK = "#913d55",
+--
+--
+-- }
+
+for name, attrs in pairs({
+	---- :help highlight-default -------------------------------
+
+	Normal = { bg = "#000800", fg = "#808080" },
+	NormalFloat = { bg = "#000800", fg = "#808080" },
+	NormalNC = "Normal",
+
+	-- Cursor: TODO...
+
+	WinSeparator = { bg = "#000800", fg = "#111211" },
+	-- VertSplit = { bg = "<|color.nvim.VertSplit.bg |>", fg = "<|color.nvim.VertSplit.fg |>" },
+	-- Special = { fg = "<|%color.nvim.Special |>" },
+	-- CursorLine = { bg = "<|%color.nvim.CursorLine.bg |>" },
+
+	Identifier = { fg = "#426989" }, --$color.nvim.Identifier.fg$" },
+	["@variable"] = { fg = "#13446c" },
+	Function = { fg = "#246b44" },
+	Statement = { fg = "#913d55" },
+	Constant = { fg = "#7080a8" },
+	Type = { fg = "#8888dd" },
+	["@module"] = { fg = "#aaaacc" },
+	Directory = { fg = "#13446c" },
+	String = { fg = "#434f6f" }, --"#3e4966" }, -- 808080 55668f 1c2e8b
+	Comment = { fg = "#625c3f" }, -- 333933
+	PreProc = { fg = "#123622" },
+	Operator = { fg = "#246b44" },
+	Delimiter = { fg = "#123622" },
+	NeotreeFileName = { fg = "#9a9a9a" },
+
+	-- inheriting background from default Nvim* colors
+	Search = { fg = "#8AA88A", bg = "#003600" },
+	CurSearch = { fg = "#809880", bg = "#002600" },
+
+	StatusLine = { fg = "#455684", bg = "#111211" },
+	StatusLineNC = { fg = "#455684", bg = "#111211" },
+	Visual = { fg = "#061815", bg = "#0d8f77" },
+	Folded = { fg = "#808080", bg = "#001300" },
+	DiffAdd = { fg = "#668366", bg = "#002200" },
+	DiffChange = { fg = "#7f86f3", bg = "#050a58" },
+	DiffDelete = { fg = "#d5776f" },
+	DiffText = { fg = "#050a58", bg = "#7f86f3" },
+	Pmenu = { fg = "#505ad6", bg = "#000800" },
+	PmenuSel = { fg = "#737df1", bg = "#002600" },
+	PmenuThumb = { bg = "#777777" },
+	CursorColumn = { bg = "#000e00" },
+	CursorLine = { bg = "#000e00" },
+	ColorColumn = { bg = "#9b73f1" },
+	WinBar = { fg = "#dddddd", bg = "#000800" },
+	WinBarNC = { fg = "#dddddd", bg = "#000800" },
+	FloatShadow = { bg = "#002600" },
+	FloatShadowThrough = {
+		bg = "#118811",
+	},
+	MatchParen = { bg = "#51136e" },
+	RedrawDebugClear = { bg = "#dddddd" },
+	RedrawDebugComposed = {
+		bg = "#dddddd",
+	},
+	RedrawDebugRecompose = {
+		bg = "#dddddd",
+	},
+	Error = { fg = "#bd1dc5", bg = "#000800" },
+
+	-- inheriting foreground from default Nvim* colors
+	SpecialKey = { fg = "#491d5e" },
+	NonText = { fg = "#111211" },
+	Directory = { fg = "#13446c" },
+	ErrorMsg = { fg = "#bd1dc5" },
+	MoreMsg = { fg = "#1db6c5" },
+	ModeMsg = { fg = "#376808" },
+	LineNr = { fg = "#333833" },
+	Question = { fg = "#402967" },
+	WarningMsg = { fg = "#CBC383" },
+	SignColumn = { fg = "#1b8984" },
+	Conceal = { fg = "#808080", bg = "#000800" },
+	QuickFixLine = { fg = "#A30101" },
+	Special = { fg = "#741d96" }, --"#49125e" },
+
+	DiagnosticError = { fg = "#bd1dc5" },
+	DiagnosticFloatingWarn = { fg = "#CBC383" },
+	DiagnosticWarn = { fg = "#CBC383" },
+	DiagnosticFloatingInfo = { fg = "#555555" },
+	DiagnosticInfo = { fg = "#555555" },
+	DiagnosticFloatingHint = { fg = "#9b73f1" },
+	DiagnosticHint = { fg = "#9b73f1" },
+	DiagnosticFloatingOk = { fg = "#555555" },
+	DiagnosticOk = { fg = "#555555" },
+	Added = { fg = "#368366" },
+	["@diff.minus"] = { fg = "#d5776f" },
+	Removed = { fg = "#d5776f" },
+	Changed = { fg = "#7f86f3" },
+	CmpItemAbbrDeprecatedDefault = { fg = "#ffffff" },
+	CmpItemKindDefault = { fg = "#eeeeee" },
+	RainbowDelimiter1 = { fg = "#2b1400" },
+	RainbowDelimiter2 = { fg = "#4f473b" },
+	RainbowDelimiter3 = { fg = "#381900" },
+	RainbowDelimiter4 = { fg = "#726c62" },
+	RainbowDelimiter5 = { fg = "#51331a" },
+	RainbowDelimiter6 = { fg = "#959189" },
+	RainbowDelimiter7 = { fg = "#78604d" },
+}) do
+	if type(attrs) == "table" then
+		vim.api.nvim_set_hl(0, name, attrs)
+	else
+		vim.api.nvim_set_hl(0, name, { link = attrs })
+	end
+end
+
+
+
+--[[
+DESIRED MAPPINGS/ACTIONS
+
+- open quickfix window
+- open floating terminal
+- copy selection to new file
+- jump to reference (next, previous)
+- jump to definition
+- open search and replace (with preview)
+- fold block
+- fold/unfold all of given level
+- toggle value under cursor
+- rename everywhere (optionally with preview)
+- search pattern/regex in given files -> save results list & use it to navigate
+- show keybinds available
+- add/view/edit comment/annotation pointing to given location
+- view/navigate TODOs and comments
+- insert snippet
+- format code (optionally only under selection)
+- edit selection in new buffer
+- dull colors outside of selection
+- edit filesystem as a buffer (oil.nvim?)
+- get autocomplete suggestion
+- check spelling in file (ONLY on command!)
+- view diff (with saved, last commit, etc.)
+- file tree view
+- navigate between search results
+- toggle to light colors (or even lighten/darken colors, increase contrast -> write plugin?)
+- jump to next syntactic object ( 
+- command to run changed tests (use testmon or analogous)
+- get LLM feedback
+- unified preview_+accept/reject framework
+- multi-line / multi-location edits
+
+AUTOMATIC/TOGGLABLE FUNCTIONALITIES
+--> dull colors everywhere except in active block (via treesitter?)
+--> custom syntax highlighting for my special formats (from consilium-notes: jn, ...)
+
+--]]
+
+-- Set up a local map function for convenience
+local map = vim.keymap.set
+
+-- telescope ----------------------------------------------------------------------------------------------------------
+map("n", "<leader>ff", function()
+	require("telescope.builtin").find_files()
+end, { desc = "Find Files" })
+map("n", "<leader>gf", function()
+	require("telescope.builtin").git_files()
+end, { desc = "Find Git Files" })
+map("n", "<leader>fg", function()
+	require("telescope.builtin").live_grep()
+end, { desc = "Live Grep" })
+map("n", "<leader>fb", function()
+	require("telescope.builtin").buffers()
+end, { desc = "Find Buffers" })
+map("n", "<leader>fh", function()
+	require("telescope.builtin").help_tags()
+end, { desc = "Find Help Tags" })
+
+-- floaterm -----------------------------------------------------------------------------------------------------------
+vim.keymap.set("n", "<leader>ft", "<Cmd>FloatermToggle<CR>", { desc = "Toggle floaterm" })
+vim.keymap.set("t", "<leader>ft", "<C-\\><C-n><Cmd>FloatermToggle<CR>", { desc = "Toggle floaterm" })
+
+-- LSP ----------------------------------------------------------------------------------------------------------------
+-- We will create an autocommand group to attach keymaps only to buffers with an active LSP client.
+local lsp_keymaps_group = vim.api.nvim_create_augroup("LspKeymaps", { clear = true })
+
+vim.api.nvim_create_autocmd("LspAttach", {
+	group = lsp_keymaps_group,
+	callback = function(ev)
+		local lsp_map = function(keys, func, desc)
+			vim.keymap.set("n", keys, func, { buffer = ev.buf, desc = "LSP: " .. desc })
+		end
+
+		-- Navigation and Information
+		lsp_map("gd", vim.lsp.buf.definition, "Go to Definition")
+		lsp_map("gD", vim.lsp.buf.declaration, "Go to Declaration")
+		lsp_map("gr", vim.lsp.buf.references, "Go to References")
+		lsp_map("gI", vim.lsp.buf.implementation, "Go to Implementation")
+		lsp_map("K", vim.lsp.buf.hover, "Hover Documentation")
+		lsp_map("<C-k>", vim.lsp.buf.signature_help, "Signature Help")
+
+		-- Actions
+		lsp_map("<leader>ca", vim.lsp.buf.code_action, "Code Action")
+		lsp_map("<leader>rn", vim.lsp.buf.rename, "Rename")
+
+		-- Diagnostics
+		lsp_map("[d", vim.diagnostic.goto_prev, "Previous Diagnostic")
+		lsp_map("]d", vim.diagnostic.goto_next, "Next Diagnostic")
+		lsp_map("<leader>dl", vim.diagnostic.open_float, "Show Line Diagnostics")
+
+		-- format on save (to use LSP formatter instead of conform)
+		-- vim.api.nvim_buf_create_autocmd("BufWritePre", {
+		--   buffer = ev.buf,
+		--   callback = function() vim.lsp.buf.format { async = false } end
+		-- })
+		--
+		local bufopts = { noremap = true, silent = true, buffer = bufnr }
+	end,
+})
+
+-- quickfix -----------------------------------------------------------------------------------------------------------
+vim.keymap.set("i", "kj", "<escape>")
+vim.keymap.set("n", "<leader>wq", function()
+	vim.cmd("wq")
+end)
+vim.keymap.set("n", "<leader>ww", function()
+	vim.cmd("w")
+end)
+vim.keymap.set("n", "<leader>q", function()
+	-- Populates the Quickfix list with all diagnostics from the current buffer
+	vim.diagnostic.setqflist({ bufnr = 0 })
+	vim.cmd("copen")
+end, { desc = "Open Quickfix with diagnostics" })
+
+--- dial---------------------------------------------------------------------------------------------------------------
+vim.keymap.set("n", "<C-a>", function()
+	require("dial.map").manipulate("increment", "normal")
+end)
+vim.keymap.set("n", "<C-x>", function()
+	require("dial.map").manipulate("decrement", "normal")
+end)
+vim.keymap.set("n", "g<C-a>", function()
+	require("dial.map").manipulate("increment", "gnormal")
+end)
+vim.keymap.set("n", "g<C-x>", function()
+	require("dial.map").manipulate("decrement", "gnormal")
+end)
+vim.keymap.set("x", "<C-a>", function()
+	require("dial.map").manipulate("increment", "visual")
+end)
+vim.keymap.set("x", "<C-x>", function()
+	require("dial.map").manipulate("decrement", "visual")
+end)
+vim.keymap.set("x", "g<C-a>", function()
+	require("dial.map").manipulate("increment", "gvisual")
+end)
+vim.keymap.set("x", "g<C-x>", function()
+	require("dial.map").manipulate("decrement", "gvisual")
+end)
+
+--- zen-mode ----------------------------------------------------------------------------------------------------------
+
+vim.keymap.set("n", "<leader>zm", function()
+	require("zen-mode").toggle({
+		window = {
+			width = 0.85, -- width will be 85% of the editor width
+		},
+	})
+end)
+--- blink ----------------------------------------------------------------------------------------------------------
+require("blink.cmp").setup({
+	keymap = {
+		-- 'default' for vim-like (C-y to accept)
+		-- 'super-tab' for vscode-like (Tab to accept/jump)
+		-- 'enter' for enter to accept
+		preset = "super-tab",
+
+		["<C-k>"] = { "select_prev", "fallback" },
+		["<C-j>"] = { "select_next", "fallback" },
+
+		["<C-space>"] = { "show", "show_documentation", "hide_documentation" },
+		["<C-e>"] = { "hide", "fallback" },
+		["<CR>"] = { "accept", "fallback" },
+
+		["<Tab>"] = { "snippet_forward", "fallback" },
+		["<S-Tab>"] = { "snippet_backward", "fallback" },
+
+		["<C-j>"] = { "select_next", "fallback" },
+		["<C-k>"] = { "select_prev", "fallback" },
+
+		["<C-b>"] = { "scroll_documentation_up", "fallback" },
+		["<C-f>"] = { "scroll_documentation_down", "fallback" },
+	},
+})
+
+--- zen-mode ----------------------------------------------------------------------------------------------------------
+---  ----------------------------------------------------------------------------------------------------------
+---  ----------------------------------------------------------------------------------------------------------
+=======
+function _G.move_selection_to_new_file()
+  local bufnr = 0
+
+  local s_line = vim.fn.line("'<")
+  local e_line = vim.fn.line("'>")
+
+  if s_line == 0 or e_line == 0 then
+    vim.notify("No visual selection found", vim.log.levels.ERROR)
+    return
+  end
+
+  local lines = vim.api.nvim_buf_get_lines(bufnr, s_line - 1, e_line, false)
+
+  -- Prompt
+  local default_path = vim.fn.expand("%:p:h") .. "/"
+  local target = vim.fn.input("Move selection to: ", default_path, "file")
+  if target == "" then return end
+
+  -- Delete original text via Ex (simplest & safest)
+  vim.cmd(string.format("%d,%dd", s_line, e_line))
+
+  -- Open split
+  vim.cmd("vsplit " .. vim.fn.fnameescape(target))
+
+  -- Insert text
+  vim.api.nvim_buf_set_lines(0, 0, -1, false, lines)
+  vim.bo.modified = true
+end
+
+
+vim.keymap.set("x", "<leader>mf", ":'<,'>lua move_selection_to_new_file()<CR>", {
+  desc = "Move selection to new file (split)",
+})
+
+
+----------------------------------------------------------------------------------------------------------------------- END VERBATIM COPIED
+
 
 --------------------
 
