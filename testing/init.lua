@@ -1,4 +1,17 @@
-local FOCUS = "bamboo"
+local FOCUS = "blink.cmp"
+
+
+local gh = function(id)
+	return "https://github.com/" .. id
+end
+
+local gl = function(id)
+	return "https://gitlab.com/" .. id
+end
+
+local cb = function(id)
+	return "https://codeberg.org/" .. id
+end
 
 local PLUGIN_DECLARATION = {
 	["bamboo"] = { id = "ribru17/bamboo.nvim", expander = gh, lazy = false },
@@ -25,67 +38,116 @@ local PLUGIN_DECLARATION = {
 		name = "nvim-treesitter-textobjects",
 	},
 	["nvim-treesitter"] = { id = "nvim-treesitter/nvim-treesitter", expander = gh, lazy = false },
-	["oil"] = { id = "stevearc/oil.nvim", expander = gh, lazy = false },
-	["pickme"] = { id = "2KAbhishek/pickme.nvim", expander = gh, lazy = false },
-	["plenary"] = { id = "nvim-lua/plenary.nvim", expander = gh, lazy = false },
-	["rustaceanvim"] = { id = "mrcjkb/rustaceanvim", expander = gh, lazy = false }, -- already lazy
-	["snacks"] = { id = "folke/snacks.nvim", expander = gh, lazy = false },
+	["oil"] =             { id = "stevearc/oil.nvim", expander = gh, lazy = false },
+	["pickme"] =          { id = "2KAbhishek/pickme.nvim", expander = gh, lazy = false },
+	["plenary"] =         { id = "nvim-lua/plenary.nvim", expander = gh, lazy = false },
+	["rustaceanvim"] =    { id = "mrcjkb/rustaceanvim", expander = gh, lazy = false }, -- already lazy
+	["snacks"] =          { id = "folke/snacks.nvim", expander = gh, lazy = false },
 	["telescope-fzf-native"] = { id = "nvim-telescope/telescope-fzf-native.nvim", expander = gh, lazy = false },
-	["telescope"] = { id = "nvim-telescope/telescope.nvim", expander = gh, lazy = false },
+	["telescope"] =     { id = "nvim-telescope/telescope.nvim", expander = gh, lazy = false },
 	["todo-comments"] = { id = "folke/todo-comments.nvim", expander = gh, lazy = false },
-	["toggleterm"] = { id = "akinsho/toggleterm.nvim", expander = gh, lazy = false },
-	["vim-floaterm"] = { id = "voldikss/vim-floaterm", expander = gh, lazy = false },
-	["vim-visual-multi"] = { id = "mg979/vim-visual-multi", expander = gh, lazy = false },
-	["which-key"] = { id = "folke/which-key.nvim", expander = gh, lazy = false },
-	["yazi"] = { id = "mikavilpas/yazi.nvim", expander = gh, lazy = false },
-	["zen-mode"] = { id = "folke/zen-mode.nvim", expander = gh, lazy = false },
-	-- needs nix below here
-	[""] = { id = "", expander = gh, lazy = false },
-	["asyncrun"] = { id = "", expander = gh, lazy = false },
-	["bufferline"] = { id = "", expander = gh, lazy = false },
-	["dashboard"] = { id = "", expander = gh, lazy = false },
-	["fidget"] = { id = "", expander = gh, lazy = false },
-	["firenvim"] = { id = "", expander = gh, lazy = false },
-	["flash"] = { id = "", expander = gh, lazy = false },
-	["flybuf"] = { id = "", expander = gh, lazy = false },
-	["grug-far"] = { id = "", expander = gh, lazy = false },
-	["guard"] = { id = "", expander = gh, lazy = false },
-	["hlsearch"] = { id = "", expander = gh, lazy = false },
-	["hop"] = { id = "", expander = gh, lazy = false },
-	["indent-blanklines"] = { id = "", expander = gh, lazy = false },
-	["indentmini"] = { id = "", expander = gh, lazy = false },
-	["lazydev"] = { id = "", expander = gh, lazy = false },
-	["lazygit"] = { id = "", expander = gh, lazy = false },
-	["lspsaga"] = { id = "", expander = gh, lazy = false },
-	["modes"] = { id = "", expander = gh, lazy = false },
-	["neo-tree"] = { id = "", expander = gh, lazy = false },
-	["neogit"] = { id = "", expander = gh, lazy = false },
-	["neorepl"] = { id = "", expander = gh, lazy = false },
-	["none-ls"] = { id = "", expander = gh, lazy = false },
-	["nvim-autopairs"] = { id = "", expander = gh, lazy = false },
-	["nvim-cmp"] = { id = "", expander = gh, lazy = false },
+	["toggleterm"] =    { id = "akinsho/toggleterm.nvim", expander = gh, lazy = false },
+	["vim-floaterm"] =  { id = "voldikss/vim-floaterm", expander = gh, lazy = false },
+	["vim-visual-multi"]={id = "mg979/vim-visual-multi", expander = gh, lazy = false },
+	["which-key"] =     { id = "folke/which-key.nvim", expander = gh, lazy = false },
+	["yazi"] =          { id = "mikavilpas/yazi.nvim", expander = gh, lazy = false },
+	["zen-mode"] =      { id = "folke/zen-mode.nvim", expander = gh, lazy = false },
+	-- needs nix below here = { id = "stevearc/overseer.nvim", expander = gh, lazy = false },
+	
+	["aerial"] =    { id = "stevearc/aerial.nvim", expander = gh, lazy = false },
+	["overseer"] =  { id = "stevearc/overseer.nvim", expander = gh, lazy = false },
+	["quicker"] =   { id = "stevearc/quicker.nvim", expander = gh, lazy = false },
+	["stickybuf"] = { id = "stevearc/stickybuf.nvim", expander = gh, lazy = false },
+	
+	["lsp-format"] = { id = "lukas-reineke/lsp-format.nvim", expander = gh, lazy = false },
+	["nvim-lint"] =  { id = "mfussenegger/nvim-lint", expander = gh, lazy = false },
+	["jj"] =         { id = "NicolasGB/jj.nvim", expander = gh, lazy = false },
+	["jujutsu"] =    { id = "yannvanhalewyn/jujutsu.nvim", expander = gh, lazy = false },
+	["jiejie"] =     { id = "jceb/jiejie.nvim", expander = gh, lazy = false },
+	["tabular"] =    { id = "godlygeek/tabular", expander = gh, lazy = false }, -- https://devhints.io/tabular
+	["nvim-deck"] =  { id = "hrsh7th/nvim-deck", expander = gh, lazy = false },
+	["nvim-anydent"]={ id = "hrsh7th/nvim-anydent", expander = gh, lazy = false },
+	["nvim-ix"] =    { id = "hrsh7th/nvim-ix", expander = gh, lazy = false },
+	["blink"] =      { id = "saghen/blink.nvim", expander = gh, lazy = false },
+	["blink.pairs"] ={ id = "saghen/blink.pairs", expander = gh, lazy = false },
+	["swm"] =        { id = "hrsh7th/nvim-swm", expander = gh, lazy = false },
+	["nvim-pasta"] = { id = "hrsh7th/nvim-pasta", expander = gh, lazy = false },
+	["hydra"] =      { id = "nvimtools/hydra.nvim", expander = gh, lazy = false },
+	["mini.align"] = { id = "nvim-mini/mini.align", expander = gh, lazy = false },
+	["treesitter-modules"] = { id = "MeanderingProgrammer/treesitter-modules.nvim", expander = gh, lazy = false },
+	["harpoon-core"] = { id = "MeanderingProgrammer/harpoon-core.nvim", expander = gh, lazy = false },
+	["dashboard"] =  { id = "MeanderingProgrammer/dashboard.nvim", expander = gh, lazy = false },
+	["Comment"] =    { id = "numToStr/Comment.nvim", expander = gh, lazy = false },
+	["noice"] =           { id = "folke/noice.nvim", expander = gh, lazy = false },
+	["git-conflict"]={ id = "akinsho/git-conflict.nvim", expander = gh, lazy = false },
+	["bufferline"] = { id = "akinsho/bufferline.nvim", expander = gh, lazy = false },
+    ["asyncrun"] =   { id = "skywind3000/asyncrun.vim", expander = gh, lazy = false },
+["dashboard-nvim"] = { id = "nvimdev/dashboard-nvim", expander = gh, lazy = false },
+	["fidget"] =     { id = "j-hui/fidget.nvim", expander = gh, lazy = false },
+	["firenvim"] =   { id = "glacambre/firenvim", expander = gh, lazy = false },
+	["flash"] =      { id = "folke/flash.nvim", expander = gh, lazy = false },
+	["flybuf"] =     { id = "nvimdev/flybuf.nvim", expander = gh, lazy = false },
+	["grug-far"] =   { id = "MagicDuck/grug-far.nvim", expander = gh, lazy = false },
+	["guard"] =      { id = "nvimdev/guard.nvim", expander = gh, lazy = false },
+	["hlsearch"] =   { id = "nvimdev/hlsearch.nvim", expander = gh, lazy = false },
+	["hop"] =        { id = "smoka7/hop.nvim", expander = gh, lazy = false },
+["indent-blankline"]={ id = "lukas-reineke/indent-blankline.nvim", expander = gh, lazy = false },
+	["indentmini"] = { id = "nvimdev/indentmini.nvim", expander = gh, lazy = false },
+	["lazydev"] =    { id = "folke/lazydev.nvim", expander = gh, lazy = false },
+	["lazygit"] =    { id = "kdheepak/lazygit.nvim", expander = gh, lazy = false },
+	["lspsaga"] =    { id = "nvimdev/lspsaga.nvim", expander = gh, lazy = false },
+	["modes"] =      { id = "mvllow/modes.nvim", expander = gh, lazy = false },
+	["neo-tree"] =   { id = "nvim-neo-tree/neo-tree.nvim", expander = gh, lazy = false },
+	["neogit"] =     { id = "NeogitOrg/neogit", expander = gh, lazy = false },
+	["neorepl"] =    { id = "ii14/neorepl.nvim", expander = gh, lazy = false },
+	["none-ls"] =    { id = "nvimtools/none-ls.nvim", expander = gh, lazy = false },
+	["nvim-autopairs"] =  { id = "windwp/nvim-autopairs", expander = gh, lazy = false },
+	["nvim-cmp"] =        { id = "hrsh7th/nvim-cmp", expander = gh, lazy = false },
 	["nvim-dap-python"] = { id = "mfussenegger/nvim-dap-python", expander = cb, lazy = false },
-	["nvim-dap-ui"] = { id = "", expander = gh, lazy = false },
-	["nvim-dap"] = { id = "", expander = gh, lazy = false },
-	["nvim-hlslens"] = { id = "", expander = gh, lazy = false },
-	["nvim-navic"] = { id = "", expander = gh, lazy = false },
-	["nvim-notify"] = { id = "", expander = gh, lazy = false },
-	["nvim-tree"] = { id = "", expander = gh, lazy = false },
-	["nvim-ufo"] = { id = "", expander = gh, lazy = false },
-	["render-markdown"] = { id = "", expander = gh, lazy = false },
-	["schemastore"] = { id = "", expander = gh, lazy = false },
-	["statuscol"] = { id = "", expander = gh, lazy = false },
-	["structlog"] = { id = "", expander = gh, lazy = false },
-	["Ultisnips"] = { id = "", expander = gh, lazy = false },
-	["vim-commentary"] = { id = "", expander = gh, lazy = false },
-	["vim-fugitive"] = { id = "", expander = gh, lazy = false },
-	["vim-mundo"] = { id = "", expander = gh, lazy = false },
-	["vim-sandwich"] = { id = "", expander = gh, lazy = false },
-	["vimtex"] = { id = "", expander = gh, lazy = false },
+	["nvim-dap-ui"] =     { id = "rcarriga/nvim-dap-ui", expander = gh, lazy = false },
+	["nvim-dap"] =        { id = "mfussenegger/nvim-dap", expander = cb, lazy = false },
+	["nvim-hlslens"] =    { id = "kevinhwang91/nvim-hlslens", expander = gh, lazy = false },
+	["nvim-navic"] =      { id = "SmiteshP/nvim-navic", expander = gh, lazy = false },
+	["nvim-notify"] =     { id = "rcarriga/nvim-notify", expander = gh, lazy = false },
+	["nvim-tree"] =       { id = "nvim-tree/nvim-tree.lua", expander = gh, lazy = false },
+	["nvim-ufo"] =        { id = "kevinhwang91/nvim-ufo", expander = gh, lazy = false },
+	["render-markdown"] = { id = "MeanderingProgrammer/render-markdown.nvim", expander = gh, lazy = false },
+	["schemastore"] =     { id = "b0o/SchemaStore.nvim", expander = gh, lazy = false },
+	["statuscol"] =       { id = "luukvbaal/statuscol.nvim", expander = gh, lazy = false },
+	["structlog"] =       { id = "Tastyep/structlog.nvim", expander = gh, lazy = false },
+	["ultisnips"] =       { id = "SirVer/ultisnips", expander = gh, lazy = false }, -- https://ejmastnak.com/tutorials/vim-latex/ultisnips/
+	["vim-commentary"] =  { id = "tpope/vim-commentary", expander = gh, lazy = false },
+	["vim-fugitive"] =    { id = "tpope/vim-fugitive", expander = gh, lazy = false },
+	["vim-mundo"] =       { id = "simnalamburt/vim-mundo", expander = gh, lazy = false },
+	["vim-sandwich"] =    { id = "machakann/vim-sandwich", expander = gh, lazy = false },
+	["vimtex"] =          { id = "lervag/vimtex", expander = gh, lazy = false }, -- use vim.cmd.source or vim.fn.runtime
 }
 
+
+local add_plugin = function(name)
+	print(name)
+	print(vim.inspect(PLUGIN_DECLARATION[name]))
+	local expander = PLUGIN_DECLARATION[name].expander
+	print(expander)
+	local url = expander(PLUGIN_DECLARATION[name].id)
+	print(url)
+	vim.pack.add({ { src = url, }, })
+end
+
+add_plugin(FOCUS)
+
 if FOCUS == "bamboo" then
-	print("TODO")
+	require("bamboo").setup({
+		style = "multiplex",
+		colors = {
+			bg0 = "#020802",
+		},
+		-- highlights = { Normal = { bg = "#020802" } },
+	})
+	require("bamboo").load()
+	-- require("vague").setup({ transparent = true })
+	-- vim.cmd("colorscheme bamboo")
+	-- vim.cmd(":hi statusline guibg=#081608")
 end
 if FOCUS == "blink.cmp" then
 	print("TODO")

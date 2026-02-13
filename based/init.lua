@@ -1,13 +1,17 @@
 -- TODO: see https://www.reddit.com/r/neovim/comments/1afw5tc/rustaceanvim_now_with_neotest_integration/
 
--- vim.pack.add({ { src = "https://github.com/ii14/neorepl.nvim" } })
-
 -- wezterm: TODO: vendor
 -- https://github.com/willothy/wezterm.nvim
 -- https://github.com/ianhomer/wezterm.nvim
 -- https://github.com/aca/wezterm.nvim
 -- https://github.com/letieu/wezterm-move.nvim
 -- https://github.com/jonboh/wezterm-mux.nvim -> https://github.com/mrjones2014/smart-splits.nvim
+
+-- look at https://github.com/yochem/lazy-vimpack
+
+-- jsonls and yamlls
+   -- https://www.npmjs.com/package/vscode-json-languageserver
+   -- https://github.com/redhat-developer/yaml-language-server
 
 -- on macos:
 -- brew install ruff

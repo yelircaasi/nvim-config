@@ -1,0 +1,40 @@
+{
+    "default": [
+        "/Users/ext_riley/.config/nvim",
+        "/Users/ext_riley/homebrew/etc/xdg/nvim",
+        "/etc/xdg/nvim",
+        "/Users/ext_riley/.local/share/nvim/site",
+        "/Users/ext_riley/homebrew/share/nvim/site",
+        "/usr/local/share/nvim/site",
+        "/usr/share/nvim/site",
+        "/Users/ext_riley/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime",
+        "/Users/ext_riley/homebrew/Cellar/neovim/0.11.4/lib/nvim",
+        "/usr/share/nvim/site/after",
+        "/usr/local/share/nvim/site/after",
+        "/Users/ext_riley/homebrew/share/nvim/site/after",
+        "/Users/ext_riley/.local/share/nvim/site/after",
+        "/etc/xdg/nvim/after",
+        "/Users/ext_riley/homebrew/etc/xdg/nvim/after",
+        "/Users/ext_riley/.config/nvim/after"
+    ],
+    "value": [
+        "/Users/ext_riley/.config/nvim",
+        "/Users/ext_riley/homebrew/etc/xdg/nvim",
+        "/etc/xdg/nvim",
+        "/Users/ext_riley/.local/share/nvim/site",
+        "/Users/ext_riley/homebrew/share/nvim/site",
+        "/usr/local/share/nvim/site",
+        "/usr/share/nvim/site",
+        "/Users/ext_riley/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime",
+        "/Users/ext_riley/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/pack/dist/opt/netrw",
+        "/Users/ext_riley/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/pack/dist/opt/matchit",
+        "/Users/ext_riley/homebrew/Cellar/neovim/0.11.4/lib/nvim",
+        "/usr/share/nvim/site/after",
+        "/usr/local/share/nvim/site/after",
+        "/Users/ext_riley/homebrew/share/nvim/site/after",
+        "/Users/ext_riley/.local/share/nvim/site/after",
+        "/etc/xdg/nvim/after",
+        "/Users/ext_riley/homebrew/etc/xdg/nvim/after",
+        "/Users/ext_riley/.config/nvim/after"
+    ]
+}

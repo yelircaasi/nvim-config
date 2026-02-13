@@ -1,23 +1,40 @@
 import json
+import os
 import re
+import sys
+import socket
 import subprocess
 from pathlib import Path
 
-NOTES_DIR = Path.home() / ".config/nvim/notes"
 
+def arg_or_envvar(argpos: int, envvarname: str, fallback: str | Path) -> str:
+    try:
+        return sys.argv[argpos]
+    except:
+        return os.getenv(envvarname) or fallback
+
+WRITE_DIR = Path(arg_or_envvar(4, "NVIM_INFO_PATH", ""))
+DEVICE_NAME = arg_or_envvar(1, "DEVICE_NAME", socket.gethostname())
+CONFIG_NAME = arg_or_envvar(2, "NVIM_CONFIG_NAME", "DEFAULT")
+CONFIG_PATH = Path(arg_or_envvar(3, "NVIM_CONFIG_PATH", ""))
 
 def export_info(task: str) -> Path:
-    destination = NOTES_DIR / f"nvim-{task}.txt"
+    name_segments = "--".join(filter(bool, (task, DEVICE_NAME, CONFIG_NAME)))
+    destination = WRITE_DIR / f"nvim-{name_segments}.txt"
+    print(destination)
     # os.system(f'nvim --headless -c "set columns=1000" -c "redir! > {destination}"   -c "verbose {task}"  -c "redir END" -c "q" > /dev/null')
+    main_command = "lua print(vim.inspect(vim.opt.rtp))" if task == "rtp" else f"verbose {task}"
+    config = ("-u", CONFIG_PATH) if CONFIG_PATH else tuple()
     cmd = [
         "nvim",
+        *config,
         "--headless",
         "-c",
         "set columns=1000",
         "-c",
         f"redir! > {destination}",
         "-c",
-        f"verbose {task}",
+        main_command,
         "-c",
         "redir END",
         "-c",
@@ -30,10 +47,11 @@ def export_info(task: str) -> Path:
 colors_txt = export_info("highlight")
 mappings_txt = export_info("map")
 commands_txt = export_info("command")
+rtp_txt = export_info("rtp")
 
-colors_json, mappings_json, commands_json = map(
-    lambda s: s.parent / s.name.replace(".txt", ".json"),
-    (colors_txt, mappings_txt, commands_txt),
+colors_json, mappings_json, commands_json, rtp_json = map(
+    lambda s: s.parent / re.sub(r"\.txt|\.lua", ".json", s.name),
+    (colors_txt, mappings_txt, commands_txt, rtp_txt),
 )
 
 
@@ -180,20 +198,34 @@ def parse_commands(raw: str) -> dict[str, dict[str, str]]:
     return c
 
 
+def parse_rtp(raw: str) -> dict[str, dict[str, str]]:
+    r: dict[str, dict[str, str]] = {}
+
+    default = re.search(r'default = "([^\n]+)",', raw).group(1)
+    print(default)
+    r["default"] = default.split(",")
+
+    value = re.search(r'_value = "([^\n]+)",', raw).group(1)
+    print(default)
+    r["value"] = value.split(",")
+
+    return r
+
 colors_raw = colors_txt.read_text()
 mappings_raw = mappings_txt.read_text()
 commands_raw = commands_txt.read_text()
+rtp_raw = rtp_txt.read_text()
 
-subprocess.run(["clear"])
+# subprocess.run(["clear"])
 
 colors = parse_colors(colors_raw)
 mappings = parse_mappings(mappings_raw)
 commands = parse_commands(commands_raw)
-
+rtp = parse_rtp(rtp_raw)
 # print(json.dumps(commands, indent=4))
 
 colors_json.write_text(json.dumps(colors, indent=4))
 mappings_json.write_text(json.dumps(mappings, indent=4))
 commands_json.write_text(json.dumps(commands, indent=4))
-
+rtp_json.write_text(json.dumps(rtp, indent=4))
 # print(commands_json)
