@@ -9,6 +9,8 @@
 
 -- look at https://github.com/yochem/lazy-vimpack
 
+-- additional LSPs:
+-- https://github.com/latex-lsp/texlab
 -- jsonls and yamlls
    -- https://www.npmjs.com/package/vscode-json-languageserver
    -- https://github.com/redhat-developer/yaml-language-server

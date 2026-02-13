@@ -1,17 +1,143 @@
-local FOCUS = "blink.cmp"
+-- vim.pack.add({
+--     { src = "nvim-treesitter/nvim-treesitter" }
+-- })
+-- vim.opt.runtimepath:append("/Users/ext_riley/.local/share/nvim/site")
+-- local my_parser_dir = "/Users/ext_riley/repos/nvim-config/testing/parsers"
+-- vim.fn.mkdir(my_parser_dir, "p")
+-- package.path = package.path .. ";/Users/ext_riley/.local/share/nvim/site/pack/core/opt/nvim-treesitter/lua/?.lua"
+-- local ts = require("nvim-treesitter")
+
+-- ts.setup({
+--     -- EXPLICIT: Tell the plugin to install files here
+--     parser_install_dir = my_parser_dir,
+    
+--     ensure_installed = { "python", "lua" },
+--     highlight = { enable = true },
+-- })
+
+----------------
+
+-- -- 2. Find where Neovim actually put it
+-- -- This command finds the directory on your disk
+-- local ts_path = vim.api.nvim_get_runtime_file("", false)
+-- -- Find the one that actually contains nvim-treesitter
+-- local plugin_root = ""
+-- for _, path in ipairs(ts_path) do
+--     if path:match("nvim%-treesitter") then
+--         plugin_root = path
+--         break
+--     end
+-- end
+-- print(plugin_root)
+
+-- -- 3. If we found it, MANUALLY inject it into Lua's search path
+-- if plugin_root ~= "" then
+--     local lua_path = plugin_root .. "/lua/?.lua"
+--     if not package.path:find(lua_path, 1, true) then
+--         package.path = package.path .. ";" .. lua_path
+--     end
+-- end
+-- print(plugin_root)
+
+-- -- 4. Now require should work because the file is explicitly in package.path
+-- require("nvim-treesitter").setup({
+--     ensure_installed = { "python", "lua" },
+--     highlight = { enable = true },
+-- })
 
 
-local gh = function(id)
-	return "https://github.com/" .. id
-end
 
-local gl = function(id)
-	return "https://gitlab.com/" .. id
-end
 
-local cb = function(id)
-	return "https://codeberg.org/" .. id
-end
+
+
+local PLUGINS = {
+	"bamboo",
+    -- "vimtex",
+	-- "neotest",
+	-- "neotest-python",
+    "dap", -- debugpy
+	"dap-python",
+    -- "nvim-treesitter", -- brew install tree-sitter
+}
+
+-- function addRelPath(dir)
+-- 	local spath = debug.getinfo(1, "S").source:sub(2):gsub("^([^/])", "./%1"):gsub("[^/]*$", "")
+-- 	dir = dir and (dir .. "/") or ""
+-- 	spath = spath .. dir
+-- 	package.path = spath .. "?.lua;" .. spath .. "?/init.lua"
+-- 	--  ..package.path
+-- end
+
+-- addRelPath()
+
+-- vim.pack.add({
+--     { 
+--         src = "nvim-treesitter/nvim-treesitter",
+--         opt = true 
+--     }
+-- })
+-- vim.cmd('packadd nvim-treesitter')
+-- local ok, ts_configs = pcall(require, "nvim-treesitter")
+-- if ok then
+--     ts_configs.setup({
+--         ensure_installed = {
+--             "python", "lua", "javascript", "typescript",
+--             "nix", "json", "yaml", "toml", "markdown",
+--         },
+--         highlight = { enable = true },
+--         indent = { enable = true },
+--     })
+-- else
+--     print("Treesitter failed to load!")
+-- end
+-- vim.cmd("TSUpdate")
+-- print("before")
+-- vim.cmd.packadd("nvim-treesitter")
+-- print("after")
+-- require("nvim-treesitter").setup({
+-- 	ensure_installed = {
+-- 		"python",
+-- 		"lua",
+-- 		"javascript",
+-- 		"typescript",
+-- 		"nix",
+-- 		"json",
+-- 		"yaml",
+-- 		"toml",
+-- 		"markdown",
+-- 	},
+-- 	highlight = { enable = true },
+-- 	indent = { enable = true },
+-- })
+
+vim.g.mapleader = " "
+vim.g.maplocalleader = " "
+
+local NVIM_DIR = vim.fn.expand("~/.config/nvim")
+HAS_NIX, PLUGIN_LOCATIONS = pcall(dofile, NVIM_DIR .. "/nix_plugins.lua")
+BE_VERBOSE = false
+
+local current_mode_index = 1
+local diagnostics_active = false
+
+TS_LANGUAGES = {
+	"haskell",
+	"javascript",
+	"json",
+	"lua",
+	"markdown",
+	"nix",
+	"python",
+	"rust",
+	"toml",
+	"typescript",
+	"yaml",
+	"zig",
+}
+
+local gh = function(id) return "https://github.com/" .. id end
+local gl = function(id) return "https://gitlab.com/" .. id end
+local cb = function(id) return "https://codeberg.org/" .. id end
 
 local PLUGIN_DECLARATION = {
 	["bamboo"] =            { id = "ribru17/bamboo.nvim",          expander = gh, lazy = false },
@@ -37,7 +163,7 @@ local PLUGIN_DECLARATION = {
 		lazy = false,
 		name = "nvim-treesitter-textobjects",
 	},
-	["nvim-treesitter"] =      { id = "nvim-treesitter/nvim-treesitter",          expander = gh, lazy = false },
+	["nvim-treesitter"] =      { id = "nvim-treesitter/nvim-treesitter",          expander = gh, lazy = false }, -- brew install tree-sitter; brew install tree-sitter-cli
 	["oil"] =                  { id = "stevearc/oil.nvim",                        expander = gh, lazy = false },
 	["pickme"] =               { id = "2KAbhishek/pickme.nvim",                   expander = gh, lazy = false },
 	["plenary"] =              { id = "nvim-lua/plenary.nvim",                    expander = gh, lazy = false },
@@ -56,10 +182,12 @@ local PLUGIN_DECLARATION = {
 	-- needs nix below here = { id = "stevearc/overseer.nvim", expander = gh, lazy = false },
 
 	["aerial"] =             { id = "stevearc/aerial.nvim",                         expander = gh, lazy = false },
+	["asyncrun"] =           { id = "skywind3000/asyncrun.vim",                     expander = gh, lazy = false },
 	["blink.pairs"] =        { id = "saghen/blink.pairs",                           expander = gh, lazy = false },
 	["blink"] =              { id = "saghen/blink.nvim",                            expander = gh, lazy = false },
 	["bufferline"] =         { id = "akinsho/bufferline.nvim",                      expander = gh, lazy = false },
 	["Comment"] =            { id = "numToStr/Comment.nvim",                        expander = gh, lazy = false },
+	["dashboard-nvim"] =     { id = "nvimdev/dashboard-nvim",                       expander = gh, lazy = false },
 	["dashboard"] =          { id = "MeanderingProgrammer/dashboard.nvim",          expander = gh, lazy = false },
 	["fidget"] =             { id = "j-hui/fidget.nvim",                            expander = gh, lazy = false },
 	["firenvim"] =           { id = "glacambre/firenvim",                           expander = gh, lazy = false },
@@ -72,6 +200,7 @@ local PLUGIN_DECLARATION = {
 	["hlsearch"] =           { id = "nvimdev/hlsearch.nvim",                        expander = gh, lazy = false },
 	["hop"] =                { id = "smoka7/hop.nvim",                              expander = gh, lazy = false },
 	["hydra"] =              { id = "nvimtools/hydra.nvim",                         expander = gh, lazy = false },
+	["indent-blankline"] =   { id = "lukas-reineke/indent-blankline.nvim",          expander = gh, lazy = false },
 	["indentmini"] =         { id = "nvimdev/indentmini.nvim",                      expander = gh, lazy = false },
 	["jiejie"] =             { id = "jceb/jiejie.nvim",                             expander = gh, lazy = false },
 	["jj"] =                 { id = "NicolasGB/jj.nvim",                            expander = gh, lazy = false },
@@ -90,9 +219,9 @@ local PLUGIN_DECLARATION = {
 	["nvim-anydent"] =       { id = "hrsh7th/nvim-anydent",                         expander = gh, lazy = false },
 	["nvim-autopairs"] =     { id = "windwp/nvim-autopairs",                        expander = gh, lazy = false },
 	["nvim-cmp"] =           { id = "hrsh7th/nvim-cmp",                             expander = gh, lazy = false },
-	["nvim-dap-python"] =    { id = "mfussenegger/nvim-dap-python",                 expander = cb, lazy = false },
-	["nvim-dap-ui"] =        { id = "rcarriga/nvim-dap-ui",                         expander = gh, lazy = false },
-	["nvim-dap"] =           { id = "mfussenegger/nvim-dap",                        expander = cb, lazy = false },
+	["dap-python"] =         { id = "mfussenegger/nvim-dap-python",                 expander = cb, lazy = false }, -- pipx install debugpy
+	["dap-ui"] =             { id = "rcarriga/nvim-dap-ui",                         expander = gh, lazy = false },
+	["dap"] =                { id = "mfussenegger/nvim-dap",                        expander = cb, lazy = false },
 	["nvim-deck"] =          { id = "hrsh7th/nvim-deck",                            expander = gh, lazy = false },
 	["nvim-hlslens"] =       { id = "kevinhwang91/nvim-hlslens",                    expander = gh, lazy = false },
 	["nvim-ix"] =            { id = "hrsh7th/nvim-ix",                              expander = gh, lazy = false },
@@ -111,6 +240,7 @@ local PLUGIN_DECLARATION = {
 	["structlog"] =          { id = "Tastyep/structlog.nvim",                       expander = gh, lazy = false },
 	["swm"] =                { id = "hrsh7th/nvim-swm",                             expander = gh, lazy = false },
 	["tabular"] =            { id = "godlygeek/tabular",                            expander = gh, lazy = false }, -- https://devhints.io/tabular
+	["texmagic"] = { id = "jakewvincent/texmagic.nvim", expander = gh, lazy = false },
 	["treesitter-modules"] = { id = "MeanderingProgrammer/treesitter-modules.nvim", expander = gh, lazy = false },
 	["ultisnips"] =          { id = "SirVer/ultisnips",                             expander = gh, lazy = false }, -- https://ejmastnak.com/tutorials/vim-latex/ultisnips/
 	["vim-commentary"] =     { id = "tpope/vim-commentary",                         expander = gh, lazy = false },
@@ -118,25 +248,37 @@ local PLUGIN_DECLARATION = {
 	["vim-mundo"] =          { id = "simnalamburt/vim-mundo",                       expander = gh, lazy = false },
 	["vim-sandwich"] =       { id = "machakann/vim-sandwich",                       expander = gh, lazy = false },
 	["vimtex"] =             { id = "lervag/vimtex",                                expander = gh, lazy = false }, -- use vim.cmd.source or vim.fn.runtime
-    ["asyncrun"] =           { id = "skywind3000/asyncrun.vim",                     expander = gh, lazy = false },
-    ["dashboard-nvim"] =     { id = "nvimdev/dashboard-nvim",                       expander = gh, lazy = false },
-    ["indent-blankline"] =   { id = "lukas-reineke/indent-blankline.nvim",          expander = gh, lazy = false },
 }
 
 
 local add_plugin = function(name)
 	print(name)
-	print(vim.inspect(PLUGIN_DECLARATION[name]))
+	-- print(vim.inspect(PLUGIN_DECLARATION[name]))
 	local expander = PLUGIN_DECLARATION[name].expander
-	print(expander)
+	-- print(expander)
 	local url = expander(PLUGIN_DECLARATION[name].id)
 	print(url)
-	vim.pack.add({ { src = url, }, })
+	vim.pack.add({ { src = url }, })
 end
 
-add_plugin(FOCUS)
+for _, name in ipairs(PLUGINS) do
+	add_plugin(name)
+end
+print(PLUGINS["bamboo"])
 
-if FOCUS == "bamboo" then
+function contains(table, element)
+	for _, value in pairs(table) do
+	  if value == element then
+		return true
+	  end
+	end
+	return false
+  end
+
+
+
+if contains(PLUGINS, "bamboo") then
+	print("Setting up bamboo")
 	require("bamboo").setup({
 		style = "multiplex",
 		colors = {
@@ -149,226 +291,346 @@ if FOCUS == "bamboo" then
 	-- vim.cmd("colorscheme bamboo")
 	-- vim.cmd(":hi statusline guibg=#081608")
 end
-if FOCUS == "blink.cmp" then
+if contains(PLUGINS, "nvim-treesitter") then
+	print("Setting up treesitter.")
+	local my_install_dir = (not HAS_NIX) and vim.fn.stdpath("data") .. "/site" or nil
+	local my_parser_install_dir = (not HAS_NIX) and vim.fn.stdpath("data") .. "/parsers" or nil
+	local my_ensure_installed = HAS_NIX and {} or TS_LANGUAGES
+	-- vim.fn.mkdir(my_parser_install_dir, "p")
+    -- IMPORTANT: Neovim expects parsers to be in a 'parser' subfolder of an RTP entry
+    -- vim.opt.runtimepath:append(my_parser_install_dir)
+	print(my_install_dir)
+	print(my_parser_install_dir)
+	print(vim.inspect(my_ensure_installed))
+	local treesitter = require("nvim-treesitter")
+    for k, v in pairs(treesitter) do print(k)
+		print(v) end
+	print("Treesitter exists -------------------")
+	local treesitter_config = require("nvim-treesitter.configs")
+	for k, v in pairs(treesitter_config) do print(k)
+		print(v) end
+	local treesitter = require("nvim-treesitter")
+	treesitter.setup({
+		-- directory to install parsers and queries to (prepended to `runtimepath` to have priority)
+		install_dir = my_install_dir,
+		parser_install_dir = my_parser_install_dir,
+		ensure_installed = my_ensure_installed,
+		highlight = { enable = true },
+		indent = { enable = true },
+	})
+	-- require("nvim-treesitter.config").setup({
+	-- 	ensure_installed = my_ensure_installed,
+	-- })
+	-- -- if not HAS_NIX then
+	-- treesitter.install({ "python" })
+	-- -- end
+	-- print(vim.inspect(require("nvim-treesitter").get_installed()))
+end
+if contains(PLUGINS, "dap-python") then
+	
+	print("dap-python")
+	local dap_python = require("dap-python")
+	dap_python.setup("debugpy-adapter")
+	dap_python.test_runner = 'pytest'
+	vim.keymap.set("n", "<leader>tt", function() print("Leader is working!") end)
+	vim.keymap.set("n", "<leader>pp", function() print("This works") end)
+	vim.keymap.set("n", "<leader>dn", function() require('dap-python').test_method() end)
+	vim.keymap.set("n", "<leader>df", function() require('dap-python').test_class() end)
+	vim.keymap.set("v", "<leader>ds", function() require('dap-python').debug_selection() end)
+end
+-- -----------------------------------------
+if contains(PLUGINS, "blink.cmp") then
 	print("TODO")
 end
-if FOCUS == "conform" then
+if contains(PLUGINS, "conform") then
 	print("TODO")
 end
-if FOCUS == "dial" then
+if contains(PLUGINS, "dial") then
 	print("TODO")
 end
-if FOCUS == "diffview" then
+if contains(PLUGINS, "diffview") then
 	print("TODO")
 end
-if FOCUS == "friendly-snippets" then
+if contains(PLUGINS, "friendly-snippets") then
 	print("TODO")
 end
-if FOCUS == "gitsigns" then
+if contains(PLUGINS, "gitsigns") then
 	print("TODO")
 end
-if FOCUS == "haskell-tools" then
+if contains(PLUGINS, "haskell-tools") then
 	print("TODO")
 end
-if FOCUS == "lualine" then
+if contains(PLUGINS, "lualine") then
 	print("TODO")
 end
-if FOCUS == "LuaSnip" then
+if contains(PLUGINS, "LuaSnip") then
 	print("TODO")
 end
-if FOCUS == "marks" then
+if contains(PLUGINS, "marks") then
 	print("TODO")
 end
-if FOCUS == "mini" then
+if contains(PLUGINS, "mini") then
 	print("TODO")
 end
-if FOCUS == "neotest-haskell" then
+if contains(PLUGINS, "neotest-haskell") then
 	print("TODO")
 end
-if FOCUS == "neotest-python" then
+if contains(PLUGINS, "neotest-python") then
 	print("TODO")
 end
-if FOCUS == "neotest" then
+if contains(PLUGINS, "neotest") then
 	print("TODO")
 end
-if FOCUS == "nvim-bqf" then
+if contains(PLUGINS, "nvim-bqf") then
 	print("TODO")
 end
-if FOCUS == "nvim-nio" then
+if contains(PLUGINS, "nvim-nio") then
 	print("TODO")
 end
-if FOCUS == "nvim-treesitter-textobjects" then
+if contains(PLUGINS, "nvim-treesitter-textobjects") then
 	print("TODO")
 end
-if FOCUS == "nvim-treesitter" then
+if contains(PLUGINS, "oil") then
 	print("TODO")
 end
-if FOCUS == "oil" then
+if contains(PLUGINS, "pickme") then
 	print("TODO")
 end
-if FOCUS == "pickme" then
+if contains(PLUGINS, "plenary") then
 	print("TODO")
 end
-if FOCUS == "plenary" then
+if contains(PLUGINS, "rustaceanvim") then
 	print("TODO")
 end
-if FOCUS == "rustaceanvim" then
+if contains(PLUGINS, "snacks") then
 	print("TODO")
 end
-if FOCUS == "snacks" then
+if contains(PLUGINS, "telescope-fzf-native") then
 	print("TODO")
 end
-if FOCUS == "telescope-fzf-native" then
+if contains(PLUGINS, "telescope") then
 	print("TODO")
 end
-if FOCUS == "telescope" then
+if contains(PLUGINS, "todo-comments") then
 	print("TODO")
 end
-if FOCUS == "todo-comments" then
+if contains(PLUGINS, "toggleterm") then
 	print("TODO")
 end
-if FOCUS == "toggleterm" then
+if contains(PLUGINS, "vim-floaterm") then
 	print("TODO")
 end
-if FOCUS == "vim-floaterm" then
+if contains(PLUGINS, "vim-visual-multi") then
 	print("TODO")
 end
-if FOCUS == "vim-visual-multi" then
+if contains(PLUGINS, "which-key") then
 	print("TODO")
 end
-if FOCUS == "which-key" then
+if contains(PLUGINS, "yazi") then
 	print("TODO")
 end
-if FOCUS == "yazi" then
+if contains(PLUGINS, "zen-mode") then
 	print("TODO")
 end
-if FOCUS == "zen-mode" then
-	print("TODO")
-end
+
 -- needs nix below here
-if FOCUS == "asyncrun" then
+
+if contains(PLUGINS, "aerial") then
 	print("TODO")
 end
-if FOCUS == "bufferline" then
+if contains(PLUGINS, "asyncrun") then
 	print("TODO")
 end
-if FOCUS == "dashboard" then
+if contains(PLUGINS, "blink.pairs") then
 	print("TODO")
 end
-if FOCUS == "fidget" then
+if contains(PLUGINS, "blink") then
 	print("TODO")
 end
-if FOCUS == "firenvim" then
+if contains(PLUGINS, "bufferline") then
 	print("TODO")
 end
-if FOCUS == "flash" then
+if contains(PLUGINS, "Comment") then
 	print("TODO")
 end
-if FOCUS == "flybuf" then
+if contains(PLUGINS, "dashboard-nvim") then
 	print("TODO")
 end
-if FOCUS == "grug-far" then
+if contains(PLUGINS, "dashboard") then
 	print("TODO")
 end
-if FOCUS == "guard" then
+if contains(PLUGINS, "fidget") then
 	print("TODO")
 end
-if FOCUS == "hlsearch" then
+if contains(PLUGINS, "firenvim") then
 	print("TODO")
 end
-if FOCUS == "hop" then
+if contains(PLUGINS, "flash") then
 	print("TODO")
 end
-if FOCUS == "indent-blanklines" then
+if contains(PLUGINS, "flybuf") then
 	print("TODO")
 end
-if FOCUS == "indentmini" then
+if contains(PLUGINS, "git-conflict") then
 	print("TODO")
 end
-if FOCUS == "lazydev" then
+if contains(PLUGINS, "grug-far") then
 	print("TODO")
 end
-if FOCUS == "lazygit" then
+if contains(PLUGINS, "guard") then
 	print("TODO")
 end
-if FOCUS == "lspsaga" then
+if contains(PLUGINS, "harpoon-core") then
 	print("TODO")
 end
-if FOCUS == "modes" then
+if contains(PLUGINS, "hlsearch") then
 	print("TODO")
 end
-if FOCUS == "neo-tree" then
+if contains(PLUGINS, "hop") then
 	print("TODO")
 end
-if FOCUS == "neogit" then
+if contains(PLUGINS, "hydra") then
 	print("TODO")
 end
-if FOCUS == "neorepl" then
+if contains(PLUGINS, "indent-blankline") then
 	print("TODO")
 end
-if FOCUS == "none-ls" then
+if contains(PLUGINS, "indentmini") then
 	print("TODO")
 end
-if FOCUS == "nvim-autopairs" then
+if contains(PLUGINS, "jiejie") then
 	print("TODO")
 end
-if FOCUS == "nvim-cmp" then
+if contains(PLUGINS, "jj") then
 	print("TODO")
 end
-if FOCUS == "nvim-dap-python" then
+if contains(PLUGINS, "jujutsu") then
 	print("TODO")
 end
-if FOCUS == "nvim-dap-ui" then
+if contains(PLUGINS, "lazydev") then
 	print("TODO")
 end
-if FOCUS == "nvim-dap" then
+if contains(PLUGINS, "lazygit") then
 	print("TODO")
 end
-if FOCUS == "nvim-hlslens" then
+if contains(PLUGINS, "lsp-format") then
 	print("TODO")
 end
-if FOCUS == "nvim-navic" then
+if contains(PLUGINS, "lspsaga") then
 	print("TODO")
 end
-if FOCUS == "nvim-notify" then
+if contains(PLUGINS, "mini.align") then
 	print("TODO")
 end
-if FOCUS == "nvim-tree" then
+if contains(PLUGINS, "modes") then
 	print("TODO")
 end
-if FOCUS == "nvim-ufo" then
+if contains(PLUGINS, "neo-tree") then
 	print("TODO")
 end
-if FOCUS == "render-markdown" then
+if contains(PLUGINS, "neogit") then
 	print("TODO")
 end
-if FOCUS == "schemastore" then
+if contains(PLUGINS, "neorepl") then
 	print("TODO")
 end
-if FOCUS == "statuscol" then
+if contains(PLUGINS, "noice") then
 	print("TODO")
 end
-if FOCUS == "structlog" then
+if contains(PLUGINS, "none-ls") then
 	print("TODO")
 end
-if FOCUS == "Ultisnips" then
+if contains(PLUGINS, "nvim-anydent") then
 	print("TODO")
 end
-if FOCUS == "vim-commentary" then
+if contains(PLUGINS, "nvim-autopairs") then
 	print("TODO")
 end
-if FOCUS == "vim-fugitive" then
+if contains(PLUGINS, "nvim-cmp") then
 	print("TODO")
 end
-if FOCUS == "vim-mundo" then
+if contains(PLUGINS, "dap-ui") then
 	print("TODO")
 end
-if FOCUS == "vim-sandwich" then
+if contains(PLUGINS, "dap") then
 	print("TODO")
 end
-if FOCUS == "vimtex" then
+if contains(PLUGINS, "nvim-deck") then
 	print("TODO")
 end
+if contains(PLUGINS, "nvim-hlslens") then
+	print("TODO")
+end
+if contains(PLUGINS, "nvim-ix") then
+	print("TODO")
+end
+if contains(PLUGINS, "nvim-lint") then
+	print("TODO")
+end
+if contains(PLUGINS, "nvim-navic") then
+	print("TODO")
+end
+if contains(PLUGINS, "nvim-notify") then
+	print("TODO")
+end
+if contains(PLUGINS, "nvim-pasta") then
+	print("TODO")
+end
+if contains(PLUGINS, "nvim-tree") then
+	print("TODO")
+end
+if contains(PLUGINS, "nvim-ufo") then
+	print("TODO")
+end
+if contains(PLUGINS, "overseer") then
+	print("TODO")
+end
+if contains(PLUGINS, "quicker") then
+	print("TODO")
+end
+if contains(PLUGINS, "render-markdown") then
+	print("TODO")
+end
+if contains(PLUGINS, "schemastore") then
+	print("TODO")
+end
+if contains(PLUGINS, "statuscol") then
+	print("TODO")
+end
+if contains(PLUGINS, "stickybuf") then
+	print("TODO")
+end
+if contains(PLUGINS, "structlog") then
+	print("TODO")
+end
+if contains(PLUGINS, "swm") then
+	print("TODO")
+end
+if contains(PLUGINS, "tabular") then
+	print("TODO")
+end
+if contains(PLUGINS, "treesitter-modules") then
+	print("TODO")
+end
+if contains(PLUGINS, "ultisnips") then
+	print("TODO")
+end
+if contains(PLUGINS, "vim-commentary") then
+	print("TODO")
+end
+if contains(PLUGINS, "vim-fugitive") then
+	print("TODO")
+end
+if contains(PLUGINS, "vim-mundo") then
+	print("TODO")
+end
+if contains(PLUGINS, "vim-sandwich") then
+	print("TODO")
+end
+if contains(PLUGINS, "vimtex") then
+	vim.g.vimtex_view_method = "zathura"
+end
+
 
 -- for k, v in pairs(PLUGIN_DECLARATION) do
 --     print(k)
