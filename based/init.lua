@@ -9,6 +9,12 @@
 -- https://github.com/letieu/wezterm-move.nvim
 -- https://github.com/jonboh/wezterm-mux.nvim -> https://github.com/mrjones2014/smart-splits.nvim
 
+-- on macos:
+-- brew install ruff
+-- brew install lua-language-server
+-- brew install rust-analyzer
+-- brew install haskell-language-server
+
 --[[ DESIRED MAPPINGS/ACTIONS
 - open quickfix window
 - open floating terminal
@@ -272,10 +278,9 @@ end
 vim.opt.runtimepath:prepend(CONFIG_DIR)
 package.path = CONFIG_DIR .. "/lua/?.lua;" .. CONFIG_DIR .. "/lua/?/init.lua;" .. package.path
 vim.api.nvim_set_hl(0, "Normal", { bg = "#020802" })
-vim.diagnostic.config({ virtual_text = false, virtual_lines = { current_line = true } })
+-- vim.diagnostic.config({ virtual_text = false, virtual_lines = { current_line = true } })
 vim.cmd("hi link Floaterm Normal")
 vim.cmd("hi link FloatermBorder Normal")
-vim.api.nvim_set_hl(0, "Normal", { bg = "#020802" })
 -------------------------------------------------------------------------------------------------------------------- LSP
 local diagnostic_modes = {
 	{
@@ -469,7 +474,7 @@ local strikethrough = enable_font_variants
 --
 --
 -- }
-
+vim.api.nvim_set_hl(0, "Normal", { bg = "#020802" })
 for name, attrs in pairs({
 	---- :help highlight-default -------------------------------
 
@@ -632,12 +637,6 @@ setup_plugin({
 --         additional_vim_regex_highlighting = false,
 --     },
 -- })
-
--- on macos:
--- brew install ruff
--- brew install lua-language-server
--- brew install rust-analyzer
--- brew install haskell-language-server
 
 vim.lsp.enable("lua_ls")
 vim.lsp.enable("ruff")
