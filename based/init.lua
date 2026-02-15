@@ -3,7 +3,7 @@
 -- wezterm: TODO: vendor
 -- https://github.com/willothy/wezterm.nvim
 -- https://github.com/ianhomer/wezterm.nvim
--- https://github.com/aca/wezterm.nvim
+-- https://github.com/aca/wezterm.nvim (in Go)
 -- https://github.com/letieu/wezterm-move.nvim
 -- https://github.com/jonboh/wezterm-mux.nvim -> https://github.com/mrjones2014/smart-splits.nvim
 
@@ -22,6 +22,7 @@
 -- brew install haskell-language-server
 
 --[[ DESIRED MAPPINGS/ACTIONS
+- 
 - open quickfix window
 - open floating terminal
 - copy selection to new file

@@ -58,6 +58,7 @@ local PLUGINS = {
     "dap", -- debugpy
 	"dap-python",
     -- "nvim-treesitter", -- brew install tree-sitter
+	"wezterm",
 }
 
 -- function addRelPath(dir)
@@ -140,114 +141,176 @@ local gl = function(id) return "https://gitlab.com/" .. id end
 local cb = function(id) return "https://codeberg.org/" .. id end
 
 local PLUGIN_DECLARATION = {
-	["bamboo"] =            { id = "ribru17/bamboo.nvim",          expander = gh, lazy = false },
-	["blink.cmp"] =         { id = "Saghen/blink.cmp",             expander = gh, lazy = false },
-	["conform"] =           { id = "stevearc/conform.nvim",        expander = gh, lazy = false },
-	["dial"] =              { id = "monaqa/dial.nvim",             expander = gh, lazy = false },
-	["diffview"] =          { id = "sindrets/diffview.nvim",       expander = gh, lazy = false },
-	["friendly-snippets"] = { id = "rafamadriz/friendly-snippets", expander = gh, lazy = false },
-	["gitsigns"] =          { id = "lewis6991/gitsigns.nvim",      expander = gh, lazy = false },
-	["haskell-tools"] =     { id = "mrcjkb/haskell-tools.nvim",    expander = gh, lazy = false }, -- already lazy
-	["lualine"] =           { id = "nvim-lualine/lualine.nvim",    expander = gh, lazy = false },
-	["LuaSnip"] =           { id = "L3MON4D3/LuaSnip",             expander = gh, lazy = false },
-	["marks"] =             { id = "chentoast/marks.nvim",         expander = gh, lazy = false },
-	["mini"] =              { id = "nvim-mini/mini.nvim",          expander = gh, lazy = false },
-	["neotest-haskell"] =   { id = "MrcJkb/neotest-haskell",       expander = gh, lazy = false }, -- TODO
-	["neotest-python"] =    { id = "nvim-neotest/neotest-python",  expander = gh, lazy = false },
-	["neotest"] =           { id = "nvim-neotest/neotest",         expander = gh, lazy = false },
-	["nvim-bqf"] =          { id = "kevinhwang91/nvim-bqf",        expander = gh, lazy = false },
-	["nvim-nio"] =          { id = "nvim-neotest/nvim-nio",        expander = gh, lazy = false },
-	["nvim-treesitter-textobjects"] = {
+	-- LAYER 0: foundation, colors, search, core navigation ===============================================================================
+	------ core dependencies
+	["plenary"] =              { id = "nvim-lua/plenary.nvim",           expander = gh, lazy = false },
+	["nvim-nio"] =             { id = "nvim-neotest/nvim-nio",        expander = gh, lazy = false },
+	------ core setup and UI
+	["bamboo"] =               { id = "ribru17/bamboo.nvim",             expander = gh, lazy = false },
+	["zen-mode"] =             { id = "folke/zen-mode.nvim",             expander = gh, lazy = false },
+	["lualine"] =              { id = "nvim-lualine/lualine.nvim",       expander = gh, lazy = false },
+	["nvim-navic"] =         { id = "SmiteshP/nvim-navic",               expander = gh, lazy = false }, -- needs nix
+	["bufferline"] =           { id = "akinsho/bufferline.nvim",         expander = gh, lazy = false }, -- needs nix
+	["statuscol"] =          { id = "luukvbaal/statuscol.nvim",          expander = gh, lazy = false }, -- needs nix
+	["nvim-treesitter"] =      { id = "nvim-treesitter/nvim-treesitter", expander = gh, lazy = false }, -- brew install tree-sitter; brew install tree-sitter-cli
+	["treesitter-modules"] = { id = "MeanderingProgrammer/treesitter-modules.nvim", expander = gh, lazy = false }, -- needs nix
+	------ file explorer (as central focus)
+	["oil"] =                  { id = "stevearc/oil.nvim",               expander = gh, lazy = false },
+	["yazi"] =                 { id = "mikavilpas/yazi.nvim",            expander = gh, lazy = false },
+	["neo-tree"] =           { id = "nvim-neo-tree/neo-tree.nvim",       expander = gh, lazy = false }, -- needs nix
+	["nvim-tree"] =          { id = "nvim-tree/nvim-tree.lua",                      expander = gh, lazy = false }, -- needs nix
+	------ picker / search
+	["pickme"] =               { id = "2KAbhishek/pickme.nvim",          expander = gh, lazy = false },
+	["telescope"] =            { id = "nvim-telescope/telescope.nvim",   expander = gh, lazy = false },
+	["telescope-fzf-native"] = { id = "nvim-telescope/telescope-fzf-native.nvim", expander = gh, lazy = false },
+	["fzf-lua"] =       { id = "ibhagwan/fzf-lua",                       expander = gh, lazy = false }, -- needs nix
+	["nvim-deck"] =          { id = "hrsh7th/nvim-deck",                            expander = gh, lazy = false }, -- needs nix
+	------ suites
+    ["mini"] =                 { id = "nvim-mini/mini.nvim",          expander = gh, lazy = false },
+	["snacks"] =               { id = "folke/snacks.nvim",               expander = gh, lazy = false },
+	["blink"] =              { id = "saghen/blink.nvim",             expander = gh, lazy = false }, -- needs nix
+	------ search
+	["nvim-hlslens"] =       { id = "kevinhwang91/nvim-hlslens",                    expander = gh, lazy = false }, -- needs nix
+	["hlsearch"] =           { id = "nvimdev/hlsearch.nvim",                        expander = gh, lazy = false }, -- needs nix
+	------ find-and-replace
+	["grug-far"] =           { id = "MagicDuck/grug-far.nvim",                      expander = gh, lazy = false }, -- needs nix
+	------ layout & buffer/tab navigation
+    ["flybuf"] =             { id = "nvimdev/flybuf.nvim",                          expander = gh, lazy = false }, -- needs nix
+	["stickybuf"] =          { id = "stevearc/stickybuf.nvim",                      expander = gh, lazy = false }, -- needs nix
+	["swm"] =                { id = "hrsh7th/nvim-swm",                             expander = gh, lazy = false }, -- needs nix
+	------ wezterm integration
+	["smart-splits"] =       { id = "mrjones2014/smart-splits.nvim",                expander = gh, lazy = false }, -- needs nix
+	-- LAYER 1: editing enhancements ==================================================================================================== 1
+	["aerial"] =               { id = "stevearc/aerial.nvim",           expander = gh, lazy = false }, -- needs nix
+	["nvim-ufo"] =           { id = "kevinhwang91/nvim-ufo",                        expander = gh, lazy = false }, -- needs nix
+	["flash"] =                { id = "folke/flash.nvim",               expander = gh, lazy = false }, -- needs nix
+	["blink.pairs"] =          { id = "saghen/blink.pairs",             expander = gh, lazy = false }, -- needs nix
+	["vim-mundo"] =          { id = "simnalamburt/vim-mundo",                       expander = gh, lazy = false }, -- needs nix
+	["vim-sandwich"] =       { id = "machakann/vim-sandwich",                       expander = gh, lazy = false }, -- needs nix
+    ["nvim-treesitter-textobjects"] = {
 		id = "nvim-treesitter/nvim-treesitter-textobjects",
 		expander = gh,
 		lazy = false,
 		name = "nvim-treesitter-textobjects",
 	},
-	["nvim-treesitter"] =      { id = "nvim-treesitter/nvim-treesitter",          expander = gh, lazy = false }, -- brew install tree-sitter; brew install tree-sitter-cli
-	["oil"] =                  { id = "stevearc/oil.nvim",                        expander = gh, lazy = false },
-	["pickme"] =               { id = "2KAbhishek/pickme.nvim",                   expander = gh, lazy = false },
-	["plenary"] =              { id = "nvim-lua/plenary.nvim",                    expander = gh, lazy = false },
+	["rainbow-delimiters"] =      { id = "HiPhish/rainbow-delimiters.nvim",                expander = gh, lazy = false }, -- needs nix
+	["nvim-surround"] =      { id = "kylechui/nvim-surround",                expander = gh, lazy = false }, -- needs nix
+	["leap.nvim"] =          { id = "ggandor/leap.nvim",                expander = gh, lazy = false }, -- needs nix
+	["vim-visual-multi"] =   { id = "mg979/vim-visual-multi",      expander = gh, lazy = false },
+	["treesj"] =             { id = "Wansmer/treesj",                expander = gh, lazy = false }, -- needs nix
+    ["nvim-anydent"] =       { id = "hrsh7th/nvim-anydent",          expander = gh, lazy = false }, -- needs nix
+	["nvim-autopairs"] =     { id = "windwp/nvim-autopairs",         expander = gh, lazy = false }, -- needs nix
+	["hop"] =                { id = "smoka7/hop.nvim",               expander = gh, lazy = false }, -- needs nix
+	------ keymapping-related
+	["hydra"] =              { id = "nvimtools/hydra.nvim",                         expander = gh, lazy = false }, -- needs nix
+	["nvim-insx"] =            { id = "hrsh7th/nvim-insx",                              expander = gh, lazy = false }, -- needs nix
+	["which-key"] =            { id = "folke/which-key.nvim",           expander = gh, lazy = false },
+	------ alignment / indentation
+	["indentmini"] =         { id = "nvimdev/indentmini.nvim",                      expander = gh, lazy = false }, -- needs nix
+	["indent-blankline"] =   { id = "lukas-reineke/indent-blankline.nvim",          expander = gh, lazy = false }, -- needs nix
+    ["mini.align"] =         { id = "nvim-mini/mini.align",                         expander = gh, lazy = false }, -- needs nix
+	["tabular"] =            { id = "godlygeek/tabular",                            expander = gh, lazy = false }, --  -- needs nix; https://devhints.io/tabular
+	------ comments
+    ["Comment"] =            { id = "numToStr/Comment.nvim",         expander = gh, lazy = false }, -- needs nix
+	["todo-comments"] =        { id = "folke/todo-comments.nvim",    expander = gh, lazy = false },
+	["vim-commentary"] =     { id = "tpope/vim-commentary",                         expander = gh, lazy = false }, -- needs nix
+	------ value manipulation
+    ["dial"] =                 { id = "monaqa/dial.nvim",            expander = gh, lazy = false },
+	------ marks
+	["harpoon-core"] =       { id = "MeanderingProgrammer/harpoon-core.nvim", expander = gh, lazy = false }, -- needs nix
+	["marks"] =              { id = "chentoast/marks.nvim",         expander = gh, lazy = false },
+	------ yank/paste & clipboard
+	["nvim-pasta"] =         { id = "hrsh7th/nvim-pasta",           expander = gh, lazy = false }, -- needs nix
+	-- LAYER 2: LSP, autocompletion, snippets =========================================================================================== 2
+	------ snippets, autocomplete
+	["blink.cmp"] =          { id = "Saghen/blink.cmp",              expander = gh, lazy = false },
+	["nvim-cmp"] =           { id = "hrsh7th/nvim-cmp",              expander = gh, lazy = false }, -- needs nix
+	------ snippets (as main focus)
+	["friendly-snippets"] =  { id = "rafamadriz/friendly-snippets",  expander = gh, lazy = false },
+	["ultisnips"] =          { id = "SirVer/ultisnips",              expander = gh, lazy = false }, -- needs nix; https://ejmastnak.com/tutorials/vim-latex/ultisnips/
+	["LuaSnip"] =              { id = "L3MON4D3/LuaSnip",             expander = gh, lazy = false },
+	------ completion sources
+	["cmp-nvim-lsp"] =       { id = "hrsh7th/cmp-nvim-lsp",              expander = gh, lazy = false }, -- needs nix
+	["cmp-buffer"] =         { id = "hrsh7th/cmp-buffer",              expander = gh, lazy = false }, -- needs nix
+	["cmp-path"] =           { id = "hrsh7th/cmp-path",              expander = gh, lazy = false }, -- needs nix
+	["cmp-cmdline"] =        { id = "hrsh7th/cmp-cmdline",              expander = gh, lazy = false }, -- needs nix
+	------ LSP general (configure ruff, pyright, lua-language-server, haskell-language-server, rust-analyzer with built-in client)
+	["lsp-format"] =         { id = "lukas-reineke/lsp-format.nvim", expander = gh, lazy = false }, -- needs nix
+	["lspkind"] =            { id = "onsails/lspkind.nvim", expander = gh, lazy = false }, -- needs nix
+	------ language-specific
+	["lazydev"] =            { id = "folke/lazydev.nvim",                           expander = gh, lazy = false }, -- needs nix
 	["rustaceanvim"] =         { id = "mrcjkb/rustaceanvim",                      expander = gh, lazy = false }, -- already lazy
-	["snacks"] =               { id = "folke/snacks.nvim",                        expander = gh, lazy = false },
-	["telescope-fzf-native"] = { id = "nvim-telescope/telescope-fzf-native.nvim", expander = gh, lazy = false },
-	["telescope"] =            { id = "nvim-telescope/telescope.nvim",            expander = gh, lazy = false },
-	["todo-comments"] =        { id = "folke/todo-comments.nvim",                 expander = gh, lazy = false },
+	["crates"] =            { id = "saecki/crates.nvim",                           expander = gh, lazy = false }, -- needs nix
+	["haskell-tools"] =        { id = "mrcjkb/haskell-tools.nvim",    expander = gh, lazy = false }, -- already lazy
+	------ LSP-adjacent
+	["none-ls"] =            { id = "nvimtools/none-ls.nvim",        expander = gh, lazy = false }, -- needs nix
+	-- LAYER 3: formatting & linting ==================================================================================================== 3
+	["guard"] =              { id = "nvimdev/guard.nvim",            expander = gh, lazy = false }, -- needs nix
+	["conform"] =              { id = "stevearc/conform.nvim",       expander = gh, lazy = false }, -- ruff, rustfmt, stylua, fourmolu
+	-- LAYER 4: testing, debugging/quickfix, execution ================================================================================== 4
+	["asyncrun"] =           { id = "skywind3000/asyncrun.vim",     expander = gh, lazy = false }, -- needs nix
+	["neotest-haskell"] =    { id = "MrcJkb/neotest-haskell",       expander = gh, lazy = false }, -- TODO
+	["neotest-python"] =     { id = "nvim-neotest/neotest-python",  expander = gh, lazy = false },
+	["neotest"] =            { id = "nvim-neotest/neotest",         expander = gh, lazy = false },
+	["dap-python"] =         { id = "mfussenegger/nvim-dap-python", expander = cb, lazy = false }, -- needs nix; pipx install debugpy
+	["dap-ui"] =             { id = "rcarriga/nvim-dap-ui",         expander = gh, lazy = false }, -- needs nix
+	["nvim-dap-virtual-text"] =                { id = "theHamsta/nvim-dap-virtual-text",        expander = cb, lazy = false }, -- needs nix
+	["dap"] =                { id = "mfussenegger/nvim-dap",        expander = cb, lazy = false }, -- needs nix
+	["mypy"] =                { id = "feakuru/mypy.nvim",      expander = gh, lazy = false }, -- needs nix
+	["nvim-lint"] =          { id = "mfussenegger/nvim-lint",                       expander = gh, lazy = false }, -- needs nix
+	------ DAP/quickix UI
+	["trouble.nvim"] =            { id = "folke/trouble.nvim",      expander = gh, lazy = false }, -- needs nix
+	["quicker"] =            { id = "stevearc/quicker.nvim",        expander = gh, lazy = false }, -- needs nix
+	["nvim-bqf"] =             { id = "kevinhwang91/nvim-bqf",      expander = gh, lazy = false },
+	------ terminal
+    ["vim-floaterm"] =       { id = "voldikss/vim-floaterm",        expander = gh, lazy = false },
 	["toggleterm"] =           { id = "akinsho/toggleterm.nvim",                  expander = gh, lazy = false },
-	["vim-floaterm"] =         { id = "voldikss/vim-floaterm",                    expander = gh, lazy = false },
-	["vim-visual-multi"] =     { id = "mg979/vim-visual-multi",                   expander = gh, lazy = false },
-	["which-key"] =            { id = "folke/which-key.nvim",                     expander = gh, lazy = false },
-	["yazi"] =                 { id = "mikavilpas/yazi.nvim",                     expander = gh, lazy = false },
-	["zen-mode"] =             { id = "folke/zen-mode.nvim",                      expander = gh, lazy = false },
-
-	-- needs nix below here = { id = "stevearc/overseer.nvim", expander = gh, lazy = false },
-
-	["aerial"] =             { id = "stevearc/aerial.nvim",                         expander = gh, lazy = false },
-	["asyncrun"] =           { id = "skywind3000/asyncrun.vim",                     expander = gh, lazy = false },
-	["blink.pairs"] =        { id = "saghen/blink.pairs",                           expander = gh, lazy = false },
-	["blink"] =              { id = "saghen/blink.nvim",                            expander = gh, lazy = false },
-	["bufferline"] =         { id = "akinsho/bufferline.nvim",                      expander = gh, lazy = false },
-	["Comment"] =            { id = "numToStr/Comment.nvim",                        expander = gh, lazy = false },
-	["dashboard-nvim"] =     { id = "nvimdev/dashboard-nvim",                       expander = gh, lazy = false },
-	["dashboard"] =          { id = "MeanderingProgrammer/dashboard.nvim",          expander = gh, lazy = false },
-	["fidget"] =             { id = "j-hui/fidget.nvim",                            expander = gh, lazy = false },
-	["firenvim"] =           { id = "glacambre/firenvim",                           expander = gh, lazy = false },
-	["flash"] =              { id = "folke/flash.nvim",                             expander = gh, lazy = false },
-	["flybuf"] =             { id = "nvimdev/flybuf.nvim",                          expander = gh, lazy = false },
-	["git-conflict"] =       { id = "akinsho/git-conflict.nvim",                    expander = gh, lazy = false },
-	["grug-far"] =           { id = "MagicDuck/grug-far.nvim",                      expander = gh, lazy = false },
-	["guard"] =              { id = "nvimdev/guard.nvim",                           expander = gh, lazy = false },
-	["harpoon-core"] =       { id = "MeanderingProgrammer/harpoon-core.nvim",       expander = gh, lazy = false },
-	["hlsearch"] =           { id = "nvimdev/hlsearch.nvim",                        expander = gh, lazy = false },
-	["hop"] =                { id = "smoka7/hop.nvim",                              expander = gh, lazy = false },
-	["hydra"] =              { id = "nvimtools/hydra.nvim",                         expander = gh, lazy = false },
-	["indent-blankline"] =   { id = "lukas-reineke/indent-blankline.nvim",          expander = gh, lazy = false },
-	["indentmini"] =         { id = "nvimdev/indentmini.nvim",                      expander = gh, lazy = false },
-	["jiejie"] =             { id = "jceb/jiejie.nvim",                             expander = gh, lazy = false },
-	["jj"] =                 { id = "NicolasGB/jj.nvim",                            expander = gh, lazy = false },
-	["jujutsu"] =            { id = "yannvanhalewyn/jujutsu.nvim",                  expander = gh, lazy = false },
-	["lazydev"] =            { id = "folke/lazydev.nvim",                           expander = gh, lazy = false },
-	["lazygit"] =            { id = "kdheepak/lazygit.nvim",                        expander = gh, lazy = false },
-	["lsp-format"] =         { id = "lukas-reineke/lsp-format.nvim",                expander = gh, lazy = false },
-	["lspsaga"] =            { id = "nvimdev/lspsaga.nvim",                         expander = gh, lazy = false },
-	["mini.align"] =         { id = "nvim-mini/mini.align",                         expander = gh, lazy = false },
-	["modes"] =              { id = "mvllow/modes.nvim",                            expander = gh, lazy = false },
-	["neo-tree"] =           { id = "nvim-neo-tree/neo-tree.nvim",                  expander = gh, lazy = false },
-	["neogit"] =             { id = "NeogitOrg/neogit",                             expander = gh, lazy = false },
-	["neorepl"] =            { id = "ii14/neorepl.nvim",                            expander = gh, lazy = false },
-	["noice"] =              { id = "folke/noice.nvim",                             expander = gh, lazy = false },
-	["none-ls"] =            { id = "nvimtools/none-ls.nvim",                       expander = gh, lazy = false },
-	["nvim-anydent"] =       { id = "hrsh7th/nvim-anydent",                         expander = gh, lazy = false },
-	["nvim-autopairs"] =     { id = "windwp/nvim-autopairs",                        expander = gh, lazy = false },
-	["nvim-cmp"] =           { id = "hrsh7th/nvim-cmp",                             expander = gh, lazy = false },
-	["dap-python"] =         { id = "mfussenegger/nvim-dap-python",                 expander = cb, lazy = false }, -- pipx install debugpy
-	["dap-ui"] =             { id = "rcarriga/nvim-dap-ui",                         expander = gh, lazy = false },
-	["dap"] =                { id = "mfussenegger/nvim-dap",                        expander = cb, lazy = false },
-	["nvim-deck"] =          { id = "hrsh7th/nvim-deck",                            expander = gh, lazy = false },
-	["nvim-hlslens"] =       { id = "kevinhwang91/nvim-hlslens",                    expander = gh, lazy = false },
-	["nvim-ix"] =            { id = "hrsh7th/nvim-ix",                              expander = gh, lazy = false },
-	["nvim-lint"] =          { id = "mfussenegger/nvim-lint",                       expander = gh, lazy = false },
-	["nvim-navic"] =         { id = "SmiteshP/nvim-navic",                          expander = gh, lazy = false },
-	["nvim-notify"] =        { id = "rcarriga/nvim-notify",                         expander = gh, lazy = false },
-	["nvim-pasta"] =         { id = "hrsh7th/nvim-pasta",                           expander = gh, lazy = false },
-	["nvim-tree"] =          { id = "nvim-tree/nvim-tree.lua",                      expander = gh, lazy = false },
-	["nvim-ufo"] =           { id = "kevinhwang91/nvim-ufo",                        expander = gh, lazy = false },
-	["overseer"] =           { id = "stevearc/overseer.nvim",                       expander = gh, lazy = false },
-	["quicker"] =            { id = "stevearc/quicker.nvim",                        expander = gh, lazy = false },
-	["render-markdown"] =    { id = "MeanderingProgrammer/render-markdown.nvim",    expander = gh, lazy = false },
-	["schemastore"] =        { id = "b0o/SchemaStore.nvim",                         expander = gh, lazy = false },
-	["statuscol"] =          { id = "luukvbaal/statuscol.nvim",                     expander = gh, lazy = false },
-	["stickybuf"] =          { id = "stevearc/stickybuf.nvim",                      expander = gh, lazy = false },
-	["structlog"] =          { id = "Tastyep/structlog.nvim",                       expander = gh, lazy = false },
-	["swm"] =                { id = "hrsh7th/nvim-swm",                             expander = gh, lazy = false },
-	["tabular"] =            { id = "godlygeek/tabular",                            expander = gh, lazy = false }, -- https://devhints.io/tabular
-	["texmagic"] = { id = "jakewvincent/texmagic.nvim", expander = gh, lazy = false },
-	["treesitter-modules"] = { id = "MeanderingProgrammer/treesitter-modules.nvim", expander = gh, lazy = false },
-	["ultisnips"] =          { id = "SirVer/ultisnips",                             expander = gh, lazy = false }, -- https://ejmastnak.com/tutorials/vim-latex/ultisnips/
-	["vim-commentary"] =     { id = "tpope/vim-commentary",                         expander = gh, lazy = false },
-	["vim-fugitive"] =       { id = "tpope/vim-fugitive",                           expander = gh, lazy = false },
-	["vim-mundo"] =          { id = "simnalamburt/vim-mundo",                       expander = gh, lazy = false },
-	["vim-sandwich"] =       { id = "machakann/vim-sandwich",                       expander = gh, lazy = false },
-	["vimtex"] =             { id = "lervag/vimtex",                                expander = gh, lazy = false }, -- use vim.cmd.source or vim.fn.runtime
+	------ code/task runners
+	["overseer"] =           { id = "stevearc/overseer.nvim",                       expander = gh, lazy = false }, -- needs nix
+	-- LAYER 5: refactoring & code intelligence ========================================================================================= 5
+	["refactoring"] =       { id = "ThePrimeagen/refactoring.nvim", expander = gh, lazy = false }, -- needs nix
+	-- LAYER 6: version control & collaboration ========================================================================================= 6
+    ["jj"] =                 { id = "NicolasGB/jj.nvim",                            expander = gh, lazy = false }, -- needs nix
+	["jujutsu"] =            { id = "yannvanhalewyn/jujutsu.nvim",                  expander = gh, lazy = false }, -- needs nix
+	["lazygit"] =            { id = "kdheepak/lazygit.nvim",                        expander = gh, lazy = false }, -- needs nix
+	["git-conflict"] =       { id = "akinsho/git-conflict.nvim",                    expander = gh, lazy = false }, -- needs nix
+	["neogit"] =             { id = "NeogitOrg/neogit",                             expander = gh, lazy = false }, -- needs nix
+	["jiejie"] =             { id = "jceb/jiejie.nvim",                             expander = gh, lazy = false }, -- needs nix
+	["diffview"] =             { id = "sindrets/diffview.nvim",       expander = gh, lazy = false },
+	["gitsigns"] =             { id = "lewis6991/gitsigns.nvim",      expander = gh, lazy = false },
+	["vim-fugitive"] =       { id = "tpope/vim-fugitive",                           expander = gh, lazy = false }, -- needs nix
+	-- git forges
+	["octo"] =            { id = "pwntester/octo.nvim",                            expander = gh, lazy = false }, -- needs nix
+	["gitlab-nvim"] =        { id = "harrisoncramer/gitlab.nvim",                            expander = gh, lazy = false }, -- needs nix
+	["gitlab"] =             { id = "gitlab-org/editor-extensions/gitlab.vim", expander = gh, lazy = false }, -- needs nix
+	-- LAYER 7: UI polish & productivity ================================================================================================ 7
+	["dashboard-nvim"] =     { id = "nvimdev/dashboard-nvim",                       expander = gh, lazy = false }, -- needs nix
+	["dashboard"] =          { id = "MeanderingProgrammer/dashboard.nvim",          expander = gh, lazy = false }, -- needs nix
+    ["noice"] =              { id = "folke/noice.nvim",                             expander = gh, lazy = false }, -- needs nix
+	["modes"] =              { id = "mvllow/modes.nvim",                            expander = gh, lazy = false }, -- needs nix
+	[""] =              { id = "",                            expander = gh, lazy = false }, -- needs nix
+	------ UI (important for LSP)
+	["fidget"] =             { id = "j-hui/fidget.nvim",             expander = gh, lazy = false }, -- needs nix
+	["nvim-notify"] =        { id = "rcarriga/nvim-notify",          expander = gh, lazy = false }, -- needs nix; see also mini.notify
+	["lspsaga"] =            { id = "nvimdev/lspsaga.nvim",          expander = gh, lazy = false }, -- needs nix
+	------ session management
+	["auto-session"] =              { id = "rmagatti/auto-session",                            expander = gh, lazy = false }, -- needs nix
+	["persistence"] =              { id = "folke/persistence.nvim",                            expander = gh, lazy = false }, -- needs nix
+	------ session management
+	["project"] =              { id = "ahmedkhalf/project.nvim",                            expander = gh, lazy = false }, -- needs nix
+	["telescope-project"] =    { id = "nvim-telescope/telescope-project.nvim",                            expander = gh, lazy = false }, -- needs nix
+	-- LAYER 8: miscellaneous/advanced =========================================================================================================== 8
+	["vimtex"] =             { id = "lervag/vimtex",                                expander = gh, lazy = false }, -- needs nix; use vim.cmd.source or vim.fn.runtime
+    ["texmagic"] =           { id = "jakewvincent/texmagic.nvim",                   expander = gh, lazy = false }, -- needs nix
+	["schemastore"] =        { id = "b0o/SchemaStore.nvim",                         expander = gh, lazy = false }, -- needs nix
+	["firenvim"] =           { id = "glacambre/firenvim",                           expander = gh, lazy = false }, -- needs nix
+	["render-markdown"] =    { id = "MeanderingProgrammer/render-markdown.nvim",    expander = gh, lazy = false }, -- needs nix
+	["jupytext"] =    { id = "GCBallesteros/jupytext.nvim",    expander = gh, lazy = false }, -- needs nix
+	["quarto"] =    { id = "quarto-dev/quarto-nvim",    expander = gh, lazy = false }, -- needs nix
+	["markdown-preview"] =   { id = "iamcco/markdown-preview.nvim",                            expander = gh, lazy = false }, -- needs nix
+	------ Lua / self-referential
+	["structlog"] =          { id = "Tastyep/structlog.nvim",                       expander = gh, lazy = false }, -- needs nix
+	["neorepl"] =            { id = "ii14/neorepl.nvim",                            expander = gh, lazy = false }, -- needs nix
 }
 
 
@@ -264,7 +327,6 @@ end
 for _, name in ipairs(PLUGINS) do
 	add_plugin(name)
 end
-print(PLUGINS["bamboo"])
 
 function contains(table, element)
 	for _, value in pairs(table) do
@@ -276,7 +338,108 @@ function contains(table, element)
   end
 
 
+if contains(PLUGINS, "wezterm") then
+-- https://github.com/ianhomer/wezterm.nvim/blob/main/lua/wezterm.lua --------------------------------------------------
+local wez = {}
 
+local directions = {
+  h = "Left",
+  l = "Right",
+  j = "Down",
+  k = "Up",
+}
+
+local arrows = {
+  h = "left",
+  l = "right",
+  j = "down",
+  k = "up",
+}
+
+local function command(args)
+  os.execute("wezterm cli " .. args)
+end
+
+function wez.navigate(direction)
+  command("activate-pane-direction " .. directions[direction])
+end
+
+function wez.go_direction(direction)
+  local current_window = vim.fn.win_getid()
+  vim.api.nvim_command("wincmd " .. direction)
+  local at_edge = current_window == vim.fn.win_getid()
+  if at_edge then
+    wez.navigate(direction)
+  end
+end
+
+function wez.keys()
+  local keys = {}
+  for key, _ in pairs(directions) do
+    table.insert(keys, {
+      "<c-" .. key .. ">",
+      function()
+        wez.go_direction(key)
+      end,
+      mode = { "n" },
+      desc = "Navigate " .. arrows[key],
+    })
+  end
+
+  return keys
+end
+
+function wez.setup(opts)
+  for key, _ in pairs(directions) do
+    vim.keymap.set("", "<c-" .. key .. ">", function()
+      wez.go_direction(key)
+    end)
+    -- support ctrl arrow keys in normal an insert mode
+    vim.keymap.set({ "i", "n", "v", "x", "c" }, "<c-" .. arrows[key] .. ">", function()
+      print("D" .. key)
+      M.go_direction(key)
+    end)
+  end
+end
+
+-- return wez
+--
+-- https://github.com/letieu/wezterm-move.nvim/blob/master/lua/wezterm-move/init.lua ----------------------------------
+local WM = {}
+
+local wezterm_directions = { h = "Left", j = "Down", k = "Up", l = "Right" }
+
+-- @param direction: string (h, j, k, l)
+local function at_edge(direction)
+  return vim.fn.winnr() == vim.fn.winnr(direction)
+end
+
+local function wezterm_exec(cmd)
+  local command = vim.deepcopy(cmd)
+  if vim.fn.executable("wezterm.exe") == 1 then
+    table.insert(command, 1, "wezterm.exe")
+  else
+    table.insert(command, 1, "wezterm")
+  end
+  table.insert(command, 2, "cli")
+  return vim.fn.system(command)
+end
+
+-- @param direction: string (h, j, k, l)
+local function send_key_to_wezterm(direction)
+  wezterm_exec({ "activate-pane-direction", wezterm_directions[direction] })
+end
+
+-- @param direction: string (h, j, k, l)
+WM.move = function(direction)
+  if at_edge(direction) then
+    send_key_to_wezterm(direction)
+  else
+    vim.cmd("wincmd " .. direction)
+  end
+end
+------------------------------------------------------------------------------------------------------------------------
+end
 if contains(PLUGINS, "bamboo") then
 	print("Setting up bamboo")
 	require("bamboo").setup({
@@ -592,6 +755,9 @@ if contains(PLUGINS, "render-markdown") then
 	print("TODO")
 end
 if contains(PLUGINS, "schemastore") then
+	print("TODO")
+end
+if contains(PLUGINS, "smart-splits") then
 	print("TODO")
 end
 if contains(PLUGINS, "statuscol") then
