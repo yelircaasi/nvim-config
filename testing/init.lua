@@ -145,6 +145,7 @@ local PLUGIN_DECLARATION = {
 	------ core dependencies
 	["plenary"]              = { id = "nvim-lua/plenary.nvim",           expander = gh, lazy = false },
 	["nvim-nio"]             = { id = "nvim-neotest/nvim-nio",           expander = gh, lazy = false },
+	["nvim-web-devicons"]    = { id = "nvim-tree/nvim-web-devicons",     expander = gh, lazy = false }, -- needs nix
 	------ core setup and UI
 	["bamboo"]               = { id = "ribru17/bamboo.nvim",             expander = gh, lazy = false },
 	["zen-mode"]             = { id = "folke/zen-mode.nvim",             expander = gh, lazy = false },
