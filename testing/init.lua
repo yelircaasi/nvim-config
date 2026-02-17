@@ -45,6 +45,9 @@
 --     highlight = { enable = true },
 -- })
 
+-- local hello = vim.fn.system("echo hello")
+-- print(hello)
+
 WEZTERM = true
 local PLUGINS = {
 	-- --[[
