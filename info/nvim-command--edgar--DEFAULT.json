@@ -6,7 +6,7 @@
         "address": null,
         "complete": null,
         "definition": "call s:DoMatchParen()",
-        "description": "Last set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/plugin/matchparen.vim line 213"
+        "description": "Last set from ~/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/plugin/matchparen.vim line 213"
     },
     "EditQuery": {
         "annotation": "_",
@@ -24,7 +24,7 @@
         "address": "0c ?",
         "complete": "dir",
         "definition": "call netrw#Explore(<count>, 0, 0+<bang>0, <q-args>)",
-        "description": "Last set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/pack/dist/opt/netrw/plugin/netrwPlugin.vim line 64"
+        "description": "Last set from ~/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/pack/dist/opt/netrw/plugin/netrwPlugin.vim line 64"
     },
     "Hexplore": {
         "annotation": "!|",
@@ -33,7 +33,7 @@
         "address": "0c ?",
         "complete": "dir",
         "definition": "call netrw#Explore(<count>, 1, 2+<bang>0, <q-args>)",
-        "description": "Last set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/pack/dist/opt/netrw/plugin/netrwPlugin.vim line 66"
+        "description": "Last set from ~/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/pack/dist/opt/netrw/plugin/netrwPlugin.vim line 66"
     },
     "Inspect": {
         "annotation": "!",
@@ -60,7 +60,7 @@
         "address": "0c ?",
         "complete": "dir",
         "definition": "call netrw#Lexplore(<count>, <bang>0, <q-args>)",
-        "description": "Last set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/pack/dist/opt/netrw/plugin/netrwPlugin.vim line 69"
+        "description": "Last set from ~/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/pack/dist/opt/netrw/plugin/netrwPlugin.vim line 69"
     },
     "Man": {
         "annotation": "!|",
@@ -68,8 +68,8 @@
         "args": "*",
         "address": ".  ?",
         "complete": "<Lua function>",
-        "definition": "<Lua 76: ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/plugin/man.lua:6>",
-        "description": "Last set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/plugin/man.lua (run Nvim with -V1 for more details)"
+        "definition": "<Lua 76: ~/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/plugin/man.lua:6>",
+        "description": "Last set from ~/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/plugin/man.lua (run Nvim with -V1 for more details)"
     },
     "MatchDebug": {
         "annotation": "_",
@@ -78,7 +78,7 @@
         "address": null,
         "complete": null,
         "definition": "call matchit#Match_debug()",
-        "description": "Last set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 113"
+        "description": "Last set from ~/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 113"
     },
     "MatchDisable": {
         "annotation": "_",
@@ -87,7 +87,7 @@
         "address": null,
         "complete": null,
         "definition": ":call MatchDisable()",
-        "description": "Last set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 116"
+        "description": "Last set from ~/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 116"
     },
     "MatchEnable": {
         "annotation": "_",
@@ -96,7 +96,7 @@
         "address": null,
         "complete": null,
         "definition": ":call MatchEnable()",
-        "description": "Last set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 119"
+        "description": "Last set from ~/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 119"
     },
     "NetUserPass": {
         "annotation": "_",
@@ -105,7 +105,7 @@
         "address": null,
         "complete": null,
         "definition": "call NetUserPass(<f-args>)",
-        "description": "Last set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/pack/dist/opt/netrw/plugin/netrwPlugin.vim line 57"
+        "description": "Last set from ~/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/pack/dist/opt/netrw/plugin/netrwPlugin.vim line 57"
     },
     "NetrwClean": {
         "annotation": "!",
@@ -114,7 +114,7 @@
         "address": null,
         "complete": null,
         "definition": "call netrw#Clean(<bang>0)",
-        "description": "Last set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/pack/dist/opt/netrw/plugin/netrwPlugin.vim line 77"
+        "description": "Last set from ~/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/pack/dist/opt/netrw/plugin/netrwPlugin.vim line 77"
     },
     "NetrwSettings": {
         "annotation": "_",
@@ -123,7 +123,7 @@
         "address": null,
         "complete": null,
         "definition": "call netrwSettings#NetrwSettings()",
-        "description": "Last set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/pack/dist/opt/netrw/plugin/netrwPlugin.vim line 76"
+        "description": "Last set from ~/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/pack/dist/opt/netrw/plugin/netrwPlugin.vim line 76"
     },
     "Nexplore": {
         "annotation": "!|",
@@ -132,7 +132,7 @@
         "address": null,
         "complete": null,
         "definition": "call netrw#Explore(-1, 0, 0, <q-args>)",
-        "description": "Last set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/pack/dist/opt/netrw/plugin/netrwPlugin.vim line 70"
+        "description": "Last set from ~/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/pack/dist/opt/netrw/plugin/netrwPlugin.vim line 70"
     },
     "NoMatchParen": {
         "annotation": "_",
@@ -141,7 +141,7 @@
         "address": null,
         "complete": null,
         "definition": "call s:NoMatchParen()",
-        "description": "Last set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/plugin/matchparen.vim line 214"
+        "description": "Last set from ~/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/plugin/matchparen.vim line 214"
     },
     "Ntree": {
         "annotation": "_",
@@ -150,7 +150,7 @@
         "address": null,
         "complete": null,
         "definition": "call netrw#SetTreetop(1,<q-args>)",
-        "description": "Last set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/pack/dist/opt/netrw/plugin/netrwPlugin.vim line 59"
+        "description": "Last set from ~/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/pack/dist/opt/netrw/plugin/netrwPlugin.vim line 59"
     },
     "Open": {
         "annotation": "_",
@@ -168,7 +168,7 @@
         "address": null,
         "complete": null,
         "definition": "call netrw#Explore(-2, 0, 0, <q-args>)",
-        "description": "Last set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/pack/dist/opt/netrw/plugin/netrwPlugin.vim line 71"
+        "description": "Last set from ~/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/pack/dist/opt/netrw/plugin/netrwPlugin.vim line 71"
     },
     "Sexplore": {
         "annotation": "!|",
@@ -177,7 +177,7 @@
         "address": "0c ?",
         "complete": "dir",
         "definition": "call netrw#Explore(<count>, 1, 0+<bang>0, <q-args>)",
-        "description": "Last set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/pack/dist/opt/netrw/plugin/netrwPlugin.vim line 65"
+        "description": "Last set from ~/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/pack/dist/opt/netrw/plugin/netrwPlugin.vim line 65"
     },
     "TOhtml": {
         "annotation": "|",
@@ -185,8 +185,8 @@
         "args": "?",
         "address": "%",
         "complete": null,
-        "definition": "<Lua 80: ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/plugin/tohtml.lua:6>",
-        "description": "Last set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/plugin/tohtml.lua (run Nvim with -V1 for more details)"
+        "definition": "<Lua 80: ~/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/plugin/tohtml.lua:6>",
+        "description": "Last set from ~/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/plugin/tohtml.lua (run Nvim with -V1 for more details)"
     },
     "Texplore": {
         "annotation": "|",
@@ -195,7 +195,7 @@
         "address": "0c ?",
         "complete": "dir",
         "definition": "call netrw#Explore(<count>, 0, 6, <q-args>)",
-        "description": "Last set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/pack/dist/opt/netrw/plugin/netrwPlugin.vim line 68"
+        "description": "Last set from ~/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/pack/dist/opt/netrw/plugin/netrwPlugin.vim line 68"
     },
     "Tutor": {
         "annotation": "_",
@@ -204,7 +204,7 @@
         "address": null,
         "complete": "custom",
         "definition": "call tutor#TutorCmd(<q-args>)",
-        "description": "Last set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/plugin/tutor.vim line 12"
+        "description": "Last set from ~/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/plugin/tutor.vim line 12"
     },
     "UpdateRemotePlugins": {
         "annotation": "|",
@@ -213,7 +213,7 @@
         "address": null,
         "complete": null,
         "definition": "call remote#host#UpdateRemotePlugins()",
-        "description": "Last set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/plugin/rplugin.vim line 65"
+        "description": "Last set from ~/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/plugin/rplugin.vim line 65"
     },
     "Vexplore": {
         "annotation": "!|",
@@ -222,6 +222,6 @@
         "address": "0c ?",
         "complete": "dir",
         "definition": "call netrw#Explore(<count>, 1, 4+<bang>0, <q-args>)",
-        "description": "Last set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/pack/dist/opt/netrw/plugin/netrwPlugin.vim line 67"
+        "description": "Last set from ~/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/pack/dist/opt/netrw/plugin/netrwPlugin.vim line 67"
     }
 }

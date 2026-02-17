@@ -3,12 +3,12 @@
   _info = {
     allows_duplicates = false,
     commalist = true,
-    default = "/Users/ext_riley/.config/nvim,/Users/ext_riley/homebrew/etc/xdg/nvim,/etc/xdg/nvim,/Users/ext_riley/.local/share/nvim/site,/Users/ext_riley/homebrew/share/nvim/site,/usr/local/share/nvim/site,/usr/share/nvim/site,/Users/ext_riley/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime,/Users/ext_riley/homebrew/Cellar/neovim/0.11.4/lib/nvim,/usr/share/nvim/site/after,/usr/local/share/nvim/site/after,/Users/ext_riley/homebrew/share/nvim/site/after,/Users/ext_riley/.local/share/nvim/site/after,/etc/xdg/nvim/after,/Users/ext_riley/homebrew/etc/xdg/nvim/after,/Users/ext_riley/.config/nvim/after",
+    default = "/Users/ext_riley/.config/nvim,/Users/ext_riley/homebrew/etc/xdg/nvim,/etc/xdg/nvim,/Users/ext_riley/.local/share/nvim/site,/Users/ext_riley/homebrew/share/nvim/site,/usr/local/share/nvim/site,/usr/share/nvim/site,/Users/ext_riley/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime,/Users/ext_riley/homebrew/Cellar/neovim/0.11.6/lib/nvim,/usr/share/nvim/site/after,/usr/local/share/nvim/site/after,/Users/ext_riley/homebrew/share/nvim/site/after,/Users/ext_riley/.local/share/nvim/site/after,/etc/xdg/nvim/after,/Users/ext_riley/homebrew/etc/xdg/nvim/after,/Users/ext_riley/.config/nvim/after",
     flaglist = false,
     global_local = false,
     last_set_chan = 0,
     last_set_linenr = 7,
-    last_set_sid = 10,
+    last_set_sid = 11,
     metatype = "array",
     name = "runtimepath",
     scope = "global",
@@ -17,7 +17,7 @@
     was_set = true
   },
   _name = "rtp",
-  _value = "/Users/ext_riley/.config/nvim,/Users/ext_riley/homebrew/etc/xdg/nvim,/etc/xdg/nvim,/Users/ext_riley/.local/share/nvim/site,/Users/ext_riley/homebrew/share/nvim/site,/usr/local/share/nvim/site,/usr/share/nvim/site,/Users/ext_riley/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime,/Users/ext_riley/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/pack/dist/opt/netrw,/Users/ext_riley/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/pack/dist/opt/matchit,/Users/ext_riley/homebrew/Cellar/neovim/0.11.4/lib/nvim,/usr/share/nvim/site/after,/usr/local/share/nvim/site/after,/Users/ext_riley/homebrew/share/nvim/site/after,/Users/ext_riley/.local/share/nvim/site/after,/etc/xdg/nvim/after,/Users/ext_riley/homebrew/etc/xdg/nvim/after,/Users/ext_riley/.config/nvim/after",
+  _value = "/Users/ext_riley/.config/nvim,/Users/ext_riley/homebrew/etc/xdg/nvim,/etc/xdg/nvim,/Users/ext_riley/.local/share/nvim/site,/Users/ext_riley/homebrew/share/nvim/site,/usr/local/share/nvim/site,/usr/share/nvim/site,/Users/ext_riley/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime,/Users/ext_riley/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/pack/dist/opt/netrw,/Users/ext_riley/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/pack/dist/opt/matchit,/Users/ext_riley/homebrew/Cellar/neovim/0.11.6/lib/nvim,/usr/share/nvim/site/after,/usr/local/share/nvim/site/after,/Users/ext_riley/homebrew/share/nvim/site/after,/Users/ext_riley/.local/share/nvim/site/after,/etc/xdg/nvim/after,/Users/ext_riley/homebrew/etc/xdg/nvim/after,/Users/ext_riley/.config/nvim/after",
   <metatable> = <1>{
     __add = <function 1>,
     __index = <table 1>,

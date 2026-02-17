@@ -7,8 +7,8 @@
         "/Users/ext_riley/homebrew/share/nvim/site",
         "/usr/local/share/nvim/site",
         "/usr/share/nvim/site",
-        "/Users/ext_riley/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime",
-        "/Users/ext_riley/homebrew/Cellar/neovim/0.11.4/lib/nvim",
+        "/Users/ext_riley/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime",
+        "/Users/ext_riley/homebrew/Cellar/neovim/0.11.6/lib/nvim",
         "/usr/share/nvim/site/after",
         "/usr/local/share/nvim/site/after",
         "/Users/ext_riley/homebrew/share/nvim/site/after",
@@ -25,10 +25,10 @@
         "/Users/ext_riley/homebrew/share/nvim/site",
         "/usr/local/share/nvim/site",
         "/usr/share/nvim/site",
-        "/Users/ext_riley/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime",
-        "/Users/ext_riley/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/pack/dist/opt/netrw",
-        "/Users/ext_riley/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/pack/dist/opt/matchit",
-        "/Users/ext_riley/homebrew/Cellar/neovim/0.11.4/lib/nvim",
+        "/Users/ext_riley/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime",
+        "/Users/ext_riley/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/pack/dist/opt/netrw",
+        "/Users/ext_riley/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/pack/dist/opt/matchit",
+        "/Users/ext_riley/homebrew/Cellar/neovim/0.11.6/lib/nvim",
         "/usr/share/nvim/site/after",
         "/usr/local/share/nvim/site/after",
         "/Users/ext_riley/homebrew/share/nvim/site/after",
@@ -36,5 +36,79 @@
         "/etc/xdg/nvim/after",
         "/Users/ext_riley/homebrew/etc/xdg/nvim/after",
         "/Users/ext_riley/.config/nvim/after"
-    ]
+    ],
+    "contents": {
+        "/Users/ext_riley/.config/nvim": [
+            "/Users/ext_riley/.config/nvim/init.lua",
+            "/Users/ext_riley/.config/nvim/plugin-locations.lua",
+            "/Users/ext_riley/.config/nvim/lua",
+            "/Users/ext_riley/.config/nvim/lazy-lock.json",
+            "/Users/ext_riley/.config/nvim/notes",
+            "/Users/ext_riley/.config/nvim/nvim-pack-lock.json"
+        ],
+        "/Users/ext_riley/homebrew/etc/xdg/nvim": "NONEXISTENT",
+        "/etc/xdg/nvim": "NONEXISTENT",
+        "/Users/ext_riley/.local/share/nvim/site": [
+            "/Users/ext_riley/.local/share/nvim/site/queries",
+            "/Users/ext_riley/.local/share/nvim/site/pack",
+            "/Users/ext_riley/.local/share/nvim/site/parser",
+            "/Users/ext_riley/.local/share/nvim/site/parser-info"
+        ],
+        "/Users/ext_riley/homebrew/share/nvim/site": "NONEXISTENT",
+        "/usr/local/share/nvim/site": "NONEXISTENT",
+        "/usr/share/nvim/site": "NONEXISTENT",
+        "/Users/ext_riley/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime": [
+            "/Users/ext_riley/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/indent",
+            "/Users/ext_riley/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/indoff.vim",
+            "/Users/ext_riley/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/ftplugin",
+            "/Users/ext_riley/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/optwin.vim",
+            "/Users/ext_riley/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/neovim.ico",
+            "/Users/ext_riley/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/spell",
+            "/Users/ext_riley/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/ftplugof.vim",
+            "/Users/ext_riley/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/plugin",
+            "/Users/ext_riley/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/queries",
+            "/Users/ext_riley/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/pack",
+            "/Users/ext_riley/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/indent.vim",
+            "/Users/ext_riley/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/ftoff.vim",
+            "/Users/ext_riley/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/makemenu.vim",
+            "/Users/ext_riley/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/lua",
+            "/Users/ext_riley/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/example_init.lua",
+            "/Users/ext_riley/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/delmenu.vim",
+            "/Users/ext_riley/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/colors",
+            "/Users/ext_riley/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/tutor",
+            "/Users/ext_riley/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/scripts",
+            "/Users/ext_riley/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/keymap",
+            "/Users/ext_riley/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/doc",
+            "/Users/ext_riley/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/autoload",
+            "/Users/ext_riley/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/ftplugin.vim",
+            "/Users/ext_riley/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/syntax",
+            "/Users/ext_riley/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/filetype.lua",
+            "/Users/ext_riley/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/compiler",
+            "/Users/ext_riley/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/menu.vim",
+            "/Users/ext_riley/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/synmenu.vim"
+        ],
+        "/Users/ext_riley/homebrew/Cellar/neovim/0.11.6/lib/nvim": [
+            "/Users/ext_riley/homebrew/Cellar/neovim/0.11.6/lib/nvim/parser"
+        ],
+        "/usr/share/nvim/site/after": "NONEXISTENT",
+        "/usr/local/share/nvim/site/after": "NONEXISTENT",
+        "/Users/ext_riley/homebrew/share/nvim/site/after": "NONEXISTENT",
+        "/Users/ext_riley/.local/share/nvim/site/after": "NONEXISTENT",
+        "/etc/xdg/nvim/after": "NONEXISTENT",
+        "/Users/ext_riley/homebrew/etc/xdg/nvim/after": "NONEXISTENT",
+        "/Users/ext_riley/.config/nvim/after": "NONEXISTENT",
+        "/Users/ext_riley/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/pack/dist/opt/netrw": [
+            "/Users/ext_riley/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/pack/dist/opt/netrw/plugin",
+            "/Users/ext_riley/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/pack/dist/opt/netrw/README.md",
+            "/Users/ext_riley/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/pack/dist/opt/netrw/doc",
+            "/Users/ext_riley/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/pack/dist/opt/netrw/autoload",
+            "/Users/ext_riley/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/pack/dist/opt/netrw/LICENSE.txt",
+            "/Users/ext_riley/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/pack/dist/opt/netrw/syntax"
+        ],
+        "/Users/ext_riley/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/pack/dist/opt/matchit": [
+            "/Users/ext_riley/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/pack/dist/opt/matchit/plugin",
+            "/Users/ext_riley/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/pack/dist/opt/matchit/doc",
+            "/Users/ext_riley/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/pack/dist/opt/matchit/autoload"
+        ]
+    }
 }

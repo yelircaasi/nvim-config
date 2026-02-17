@@ -2,6 +2,48 @@
 s  <Tab>       * <Lua 26: vim/_defaults.lua:229>
                  vim.snippet.jump if active, otherwise <Tab>
 	Last set from Lua (run Nvim with -V1 for more details)
+n  <Space>dm   * <Lua 223: ~/.config/nvim/lua/python.lua:107>
+                 Cycle LSP Diagnostic Modes
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>dt   * <Lua 222: ~/.config/nvim/lua/python.lua:101>
+                 Toggle LSP Diagnostics
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>zm   * <Lua 221: ~/.config/nvim/lua/mappings.lua:145>
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>q    * <Lua 212: ~/.config/nvim/lua/mappings.lua:111>
+                 Open Quickfix with diagnostics
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>ww   * <Lua 211: ~/.config/nvim/lua/mappings.lua:108>
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>wq   * <Lua 209: ~/.config/nvim/lua/mappings.lua:105>
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>ft   * <Cmd>FloatermToggle<CR>
+                 Toggle floaterm
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>fh   * <Lua 208: ~/.config/nvim/lua/mappings.lua:57>
+                 Find Help Tags
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>fb   * <Lua 207: ~/.config/nvim/lua/mappings.lua:54>
+                 Find Buffers
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>fg   * <Lua 206: ~/.config/nvim/lua/mappings.lua:51>
+                 Live Grep
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>gf   * <Lua 204: ~/.config/nvim/lua/mappings.lua:48>
+                 Find Git Files
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>ff   * <Lua 74: ~/.config/nvim/lua/mappings.lua:45>
+                 Find Files
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+v  <Space>-    * <Lua 82: ~/.local/share/nvim/lazy/lazy.nvim/lua/lazy/core/handler/keys.lua:121>
+                 Open yazi at the current file
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>-    * <Lua 81: ~/.local/share/nvim/lazy/lazy.nvim/lua/lazy/core/handler/keys.lua:121>
+                 Open yazi at the current file
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>cw   * <Lua 77: ~/.local/share/nvim/lazy/lazy.nvim/lua/lazy/core/handler/keys.lua:121>
+                 Open the file manager in nvim's working directory
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
 x  #           * <Lua 9: vim/_defaults.lua:87>
                  :help v_#-default
 	Last set from Lua (run Nvim with -V1 for more details)
@@ -80,6 +122,24 @@ n  [D          * <Lua 32: vim/_defaults.lua:263>
 n  [d          * <Lua 30: vim/_defaults.lua:255>
                  Jump to the previous diagnostic in the current buffer
 	Last set from Lua (run Nvim with -V1 for more details)
+x  \\c           <Plug>(VM-Visual-Cursors)
+	Last set from ~/.local/share/nvim/lazy/vim-visual-multi/autoload/vm/maps.vim line 18
+n  \\gS          <Plug>(VM-Reselect-Last)
+	Last set from ~/.local/share/nvim/lazy/vim-visual-multi/autoload/vm/maps.vim line 18
+n  \\/           <Plug>(VM-Start-Regex-Search)
+	Last set from ~/.local/share/nvim/lazy/vim-visual-multi/autoload/vm/maps.vim line 18
+n  \\\           <Plug>(VM-Add-Cursor-At-Pos)
+	Last set from ~/.local/share/nvim/lazy/vim-visual-multi/autoload/vm/maps.vim line 18
+x  \\a           <Plug>(VM-Visual-Add)
+	Last set from ~/.local/share/nvim/lazy/vim-visual-multi/autoload/vm/maps.vim line 18
+x  \\f           <Plug>(VM-Visual-Find)
+	Last set from ~/.local/share/nvim/lazy/vim-visual-multi/autoload/vm/maps.vim line 18
+x  \\/           <Plug>(VM-Visual-Regex)
+	Last set from ~/.local/share/nvim/lazy/vim-visual-multi/autoload/vm/maps.vim line 18
+x  \\A           <Plug>(VM-Visual-All)
+	Last set from ~/.local/share/nvim/lazy/vim-visual-multi/autoload/vm/maps.vim line 18
+n  \\A           <Plug>(VM-Select-All)
+	Last set from ~/.local/share/nvim/lazy/vim-visual-multi/autoload/vm/maps.vim line 18
 o  ]%            <Plug>(MatchitOperationMultiForward)
 	Last set from ~/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 83
 x  ]%            <Plug>(MatchitVisualMultiForward)
@@ -136,6 +196,14 @@ n  ]d          * <Lua 29: vim/_defaults.lua:251>
 	Last set from Lua (run Nvim with -V1 for more details)
 x  a%            <Plug>(MatchitVisualTextObject)
 	Last set from ~/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 86
+x  g<C-X>      * <Lua 220: ~/.config/nvim/lua/mappings.lua:139>
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+x  g<C-A>      * <Lua 219: ~/.config/nvim/lua/mappings.lua:136>
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  g<C-X>      * <Lua 216: ~/.config/nvim/lua/mappings.lua:127>
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  g<C-A>      * <Lua 215: ~/.config/nvim/lua/mappings.lua:124>
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
 o  g%            <Plug>(MatchitOperationBackward)
 	Last set from ~/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 75
 x  g%            <Plug>(MatchitVisualBackward)
@@ -181,6 +249,14 @@ x  gx          * <Lua 11: vim/_defaults.lua:157>
 n  gx          * <Lua 10: vim/_defaults.lua:149>
                  Opens filepath or URI under cursor with the system handler (file explorer, web browser, …)
 	Last set from Lua (run Nvim with -V1 for more details)
+x  <C-X>       * <Lua 218: ~/.config/nvim/lua/mappings.lua:133>
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+x  <C-A>       * <Lua 217: ~/.config/nvim/lua/mappings.lua:130>
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <C-X>       * <Lua 214: ~/.config/nvim/lua/mappings.lua:121>
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <C-A>       * <Lua 213: ~/.config/nvim/lua/mappings.lua:118>
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
 x  <Plug>(MatchitVisualTextObject)   <Plug>(MatchitVisualMultiBackward)o<Plug>(MatchitVisualMultiForward)
 	Last set from ~/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 67
 o  <Plug>(MatchitOperationMultiForward) * :<C-U>call matchit#MultiMatch("W",  "o")<CR>
@@ -207,6 +283,90 @@ n  <Plug>(MatchitNormalBackward) * :<C-U>call matchit#Match_wrapper('',0,'n')<CR
 	Last set from ~/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 51
 n  <Plug>(MatchitNormalForward) * :<C-U>call matchit#Match_wrapper('',1,'n')<CR>
 	Last set from ~/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 50
+n  <C-Down>      <Plug>(VM-Add-Cursor-Down)
+	Last set from ~/.local/share/nvim/lazy/vim-visual-multi/autoload/vm/maps.vim line 18
+x  <C-N>         <Plug>(VM-Find-Subword-Under)
+	Last set from ~/.local/share/nvim/lazy/vim-visual-multi/autoload/vm/maps.vim line 18
+n  <S-Right>     <Plug>(VM-Select-l)
+	Last set from ~/.local/share/nvim/lazy/vim-visual-multi/autoload/vm/maps.vim line 18
+n  <S-Left>      <Plug>(VM-Select-h)
+	Last set from ~/.local/share/nvim/lazy/vim-visual-multi/autoload/vm/maps.vim line 18
+n  <C-N>         <Plug>(VM-Find-Under)
+	Last set from ~/.local/share/nvim/lazy/vim-visual-multi/autoload/vm/maps.vim line 18
+n  <Plug>(VM-Select-BBW) * :<C-U>call vm#commands#motion('BBW', v:count1, 1, 0)<CR>
+	Last set from ~/.local/share/nvim/lazy/vim-visual-multi/autoload/vm/plugs.vim line 37
+n  <Plug>(VM-Select-gE) * :<C-U>call vm#commands#motion('gE', v:count1, 1, 0)<CR>
+	Last set from ~/.local/share/nvim/lazy/vim-visual-multi/autoload/vm/plugs.vim line 37
+n  <Plug>(VM-Select-ge) * :<C-U>call vm#commands#motion('ge', v:count1, 1, 0)<CR>
+	Last set from ~/.local/share/nvim/lazy/vim-visual-multi/autoload/vm/plugs.vim line 37
+n  <Plug>(VM-Select-E) * :<C-U>call vm#commands#motion('E', v:count1, 1, 0)<CR>
+	Last set from ~/.local/share/nvim/lazy/vim-visual-multi/autoload/vm/plugs.vim line 37
+n  <Plug>(VM-Select-e) * :<C-U>call vm#commands#motion('e', v:count1, 1, 0)<CR>
+	Last set from ~/.local/share/nvim/lazy/vim-visual-multi/autoload/vm/plugs.vim line 37
+n  <Plug>(VM-Select-B) * :<C-U>call vm#commands#motion('B', v:count1, 1, 0)<CR>
+	Last set from ~/.local/share/nvim/lazy/vim-visual-multi/autoload/vm/plugs.vim line 37
+n  <Plug>(VM-Select-b) * :<C-U>call vm#commands#motion('b', v:count1, 1, 0)<CR>
+	Last set from ~/.local/share/nvim/lazy/vim-visual-multi/autoload/vm/plugs.vim line 37
+n  <Plug>(VM-Select-W) * :<C-U>call vm#commands#motion('W', v:count1, 1, 0)<CR>
+	Last set from ~/.local/share/nvim/lazy/vim-visual-multi/autoload/vm/plugs.vim line 37
+n  <Plug>(VM-Select-w) * :<C-U>call vm#commands#motion('w', v:count1, 1, 0)<CR>
+	Last set from ~/.local/share/nvim/lazy/vim-visual-multi/autoload/vm/plugs.vim line 37
+n  <Plug>(VM-Select-l) * :<C-U>call vm#commands#motion('l', v:count1, 1, 0)<CR>
+	Last set from ~/.local/share/nvim/lazy/vim-visual-multi/autoload/vm/plugs.vim line 37
+n  <Plug>(VM-Select-k) * :<C-U>call vm#commands#motion('k', v:count1, 1, 0)<CR>
+	Last set from ~/.local/share/nvim/lazy/vim-visual-multi/autoload/vm/plugs.vim line 37
+n  <Plug>(VM-Select-j) * :<C-U>call vm#commands#motion('j', v:count1, 1, 0)<CR>
+	Last set from ~/.local/share/nvim/lazy/vim-visual-multi/autoload/vm/plugs.vim line 37
+n  <Plug>(VM-Select-h) * :<C-U>call vm#commands#motion('h', v:count1, 1, 0)<CR>
+	Last set from ~/.local/share/nvim/lazy/vim-visual-multi/autoload/vm/plugs.vim line 37
+n  <Plug>(VM-Mouse-Column) * :call vm#commands#mouse_column()<CR>
+	Last set from ~/.local/share/nvim/lazy/vim-visual-multi/autoload/vm/plugs.vim line 33
+n  <Plug>(VM-Mouse-Word)   <Plug>(VM-Left-Mouse)<Plug>(VM-Find-Under)
+	Last set from ~/.local/share/nvim/lazy/vim-visual-multi/autoload/vm/plugs.vim line 32
+n  <Plug>(VM-Mouse-Cursor)   <Plug>(VM-Left-Mouse)<Plug>(VM-Add-Cursor-At-Pos)
+	Last set from ~/.local/share/nvim/lazy/vim-visual-multi/autoload/vm/plugs.vim line 31
+n  <Plug>(VM-Left-Mouse) * <LeftMouse>
+	Last set from ~/.local/share/nvim/lazy/vim-visual-multi/autoload/vm/plugs.vim line 30
+x  <Plug>(VM-Visual-Regex) * :call vm#commands#find_by_regex(2)<CR>:call feedkeys('/', 'n')<CR>
+	Last set from ~/.local/share/nvim/lazy/vim-visual-multi/autoload/vm/plugs.vim line 28
+n  <Plug>(VM-Slash-Search) * @=vm#commands#find_by_regex(3)<CR>
+	Last set from ~/.local/share/nvim/lazy/vim-visual-multi/autoload/vm/plugs.vim line 27
+n  <Plug>(VM-Start-Regex-Search) * @=vm#commands#find_by_regex(1)<CR>
+	Last set from ~/.local/share/nvim/lazy/vim-visual-multi/autoload/vm/plugs.vim line 26
+x  <Plug>(VM-Find-Subword-Under) * <SNR>15_Visual('under')
+	Last set from ~/.local/share/nvim/lazy/vim-visual-multi/autoload/vm/plugs.vim line 24
+n  <Plug>(VM-Find-Under) * :<C-U>call vm#commands#ctrln(v:count1)<CR>
+	Last set from ~/.local/share/nvim/lazy/vim-visual-multi/autoload/vm/plugs.vim line 23
+x  <Plug>(VM-Visual-Reduce) * :<C-U>call vm#visual#reduce()<CR>
+	Last set from ~/.local/share/nvim/lazy/vim-visual-multi/autoload/vm/plugs.vim line 21
+x  <Plug>(VM-Visual-Add) * <Esc>:call vm#commands#visual_add()<CR>
+	Last set from ~/.local/share/nvim/lazy/vim-visual-multi/autoload/vm/plugs.vim line 20
+x  <Plug>(VM-Visual-Cursors) * <Esc>:call vm#commands#visual_cursors()<CR>
+	Last set from ~/.local/share/nvim/lazy/vim-visual-multi/autoload/vm/plugs.vim line 19
+x  <Plug>(VM-Visual-All) * <SNR>15_Visual('all')
+	Last set from ~/.local/share/nvim/lazy/vim-visual-multi/autoload/vm/plugs.vim line 18
+n  <Plug>(VM-Select-All) * :call vm#commands#find_all(0, 1)<CR>
+	Last set from ~/.local/share/nvim/lazy/vim-visual-multi/autoload/vm/plugs.vim line 17
+n  <Plug>(VM-Reselect-Last) * :call vm#commands#reselect_last()<CR>
+	Last set from ~/.local/share/nvim/lazy/vim-visual-multi/autoload/vm/plugs.vim line 16
+n  <Plug>(VM-Select-Cursor-Up) * :<C-U>call vm#commands#add_cursor_up(1, v:count1)<CR>
+	Last set from ~/.local/share/nvim/lazy/vim-visual-multi/autoload/vm/plugs.vim line 14
+n  <Plug>(VM-Select-Cursor-Down) * :<C-U>call vm#commands#add_cursor_down(1, v:count1)<CR>
+	Last set from ~/.local/share/nvim/lazy/vim-visual-multi/autoload/vm/plugs.vim line 13
+n  <Plug>(VM-Add-Cursor-Up) * :<C-U>call vm#commands#add_cursor_up(0, v:count1)<CR>
+	Last set from ~/.local/share/nvim/lazy/vim-visual-multi/autoload/vm/plugs.vim line 12
+n  <Plug>(VM-Add-Cursor-Down) * :<C-U>call vm#commands#add_cursor_down(0, v:count1)<CR>
+	Last set from ~/.local/share/nvim/lazy/vim-visual-multi/autoload/vm/plugs.vim line 11
+n  <Plug>(VM-Add-Cursor-At-Word) * :call vm#commands#add_cursor_at_word(1, 1)<CR>
+	Last set from ~/.local/share/nvim/lazy/vim-visual-multi/autoload/vm/plugs.vim line 10
+n  <Plug>(VM-Add-Cursor-At-Pos) * :call vm#commands#add_cursor_at_pos(0)<CR>
+	Last set from ~/.local/share/nvim/lazy/vim-visual-multi/autoload/vm/plugs.vim line 9
+x  <Plug>(VM-Visual-Find)   vm#operators#find(1, 1)
+	Last set from ~/.local/share/nvim/lazy/vim-visual-multi/autoload/vm/plugs.vim line 7
+n  <Plug>PlenaryTestFile * :lua require('plenary.test_harness').test_file(vim.fn.expand("%:p"))<CR>
+	Last set from ~/.local/share/nvim/lazy/plenary.nvim/plugin/plenary.vim line 9
+n  <C-Up>        <Plug>(VM-Add-Cursor-Up)
+	Last set from ~/.local/share/nvim/lazy/vim-visual-multi/autoload/vm/maps.vim line 18
 n  <C-W><C-D>    <C-W>d
                  Show diagnostics under the cursor
 	Last set from Lua (run Nvim with -V1 for more details)

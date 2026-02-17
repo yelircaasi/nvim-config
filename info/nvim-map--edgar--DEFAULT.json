@@ -21,7 +21,7 @@
         "annotation": null,
         "definition": "<Plug>(MatchitNormalForward)",
         "description": null,
-        "origin": "Last set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 70"
+        "origin": "Last set from ~/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 70"
     },
     "&": {
         "mode": "n",
@@ -69,7 +69,7 @@
         "annotation": null,
         "definition": "<Plug>(MatchitNormalMultiBackward)",
         "description": null,
-        "origin": "Last set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 78"
+        "origin": "Last set from ~/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 78"
     },
     "[<Space>": {
         "mode": "n",
@@ -205,7 +205,7 @@
         "annotation": null,
         "definition": "<Plug>(MatchitNormalMultiForward)",
         "description": null,
-        "origin": "Last set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 79"
+        "origin": "Last set from ~/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 79"
     },
     "]<Space>": {
         "mode": "n",
@@ -341,7 +341,7 @@
         "annotation": null,
         "definition": "<Plug>(MatchitVisualTextObject)",
         "description": null,
-        "origin": "Last set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 86"
+        "origin": "Last set from ~/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 86"
     },
     "g%": {
         "mode": "n",
@@ -349,7 +349,7 @@
         "annotation": null,
         "definition": "<Plug>(MatchitNormalBackward)",
         "description": null,
-        "origin": "Last set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 71"
+        "origin": "Last set from ~/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 71"
     },
     "gO": {
         "mode": "n",
@@ -429,7 +429,7 @@
         "annotation": null,
         "definition": "<Plug>(MatchitVisualMultiBackward)o<Plug>(MatchitVisualMultiForward)",
         "description": null,
-        "origin": "Last set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 67"
+        "origin": "Last set from ~/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 67"
     },
     "<Plug>(MatchitOperationMultiForward)": {
         "mode": "o",
@@ -437,7 +437,7 @@
         "annotation": "*",
         "definition": ":<C-U>call matchit#MultiMatch(\"W\",  \"o\")<CR>",
         "description": null,
-        "origin": "Last set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 64"
+        "origin": "Last set from ~/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 64"
     },
     "<Plug>(MatchitOperationMultiBackward)": {
         "mode": "o",
@@ -445,7 +445,7 @@
         "annotation": "*",
         "definition": ":<C-U>call matchit#MultiMatch(\"bW\", \"o\")<CR>",
         "description": null,
-        "origin": "Last set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 63"
+        "origin": "Last set from ~/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 63"
     },
     "<Plug>(MatchitVisualMultiForward)": {
         "mode": "x",
@@ -453,7 +453,7 @@
         "annotation": "*",
         "definition": ":<C-U>call matchit#MultiMatch(\"W\",  \"n\")<CR>m'gv``",
         "description": null,
-        "origin": "Last set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 62"
+        "origin": "Last set from ~/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 62"
     },
     "<Plug>(MatchitVisualMultiBackward)": {
         "mode": "x",
@@ -461,7 +461,7 @@
         "annotation": "*",
         "definition": ":<C-U>call matchit#MultiMatch(\"bW\", \"n\")<CR>m'gv``",
         "description": null,
-        "origin": "Last set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 61"
+        "origin": "Last set from ~/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 61"
     },
     "<Plug>(MatchitNormalMultiForward)": {
         "mode": "n",
@@ -469,7 +469,7 @@
         "annotation": "*",
         "definition": ":<C-U>call matchit#MultiMatch(\"W\",  \"n\")<CR>",
         "description": null,
-        "origin": "Last set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 60"
+        "origin": "Last set from ~/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 60"
     },
     "<Plug>(MatchitNormalMultiBackward)": {
         "mode": "n",
@@ -477,7 +477,7 @@
         "annotation": "*",
         "definition": ":<C-U>call matchit#MultiMatch(\"bW\", \"n\")<CR>",
         "description": null,
-        "origin": "Last set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 59"
+        "origin": "Last set from ~/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 59"
     },
     "<Plug>(MatchitOperationBackward)": {
         "mode": "o",
@@ -485,7 +485,7 @@
         "annotation": "*",
         "definition": ":<C-U>call matchit#Match_wrapper('',0,'o')<CR>",
         "description": null,
-        "origin": "Last set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 56"
+        "origin": "Last set from ~/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 56"
     },
     "<Plug>(MatchitOperationForward)": {
         "mode": "o",
@@ -493,7 +493,7 @@
         "annotation": "*",
         "definition": ":<C-U>call matchit#Match_wrapper('',1,'o')<CR>",
         "description": null,
-        "origin": "Last set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 55"
+        "origin": "Last set from ~/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 55"
     },
     "<Plug>(MatchitVisualBackward)": {
         "mode": "x",
@@ -501,7 +501,7 @@
         "annotation": "*",
         "definition": ":<C-U>call matchit#Match_wrapper('',0,'v')<CR>m'gv``",
         "description": null,
-        "origin": "Last set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 54"
+        "origin": "Last set from ~/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 54"
     },
     "<Plug>(MatchitVisualForward)": {
         "mode": "x",
@@ -509,7 +509,7 @@
         "annotation": "*",
         "definition": ":<C-U>call matchit#Match_wrapper('',1,'v')<CR>:if col(\"''\") != col(\"$\") | exe \":normal! m'\" | endif<CR>gv``",
         "description": null,
-        "origin": "Last set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 52"
+        "origin": "Last set from ~/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 52"
     },
     "<Plug>(MatchitNormalBackward)": {
         "mode": "n",
@@ -517,7 +517,7 @@
         "annotation": "*",
         "definition": ":<C-U>call matchit#Match_wrapper('',0,'n')<CR>",
         "description": null,
-        "origin": "Last set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 51"
+        "origin": "Last set from ~/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 51"
     },
     "<Plug>(MatchitNormalForward)": {
         "mode": "n",
@@ -525,7 +525,7 @@
         "annotation": "*",
         "definition": ":<C-U>call matchit#Match_wrapper('',1,'n')<CR>",
         "description": null,
-        "origin": "Last set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 50"
+        "origin": "Last set from ~/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 50"
     },
     "<C-W><C-D>": {
         "mode": "n",

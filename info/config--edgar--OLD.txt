@@ -1,0 +1,8 @@
+
+DEVICE_NAME='edgar'
+NVIM_CONFIG_NAME='OLD'
+NVIM_CONFIG_PATH=''
+NVIM_WRITE_DIR=/Users/ext_riley/repos/nvim-config/info
+NVIM_COMMAND='nvim'
+
+hostname: SIT-SMBP-G3614Q

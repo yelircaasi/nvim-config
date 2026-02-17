@@ -1,0 +1,32 @@
+
+{
+  _info = {
+    allows_duplicates = false,
+    commalist = true,
+    default = "/Users/ext_riley/.config/nvim,/Users/ext_riley/homebrew/etc/xdg/nvim,/etc/xdg/nvim,/Users/ext_riley/.local/share/nvim/site,/Users/ext_riley/homebrew/share/nvim/site,/usr/local/share/nvim/site,/usr/share/nvim/site,/Users/ext_riley/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime,/Users/ext_riley/homebrew/Cellar/neovim/0.11.6/lib/nvim,/usr/share/nvim/site/after,/usr/local/share/nvim/site/after,/Users/ext_riley/homebrew/share/nvim/site/after,/Users/ext_riley/.local/share/nvim/site/after,/etc/xdg/nvim/after,/Users/ext_riley/homebrew/etc/xdg/nvim/after,/Users/ext_riley/.config/nvim/after",
+    flaglist = false,
+    global_local = false,
+    last_set_chan = 0,
+    last_set_linenr = 0,
+    last_set_sid = 3,
+    metatype = "array",
+    name = "runtimepath",
+    scope = "global",
+    shortname = "rtp",
+    type = "string",
+    was_set = true
+  },
+  _name = "rtp",
+  _value = "/Users/ext_riley/.config/nvim,/Users/ext_riley/.local/share/nvim/site,/Users/ext_riley/.local/share/nvim/lazy/lazy.nvim,/Users/ext_riley/.local/share/nvim/lazy/which-key.nvim,/Users/ext_riley/.local/share/nvim/lazy/friendly-snippets,/Users/ext_riley/.local/share/nvim/lazy/blink.cmp,/Users/ext_riley/.local/share/nvim/lazy/zen-mode.nvim,/Users/ext_riley/.local/share/nvim/lazy/vim-visual-multi,/Users/ext_riley/.local/share/nvim/lazy/lualine.nvim,/Users/ext_riley/.local/share/nvim/lazy/conform.nvim,/Users/ext_riley/.local/share/nvim/lazy/neotest-python,/Users/ext_riley/.local/share/nvim/lazy/nvim-nio,/Users/ext_riley/.local/share/nvim/lazy/FixCursorHold.nvim,/Users/ext_riley/.local/share/nvim/lazy/plenary.nvim,/Users/ext_riley/.local/share/nvim/lazy/neotest,/Users/ext_riley/.local/share/nvim/lazy/vim-floaterm,/Users/ext_riley/.local/share/nvim/lazy/toggleterm.nvim,/Users/ext_riley/.local/share/nvim/lazy/nvim-treesitter,/Users/ext_riley/.local/share/nvim/lazy/wezterm.nvim,/Users/ext_riley/.local/share/nvim/lazy/bamboo.nvim,/Users/ext_riley/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime,/Users/ext_riley/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/pack/dist/opt/matchit,/Users/ext_riley/homebrew/Cellar/neovim/0.11.6/lib/nvim,/Users/ext_riley/.local/state/nvim/lazy/readme",
+  <metatable> = <1>{
+    __add = <function 1>,
+    __index = <table 1>,
+    __pow = <function 2>,
+    __sub = <function 3>,
+    _set = <function 4>,
+    append = <function 5>,
+    get = <function 6>,
+    prepend = <function 7>,
+    remove = <function 8>
+  }
+}

@@ -1,14 +1,14 @@
 
     Name              Args Address Complete    Definition
     DoMatchParen      0                        call s:DoMatchParen()
-	Last set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/plugin/matchparen.vim line 213
+	Last set from ~/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/plugin/matchparen.vim line 213
     EditQuery         ?                        <Lua 7: vim/_defaults.lua:24>
                                                Edit treesitter query
 	Last set from Lua (run Nvim with -V1 for more details)
 !|  Explore           *    0c ?    dir         call netrw#Explore(<count>, 0, 0+<bang>0, <q-args>)
-	Last set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/pack/dist/opt/netrw/plugin/netrwPlugin.vim line 64
+	Last set from ~/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/pack/dist/opt/netrw/plugin/netrwPlugin.vim line 64
 !|  Hexplore          *    0c ?    dir         call netrw#Explore(<count>, 1, 2+<bang>0, <q-args>)
-	Last set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/pack/dist/opt/netrw/plugin/netrwPlugin.vim line 66
+	Last set from ~/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/pack/dist/opt/netrw/plugin/netrwPlugin.vim line 66
 !   Inspect           0                        <Lua 5: vim/_defaults.lua:3>
                                                Inspect highlights and extmarks at the cursor
 	Last set from Lua (run Nvim with -V1 for more details)
@@ -16,47 +16,47 @@
                                                Inspect treesitter language tree for buffer
 	Last set from Lua (run Nvim with -V1 for more details)
 !|  Lexplore          *    0c ?    dir         call netrw#Lexplore(<count>, <bang>0, <q-args>)
-	Last set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/pack/dist/opt/netrw/plugin/netrwPlugin.vim line 69
-!|  Man               *    .  ?    <Lua function> <Lua 76: ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/plugin/man.lua:6>
-	Last set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/plugin/man.lua (run Nvim with -V1 for more details)
+	Last set from ~/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/pack/dist/opt/netrw/plugin/netrwPlugin.vim line 69
+!|  Man               *    .  ?    <Lua function> <Lua 76: ~/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/plugin/man.lua:6>
+	Last set from ~/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/plugin/man.lua (run Nvim with -V1 for more details)
     MatchDebug        0                        call matchit#Match_debug()
-	Last set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 113
+	Last set from ~/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 113
     MatchDisable      0                        :call MatchDisable()
-	Last set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 116
+	Last set from ~/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 116
     MatchEnable       0                        :call MatchEnable()
-	Last set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 119
+	Last set from ~/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 119
     NetUserPass       *                        call NetUserPass(<f-args>)
-	Last set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/pack/dist/opt/netrw/plugin/netrwPlugin.vim line 57
+	Last set from ~/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/pack/dist/opt/netrw/plugin/netrwPlugin.vim line 57
 !   NetrwClean        0                        call netrw#Clean(<bang>0)
-	Last set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/pack/dist/opt/netrw/plugin/netrwPlugin.vim line 77
+	Last set from ~/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/pack/dist/opt/netrw/plugin/netrwPlugin.vim line 77
     NetrwSettings     0                        call netrwSettings#NetrwSettings()
-	Last set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/pack/dist/opt/netrw/plugin/netrwPlugin.vim line 76
+	Last set from ~/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/pack/dist/opt/netrw/plugin/netrwPlugin.vim line 76
 !|  Nexplore          *                        call netrw#Explore(-1, 0, 0, <q-args>)
-	Last set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/pack/dist/opt/netrw/plugin/netrwPlugin.vim line 70
+	Last set from ~/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/pack/dist/opt/netrw/plugin/netrwPlugin.vim line 70
     NoMatchParen      0                        call s:NoMatchParen()
-	Last set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/plugin/matchparen.vim line 214
+	Last set from ~/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/plugin/matchparen.vim line 214
     Nread             *    1c ?                let s:svpos= winsaveview()|call netrw#NetRead(<count>,<f-args>)|call winrestview(s:svpos)
-	Last set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/pack/dist/opt/netrw/plugin/netrwPlugin.vim line 55
+	Last set from ~/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/pack/dist/opt/netrw/plugin/netrwPlugin.vim line 55
     Nsource           *                        let s:svpos= winsaveview()|call netrw#NetSource(<f-args>)|call winrestview(s:svpos)
-	Last set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/pack/dist/opt/netrw/plugin/netrwPlugin.vim line 58
+	Last set from ~/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/pack/dist/opt/netrw/plugin/netrwPlugin.vim line 58
     Ntree             ?                        call netrw#SetTreetop(1,<q-args>)
-	Last set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/pack/dist/opt/netrw/plugin/netrwPlugin.vim line 59
+	Last set from ~/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/pack/dist/opt/netrw/plugin/netrwPlugin.vim line 59
     Nwrite            *    %                   let s:svpos= winsaveview()|<line1>,<line2>call netrw#NetWrite(<f-args>)|call winrestview(s:svpos)
-	Last set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/pack/dist/opt/netrw/plugin/netrwPlugin.vim line 56
+	Last set from ~/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/pack/dist/opt/netrw/plugin/netrwPlugin.vim line 56
     Open              1            file        <Lua 8: vim/_defaults.lua:28>
                                                Open file with system default handler. See :help vim.ui.open()
 	Last set from Lua (run Nvim with -V1 for more details)
 !|  Pexplore          *                        call netrw#Explore(-2, 0, 0, <q-args>)
-	Last set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/pack/dist/opt/netrw/plugin/netrwPlugin.vim line 71
+	Last set from ~/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/pack/dist/opt/netrw/plugin/netrwPlugin.vim line 71
 !|  Sexplore          *    0c ?    dir         call netrw#Explore(<count>, 1, 0+<bang>0, <q-args>)
-	Last set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/pack/dist/opt/netrw/plugin/netrwPlugin.vim line 65
-|   TOhtml            ?    %                   <Lua 80: ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/plugin/tohtml.lua:6>
-	Last set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/plugin/tohtml.lua (run Nvim with -V1 for more details)
+	Last set from ~/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/pack/dist/opt/netrw/plugin/netrwPlugin.vim line 65
+|   TOhtml            ?    %                   <Lua 80: ~/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/plugin/tohtml.lua:6>
+	Last set from ~/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/plugin/tohtml.lua (run Nvim with -V1 for more details)
 |   Texplore          *    0c ?    dir         call netrw#Explore(<count>, 0, 6, <q-args>)
-	Last set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/pack/dist/opt/netrw/plugin/netrwPlugin.vim line 68
+	Last set from ~/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/pack/dist/opt/netrw/plugin/netrwPlugin.vim line 68
     Tutor             ?            custom      call tutor#TutorCmd(<q-args>)
-	Last set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/plugin/tutor.vim line 12
+	Last set from ~/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/plugin/tutor.vim line 12
 |   UpdateRemotePlugins 0                      call remote#host#UpdateRemotePlugins()
-	Last set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/plugin/rplugin.vim line 65
+	Last set from ~/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/plugin/rplugin.vim line 65
 !|  Vexplore          *    0c ?    dir         call netrw#Explore(<count>, 1, 4+<bang>0, <q-args>)
-	Last set from ~/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/pack/dist/opt/netrw/plugin/netrwPlugin.vim line 67
+	Last set from ~/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/pack/dist/opt/netrw/plugin/netrwPlugin.vim line 67

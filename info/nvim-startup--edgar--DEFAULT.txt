@@ -1,0 +1,64 @@
+Extra options: [-u /Users/ext_riley/.cache/init.lua]
+Measured: 10 times
+
+Total Average: 8.770600 msec
+Total Max:     9.060000 msec
+Total Min:     8.483000 msec
+
+ AVERAGE      MAX      MIN
+---------------------------
+1.271300 1.473000 1.116000: expanding arguments
+1.227300 1.311000 1.177000: loading rtp plugins
+1.045500 1.092000 1.025000: reading ShaDa
+1.021100 1.060000 0.994000: require('vim._init_packages')
+0.844500 1.054000 0.802000: require('vim._defaults')
+0.681400 0.727000 0.663000: require('vim._editor')
+0.448100 0.505000 0.430000: /Users/ext_riley/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/plugin/netrwPlugin.vim
+0.434500 0.499000 0.407000: /Users/ext_riley/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/plugin/matchit.vim
+0.380500 0.418000 0.365000: sourcing vimrc file(s)
+0.291900 0.309000 0.282000: require('vim.shared')
+0.244900 0.271000 0.230000: locale set
+0.219100 0.226000 0.211000: loading after plugins
+0.206700 0.221000 0.196000: inits 1
+0.191500 0.210000 0.171000: require('vim._options')
+0.179400 0.185000 0.171000: init lua interpreter
+0.130700 0.138000 0.126000: /Users/ext_riley/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/syntax/syntax.vim
+0.126100 0.141000 0.122000: init highlight
+0.122200 0.132000 0.115000: require('vim.inspect')
+0.107100 0.119000 0.103000: /Users/ext_riley/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/plugin/rplugin.vim
+0.103700 0.119000 0.100000: /Users/ext_riley/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/pack/dist/opt/netrw/plugin/netrwPlugin.vim
+0.093500 0.098000 0.091000: loading packages
+0.087000 0.098000 0.082000: /Users/ext_riley/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/plugin/gzip.vim
+0.083100 0.094000 0.080000: nvim_exec2()
+0.077200 0.088000 0.073000: /Users/ext_riley/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim
+0.069100 0.080000 0.057000: /Users/ext_riley/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/filetype.lua
+0.068600 0.076000 0.065000: early init
+0.067100 0.079000 0.063000: /Users/ext_riley/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/plugin/matchparen.vim
+0.053300 0.062000 0.047000: event init
+0.051700 0.053000 0.051000: /Users/ext_riley/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/plugin/zipPlugin.vim
+0.044600 0.052000 0.041000: opening buffers
+0.043900 0.055000 0.034000: /Users/ext_riley/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/plugin/man.lua
+0.040500 0.047000 0.037000: /Users/ext_riley/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/plugin/osc52.lua
+0.039400 0.052000 0.037000: /Users/ext_riley/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/plugin/tarPlugin.vim
+0.035000 0.038000 0.034000: /Users/ext_riley/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/syntax/synload.vim
+0.028600 0.037000 0.024000: /Users/ext_riley/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/plugin/editorconfig.lua
+0.027300 0.031000 0.026000: require('vim.keymap')
+0.026800 0.031000 0.024000: /Users/ext_riley/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/plugin/tohtml.lua
+0.025900 0.034000 0.024000: /Users/ext_riley/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/plugin/shada.vim
+0.025400 0.027000 0.024000: /Users/ext_riley/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/ftplugin.vim
+0.024200 0.030000 0.022000: --- NVIM STARTED ---
+0.014600 0.015000 0.014000: nvim_exec2() called at /Users/ext_riley/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/filetype.lua:0
+0.014500 0.018000 0.012000: /Users/ext_riley/.cache/init.lua
+0.013400 0.014000 0.013000: /Users/ext_riley/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/indent.vim
+0.011000 0.013000 0.010000: init first window
+0.009200 0.010000 0.008000: BufEnter autocommands
+0.008800 0.010000 0.007000: clear screen
+0.007900 0.008000 0.007000: /Users/ext_riley/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/plugin/tutor.vim
+0.007300 0.008000 0.007000: /Users/ext_riley/homebrew/Cellar/neovim/0.11.6/share/nvim/runtime/plugin/spellfile.vim
+0.006200 0.008000 0.005000: inits 2
+0.005300 0.006000 0.005000: inits 3
+0.005200 0.006000 0.005000: window checked
+0.002000 0.002000 0.002000: init default mappings & autocommands
+0.001900 0.004000 0.001000: editing files in windows
+0.001300 0.002000 0.001000: parsing arguments
+0.000000 0.000000 0.000000: --- NVIM STARTING ---
