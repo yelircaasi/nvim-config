@@ -102,17 +102,17 @@ o.timeout = true
 o.timeoutlen = 300
 ------------------------------------------------------------------------------------------------------------------ UTILS
 local function map(spec)
-	vim.keymap.set(spec.mode, spec.sequence or spec.lhs, spec.command or spec.rhs, spec.opts)
+	vim.keymap.set(spec.mode, spec.sequence or spec.lhs, spec.action or spec.rhs, spec.opts)
 end
 
 local function cd_config_dir()
 	vim.cmd.cd(config_dir)
-	print("Beginning of init.lua; cd to " .. CONFIG_DIR)
+	printv("Beginning of init.lua; cd to " .. CONFIG_DIR)
 end
 
 local function cd_back()
 	lua.cmd.cd(PWD)
-	print("Reached end of init.lua; cd back to " .. PWD)
+	printv("Reached end of init.lua; cd back to " .. PWD)
 end
 
 local gh = function(id)
@@ -132,9 +132,13 @@ local split_id = function(id)
 	return user, repo
 end
 
+local printv = function(msg)
+	if BE_VERBOSE then print(msg) end
+end
+
 local setup_lazy = function() -- not in use; kept for reference
 	local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
-	if BE_VERBOSE then print(lazypath) end
+	printv(lazypath)
 	if not vim.loop.fs_stat(lazypath) then
 		-- vim.fn.system({
 		--     "git",
@@ -197,8 +201,8 @@ local PLUGIN_DECLARATION = {
 	["plenary"] = { id = "nvim-lua/plenary.nvim", expander = gh, lazy = false },
 	["rustaceanvim"] = { id = "mrcjkb/rustaceanvim", expander = gh, lazy = false }, -- already lazy
 	["snacks"] = { id = "folke/snacks.nvim", expander = gh, lazy = false },
-	["telescope-fzf-native"] = { id = "nvim-telescope/telescope-fzf-native.nvim", expander = gh, lazy = false },
-	["telescope"] = { id = "nvim-telescope/telescope.nvim", expander = gh, lazy = false },
+	["telescope-fzf-native"] = { id = "nvim-telescope/telescope-fzf-native.nvim", expander = gh, lazy = true },
+	["telescope"] = { id = "nvim-telescope/telescope.nvim", expander = gh, lazy = false }, --, deps = { "telescope-fzf-native", } },
 	["todo-comments"] = { id = "folke/todo-comments.nvim", expander = gh, lazy = false },
 	["toggleterm"] = { id = "akinsho/toggleterm.nvim", expander = gh, lazy = false },
 	["vim-floaterm"] = { id = "voldikss/vim-floaterm", expander = gh, lazy = false },
@@ -206,8 +210,6 @@ local PLUGIN_DECLARATION = {
 	["which-key"] = { id = "folke/which-key.nvim", expander = gh, lazy = false },
 	["yazi"] = { id = "mikavilpas/yazi.nvim", expander = gh, lazy = false },
 	["zen-mode"] = { id = "folke/zen-mode.nvim", expander = gh, lazy = false },
-	-- needs nix below here
-
 }
 
 local make_specs = function(plugin_ids)
@@ -229,17 +231,27 @@ local make_specs = function(plugin_ids)
 		end
 	end
 
-	for name, info in ipairs(plugin_ids) do
+	for name, info in pairs(plugin_ids) do
 		local nix_path = get_nix_path(id)
-		local group = info.lazy and "lazy" or "eager"
+		local lazy = info.lazy
+		-- local deps = info.deps
+		-- if deps then print(vim.inspect(deps)) end
 		if nix_path then
 			local path = PLUGIN_LOCATIONS[info.id].path
-			table.insert(specs.nix[group], { path = path })
-			if not lazy then
+			local nix_path_table = { path = path, deps = deps }
+			if lazy then
+				specs.nix.lazy[name] = nix_path_table
+			else
+				table.insert(specs.nix.eager, nix_path_table)
 				vim.opt.rtp:prepend(path)
 			end
 		else
-			table.insert(specs.git[group], { src = info.expander(info.id) })
+			git_src_table = { src = info.expander(info.id), deps = deps }
+			if lazy then
+				specs.git.lazy[name] = git_src_table
+			else
+				table.insert(specs.git.eager, git_src_table)
+			end
 		end
 		specs.mapping[name] = info.id
 	end
@@ -247,25 +259,33 @@ local make_specs = function(plugin_ids)
 end
 
 local PLUGIN_SPECS = make_specs(PLUGIN_DECLARATION)
-if BE_VERBOSE then
-	print(vim.inspect(PLUGIN_SPECS))
+printv(vim.inspect(PLUGIN_SPECS))
+printv(vim.uv.fs_stat("/nix/store") ~= nil and "/nix/store exists" or "/nix/store does not exist")
 
-    if vim.uv.fs_stat("/nix/store") ~= nil then
-		print("/nix/store exists")
-	else
-		print("/nix/store does not exist")
-	end
-
-end
 
 vim.pack.add(PLUGIN_SPECS.git.eager)
 
 function setup_plugin(plugin_info)
     local name, setup_fn, config = plugin_info.name, plugin_info.setup_fn, plugin_info.config
+	local id = PLUGIN_SPECS.mapping[name]
+	local deps = PLUGIN_DECLARATION[name].deps
+	if deps then printv(vim.inspect(deps)) end
+	if deps then
+		for i, dep_name in ipairs(deps) do
+			printv(dep_name)
+		    setup_plugin({ name = dep_name })
+		end
+	end
 	if HAS_NIX then
-		local id = PLUGIN_SPECS.mapping[name]
+		
 		local path = PLUGIN_LOCATIONS[id].path
 		vim.opt.rtp:prepend(path)
+	else
+		info = PLUGIN_SPECS.git.lazy[name]
+		if info then
+			printv(vim.inspect(info))
+		    vim.pack.add({ info.src })
+		end
 	end
 	if setup_fn and config then
 		error("Table 'plugin_info' should contain at most one of 'setup_fn' and 'config', not both.")
@@ -343,14 +363,14 @@ local diagnostic_modes = {
 local function set_diagnostics_mode()
 	if not diagnostics_active then
 		vim.diagnostic.enable(false)
-		if BE_VERBOSE then print("LSP Diagnostics: OFF") end
+		printv("LSP Diagnostics: OFF")
 		return
 	end
 
 	vim.diagnostic.enable(true)
 	local mode = diagnostic_modes[current_mode_index]
 	vim.diagnostic.config(mode.config)
-	if BE_VERBOSE then print("LSP Mode: " .. mode.name) end
+	printv("LSP Mode: " .. mode.name)
 end
 
 set_diagnostics_mode()
@@ -671,6 +691,7 @@ vim.api.nvim_create_autocmd("LspAttach", {
 	end,
 })
 vim.cmd("set completeopt+=noselect")
+printv("CHECKPOINT A")
 setup_plugin({ -------------------------------------------------------------------------------------------- conform.nvim
     name = "conform",
     setup_fn = function()
@@ -711,7 +732,7 @@ setup_plugin({ -----------------------------------------------------------------
     end
 })
 setup_plugin({ ----------------------------------------------------------------------------------------------- blink.cmp
-    name = "",
+    name = "blink.cmp",
     setup_fn = function()
         require("blink.cmp").setup({
 			-- 'default' (recommended) for mappings similar to built-in completions (C-y to accept)
@@ -748,7 +769,7 @@ setup_plugin({ -----------------------------------------------------------------
 			-- when the Rust fuzzy matcher is not available, by using `implementation = "prefer_rust"`
 			--
 			-- See the fuzzy documentation for more information
-			fuzzy = { implementation = "prefer_rust_with_warning" },
+			fuzzy = { implementation = "lua" }, -- TODO: fix to use Rust
 		})
     end
 })
@@ -779,6 +800,8 @@ setup_plugin({ -----------------------------------------------------------------
 		})
 	end,
 })
+
+printv("CHECKPOINT AA")
 -------------------------------------------------------------------------------------------------------- yazi.nvim: TODO
 local load_yazi = make_setup_function({
 	name = "yazi",
@@ -795,7 +818,7 @@ vim.g.loaded_netrwPlugin = 1
 map({
 	mode = { "n", "v" },
 	sequence = "<leader>-",
-	commnd = function()
+	action = function()
 		load_yazi()
 		vim.cmd("Yazi")
 	end,
@@ -804,7 +827,7 @@ map({
 map({
 	mode = { "n", "v" },
 	sequence = "<leader>cw",
-	command = function()
+	action = function()
 		load_yazi()
 		vim.cmd("Yazi cwd")
 	end,
@@ -813,12 +836,13 @@ map({
 map({
 	mode = { "n", "v" },
 	sequence = "<c-up>",
-	command = function()
+	action = function()
 		load_yazi()
 		vim.cmd("Yazi toggle")
 	end,
 	opts = { desc = "Resume the last yazi session." },
 })
+printv("CHECKPOINT AB")
 -------------------------------------------------------------------------------------------------------- toggleterm.nvim
 setup_plugin({
     name = "toggleterm",
@@ -847,7 +871,7 @@ setup_plugin({
 map({
 	mode = "n",
 	sequence = "<leader>zm",
-	command = function()
+	action = function()
 		require("zen-mode").toggle({
 			window = {
 				width = 0.85, -- width will be 85% of the editor width
@@ -857,7 +881,7 @@ map({
 	opts = { desc = "Toggle zen mode." },
 })
 setup_plugin({ name = "which-key" }) ------------------------------------------------------------------------- which-key
-setup_plugin({ name = "luasnip" }) ----------------------------------------------------------------------------- LuaSnip
+setup_plugin({ name = "LuaSnip" }) ----------------------------------------------------------------------------- LuaSnip
 -- dependencies = { "rafamadriz/friendly-snippets" }, -- Optional: for pre-made snippets
 -- build = "make install_jsregexp", -- For regex snippets
 -- event = "InsertEnter",
@@ -868,6 +892,7 @@ setup_plugin({ name = "luasnip" }) ---------------------------------------------
 --     "hrsh7th/cmp-path",
 --     "saadparwaiz1/cmp_luasnip",
 -- }
+--[[
 local old_setup_nvim_cmp = function()
 	vim.lsp.config("*", { capabilities = require("cmp_nvim_lsp").default_capabilities() })
 	vim.api.nvim_set_hl(0, "CmpGhostText", { link = "Comment", default = true })
@@ -963,6 +988,9 @@ local old_setup_nvim_cmp = function()
 		sorting = defaults.sorting,
 	}
 end
+]]
+
+printv("CHECKPOINT AC")
 setup_plugin({ ----------------------------------------------------------------------------------------------- mini.nvim
 	name = "mini",
     setup_fn = function()
@@ -977,21 +1005,31 @@ setup_plugin({ -----------------------------------------------------------------
 		-- require("mini.terminal").setup()
     end,
 })
+
+printv("CHECKPOINT B")
 --------------------------------------------------------------------------------------------------------------- nvim-bqf
 -- TODO should lazy load on opening the quickfix window -> ft = "qf"
 setup_plugin({ name = "gitsigns" }) ---------------------------------------------------------------------- gitsigns.nvim
 -- event = { "BufReadPre", "BufNewFile" }
 setup_plugin({ name = "todo-comments" }) ------------------------------------------------------------ t*d*-comments.nvim
+
+
 setup_plugin({ ------------------------------------------------------------------------------------ telescope.nvim: TODO
     name = "telescope",
 	setup_fn = function()
+		-- local fzf_info = PLUGIN_SPECS.git.lazy["telescope-fzf-native"]
+		-- if info then
+		-- 	print(vim.inspect(info))
+		-- 	vim.pack.add({ info.src })
+		-- end
+
 		local telescope = require("telescope")
 		telescope.setup({
 			defaults = {
 				file_ignore_patterns = { "%.git/", "node_modules/", "%.venv/" },
 			},
 		})
-		telescope.load_extension("fzf")
+		-- telescope.load_extension("fzf") -- TODO: not working with vim.pack.add; need to add custom build logic: https://github.com/nvim-telescope/telescope-fzf-native.nvim
 	end,
 })
 -- cmd = "Telescope" -- lazy load on command Telescope
@@ -1082,6 +1120,8 @@ setup_plugin({ -----------------------------------------------------------------
 		},
 	},
 })
+
+printv("CHECKPOINT C")
 ------------------------------------------------------------------------------------------------------- vim-visual-multi
 vim.g.VM_default_mappings = true
 ---------------------------------------------------------------------------------------------------------------- KEYMAPS
@@ -1089,89 +1129,89 @@ local nvx = { "n", "v", "x" }
 map({
 	mode = "n",
 	sequence = "<leader>o",
-	command = ":update<CR> :source<CR>",
+	action = ":update<CR> :source<CR>",
 	opts = {},
 })
 map({
 	mode = "n",
 	sequence = "<leader>ww",
-	command = ":write<CR>",
+	action = ":write<CR>",
 	opts = {},
 })
 map({
 	mode = "n",
 	sequence = "<leader>qq",
-	command = ":quit<CR>",
+	action = ":quit<CR>",
 	opts = {},
 })
 map({
 	mode = "n",
 	sequence = "<leader>wq",
-	command = ":wq<CR>",
+	action = ":wq<CR>",
 	opts = {},
 })
 map({
 	mode = "n",
 	sequence = "<leader>f",
-	command = ":Pick files<CR>",
+	action = ":Pick files<CR>",
 	opts = {},
 })
 map({
 	mode = "t",
 	sequence = "<Esc>",
-	command = [[<C-\><C-n>]],
+	action = [[<C-\><C-n>]],
 	opts = { desc = "Exit terminal mode" },
 })
 map({
 	mode = "t",
 	sequence = "kj",
-	command = [[<C-\><C-n>]],
+	action = [[<C-\><C-n>]],
 	opts = { desc = "Exit terminal mode" },
 })
 map({
 	mode = "t",
 	sequence = "<C-o>",
-	command = [[<C-\><C-o>]],
+	action = [[<C-\><C-o>]],
 	opts = { desc = "Temporary normal mode" },
 })
 map({
 	mode = "n",
 	sequence = "<leader>lf",
-	command = vim.lsp.buf.format,
+	action = vim.lsp.buf.format,
 	opts = { desc = "" },
 })
 map({
 	mode = "n",
 	sequence = "<leader>h",
-	command = ":Pick help",
+	action = ":Pick help",
 })
 map({
 	mode = "n",
 	sequence = "<leader>e",
-	command = ":Oil<CR>",
+	action = ":Oil<CR>",
 })
 map({
 	mode = nvx,
 	sequence = "<leader>y",
-	command = "+y<CR>",
+	action = "+y<CR>",
 	opts = { desc = "Yank to system clipboard" },
 })
 map({
 	mode = nvx,
 	sequence = "<leader>d",
-	command = "+d<CR>",
+	action = "+d<CR>",
 	opts = { desc = "Paste from system clipboard" },
 })
 -- map({
 --     mode = "",
 --     sequence = "",\
---     command = [[]],
+--     action = [[]],
 --     opts = { desc = "" }
 -- })
 -- map({
 --     mode = "",
 --     sequence = "",
---     command = [[]],
+--     action = [[]],
 --     opts = { desc = "" }
 -- })
 -- map('t', '^[', "^\^N")
@@ -1179,13 +1219,13 @@ map({
 map({
 	mode = "x",
 	sequence = "<leader>mf",
-	command = ":'<,'>lua move_selection_to_new_file()<CR>",
+	action = ":'<,'>lua move_selection_to_new_file()<CR>",
 	opts = { desc = "Move selection to new file (split)" },
 })
 map({
 	mode = "n",
 	sequence = "<leader>lu",
-	command = function()
+	action = function()
 		-- Create a new empty floating window or split
 		vim.cmd("vsplit | enew")
 		vim.bo.filetype = "lua"
@@ -1200,12 +1240,12 @@ map({
 map({
 	mode = "v",
 	sequence = "<leader>ms",
-	command = move_selection_to_new_file,
+	action = move_selection_to_new_file,
 })
 map({ ------------------------------------------------------------------------------------------------------ diagnostics
 	mode = "n",
 	sequence = "<leader>dt",
-	command = function()
+	action = function()
 		diagnostics_active = not diagnostics_active
 		set_diagnostics_mode()
 	end,
@@ -1214,7 +1254,7 @@ map({ --------------------------------------------------------------------------
 map({
 	mode = "n",
 	sequence = "<leader>dm",
-	command = function()
+	action = function()
 		-- only cycle if active; otherwise turn on and reset to 1
 		if not diagnostics_active then
 			diagnostics_active = true
@@ -1232,7 +1272,7 @@ map({
 map({ -------------------------------------------------------------------------------------------------------- telescope
 	mode = "n",
 	sequence = "<leader>ff",
-	command = make_setup_function(function()
+	action = make_setup_function(function()
 		require("telescope.builtin").find_files()
 	end),
 	opts = { desc = "Find Files" },
@@ -1240,7 +1280,7 @@ map({ --------------------------------------------------------------------------
 map({
 	mode = "n",
 	sequence = "<leader>gf",
-	command = function()
+	action = function()
 		require("telescope.builtin").git_files()
 	end,
 	opts = { desc = "Find Git Files" },
@@ -1248,7 +1288,7 @@ map({
 map({
 	mode = "n",
 	sequence = "<leader>fg",
-	command = function()
+	action = function()
 		require("telescope.builtin").live_grep()
 	end,
 	opts = { desc = "Live Grep" },
@@ -1256,7 +1296,7 @@ map({
 map({
 	mode = "n",
 	sequence = "<leader>fb",
-	command = function()
+	action = function()
 		require("telescope.builtin").buffers()
 	end,
 	opts = { desc = "Find Buffers" },
@@ -1264,7 +1304,7 @@ map({
 map({
 	mode = "n",
 	sequence = "<leader>fh",
-	command = function()
+	action = function()
 		require("telescope.builtin").help_tags()
 	end,
 	opts = { desc = "Find Help Tags" },
@@ -1272,13 +1312,13 @@ map({
 map({ --------------------------------------------------------------------------------------------------------- floaterm
 	mode = "n",
 	sequence = "<leader>ft",
-	command = "<Cmd>FloatermToggle<CR>",
+	action = "<Cmd>FloatermToggle<CR>",
 	opts = { desc = "Toggle floaterm" },
 })
 map({
 	mode = "t",
 	sequence = "<leader>ft",
-	command = "<C-\\><C-n><Cmd>FloatermToggle<CR>",
+	action = "<C-\\><C-n><Cmd>FloatermToggle<CR>",
 	opts = { desc = "Toggle floaterm" },
 })
 -------------------------------------------------------------------------------------------------------------------- LSP
@@ -1292,7 +1332,7 @@ vim.api.nvim_create_autocmd("LspAttach", {
 			map({
 				mode = "n",
 				sequence = keys,
-				command = func,
+				action = func,
 				opts = { buffer = ev.buf, desc = "LSP: " .. desc },
 			})
 		end
@@ -1324,28 +1364,28 @@ vim.api.nvim_create_autocmd("LspAttach", {
 	end,
 })
 map({ --------------------------------------------------------------------------------------------------------- quickfix
-	mode = "i",
+	mode = { "i" },
 	sequence = "kj",
-	command = "<escape>",
+	action = "<escape>",
 })
 map({
 	mode = "n",
 	sequence = "<leader>wq",
-	command = function()
+	action = function()
 		vim.cmd("wq")
 	end,
 })
 map({
 	mode = "n",
 	sequence = "<leader>ww",
-	command = function()
+	action = function()
 		vim.cmd("w")
 	end,
 })
 map({
 	mode = "n",
 	sequence = "<leader>q",
-	command = function()
+	action = function()
 		-- Populates the Quickfix list with all diagnostics from the current buffer
 		vim.diagnostic.setqflist({ bufnr = 0 })
 		vim.cmd("copen")
@@ -1355,7 +1395,7 @@ map({
 map({ ------------------------------------------------------------------------------------------------------------- dial
 	mode = "n",
 	sequence = "<C-a>",
-	command = function()
+	action = function()
 		require("dial.map").manipulate("increment", "normal")
 	end,
 	opts = { desc = "" },
@@ -1363,7 +1403,7 @@ map({ --------------------------------------------------------------------------
 map({
 	mode = "n",
 	sequence = "<C-x>",
-	command = function()
+	action = function()
 		require("dial.map").manipulate("decrement", "normal")
 	end,
 	opts = { desc = "" },
@@ -1371,7 +1411,7 @@ map({
 map({
 	mode = "n",
 	sequence = "g<C-a>",
-	command = function()
+	action = function()
 		require("dial.map").manipulate("increment", "gnormal")
 	end,
 	opts = { desc = "" },
@@ -1379,7 +1419,7 @@ map({
 map({
 	mode = "n",
 	sequence = "g<C-x>",
-	command = function()
+	action = function()
 		require("dial.map").manipulate("decrement", "gnormal")
 	end,
 	opts = { desc = "" },
@@ -1387,7 +1427,7 @@ map({
 map({
 	mode = "x",
 	sequence = "<C-a>",
-	command = function()
+	action = function()
 		require("dial.map").manipulate("increment", "visual")
 	end,
 	opts = { desc = "" },
@@ -1395,7 +1435,7 @@ map({
 map({
 	mode = "x",
 	sequence = "<C-x>",
-	command = function()
+	action = function()
 		require("dial.map").manipulate("decrement", "visual")
 	end,
 	opts = { desc = "" },
@@ -1403,7 +1443,7 @@ map({
 map({
 	mode = "x",
 	sequence = "g<C-a>",
-	command = function()
+	action = function()
 		require("dial.map").manipulate("increment", "gvisual")
 	end,
 	opts = { desc = "" },
@@ -1411,7 +1451,7 @@ map({
 map({
 	mode = "x",
 	sequence = "g<C-x>",
-	command = function()
+	action = function()
 		require("dial.map").manipulate("decrement", "gvisual")
 	end,
 	opts = { desc = "" },
@@ -1419,7 +1459,7 @@ map({
 map({ --------------------------------------------------------------------------------------------------------- zen-mode
 	mode = "n",
 	sequence = "<leader>zm",
-	command = function()
+	action = function()
 		-- width will be 85% of the editor width
 		require("zen-mode").toggle({ window = { width = 0.85 } })
 	end,
@@ -1427,7 +1467,8 @@ map({ --------------------------------------------------------------------------
 })
 
 require("blink.cmp").setup({ ------------------------------------------------------------------------------------- blink
-	keymap = {
+fuzzy = { implementation = "lua" }, -- TODO: change to Rust
+keymap = {
 		-- 'default' for vim-like (C-y to accept)
 		-- 'super-tab' for vscode-like (Tab to accept/jump)
 		-- 'enter' for enter to accept
