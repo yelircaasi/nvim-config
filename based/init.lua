@@ -100,6 +100,44 @@ o.undofile = true
 o.incsearch = true
 o.timeout = true
 o.timeoutlen = 300
+------------------------------------------------------------------------------------------------------------------ SCRATCH
+local function disable_builtins()
+	local builtin_plugs = { 
+		"2html_plugin",
+		"gzip",                                                                                                                                                                                                                                                   
+		"man",                                                                                                                                                                                                                                                    
+		"matchit",                                                                                                                                                                                                                                                
+		"matchparen",                                                                                                                                                                                                                                             
+		"netrwPlugin",                                                                                                                                                                                                                                            
+		"remote_plugins",                                                                                                                                                                                                                                         
+		"shada_plugin",                                                                                                                                                                                                                                           
+		"spellfile_plugin",                                                                                                                                                                                                                                       
+		"tarPlugin",                                                                                                                                                                                                                                              
+		"tutor_mode_plugin",                                                                                                                                                                                                                                      
+		"zipPlugin",
+	} 
+	for i = 1, #builtin_plugs do 
+		vim.g['loaded_' .. builtin_plugs[i]] = 1 
+	end
+end
+
+local function list_loaded_vars()
+    -- Use Vim's completion engine to find all global variables
+    local all_vars = vim.fn.getcompletion('', 'var')
+    
+    local loaded_vars = {}
+    for _, var in ipairs(all_vars) do
+        if var:match("^loaded_") then
+            table.insert(loaded_vars, var)
+        end
+    end
+    
+    -- Print them nicely
+    table.sort(loaded_vars)
+    print(table.concat(loaded_vars, "\n"))
+end
+
+-- list_loaded_vars()
 ------------------------------------------------------------------------------------------------------------------ UTILS
 local function map(spec)
 	vim.keymap.set(spec.mode, spec.sequence or spec.lhs, spec.action or spec.rhs, spec.opts)

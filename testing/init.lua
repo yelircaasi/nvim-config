@@ -48,6 +48,10 @@
 -- local hello = vim.fn.system("echo hello")
 -- print(hello)
 
+vim.g.loaded_matchparen = 1
+vim.g.loaded_matchit = 1
+vim.g.loaded_netrw = 1
+
 WEZTERM = true
 local PLUGINS = {
 	-- --[[
@@ -193,6 +197,13 @@ local cb = function(id)
 	return "https://codeberg.org/" .. id
 end
 
+local function build_telescope_fzf_native()
+    print("TODO")
+end
+local function build_blink_cmp()
+    print("TODO")
+end
+
 local PLUGIN_DECLARATION = {
 	-- LAYER 0: foundation, colors, search, core navigation ===============================================================================
 	------ core dependencies
@@ -243,6 +254,10 @@ local PLUGIN_DECLARATION = {
 	-- LAYER 1: editing enhancements ==================================================================================================== 1
 	------ folds
 	["nvim-ufo"]        = { id = "kevinhwang91/nvim-ufo",     expander = gh, lazy = false }, -- needs nix
+	------ macros https://github.com/   https://github.com/
+	["NeoComposer"] = { id = "lvim-tech/NeoComposer.nvim",   expander = gh, lazy = false },
+	["nvim-macros"] = { id = "kr40/nvim-macros",   expander = gh, lazy = false },
+	["nvim-recorder"] = { id = "chrisgrieser/nvim-recorder",   expander = gh, lazy = false },
 	------ multi-cursor
 	["vim-visual-multi"] = { id = "mg979/vim-visual-multi",   expander = gh, lazy = false },
 	------ motion
@@ -597,6 +612,17 @@ end
 if contains(PLUGINS, "nvim-ufo") then
 	print("TODO")
 end
+------ macros
+if contains(PLUGINS, "NeoComposer") then
+	print("TODO")
+end
+if contains(PLUGINS, "nvim-macros") then
+	print("TODO")
+end
+if contains(PLUGINS, "nvim-recorder") then
+	print("TODO")
+end
+
 ------ multi-cursor
 if contains(PLUGINS, "vim-visual-multi") then
 	print("TODO")
@@ -632,6 +658,9 @@ if contains(PLUGINS, "vim-mundo") then
 	print("TODO")
 end
 ------ keymapping-related
+if contains(PLUGINS, "mini.keymap") then
+	print("TODO")
+end
 if contains(PLUGINS, "hydra") then
 	print("TODO")
 end
