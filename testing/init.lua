@@ -255,7 +255,7 @@ local PLUGIN_DECLARATION = {
 	------ undo
 	["vim-mundo"]       = { id = "simnalamburt/vim-mundo",    expander = gh, lazy = false }, -- needs nix
 	------ keymapping-related
--- ADD mini.keymap
+	["mini.keymap"]     = { id = "nvim-mini/mini.keymap",     expander = gh, lazy = false }, -- needs nix
 	["hydra"]           = { id = "nvimtools/hydra.nvim",      expander = gh, lazy = false }, -- needs nix
 	["nvim-insx"]       = { id = "hrsh7th/nvim-insx",         expander = gh, lazy = false }, -- needs nix
 	["which-key"]       = { id = "folke/which-key.nvim",      expander = gh, lazy = false },
