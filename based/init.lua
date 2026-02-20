@@ -12,8 +12,8 @@
 -- additional LSPs:
 -- https://github.com/latex-lsp/texlab
 -- jsonls and yamlls
-   -- https://www.npmjs.com/package/vscode-json-languageserver
-   -- https://github.com/redhat-developer/yaml-language-server
+-- https://www.npmjs.com/package/vscode-json-languageserver
+-- https://github.com/redhat-developer/yaml-language-server
 
 -- on macos:
 -- brew install ruff
@@ -22,7 +22,16 @@
 -- brew install haskell-language-server
 
 --[[ DESIRED MAPPINGS/ACTIONS
-- 
+------------------
+--- NAVIGATION ---
+------------------
+- windows: up down left right, fzf menu, menu navigation (up down), move/rearrange
+- tabs: up down left right, fzf menu, menu navigation (up down), move/rearrange
+- buffers: up down left right, fzf menu, menu navigation (up down), move/rearrange
+
+------------
+--- SORT ---
+------------
 - open quickfix window
 - open floating terminal
 - copy selection to new file
@@ -59,8 +68,8 @@ AUTOMATIC/TOGGLABLE FUNCTIONALITIES
 --> custom syntax highlighting for my special formats (from consilium-notes: jn, ...)
 --]]
 -------------------------------------------------------------------------------------------------------------- VARIABLES
-local o = vim.opt
-local g = vim.g
+-- local o = vim.opt
+-- local g = vim.g
 
 local CONFIG_DIR = vim.fn.fnamemodify(debug.getinfo(1).source:sub(2), ":p:h")
 local PWD = vim.fn.getcwd()
@@ -86,55 +95,70 @@ TS_LANGUAGES = {
 	"zig",
 }
 ---------------------------------------------------------------------------------------------------------- BASIC OPTIONS
-o.number = true
-o.relativenumber = true
-o.shiftwidth = 4
-o.wrap = false
-o.signcolumn = "yes"
-o.tabstop = 4
-o.swapfile = false
-g.mapleader = " "
-o.winborder = "rounded"
-o.termguicolors = true
-o.undofile = true
-o.incsearch = true
-o.timeout = true
-o.timeoutlen = 300
+local function set_options()
+	local global_options = {
+		mapleader = " "
+	}
+	local options = {
+		number = true,
+		relativenumber = true,
+		shiftwidth = 4,
+		wrap = false,
+		signcolumn = "yes",
+		tabstop = 4,
+		swapfile = false,
+		winborder = "rounded",
+		termguicolors = true,
+		undofile = true,
+		incsearch = true,
+		timeout = true,
+		timeoutlen = 300,
+	}
+	for name, value in pairs(options) do
+	    vim.opt[name] = value
+	end
+	for name, value in pairs(global_options) do
+	    vim.g[name] = value
+	end
+    
+end
+
+set_options()
 ------------------------------------------------------------------------------------------------------------------ SCRATCH
 local function disable_builtins()
-	local builtin_plugs = { 
+	local builtin_plugs = {
 		"2html_plugin",
-		"gzip",                                                                                                                                                                                                                                                   
-		"man",                                                                                                                                                                                                                                                    
-		"matchit",                                                                                                                                                                                                                                                
-		"matchparen",                                                                                                                                                                                                                                             
-		"netrwPlugin",                                                                                                                                                                                                                                            
-		"remote_plugins",                                                                                                                                                                                                                                         
-		"shada_plugin",                                                                                                                                                                                                                                           
-		"spellfile_plugin",                                                                                                                                                                                                                                       
-		"tarPlugin",                                                                                                                                                                                                                                              
-		"tutor_mode_plugin",                                                                                                                                                                                                                                      
+		"gzip",
+		"man",
+		"matchit",
+		"matchparen",
+		"netrwPlugin",
+		"remote_plugins",
+		"shada_plugin",
+		"spellfile_plugin",
+		"tarPlugin",
+		"tutor_mode_plugin",
 		"zipPlugin",
-	} 
-	for i = 1, #builtin_plugs do 
-		vim.g['loaded_' .. builtin_plugs[i]] = 1 
+	}
+	for i = 1, #builtin_plugs do
+		vim.g["loaded_" .. builtin_plugs[i]] = 1
 	end
 end
 
 local function list_loaded_vars()
-    -- Use Vim's completion engine to find all global variables
-    local all_vars = vim.fn.getcompletion('', 'var')
-    
-    local loaded_vars = {}
-    for _, var in ipairs(all_vars) do
-        if var:match("^loaded_") then
-            table.insert(loaded_vars, var)
-        end
-    end
-    
-    -- Print them nicely
-    table.sort(loaded_vars)
-    print(table.concat(loaded_vars, "\n"))
+	-- Use Vim's completion engine to find all global variables
+	local all_vars = vim.fn.getcompletion("", "var")
+
+	local loaded_vars = {}
+	for _, var in ipairs(all_vars) do
+		if var:match("^loaded_") then
+			table.insert(loaded_vars, var)
+		end
+	end
+
+	-- Print them nicely
+	table.sort(loaded_vars)
+	print(table.concat(loaded_vars, "\n"))
 end
 
 -- list_loaded_vars()
@@ -166,12 +190,14 @@ local cb = function(id)
 end
 
 local split_id = function(id)
-    local user, repo = string.match(id, "([^/]+)/([^/]+)")
+	local user, repo = string.match(id, "([^/]+)/([^/]+)")
 	return user, repo
 end
 
 local printv = function(msg)
-	if BE_VERBOSE then print(msg) end
+	if BE_VERBOSE then
+		print(msg)
+	end
 end
 
 local setup_lazy = function() -- not in use; kept for reference
@@ -232,7 +258,12 @@ local PLUGIN_DECLARATION = {
 	["neotest"] = { id = "nvim-neotest/neotest", expander = gh, lazy = false },
 	["nvim-bqf"] = { id = "kevinhwang91/nvim-bqf", expander = gh, lazy = false },
 	["nvim-nio"] = { id = "nvim-neotest/nvim-nio", expander = gh, lazy = false },
-	["nvim-treesitter-textobjects"] = { id = "nvim-treesitter/nvim-treesitter-textobjects", expander = gh, lazy = false, name = "nvim-treesitter-textobjects" },
+	["nvim-treesitter-textobjects"] = {
+		id = "nvim-treesitter/nvim-treesitter-textobjects",
+		expander = gh,
+		lazy = false,
+		name = "nvim-treesitter-textobjects",
+	},
 	["nvim-treesitter"] = { id = "nvim-treesitter/nvim-treesitter", expander = gh, lazy = false },
 	["oil"] = { id = "stevearc/oil.nvim", expander = gh, lazy = false },
 	["pickme"] = { id = "2KAbhishek/pickme.nvim", expander = gh, lazy = false },
@@ -300,29 +331,29 @@ local PLUGIN_SPECS = make_specs(PLUGIN_DECLARATION)
 printv(vim.inspect(PLUGIN_SPECS))
 printv(vim.uv.fs_stat("/nix/store") ~= nil and "/nix/store exists" or "/nix/store does not exist")
 
-
 vim.pack.add(PLUGIN_SPECS.git.eager)
 
 function setup_plugin(plugin_info)
-    local name, setup_fn, config = plugin_info.name, plugin_info.setup_fn, plugin_info.config
+	local name, setup_fn, config = plugin_info.name, plugin_info.setup_fn, plugin_info.config
 	local id = PLUGIN_SPECS.mapping[name]
 	local deps = PLUGIN_DECLARATION[name].deps
-	if deps then printv(vim.inspect(deps)) end
+	if deps then
+		printv(vim.inspect(deps))
+	end
 	if deps then
 		for i, dep_name in ipairs(deps) do
 			printv(dep_name)
-		    setup_plugin({ name = dep_name })
+			setup_plugin({ name = dep_name })
 		end
 	end
 	if HAS_NIX then
-		
 		local path = PLUGIN_LOCATIONS[id].path
 		vim.opt.rtp:prepend(path)
 	else
 		info = PLUGIN_SPECS.git.lazy[name]
 		if info then
 			printv(vim.inspect(info))
-		    vim.pack.add({ info.src })
+			vim.pack.add({ info.src })
 		end
 	end
 	if setup_fn and config then
@@ -336,8 +367,8 @@ function setup_plugin(plugin_info)
 end
 
 function make_setup_function(plugin_info)
-    local setup_function = function()
-        setup_plugin(plugin_info)
+	local setup_function = function()
+		setup_plugin(plugin_info)
 	end
 	return setup_function
 end
@@ -663,26 +694,26 @@ setup_plugin({
 		-- require("vague").setup({ transparent = true })
 		vim.cmd("colorscheme bamboo")
 		vim.cmd(":hi statusline guibg=#081608")
-    end
+	end,
 })
 
 -- require("lazydev").setup({})
 setup_plugin({
-    name = "mini",
-    setup_fn = function()
+	name = "mini",
+	setup_fn = function()
 		require("mini.pick").setup()
 	end,
 })
 setup_plugin({
-    name = "oil",
-    config = {},
+	name = "oil",
+	config = {},
 })
 -- require('nvim-treesitter')
 -- require('nvim-treesitter.install').prefer_git = true
 setup_plugin({
-    name = "nvim-treesitter",
-    setup_fn = function()
-        require("nvim-treesitter").setup({
+	name = "nvim-treesitter",
+	setup_fn = function()
+		require("nvim-treesitter").setup({
 			-- directory to install parsers and queries to (prepended to `runtimepath` to have priority)
 			install_dir = (not HAS_NIX) and vim.fn.stdpath("data") .. "/site" or nil,
 			parser_install_dir = (not HAS_NIX) and vim.fn.stdpath("data") .. "/parsers" or nil,
@@ -690,7 +721,7 @@ setup_plugin({
 			highlight = { enable = true },
 			indent = { enable = true },
 		})
-    end
+	end,
 })
 
 -- wait max. 5 minutes
@@ -731,9 +762,9 @@ vim.api.nvim_create_autocmd("LspAttach", {
 vim.cmd("set completeopt+=noselect")
 printv("CHECKPOINT A")
 setup_plugin({ -------------------------------------------------------------------------------------------- conform.nvim
-    name = "conform",
-    setup_fn = function()
-        require("conform").setup({
+	name = "conform",
+	setup_fn = function()
+		require("conform").setup({
 			formatters_by_ft = {
 				python = {
 					-- To fix auto-fixable lint errors.
@@ -760,19 +791,19 @@ setup_plugin({ -----------------------------------------------------------------
 				},
 			},
 		})
-	
+
 		-- Optional: format on save
 		vim.api.nvim_create_autocmd("BufWritePre", {
 			callback = function(args)
 				require("conform").format({ bufnr = args.buf })
 			end,
 		})
-    end
+	end,
 })
 setup_plugin({ ----------------------------------------------------------------------------------------------- blink.cmp
-    name = "blink.cmp",
-    setup_fn = function()
-        require("blink.cmp").setup({
+	name = "blink.cmp",
+	setup_fn = function()
+		require("blink.cmp").setup({
 			-- 'default' (recommended) for mappings similar to built-in completions (C-y to accept)
 			-- 'super-tab' for mappings similar to vscode (tab to accept)
 			-- 'enter' for enter to accept
@@ -786,22 +817,22 @@ setup_plugin({ -----------------------------------------------------------------
 			--
 			-- See :h blink-cmp-config-keymap for defining your own keymap
 			keymap = { preset = "default" },
-	
+
 			appearance = {
 				-- 'mono' (default) for 'Nerd Font Mono' or 'normal' for 'Nerd Font'
 				-- Adjusts spacing to ensure icons are aligned
 				nerd_font_variant = "mono",
 			},
-	
+
 			-- (Default) Only show the documentation popup when manually triggered
 			completion = { documentation = { auto_show = false } },
-	
+
 			-- Default list of enabled providers defined so that you can extend it
 			-- elsewhere in your config, without redefining it, due to `opts_extend`
 			sources = {
 				default = { "lsp", "path", "snippets", "buffer" },
 			},
-	
+
 			-- (Default) Rust fuzzy matcher for typo resistance and significantly better performance
 			-- You may use a lua implementation instead by using `implementation = "lua"` or fallback to the lua implementation,
 			-- when the Rust fuzzy matcher is not available, by using `implementation = "prefer_rust"`
@@ -809,23 +840,23 @@ setup_plugin({ -----------------------------------------------------------------
 			-- See the fuzzy documentation for more information
 			fuzzy = { implementation = "lua" }, -- TODO: fix to use Rust
 		})
-    end
+	end,
 })
 setup_plugin({ ------------------------------------------------------------------------------------------- zen-mode.nvim
-    name = "zen-mode",
-    config = {
+	name = "zen-mode",
+	config = {
 		wezterm = {
 			enabled = false,
 			-- can be either an absolute font size or the number of incremental steps
 			font = "+4", -- (10% increase per step)
 		},
-	}
+	},
 })
 setup_plugin({ ------------------------------------------------------------------------------------------------- lualine
-    name = "lualine",
+	name = "lualine",
 })
 setup_plugin({ ----------------------------------------------------------------------------------------------- dial.nvim
-    name = "dial",
+	name = "dial",
 	setup_fn = function()
 		local augend = require("dial.augend")
 		require("dial.config").augends:register_group({
@@ -883,7 +914,7 @@ map({
 printv("CHECKPOINT AB")
 -------------------------------------------------------------------------------------------------------- toggleterm.nvim
 setup_plugin({
-    name = "toggleterm",
+	name = "toggleterm",
 	config = {
 		open_mapping = [[<c-\>]],
 		direction = "float",
@@ -896,7 +927,7 @@ setup_plugin({
 				link = "NormalFloat",
 			},
 		},
-	}
+	},
 })
 ----------------------------------------------------------------------------------------------------------- vim-floaterm
 vim.g.floaterm_width = 0.8
@@ -904,7 +935,7 @@ vim.g.floaterm_height = 0.8
 ---------------------------------------------------------------------------------------------------------- zen-mode.nvim
 setup_plugin({
 	name = "zen-mode",
-	setup_fn = function() end
+	setup_fn = function() end,
 })
 map({
 	mode = "n",
@@ -1031,17 +1062,17 @@ end
 printv("CHECKPOINT AC")
 setup_plugin({ ----------------------------------------------------------------------------------------------- mini.nvim
 	name = "mini",
-    setup_fn = function()
+	setup_fn = function()
 		require("mini.pick").setup()
 		require("mini.surround").setup()
 		require("mini.pairs").setup()
 		require("mini.comment").setup()
-        require("mini.indentscope").setup()
+		require("mini.indentscope").setup()
 		-- require("mini.hipatterns").setup()
 		-- require("mini.marks").setup()
 		-- require("mini.fold").setup()
 		-- require("mini.terminal").setup()
-    end,
+	end,
 })
 
 printv("CHECKPOINT B")
@@ -1051,9 +1082,8 @@ setup_plugin({ name = "gitsigns" }) --------------------------------------------
 -- event = { "BufReadPre", "BufNewFile" }
 setup_plugin({ name = "todo-comments" }) ------------------------------------------------------------ t*d*-comments.nvim
 
-
 setup_plugin({ ------------------------------------------------------------------------------------ telescope.nvim: TODO
-    name = "telescope",
+	name = "telescope",
 	setup_fn = function()
 		-- local fzf_info = PLUGIN_SPECS.git.lazy["telescope-fzf-native"]
 		-- if info then
@@ -1505,8 +1535,8 @@ map({ --------------------------------------------------------------------------
 })
 
 require("blink.cmp").setup({ ------------------------------------------------------------------------------------- blink
-fuzzy = { implementation = "lua" }, -- TODO: change to Rust
-keymap = {
+	fuzzy = { implementation = "lua" }, -- TODO: change to Rust
+	keymap = {
 		-- 'default' for vim-like (C-y to accept)
 		-- 'super-tab' for vscode-like (Tab to accept/jump)
 		-- 'enter' for enter to accept
