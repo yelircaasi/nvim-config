@@ -205,6 +205,14 @@ local function build_blink_cmp()
 end
 
 local PLUGIN_DECLARATION = {
+	-- UNSORTED
+	["code_runner"] = "https://github.com/CRAG666/code_runner.nvim OR https://github.com/Leeziao/code_runner.nvim",
+	["illuminate"] = "https://github.com/RRethy/vim-illuminate",
+	["sniprun"] = "https://github.com/michaelb/sniprun",
+	["efm"] = "https://github.com/mattn/efm-langserver",
+	["yabs"] = "https://github.com/pianocomposer321/yabs.nvim",
+	["ai"] = "https://github.com/madox2/vim-ai",
+	["compiler"] = "https://github.com/Zeioth/compiler.nvim",
 	-- LAYER 0: foundation, colors, search, core navigation ===============================================================================
 	------ core dependencies
 	["plenary"]         = { id = "nvim-lua/plenary.nvim",     expander = gh, lazy = false },
