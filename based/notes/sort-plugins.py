@@ -27,9 +27,15 @@ print(c)
 selected = set(
     Path("/Users/ext_riley/repos/nvim-config/testing/selected.txt").read_text().split("\n")
 )
+projects = []
 for x in d:
     if (x["decision"] == "trying") and (x["link"] not in selected):
         print(x["link"])
+    projects.extend(set(x["projects"]))
+
+
+for k, v in Counter(projects).most_common():
+    print(f"{k:<20} {v:>4}")
 
 # links = {x["link"] for x in d}
 # for link in (selected - links):
