@@ -1,5 +1,1303 @@
 [
     {
+        "text": "vim.api.nvim_create_user_command(“LineDiff1”, function(opts) if opts.range > 0 then print(opts.line1, opts.line2) vim.cmd(opts.line1 .. “,” .. opts.line2 .. “y x”) end end, { force = true, range = true })",
+        "link": "",
+        "decision": "vendor",
+        "projects": [],
+        "_": {
+            "topics": [
+                "diff"
+            ]
+        }
+    },
+    {
+        "link": "https://github.com/willothy/wezterm.nvim",
+        "decision": "vendor",
+        "projects": [
+            "integration"
+        ]
+    },
+    {
+        "text": "[insertion] [editingEnhancement] [pair] nvim-autopairs",
+        "link": "https://github.com/windwp/nvim-autopairs",
+        "decision": "trying",
+        "projects": []
+    },
+    {
+        "text": "[indentation] [guide] indentmini.nvim",
+        "link": "https://github.com/nvimdev/indentmini.nvim",
+        "decision": "trying",
+        "projects": []
+    },
+    {
+        "text": "[selection] nvim-treesitter(Incremental selection)",
+        "link": "https://github.com/nvim-treesitter/nvim-treesitter",
+        "decision": "trying",
+        "projects": [],
+        "types": [
+            "lsp"
+        ],
+        "_": {
+            "software": [
+                "neorg"
+            ]
+        }
+    },
+    {
+        "link": "https://github.com/sindrets/diffview.nvim",
+        "decision": "trying",
+        "projects": [],
+        "_": {
+            "software": [
+                "git"
+            ],
+            "topics": [
+                "diff"
+            ]
+        }
+    },
+    {
+        "link": "https://github.com/akinsho/git-conflict.nvim",
+        "decision": "trying",
+        "projects": [],
+        "_": {
+            "software": [
+                "grep",
+                "git"
+            ]
+        }
+    },
+    {
+        "link": "https://github.com/tpope/vim-fugitive",
+        "decision": "trying",
+        "projects": [],
+        "_": {
+            "software": [
+                "grep",
+                "git"
+            ]
+        }
+    },
+    {
+        "link": "https://github.com/pwntester/octo.nvim",
+        "decision": "trying",
+        "projects": [],
+        "_": {
+            "software": [
+                "grep",
+                "git"
+            ]
+        }
+    },
+    {
+        "link": "https://github.com/kdheepak/lazygit.nvim",
+        "decision": "trying",
+        "projects": [],
+        "_": {
+            "software": [
+                "grep",
+                "git"
+            ]
+        }
+    },
+    {
+        "link": "https://github.com/lewis6991/gitsigns.nvim",
+        "decision": "trying",
+        "projects": [],
+        "_": {
+            "software": [
+                "grep",
+                "git"
+            ]
+        }
+    },
+    {
+        "link": "https://github.com/harrisoncramer/gitlab.nvim",
+        "decision": "trying",
+        "projects": [],
+        "_": {
+            "software": [
+                "gitlab"
+            ]
+        }
+    },
+    {
+        "text": "[prefix] [nvimKeybinding] hydra.nvim",
+        "link": "https://github.com/nvimtools/hydra.nvim",
+        "decision": "trying",
+        "projects": []
+    },
+    {
+        "link": "https://github.com/Tastyep/structlog.nvim",
+        "decision": "trying",
+        "projects": [],
+        "_": {
+            "topics": [
+                "logging"
+            ]
+        }
+    },
+    {
+        "text": "[status] [buffer] [line] lualine.nvim",
+        "link": "https://github.com/nvim-lualine/lualine.nvim",
+        "decision": "trying",
+        "projects": []
+    },
+    {
+        "link": "https://github.com/chrisgrieser/nvim-recorder",
+        "decision": "trying",
+        "projects": []
+    },
+    {
+        "text": "[scrolling] [smooth] statuscol.nvim",
+        "link": "https://github.com/luukvbaal/statuscol.nvim",
+        "decision": "trying",
+        "projects": []
+    },
+    {
+        "text": "[status] [buffer] [line] bufferline.nvim",
+        "link": "https://github.com/akinsho/bufferline.nvim",
+        "decision": "trying",
+        "projects": []
+    },
+    {
+        "text": "[editingEnhancement] [miscellaneous] treesj",
+        "link": "https://github.com/Wansmer/treesj",
+        "decision": "trying",
+        "projects": [],
+        "_": {}
+    },
+    {
+        "link": "molten.nvim",
+        "decision": "trying",
+        "projects": []
+    },
+    {
+        "link": "vim-illuminate",
+        "decision": "trying",
+        "projects": [],
+        "_": {}
+    },
+    {
+        "link": "https://github.com/nvim-neo-tree/neo-tree.nvim",
+        "decision": "trying",
+        "projects": [],
+        "types": [
+            "fileBrowser"
+        ]
+    },
+    {
+        "link": "https://github.com/nvim-tree/nvim-tree.lua",
+        "decision": "trying",
+        "projects": [],
+        "types": [
+            "fileBrowser"
+        ]
+    },
+    {
+        "link": "https://github.com/stevearc/oil.nvim",
+        "decision": "trying",
+        "projects": [],
+        "types": [
+            "fileBrowser"
+        ]
+    },
+    {
+        "link": "https://github.com/ribru17/bamboo.nvim",
+        "decision": "trying",
+        "projects": [],
+        "rating": 4.22222,
+        "_": {
+            "progLangs": [
+                "python"
+            ]
+        }
+    },
+    {
+        "link": "https://github.com/nvim-telescope/telescope-fzf-native.nvim",
+        "decision": "trying",
+        "projects": [],
+        "_": {
+            "software": [
+                "telescope"
+            ]
+        }
+    },
+    {
+        "link": "https://github.com/MeanderingProgrammer/render-markdown.nvim",
+        "decision": "trying",
+        "projects": []
+    },
+    {
+        "link": "https://github.com/ii14/neorepl.nvim",
+        "decision": "trying",
+        "projects": []
+    },
+    {
+        "link": "https://github.com/2KAbhishek/pickme.nvim",
+        "decision": "trying",
+        "projects": []
+    },
+    {
+        "link": "https://github.com/saghen/blink.nvim",
+        "decision": "trying",
+        "projects": []
+    },
+    {
+        "link": "https://github.com/NicolasGB/jj.nvim",
+        "decision": "trying",
+        "projects": []
+    },
+    {
+        "link": "https://github.com/glacambre/firenvim",
+        "decision": "trying",
+        "projects": []
+    },
+    {
+        "link": "https://github.com/2KAbhishek/markit.nvim",
+        "decision": "trying",
+        "projects": []
+    },
+    {
+        "link": "https://github.com/gitlab-org/editor-extensions/gitlab.vim",
+        "decision": "trying",
+        "projects": []
+    },
+    {
+        "link": "https://github.com/kr40/nvim-macros",
+        "decision": "trying",
+        "projects": []
+    },
+    {
+        "link": "https://github.com/mikavilpas/yazi.nvim",
+        "decision": "trying",
+        "projects": []
+    },
+    {
+        "link": "https://codeberg.org/theHamsta/nvim-dap-virtual-text",
+        "decision": "trying",
+        "projects": []
+    },
+    {
+        "link": "https://github.com/MagicDuck/grug-far.nvim",
+        "decision": "trying",
+        "projects": []
+    },
+    {
+        "link": "https://github.com/folke/snacks.nvim",
+        "decision": "trying",
+        "projects": []
+    },
+    {
+        "link": "https://github.com/godlygeek/tabular",
+        "decision": "trying",
+        "projects": []
+    },
+    {
+        "link": "https://codeberg.org/andyg/leap.nvim",
+        "decision": "trying",
+        "projects": []
+    },
+    {
+        "link": "https://github.com/stevearc/quicker.nvim",
+        "decision": "trying",
+        "projects": []
+    },
+    {
+        "link": "https://github.com/feakuru/mypy.nvim",
+        "decision": "trying",
+        "projects": []
+    },
+    {
+        "link": "https://github.com/mrcjkb/rustaceanvim",
+        "decision": "trying",
+        "projects": []
+    },
+    {
+        "link": "https://github.com/saghen/blink.pairs",
+        "decision": "trying",
+        "projects": []
+    },
+    {
+        "link": "https://codeberg.org/mfussenegger/nvim-dap",
+        "decision": "trying",
+        "projects": []
+    },
+    {
+        "link": "https://github.com/MeanderingProgrammer/dashboard.nvim",
+        "decision": "trying",
+        "projects": []
+    },
+    {
+        "link": "https://github.com/onsails/lspkind.nvim",
+        "decision": "trying",
+        "projects": []
+    },
+    {
+        "link": "https://github.com/nvim-mini/mini.align",
+        "decision": "trying",
+        "projects": []
+    },
+    {
+        "link": "https://github.com/hrsh7th/nvim-anydent",
+        "decision": "trying",
+        "projects": []
+    },
+    {
+        "link": "https://github.com/MeanderingProgrammer/treesitter-modules.nvim",
+        "decision": "trying",
+        "projects": []
+    },
+    {
+        "link": "https://github.com/jceb/jiejie.nvim",
+        "decision": "trying",
+        "projects": []
+    },
+    {
+        "link": "https://github.com/hrsh7th/nvim-swm",
+        "decision": "trying",
+        "projects": []
+    },
+    {
+        "link": "https://github.com/hrsh7th/nvim-deck",
+        "decision": "trying",
+        "projects": []
+    },
+    {
+        "link": "https://github.com/folke/lazydev.nvim",
+        "decision": "trying",
+        "projects": []
+    },
+    {
+        "link": "https://github.com/nvim-mini/mini.keymap",
+        "decision": "trying",
+        "projects": []
+    },
+    {
+        "link": "https://github.com/nvim-mini/mini.nvim",
+        "decision": "trying",
+        "projects": []
+    },
+    {
+        "link": "https://github.com/lvim-tech/NeoComposer.nvim",
+        "decision": "trying",
+        "projects": []
+    },
+    {
+        "link": "https://codeberg.org/mfussenegger/nvim-dap-python",
+        "decision": "trying",
+        "projects": []
+    },
+    {
+        "link": "https://github.com/smoka7/hop.nvim",
+        "decision": "trying",
+        "projects": []
+    },
+    {
+        "link": "https://github.com/Piotr1215/beam.nvim",
+        "decision": "trying",
+        "projects": []
+    },
+    {
+        "link": "https://github.com/Saghen/blink.cmp",
+        "decision": "trying",
+        "projects": []
+    },
+    {
+        "link": "https://github.com/yannvanhalewyn/jujutsu.nvim",
+        "decision": "trying",
+        "projects": []
+    },
+    {
+        "link": "https://github.com/lukas-reineke/headlines.nvim",
+        "decision": "trying",
+        "projects": [
+            "arguments"
+        ]
+    },
+    {
+        "link": "https://github.com/stevearc/stickybuf.nvim",
+        "decision": "trying",
+        "projects": [
+            "buffer",
+            "tab",
+            "layout",
+            "navigation"
+        ]
+    },
+    {
+        "link": "https://github.com/nvimdev/flybuf.nvim",
+        "decision": "trying",
+        "projects": [
+            "buffer",
+            "tab",
+            "layout",
+            "navigation"
+        ]
+    },
+    {
+        "link": "https://github.com/pianocomposer321/yabs.nvim",
+        "decision": "trying",
+        "projects": [
+            "commandStyle",
+            "taskRunner",
+            "execFromConfigFile"
+        ]
+    },
+    {
+        "link": "https://github.com/is0n/jaq-nvim",
+        "decision": "trying",
+        "projects": [
+            "commandStyle",
+            "taskRunner",
+            "execFromConfigFile"
+        ]
+    },
+    {
+        "link": "https://github.com/tpope/vim-commentary",
+        "decision": "trying",
+        "projects": [
+            "comments"
+        ],
+        "_": {}
+    },
+    {
+        "link": "https://github.com/numToStr/Comment.nvim",
+        "decision": "trying",
+        "projects": [
+            "comments"
+        ]
+    },
+    {
+        "link": "https://github.com/folke/todo-comments.nvim",
+        "decision": "trying",
+        "projects": [
+            "comments"
+        ]
+    },
+    {
+        "link": "https://github.com/hrsh7th/cmp-path",
+        "decision": "trying",
+        "projects": [
+            "completion"
+        ],
+        "_": {}
+    },
+    {
+        "link": "https://github.com/hrsh7th/cmp-nvim-lsp",
+        "decision": "trying",
+        "projects": [
+            "completion"
+        ]
+    },
+    {
+        "link": "https://github.com/hrsh7th/nvim-cmp",
+        "decision": "trying",
+        "projects": [
+            "completion"
+        ]
+    },
+    {
+        "link": "https://github.com/hrsh7th/cmp-buffer",
+        "decision": "trying",
+        "projects": [
+            "completion"
+        ],
+        "_": {}
+    },
+    {
+        "link": "https://github.com/hrsh7th/cmp-cmdline",
+        "decision": "trying",
+        "projects": [
+            "completion"
+        ],
+        "_": {}
+    },
+    {
+        "link": "https://github.com/kevinhwang91/nvim-bqf",
+        "decision": "trying",
+        "projects": [
+            "debug",
+            "linting"
+        ],
+        "_": {
+            "software": [
+                "dap"
+            ]
+        }
+    },
+    {
+        "link": "https://github.com/rcarriga/nvim-dap-ui",
+        "decision": "trying",
+        "projects": [
+            "debug",
+            "linting"
+        ],
+        "_": {
+            "software": [
+                "dap"
+            ]
+        }
+    },
+    {
+        "link": "https://github.com/nvimdev/guard.nvim",
+        "decision": "trying",
+        "projects": [
+            "debug",
+            "quickfix",
+            "diagnostics"
+        ],
+        "_": {
+            "topics": [
+                "formatting"
+            ]
+        }
+    },
+    {
+        "link": "Mintlify Writer",
+        "decision": "trying",
+        "projects": [
+            "docs",
+            "llm",
+            "ai"
+        ],
+        "_": {}
+    },
+    {
+        "link": "https://github.com/hrsh7th/nvim-insx",
+        "decision": "trying",
+        "projects": [
+            "editingEnhancement"
+        ]
+    },
+    {
+        "link": "https://github.com/mg979/vim-visual-multi",
+        "decision": "trying",
+        "projects": [
+            "editingEnhancement"
+        ],
+        "_": {}
+    },
+    {
+        "link": "https://github.com/kylechui/nvim-surround",
+        "decision": "trying",
+        "projects": [
+            "editingEnhancement",
+            "auto",
+            "conversion"
+        ]
+    },
+    {
+        "link": "https://github.com/machakann/vim-sandwich",
+        "decision": "trying",
+        "projects": [
+            "editingEnhancement",
+            "auto",
+            "conversion"
+        ],
+        "_": {}
+    },
+    {
+        "link": "https://github.com/HiPhish/rainbow-delimiters.nvim",
+        "decision": "trying",
+        "projects": [
+            "editingEnhancement",
+            "auto",
+            "conversion"
+        ]
+    },
+    {
+        "link": "https://github.com/monaqa/dial.nvim",
+        "decision": "trying",
+        "projects": [
+            "editingEnhancement",
+            "increment/decrement/toggle",
+            "next",
+            "editingExtension",
+            "config",
+            "casing"
+        ]
+    },
+    {
+        "link": "https://github.com/nvim-treesitter/nvim-treesitter-textobjects",
+        "decision": "trying",
+        "projects": [
+            "editingEnhancement",
+            "textobject",
+            "operator"
+        ]
+    },
+    {
+        "link": "https://github.com/chrisgrieser/nvim-various-textobjs",
+        "decision": "trying",
+        "projects": [
+            "editingEnhancement",
+            "textobject",
+            "operator"
+        ]
+    },
+    {
+        "text": "overseer.nvim(template) ||| [taskRunner] overseer.nvim(command)",
+        "link": "https://github.com/stevearc/overseer.nvim",
+        "decision": "trying",
+        "projects": [
+            "execFromConfigFile",
+            "nvimCompilation",
+            "commandStyle"
+        ],
+        "rating": 4.22222,
+        "dateCreated": "2025-11-17",
+        "_": {
+            "topics": [
+                "taskRunning"
+            ]
+        }
+    },
+    {
+        "link": "https://github.com/skywind3000/asyncrun.vim",
+        "decision": "trying",
+        "projects": [
+            "external",
+            "selection",
+            "integration",
+            "nvimTerminal"
+        ],
+        "_": {
+            "software": [
+                "telescope"
+            ]
+        }
+    },
+    {
+        "link": "https://github.com/kevinhwang91/nvim-ufo",
+        "decision": "trying",
+        "projects": [
+            "folding"
+        ]
+    },
+    {
+        "link": "https://github.com/lukas-reineke/lsp-format.nvim",
+        "decision": "trying",
+        "projects": [
+            "formatting"
+        ]
+    },
+    {
+        "text": "lukas-reineke/indent-blankline.nvim: Indent guides for Neovim",
+        "link": "https://github.com/lukas-reineke/indent-blankline.nvim",
+        "decision": "trying",
+        "projects": [
+            "guide",
+            "indentation",
+            "nextStep"
+        ]
+    },
+    {
+        "link": "https://github.com/nvim-tree/nvim-web-devicons",
+        "decision": "trying",
+        "projects": [
+            "icon"
+        ]
+    },
+    {
+        "link": "https://github.com/folke/which-key.nvim",
+        "decision": "trying",
+        "projects": [
+            "keybind",
+            "search"
+        ]
+    },
+    {
+        "link": "https://github.com/mfussenegger/nvim-lint",
+        "decision": "trying",
+        "projects": [
+            "linting",
+            "debug"
+        ],
+        "_": {
+            "software": [
+                "dap"
+            ]
+        }
+    },
+    {
+        "link": "vim-ai",
+        "decision": "trying",
+        "projects": [
+            "llm",
+            "ai"
+        ],
+        "_": {}
+    },
+    {
+        "link": "efmls-configs.nvim",
+        "decision": "trying",
+        "projects": [
+            "lsp"
+        ]
+    },
+    {
+        "link": "none-ls",
+        "decision": "trying",
+        "projects": [
+            "lsp"
+        ],
+        "_": {}
+    },
+    {
+        "link": "https://github.com/MeanderingProgrammer/harpoon-core.nvim",
+        "decision": "trying",
+        "projects": [
+            "marks",
+            "navigation"
+        ]
+    },
+    {
+        "link": "https://github.com/b0o/SchemaStore.nvim",
+        "decision": "trying",
+        "projects": [
+            "misc",
+            "proglangSpecific"
+        ],
+        "_": {
+            "progLangs": [
+                "javascript",
+                "typescript"
+            ]
+        }
+    },
+    {
+        "link": "https://github.com/mvllow/modes.nvim",
+        "decision": "trying",
+        "projects": [
+            "mode"
+        ]
+    },
+    {
+        "link": "https://github.com/folke/zen-mode.nvim",
+        "decision": "trying",
+        "projects": [
+            "mode"
+        ],
+        "_": {
+            "software": [
+                "zen"
+            ]
+        }
+    },
+    {
+        "link": "https://github.com/folke/flash.nvim",
+        "decision": "trying",
+        "projects": [
+            "navigation"
+        ]
+    },
+    {
+        "link": "https://github.com/kevinhwang91/nvim-hlslens",
+        "decision": "trying",
+        "projects": [
+            "navigation"
+        ]
+    },
+    {
+        "link": "https://github.com/nvimdev/hlsearch.nvim",
+        "decision": "trying",
+        "projects": [
+            "navigation"
+        ]
+    },
+    {
+        "link": "https://github.com/stevearc/conform.nvim",
+        "decision": "trying",
+        "projects": [
+            "nextStep"
+        ],
+        "_": {
+            "topics": [
+                "formatting"
+            ]
+        }
+    },
+    {
+        "link": "https://github.com/GCBallesteros/jupytext.nvim",
+        "decision": "trying",
+        "projects": [
+            "nextStep"
+        ],
+        "_": {
+            "software": [
+                "jupyter"
+            ]
+        }
+    },
+    {
+        "link": "https://github.com/nvimtools/none-ls.nvim",
+        "decision": "trying",
+        "projects": [
+            "nextStep"
+        ],
+        "types": [
+            "lsp"
+        ]
+    },
+    {
+        "text": "NeogitOrg/neogit: An interactive and powerful Git interface for Neovim, inspired by Magit",
+        "link": "https://github.com/NeogitOrg/neogit",
+        "decision": "trying",
+        "projects": [
+            "nextStep"
+        ],
+        "_": {
+            "software": [
+                "grep",
+                "git"
+            ]
+        }
+    },
+    {
+        "text": "excellent markdown support and previewing [iamcco/markdown-preview.nvim",
+        "link": "https://github.com/iamcco/markdown-preview.nvim",
+        "decision": "trying",
+        "projects": [
+            "nextStep",
+            "formatSpecific"
+        ],
+        "_": {
+            "software": [
+                "markdown"
+            ]
+        }
+    },
+    {
+        "link": "https://github.com/jakewvincent/texmagic.nvim",
+        "decision": "trying",
+        "projects": [
+            "nextStep",
+            "formatSpecific"
+        ],
+        "_": {
+            "software": [
+                "tex"
+            ]
+        }
+    },
+    {
+        "link": "https://github.com/lervag/vimtex",
+        "decision": "trying",
+        "projects": [
+            "nextStep",
+            "formatSpecific"
+        ],
+        "_": {
+            "software": [
+                "tex"
+            ]
+        }
+    },
+    {
+        "text": "akinsho/toggleterm.nvim: A neovim lua plugin to help easily manage multiple terminal windows",
+        "link": "https://github.com/akinsho/toggleterm.nvim",
+        "decision": "trying",
+        "projects": [
+            "nextStep",
+            "nvimTerminal",
+            "codeExecution"
+        ]
+    },
+    {
+        "link": "https://github.com/quarto-dev/quarto-nvim",
+        "decision": "trying",
+        "projects": [
+            "notebook"
+        ]
+    },
+    {
+        "link": "https://github.com/rcarriga/nvim-notify",
+        "decision": "trying",
+        "projects": [
+            "notification"
+        ]
+    },
+    {
+        "link": "https://github.com/folke/trouble.nvim",
+        "decision": "trying",
+        "projects": [
+            "nvimFeature"
+        ],
+        "types": [
+            "MANUALXextensionXpartition",
+            "lsp"
+        ]
+    },
+    {
+        "link": "https://github.com/stevearc/aerial.nvim",
+        "decision": "trying",
+        "projects": [
+            "outline"
+        ]
+    },
+    {
+        "link": "https://github.com/SmiteshP/nvim-navbuddy",
+        "decision": "trying",
+        "projects": [
+            "outline"
+        ]
+    },
+    {
+        "link": "https://github.com/Bekaboo/dropbar.nvim",
+        "decision": "trying",
+        "projects": [
+            "outline"
+        ]
+    },
+    {
+        "link": "https://github.com/SmiteshP/nvim-navic",
+        "decision": "trying",
+        "projects": [
+            "outline"
+        ]
+    },
+    {
+        "link": "https://github.com/nvimdev/lspsaga.nvim",
+        "decision": "trying",
+        "projects": [
+            "outline"
+        ]
+    },
+    {
+        "link": "https://github.com/nvim-neotest/nvim-nio",
+        "decision": "trying",
+        "projects": [
+            "pluginDev",
+            "proglangSpecific",
+            "async",
+            "pluginUtil"
+        ]
+    },
+    {
+        "link": "https://github.com/MunifTanjim/nui.nvim",
+        "decision": "trying",
+        "projects": [
+            "pluginDevelopment",
+            "proglangSpecific",
+            "nextStep"
+        ]
+    },
+    {
+        "link": "https://github.com/MrcJkb/neotest-haskell",
+        "decision": "trying",
+        "projects": [
+            "proglangSpecific"
+        ],
+        "_": {
+            "progLangs": [
+                "haskell"
+            ]
+        }
+    },
+    {
+        "link": "https://github.com/saecki/crates.nvim",
+        "decision": "trying",
+        "projects": [
+            "proglangSpecific"
+        ],
+        "_": {
+            "software": [
+                "rust"
+            ]
+        }
+    },
+    {
+        "link": "TODO: search: flutter development in nvim",
+        "decision": "trying",
+        "projects": [
+            "proglangSpecific"
+        ]
+    },
+    {
+        "link": "https://github.com/mrcjkb/haskell-tools.nvim",
+        "decision": "trying",
+        "projects": [
+            "proglangSpecific"
+        ],
+        "rating": 4.22222,
+        "_": {
+            "progLangs": [
+                "haskell"
+            ]
+        }
+    },
+    {
+        "link": "https://github.com/nvim-lua/plenary.nvim",
+        "decision": "trying",
+        "projects": [
+            "proglangSpecific",
+            "testing"
+        ]
+    },
+    {
+        "link": "https://github.com/folke/noice.nvim",
+        "decision": "trying",
+        "projects": [
+            "progress",
+            "commandLine"
+        ]
+    },
+    {
+        "link": "https://github.com/nvim-neotest/neotest-python",
+        "decision": "trying",
+        "projects": [
+            "python",
+            "proglangSpecific"
+        ],
+        "types": [
+            "lsp"
+        ],
+        "_": {
+            "progLangs": [
+                "python"
+            ]
+        }
+    },
+    {
+        "link": "TODO:bqf.nvim",
+        "decision": "trying",
+        "projects": [
+            "quickfix"
+        ]
+    },
+    {
+        "link": "code_runner.nvim",
+        "decision": "trying",
+        "projects": [
+            "repl"
+        ]
+    },
+    {
+        "link": "compiler.nvim",
+        "decision": "trying",
+        "projects": [
+            "repl"
+        ]
+    },
+    {
+        "link": "sniprun",
+        "decision": "trying",
+        "projects": [
+            "repl"
+        ],
+        "_": {}
+    },
+    {
+        "text": "refactoring support & previews → [ThePrimeagen/refactoring.nvim  - [ ]  quickfix window, ability",
+        "link": "https://github.com/ThePrimeagen/refactoring.nvim",
+        "decision": "trying",
+        "projects": [
+            "ricing",
+            "refactoring",
+            "config",
+            "nextStep"
+        ],
+        "types": [
+            "editor"
+        ],
+        "rating": 4.22222,
+        "flexTexts": {
+            "description": "The Refactoring library based off the Refactoring book by Martin Fowler"
+        },
+        "_": {
+            "progLangs": [
+                "go",
+                "lua"
+            ]
+        }
+    },
+    {
+        "link": "TODO: lazy-nix-helper.nvim",
+        "decision": "trying",
+        "projects": [
+            "rtp",
+            "nvimPluginManagement",
+            "manager"
+        ]
+    },
+    {
+        "link": "https://github.com/chentoast/marks.nvim",
+        "decision": "trying",
+        "projects": [
+            "search"
+        ]
+    },
+    {
+        "link": "https://github.com/ibhagwan/fzf-lua",
+        "decision": "trying",
+        "projects": [
+            "search"
+        ],
+        "_": {}
+    },
+    {
+        "link": "https://github.com/nvim-telescope/telescope.nvim",
+        "decision": "trying",
+        "projects": [
+            "search"
+        ],
+        "types": [
+            "finder"
+        ]
+    },
+    {
+        "link": "https://github.com/ahmedkhalf/project.nvim",
+        "decision": "trying",
+        "projects": [
+            "search",
+            "navigation"
+        ]
+    },
+    {
+        "link": "https://github.com/nvim-pack/nvim-spectre",
+        "decision": "trying",
+        "projects": [
+            "search",
+            "replace"
+        ]
+    },
+    {
+        "link": "https://github.com/nvim-telescope/telescope-project.nvim",
+        "decision": "trying",
+        "projects": [
+            "search",
+            "replace"
+        ]
+    },
+    {
+        "text": "vim-floaterm terminal",
+        "link": "https://github.com/voldikss/vim-floaterm",
+        "decision": "trying",
+        "projects": [
+            "selection",
+            "external",
+            "integration",
+            "nvimTerminal"
+        ],
+        "_": {
+            "software": [
+                "telescope"
+            ]
+        }
+    },
+    {
+        "link": "https://github.com/L3MON4D3/LuaSnip",
+        "decision": "trying",
+        "projects": [
+            "snippets"
+        ],
+        "_": {}
+    },
+    {
+        "link": "https://github.com/rafamadriz/friendly-snippets",
+        "decision": "trying",
+        "projects": [
+            "snippets"
+        ],
+        "_": {}
+    },
+    {
+        "link": "https://github.com/SirVer/ultisnips",
+        "decision": "trying",
+        "projects": [
+            "snippets"
+        ],
+        "_": {}
+    },
+    {
+        "link": "https://github.com/nvimdev/dashboard-nvim",
+        "decision": "trying",
+        "projects": [
+            "startup",
+            "dashboard"
+        ]
+    },
+    {
+        "link": "https://github.com/nvim-neotest/neotest",
+        "decision": "trying",
+        "projects": [
+            "testing"
+        ],
+        "_": {
+            "topics": [
+                "coverage"
+            ]
+        }
+    },
+    {
+        "link": "https://github.com/mrjones2014/smart-splits.nvim",
+        "decision": "trying",
+        "projects": [
+            "ui"
+        ],
+        "types": [
+            "editor"
+        ],
+        "rating": 4.22222,
+        "flexTexts": {
+            "description": "🧠 Smart, seamless, directional navigation and resizing of Neovim + terminal multiplexer splits. Supports tmux, Wezterm, and Kitty. Think about splits in terms of \"up/down/left/right\"."
+        }
+    },
+    {
+        "link": "https://github.com/simnalamburt/vim-mundo",
+        "decision": "trying",
+        "projects": [
+            "undoRedo"
+        ],
+        "_": {}
+    },
+    {
+        "link": "https://github.com/rmagatti/auto-session",
+        "decision": "trying",
+        "projects": [
+            "unsortedProject"
+        ],
+        "_": {
+            "topics": [
+                "session"
+            ]
+        }
+    },
+    {
+        "link": "https://github.com/folke/persistence.nvim",
+        "decision": "trying",
+        "projects": [
+            "unsortedProject"
+        ],
+        "_": {
+            "topics": [
+                "session"
+            ]
+        }
+    },
+    {
+        "text": "j-hui/fidget.nvim",
+        "link": "https://github.com/j-hui/fidget.nvim",
+        "decision": "trying",
+        "projects": [
+            "widget",
+            "ricing",
+            "notification"
+        ],
+        "flexTexts": {
+            "description": "💫  Extensible UI for Neovim notifications and LSP progress messages."
+        }
+    },
+    {
+        "link": "https://github.com/hrsh7th/nvim-pasta",
+        "decision": "trying",
+        "projects": [
+            "yankPaste",
+            "clipboard"
+        ]
+    },
+    {
         "link": "https://github.com/Mohanbarman/g-worktree.nvim",
         "decision": "next",
         "projects": [],
@@ -307,6 +1605,334 @@
                 "python"
             ]
         }
+    },
+    {
+        "text": "for note",
+        "link": "https://github.com/folke/paint.nvim",
+        "decision": "prioritized",
+        "projects": [
+            "arguments",
+            "consilium"
+        ],
+        "dateCreated": "2024-06-15"
+    },
+    {
+        "link": "https://github.com/adelarsq/image_preview.nvim",
+        "decision": "prioritized",
+        "projects": [
+            "asciiArt",
+            "consilium"
+        ],
+        "types": [
+            "editor"
+        ],
+        "rating": 4.9
+    },
+    {
+        "link": "https://github.com/ds1sqe/Calendar.nvim",
+        "decision": "prioritized",
+        "projects": [
+            "calendar",
+            "consilium"
+        ],
+        "rating": 4.9
+    },
+    {
+        "text": "dbinagi/nomodoro",
+        "link": "https://github.com/dbinagi/nomodoro",
+        "decision": "prioritized",
+        "projects": [
+            "clock",
+            "consilium"
+        ],
+        "types": [
+            "editor"
+        ],
+        "rating": 4.95
+    },
+    {
+        "text": "pommodoro-clock.nvim",
+        "link": "https://github.com/jackMort/pommodoro-clock.nvim",
+        "decision": "prioritized",
+        "projects": [
+            "clock",
+            "consilium"
+        ],
+        "types": [
+            "editor"
+        ],
+        "rating": 4.95
+    },
+    {
+        "link": "https://github.com/eliasCVII/timew.nvim",
+        "decision": "prioritized",
+        "projects": [
+            "consilium"
+        ],
+        "rating": 4.9
+    },
+    {
+        "text": "2KAbhishek/tdo.nvim ||| tdo",
+        "link": "https://github.com/2KAbhishek/tdo.nvim",
+        "decision": "prioritized",
+        "projects": [
+            "consilium"
+        ],
+        "types": [
+            "editor"
+        ],
+        "rating": 4.22222,
+        "flexTexts": {
+            "description": "Fast & Simple Notes in Neovim 📃🚀 <#> tdo"
+        }
+    },
+    {
+        "link": "https://github.com/krivahtoo/silicon.nvim",
+        "decision": "prioritized",
+        "projects": [
+            "consilium",
+            "editManually"
+        ],
+        "rating": 4.9,
+        "flexTexts": {
+            "description": "Render beautiful image of your code in neovim using silicon",
+            "recency": "1970-01-01"
+        }
+    },
+    {
+        "link": "https://github.com/skbolton/neorg-taskwarrior",
+        "decision": "prioritized",
+        "projects": [
+            "consilium",
+            "gtd"
+        ],
+        "rating": 4.9,
+        "_": {
+            "software": [
+                "neorg"
+            ]
+        }
+    },
+    {
+        "link": "https://github.com/barrett-ruth/live-server.nvim",
+        "decision": "prioritized",
+        "projects": [
+            "editManually",
+            "consilium",
+            "webdev",
+            "server"
+        ],
+        "rating": 4.9
+    },
+    {
+        "text": "color-picker.nvim",
+        "link": "https://github.com/ziontee113/color-picker.nvim",
+        "decision": "prioritized",
+        "projects": [
+            "export",
+            "color",
+            "ricing"
+        ]
+    },
+    {
+        "text": "export-colorscheme.nvim",
+        "link": "https://github.com/jpe90/export-colorscheme.nvim",
+        "decision": "prioritized",
+        "projects": [
+            "export",
+            "color",
+            "ricing"
+        ]
+    },
+    {
+        "text": "kreative",
+        "link": "https://github.com/katawful/kreative",
+        "decision": "prioritized",
+        "projects": [
+            "export",
+            "color",
+            "ricing"
+        ],
+        "_": {}
+    },
+    {
+        "text": "mini.colors",
+        "link": "https://github.com/echasnovski/mini.colors",
+        "decision": "prioritized",
+        "projects": [
+            "export",
+            "color",
+            "ricing"
+        ],
+        "_": {}
+    },
+    {
+        "text": "mini.hues",
+        "link": "https://github.com/echasnovski/mini.hues",
+        "decision": "prioritized",
+        "projects": [
+            "export",
+            "color",
+            "ricing"
+        ],
+        "_": {}
+    },
+    {
+        "text": "text-to-colorscheme",
+        "link": "https://github.com/svermeulen/text-to-colorscheme",
+        "decision": "prioritized",
+        "projects": [
+            "export",
+            "color",
+            "ricing"
+        ],
+        "_": {}
+    },
+    {
+        "text": "easycolor.nvim",
+        "link": "https://github.com/neph-iap/easycolor.nvim",
+        "decision": "prioritized",
+        "projects": [
+            "export",
+            "color",
+            "ricing",
+            "config",
+            "nextStep"
+        ]
+    },
+    {
+        "text": "[twig.nvim ]  hugginsio/twig.nvim: taskwarrior plugin",
+        "link": "https://github.com/hugginsio/twig.nvim",
+        "decision": "prioritized",
+        "projects": [
+            "gtd",
+            "consilium",
+            "taskManagement"
+        ],
+        "rating": 4.9,
+        "flexTexts": {
+            "description": "also a nvim plugin",
+            "notes": "cool project-oriented design",
+            "recency": "1970-01-01"
+        },
+        "_": {
+            "software": [
+                "taskwarrior"
+            ]
+        }
+    },
+    {
+        "link": "https://github.com/edluffy/hologram.nvim",
+        "decision": "prioritized",
+        "projects": [
+            "marks",
+            "consilium",
+            "navigation"
+        ],
+        "types": [
+            "editor"
+        ],
+        "rating": 4.1
+    },
+    {
+        "text": "*** frabjous/knap",
+        "link": "https://github.com/frabjous/knap",
+        "decision": "prioritized",
+        "projects": [
+            "nextStep",
+            "consilium"
+        ],
+        "types": [
+            "editor"
+        ],
+        "rating": 4.9,
+        "flexTexts": {
+            "description": "Neovim plugin for creating live-updating-as-you-type previews of LaTeX, markdown, and other files in the viewer of your choice.",
+            "recency": "2024-06-01"
+        },
+        "flexNums": {
+            "commits": 59.0
+        }
+    },
+    {
+        "text": "tps://github.com/vimwiki/vimwiki  - [ ]  workflow automation",
+        "link": "https://github.com/vimwiki/vimwiki",
+        "decision": "prioritized",
+        "projects": [
+            "nextStep",
+            "consilium",
+            "noteTaking"
+        ],
+        "types": [
+            "editor"
+        ],
+        "rating": 4.95
+    },
+    {
+        "link": "https://github.com/JellyApple102/flote.nvim",
+        "decision": "prioritized",
+        "projects": [
+            "noteTaking",
+            "consilium"
+        ],
+        "types": [
+            "editor"
+        ],
+        "rating": 4.9
+    },
+    {
+        "text": "nvim-neorg/neorg (idea: [chimay/organ)](https://github.com/chimay/organ))",
+        "link": "https://github.com/nvim-neorg/neorg",
+        "decision": "prioritized",
+        "projects": [
+            "noteTaking",
+            "consilium",
+            "gtd"
+        ],
+        "types": [
+            "editor"
+        ],
+        "rating": 4.9,
+        "flexTexts": {
+            "description": "Modernity meets insane extensibility. The future of organizing your life in Neovim.",
+            "recency": "1970-01-01"
+        },
+        "_": {
+            "software": [
+                "neorg"
+            ]
+        }
+    },
+    {
+        "link": "https://github.com/wthollingsworth/pomodoro.nvim",
+        "decision": "prioritized",
+        "projects": [
+            "pomodoro",
+            "consilium"
+        ],
+        "rating": 4.9
+    },
+    {
+        "text": "stylish.nvim",
+        "link": "https://github.com/sunjon/stylish.nvim",
+        "decision": "prioritized",
+        "projects": [
+            "smooth",
+            "scrolling",
+            "consilium",
+            "development"
+        ]
+    },
+    {
+        "text": "live-command.nvim",
+        "link": "https://github.com/smjonas/live-command.nvim ||| https://www.reddit.com/r/neovim/comments/xx5hhp/introducing_livecommandnvim_preview_the_norm",
+        "decision": "prioritized",
+        "projects": [
+            "webdev",
+            "consilium",
+            "networking"
+        ],
+        "rating": 4.95
     },
     {
         "link": "https://github.com/tpope/vim-sleuth",
@@ -29095,334 +30721,6 @@
         ]
     },
     {
-        "text": "for note",
-        "link": "https://github.com/folke/paint.nvim",
-        "decision": "prioritized",
-        "projects": [
-            "arguments",
-            "consilium"
-        ],
-        "dateCreated": "2024-06-15"
-    },
-    {
-        "link": "https://github.com/adelarsq/image_preview.nvim",
-        "decision": "prioritized",
-        "projects": [
-            "asciiArt",
-            "consilium"
-        ],
-        "types": [
-            "editor"
-        ],
-        "rating": 4.9
-    },
-    {
-        "link": "https://github.com/ds1sqe/Calendar.nvim",
-        "decision": "prioritized",
-        "projects": [
-            "calendar",
-            "consilium"
-        ],
-        "rating": 4.9
-    },
-    {
-        "text": "dbinagi/nomodoro",
-        "link": "https://github.com/dbinagi/nomodoro",
-        "decision": "prioritized",
-        "projects": [
-            "clock",
-            "consilium"
-        ],
-        "types": [
-            "editor"
-        ],
-        "rating": 4.95
-    },
-    {
-        "text": "pommodoro-clock.nvim",
-        "link": "https://github.com/jackMort/pommodoro-clock.nvim",
-        "decision": "prioritized",
-        "projects": [
-            "clock",
-            "consilium"
-        ],
-        "types": [
-            "editor"
-        ],
-        "rating": 4.95
-    },
-    {
-        "link": "https://github.com/eliasCVII/timew.nvim",
-        "decision": "prioritized",
-        "projects": [
-            "consilium"
-        ],
-        "rating": 4.9
-    },
-    {
-        "text": "2KAbhishek/tdo.nvim ||| tdo",
-        "link": "https://github.com/2KAbhishek/tdo.nvim",
-        "decision": "prioritized",
-        "projects": [
-            "consilium"
-        ],
-        "types": [
-            "editor"
-        ],
-        "rating": 4.22222,
-        "flexTexts": {
-            "description": "Fast & Simple Notes in Neovim 📃🚀 <#> tdo"
-        }
-    },
-    {
-        "link": "https://github.com/krivahtoo/silicon.nvim",
-        "decision": "prioritized",
-        "projects": [
-            "consilium",
-            "editManually"
-        ],
-        "rating": 4.9,
-        "flexTexts": {
-            "description": "Render beautiful image of your code in neovim using silicon",
-            "recency": "1970-01-01"
-        }
-    },
-    {
-        "link": "https://github.com/skbolton/neorg-taskwarrior",
-        "decision": "prioritized",
-        "projects": [
-            "consilium",
-            "gtd"
-        ],
-        "rating": 4.9,
-        "_": {
-            "software": [
-                "neorg"
-            ]
-        }
-    },
-    {
-        "link": "https://github.com/barrett-ruth/live-server.nvim",
-        "decision": "prioritized",
-        "projects": [
-            "editManually",
-            "consilium",
-            "webdev",
-            "server"
-        ],
-        "rating": 4.9
-    },
-    {
-        "text": "color-picker.nvim",
-        "link": "https://github.com/ziontee113/color-picker.nvim",
-        "decision": "prioritized",
-        "projects": [
-            "export",
-            "color",
-            "ricing"
-        ]
-    },
-    {
-        "text": "export-colorscheme.nvim",
-        "link": "https://github.com/jpe90/export-colorscheme.nvim",
-        "decision": "prioritized",
-        "projects": [
-            "export",
-            "color",
-            "ricing"
-        ]
-    },
-    {
-        "text": "kreative",
-        "link": "https://github.com/katawful/kreative",
-        "decision": "prioritized",
-        "projects": [
-            "export",
-            "color",
-            "ricing"
-        ],
-        "_": {}
-    },
-    {
-        "text": "mini.colors",
-        "link": "https://github.com/echasnovski/mini.colors",
-        "decision": "prioritized",
-        "projects": [
-            "export",
-            "color",
-            "ricing"
-        ],
-        "_": {}
-    },
-    {
-        "text": "mini.hues",
-        "link": "https://github.com/echasnovski/mini.hues",
-        "decision": "prioritized",
-        "projects": [
-            "export",
-            "color",
-            "ricing"
-        ],
-        "_": {}
-    },
-    {
-        "text": "text-to-colorscheme",
-        "link": "https://github.com/svermeulen/text-to-colorscheme",
-        "decision": "prioritized",
-        "projects": [
-            "export",
-            "color",
-            "ricing"
-        ],
-        "_": {}
-    },
-    {
-        "text": "easycolor.nvim",
-        "link": "https://github.com/neph-iap/easycolor.nvim",
-        "decision": "prioritized",
-        "projects": [
-            "export",
-            "color",
-            "ricing",
-            "config",
-            "nextStep"
-        ]
-    },
-    {
-        "text": "[twig.nvim ]  hugginsio/twig.nvim: taskwarrior plugin",
-        "link": "https://github.com/hugginsio/twig.nvim",
-        "decision": "prioritized",
-        "projects": [
-            "gtd",
-            "consilium",
-            "taskManagement"
-        ],
-        "rating": 4.9,
-        "flexTexts": {
-            "description": "also a nvim plugin",
-            "notes": "cool project-oriented design",
-            "recency": "1970-01-01"
-        },
-        "_": {
-            "software": [
-                "taskwarrior"
-            ]
-        }
-    },
-    {
-        "link": "https://github.com/edluffy/hologram.nvim",
-        "decision": "prioritized",
-        "projects": [
-            "marks",
-            "consilium",
-            "navigation"
-        ],
-        "types": [
-            "editor"
-        ],
-        "rating": 4.1
-    },
-    {
-        "text": "*** frabjous/knap",
-        "link": "https://github.com/frabjous/knap",
-        "decision": "prioritized",
-        "projects": [
-            "nextStep",
-            "consilium"
-        ],
-        "types": [
-            "editor"
-        ],
-        "rating": 4.9,
-        "flexTexts": {
-            "description": "Neovim plugin for creating live-updating-as-you-type previews of LaTeX, markdown, and other files in the viewer of your choice.",
-            "recency": "2024-06-01"
-        },
-        "flexNums": {
-            "commits": 59.0
-        }
-    },
-    {
-        "text": "tps://github.com/vimwiki/vimwiki  - [ ]  workflow automation",
-        "link": "https://github.com/vimwiki/vimwiki",
-        "decision": "prioritized",
-        "projects": [
-            "nextStep",
-            "consilium",
-            "noteTaking"
-        ],
-        "types": [
-            "editor"
-        ],
-        "rating": 4.95
-    },
-    {
-        "link": "https://github.com/JellyApple102/flote.nvim",
-        "decision": "prioritized",
-        "projects": [
-            "noteTaking",
-            "consilium"
-        ],
-        "types": [
-            "editor"
-        ],
-        "rating": 4.9
-    },
-    {
-        "text": "nvim-neorg/neorg (idea: [chimay/organ)](https://github.com/chimay/organ))",
-        "link": "https://github.com/nvim-neorg/neorg",
-        "decision": "prioritized",
-        "projects": [
-            "noteTaking",
-            "consilium",
-            "gtd"
-        ],
-        "types": [
-            "editor"
-        ],
-        "rating": 4.9,
-        "flexTexts": {
-            "description": "Modernity meets insane extensibility. The future of organizing your life in Neovim.",
-            "recency": "1970-01-01"
-        },
-        "_": {
-            "software": [
-                "neorg"
-            ]
-        }
-    },
-    {
-        "link": "https://github.com/wthollingsworth/pomodoro.nvim",
-        "decision": "prioritized",
-        "projects": [
-            "pomodoro",
-            "consilium"
-        ],
-        "rating": 4.9
-    },
-    {
-        "text": "stylish.nvim",
-        "link": "https://github.com/sunjon/stylish.nvim",
-        "decision": "prioritized",
-        "projects": [
-            "smooth",
-            "scrolling",
-            "consilium",
-            "development"
-        ]
-    },
-    {
-        "text": "live-command.nvim",
-        "link": "https://github.com/smjonas/live-command.nvim ||| https://www.reddit.com/r/neovim/comments/xx5hhp/introducing_livecommandnvim_preview_the_norm",
-        "decision": "prioritized",
-        "projects": [
-            "webdev",
-            "consilium",
-            "networking"
-        ],
-        "rating": 4.95
-    },
-    {
         "link": " mason.nvim",
         "decision": "rejected",
         "projects": []
@@ -29435,1303 +30733,5 @@
             "webdev"
         ],
         "_": {}
-    },
-    {
-        "text": "[insertion] [editingEnhancement] [pair] nvim-autopairs",
-        "link": "https://github.com/windwp/nvim-autopairs",
-        "decision": "trying",
-        "projects": []
-    },
-    {
-        "text": "[indentation] [guide] indentmini.nvim",
-        "link": "https://github.com/nvimdev/indentmini.nvim",
-        "decision": "trying",
-        "projects": []
-    },
-    {
-        "text": "[selection] nvim-treesitter(Incremental selection)",
-        "link": "https://github.com/nvim-treesitter/nvim-treesitter",
-        "decision": "trying",
-        "projects": [],
-        "types": [
-            "lsp"
-        ],
-        "_": {
-            "software": [
-                "neorg"
-            ]
-        }
-    },
-    {
-        "link": "https://github.com/sindrets/diffview.nvim",
-        "decision": "trying",
-        "projects": [],
-        "_": {
-            "software": [
-                "git"
-            ],
-            "topics": [
-                "diff"
-            ]
-        }
-    },
-    {
-        "link": "https://github.com/akinsho/git-conflict.nvim",
-        "decision": "trying",
-        "projects": [],
-        "_": {
-            "software": [
-                "grep",
-                "git"
-            ]
-        }
-    },
-    {
-        "link": "https://github.com/tpope/vim-fugitive",
-        "decision": "trying",
-        "projects": [],
-        "_": {
-            "software": [
-                "grep",
-                "git"
-            ]
-        }
-    },
-    {
-        "link": "https://github.com/pwntester/octo.nvim",
-        "decision": "trying",
-        "projects": [],
-        "_": {
-            "software": [
-                "grep",
-                "git"
-            ]
-        }
-    },
-    {
-        "link": "https://github.com/kdheepak/lazygit.nvim",
-        "decision": "trying",
-        "projects": [],
-        "_": {
-            "software": [
-                "grep",
-                "git"
-            ]
-        }
-    },
-    {
-        "link": "https://github.com/lewis6991/gitsigns.nvim",
-        "decision": "trying",
-        "projects": [],
-        "_": {
-            "software": [
-                "grep",
-                "git"
-            ]
-        }
-    },
-    {
-        "link": "https://github.com/harrisoncramer/gitlab.nvim",
-        "decision": "trying",
-        "projects": [],
-        "_": {
-            "software": [
-                "gitlab"
-            ]
-        }
-    },
-    {
-        "text": "[prefix] [nvimKeybinding] hydra.nvim",
-        "link": "https://github.com/nvimtools/hydra.nvim",
-        "decision": "trying",
-        "projects": []
-    },
-    {
-        "link": "https://github.com/Tastyep/structlog.nvim",
-        "decision": "trying",
-        "projects": [],
-        "_": {
-            "topics": [
-                "logging"
-            ]
-        }
-    },
-    {
-        "text": "[status] [buffer] [line] lualine.nvim",
-        "link": "https://github.com/nvim-lualine/lualine.nvim",
-        "decision": "trying",
-        "projects": []
-    },
-    {
-        "link": "https://github.com/chrisgrieser/nvim-recorder",
-        "decision": "trying",
-        "projects": []
-    },
-    {
-        "text": "[scrolling] [smooth] statuscol.nvim",
-        "link": "https://github.com/luukvbaal/statuscol.nvim",
-        "decision": "trying",
-        "projects": []
-    },
-    {
-        "text": "[status] [buffer] [line] bufferline.nvim",
-        "link": "https://github.com/akinsho/bufferline.nvim",
-        "decision": "trying",
-        "projects": []
-    },
-    {
-        "text": "[editingEnhancement] [miscellaneous] treesj",
-        "link": "https://github.com/Wansmer/treesj",
-        "decision": "trying",
-        "projects": [],
-        "_": {}
-    },
-    {
-        "link": "molten.nvim",
-        "decision": "trying",
-        "projects": []
-    },
-    {
-        "link": "vim-illuminate",
-        "decision": "trying",
-        "projects": [],
-        "_": {}
-    },
-    {
-        "link": "https://github.com/nvim-neo-tree/neo-tree.nvim",
-        "decision": "trying",
-        "projects": [],
-        "types": [
-            "fileBrowser"
-        ]
-    },
-    {
-        "link": "https://github.com/nvim-tree/nvim-tree.lua",
-        "decision": "trying",
-        "projects": [],
-        "types": [
-            "fileBrowser"
-        ]
-    },
-    {
-        "link": "https://github.com/stevearc/oil.nvim",
-        "decision": "trying",
-        "projects": [],
-        "types": [
-            "fileBrowser"
-        ]
-    },
-    {
-        "link": "https://github.com/ribru17/bamboo.nvim",
-        "decision": "trying",
-        "projects": [],
-        "rating": 4.22222,
-        "_": {
-            "progLangs": [
-                "python"
-            ]
-        }
-    },
-    {
-        "link": "https://github.com/nvim-telescope/telescope-fzf-native.nvim",
-        "decision": "trying",
-        "projects": [],
-        "_": {
-            "software": [
-                "telescope"
-            ]
-        }
-    },
-    {
-        "link": "https://github.com/MeanderingProgrammer/render-markdown.nvim",
-        "decision": "trying",
-        "projects": []
-    },
-    {
-        "link": "https://github.com/ii14/neorepl.nvim",
-        "decision": "trying",
-        "projects": []
-    },
-    {
-        "link": "https://github.com/2KAbhishek/pickme.nvim",
-        "decision": "trying",
-        "projects": []
-    },
-    {
-        "link": "https://github.com/saghen/blink.nvim",
-        "decision": "trying",
-        "projects": []
-    },
-    {
-        "link": "https://github.com/NicolasGB/jj.nvim",
-        "decision": "trying",
-        "projects": []
-    },
-    {
-        "link": "https://github.com/glacambre/firenvim",
-        "decision": "trying",
-        "projects": []
-    },
-    {
-        "link": "https://github.com/2KAbhishek/markit.nvim",
-        "decision": "trying",
-        "projects": []
-    },
-    {
-        "link": "https://github.com/gitlab-org/editor-extensions/gitlab.vim",
-        "decision": "trying",
-        "projects": []
-    },
-    {
-        "link": "https://github.com/kr40/nvim-macros",
-        "decision": "trying",
-        "projects": []
-    },
-    {
-        "link": "https://github.com/mikavilpas/yazi.nvim",
-        "decision": "trying",
-        "projects": []
-    },
-    {
-        "link": "https://codeberg.org/theHamsta/nvim-dap-virtual-text",
-        "decision": "trying",
-        "projects": []
-    },
-    {
-        "link": "https://github.com/MagicDuck/grug-far.nvim",
-        "decision": "trying",
-        "projects": []
-    },
-    {
-        "link": "https://github.com/folke/snacks.nvim",
-        "decision": "trying",
-        "projects": []
-    },
-    {
-        "link": "https://github.com/godlygeek/tabular",
-        "decision": "trying",
-        "projects": []
-    },
-    {
-        "link": "https://codeberg.org/andyg/leap.nvim",
-        "decision": "trying",
-        "projects": []
-    },
-    {
-        "link": "https://github.com/stevearc/quicker.nvim",
-        "decision": "trying",
-        "projects": []
-    },
-    {
-        "link": "https://github.com/feakuru/mypy.nvim",
-        "decision": "trying",
-        "projects": []
-    },
-    {
-        "link": "https://github.com/mrcjkb/rustaceanvim",
-        "decision": "trying",
-        "projects": []
-    },
-    {
-        "link": "https://github.com/saghen/blink.pairs",
-        "decision": "trying",
-        "projects": []
-    },
-    {
-        "link": "https://codeberg.org/mfussenegger/nvim-dap",
-        "decision": "trying",
-        "projects": []
-    },
-    {
-        "link": "https://github.com/MeanderingProgrammer/dashboard.nvim",
-        "decision": "trying",
-        "projects": []
-    },
-    {
-        "link": "https://github.com/onsails/lspkind.nvim",
-        "decision": "trying",
-        "projects": []
-    },
-    {
-        "link": "https://github.com/nvim-mini/mini.align",
-        "decision": "trying",
-        "projects": []
-    },
-    {
-        "link": "https://github.com/hrsh7th/nvim-anydent",
-        "decision": "trying",
-        "projects": []
-    },
-    {
-        "link": "https://github.com/MeanderingProgrammer/treesitter-modules.nvim",
-        "decision": "trying",
-        "projects": []
-    },
-    {
-        "link": "https://github.com/jceb/jiejie.nvim",
-        "decision": "trying",
-        "projects": []
-    },
-    {
-        "link": "https://github.com/hrsh7th/nvim-swm",
-        "decision": "trying",
-        "projects": []
-    },
-    {
-        "link": "https://github.com/hrsh7th/nvim-deck",
-        "decision": "trying",
-        "projects": []
-    },
-    {
-        "link": "https://github.com/folke/lazydev.nvim",
-        "decision": "trying",
-        "projects": []
-    },
-    {
-        "link": "https://github.com/nvim-mini/mini.keymap",
-        "decision": "trying",
-        "projects": []
-    },
-    {
-        "link": "https://github.com/nvim-mini/mini.nvim",
-        "decision": "trying",
-        "projects": []
-    },
-    {
-        "link": "https://github.com/lvim-tech/NeoComposer.nvim",
-        "decision": "trying",
-        "projects": []
-    },
-    {
-        "link": "https://codeberg.org/mfussenegger/nvim-dap-python",
-        "decision": "trying",
-        "projects": []
-    },
-    {
-        "link": "https://github.com/smoka7/hop.nvim",
-        "decision": "trying",
-        "projects": []
-    },
-    {
-        "link": "https://github.com/Piotr1215/beam.nvim",
-        "decision": "trying",
-        "projects": []
-    },
-    {
-        "link": "https://github.com/Saghen/blink.cmp",
-        "decision": "trying",
-        "projects": []
-    },
-    {
-        "link": "https://github.com/yannvanhalewyn/jujutsu.nvim",
-        "decision": "trying",
-        "projects": []
-    },
-    {
-        "link": "https://github.com/lukas-reineke/headlines.nvim",
-        "decision": "trying",
-        "projects": [
-            "arguments"
-        ]
-    },
-    {
-        "link": "https://github.com/stevearc/stickybuf.nvim",
-        "decision": "trying",
-        "projects": [
-            "buffer",
-            "tab",
-            "layout",
-            "navigation"
-        ]
-    },
-    {
-        "link": "https://github.com/nvimdev/flybuf.nvim",
-        "decision": "trying",
-        "projects": [
-            "buffer",
-            "tab",
-            "layout",
-            "navigation"
-        ]
-    },
-    {
-        "link": "https://github.com/pianocomposer321/yabs.nvim",
-        "decision": "trying",
-        "projects": [
-            "commandStyle",
-            "taskRunner",
-            "execFromConfigFile"
-        ]
-    },
-    {
-        "link": "https://github.com/is0n/jaq-nvim",
-        "decision": "trying",
-        "projects": [
-            "commandStyle",
-            "taskRunner",
-            "execFromConfigFile"
-        ]
-    },
-    {
-        "link": "https://github.com/tpope/vim-commentary",
-        "decision": "trying",
-        "projects": [
-            "comments"
-        ],
-        "_": {}
-    },
-    {
-        "link": "https://github.com/numToStr/Comment.nvim",
-        "decision": "trying",
-        "projects": [
-            "comments"
-        ]
-    },
-    {
-        "link": "https://github.com/folke/todo-comments.nvim",
-        "decision": "trying",
-        "projects": [
-            "comments"
-        ]
-    },
-    {
-        "link": "https://github.com/hrsh7th/cmp-path",
-        "decision": "trying",
-        "projects": [
-            "completion"
-        ],
-        "_": {}
-    },
-    {
-        "link": "https://github.com/hrsh7th/cmp-nvim-lsp",
-        "decision": "trying",
-        "projects": [
-            "completion"
-        ]
-    },
-    {
-        "link": "https://github.com/hrsh7th/nvim-cmp",
-        "decision": "trying",
-        "projects": [
-            "completion"
-        ]
-    },
-    {
-        "link": "https://github.com/hrsh7th/cmp-buffer",
-        "decision": "trying",
-        "projects": [
-            "completion"
-        ],
-        "_": {}
-    },
-    {
-        "link": "https://github.com/hrsh7th/cmp-cmdline",
-        "decision": "trying",
-        "projects": [
-            "completion"
-        ],
-        "_": {}
-    },
-    {
-        "link": "https://github.com/kevinhwang91/nvim-bqf",
-        "decision": "trying",
-        "projects": [
-            "debug",
-            "linting"
-        ],
-        "_": {
-            "software": [
-                "dap"
-            ]
-        }
-    },
-    {
-        "link": "https://github.com/rcarriga/nvim-dap-ui",
-        "decision": "trying",
-        "projects": [
-            "debug",
-            "linting"
-        ],
-        "_": {
-            "software": [
-                "dap"
-            ]
-        }
-    },
-    {
-        "link": "https://github.com/nvimdev/guard.nvim",
-        "decision": "trying",
-        "projects": [
-            "debug",
-            "quickfix",
-            "diagnostics"
-        ],
-        "_": {
-            "topics": [
-                "formatting"
-            ]
-        }
-    },
-    {
-        "link": "Mintlify Writer",
-        "decision": "trying",
-        "projects": [
-            "docs",
-            "llm",
-            "ai"
-        ],
-        "_": {}
-    },
-    {
-        "link": "https://github.com/hrsh7th/nvim-insx",
-        "decision": "trying",
-        "projects": [
-            "editingEnhancement"
-        ]
-    },
-    {
-        "link": "https://github.com/mg979/vim-visual-multi",
-        "decision": "trying",
-        "projects": [
-            "editingEnhancement"
-        ],
-        "_": {}
-    },
-    {
-        "link": "https://github.com/kylechui/nvim-surround",
-        "decision": "trying",
-        "projects": [
-            "editingEnhancement",
-            "auto",
-            "conversion"
-        ]
-    },
-    {
-        "link": "https://github.com/machakann/vim-sandwich",
-        "decision": "trying",
-        "projects": [
-            "editingEnhancement",
-            "auto",
-            "conversion"
-        ],
-        "_": {}
-    },
-    {
-        "link": "https://github.com/HiPhish/rainbow-delimiters.nvim",
-        "decision": "trying",
-        "projects": [
-            "editingEnhancement",
-            "auto",
-            "conversion"
-        ]
-    },
-    {
-        "link": "https://github.com/monaqa/dial.nvim",
-        "decision": "trying",
-        "projects": [
-            "editingEnhancement",
-            "increment/decrement/toggle",
-            "next",
-            "editingExtension",
-            "config",
-            "casing"
-        ]
-    },
-    {
-        "link": "https://github.com/nvim-treesitter/nvim-treesitter-textobjects",
-        "decision": "trying",
-        "projects": [
-            "editingEnhancement",
-            "textobject",
-            "operator"
-        ]
-    },
-    {
-        "link": "https://github.com/chrisgrieser/nvim-various-textobjs",
-        "decision": "trying",
-        "projects": [
-            "editingEnhancement",
-            "textobject",
-            "operator"
-        ]
-    },
-    {
-        "text": "overseer.nvim(template) ||| [taskRunner] overseer.nvim(command)",
-        "link": "https://github.com/stevearc/overseer.nvim",
-        "decision": "trying",
-        "projects": [
-            "execFromConfigFile",
-            "nvimCompilation",
-            "commandStyle"
-        ],
-        "rating": 4.22222,
-        "dateCreated": "2025-11-17",
-        "_": {
-            "topics": [
-                "taskRunning"
-            ]
-        }
-    },
-    {
-        "link": "https://github.com/skywind3000/asyncrun.vim",
-        "decision": "trying",
-        "projects": [
-            "external",
-            "selection",
-            "integration",
-            "nvimTerminal"
-        ],
-        "_": {
-            "software": [
-                "telescope"
-            ]
-        }
-    },
-    {
-        "link": "https://github.com/kevinhwang91/nvim-ufo",
-        "decision": "trying",
-        "projects": [
-            "folding"
-        ]
-    },
-    {
-        "link": "https://github.com/lukas-reineke/lsp-format.nvim",
-        "decision": "trying",
-        "projects": [
-            "formatting"
-        ]
-    },
-    {
-        "text": "lukas-reineke/indent-blankline.nvim: Indent guides for Neovim",
-        "link": "https://github.com/lukas-reineke/indent-blankline.nvim",
-        "decision": "trying",
-        "projects": [
-            "guide",
-            "indentation",
-            "nextStep"
-        ]
-    },
-    {
-        "link": "https://github.com/nvim-tree/nvim-web-devicons",
-        "decision": "trying",
-        "projects": [
-            "icon"
-        ]
-    },
-    {
-        "link": "https://github.com/folke/which-key.nvim",
-        "decision": "trying",
-        "projects": [
-            "keybind",
-            "search"
-        ]
-    },
-    {
-        "link": "https://github.com/mfussenegger/nvim-lint",
-        "decision": "trying",
-        "projects": [
-            "linting",
-            "debug"
-        ],
-        "_": {
-            "software": [
-                "dap"
-            ]
-        }
-    },
-    {
-        "link": "vim-ai",
-        "decision": "trying",
-        "projects": [
-            "llm",
-            "ai"
-        ],
-        "_": {}
-    },
-    {
-        "link": "efmls-configs.nvim",
-        "decision": "trying",
-        "projects": [
-            "lsp"
-        ]
-    },
-    {
-        "link": "none-ls",
-        "decision": "trying",
-        "projects": [
-            "lsp"
-        ],
-        "_": {}
-    },
-    {
-        "link": "https://github.com/MeanderingProgrammer/harpoon-core.nvim",
-        "decision": "trying",
-        "projects": [
-            "marks",
-            "navigation"
-        ]
-    },
-    {
-        "link": "https://github.com/b0o/SchemaStore.nvim",
-        "decision": "trying",
-        "projects": [
-            "misc",
-            "proglangSpecific"
-        ],
-        "_": {
-            "progLangs": [
-                "javascript",
-                "typescript"
-            ]
-        }
-    },
-    {
-        "link": "https://github.com/mvllow/modes.nvim",
-        "decision": "trying",
-        "projects": [
-            "mode"
-        ]
-    },
-    {
-        "link": "https://github.com/folke/zen-mode.nvim",
-        "decision": "trying",
-        "projects": [
-            "mode"
-        ],
-        "_": {
-            "software": [
-                "zen"
-            ]
-        }
-    },
-    {
-        "link": "https://github.com/folke/flash.nvim",
-        "decision": "trying",
-        "projects": [
-            "navigation"
-        ]
-    },
-    {
-        "link": "https://github.com/kevinhwang91/nvim-hlslens",
-        "decision": "trying",
-        "projects": [
-            "navigation"
-        ]
-    },
-    {
-        "link": "https://github.com/nvimdev/hlsearch.nvim",
-        "decision": "trying",
-        "projects": [
-            "navigation"
-        ]
-    },
-    {
-        "link": "https://github.com/stevearc/conform.nvim",
-        "decision": "trying",
-        "projects": [
-            "nextStep"
-        ],
-        "_": {
-            "topics": [
-                "formatting"
-            ]
-        }
-    },
-    {
-        "link": "https://github.com/GCBallesteros/jupytext.nvim",
-        "decision": "trying",
-        "projects": [
-            "nextStep"
-        ],
-        "_": {
-            "software": [
-                "jupyter"
-            ]
-        }
-    },
-    {
-        "link": "https://github.com/nvimtools/none-ls.nvim",
-        "decision": "trying",
-        "projects": [
-            "nextStep"
-        ],
-        "types": [
-            "lsp"
-        ]
-    },
-    {
-        "text": "NeogitOrg/neogit: An interactive and powerful Git interface for Neovim, inspired by Magit",
-        "link": "https://github.com/NeogitOrg/neogit",
-        "decision": "trying",
-        "projects": [
-            "nextStep"
-        ],
-        "_": {
-            "software": [
-                "grep",
-                "git"
-            ]
-        }
-    },
-    {
-        "text": "excellent markdown support and previewing [iamcco/markdown-preview.nvim",
-        "link": "https://github.com/iamcco/markdown-preview.nvim",
-        "decision": "trying",
-        "projects": [
-            "nextStep",
-            "formatSpecific"
-        ],
-        "_": {
-            "software": [
-                "markdown"
-            ]
-        }
-    },
-    {
-        "link": "https://github.com/jakewvincent/texmagic.nvim",
-        "decision": "trying",
-        "projects": [
-            "nextStep",
-            "formatSpecific"
-        ],
-        "_": {
-            "software": [
-                "tex"
-            ]
-        }
-    },
-    {
-        "link": "https://github.com/lervag/vimtex",
-        "decision": "trying",
-        "projects": [
-            "nextStep",
-            "formatSpecific"
-        ],
-        "_": {
-            "software": [
-                "tex"
-            ]
-        }
-    },
-    {
-        "text": "akinsho/toggleterm.nvim: A neovim lua plugin to help easily manage multiple terminal windows",
-        "link": "https://github.com/akinsho/toggleterm.nvim",
-        "decision": "trying",
-        "projects": [
-            "nextStep",
-            "nvimTerminal",
-            "codeExecution"
-        ]
-    },
-    {
-        "link": "https://github.com/quarto-dev/quarto-nvim",
-        "decision": "trying",
-        "projects": [
-            "notebook"
-        ]
-    },
-    {
-        "link": "https://github.com/rcarriga/nvim-notify",
-        "decision": "trying",
-        "projects": [
-            "notification"
-        ]
-    },
-    {
-        "link": "https://github.com/folke/trouble.nvim",
-        "decision": "trying",
-        "projects": [
-            "nvimFeature"
-        ],
-        "types": [
-            "MANUALXextensionXpartition",
-            "lsp"
-        ]
-    },
-    {
-        "link": "https://github.com/stevearc/aerial.nvim",
-        "decision": "trying",
-        "projects": [
-            "outline"
-        ]
-    },
-    {
-        "link": "https://github.com/SmiteshP/nvim-navbuddy",
-        "decision": "trying",
-        "projects": [
-            "outline"
-        ]
-    },
-    {
-        "link": "https://github.com/Bekaboo/dropbar.nvim",
-        "decision": "trying",
-        "projects": [
-            "outline"
-        ]
-    },
-    {
-        "link": "https://github.com/SmiteshP/nvim-navic",
-        "decision": "trying",
-        "projects": [
-            "outline"
-        ]
-    },
-    {
-        "link": "https://github.com/nvimdev/lspsaga.nvim",
-        "decision": "trying",
-        "projects": [
-            "outline"
-        ]
-    },
-    {
-        "link": "https://github.com/nvim-neotest/nvim-nio",
-        "decision": "trying",
-        "projects": [
-            "pluginDev",
-            "proglangSpecific",
-            "async",
-            "pluginUtil"
-        ]
-    },
-    {
-        "link": "https://github.com/MunifTanjim/nui.nvim",
-        "decision": "trying",
-        "projects": [
-            "pluginDevelopment",
-            "proglangSpecific",
-            "nextStep"
-        ]
-    },
-    {
-        "link": "https://github.com/MrcJkb/neotest-haskell",
-        "decision": "trying",
-        "projects": [
-            "proglangSpecific"
-        ],
-        "_": {
-            "progLangs": [
-                "haskell"
-            ]
-        }
-    },
-    {
-        "link": "https://github.com/saecki/crates.nvim",
-        "decision": "trying",
-        "projects": [
-            "proglangSpecific"
-        ],
-        "_": {
-            "software": [
-                "rust"
-            ]
-        }
-    },
-    {
-        "link": "TODO: search: flutter development in nvim",
-        "decision": "trying",
-        "projects": [
-            "proglangSpecific"
-        ]
-    },
-    {
-        "link": "https://github.com/mrcjkb/haskell-tools.nvim",
-        "decision": "trying",
-        "projects": [
-            "proglangSpecific"
-        ],
-        "rating": 4.22222,
-        "_": {
-            "progLangs": [
-                "haskell"
-            ]
-        }
-    },
-    {
-        "link": "https://github.com/nvim-lua/plenary.nvim",
-        "decision": "trying",
-        "projects": [
-            "proglangSpecific",
-            "testing"
-        ]
-    },
-    {
-        "link": "https://github.com/folke/noice.nvim",
-        "decision": "trying",
-        "projects": [
-            "progress",
-            "commandLine"
-        ]
-    },
-    {
-        "link": "https://github.com/nvim-neotest/neotest-python",
-        "decision": "trying",
-        "projects": [
-            "python",
-            "proglangSpecific"
-        ],
-        "types": [
-            "lsp"
-        ],
-        "_": {
-            "progLangs": [
-                "python"
-            ]
-        }
-    },
-    {
-        "link": "TODO:bqf.nvim",
-        "decision": "trying",
-        "projects": [
-            "quickfix"
-        ]
-    },
-    {
-        "link": "code_runner.nvim",
-        "decision": "trying",
-        "projects": [
-            "repl"
-        ]
-    },
-    {
-        "link": "compiler.nvim",
-        "decision": "trying",
-        "projects": [
-            "repl"
-        ]
-    },
-    {
-        "link": "sniprun",
-        "decision": "trying",
-        "projects": [
-            "repl"
-        ],
-        "_": {}
-    },
-    {
-        "text": "refactoring support & previews → [ThePrimeagen/refactoring.nvim  - [ ]  quickfix window, ability",
-        "link": "https://github.com/ThePrimeagen/refactoring.nvim",
-        "decision": "trying",
-        "projects": [
-            "ricing",
-            "refactoring",
-            "config",
-            "nextStep"
-        ],
-        "types": [
-            "editor"
-        ],
-        "rating": 4.22222,
-        "flexTexts": {
-            "description": "The Refactoring library based off the Refactoring book by Martin Fowler"
-        },
-        "_": {
-            "progLangs": [
-                "go",
-                "lua"
-            ]
-        }
-    },
-    {
-        "link": "TODO: lazy-nix-helper.nvim",
-        "decision": "trying",
-        "projects": [
-            "rtp",
-            "nvimPluginManagement",
-            "manager"
-        ]
-    },
-    {
-        "link": "https://github.com/chentoast/marks.nvim",
-        "decision": "trying",
-        "projects": [
-            "search"
-        ]
-    },
-    {
-        "link": "https://github.com/ibhagwan/fzf-lua",
-        "decision": "trying",
-        "projects": [
-            "search"
-        ],
-        "_": {}
-    },
-    {
-        "link": "https://github.com/nvim-telescope/telescope.nvim",
-        "decision": "trying",
-        "projects": [
-            "search"
-        ],
-        "types": [
-            "finder"
-        ]
-    },
-    {
-        "link": "https://github.com/ahmedkhalf/project.nvim",
-        "decision": "trying",
-        "projects": [
-            "search",
-            "navigation"
-        ]
-    },
-    {
-        "link": "https://github.com/nvim-pack/nvim-spectre",
-        "decision": "trying",
-        "projects": [
-            "search",
-            "replace"
-        ]
-    },
-    {
-        "link": "https://github.com/nvim-telescope/telescope-project.nvim",
-        "decision": "trying",
-        "projects": [
-            "search",
-            "replace"
-        ]
-    },
-    {
-        "text": "vim-floaterm terminal",
-        "link": "https://github.com/voldikss/vim-floaterm",
-        "decision": "trying",
-        "projects": [
-            "selection",
-            "external",
-            "integration",
-            "nvimTerminal"
-        ],
-        "_": {
-            "software": [
-                "telescope"
-            ]
-        }
-    },
-    {
-        "link": "https://github.com/L3MON4D3/LuaSnip",
-        "decision": "trying",
-        "projects": [
-            "snippets"
-        ],
-        "_": {}
-    },
-    {
-        "link": "https://github.com/rafamadriz/friendly-snippets",
-        "decision": "trying",
-        "projects": [
-            "snippets"
-        ],
-        "_": {}
-    },
-    {
-        "link": "https://github.com/SirVer/ultisnips",
-        "decision": "trying",
-        "projects": [
-            "snippets"
-        ],
-        "_": {}
-    },
-    {
-        "link": "https://github.com/nvimdev/dashboard-nvim",
-        "decision": "trying",
-        "projects": [
-            "startup",
-            "dashboard"
-        ]
-    },
-    {
-        "link": "https://github.com/nvim-neotest/neotest",
-        "decision": "trying",
-        "projects": [
-            "testing"
-        ],
-        "_": {
-            "topics": [
-                "coverage"
-            ]
-        }
-    },
-    {
-        "link": "https://github.com/mrjones2014/smart-splits.nvim",
-        "decision": "trying",
-        "projects": [
-            "ui"
-        ],
-        "types": [
-            "editor"
-        ],
-        "rating": 4.22222,
-        "flexTexts": {
-            "description": "🧠 Smart, seamless, directional navigation and resizing of Neovim + terminal multiplexer splits. Supports tmux, Wezterm, and Kitty. Think about splits in terms of \"up/down/left/right\"."
-        }
-    },
-    {
-        "link": "https://github.com/simnalamburt/vim-mundo",
-        "decision": "trying",
-        "projects": [
-            "undoRedo"
-        ],
-        "_": {}
-    },
-    {
-        "link": "https://github.com/rmagatti/auto-session",
-        "decision": "trying",
-        "projects": [
-            "unsortedProject"
-        ],
-        "_": {
-            "topics": [
-                "session"
-            ]
-        }
-    },
-    {
-        "link": "https://github.com/folke/persistence.nvim",
-        "decision": "trying",
-        "projects": [
-            "unsortedProject"
-        ],
-        "_": {
-            "topics": [
-                "session"
-            ]
-        }
-    },
-    {
-        "text": "j-hui/fidget.nvim",
-        "link": "https://github.com/j-hui/fidget.nvim",
-        "decision": "trying",
-        "projects": [
-            "widget",
-            "ricing",
-            "notification"
-        ],
-        "flexTexts": {
-            "description": "💫  Extensible UI for Neovim notifications and LSP progress messages."
-        }
-    },
-    {
-        "link": "https://github.com/hrsh7th/nvim-pasta",
-        "decision": "trying",
-        "projects": [
-            "yankPaste",
-            "clipboard"
-        ]
-    },
-    {
-        "text": "vim.api.nvim_create_user_command(“LineDiff1”, function(opts) if opts.range > 0 then print(opts.line1, opts.line2) vim.cmd(opts.line1 .. “,” .. opts.line2 .. “y x”) end end, { force = true, range = true })",
-        "link": "",
-        "decision": "vendor",
-        "projects": [],
-        "_": {
-            "topics": [
-                "diff"
-            ]
-        }
-    },
-    {
-        "link": "https://github.com/willothy/wezterm.nvim",
-        "decision": "vendor",
-        "projects": [
-            "integration"
-        ]
     }
 ]
