@@ -671,97 +671,79 @@
         "projects": ["auto","commit","git"]
     },
     {
+        "link": "https://github.com/nobe4/relativity.nvim",
+        "decision": "pending",
+        "projects": ["auto","marks","navigation"]
+    },
+    {
         "link": "https://github.com/monkoose/matchparen.nvim",
         "decision": "pending",
-        "projects": ["auto","conversion","editingEnhancement"]
+        "projects": ["autoConversion"]
     },
     {
         "link": "https://github.com/rareitems/hl_match_area.nvim",
         "decision": "pending",
-        "projects": ["auto","conversion","editingEnhancement"]
+        "projects": ["autoConversion"]
     },
     {
         "link": "https://github.com/utilyre/sentiment.nvim",
         "decision": "pending",
-        "projects": ["auto","conversion","editingEnhancement"]
+        "projects": ["autoConversion"]
     },
     {
         "link": "https://github.com/tpope/vim-unimpaired",
         "decision": "pending",
-        "projects": ["auto","conversion","editingEnhancement"]
+        "projects": ["autoConversion"]
     },
     {
         "link": "https://github.com/tpope/vim-endwise",
         "decision": "pending",
-        "projects": ["auto","conversion","editingEnhancement"]
+        "projects": ["autoConversion"]
     },
     {
         "link": "https://github.com/alvan/vim-closetag",
         "decision": "pending",
-        "projects": ["auto","conversion","editingEnhancement"]
+        "projects": ["autoConversion"]
     },
     {
         "link": "https://github.com/andymass/vim-matchup",
         "decision": "pending",
-        "projects": ["auto","conversion","editingEnhancement"]
+        "projects": ["autoConversion"]
     },
     {
         "link": "https://github.com/bounceme/poppy.vim",
         "decision": "pending",
-        "projects": ["auto","conversion","editingEnhancement"]
+        "projects": ["autoConversion"]
     },
     {
         "link": "https://github.com/junegunn/rainbow_parentheses.vim",
         "decision": "pending",
-        "projects": ["auto","conversion","editingEnhancement"]
+        "projects": ["autoConversion"]
     },
     {
         "link": "https://github.com/turbio/bracey.vim",
         "decision": "pending",
-        "projects": ["auto","conversion","editingEnhancement"]
+        "projects": ["autoConversion"]
     },
     {
         "link": "https://github.com/cohama/lexima.vim",
         "decision": "pending",
-        "projects": ["auto","conversion","editingEnhancement"]
+        "projects": ["autoConversion"]
     },
     {
         "link": "https://github.com/gpanders/nvim-parinfer",
         "decision": "pending",
-        "projects": ["auto","conversion","editingEnhancement"]
+        "projects": ["autoConversion"]
     },
     {
         "link": "https://github.com/jiangmiao/auto-pairs",
         "decision": "pending",
-        "projects": ["auto","conversion","editingEnhancement"]
+        "projects": ["autoConversion"]
     },
     {
         "link": "https://github.com/Raimondi/delimitMate",
         "decision": "pending",
-        "projects": ["auto","conversion","editingEnhancement"]
-    },
-    {
-        "text": "dyninput.nvim",
-        "link": "https://github.com/nvimdev/dyninput.nvim",
-        "decision": "pending",
-        "projects": ["auto","editingEnhancement","insertion"]
-    },
-    {
-        "text": "chartoggle.nvim",
-        "link": "https://github.com/saifulapm/chartoggle.nvim",
-        "decision": "pending",
-        "projects": ["auto","editingEnhancement","insertion"]
-    },
-    {
-        "text": "put_at_end.nvim",
-        "link": "https://github.com/rareitems/put_at_end.nvim",
-        "decision": "pending",
-        "projects": ["auto","editingEnhancement","insertion"]
-    },
-    {
-        "link": "https://github.com/nobe4/relativity.nvim",
-        "decision": "pending",
-        "projects": ["auto","marks","navigation"]
+        "projects": ["autoConversion"]
     },
     {
         "text": "MarcHamamji/runner.nvim",
@@ -790,44 +772,106 @@
         "projects": ["autoDetect","taskRunning"]
     },
     {
-        "link": "https://github.com/shaeinst/penvim",
+        "text": "dyninput.nvim",
+        "link": "https://github.com/nvimdev/dyninput.nvim",
         "decision": "pending",
-        "projects": ["backburner","rootDetector","unsortedProject"]
+        "projects": ["autoInsertion"]
     },
     {
-        "link": "https://github.com/kyoh86/climbdir.nvim",
+        "text": "chartoggle.nvim",
+        "link": "https://github.com/saifulapm/chartoggle.nvim",
         "decision": "pending",
-        "projects": ["backburner","rootDetector","unsortedProject"]
+        "projects": ["autoInsertion"]
     },
     {
-        "link": "https://github.com/notjedi/nvim-rooter.lua",
+        "text": "put_at_end.nvim",
+        "link": "https://github.com/rareitems/put_at_end.nvim",
         "decision": "pending",
-        "projects": ["backburner","rootDetector","unsortedProject"]
+        "projects": ["autoInsertion"]
     },
     {
-        "link": "https://github.com/yyk/find-git-root.nvim",
+        "text": "pears.nvim",
+        "link": "https://github.com/steelsojka/pears.nvim",
         "decision": "pending",
-        "projects": ["backburner","rootDetector","unsortedProject"]
+        "projects": ["autoPair"]
     },
     {
-        "link": "https://github.com/desdic/telescope-rooter.nvim",
+        "text": "autoclose.nvim",
+        "link": "https://github.com/m4xshen/autoclose.nvim",
         "decision": "pending",
-        "projects": ["backburner","rootDetector","unsortedProject"]
+        "projects": ["autoPair"]
     },
     {
-        "link": "https://github.com/delphinus/rtr.nvim",
+        "text": "nvim-treesitter-pairs",
+        "link": "https://github.com/theHamsta/nvim-treesitter-pairs",
         "decision": "pending",
-        "projects": ["backburner","rootDetector","unsortedProject"]
+        "projects": ["autoPair"]
     },
     {
-        "link": "https://github.com/albenisolmos/autochdir.nvim",
+        "text": "neoautoTools.nvim",
+        "link": "https://github.com/conch2/neoautoTools.nvim",
         "decision": "pending",
-        "projects": ["backburner","rootDetector","unsortedProject"]
+        "projects": ["autoPair"]
     },
     {
-        "link": "https://github.com/gmartsenkov/root.nvim",
+        "text": "nvim-brackets",
+        "link": "https://github.com/Sublimeful/nvim-brackets",
         "decision": "pending",
-        "projects": ["backburner","rootDetector","unsortedProject"]
+        "projects": ["autoPair"]
+    },
+    {
+        "text": "ultimate-autopair.nvim",
+        "link": "https://github.com/altermo/ultimate-autopair.nvim",
+        "decision": "pending",
+        "projects": ["autoPair"]
+    },
+    {
+        "text": "enclosing.nvim",
+        "link": "https://github.com/wakeLanaka/enclosing.nvim",
+        "decision": "pending",
+        "projects": ["autoPair"]
+    },
+    {
+        "text": "twins.nvim",
+        "link": "https://github.com/CozyPenguin/twins.nvim",
+        "decision": "pending",
+        "projects": ["autoPair"]
+    },
+    {
+        "text": "bracketpair.nvim",
+        "link": "https://github.com/fedepujol/bracketpair.nvim",
+        "decision": "pending",
+        "projects": ["autoPair"]
+    },
+    {
+        "text": "quote-bracketeer.nvim",
+        "link": "https://github.com/Daiki48/quote-bracketeer.nvim",
+        "decision": "pending",
+        "projects": ["autoPair"]
+    },
+    {
+        "text": "tenaille.nvim",
+        "link": "https://github.com/doums/tenaille.nvim",
+        "decision": "pending",
+        "projects": ["autoPair"]
+    },
+    {
+        "text": "pairmate.nvim",
+        "link": "https://github.com/nvimdev/pairmate.nvim",
+        "decision": "pending",
+        "projects": ["autoPair"]
+    },
+    {
+        "text": "autopairs.nvim",
+        "link": "https://github.com/Sam-programs/autopairs.nvim",
+        "decision": "pending",
+        "projects": ["autoPair"]
+    },
+    {
+        "text": "smart-pairs",
+        "link": "https://github.com/ZhiyuanLck/smart-pairs",
+        "decision": "pending",
+        "projects": ["autoPair"]
     },
     {
         "link": "https://github.com/tveskag/nvim-blame-line",
@@ -930,93 +974,6 @@
         "projects": ["buffer","filetypeSpecific"]
     },
     {
-        "link": "https://github.com/folke/edgy.nvim",
-        "decision": "pending",
-        "projects": ["buffer","layout","navigation","tab"]
-    },
-    {
-        "link": "https://github.com/artart222/vim-resize",
-        "decision": "pending",
-        "projects": ["buffer","layout","navigation","tab"]
-    },
-    {
-        "link": "https://github.com/sindrets/winshift.nvim",
-        "decision": "pending",
-        "projects": ["buffer","layout","navigation","tab"]
-    },
-    {
-        "link": "https://github.com/szw/vim-maximizer",
-        "decision": "pending",
-        "projects": ["buffer","layout","navigation","tab"]
-    },
-    {
-        "link": "https://github.com/danlikestocode/windows.nvim",
-        "decision": "pending",
-        "projects": ["buffer","layout","navigation","tab"]
-    },
-    {
-        "link": "https://github.com/famiu/bufdelete.nvim",
-        "decision": "pending",
-        "projects": ["buffer","layout","navigation","tab"]
-    },
-    {
-        "link": "https://github.com/kazhala/close-buffers.nvim",
-        "decision": "pending",
-        "projects": ["buffer","layout","navigation","tab"]
-    },
-    {
-        "link": "https://github.com/j-morano/buffer_manager.nvim",
-        "decision": "pending",
-        "projects": ["buffer","layout","navigation","tab"]
-    },
-    {
-        "link": "https://github.com/moll/vim-bbye",
-        "decision": "pending",
-        "projects": ["buffer","layout","navigation","tab"]
-    },
-    {
-        "link": "https://github.com/kyoh86/telescope-windows.nvim",
-        "decision": "pending",
-        "projects": ["buffer","layout","navigation","tab"]
-    },
-    {
-        "link": "https://github.com/mhinz/vim-sayonara",
-        "decision": "pending",
-        "projects": ["buffer","layout","navigation","tab"]
-    },
-    {
-        "link": "https://github.com/numToStr/BufOnly.nvim",
-        "decision": "pending",
-        "projects": ["buffer","layout","navigation","tab"]
-    },
-    {
-        "link": "https://github.com/ojroques/nvim-bufdel",
-        "decision": "pending",
-        "projects": ["buffer","layout","navigation","tab"]
-    },
-    {
-        "link": "https://github.com/s1n7ax/nvim-window-picker",
-        "decision": "pending",
-        "projects": ["buffer","layout","navigation","tab"]
-    },
-    {
-        "link": "https://github.com/roman/golden-ratio",
-        "decision": "pending",
-        "projects": ["buffer","layout","navigation","tab"]
-    },
-    {
-        "link": "https://github.com/anuvyklack/windows.nvim",
-        "decision": "pending",
-        "projects": ["buffer","layout","navigation","tab"],
-        "rating": 4.22222
-    },
-    {
-        "text": "visual-split.vim layout",
-        "link": "https://github.com/wellle/visual-split.vim",
-        "decision": "pending",
-        "projects": ["buffer","layout","navigation","tab"]
-    },
-    {
         "text": "[layout] tabby.nvim",
         "link": "https://github.com/nanozuki/tabby.nvim",
         "decision": "pending",
@@ -1063,112 +1020,6 @@
         "link": "https://github.com/gremble0/bufferstack.nvim",
         "decision": "pending",
         "projects": ["buffer","management"]
-    },
-    {
-        "link": "https://github.com/toppair/reach.nvim",
-        "decision": "pending",
-        "projects": ["buffer","navigation","selection"]
-    },
-    {
-        "link": "https://github.com/ido-nvim/ido.nvim",
-        "decision": "pending",
-        "projects": ["buffer","navigation","selection"]
-    },
-    {
-        "link": "https://github.com/tiagovla/scope.nvim",
-        "decision": "pending",
-        "projects": ["buffer","navigation","selection"]
-    },
-    {
-        "link": "https://github.com/ilAYAli/scMRU.nvim",
-        "decision": "pending",
-        "projects": ["buffer","navigation","selection"]
-    },
-    {
-        "link": "https://github.com/ghillb/cybu.nvim",
-        "decision": "pending",
-        "projects": ["buffer","navigation","selection"]
-    },
-    {
-        "link": "https://github.com/johann2357/nvim-smartbufs",
-        "decision": "pending",
-        "projects": ["buffer","navigation","selection"]
-    },
-    {
-        "link": "https://github.com/sonarom/peruse.nvim",
-        "decision": "pending",
-        "projects": ["buffer","navigation","selection"]
-    },
-    {
-        "link": "https://github.com/MaximilianLloyd/adjacent.nvim",
-        "decision": "pending",
-        "projects": ["buffer","navigation","selection"]
-    },
-    {
-        "link": "https://github.com/rohanorton/buffting.nvim",
-        "decision": "pending",
-        "projects": ["buffer","navigation","selection"]
-    },
-    {
-        "link": "https://github.com/LiamFenneman/hooks.nvim",
-        "decision": "pending",
-        "projects": ["buffer","navigation","selection"]
-    },
-    {
-        "link": "https://github.com/sentientmachin3/bufswitch.nvim",
-        "decision": "pending",
-        "projects": ["buffer","navigation","selection"]
-    },
-    {
-        "link": "https://github.com/ArmanHZ/nvim-select-buffer",
-        "decision": "pending",
-        "projects": ["buffer","navigation","selection"]
-    },
-    {
-        "link": "https://github.com/Hajime-Suzuki/vuffers.nvim",
-        "decision": "pending",
-        "projects": ["buffer","navigation","selection"]
-    },
-    {
-        "link": "https://github.com/ryanoneill/treble.nvim",
-        "decision": "pending",
-        "projects": ["buffer","navigation","selection"]
-    },
-    {
-        "link": "https://github.com/gaoDean/ido.nvim",
-        "decision": "pending",
-        "projects": ["buffer","navigation","selection"]
-    },
-    {
-        "link": "https://github.com/SneezNoodle/bufmenu.nvim",
-        "decision": "pending",
-        "projects": ["buffer","navigation","selection"]
-    },
-    {
-        "link": "https://github.com/mistweaverco/bafa.nvim",
-        "decision": "pending",
-        "projects": ["buffer","navigation","selection"],
-        "rating": 4.22222
-    },
-    {
-        "link": "https://github.com/sbulav/nredir.nvim",
-        "decision": "pending",
-        "projects": ["buffer","scratchBuffer"]
-    },
-    {
-        "link": "https://github.com/m-demare/attempt.nvim",
-        "decision": "pending",
-        "projects": ["buffer","scratchBuffer"]
-    },
-    {
-        "link": "https://github.com/n-shift/scratch.nvim",
-        "decision": "pending",
-        "projects": ["buffer","scratchBuffer"]
-    },
-    {
-        "link": "https://github.com/nyngwang/NeoNoName.lua",
-        "decision": "pending",
-        "projects": ["buffer","scratchBuffer"]
     },
     {
         "text": "bufferstore.nvim",
@@ -1254,6 +1105,92 @@
         "link": "https://github.com/pablopunk/unclutter.nvim",
         "decision": "pending",
         "projects": ["buffer","tidier"]
+    },
+    {
+        "link": "https://github.com/toppair/reach.nvim",
+        "decision": "pending",
+        "projects": ["bufferNavigationSelection"]
+    },
+    {
+        "link": "https://github.com/ido-nvim/ido.nvim",
+        "decision": "pending",
+        "projects": ["bufferNavigationSelection"]
+    },
+    {
+        "link": "https://github.com/tiagovla/scope.nvim",
+        "decision": "pending",
+        "projects": ["bufferNavigationSelection"]
+    },
+    {
+        "link": "https://github.com/ilAYAli/scMRU.nvim",
+        "decision": "pending",
+        "projects": ["bufferNavigationSelection"]
+    },
+    {
+        "link": "https://github.com/ghillb/cybu.nvim",
+        "decision": "pending",
+        "projects": ["bufferNavigationSelection"]
+    },
+    {
+        "link": "https://github.com/johann2357/nvim-smartbufs",
+        "decision": "pending",
+        "projects": ["bufferNavigationSelection"]
+    },
+    {
+        "link": "https://github.com/sonarom/peruse.nvim",
+        "decision": "pending",
+        "projects": ["bufferNavigationSelection"]
+    },
+    {
+        "link": "https://github.com/MaximilianLloyd/adjacent.nvim",
+        "decision": "pending",
+        "projects": ["bufferNavigationSelection"]
+    },
+    {
+        "link": "https://github.com/rohanorton/buffting.nvim",
+        "decision": "pending",
+        "projects": ["bufferNavigationSelection"]
+    },
+    {
+        "link": "https://github.com/LiamFenneman/hooks.nvim",
+        "decision": "pending",
+        "projects": ["bufferNavigationSelection"]
+    },
+    {
+        "link": "https://github.com/sentientmachin3/bufswitch.nvim",
+        "decision": "pending",
+        "projects": ["bufferNavigationSelection"]
+    },
+    {
+        "link": "https://github.com/ArmanHZ/nvim-select-buffer",
+        "decision": "pending",
+        "projects": ["bufferNavigationSelection"]
+    },
+    {
+        "link": "https://github.com/Hajime-Suzuki/vuffers.nvim",
+        "decision": "pending",
+        "projects": ["bufferNavigationSelection"]
+    },
+    {
+        "link": "https://github.com/ryanoneill/treble.nvim",
+        "decision": "pending",
+        "projects": ["bufferNavigationSelection"]
+    },
+    {
+        "link": "https://github.com/gaoDean/ido.nvim",
+        "decision": "pending",
+        "projects": ["bufferNavigationSelection"]
+    },
+    {
+        "link": "https://github.com/SneezNoodle/bufmenu.nvim",
+        "decision": "pending",
+        "projects": ["bufferNavigationSelection"]
+    },
+    {
+        "link": "https://github.com/mistweaverco/bafa.nvim",
+        "decision": "pending",
+        "projects": ["bufferNavigationSelection"],
+        "rating": 4.22222
     },
     {
         "text": "bufferline-cycle-windowless.nvim",
@@ -1462,72 +1399,72 @@
     {
         "link": "https://github.com/chenasraf/text-transform.nvim",
         "decision": "pending",
-        "projects": ["casing","editingExtension","next"]
+        "projects": ["casing","next"]
     },
     {
         "link": "https://github.com/josa42/nvim-actions",
         "decision": "pending",
-        "projects": ["casing","editingExtension","next"]
+        "projects": ["casing","next"]
     },
     {
         "link": "https://github.com/johmsalas/text-case.nvim",
         "decision": "pending",
-        "projects": ["casing","editingExtension","next"]
+        "projects": ["casing","next"]
     },
     {
         "link": "https://github.com/nat-418/boole.nvim",
         "decision": "pending",
-        "projects": ["casing","editingExtension","next"]
+        "projects": ["casing","next"]
     },
     {
         "link": "https://github.com/cbarrete/nvim-altcaps",
         "decision": "pending",
-        "projects": ["casing","editingExtension","next"]
+        "projects": ["casing","next"]
     },
     {
         "link": "https://github.com/tandy1229/wordswitch.nvim",
         "decision": "pending",
-        "projects": ["casing","editingExtension","next"]
+        "projects": ["casing","next"]
     },
     {
         "link": "https://github.com/theoboldalex/case_manager.nvim",
         "decision": "pending",
-        "projects": ["casing","editingExtension","next"]
+        "projects": ["casing","next"]
     },
     {
         "link": "https://github.com/gerazov/toggle-bool.nvim",
         "decision": "pending",
-        "projects": ["casing","editingExtension","next"]
+        "projects": ["casing","next"]
     },
     {
         "link": "https://github.com/blaisdellma/checklist.nvim",
         "decision": "pending",
-        "projects": ["casing","editingExtension","next"]
+        "projects": ["casing","next"]
     },
     {
         "link": "https://github.com/steve21168/command-pat.nvim",
         "decision": "pending",
-        "projects": ["casing","editingExtension","next"]
+        "projects": ["casing","next"]
     },
     {
         "link": "https://github.com/senkentarou/telescope-convert-word-case.nvim",
         "decision": "pending",
-        "projects": ["casing","editingExtension","next"]
+        "projects": ["casing","next"]
     },
     {
         "link": "https://github.com/aklk1ng/flip-word.nvim",
         "decision": "pending",
-        "projects": ["casing","editingExtension","next"]
+        "projects": ["casing","next"]
     },
     {
         "link": "https://github.com/CKolkey/ts-node-action",
         "decision": "pending",
-        "projects": ["casing","editingExtension","next"]
+        "projects": ["casing","next"]
     },
     {
         "link": "https://github.com/Skosulor/nibbler",
         "decision": "pending",
-        "projects": ["casing","editingExtension","next"]
+        "projects": ["casing","next"]
     },
     {
         "link": "https://github.com/opdavies/toggle-checkbox.nvim",
@@ -2934,17 +2871,17 @@
         "projects": ["completion"]
     },
     {
-        "link": "https://github.com/hrsh7th/cmp-nvim-lsp-signature-help",
-        "decision": "pending",
-        "projects": ["completion","editor","ricing"],
-        "rating": 4.22222,
-        "description": "cmp-nvim-lsp-signature-help"
-    },
-    {
         "text": "saadparwaiz1/cmp_luasnip: luasnip completion source for nvim-cmp",
         "link": "https://github.com/saadparwaiz1/cmp_luasnip",
         "decision": "pending",
         "projects": ["completion","nextStep"]
+    },
+    {
+        "link": "https://github.com/hrsh7th/cmp-nvim-lsp-signature-help",
+        "decision": "pending",
+        "projects": ["completion","ricing"],
+        "rating": 4.22222,
+        "description": "cmp-nvim-lsp-signature-help"
     },
     {
         "link": "https://github.com/uga-rosa/cmp-dictionary",
@@ -3464,157 +3401,157 @@
     {
         "link": "https://github.com/isaksamsten/better-virtual-text.nvim",
         "decision": "pending",
-        "projects": ["debug","diagnostics","quickfix"]
+        "projects": ["debug","diagnostics"]
     },
     {
         "link": "https://github.com/RaafatTurki/corn.nvim",
         "decision": "pending",
-        "projects": ["debug","diagnostics","quickfix"]
+        "projects": ["debug","diagnostics"]
     },
     {
         "link": "https://github.com/dgagn/diagflow.nvim",
         "decision": "pending",
-        "projects": ["debug","diagnostics","quickfix"]
+        "projects": ["debug","diagnostics"]
     },
     {
         "link": "https://github.com/onsails/diaglist.nvim",
         "decision": "pending",
-        "projects": ["debug","diagnostics","quickfix"]
+        "projects": ["debug","diagnostics"]
     },
     {
         "link": "https://github.com/rayzr522/diagnostic-filter.nvim",
         "decision": "pending",
-        "projects": ["debug","diagnostics","quickfix"]
+        "projects": ["debug","diagnostics"]
     },
     {
         "link": "https://github.com/jake-stewart/diagnostic-jump.nvim",
         "decision": "pending",
-        "projects": ["debug","diagnostics","quickfix"]
+        "projects": ["debug","diagnostics"]
     },
     {
         "link": "https://github.com/cseickel/diagnostic-window.nvim",
         "decision": "pending",
-        "projects": ["debug","diagnostics","quickfix"]
+        "projects": ["debug","diagnostics"]
     },
     {
         "link": "https://github.com/m-gail/diagnostic_manipulation.nvim",
         "decision": "pending",
-        "projects": ["debug","diagnostics","quickfix"]
+        "projects": ["debug","diagnostics"]
     },
     {
         "link": "https://github.com/kaputi/e-kaput.nvim",
         "decision": "pending",
-        "projects": ["debug","diagnostics","quickfix"]
+        "projects": ["debug","diagnostics"]
     },
     {
         "link": "https://github.com/chikko80/error-lens.nvim",
         "decision": "pending",
-        "projects": ["debug","diagnostics","quickfix"]
+        "projects": ["debug","diagnostics"]
     },
     {
         "link": "https://github.com/haolian9/linters.nvim",
         "decision": "pending",
-        "projects": ["debug","diagnostics","quickfix"]
+        "projects": ["debug","diagnostics"]
     },
     {
         "link": "https://github.com/stefanwatt/lsp-lines.nvim",
         "decision": "pending",
-        "projects": ["debug","diagnostics","quickfix"]
+        "projects": ["debug","diagnostics"]
     },
     {
         "link": "https://github.com/luozhiya/lsp-virtual-improved.nvim",
         "decision": "pending",
-        "projects": ["debug","diagnostics","quickfix"]
+        "projects": ["debug","diagnostics"]
     },
     {
         "link": "https://github.com/ksyasuda/lsp_lines.nvim",
         "decision": "pending",
-        "projects": ["debug","diagnostics","quickfix"]
+        "projects": ["debug","diagnostics"]
     },
     {
         "link": "https://github.com/suliatis/mess-around.nvim",
         "decision": "pending",
-        "projects": ["debug","diagnostics","quickfix"]
+        "projects": ["debug","diagnostics"]
     },
     {
         "link": "https://github.com/TomDeneire/notify-diagnostics.nvim",
         "decision": "pending",
-        "projects": ["debug","diagnostics","quickfix"]
+        "projects": ["debug","diagnostics"]
     },
     {
         "link": "https://github.com/idanarye/nvim-buffls",
         "decision": "pending",
-        "projects": ["debug","diagnostics","quickfix"]
+        "projects": ["debug","diagnostics"]
     },
     {
         "link": "https://github.com/Kasama/nvim-custom-diagnostic-highlight",
         "decision": "pending",
-        "projects": ["debug","diagnostics","quickfix"]
+        "projects": ["debug","diagnostics"]
     },
     {
         "link": "https://github.com/yorickpeterse/nvim-dd",
         "decision": "pending",
-        "projects": ["debug","diagnostics","quickfix"]
+        "projects": ["debug","diagnostics"]
     },
     {
         "link": "https://github.com/lithammer/nvim-diagnosticls",
         "decision": "pending",
-        "projects": ["debug","diagnostics","quickfix"]
+        "projects": ["debug","diagnostics"]
     },
     {
         "link": "https://github.com/cdecompilador/rcd.nvim",
         "decision": "pending",
-        "projects": ["debug","diagnostics","quickfix"]
+        "projects": ["debug","diagnostics"]
     },
     {
         "link": "https://github.com/santigo-zero/right-corner-diagnostics.nvim",
         "decision": "pending",
-        "projects": ["debug","diagnostics","quickfix"]
+        "projects": ["debug","diagnostics"]
     },
     {
         "link": "https://github.com/casonadams/simple-diagnostics.nvim",
         "decision": "pending",
-        "projects": ["debug","diagnostics","quickfix"]
+        "projects": ["debug","diagnostics"]
     },
     {
         "link": "https://github.com/WhoIsSethDaniel/toggle-lsp-diagnostics.nvim",
         "decision": "pending",
-        "projects": ["debug","diagnostics","quickfix"]
+        "projects": ["debug","diagnostics"]
     },
     {
         "link": "https://github.com/Mofiqul/trld.nvim",
         "decision": "pending",
-        "projects": ["debug","diagnostics","quickfix"]
+        "projects": ["debug","diagnostics"]
     },
     {
         "link": "https://github.com/ivanjermakov/troublesum.nvim",
         "decision": "pending",
-        "projects": ["debug","diagnostics","quickfix"]
+        "projects": ["debug","diagnostics"]
     },
     {
         "link": "https://github.com/nicolomaioli/wtfm.nvim",
         "decision": "pending",
-        "projects": ["debug","diagnostics","quickfix"]
+        "projects": ["debug","diagnostics"]
     },
     {
         "link": "https://github.com/0oAstro/dim.lua",
         "decision": "pending",
-        "projects": ["debug","diagnostics","quickfix"]
+        "projects": ["debug","diagnostics"]
     },
     {
         "link": "https://github.com/askfiy/lsp_extra_dim",
         "decision": "pending",
-        "projects": ["debug","diagnostics","quickfix"]
+        "projects": ["debug","diagnostics"]
     },
     {
         "link": "https://github.com/zbirenbaum/neodim",
         "decision": "pending",
-        "projects": ["debug","diagnostics","quickfix"]
+        "projects": ["debug","diagnostics"]
     },
     {
         "link": "https://github.com/Dr-42/error-jump.nvim",
-        "decision": "pending",
-        "projects": ["debug","editingExtension","navigation","next","quickfix"]
+        "decision": "next",
+        "projects": ["intraFileNavigation","diagnostics"]
     },
     {
         "text": "debugprint.nvim",
@@ -3625,7 +3562,7 @@
     {
         "text": "refactor.nvim",
         "link": "https://github.com/wakeLanaka/refactor.nvim",
-        "decision": "pending",
+        "decision": "vendor",
         "projects": ["debug","print"]
     },
     {
@@ -3926,76 +3863,6 @@
         "link": "https://github.com/ggandor/lightspeed.nvim",
         "decision": "pending",
         "projects": ["easymotion","editingExtension","horizontal","move","navigation","next"]
-    },
-    {
-        "link": "https://github.com/ggandor/leap.nvim",
-        "decision": "pending",
-        "projects": ["easymotion","editingExtension","navigation","next"]
-    },
-    {
-        "link": "https://github.com/atusy/leap-wide.nvim",
-        "decision": "pending",
-        "projects": ["easymotion","editingExtension","navigation","next"]
-    },
-    {
-        "link": "https://github.com/atusy/leap-search.nvim",
-        "decision": "pending",
-        "projects": ["easymotion","editingExtension","navigation","next"]
-    },
-    {
-        "link": "https://github.com/yutkat/leap-word.nvim",
-        "decision": "pending",
-        "projects": ["easymotion","editingExtension","navigation","next"]
-    },
-    {
-        "link": "https://github.com/Grazfather/leaplines.nvim",
-        "decision": "pending",
-        "projects": ["easymotion","editingExtension","navigation","next"]
-    },
-    {
-        "link": "https://github.com/Sleepful/leap-by-word.nvim",
-        "decision": "pending",
-        "projects": ["easymotion","editingExtension","navigation","next"]
-    },
-    {
-        "link": "https://github.com/VanaIgr/nvim-easyword",
-        "decision": "pending",
-        "projects": ["easymotion","editingExtension","navigation","next"]
-    },
-    {
-        "link": "https://github.com/woosaaahh/sj.nvim",
-        "decision": "pending",
-        "projects": ["easymotion","editingExtension","navigation","next"]
-    },
-    {
-        "link": "https://github.com/phaazon/hop.nvim",
-        "decision": "pending",
-        "projects": ["easymotion","editingExtension","navigation","next"]
-    },
-    {
-        "link": "https://github.com/mizlan/longbow.nvim",
-        "decision": "pending",
-        "projects": ["easymotion","editingExtension","navigation","next"]
-    },
-    {
-        "link": "https://github.com/tjdevries/train.nvim",
-        "decision": "pending",
-        "projects": ["easymotion","editingExtension","navigation","next"]
-    },
-    {
-        "link": "https://github.com/haolian9/gallop.nvim",
-        "decision": "pending",
-        "projects": ["easymotion","editingExtension","navigation","next"]
-    },
-    {
-        "link": "https://github.com/madyanov/svart.nvim",
-        "decision": "pending",
-        "projects": ["easymotion","editingExtension","navigation","next"]
-    },
-    {
-        "link": "https://github.com/Weissle/easy-action",
-        "decision": "pending",
-        "projects": ["easymotion","editingExtension","navigation","next"]
     },
     {
         "link": "https://github.com/chip/telescope-code-fence.nvim",
@@ -4360,125 +4227,6 @@
         "projects": ["editingEnhancement","insert"]
     },
     {
-        "text": "pears.nvim",
-        "link": "https://github.com/steelsojka/pears.nvim",
-        "decision": "pending",
-        "projects": ["editingEnhancement","insertion","pair"]
-    },
-    {
-        "text": "autoclose.nvim",
-        "link": "https://github.com/m4xshen/autoclose.nvim",
-        "decision": "pending",
-        "projects": ["editingEnhancement","insertion","pair"]
-    },
-    {
-        "text": "nvim-treesitter-pairs",
-        "link": "https://github.com/theHamsta/nvim-treesitter-pairs",
-        "decision": "pending",
-        "projects": ["editingEnhancement","insertion","pair"]
-    },
-    {
-        "text": "neoautoTools.nvim",
-        "link": "https://github.com/conch2/neoautoTools.nvim",
-        "decision": "pending",
-        "projects": ["editingEnhancement","insertion","pair"]
-    },
-    {
-        "text": "nvim-brackets",
-        "link": "https://github.com/Sublimeful/nvim-brackets",
-        "decision": "pending",
-        "projects": ["editingEnhancement","insertion","pair"]
-    },
-    {
-        "text": "ultimate-autopair.nvim",
-        "link": "https://github.com/altermo/ultimate-autopair.nvim",
-        "decision": "pending",
-        "projects": ["editingEnhancement","insertion","pair"]
-    },
-    {
-        "text": "enclosing.nvim",
-        "link": "https://github.com/wakeLanaka/enclosing.nvim",
-        "decision": "pending",
-        "projects": ["editingEnhancement","insertion","pair"]
-    },
-    {
-        "text": "twins.nvim",
-        "link": "https://github.com/CozyPenguin/twins.nvim",
-        "decision": "pending",
-        "projects": ["editingEnhancement","insertion","pair"]
-    },
-    {
-        "text": "bracketpair.nvim",
-        "link": "https://github.com/fedepujol/bracketpair.nvim",
-        "decision": "pending",
-        "projects": ["editingEnhancement","insertion","pair"]
-    },
-    {
-        "text": "quote-bracketeer.nvim",
-        "link": "https://github.com/Daiki48/quote-bracketeer.nvim",
-        "decision": "pending",
-        "projects": ["editingEnhancement","insertion","pair"]
-    },
-    {
-        "text": "tenaille.nvim",
-        "link": "https://github.com/doums/tenaille.nvim",
-        "decision": "pending",
-        "projects": ["editingEnhancement","insertion","pair"]
-    },
-    {
-        "text": "pairmate.nvim",
-        "link": "https://github.com/nvimdev/pairmate.nvim",
-        "decision": "pending",
-        "projects": ["editingEnhancement","insertion","pair"]
-    },
-    {
-        "text": "autopairs.nvim",
-        "link": "https://github.com/Sam-programs/autopairs.nvim",
-        "decision": "pending",
-        "projects": ["editingEnhancement","insertion","pair"]
-    },
-    {
-        "text": "smart-pairs",
-        "link": "https://github.com/ZhiyuanLck/smart-pairs",
-        "decision": "pending",
-        "projects": ["editingEnhancement","insertion","pair"]
-    },
-    {
-        "link": "https://github.com/crooksryan/hover_mark.nvim",
-        "decision": "pending",
-        "projects": ["editingEnhancement","marks","navigation"]
-    },
-    {
-        "link": "https://github.com/MahmoudESSE/marky.nvim",
-        "decision": "pending",
-        "projects": ["editingEnhancement","marks","navigation"]
-    },
-    {
-        "link": "https://github.com/acifuentes99/nvim-jump-to-mark",
-        "decision": "pending",
-        "projects": ["editingEnhancement","marks","navigation"]
-    },
-    {
-        "link": "https://github.com/LeonHeidelbach/trailblazer.nvim",
-        "decision": "pending",
-        "projects": ["editingEnhancement","marks","navigation"]
-    },
-    {
-        "link": "https://github.com/BartSte/nvim-project-marks",
-        "decision": "pending",
-        "projects": ["editingEnhancement","marks","navigation"]
-    },
-    {
-        "link": "https://github.com/jmattaa/quickmark.nvim",
-        "decision": "pending",
-        "projects": ["editingEnhancement","marks","navigation"]
-    },
-    {
-        "link": "https://github.com/saccarosium/neomarks",
-        "decision": "pending",
-        "projects": ["editingEnhancement","marks","navigation"]
-    },
-    {
         "text": "alternate-toggler",
         "link": "https://github.com/rmagatti/alternate-toggler",
         "decision": "pending",
@@ -4503,36 +4251,6 @@
         "projects": ["editingEnhancement","move","nextStep"]
     },
     {
-        "text": "cool-substitute.nvim",
-        "link": "https://github.com/otavioschwanck/cool-substitute.nvim",
-        "decision": "pending",
-        "projects": ["editingEnhancement","multicursor"]
-    },
-    {
-        "text": "mc.nvim",
-        "link": "https://github.com/YacineDo/mc.nvim",
-        "decision": "pending",
-        "projects": ["editingEnhancement","multicursor"]
-    },
-    {
-        "text": "vscode-multi-cursor.nvim",
-        "link": "https://github.com/vscode-neovim/vscode-multi-cursor.nvim",
-        "decision": "pending",
-        "projects": ["editingEnhancement","multicursor"]
-    },
-    {
-        "text": "multiple-cursors.nvim",
-        "link": "https://github.com/brenton-leighton/multiple-cursors.nvim",
-        "decision": "pending",
-        "projects": ["editingEnhancement","multicursor"]
-    },
-    {
-        "text": "nvim-multi-cursor",
-        "link": "https://github.com/lincheney/nvim-multi-cursor",
-        "decision": "pending",
-        "projects": ["editingEnhancement","multicursor"]
-    },
-    {
         "link": "https://github.com/Craftidore/camelCaseMotion.nvim",
         "decision": "pending",
         "projects": ["editingEnhancement","navigation"]
@@ -4541,91 +4259,6 @@
         "link": "https://github.com/backdround/neowords.nvim",
         "decision": "pending",
         "projects": ["editingEnhancement","navigation"]
-    },
-    {
-        "link": "https://github.com/gbprod/cutlass.nvim",
-        "decision": "pending",
-        "projects": ["editingEnhancement","operator"]
-    },
-    {
-        "link": "https://github.com/zdcthomas/yop.nvim",
-        "decision": "pending",
-        "projects": ["editingEnhancement","operator"]
-    },
-    {
-        "link": "https://github.com/ggandor/leap-ast.nvim",
-        "decision": "pending",
-        "projects": ["editingEnhancement","operator"]
-    },
-    {
-        "link": "https://github.com/cat-phish/smooth-operator.nvim",
-        "decision": "pending",
-        "projects": ["editingEnhancement","operator"]
-    },
-    {
-        "link": "https://github.com/monaqa/general-converter.nvim",
-        "decision": "pending",
-        "projects": ["editingEnhancement","operator"]
-    },
-    {
-        "link": "https://github.com/kana/vim-textobj-line",
-        "decision": "pending",
-        "projects": ["editingEnhancement","operator"]
-    },
-    {
-        "link": "https://github.com/kana/vim-textobj-user",
-        "decision": "pending",
-        "projects": ["editingEnhancement","operator"]
-    },
-    {
-        "link": "https://github.com/kana/vim-niceblock",
-        "decision": "pending",
-        "projects": ["editingEnhancement","operator"]
-    },
-    {
-        "link": "https://github.com/sgur/vim-textobj-parameter",
-        "decision": "pending",
-        "projects": ["editingEnhancement","operator"]
-    },
-    {
-        "link": "https://github.com/wellle/targets.vim",
-        "decision": "pending",
-        "projects": ["editingEnhancement","operator"]
-    },
-    {
-        "link": "https://github.com/RRethy/nvim-treesitter-textsubjects",
-        "decision": "pending",
-        "projects": ["editingEnhancement","operator","textobject"]
-    },
-    {
-        "link": "https://github.com/XXiaoA/ns-textobject.nvim",
-        "decision": "pending",
-        "projects": ["editingEnhancement","operator","textobject"]
-    },
-    {
-        "link": "https://github.com/mfussenegger/nvim-treehopper",
-        "decision": "pending",
-        "projects": ["editingEnhancement","operator","textobject"]
-    },
-    {
-        "link": "https://github.com/ggandor/leap-spooky.nvim",
-        "decision": "pending",
-        "projects": ["editingEnhancement","operator","textobject"]
-    },
-    {
-        "link": "https://github.com/bagohart/textobj-before.nvim",
-        "decision": "pending",
-        "projects": ["editingEnhancement","operator","textobject"]
-    },
-    {
-        "link": "https://github.com/juselara1/teoj.nvim",
-        "decision": "pending",
-        "projects": ["editingEnhancement","operator","textobject"]
-    },
-    {
-        "link": "https://github.com/theHamsta/crazy-node-movement",
-        "decision": "pending",
-        "projects": ["editingEnhancement","operator","textobject"]
     },
     {
         "text": "nice-scroll.nvim",
@@ -4661,30 +4294,6 @@
         "link": "https://github.com/terryma/vim-expand-region",
         "decision": "pending",
         "projects": ["editingEnhancement","selection"]
-    },
-    {
-        "text": "iswap.nvim",
-        "link": "https://github.com/mizlan/iswap.nvim",
-        "decision": "pending",
-        "projects": ["editingEnhancement","swap"]
-    },
-    {
-        "text": "binary-swap.nvim",
-        "link": "https://github.com/Wansmer/binary-swap.nvim",
-        "decision": "pending",
-        "projects": ["editingEnhancement","swap"]
-    },
-    {
-        "text": "sibling-swap.nvim",
-        "link": "https://github.com/Wansmer/sibling-swap.nvim",
-        "decision": "pending",
-        "projects": ["editingEnhancement","swap"]
-    },
-    {
-        "text": "swap-ternary.nvim",
-        "link": "https://github.com/xlboy/swap-ternary.nvim",
-        "decision": "pending",
-        "projects": ["editingEnhancement","swap"]
     },
     {
         "link": "https://github.com/ggandor/flit.nvim",
@@ -4742,41 +4351,6 @@
         "projects": ["editingExtension","line","move","next"]
     },
     {
-        "link": "https://github.com/kensleDev/persistent-macros.nvim",
-        "decision": "pending",
-        "projects": ["editingExtension","macro","next"]
-    },
-    {
-        "link": "https://github.com/desdic/macrothis.nvim",
-        "decision": "pending",
-        "projects": ["editingExtension","macro","next"]
-    },
-    {
-        "link": "https://github.com/jake-stewart/recursive-macro.nvim",
-        "decision": "pending",
-        "projects": ["editingExtension","macro","next"]
-    },
-    {
-        "link": "https://github.com/1riz/telescope-macros.nvim",
-        "decision": "pending",
-        "projects": ["editingExtension","macro","next"]
-    },
-    {
-        "link": "https://github.com/jesseleite/nvim-macroni",
-        "decision": "pending",
-        "projects": ["editingExtension","macro","next"]
-    },
-    {
-        "link": "https://github.com/FredTheDino/ma-pur-ma.nvim",
-        "decision": "pending",
-        "projects": ["editingExtension","macro","next"]
-    },
-    {
-        "link": "https://github.com/bignos/bookmacro",
-        "decision": "pending",
-        "projects": ["editingExtension","macro","next"]
-    },
-    {
         "link": "https://github.com/drybalka/tree-climber.nvim",
         "decision": "pending",
         "projects": ["editingExtension","move","next"]
@@ -4785,46 +4359,6 @@
         "link": "https://github.com/woosaaahh/vertigo.nvim",
         "decision": "pending",
         "projects": ["editingExtension","move","next"]
-    },
-    {
-        "link": "https://github.com/jake-stewart/slide.nvim",
-        "decision": "pending",
-        "projects": ["editingExtension","navigation","next"]
-    },
-    {
-        "link": "https://github.com/gsuuon/tshjkl.nvim",
-        "decision": "pending",
-        "projects": ["editingExtension","navigation","next"]
-    },
-    {
-        "link": "https://github.com/notomo/curstr.nvim",
-        "decision": "pending",
-        "projects": ["editingExtension","navigation","next"]
-    },
-    {
-        "link": "https://github.com/jonatan-branting/nvim-better-n",
-        "decision": "pending",
-        "projects": ["editingExtension","navigation","next"]
-    },
-    {
-        "link": "https://github.com/rwblokzijl/nvim-jump-mode",
-        "decision": "pending",
-        "projects": ["editingExtension","navigation","next"]
-    },
-    {
-        "link": "https://github.com/xiaoshihou514/squirrel.nvim",
-        "decision": "pending",
-        "projects": ["editingExtension","navigation","next"]
-    },
-    {
-        "link": "https://github.com/roobert/tabtree.nvim",
-        "decision": "pending",
-        "projects": ["editingExtension","navigation","next"]
-    },
-    {
-        "link": "https://github.com/prichrd/refgo.nvim",
-        "decision": "pending",
-        "projects": ["editingExtension","navigation","next"]
     },
     {
         "link": "https://github.com/PHSix/faster.nvim",
@@ -4868,146 +4402,6 @@
         "software": ["grep","git","vim"]
     },
     {
-        "link": "https://github.com/nvzone/showkeys",
-        "decision": "pending",
-        "projects": ["editor","keybinding","ricing"],
-        "rating": 4.22222,
-        "description": "Minimal Eye-candy keys screencaster for Neovim  200 ~ LOC"
-    },
-    {
-        "link": "https://github.com/Terminal127/nvim-spotify",
-        "decision": "pending",
-        "projects": ["editor","lua","python","ricing","spotify"],
-        "rating": 4.22222,
-        "description": "Spicfy revolutionizes Neovim with Spotify integration, facilitating song search and playback"
-    },
-    {
-        "link": "https://github.com/nvzone/menu",
-        "decision": "pending",
-        "projects": ["editor","menu","ricing"],
-        "rating": 4.22222,
-        "description": "Menu plugin for neovim ( supports nested menus ) made using volt"
-    },
-    {
-        "link": "https://github.com/nvim-orgmode/orgmode",
-        "decision": "pending",
-        "projects": ["editor","nextStep","noteTaking","ricing"],
-        "rating": 4.22222,
-        "description": "Orgmode clone written in Lua for Neovim 0.10.3+."
-    },
-    {
-        "link": "https://github.com/m4xshen/hardtime.nvim",
-        "decision": "pending",
-        "projects": ["editor","nvimTraining"],
-        "description": "Break bad habits, master Vim motions <#> Show HN: Hardtime.nvim – break bad habits and master Vim motions  <#> hardtime.nvim is a Neovim plugin designed to help users break bad habits and improve their command of Vim motions by blocking repeated keystrokes, providing hints for motions, and reporting common mistakes. It encourages optimal workflows for navigation using standard Vim commands instead of relying on arrow keys or the mouse.#Neovim #Vim #CodingTips"
-    },
-    {
-        "text": "Inlayhint-filler.nvim: a small QoL utility for Python Devs ||| Inlayhint-filler.nvim: a small QoL utility for Python Devs",
-        "link": "https://www.reddit.com/r/neovim/s/0koj9o8Mno",
-        "decision": "pending",
-        "projects": ["editor","python"],
-        "rating": 4.22222,
-        "description": "Inlayhint-filler.nvim: a small QoL utility for Python Devs"
-    },
-    {
-        "link": "https://github.com/eyalk11/speech-to-text.nvim",
-        "decision": "pending",
-        "projects": ["editor","python","ricing"],
-        "rating": 4.22222,
-        "description": "Neovim voice recognition using speech_recognition python lib"
-    },
-    {
-        "link": "https://github.com/justinmk/vim-dirvish",
-        "decision": "pending",
-        "projects": ["editor","ricing"],
-        "rating": 4.22222,
-        "description": "Directory viewer for Vim :zap: netrW => netrL",
-        "reason": "nvim-tree / neotree / yazi"
-    },
-    {
-        "link": "https://github.com/brianhuster/dirvish-do.nvim",
-        "decision": "pending",
-        "projects": ["editor","ricing"],
-        "rating": 4.22222
-    },
-    {
-        "link": "https://github.com/Dan7h3x/neaterm.nvim",
-        "decision": "pending",
-        "projects": ["editor","ricing"],
-        "rating": 4.22222,
-        "description": "A little (smart maybe) terminal plugin for neovim."
-    },
-    {
-        "link": "https://github.com/Hashino/doing.nvim",
-        "decision": "pending",
-        "projects": ["editor","ricing"],
-        "rating": 4.22222,
-        "description": "A minimal task manager for neovim"
-    },
-    {
-        "link": "https://github.com/Kurama622/profile.nvim",
-        "decision": "pending",
-        "projects": ["editor","ricing"],
-        "rating": 4.22222,
-        "description": "Your Personal Homepage"
-    },
-    {
-        "link": "https://github.com/ab-dx/ares.nvim",
-        "decision": "pending",
-        "projects": ["editor","ricing"],
-        "rating": 4.22222,
-        "description": "A warm neovim colorscheme"
-    },
-    {
-        "link": "https://github.com/atiladefreitas/lazyclip",
-        "decision": "pending",
-        "projects": ["editor","ricing"],
-        "rating": 4.22222,
-        "description": "The laziest clipboard manager for Neovim"
-    },
-    {
-        "link": "https://github.com/muhammadzkralla/zpragmatic.nvim",
-        "decision": "pending",
-        "projects": ["editor","ricing"],
-        "rating": 4.22222,
-        "description": "The pragmatic NeoVim plugin."
-    },
-    {
-        "link": "https://github.com/neo451/feed.nvim",
-        "decision": "pending",
-        "projects": ["editor","ricing"],
-        "rating": 4.22222,
-        "description": "Neovim feed reader, rss, atom and jsonfeed, all in lua"
-    },
-    {
-        "link": "https://github.com/nvzone/timerly",
-        "decision": "pending",
-        "projects": ["editor","ricing"],
-        "rating": 4.22222,
-        "description": "Beautiful countdown timer plugin for Neovim"
-    },
-    {
-        "link": "https://github.com/nvzone/typr",
-        "decision": "pending",
-        "projects": ["editor","ricing"],
-        "rating": 4.22222,
-        "description": "Most Beautiful Typing practice plugin for Neovim with dashboard"
-    },
-    {
-        "link": "https://github.com/oskarrrrrrr/symbols.nvim",
-        "decision": "pending",
-        "projects": ["editor","ricing"],
-        "rating": 4.22222,
-        "description": "Code navigation sidebar for Neovim."
-    },
-    {
-        "link": "https://github.com/rezhaTanuharja/minimalistNVIM",
-        "decision": "pending",
-        "projects": ["editor","ricing"],
-        "rating": 4.22222,
-        "description": "A simple and minimalist NVIM configurations, written in Lua."
-    },
-    {
         "link": "https://github.com/Dynge/gitmoji.nvim",
         "decision": "pending",
         "projects": ["emoji"]
@@ -5031,146 +4425,6 @@
         "link": "https://github.com/mrjones2014/iconpicker.nvim",
         "decision": "pending",
         "projects": ["emoji","search"]
-    },
-    {
-        "link": "https://github.com/sheodox/projectlaunch.nvim",
-        "decision": "pending",
-        "projects": ["execFromConfigFile","taskRunning"]
-    },
-    {
-        "link": "https://github.com/EthanJWright/vs-tasks.nvim",
-        "decision": "pending",
-        "projects": ["execFromConfigFile","taskRunning"]
-    },
-    {
-        "link": "https://github.com/Dax89/automaton.nvim",
-        "decision": "pending",
-        "projects": ["execFromConfigFile","taskRunning"]
-    },
-    {
-        "link": "https://github.com/Arjun31415/BuildTask.nvim",
-        "decision": "pending",
-        "projects": ["execFromConfigFile","taskRunning"]
-    },
-    {
-        "link": "https://github.com/jjocram/nvim-run",
-        "decision": "pending",
-        "projects": ["execFromConfigFile","taskRunning"]
-    },
-    {
-        "link": "https://github.com/sakuemon/telescope-overseer.nvim",
-        "decision": "pending",
-        "projects": ["execFromConfigFile","taskRunning"]
-    },
-    {
-        "link": "https://github.com/amirrezaask/actions.nvim",
-        "decision": "pending",
-        "projects": ["execFromConfigFile","taskRunning"]
-    },
-    {
-        "link": "https://github.com/GustavoKatel/tasks.nvim",
-        "decision": "pending",
-        "projects": ["execFromConfigFile","taskRunning"]
-    },
-    {
-        "link": "https://github.com/antonk52/amake.nvim",
-        "decision": "pending",
-        "projects": ["execFromConfigFile","taskRunning"]
-    },
-    {
-        "link": "https://github.com/charlie39/OneStop.nvim",
-        "decision": "pending",
-        "projects": ["execFromConfigFile","taskRunning"]
-    },
-    {
-        "link": "https://github.com/desdic/greyjoy.nvim",
-        "decision": "pending",
-        "projects": ["execFromConfigFile","taskRunning"]
-    },
-    {
-        "link": "https://github.com/LucasTavaresA/command.nvim",
-        "decision": "pending",
-        "projects": ["execFromConfigFile","taskRunning"]
-    },
-    {
-        "link": "https://github.com/4542elgh/telescope-scratch-run.nvim",
-        "decision": "pending",
-        "projects": ["execFromConfigFile","taskRunning"]
-    },
-    {
-        "link": "https://github.com/yaanae/actions.nvim",
-        "decision": "pending",
-        "projects": ["execFromConfigFile","taskRunning"]
-    },
-    {
-        "link": "https://github.com/devkvlt/floaty.nvim",
-        "decision": "pending",
-        "projects": ["execFromConfigFile","taskRunning"]
-    },
-    {
-        "link": "https://github.com/LucLabarriere/light-projects.nvim",
-        "decision": "pending",
-        "projects": ["execFromConfigFile","taskRunning"]
-    },
-    {
-        "link": "https://github.com/Comamoca/runit.nvim",
-        "decision": "pending",
-        "projects": ["execFromConfigFile","taskRunning"]
-    },
-    {
-        "link": "https://github.com/google/executor.nvim",
-        "decision": "pending",
-        "projects": ["execFromConfigFile","taskRunning"]
-    },
-    {
-        "link": "https://github.com/neysanfoo/coderunner.nvim",
-        "decision": "pending",
-        "projects": ["execFromConfigFile","taskRunning"]
-    },
-    {
-        "link": "https://github.com/Walcriz/action-lists.nvim",
-        "decision": "pending",
-        "projects": ["execFromConfigFile","taskRunning"]
-    },
-    {
-        "link": "https://github.com/LiamFenneman/quick-run.nvim",
-        "decision": "pending",
-        "projects": ["execFromConfigFile","taskRunning"]
-    },
-    {
-        "link": "https://github.com/serrexlabs/sketch.nvim",
-        "decision": "pending",
-        "projects": ["execFromConfigFile","taskRunning"]
-    },
-    {
-        "link": "https://github.com/s3dman/rundi.nvim",
-        "decision": "pending",
-        "projects": ["execFromConfigFile","taskRunning"]
-    },
-    {
-        "link": "https://github.com/trimclain/builder.nvim",
-        "decision": "pending",
-        "projects": ["execFromConfigFile","taskRunning"]
-    },
-    {
-        "link": "https://github.com/dasupradyumna/launch.nvim",
-        "decision": "pending",
-        "projects": ["execFromConfigFile","taskRunning"]
-    },
-    {
-        "link": "https://github.com/ej-shafran/compile-mode.nvim",
-        "decision": "pending",
-        "projects": ["execFromConfigFile","taskRunning"]
-    },
-    {
-        "link": "https://github.com/treemcgee42/custom-compile.nvim",
-        "decision": "pending",
-        "projects": ["execFromConfigFile","taskRunning"]
-    },
-    {
-        "link": "https://github.com/616b2f/bsp.nvim",
-        "decision": "pending",
-        "projects": ["execFromConfigFile","taskRunning"]
     },
     {
         "link": "https://github.com/alteredoxide/centerterm.nvim",
@@ -5816,66 +5070,6 @@
         "link": "https://github.com/bnse/plantuml.nvim",
         "decision": "pending",
         "projects": ["filetypeSpecific","plantUml","uml"]
-    },
-    {
-        "link": "https://github.com/josa42/nvim-telescope-minimal-layout",
-        "decision": "pending",
-        "projects": ["finder","search"]
-    },
-    {
-        "link": "https://github.com/vijaymarupudi/nvim-fzf-commands",
-        "decision": "pending",
-        "projects": ["finder","search"]
-    },
-    {
-        "link": "https://github.com/amirrezaask/fuzzy.nvim",
-        "decision": "pending",
-        "projects": ["finder","search"]
-    },
-    {
-        "link": "https://github.com/RishabhRD/nvim-finder",
-        "decision": "pending",
-        "projects": ["finder","search"]
-    },
-    {
-        "link": "https://github.com/shoumodip/helm.nvim",
-        "decision": "pending",
-        "projects": ["finder","search"]
-    },
-    {
-        "link": "https://github.com/AdeAttwood/ivy.nvim",
-        "decision": "pending",
-        "projects": ["finder","search"]
-    },
-    {
-        "link": "https://github.com/beardedsakimonkey/nvim-ufind",
-        "decision": "pending",
-        "projects": ["finder","search"]
-    },
-    {
-        "link": "https://github.com/cpkio/nvim-fzf-windows",
-        "decision": "pending",
-        "projects": ["finder","search"]
-    },
-    {
-        "link": "https://github.com/romgrk/kirby.nvim",
-        "decision": "pending",
-        "projects": ["finder","search"]
-    },
-    {
-        "link": "https://github.com/haolian9/fond.nvim",
-        "decision": "pending",
-        "projects": ["finder","search"]
-    },
-    {
-        "link": "https://github.com/tani/pickup.nvim",
-        "decision": "pending",
-        "projects": ["finder","search"]
-    },
-    {
-        "link": "https://github.com/linrongbin16/fzfx.nvim",
-        "decision": "pending",
-        "projects": ["finder","search"]
     },
     {
         "link": "https://github.com/anuvyklack/fold-preview.nvim",
@@ -7200,6 +6394,116 @@
         "projects": ["integration","search","specificApp"]
     },
     {
+        "link": "https://github.com/ggandor/leap.nvim",
+        "decision": "pending",
+        "projects": ["intraFileNavigation","next"]
+    },
+    {
+        "link": "https://github.com/atusy/leap-wide.nvim",
+        "decision": "pending",
+        "projects": ["intraFileNavigation","next"]
+    },
+    {
+        "link": "https://github.com/atusy/leap-search.nvim",
+        "decision": "pending",
+        "projects": ["intraFileNavigation","next"]
+    },
+    {
+        "link": "https://github.com/yutkat/leap-word.nvim",
+        "decision": "pending",
+        "projects": ["intraFileNavigation","next"]
+    },
+    {
+        "link": "https://github.com/Grazfather/leaplines.nvim",
+        "decision": "pending",
+        "projects": ["intraFileNavigation","next"]
+    },
+    {
+        "link": "https://github.com/Sleepful/leap-by-word.nvim",
+        "decision": "pending",
+        "projects": ["intraFileNavigation","next"]
+    },
+    {
+        "link": "https://github.com/VanaIgr/nvim-easyword",
+        "decision": "pending",
+        "projects": ["intraFileNavigation","next"]
+    },
+    {
+        "link": "https://github.com/woosaaahh/sj.nvim",
+        "decision": "pending",
+        "projects": ["intraFileNavigation","next"]
+    },
+    {
+        "link": "https://github.com/phaazon/hop.nvim",
+        "decision": "pending",
+        "projects": ["intraFileNavigation","next"]
+    },
+    {
+        "link": "https://github.com/mizlan/longbow.nvim",
+        "decision": "pending",
+        "projects": ["intraFileNavigation","next"]
+    },
+    {
+        "link": "https://github.com/tjdevries/train.nvim",
+        "decision": "pending",
+        "projects": ["intraFileNavigation","next"]
+    },
+    {
+        "link": "https://github.com/haolian9/gallop.nvim",
+        "decision": "pending",
+        "projects": ["intraFileNavigation","next"]
+    },
+    {
+        "link": "https://github.com/madyanov/svart.nvim",
+        "decision": "pending",
+        "projects": ["intraFileNavigation","next"]
+    },
+    {
+        "link": "https://github.com/Weissle/easy-action",
+        "decision": "pending",
+        "projects": ["intraFileNavigation","next"]
+    },
+    {
+        "link": "https://github.com/jake-stewart/slide.nvim",
+        "decision": "pending",
+        "projects": ["intraFileNavigation","next"]
+    },
+    {
+        "link": "https://github.com/gsuuon/tshjkl.nvim",
+        "decision": "pending",
+        "projects": ["intraFileNavigation","next"]
+    },
+    {
+        "link": "https://github.com/notomo/curstr.nvim",
+        "decision": "pending",
+        "projects": ["intraFileNavigation","next"]
+    },
+    {
+        "link": "https://github.com/jonatan-branting/nvim-better-n",
+        "decision": "pending",
+        "projects": ["intraFileNavigation","next"]
+    },
+    {
+        "link": "https://github.com/rwblokzijl/nvim-jump-mode",
+        "decision": "pending",
+        "projects": ["intraFileNavigation","next"]
+    },
+    {
+        "link": "https://github.com/xiaoshihou514/squirrel.nvim",
+        "decision": "pending",
+        "projects": ["intraFileNavigation","next"]
+    },
+    {
+        "link": "https://github.com/roobert/tabtree.nvim",
+        "decision": "pending",
+        "projects": ["intraFileNavigation","next"]
+    },
+    {
+        "link": "https://github.com/prichrd/refgo.nvim",
+        "decision": "pending",
+        "projects": ["intraFileNavigation","next"]
+    },
+    {
         "link": "https://github.com/Eandrju/cellular-automaton.nvim",
         "decision": "pending",
         "projects": ["joke"]
@@ -7213,6 +6517,13 @@
         "link": "https://github.com/meatballs/magma-nvim",
         "decision": "pending",
         "projects": ["jupyter","notebook"]
+    },
+    {
+        "link": "https://github.com/nvzone/showkeys",
+        "decision": "pending",
+        "projects": ["keybind","ricing"],
+        "rating": 4.22222,
+        "description": "Minimal Eye-candy keys screencaster for Neovim  200 ~ LOC"
     },
     {
         "link": "https://github.com/delphinus/dwm.nvim",
@@ -7243,6 +6554,93 @@
         "link": "https://github.com/distek/panel.nvim",
         "decision": "pending",
         "projects": ["layout"]
+    },
+    {
+        "link": "https://github.com/folke/edgy.nvim",
+        "decision": "pending",
+        "projects": ["layoutNavigation"]
+    },
+    {
+        "link": "https://github.com/artart222/vim-resize",
+        "decision": "pending",
+        "projects": ["layoutNavigation"]
+    },
+    {
+        "link": "https://github.com/sindrets/winshift.nvim",
+        "decision": "pending",
+        "projects": ["layoutNavigation"]
+    },
+    {
+        "link": "https://github.com/szw/vim-maximizer",
+        "decision": "pending",
+        "projects": ["layoutNavigation"]
+    },
+    {
+        "link": "https://github.com/danlikestocode/windows.nvim",
+        "decision": "pending",
+        "projects": ["layoutNavigation"]
+    },
+    {
+        "link": "https://github.com/famiu/bufdelete.nvim",
+        "decision": "pending",
+        "projects": ["layoutNavigation"]
+    },
+    {
+        "link": "https://github.com/kazhala/close-buffers.nvim",
+        "decision": "pending",
+        "projects": ["layoutNavigation"]
+    },
+    {
+        "link": "https://github.com/j-morano/buffer_manager.nvim",
+        "decision": "pending",
+        "projects": ["layoutNavigation"]
+    },
+    {
+        "link": "https://github.com/moll/vim-bbye",
+        "decision": "pending",
+        "projects": ["layoutNavigation"]
+    },
+    {
+        "link": "https://github.com/kyoh86/telescope-windows.nvim",
+        "decision": "pending",
+        "projects": ["layoutNavigation"]
+    },
+    {
+        "link": "https://github.com/mhinz/vim-sayonara",
+        "decision": "pending",
+        "projects": ["layoutNavigation"]
+    },
+    {
+        "link": "https://github.com/numToStr/BufOnly.nvim",
+        "decision": "pending",
+        "projects": ["layoutNavigation"]
+    },
+    {
+        "link": "https://github.com/ojroques/nvim-bufdel",
+        "decision": "pending",
+        "projects": ["layoutNavigation"]
+    },
+    {
+        "link": "https://github.com/s1n7ax/nvim-window-picker",
+        "decision": "pending",
+        "projects": ["layoutNavigation"]
+    },
+    {
+        "link": "https://github.com/roman/golden-ratio",
+        "decision": "pending",
+        "projects": ["layoutNavigation"]
+    },
+    {
+        "link": "https://github.com/anuvyklack/windows.nvim",
+        "decision": "pending",
+        "projects": ["layoutNavigation"],
+        "rating": 4.22222
+    },
+    {
+        "text": "visual-split.vim layout",
+        "link": "https://github.com/wellle/visual-split.vim",
+        "decision": "pending",
+        "projects": ["layoutNavigation"]
     },
     {
         "link": "https://github.com/MunifTanjim/nougat.nvim",
@@ -7832,6 +7230,48 @@
         "projects": ["lsp","reference"]
     },
     {
+        "link": "https://github.com/Terminal127/nvim-spotify",
+        "decision": "pending",
+        "projects": ["lua","python","ricing","spotify"],
+        "rating": 4.22222,
+        "description": "Spicfy revolutionizes Neovim with Spotify integration, facilitating song search and playback"
+    },
+    {
+        "link": "https://github.com/kensleDev/persistent-macros.nvim",
+        "decision": "pending",
+        "projects": ["macro","next"]
+    },
+    {
+        "link": "https://github.com/desdic/macrothis.nvim",
+        "decision": "pending",
+        "projects": ["macro","next"]
+    },
+    {
+        "link": "https://github.com/jake-stewart/recursive-macro.nvim",
+        "decision": "pending",
+        "projects": ["macro","next"]
+    },
+    {
+        "link": "https://github.com/1riz/telescope-macros.nvim",
+        "decision": "pending",
+        "projects": ["macro","next"]
+    },
+    {
+        "link": "https://github.com/jesseleite/nvim-macroni",
+        "decision": "pending",
+        "projects": ["macro","next"]
+    },
+    {
+        "link": "https://github.com/FredTheDino/ma-pur-ma.nvim",
+        "decision": "pending",
+        "projects": ["macro","next"]
+    },
+    {
+        "link": "https://github.com/bignos/bookmacro",
+        "decision": "pending",
+        "projects": ["macro","next"]
+    },
+    {
         "text": "relevant post",
         "link": "https://www.reddit.com/r/neovim/comments/10nnkgg/plugin_that_lazy_loads_other_plugins_without",
         "decision": "pending",
@@ -7898,6 +7338,41 @@
         "link": "https://github.com/jcdampil23/note_navigation.nvim",
         "decision": "pending",
         "projects": ["markdown","navigation","noteTaking"]
+    },
+    {
+        "link": "https://github.com/crooksryan/hover_mark.nvim",
+        "decision": "pending",
+        "projects": ["marks"]
+    },
+    {
+        "link": "https://github.com/MahmoudESSE/marky.nvim",
+        "decision": "pending",
+        "projects": ["marks"]
+    },
+    {
+        "link": "https://github.com/acifuentes99/nvim-jump-to-mark",
+        "decision": "pending",
+        "projects": ["marks"]
+    },
+    {
+        "link": "https://github.com/LeonHeidelbach/trailblazer.nvim",
+        "decision": "pending",
+        "projects": ["marks"]
+    },
+    {
+        "link": "https://github.com/BartSte/nvim-project-marks",
+        "decision": "pending",
+        "projects": ["marks"]
+    },
+    {
+        "link": "https://github.com/jmattaa/quickmark.nvim",
+        "decision": "pending",
+        "projects": ["marks"]
+    },
+    {
+        "link": "https://github.com/saccarosium/neomarks",
+        "decision": "pending",
+        "projects": ["marks"]
     },
     {
         "link": "https://github.com/winston0410/mark-radar.nvim",
@@ -8017,6 +7492,13 @@
         "link": "https://github.com/Fildo7525/pretty_hover",
         "decision": "pending",
         "projects": ["menu"]
+    },
+    {
+        "link": "https://github.com/nvzone/menu",
+        "decision": "pending",
+        "projects": ["menu","ricing"],
+        "rating": 4.22222,
+        "description": "Menu plugin for neovim ( supports nested menus ) made using volt"
     },
     {
         "text": "neovim",
@@ -8298,6 +7780,36 @@
         "link": "https://github.com/hiberabyss/readline.nvim",
         "decision": "pending",
         "projects": ["mode","zen"]
+    },
+    {
+        "text": "cool-substitute.nvim",
+        "link": "https://github.com/otavioschwanck/cool-substitute.nvim",
+        "decision": "pending",
+        "projects": ["multicursor"]
+    },
+    {
+        "text": "mc.nvim",
+        "link": "https://github.com/YacineDo/mc.nvim",
+        "decision": "pending",
+        "projects": ["multicursor"]
+    },
+    {
+        "text": "vscode-multi-cursor.nvim",
+        "link": "https://github.com/vscode-neovim/vscode-multi-cursor.nvim",
+        "decision": "pending",
+        "projects": ["multicursor"]
+    },
+    {
+        "text": "multiple-cursors.nvim",
+        "link": "https://github.com/brenton-leighton/multiple-cursors.nvim",
+        "decision": "pending",
+        "projects": ["multicursor"]
+    },
+    {
+        "text": "nvim-multi-cursor",
+        "link": "https://github.com/lincheney/nvim-multi-cursor",
+        "decision": "pending",
+        "projects": ["multicursor"]
     },
     {
         "link": "https://github.com/Saverio976/music.nvim",
@@ -8716,6 +8228,13 @@
         "projects": ["nextStep"]
     },
     {
+        "link": "https://github.com/nvim-orgmode/orgmode",
+        "decision": "pending",
+        "projects": ["nextStep","noteTaking","ricing"],
+        "rating": 4.22222,
+        "description": "Orgmode clone written in Lua for Neovim 0.10.3+."
+    },
+    {
         "link": "https://github.com/folke/neodev.nvim",
         "decision": "pending",
         "projects": ["nextStep","pluginDevelopment","proglangSpecific"]
@@ -8723,7 +8242,7 @@
     {
         "link": "https://github.com/natecraddock/workspaces.nvim",
         "decision": "pending",
-        "projects": ["nextStep","projectConfig","unsortedProject"]
+        "projects": ["nextStep","projectConfig"]
     },
     {
         "link": "https://github.com/LnL7/vim-nix",
@@ -9374,6 +8893,12 @@
         "projects": ["nvimTerminal"]
     },
     {
+        "link": "https://github.com/m4xshen/hardtime.nvim",
+        "decision": "pending",
+        "projects": ["nvimTraining"],
+        "description": "Break bad habits, master Vim motions <#> Show HN: Hardtime.nvim – break bad habits and master Vim motions  <#> hardtime.nvim is a Neovim plugin designed to help users break bad habits and improve their command of Vim motions by blocking repeated keystrokes, providing hints for motions, and reporting common mistakes. It encourages optimal workflows for navigation using standard Vim commands instead of relying on arrow keys or the mouse.#Neovim #Vim #CodingTips"
+    },
+    {
         "link": "https://github.com/xiantang/coach.nvim",
         "decision": "pending",
         "projects": ["nvimTraining"]
@@ -9459,6 +8984,91 @@
         "link": "https://github.com/metalelf0/supermover.nvim",
         "decision": "pending",
         "projects": ["open"]
+    },
+    {
+        "link": "https://github.com/gbprod/cutlass.nvim",
+        "decision": "pending",
+        "projects": ["operator"]
+    },
+    {
+        "link": "https://github.com/zdcthomas/yop.nvim",
+        "decision": "pending",
+        "projects": ["operator"]
+    },
+    {
+        "link": "https://github.com/ggandor/leap-ast.nvim",
+        "decision": "pending",
+        "projects": ["operator"]
+    },
+    {
+        "link": "https://github.com/cat-phish/smooth-operator.nvim",
+        "decision": "pending",
+        "projects": ["operator"]
+    },
+    {
+        "link": "https://github.com/monaqa/general-converter.nvim",
+        "decision": "pending",
+        "projects": ["operator"]
+    },
+    {
+        "link": "https://github.com/kana/vim-textobj-line",
+        "decision": "pending",
+        "projects": ["operator"]
+    },
+    {
+        "link": "https://github.com/kana/vim-textobj-user",
+        "decision": "pending",
+        "projects": ["operator"]
+    },
+    {
+        "link": "https://github.com/kana/vim-niceblock",
+        "decision": "pending",
+        "projects": ["operator"]
+    },
+    {
+        "link": "https://github.com/sgur/vim-textobj-parameter",
+        "decision": "pending",
+        "projects": ["operator"]
+    },
+    {
+        "link": "https://github.com/wellle/targets.vim",
+        "decision": "pending",
+        "projects": ["operator"]
+    },
+    {
+        "link": "https://github.com/RRethy/nvim-treesitter-textsubjects",
+        "decision": "pending",
+        "projects": ["operator","textobject"]
+    },
+    {
+        "link": "https://github.com/XXiaoA/ns-textobject.nvim",
+        "decision": "pending",
+        "projects": ["operator","textobject"]
+    },
+    {
+        "link": "https://github.com/mfussenegger/nvim-treehopper",
+        "decision": "pending",
+        "projects": ["operator","textobject"]
+    },
+    {
+        "link": "https://github.com/ggandor/leap-spooky.nvim",
+        "decision": "pending",
+        "projects": ["operator","textobject"]
+    },
+    {
+        "link": "https://github.com/bagohart/textobj-before.nvim",
+        "decision": "pending",
+        "projects": ["operator","textobject"]
+    },
+    {
+        "link": "https://github.com/juselara1/teoj.nvim",
+        "decision": "pending",
+        "projects": ["operator","textobject"]
+    },
+    {
+        "link": "https://github.com/theHamsta/crazy-node-movement",
+        "decision": "pending",
+        "projects": ["operator","textobject"]
     },
     {
         "link": "https://github.com/simrat39/symbols-outline.nvim",
@@ -10171,52 +9781,67 @@
     {
         "link": "https://github.com/klen/nvim-config-local",
         "decision": "pending",
-        "projects": ["projectConfig","unsortedProject"]
+        "projects": ["projectConfig"]
     },
     {
         "link": "https://github.com/fengwk/workspaces-enhancer.nvim",
         "decision": "pending",
-        "projects": ["projectConfig","unsortedProject"]
+        "projects": ["projectConfig"]
     },
     {
         "link": "https://github.com/romainchapou/confiture.nvim",
         "decision": "pending",
-        "projects": ["projectConfig","unsortedProject"]
+        "projects": ["projectConfig"]
     },
     {
         "link": "https://github.com/TymekDev/repos.nvim",
         "decision": "pending",
-        "projects": ["projectConfig","unsortedProject"]
+        "projects": ["projectConfig"]
     },
     {
         "link": "https://github.com/kndndrj/nvim-projector",
         "decision": "pending",
-        "projects": ["projectConfig","unsortedProject"]
+        "projects": ["projectConfig"]
     },
     {
         "link": "https://github.com/guigui64/local.nvim",
         "decision": "pending",
-        "projects": ["projectConfig","unsortedProject"]
+        "projects": ["projectConfig"]
     },
     {
         "link": "https://github.com/DrKGD/nvimlocale.nvim",
         "decision": "pending",
-        "projects": ["projectConfig","unsortedProject"]
+        "projects": ["projectConfig"]
     },
     {
         "link": "https://github.com/mhanberg/workspace-folders.nvim",
         "decision": "pending",
-        "projects": ["projectConfig","unsortedProject"]
+        "projects": ["projectConfig"]
     },
     {
         "link": "https://github.com/jedrzejboczar/exrc.nvim",
         "decision": "pending",
-        "projects": ["projectConfig","unsortedProject"]
+        "projects": ["projectConfig"]
+    },
+    {
+        "text": "Inlayhint-filler.nvim: a small QoL utility for Python Devs ||| Inlayhint-filler.nvim: a small QoL utility for Python Devs",
+        "link": "https://www.reddit.com/r/neovim/s/0koj9o8Mno",
+        "decision": "pending",
+        "projects": ["python"],
+        "rating": 4.22222,
+        "description": "Inlayhint-filler.nvim: a small QoL utility for Python Devs"
     },
     {
         "link": "https://github.com/uloco/bluloco.nvim",
         "decision": "pending",
         "projects": ["python"]
+    },
+    {
+        "link": "https://github.com/eyalk11/speech-to-text.nvim",
+        "decision": "pending",
+        "projects": ["python","ricing"],
+        "rating": 4.22222,
+        "description": "Neovim voice recognition using speech_recognition python lib"
     },
     {
         "link": "https://github.com/nyngwang/NeoWell.lua",
@@ -10565,6 +10190,97 @@
         "rating": 4.22222
     },
     {
+        "link": "https://github.com/justinmk/vim-dirvish",
+        "decision": "pending",
+        "projects": ["ricing"],
+        "rating": 4.22222,
+        "description": "Directory viewer for Vim :zap: netrW => netrL",
+        "reason": "nvim-tree / neotree / yazi"
+    },
+    {
+        "link": "https://github.com/brianhuster/dirvish-do.nvim",
+        "decision": "pending",
+        "projects": ["ricing"],
+        "rating": 4.22222
+    },
+    {
+        "link": "https://github.com/Dan7h3x/neaterm.nvim",
+        "decision": "pending",
+        "projects": ["ricing"],
+        "rating": 4.22222,
+        "description": "A little (smart maybe) terminal plugin for neovim."
+    },
+    {
+        "link": "https://github.com/Hashino/doing.nvim",
+        "decision": "pending",
+        "projects": ["ricing"],
+        "rating": 4.22222,
+        "description": "A minimal task manager for neovim"
+    },
+    {
+        "link": "https://github.com/Kurama622/profile.nvim",
+        "decision": "pending",
+        "projects": ["ricing"],
+        "rating": 4.22222,
+        "description": "Your Personal Homepage"
+    },
+    {
+        "link": "https://github.com/ab-dx/ares.nvim",
+        "decision": "pending",
+        "projects": ["ricing"],
+        "rating": 4.22222,
+        "description": "A warm neovim colorscheme"
+    },
+    {
+        "link": "https://github.com/atiladefreitas/lazyclip",
+        "decision": "pending",
+        "projects": ["ricing"],
+        "rating": 4.22222,
+        "description": "The laziest clipboard manager for Neovim"
+    },
+    {
+        "link": "https://github.com/muhammadzkralla/zpragmatic.nvim",
+        "decision": "pending",
+        "projects": ["ricing"],
+        "rating": 4.22222,
+        "description": "The pragmatic NeoVim plugin."
+    },
+    {
+        "link": "https://github.com/neo451/feed.nvim",
+        "decision": "pending",
+        "projects": ["ricing"],
+        "rating": 4.22222,
+        "description": "Neovim feed reader, rss, atom and jsonfeed, all in lua"
+    },
+    {
+        "link": "https://github.com/nvzone/timerly",
+        "decision": "pending",
+        "projects": ["ricing"],
+        "rating": 4.22222,
+        "description": "Beautiful countdown timer plugin for Neovim"
+    },
+    {
+        "link": "https://github.com/nvzone/typr",
+        "decision": "pending",
+        "projects": ["ricing"],
+        "rating": 4.22222,
+        "description": "Most Beautiful Typing practice plugin for Neovim with dashboard"
+    },
+    {
+        "link": "https://github.com/oskarrrrrrr/symbols.nvim",
+        "decision": "pending",
+        "projects": ["ricing"],
+        "rating": 4.22222,
+        "description": "Code navigation sidebar for Neovim."
+    },
+    {
+        "link": "https://github.com/rezhaTanuharja/minimalistNVIM",
+        "decision": "pending",
+        "projects": ["ricing"],
+        "rating": 4.22222,
+        "description": "A simple and minimalist NVIM configurations, written in Lua."
+    },
+    {
         "link": "https://github.com/luisiacc/gruvbox-baby",
         "decision": "pending",
         "projects": ["ricing"]
@@ -10575,6 +10291,46 @@
         "projects": ["ricing"],
         "rating": 4.22222,
         "description": "Nvim Launch settings for DAP"
+    },
+    {
+        "link": "https://github.com/shaeinst/penvim",
+        "decision": "pending",
+        "projects": ["rootDetector"]
+    },
+    {
+        "link": "https://github.com/kyoh86/climbdir.nvim",
+        "decision": "pending",
+        "projects": ["rootDetector"]
+    },
+    {
+        "link": "https://github.com/notjedi/nvim-rooter.lua",
+        "decision": "pending",
+        "projects": ["rootDetector"]
+    },
+    {
+        "link": "https://github.com/yyk/find-git-root.nvim",
+        "decision": "pending",
+        "projects": ["rootDetector"]
+    },
+    {
+        "link": "https://github.com/desdic/telescope-rooter.nvim",
+        "decision": "pending",
+        "projects": ["rootDetector"]
+    },
+    {
+        "link": "https://github.com/delphinus/rtr.nvim",
+        "decision": "pending",
+        "projects": ["rootDetector"]
+    },
+    {
+        "link": "https://github.com/albenisolmos/autochdir.nvim",
+        "decision": "pending",
+        "projects": ["rootDetector"]
+    },
+    {
+        "link": "https://github.com/gmartsenkov/root.nvim",
+        "decision": "pending",
+        "projects": ["rootDetector"]
     },
     {
         "link": "https://github.com/noorwachid/nvim-rsync",
@@ -10715,6 +10471,26 @@
         "link": "https://github.com/Sonicfury/scretch",
         "decision": "pending",
         "projects": ["scratch"]
+    },
+    {
+        "link": "https://github.com/sbulav/nredir.nvim",
+        "decision": "pending",
+        "projects": ["scratchBuffer"]
+    },
+    {
+        "link": "https://github.com/m-demare/attempt.nvim",
+        "decision": "pending",
+        "projects": ["scratchBuffer"]
+    },
+    {
+        "link": "https://github.com/n-shift/scratch.nvim",
+        "decision": "pending",
+        "projects": ["scratchBuffer"]
+    },
+    {
+        "link": "https://github.com/nyngwang/NeoNoName.lua",
+        "decision": "pending",
+        "projects": ["scratchBuffer"]
     },
     {
         "link": "https://github.com/mattydebie/scs.nvim",
@@ -10872,6 +10648,66 @@
         "link": "https://github.com/romgrk/kui.nvim",
         "decision": "pending",
         "projects": ["scrolling","smooth"]
+    },
+    {
+        "link": "https://github.com/josa42/nvim-telescope-minimal-layout",
+        "decision": "pending",
+        "projects": ["search"]
+    },
+    {
+        "link": "https://github.com/vijaymarupudi/nvim-fzf-commands",
+        "decision": "pending",
+        "projects": ["search"]
+    },
+    {
+        "link": "https://github.com/amirrezaask/fuzzy.nvim",
+        "decision": "pending",
+        "projects": ["search"]
+    },
+    {
+        "link": "https://github.com/RishabhRD/nvim-finder",
+        "decision": "pending",
+        "projects": ["search"]
+    },
+    {
+        "link": "https://github.com/shoumodip/helm.nvim",
+        "decision": "pending",
+        "projects": ["search"]
+    },
+    {
+        "link": "https://github.com/AdeAttwood/ivy.nvim",
+        "decision": "pending",
+        "projects": ["search"]
+    },
+    {
+        "link": "https://github.com/beardedsakimonkey/nvim-ufind",
+        "decision": "pending",
+        "projects": ["search"]
+    },
+    {
+        "link": "https://github.com/cpkio/nvim-fzf-windows",
+        "decision": "pending",
+        "projects": ["search"]
+    },
+    {
+        "link": "https://github.com/romgrk/kirby.nvim",
+        "decision": "pending",
+        "projects": ["search"]
+    },
+    {
+        "link": "https://github.com/haolian9/fond.nvim",
+        "decision": "pending",
+        "projects": ["search"]
+    },
+    {
+        "link": "https://github.com/tani/pickup.nvim",
+        "decision": "pending",
+        "projects": ["search"]
+    },
+    {
+        "link": "https://github.com/linrongbin16/fzfx.nvim",
+        "decision": "pending",
+        "projects": ["search"]
     },
     {
         "link": "https://github.com/alanjcfs/rg.nvim",
@@ -11191,112 +11027,112 @@
     {
         "link": "https://github.com/Shatur/neovim-session-manager",
         "decision": "pending",
-        "projects": ["session","unsortedProject"]
+        "projects": ["session"]
     },
     {
         "link": "https://github.com/LukasPietzschmann/telescope-sessions",
         "decision": "pending",
-        "projects": ["session","unsortedProject"]
+        "projects": ["session"]
     },
     {
         "link": "https://github.com/nyngwang/suave.lua",
         "decision": "pending",
-        "projects": ["session","unsortedProject"]
+        "projects": ["session"]
     },
     {
         "link": "https://github.com/pluffie/neoproj",
         "decision": "pending",
-        "projects": ["session","unsortedProject"]
+        "projects": ["session"]
     },
     {
         "link": "https://github.com/jedrzejboczar/possession.nvim",
         "decision": "pending",
-        "projects": ["session","unsortedProject"]
+        "projects": ["session"]
     },
     {
         "link": "https://github.com/stevearc/resession.nvim",
         "decision": "pending",
-        "projects": ["session","unsortedProject"]
+        "projects": ["session"]
     },
     {
         "link": "https://github.com/olimorris/persisted.nvim",
         "decision": "pending",
-        "projects": ["session","unsortedProject"]
+        "projects": ["session"]
     },
     {
         "link": "https://github.com/natecraddock/sessions.nvim",
         "decision": "pending",
-        "projects": ["session","unsortedProject"]
+        "projects": ["session"]
     },
     {
         "link": "https://github.com/GnikDroy/projections.nvim",
         "decision": "pending",
-        "projects": ["session","unsortedProject"]
+        "projects": ["session"]
     },
     {
         "link": "https://github.com/TimotheeSai/git-sessions.nvim",
         "decision": "pending",
-        "projects": ["session","unsortedProject"]
+        "projects": ["session"]
     },
     {
         "link": "https://github.com/EricDriussi/remember-me.nvim",
         "decision": "pending",
-        "projects": ["session","unsortedProject"]
+        "projects": ["session"]
     },
     {
         "link": "https://github.com/gennaro-tedesco/nvim-possession",
         "decision": "pending",
-        "projects": ["session","unsortedProject"]
+        "projects": ["session"]
     },
     {
         "link": "https://github.com/lukamanitta/branchsession.nvim",
         "decision": "pending",
-        "projects": ["session","unsortedProject"]
+        "projects": ["session"]
     },
     {
         "link": "https://github.com/niuiic/multiple-session.nvim",
         "decision": "pending",
-        "projects": ["session","unsortedProject"]
+        "projects": ["session"]
     },
     {
         "link": "https://github.com/Trouble-Truffle/sesh.nvim",
         "decision": "pending",
-        "projects": ["session","unsortedProject"]
+        "projects": ["session"]
     },
     {
         "link": "https://github.com/liouk/jam-sessions.nvim",
         "decision": "pending",
-        "projects": ["session","unsortedProject"]
+        "projects": ["session"]
     },
     {
         "link": "https://github.com/NiamhFerns/sesh.nvim",
         "decision": "pending",
-        "projects": ["session","unsortedProject"]
+        "projects": ["session"]
     },
     {
         "link": "https://github.com/RutaTang/spectacle.nvim",
         "decision": "pending",
-        "projects": ["session","unsortedProject"]
+        "projects": ["session"]
     },
     {
         "link": "https://github.com/Sammyalhashe/session_manager.nvim",
         "decision": "pending",
-        "projects": ["session","unsortedProject"]
+        "projects": ["session"]
     },
     {
         "link": "https://github.com/AbaoFromCUG/session.nvim",
         "decision": "pending",
-        "projects": ["session","unsortedProject"]
+        "projects": ["session"]
     },
     {
         "link": "https://github.com/keaising/startup.nvim",
         "decision": "pending",
-        "projects": ["session","unsortedProject"]
+        "projects": ["session"]
     },
     {
         "link": "https://github.com/Febri-i/resurrect.nvim",
         "decision": "pending",
-        "projects": ["session","unsortedProject"]
+        "projects": ["session"]
     },
     {
         "link": "https://github.com/ojroques/nvim-buildme",
@@ -11866,6 +11702,30 @@
         "projects": ["statusline"]
     },
     {
+        "text": "iswap.nvim",
+        "link": "https://github.com/mizlan/iswap.nvim",
+        "decision": "pending",
+        "projects": ["swap"]
+    },
+    {
+        "text": "binary-swap.nvim",
+        "link": "https://github.com/Wansmer/binary-swap.nvim",
+        "decision": "pending",
+        "projects": ["swap"]
+    },
+    {
+        "text": "sibling-swap.nvim",
+        "link": "https://github.com/Wansmer/sibling-swap.nvim",
+        "decision": "pending",
+        "projects": ["swap"]
+    },
+    {
+        "text": "swap-ternary.nvim",
+        "link": "https://github.com/xlboy/swap-ternary.nvim",
+        "decision": "pending",
+        "projects": ["swap"]
+    },
+    {
         "text": "telescope-repo.nvim",
         "link": "https://cj.rs/telescope-repo-nvim",
         "decision": "pending",
@@ -11960,6 +11820,146 @@
         "link": "https://github.com/junegunn/vim-easy-align",
         "decision": "pending",
         "projects": ["tabulation"]
+    },
+    {
+        "link": "https://github.com/sheodox/projectlaunch.nvim",
+        "decision": "pending",
+        "projects": ["taskRunning"]
+    },
+    {
+        "link": "https://github.com/EthanJWright/vs-tasks.nvim",
+        "decision": "pending",
+        "projects": ["taskRunning"]
+    },
+    {
+        "link": "https://github.com/Dax89/automaton.nvim",
+        "decision": "pending",
+        "projects": ["taskRunning"]
+    },
+    {
+        "link": "https://github.com/Arjun31415/BuildTask.nvim",
+        "decision": "pending",
+        "projects": ["taskRunning"]
+    },
+    {
+        "link": "https://github.com/jjocram/nvim-run",
+        "decision": "pending",
+        "projects": ["taskRunning"]
+    },
+    {
+        "link": "https://github.com/sakuemon/telescope-overseer.nvim",
+        "decision": "pending",
+        "projects": ["taskRunning"]
+    },
+    {
+        "link": "https://github.com/amirrezaask/actions.nvim",
+        "decision": "pending",
+        "projects": ["taskRunning"]
+    },
+    {
+        "link": "https://github.com/GustavoKatel/tasks.nvim",
+        "decision": "pending",
+        "projects": ["taskRunning"]
+    },
+    {
+        "link": "https://github.com/antonk52/amake.nvim",
+        "decision": "pending",
+        "projects": ["taskRunning"]
+    },
+    {
+        "link": "https://github.com/charlie39/OneStop.nvim",
+        "decision": "pending",
+        "projects": ["taskRunning"]
+    },
+    {
+        "link": "https://github.com/desdic/greyjoy.nvim",
+        "decision": "pending",
+        "projects": ["taskRunning"]
+    },
+    {
+        "link": "https://github.com/LucasTavaresA/command.nvim",
+        "decision": "pending",
+        "projects": ["taskRunning"]
+    },
+    {
+        "link": "https://github.com/4542elgh/telescope-scratch-run.nvim",
+        "decision": "pending",
+        "projects": ["taskRunning"]
+    },
+    {
+        "link": "https://github.com/yaanae/actions.nvim",
+        "decision": "pending",
+        "projects": ["taskRunning"]
+    },
+    {
+        "link": "https://github.com/devkvlt/floaty.nvim",
+        "decision": "pending",
+        "projects": ["taskRunning"]
+    },
+    {
+        "link": "https://github.com/LucLabarriere/light-projects.nvim",
+        "decision": "pending",
+        "projects": ["taskRunning"]
+    },
+    {
+        "link": "https://github.com/Comamoca/runit.nvim",
+        "decision": "pending",
+        "projects": ["taskRunning"]
+    },
+    {
+        "link": "https://github.com/google/executor.nvim",
+        "decision": "pending",
+        "projects": ["taskRunning"]
+    },
+    {
+        "link": "https://github.com/neysanfoo/coderunner.nvim",
+        "decision": "pending",
+        "projects": ["taskRunning"]
+    },
+    {
+        "link": "https://github.com/Walcriz/action-lists.nvim",
+        "decision": "pending",
+        "projects": ["taskRunning"]
+    },
+    {
+        "link": "https://github.com/LiamFenneman/quick-run.nvim",
+        "decision": "pending",
+        "projects": ["taskRunning"]
+    },
+    {
+        "link": "https://github.com/serrexlabs/sketch.nvim",
+        "decision": "pending",
+        "projects": ["taskRunning"]
+    },
+    {
+        "link": "https://github.com/s3dman/rundi.nvim",
+        "decision": "pending",
+        "projects": ["taskRunning"]
+    },
+    {
+        "link": "https://github.com/trimclain/builder.nvim",
+        "decision": "pending",
+        "projects": ["taskRunning"]
+    },
+    {
+        "link": "https://github.com/dasupradyumna/launch.nvim",
+        "decision": "pending",
+        "projects": ["taskRunning"]
+    },
+    {
+        "link": "https://github.com/ej-shafran/compile-mode.nvim",
+        "decision": "pending",
+        "projects": ["taskRunning"]
+    },
+    {
+        "link": "https://github.com/treemcgee42/custom-compile.nvim",
+        "decision": "pending",
+        "projects": ["taskRunning"]
+    },
+    {
+        "link": "https://github.com/616b2f/bsp.nvim",
+        "decision": "pending",
+        "projects": ["taskRunning"]
     },
     {
         "link": "https://github.com/BeatScherrer/just.nvim",

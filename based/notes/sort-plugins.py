@@ -2,7 +2,7 @@ import json
 from pathlib import Path
 from collections import Counter
 
-path = Path("/Users/ext_riley/repos/nvim-config/based/notes/plugins.json")
+path = Path("/Users/ext_riley/repos/nvim-config/based/notes/pending.json")
 d = json.loads(path.read_text())
 for x in d:
     x["projects"] = sorted(set(x["projects"]))
@@ -41,8 +41,8 @@ projects = []
 for x in d:
     if (x["decision"] == "trying") and (x["link"].lower() not in selected):
         print(x["link"])
-    if x["decision"] == "pending":
-        projects.extend(set(x["projects"]))
+    # if x["decision"] != "pending":
+    projects.extend(set(x["projects"]))
 
 
 for k, v in Counter(projects).most_common():

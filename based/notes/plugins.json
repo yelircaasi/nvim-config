@@ -445,22 +445,22 @@
     {
         "link": "https://github.com/kylechui/nvim-surround",
         "decision": "trying",
-        "projects": ["auto","conversion","editingEnhancement"]
+        "projects": ["autoConversion"]
     },
     {
         "link": "https://github.com/machakann/vim-sandwich",
         "decision": "trying",
-        "projects": ["auto","conversion","editingEnhancement"]
+        "projects": ["autoConversion"]
     },
     {
         "link": "https://github.com/HiPhish/rainbow-delimiters.nvim",
         "decision": "trying",
-        "projects": ["auto","conversion","editingEnhancement"]
+        "projects": ["autoConversion"]
     },
     {
         "link": "https://github.com/echasnovski/mini.bracketed",
         "decision": "trying",
-        "projects": ["auto","conversion","editingEnhancement"]
+        "projects": ["autoConversion"]
     },
     {
         "link": "https://github.com/stevearc/stickybuf.nvim",
@@ -546,7 +546,7 @@
     {
         "link": "https://github.com/pianocomposer321/yabs.nvim",
         "decision": "trying",
-        "projects": ["commandStyle","execFromConfigFile","taskRunning"]
+        "projects": ["commandStyle","taskRunning"]
     },
     {
         "link": "https://github.com/tpope/vim-commentary",
@@ -657,11 +657,6 @@
         "link": "https://github.com/echasnovski/mini.doc",
         "decision": "trying",
         "projects": ["docs","help"]
-    },
-    {
-        "link": "https://github.com/echasnovski/mini.jump2d",
-        "decision": "trying",
-        "projects": ["easymotion","editingExtension","navigation","next"]
     },
     {
         "link": "https://github.com/hrsh7th/nvim-insx",
@@ -804,21 +799,6 @@
         "projects": ["fileBrowser"]
     },
     {
-        "link": "https://github.com/nvim-telescope/telescope.nvim",
-        "decision": "trying",
-        "projects": ["finder","search"]
-    },
-    {
-        "link": "https://github.com/echasnovski/mini.fuzzy",
-        "decision": "trying",
-        "projects": ["finder","search"]
-    },
-    {
-        "link": "https://github.com/echasnovski/mini.pick",
-        "decision": "trying",
-        "projects": ["finder","search"]
-    },
-    {
         "link": "https://github.com/kevinhwang91/nvim-ufo",
         "decision": "trying",
         "projects": ["folding"]
@@ -914,6 +894,11 @@
         "link": "https://github.com/echasnovski/mini.indentscope",
         "decision": "trying",
         "projects": ["indentation","size"]
+    },
+    {
+        "link": "https://github.com/echasnovski/mini.jump2d",
+        "decision": "trying",
+        "projects": ["intraFileNavigation","next"]
     },
     {
         "link": "https://github.com/b0o/SchemaStore.nvim",
@@ -1104,6 +1089,21 @@
         "projects": ["scrolling","smooth"]
     },
     {
+        "link": "https://github.com/nvim-telescope/telescope.nvim",
+        "decision": "trying",
+        "projects": ["search"]
+    },
+    {
+        "link": "https://github.com/echasnovski/mini.fuzzy",
+        "decision": "trying",
+        "projects": ["search"]
+    },
+    {
+        "link": "https://github.com/echasnovski/mini.pick",
+        "decision": "trying",
+        "projects": ["search"]
+    },
+    {
         "link": "https://github.com/chentoast/marks.nvim",
         "decision": "trying",
         "projects": ["search"]
@@ -1116,17 +1116,17 @@
     {
         "link": "https://github.com/rmagatti/auto-session",
         "decision": "trying",
-        "projects": ["session","unsortedProject"]
+        "projects": ["session"]
     },
     {
         "link": "https://github.com/folke/persistence.nvim",
         "decision": "trying",
-        "projects": ["session","unsortedProject"]
+        "projects": ["session"]
     },
     {
         "link": "https://github.com/echasnovski/mini.sessions",
         "decision": "trying",
-        "projects": ["session","unsortedProject"]
+        "projects": ["session"]
     },
     {
         "link": "https://github.com/L3MON4D3/LuaSnip",
@@ -1352,17 +1352,12 @@
     {
         "link": "https://github.com/is0n/jaq-nvim",
         "decision": "next",
-        "projects": ["commandStyle","execFromConfigFile","taskRunning"]
+        "projects": ["commandStyle","taskRunning"]
     },
     {
         "link": "https://github.com/resonyze/doc-window.nvim",
         "decision": "next",
         "projects": ["docs","hover","lsp"]
-    },
-    {
-        "link": "https://github.com/atusy/treemonkey.nvim",
-        "decision": "next",
-        "projects": ["easymotion","editingExtension","navigation","next"]
     },
     {
         "text": "wrapping.nvim",
@@ -1533,6 +1528,11 @@
         "projects": ["git","grep"]
     },
     {
+        "link": "https://github.com/atusy/treemonkey.nvim",
+        "decision": "next",
+        "projects": ["intraFileNavigation","next"]
+    },
+    {
         "text": "winbar.nvim",
         "link": "https://github.com/Alighorab/winbar.nvim",
         "decision": "next",
@@ -1578,7 +1578,7 @@
     {
         "link": "https://github.com/smolovk/projector.nvim",
         "decision": "next",
-        "projects": ["projectConfig","unsortedProject"]
+        "projects": ["projectConfig"]
     },
     {
         "text": "nvim-oxi: Rust bindings to all things Neovim ||| nvim-oxi",
@@ -1990,6 +1990,26 @@
         "projects": ["keybind"]
     },
     {
+        "link": "https://github.com/kbario/homerows.nvim",
+        "decision": "laterA",
+        "projects": ["keybind"]
+    },
+    {
+        "link": "https://github.com/vetsE/bepo.nvim",
+        "decision": "laterA",
+        "projects": ["keybind"]
+    },
+    {
+        "link": "https://github.com/ivanesmantovich/xkbswitch.nvim",
+        "decision": "laterA",
+        "projects": ["keybind"]
+    },
+    {
+        "link": "https://github.com/nativerv/cyrillic.nvim",
+        "decision": "laterA",
+        "projects": ["keybind"]
+    },
+    {
         "link": "https://github.com/afreakk/unimpaired-which-key.nvim",
         "decision": "laterA",
         "projects": ["keybind","search"]
@@ -2018,26 +2038,6 @@
         "link": "https://github.com/Cassin01/wf.nvim",
         "decision": "laterA",
         "projects": ["keybind","search"]
-    },
-    {
-        "link": "https://github.com/kbario/homerows.nvim",
-        "decision": "laterA",
-        "projects": ["keybinding"]
-    },
-    {
-        "link": "https://github.com/vetsE/bepo.nvim",
-        "decision": "laterA",
-        "projects": ["keybinding"]
-    },
-    {
-        "link": "https://github.com/ivanesmantovich/xkbswitch.nvim",
-        "decision": "laterA",
-        "projects": ["keybinding"]
-    },
-    {
-        "link": "https://github.com/nativerv/cyrillic.nvim",
-        "decision": "laterA",
-        "projects": ["keybinding"]
     },
     {
         "link": "https://github.com/elasticrash/kubels.nvim",
@@ -2590,7 +2590,7 @@
     {
         "link": "https://github.com/piersolenski/wtf.nvim",
         "decision": "later",
-        "projects": ["ai","debug","diagnostics","quickfix"]
+        "projects": ["ai","debug","diagnostics"]
     },
     {
         "link": "Mintlify Writer",
@@ -4379,7 +4379,7 @@
     {
         "link": "https://github.com/markemmons/neotest-deno",
         "decision": "later",
-        "projects": ["typescriprt"]
+        "projects": ["typescript"]
     },
     {
         "text": "stylish.nvim",
@@ -4599,7 +4599,7 @@
     {
         "link": "https://github.com/kilisio/nvim-root-dir",
         "decision": "rejected",
-        "projects": ["backburner","rootDetector","unsortedProject"],
+        "projects": ["rootDetector"],
         "reason": "https://github.com/Zeioth/project.nvim"
     },
     {
