@@ -16,6 +16,10 @@ sorter = dict(zip((
     "next",
     "sooner",
     "pending",
+    "laterA",
+    "laterB",
+    "laterC",
+    "laterD",
     "later",
     "extra",
     "rejected",
@@ -29,13 +33,16 @@ print(c)
 
 
 selected = set(
+    x.lower()
+    for x in 
     Path("/Users/ext_riley/repos/nvim-config/testing/selected.txt").read_text().split("\n")
 )
 projects = []
 for x in d:
-    if (x["decision"] == "trying") and (x["link"] not in selected):
+    if (x["decision"] == "trying") and (x["link"].lower() not in selected):
         print(x["link"])
-    projects.extend(set(x["projects"]))
+    if x["decision"] == "pending":
+        projects.extend(set(x["projects"]))
 
 
 for k, v in Counter(projects).most_common():
@@ -65,4 +72,8 @@ c = {k: v for k, v in Counter((x["link"] for x in d)).items() if v > 1}
 print(c)
 
 
-path.write_text(json.dumps(d, indent=4, ensure_ascii=False))
+def reformat(s: str) -> str:
+    return s.replace('[\n            "', '["').replace('"\n        ]', '"]').replace('",\n            "', '","')
+
+
+path.write_text(reformat(json.dumps(d, indent=4, ensure_ascii=False)))
