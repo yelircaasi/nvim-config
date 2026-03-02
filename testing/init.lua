@@ -206,7 +206,8 @@ end
 
 local PLUGIN_DECLARATION = {
 	-- UNSORTED
-	["code_runner"] = "https://github.com/CRAG666/code_runner.nvim OR https://github.com/Leeziao/code_runner.nvim",
+	["nvim_winpick"] = "https://github.com/MarcusGrass/nvim_winpick",
+    ["code_runner"] = "https://github.com/CRAG666/code_runner.nvim OR https://github.com/Leeziao/code_runner.nvim",
 	["illuminate"] = "https://github.com/RRethy/vim-illuminate",
 	["sniprun"] = "https://github.com/michaelb/sniprun",
 	["efm"] = "https://github.com/mattn/efm-langserver",

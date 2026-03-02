@@ -4,19 +4,23 @@ from collections import Counter
 
 path = Path("/Users/ext_riley/repos/nvim-config/based/notes/plugins.json")
 d = json.loads(path.read_text())
-sorter = {
-    "glean": -3,
-    "vendored": -2,
-    "configured": -1,
-    "selected": 0,
-    "vendor": 1,
-    "trying": 2,
-    "next": 3,
-    "prioritized": 4,
-    "pending": 5,
-    "later": 6,
-    "rejected": 7,
-}
+for x in d:
+    x["projects"] = sorted(set(x["projects"]))
+sorter = dict(zip((
+    "glean",
+    "vendored",
+    "configured",
+    "selected",
+    "vendor",
+    "trying",
+    "next",
+    "sooner",
+    "pending",
+    "later",
+    "extra",
+    "rejected",
+    "hack",
+), range(20)))
 d.sort(key=lambda x: (sorter[x["decision"]], x["projects"]))
 c = Counter((x["decision"] for x in d))
 print(c)
