@@ -27,13 +27,12 @@ noteTaking             51  ->pkm
 nvimTerminal           50  K
 highlight              50  ___
 integration            48  ___
-ricing                 46  ___
 quickfix               46  ___
 help                   45  ___
 clipboard              44  ___
 nextStep               42  ___
 dap                    41  ___
-yankPaste              39  ___
+yankPaste              39  ->clipboard
 session                37  ___
 buffer                 36  ___
 status                 36  ___
@@ -70,7 +69,6 @@ external               23  ___
 repl                   23  ___
 pluginUtil             21  ___
 editingExtension       21  ___
-commandStyle           21  ___
 operator               21  ___
 pluginDevelopment      21  ___
 scrolling              21  ___
@@ -105,7 +103,6 @@ nvimLink               14  ___
 manager                13  ___
 rtp                    13  ___
 coverage               13  ___
-dashboard              13  ___
 zen                    13  ___
 windowManagement       13  ___
 projectConfig          13  ___
@@ -142,7 +139,6 @@ specificIntegration     9  ___
 arguments               9  ___
 commandLine             9  ___
 size                    9  ___
-smooth                  9  ___
 aiAssistant             9  ___
 security                9  ___
 csv                     9  ___
@@ -152,7 +148,6 @@ rootDetector            9  ___
 kubernetes              9  ___
 analytics               9  ___
 sql                     9  ___
-nvimCompilation         8  ___
 refactoring             8  M
 popup                   8  ___
 hover                   8  ___
@@ -229,9 +224,6 @@ llama                   5  ->ai+description
 nix                     4  ___
 regex                   4  ___
 progress                4  ___
-execFromConfigFile      4  ->taskRunning
-debugging               4  ___
-ml                      4  ___
 calendar                4  ___
 server                  4  ___
 codeAnalysis            4  ___
@@ -248,9 +240,3 @@ spotify                 4  ___
 scratchBuffer           4  ___
 gtd                     3  ___
 neorg                   3  ___
-autoInsertion           3  ___
-insertion               2  ___
-pair                    2  ___
-config                  1  ___
-nvimFileBrowser         1  ___
-easymotion              1  ___
