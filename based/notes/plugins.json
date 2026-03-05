@@ -244,20 +244,30 @@
         "projects": ["build","taskRunning"]
     },
     {
-        "link": "https://github.com/camilotorresf/icecream.nvim",
-        "decision": "vendor",
-        "projects": ["dap","diagnostics","proglangSpecific","python"]
-    },
-    {
-        "link": "https://github.com/woosaaahh/debugwin.nvim",
-        "decision": "vendor",
-        "projects": ["dap","diagnostics","proglangSpecific","python"]
-    },
-    {
         "text": "refactor.nvim",
         "link": "https://github.com/wakeLanaka/refactor.nvim",
         "decision": "vendor",
         "projects": ["debug","print"]
+    },
+    {
+        "link": "https://github.com/rayzr522/diagnostic-filter.nvim",
+        "decision": "vendor",
+        "projects": ["diagnostics"]
+    },
+    {
+        "link": "https://github.com/jake-stewart/diagnostic-jump.nvim",
+        "decision": "vendor",
+        "projects": ["diagnostics"]
+    },
+    {
+        "link": "https://github.com/camilotorresf/icecream.nvim",
+        "decision": "vendor",
+        "projects": ["diagnostics","proglangSpecific","python"]
+    },
+    {
+        "link": "https://github.com/woosaaahh/debugwin.nvim",
+        "decision": "vendor",
+        "projects": ["diagnostics","proglangSpecific","python"]
     },
     {
         "text": "vim.api.nvim_create_user_command(“LineDiff1”, function(opts) if opts.range > 0 then print(opts.line1, opts.line2) vim.cmd(opts.line1 .. “,” .. opts.line2 .. “y x”) end end, { force = true, range = true })",
@@ -599,7 +609,7 @@
     },
     {
         "link": "https://github.com/madox2/vim-ai",
-        "decision": "trying",
+        "decision": "next",
         "projects": ["ai","llm"]
     },
     {
@@ -827,7 +837,7 @@
     {
         "link": "https://github.com/nvimdev/guard.nvim",
         "decision": "trying",
-        "projects": ["debug","diagnostics","formatting"]
+        "projects": ["diagnostics","formatting"]
     },
     {
         "link": "https://github.com/sindrets/diffview.nvim",
@@ -1330,6 +1340,12 @@
     },
     {
         "link": "https://github.com/pianocomposer321/yabs.nvim",
+        "decision": "rejected",
+        "projects": ["taskRunning"],
+        "reason": "archived"
+    },
+    {
+        "link": "https://github.com/pianocomposer321/officer.nvim",
         "decision": "trying",
         "projects": ["taskRunning"]
     },
@@ -1611,6 +1627,17 @@
         "rating": 4.22222,
         "description": "cmp-nvim-lsp-signature-help",
         "reason": "none"
+    },
+    {
+        "link": "https://github.com/RaafatTurki/corn.nvim",
+        "decision": "next",
+        "projects": ["diagnostics"],
+        "notes": "compare to diagflow.nvim"
+    },
+    {
+        "link": "https://github.com/dgagn/diagflow.nvim",
+        "decision": "next",
+        "projects": ["diagnostics"]
     },
     {
         "link": "https://github.com/Dr-42/error-jump.nvim",
@@ -2334,6 +2361,12 @@
         "notes": "https://www.reddit.com/r/neovim/comments/xx5hhp/introducing_livecommandnvim_preview_the_norm"
     },
     {
+        "link": "https://github.com/andythigpen/nvim-coverage",
+        "decision": "sooner",
+        "projects": ["coverage","testing"],
+        "reason": "none"
+    },
+    {
         "link": "https://github.com/mawkler/modicator.nvim",
         "decision": "sooner",
         "projects": ["editingEnhancement"],
@@ -2738,6 +2771,11 @@
         "decision": "laterB",
         "projects": ["calculator","rosetta"],
         "reason": "none"
+    },
+    {
+        "link": "https://github.com/nvzone/minty",
+        "decision": "laterB",
+        "projects": ["color"]
     },
     {
         "link": "https://github.com/AdeAttwood/ivy.nvim",
@@ -3599,11 +3637,6 @@
         "decision": "later",
         "projects": ["ai","aiAssistant","llm","ml"],
         "dateCreated": "2025-05-27"
-    },
-    {
-        "link": "https://github.com/piersolenski/wtf.nvim",
-        "decision": "later",
-        "projects": ["ai","debug","diagnostics"]
     },
     {
         "link": "Mintlify Writer",
@@ -4855,6 +4888,11 @@
         "link": "https://github.com/mrvaita/sqlrun.nvim",
         "decision": "later",
         "projects": ["database","proglangSpecific","sql"]
+    },
+    {
+        "link": "https://github.com/piersolenski/wtf.nvim",
+        "decision": "later",
+        "projects": ["diagnostics"]
     },
     {
         "link": "https://github.com/gennaro-tedesco/nvim-jqx",
@@ -7661,7 +7699,7 @@
     },
     {
         "link": "https://github.com/gbprod/yanky.nvim",
-        "decision": "rejected",
+        "decision": "next",
         "projects": ["clipboard","yankPaste"],
         "reason": "none"
     },
@@ -9071,12 +9109,6 @@
         "reason": "none"
     },
     {
-        "link": "https://github.com/freddyJarva/testfile.nvim",
-        "decision": "rejected",
-        "projects": ["coverage","testing"],
-        "reason": "none"
-    },
-    {
         "text": "vim-test testing",
         "link": "https://github.com/vim-test/vim-test",
         "decision": "rejected",
@@ -9085,12 +9117,6 @@
     },
     {
         "link": "https://github.com/rcarriga/vim-ultest",
-        "decision": "rejected",
-        "projects": ["coverage","testing"],
-        "reason": "none"
-    },
-    {
-        "link": "https://github.com/andythigpen/nvim-coverage",
         "decision": "rejected",
         "projects": ["coverage","testing"],
         "reason": "none"
@@ -9501,186 +9527,6 @@
         "reason": "none"
     },
     {
-        "link": "https://github.com/isaksamsten/better-virtual-text.nvim",
-        "decision": "rejected",
-        "projects": ["debug","diagnostics"],
-        "reason": "none"
-    },
-    {
-        "link": "https://github.com/RaafatTurki/corn.nvim",
-        "decision": "rejected",
-        "projects": ["debug","diagnostics"],
-        "reason": "none"
-    },
-    {
-        "link": "https://github.com/dgagn/diagflow.nvim",
-        "decision": "rejected",
-        "projects": ["debug","diagnostics"],
-        "reason": "none"
-    },
-    {
-        "link": "https://github.com/onsails/diaglist.nvim",
-        "decision": "rejected",
-        "projects": ["debug","diagnostics"],
-        "reason": "none"
-    },
-    {
-        "link": "https://github.com/rayzr522/diagnostic-filter.nvim",
-        "decision": "rejected",
-        "projects": ["debug","diagnostics"],
-        "reason": "none"
-    },
-    {
-        "link": "https://github.com/jake-stewart/diagnostic-jump.nvim",
-        "decision": "rejected",
-        "projects": ["debug","diagnostics"],
-        "reason": "none"
-    },
-    {
-        "link": "https://github.com/cseickel/diagnostic-window.nvim",
-        "decision": "rejected",
-        "projects": ["debug","diagnostics"],
-        "reason": "none"
-    },
-    {
-        "link": "https://github.com/m-gail/diagnostic_manipulation.nvim",
-        "decision": "rejected",
-        "projects": ["debug","diagnostics"],
-        "reason": "none"
-    },
-    {
-        "link": "https://github.com/kaputi/e-kaput.nvim",
-        "decision": "rejected",
-        "projects": ["debug","diagnostics"],
-        "reason": "none"
-    },
-    {
-        "link": "https://github.com/chikko80/error-lens.nvim",
-        "decision": "rejected",
-        "projects": ["debug","diagnostics"],
-        "reason": "none"
-    },
-    {
-        "link": "https://github.com/haolian9/linters.nvim",
-        "decision": "rejected",
-        "projects": ["debug","diagnostics"],
-        "reason": "none"
-    },
-    {
-        "link": "https://github.com/stefanwatt/lsp-lines.nvim",
-        "decision": "rejected",
-        "projects": ["debug","diagnostics"],
-        "reason": "none"
-    },
-    {
-        "link": "https://github.com/luozhiya/lsp-virtual-improved.nvim",
-        "decision": "rejected",
-        "projects": ["debug","diagnostics"],
-        "reason": "none"
-    },
-    {
-        "link": "https://github.com/ksyasuda/lsp_lines.nvim",
-        "decision": "rejected",
-        "projects": ["debug","diagnostics"],
-        "reason": "none"
-    },
-    {
-        "link": "https://github.com/suliatis/mess-around.nvim",
-        "decision": "rejected",
-        "projects": ["debug","diagnostics"],
-        "reason": "none"
-    },
-    {
-        "link": "https://github.com/TomDeneire/notify-diagnostics.nvim",
-        "decision": "rejected",
-        "projects": ["debug","diagnostics"],
-        "reason": "none"
-    },
-    {
-        "link": "https://github.com/idanarye/nvim-buffls",
-        "decision": "rejected",
-        "projects": ["debug","diagnostics"],
-        "reason": "none"
-    },
-    {
-        "link": "https://github.com/Kasama/nvim-custom-diagnostic-highlight",
-        "decision": "rejected",
-        "projects": ["debug","diagnostics"],
-        "reason": "none"
-    },
-    {
-        "link": "https://github.com/yorickpeterse/nvim-dd",
-        "decision": "rejected",
-        "projects": ["debug","diagnostics"],
-        "reason": "none"
-    },
-    {
-        "link": "https://github.com/lithammer/nvim-diagnosticls",
-        "decision": "rejected",
-        "projects": ["debug","diagnostics"],
-        "reason": "none"
-    },
-    {
-        "link": "https://github.com/cdecompilador/rcd.nvim",
-        "decision": "rejected",
-        "projects": ["debug","diagnostics"],
-        "reason": "none"
-    },
-    {
-        "link": "https://github.com/santigo-zero/right-corner-diagnostics.nvim",
-        "decision": "rejected",
-        "projects": ["debug","diagnostics"],
-        "reason": "none"
-    },
-    {
-        "link": "https://github.com/casonadams/simple-diagnostics.nvim",
-        "decision": "rejected",
-        "projects": ["debug","diagnostics"],
-        "reason": "none"
-    },
-    {
-        "link": "https://github.com/WhoIsSethDaniel/toggle-lsp-diagnostics.nvim",
-        "decision": "rejected",
-        "projects": ["debug","diagnostics"],
-        "reason": "none"
-    },
-    {
-        "link": "https://github.com/Mofiqul/trld.nvim",
-        "decision": "rejected",
-        "projects": ["debug","diagnostics"],
-        "reason": "none"
-    },
-    {
-        "link": "https://github.com/ivanjermakov/troublesum.nvim",
-        "decision": "rejected",
-        "projects": ["debug","diagnostics"],
-        "reason": "none"
-    },
-    {
-        "link": "https://github.com/nicolomaioli/wtfm.nvim",
-        "decision": "rejected",
-        "projects": ["debug","diagnostics"],
-        "reason": "none"
-    },
-    {
-        "link": "https://github.com/0oAstro/dim.lua",
-        "decision": "rejected",
-        "projects": ["debug","diagnostics"],
-        "reason": "none"
-    },
-    {
-        "link": "https://github.com/askfiy/lsp_extra_dim",
-        "decision": "rejected",
-        "projects": ["debug","diagnostics"],
-        "reason": "none"
-    },
-    {
-        "link": "https://github.com/zbirenbaum/neodim",
-        "decision": "rejected",
-        "projects": ["debug","diagnostics"],
-        "reason": "none"
-    },
-    {
         "text": "debugprint.nvim",
         "link": "https://github.com/andrewferrier/debugprint.nvim",
         "decision": "rejected",
@@ -9706,6 +9552,163 @@
         "link": "https://github.com/PatschD/zippy.nvim",
         "decision": "rejected",
         "projects": ["debug","print"],
+        "reason": "none"
+    },
+    {
+        "link": "https://github.com/isaksamsten/better-virtual-text.nvim",
+        "decision": "rejected",
+        "projects": ["diagnostics"],
+        "notes": "compare to corn.nvim",
+        "reason": "none"
+    },
+    {
+        "link": "https://github.com/onsails/diaglist.nvim",
+        "decision": "rejected",
+        "projects": ["diagnostics"],
+        "reason": "none"
+    },
+    {
+        "link": "https://github.com/cseickel/diagnostic-window.nvim",
+        "decision": "rejected",
+        "projects": ["diagnostics"],
+        "reason": "none"
+    },
+    {
+        "link": "https://github.com/m-gail/diagnostic_manipulation.nvim",
+        "decision": "rejected",
+        "projects": ["diagnostics"],
+        "reason": "none"
+    },
+    {
+        "link": "https://github.com/kaputi/e-kaput.nvim",
+        "decision": "rejected",
+        "projects": ["diagnostics"],
+        "reason": "none"
+    },
+    {
+        "link": "https://github.com/chikko80/error-lens.nvim",
+        "decision": "rejected",
+        "projects": ["diagnostics"],
+        "reason": "none"
+    },
+    {
+        "link": "https://github.com/haolian9/linters.nvim",
+        "decision": "rejected",
+        "projects": ["diagnostics"],
+        "reason": "none"
+    },
+    {
+        "link": "https://github.com/stefanwatt/lsp-lines.nvim",
+        "decision": "rejected",
+        "projects": ["diagnostics"],
+        "reason": "none"
+    },
+    {
+        "link": "https://github.com/luozhiya/lsp-virtual-improved.nvim",
+        "decision": "rejected",
+        "projects": ["diagnostics"],
+        "reason": "none"
+    },
+    {
+        "link": "https://github.com/ksyasuda/lsp_lines.nvim",
+        "decision": "rejected",
+        "projects": ["diagnostics"],
+        "reason": "none"
+    },
+    {
+        "link": "https://github.com/suliatis/mess-around.nvim",
+        "decision": "rejected",
+        "projects": ["diagnostics"],
+        "reason": "none"
+    },
+    {
+        "link": "https://github.com/TomDeneire/notify-diagnostics.nvim",
+        "decision": "rejected",
+        "projects": ["diagnostics"],
+        "reason": "none"
+    },
+    {
+        "link": "https://github.com/idanarye/nvim-buffls",
+        "decision": "rejected",
+        "projects": ["diagnostics"],
+        "reason": "none"
+    },
+    {
+        "link": "https://github.com/Kasama/nvim-custom-diagnostic-highlight",
+        "decision": "rejected",
+        "projects": ["diagnostics"],
+        "reason": "none"
+    },
+    {
+        "link": "https://github.com/yorickpeterse/nvim-dd",
+        "decision": "rejected",
+        "projects": ["diagnostics"],
+        "reason": "none"
+    },
+    {
+        "link": "https://github.com/lithammer/nvim-diagnosticls",
+        "decision": "rejected",
+        "projects": ["diagnostics"],
+        "reason": "none"
+    },
+    {
+        "link": "https://github.com/cdecompilador/rcd.nvim",
+        "decision": "rejected",
+        "projects": ["diagnostics"],
+        "reason": "none"
+    },
+    {
+        "link": "https://github.com/santigo-zero/right-corner-diagnostics.nvim",
+        "decision": "rejected",
+        "projects": ["diagnostics"],
+        "reason": "none"
+    },
+    {
+        "link": "https://github.com/casonadams/simple-diagnostics.nvim",
+        "decision": "rejected",
+        "projects": ["diagnostics"],
+        "reason": "none"
+    },
+    {
+        "link": "https://github.com/WhoIsSethDaniel/toggle-lsp-diagnostics.nvim",
+        "decision": "rejected",
+        "projects": ["diagnostics"],
+        "reason": "none"
+    },
+    {
+        "link": "https://github.com/Mofiqul/trld.nvim",
+        "decision": "rejected",
+        "projects": ["diagnostics"],
+        "reason": "none"
+    },
+    {
+        "link": "https://github.com/ivanjermakov/troublesum.nvim",
+        "decision": "rejected",
+        "projects": ["diagnostics"],
+        "reason": "none"
+    },
+    {
+        "link": "https://github.com/nicolomaioli/wtfm.nvim",
+        "decision": "rejected",
+        "projects": ["diagnostics"],
+        "reason": "none"
+    },
+    {
+        "link": "https://github.com/0oAstro/dim.lua",
+        "decision": "rejected",
+        "projects": ["diagnostics"],
+        "reason": "none"
+    },
+    {
+        "link": "https://github.com/askfiy/lsp_extra_dim",
+        "decision": "rejected",
+        "projects": ["diagnostics"],
+        "reason": "none"
+    },
+    {
+        "link": "https://github.com/zbirenbaum/neodim",
+        "decision": "rejected",
+        "projects": ["diagnostics"],
         "reason": "none"
     },
     {
@@ -19683,6 +19686,12 @@
         "projects": [""],
         "rating": 4.22222,
         "description": "Your Personal Homepage",
+        "reason": "none"
+    },
+    {
+        "link": "https://github.com/freddyJarva/testfile.nvim",
+        "decision": "hack",
+        "projects": ["coverage","testing"],
         "reason": "none"
     },
     {

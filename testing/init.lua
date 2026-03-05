@@ -68,12 +68,13 @@ local PLUGINS = {
 	-- LAYER 0: foundation, colors, search, core navigation ===============================================================================
 	------ core dependencies
 	"plenary",
-	"nvim-nio",
+	"nio",
 	"nvim-web-devicons",
 	"nui",
 	------ core setup and UI
 	"bamboo",
 	"zen-mode",
+	"illuminate",
 	"lualine",
 	"nvim-navic",
 	"bufferline",
@@ -93,18 +94,19 @@ local PLUGINS = {
 	"telescope",
 	"telescope-fzf-native",
 	"fzf-lua",
-	"nvim-deck",
+	"deck",
 	------ suites
 	"mini",
 	"snacks",
 	"blink",
 	------ search
-	"nvim-hlslens",
+	"hlslens",
 	"hlsearch",
 	------ find-and-replace
 	"grug-far",
-	"nvim-spectre",
+	"spectre",
 	------ layout & buffer/tab navigation
+	"nvim_winpick",
 	"flybuf",
 	"stickybuf",
 	"swm",
@@ -204,25 +206,37 @@ local function build_blink_cmp()
     print("TODO")
 end
 
+local printv = function(msg)
+	if BE_VERBOSE then
+		print(msg)
+	end
+end
+
+local function printb(msg)
+	local bar = string.rep("=", 120)
+	local end_bar = string.rep("=", 115 - string.len(msg))
+	print(bar)
+	print("=== " .. msg .. " " .. end_bar)
+	print(bar)
+end
+
 local PLUGIN_DECLARATION = {
-	-- UNSORTED
-	["nvim_winpick"] = "https://github.com/MarcusGrass/nvim_winpick",
-    ["code_runner"] = "https://github.com/CRAG666/code_runner.nvim OR https://github.com/Leeziao/code_runner.nvim",
-	["illuminate"] = "https://github.com/RRethy/vim-illuminate",
-	["sniprun"] = "https://github.com/michaelb/sniprun",
-	["efm"] = "https://github.com/mattn/efm-langserver",
-	["yabs"] = "https://github.com/pianocomposer321/yabs.nvim",
-	["ai"] = "https://github.com/madox2/vim-ai",
-	["compiler"] = "https://github.com/Zeioth/compiler.nvim",
-	-- LAYER 0: foundation, colors, search, core navigation ===============================================================================
-	------ core dependencies
+	--===================================================================================================================================
+	--==== LAYER 0: foundation, colors, search, core navigation =========================================================================
+	--===================================================================================================================================
+	------------------------------
+	------ core dependencies -----
+	------------------------------
 	["plenary"]         = { id = "nvim-lua/plenary.nvim",     expander = gh, lazy = false },
-	["nvim-nio"]        = { id = "nvim-neotest/nvim-nio",     expander = gh, lazy = false },
+	["nio"]        = { id = "nvim-neotest/nvim-nio",     expander = gh, lazy = false },
 	["nvim-web-devicons"] = { id = "nvim-tree/nvim-web-devicons", expander = gh, lazy = false }, -- needs nix
 	["nui"]             = { id = "MunifTanjim/nui.nvim",      expander = gh, lazy = false }, -- needs nix
-	------ core setup and UI
+	-----------------------------─
+	------ core setup and UI -----
+	------------------------------
 	["bamboo"]          = { id = "ribru17/bamboo.nvim",       expander = gh, lazy = false },
 	["zen-mode"]        = { id = "folke/zen-mode.nvim",       expander = gh, lazy = false },
+	["illuminate"]      = { id = "RRethy/vim-illuminate",     expander = gh, lazy = false },
 	["lualine"]         = { id = "nvim-lualine/lualine.nvim", expander = gh, lazy = false },
 	["nvim-navic"]      = { id = "SmiteshP/nvim-navic",       expander = gh, lazy = false }, -- needs nix
 	["bufferline"]      = { id = "akinsho/bufferline.nvim",   expander = gh, lazy = false }, -- needs nix
@@ -232,67 +246,102 @@ local PLUGIN_DECLARATION = {
 	["dropbar"]         = { id = "Bekaboo/dropbar.nvim",      expander = gh, lazy = false }, -- needs nix
 	["nvim-navbuddy"]   = { id = "SmiteshP/nvim-navbuddy",    expander = gh, lazy = false, deps = { "nui" } }, -- needs nix
 	["aerial"]          = { id = "stevearc/aerial.nvim",      expander = gh, lazy = false }, -- needs nix
-	------ file explorer (as central focus)
+	---------------------------------------------
+	------ file explorer (as central focus) -----
+	---------------------------------------------
 	["oil"]             = { id = "stevearc/oil.nvim",         expander = gh, lazy = false },
 	["yazi"]            = { id = "mikavilpas/yazi.nvim",      expander = gh, lazy = false },
 	["neo-tree"]        = { id = "nvim-neo-tree/neo-tree.nvim", expander = gh, lazy = false }, -- needs nix
 	["nvim-tree"]       = { id = "nvim-tree/nvim-tree.lua",   expander = gh, lazy = false }, -- needs nix
-	------ picker / search
+	----------------------------
+	------ picker / search -----
+	----------------------------
 	["pickme"]          = { id = "2KAbhishek/pickme.nvim",    expander = gh, lazy = false },
 	["telescope"]       = { id = "nvim-telescope/telescope.nvim", expander = gh, lazy = false },
 	["telescope-fzf-native"] = { id = "nvim-telescope/telescope-fzf-native.nvim", expander = gh, lazy = false },
 	["fzf-lua"]         = { id = "ibhagwan/fzf-lua",          expander = gh, lazy = false }, -- needs nix
-	["nvim-deck"]       = { id = "hrsh7th/nvim-deck",         expander = gh, lazy = false }, -- needs nix
-	------ suites
+	["deck"]       = { id = "hrsh7th/nvim-deck",         expander = gh, lazy = false }, -- needs nix
+	-------------------
+	------ suites -----
+	-------------------
 	["mini"]            = { id = "nvim-mini/mini.nvim",       expander = gh, lazy = false },
 	["snacks"]          = { id = "folke/snacks.nvim",         expander = gh, lazy = false },
 	["blink"]           = { id = "saghen/blink.nvim",         expander = gh, lazy = false }, -- needs nix
-	------ search
-	["nvim-hlslens"]    = { id = "kevinhwang91/nvim-hlslens", expander = gh, lazy = false }, -- needs nix
+	-------------------
+	------ search -----
+	-------------------
+	["hlslens"]    = { id = "kevinhwang91/nvim-hlslens", expander = gh, lazy = false }, -- needs nix
 	["hlsearch"]        = { id = "nvimdev/hlsearch.nvim",     expander = gh, lazy = false }, -- needs nix
-	------ find-and-replace
+	-----------------------------
+	------ find-and-replace -----
+	-----------------------------
 	["grug-far"]        = { id = "MagicDuck/grug-far.nvim",   expander = gh, lazy = false }, -- needs nix
-	["nvim-spectre"]    = { id = "nvim-pack/nvim-spectre",    expander = gh, lazy = false }, -- needs nix
-	------ layout & buffer/tab navigation
+	["spectre"]    = { id = "nvim-pack/nvim-spectre",    expander = gh, lazy = false }, -- needs nix
+	--------------------------------------------------
+	------ layout & window/buffer/tab navigation -----
+	--------------------------------------------------
+	["nvim_winpick"]    = { id = "MarcusGrass/nvim_winpick",  expander = gh, lazy = false },
 	["flybuf"]          = { id = "nvimdev/flybuf.nvim",       expander = gh, lazy = false }, -- needs nix
 	["stickybuf"]       = { id = "stevearc/stickybuf.nvim",   expander = gh, lazy = false }, -- needs nix
 	["swm"]             = { id = "hrsh7th/nvim-swm",          expander = gh, lazy = false }, -- needs nix
-	------ wezterm integration
+	--------------------------------
+	------ wezterm integration -----
+	--------------------------------
 	["smart-splits"]    = { id = "mrjones2014/smart-splits.nvim", expander = gh, lazy = false }, -- needs nix
 
-	-- LAYER 1: editing enhancements ==================================================================================================== 1
-	------ folds
+	--===================================================================================================================================
+	--==== LAYER 1: editing enhancements ================================================================================================ 1
+	--===================================================================================================================================
+	------------------
+	------ folds -----
+	------------------
 	["nvim-ufo"]        = { id = "kevinhwang91/nvim-ufo",     expander = gh, lazy = false }, -- needs nix
-	------ macros https://github.com/   https://github.com/
-	["NeoComposer"] = { id = "lvim-tech/NeoComposer.nvim",   expander = gh, lazy = false },
-	["nvim-macros"] = { id = "kr40/nvim-macros",   expander = gh, lazy = false },
-	["nvim-recorder"] = { id = "chrisgrieser/nvim-recorder",   expander = gh, lazy = false },
-	------ multi-cursor
+	-------------------
+	------ macros -----
+	-------------------
+	["NeoComposer"]     = { id = "lvim-tech/NeoComposer.nvim",expander = gh, lazy = false },
+	["nvim-macros"]     = { id = "kr40/nvim-macros",          expander = gh, lazy = false },
+	["nvim-recorder"]   = { id = "chrisgrieser/nvim-recorder",expander = gh, lazy = false },
+	-------------------------
+	------ multi-cursor -----
+	-------------------------
 	["vim-visual-multi"] = { id = "mg979/vim-visual-multi",   expander = gh, lazy = false },
-	------ motion
+	-------------------
+	------ motion -----
+	-------------------
 	["leap"]            = { id = "andyg/leap.nvim",           expander = cb, lazy = false }, -- needs nix
 	["flash"]           = { id = "folke/flash.nvim",          expander = gh, lazy = false }, -- needs nix
 	["hop"]             = { id = "smoka7/hop.nvim",           expander = gh, lazy = false }, -- needs nix
-	------ pairs
+	------------------
+	------ pairs -----
+	------------------
 	["rainbow-delimiters"] = { id = "HiPhish/rainbow-delimiters.nvim", expander = gh, lazy = false }, -- needs nix
 	["nvim-autopairs"]  = { id = "windwp/nvim-autopairs",     expander = gh, lazy = false }, -- needs nix
 	["blink.pairs"]     = { id = "saghen/blink.pairs",        expander = gh, lazy = false }, -- needs nix
 	["vim-sandwich"]    = { id = "machakann/vim-sandwich",    expander = gh, lazy = false }, -- needs nix
 	["nvim-surround"]   = { id = "kylechui/nvim-surround",    expander = gh, lazy = false }, -- needs nix
-	------ undo
+	-----------------
+	------ undo -----
+	-----------------
 	["vim-mundo"]       = { id = "simnalamburt/vim-mundo",    expander = gh, lazy = false }, -- needs nix
-	------ keymapping-related
+	-------------------------------
+	------ keymapping-related -----
+	-------------------------------
 	["mini.keymap"]     = { id = "nvim-mini/mini.keymap",     expander = gh, lazy = false }, -- needs nix
 	["hydra"]           = { id = "nvimtools/hydra.nvim",      expander = gh, lazy = false }, -- needs nix
 	["nvim-insx"]       = { id = "hrsh7th/nvim-insx",         expander = gh, lazy = false }, -- needs nix
 	["which-key"]       = { id = "folke/which-key.nvim",      expander = gh, lazy = false },
-	------ alignment / indentation
+	------------------------------------
+	------ alignment / indentation -----
+	------------------------------------
 	["indentmini"]      = { id = "nvimdev/indentmini.nvim",   expander = gh, lazy = false }, -- needs nix
 	["indent-blankline"] = { id = "lukas-reineke/indent-blankline.nvim", expander = gh, lazy = false }, -- needs nix
 	["nvim-anydent"]    = { id = "hrsh7th/nvim-anydent",      expander = gh, lazy = false }, -- needs nix
 	["mini.align"]      = { id = "nvim-mini/mini.align",      expander = gh, lazy = false }, -- needs nix
 	["tabular"]         = { id = "godlygeek/tabular",         expander = gh, lazy = false }, --  -- needs nix; https://devhints.io/tabular
-	------ textobjects
+	------------------------
+	------ textobjects -----
+	------------------------
 	["nvim-treesitter-textobjects"] = {
 		id = "nvim-treesitter/nvim-treesitter-textobjects",
 		expander = gh,
@@ -300,111 +349,164 @@ local PLUGIN_DECLARATION = {
 		name = "nvim-treesitter-textobjects",
 	},
 	["nvim-various-textobjs"] = { id = "chrisgrieser/nvim-various-textobjs", expander = gh, lazy = false }, -- needs nix
-	------ comments
+	---------------------
+	------ comments -----
+	---------------------
 	["Comment"]         = { id = "numToStr/Comment.nvim",     expander = gh, lazy = false }, -- needs nix
 	["todo-comments"]   = { id = "folke/todo-comments.nvim",  expander = gh, lazy = false },
 	["vim-commentary"]  = { id = "tpope/vim-commentary",      expander = gh, lazy = false }, -- needs nix
-	------ split / join
+	-------------------------
+	------ split / join -----
+	-------------------------
 	["treesj"]          = { id = "Wansmer/treesj",            expander = gh, lazy = false }, -- needs nix
-	------ value manipulation
+	-------------------------------
+	------ value manipulation -----
+	-------------------------------
 	["dial"]            = { id = "monaqa/dial.nvim",          expander = gh, lazy = false },
-	------ marks
+	------------------
+	------ marks -----
+	------------------
 	["harpoon-core"]    = { id = "MeanderingProgrammer/harpoon-core.nvim", expander = gh, lazy = false }, -- needs nix
 	["marks"]           = { id = "chentoast/marks.nvim",      expander = gh, lazy = false },
 	["markit"]          = { id = "2KAbhishek/markit.nvim",    expander = gh, lazy = false }, -- needs nix
-	------ yank/paste & clipboard
+	-----------------------------------
+	------ yank/paste & clipboard -----
+	-----------------------------------
 	["nvim-pasta"]      = { id = "hrsh7th/nvim-pasta",        expander = gh, lazy = false }, -- needs nix
-	------ miscellaneous
+	--------------------------
+	------ miscellaneous -----
+	--------------------------
 	["beam"]            = { id = "Piotr1215/beam.nvim",       expander = gh, lazy = false }, -- needs nix
-	------ sort
 
-	-- LAYER 2: LSP, autocompletion, snippets =========================================================================================== 2
-	------ snippets, autocomplete
+	--===================================================================================================================================
+	--==== LAYER 2: LSP, autocompletion, snippets ======================================================================================= 2
+	--===================================================================================================================================
+	-----------------------------------
+	------ snippets, autocomplete -----
+	-----------------------------------
 	["blink.cmp"]       = { id = "Saghen/blink.cmp",          expander = gh, lazy = false },
 	["nvim-cmp"]        = { id = "hrsh7th/nvim-cmp",          expander = gh, lazy = false }, -- needs nix
-	------ snippets (as main focus)
+	-------------------------------------
+	------ snippets (as main focus) -----
+	-------------------------------------
 	["friendly-snippets"] = { id = "rafamadriz/friendly-snippets", expander = gh, lazy = false },
 	["ultisnips"]       = { id = "SirVer/ultisnips",          expander = gh, lazy = false }, -- needs nix; https://ejmastnak.com/tutorials/vim-latex/ultisnips/
 	["LuaSnip"]         = { id = "L3MON4D3/LuaSnip",          expander = gh, lazy = false },
-	------ completion sources
+	------ completion sources -----
 	["cmp-nvim-lsp"]    = { id = "hrsh7th/cmp-nvim-lsp",      expander = gh, lazy = false }, -- needs nix
 	["cmp-buffer"]      = { id = "hrsh7th/cmp-buffer",        expander = gh, lazy = false }, -- needs nix
 	["cmp-path"]        = { id = "hrsh7th/cmp-path",          expander = gh, lazy = false }, -- needs nix
 	["cmp-cmdline"]     = { id = "hrsh7th/cmp-cmdline",       expander = gh, lazy = false }, -- needs nix
-	------ LSP general (configure ruff, pyright, lua-language-server, haskell-language-server, rust-analyzer with built-in client)
+	------------------------
+	------ LSP general -----
+	------------------------
+	-- (configure ruff, pyright, lua-language-server, haskell-language-server, rust-analyzer with built-in client)
 	["lsp-format"]      = { id = "lukas-reineke/lsp-format.nvim", expander = gh, lazy = false }, -- needs nix
 	["lspkind"]         = { id = "onsails/lspkind.nvim",      expander = gh, lazy = false }, -- needs nix
-	------ LSP UI
-	-- see also fidget.nvim
+	["efm"]             = { id = "mattn/efm-langserver",      expander = gh, lazy = false },
+	------------------------------------------
+	------ LSP UI (see also fidget.nvim) -----
+	------------------------------------------
 	["lspsaga"]         = { id = "nvimdev/lspsaga.nvim",      expander = gh, lazy = false }, -- needs nix
-	------ language-specific
+	------ language-specific -----
 	["lazydev"]         = { id = "folke/lazydev.nvim",        expander = gh, lazy = false }, -- needs nix
 	["rustaceanvim"]    = { id = "mrcjkb/rustaceanvim",       expander = gh, lazy = false }, -- already lazy
 	["crates"]          = { id = "saecki/crates.nvim",        expander = gh, lazy = false }, -- needs nix
 	["haskell-tools"]   = { id = "mrcjkb/haskell-tools.nvim", expander = gh, lazy = false }, -- already lazy
-	------ LSP-adjacent
+	------ LSP-adjacent -----
 	["none-ls"]         = { id = "nvimtools/none-ls.nvim",    expander = gh, lazy = false }, -- needs nix
 
+	--===================================================================================================================================
 	-- LAYER 3: formatting & linting ==================================================================================================== 3
+	--===================================================================================================================================
 	["guard"]           = { id = "nvimdev/guard.nvim",        expander = gh, lazy = false }, -- needs nix
 	["conform"]         = { id = "stevearc/conform.nvim",     expander = gh, lazy = false }, -- ruff, rustfmt, stylua, fourmolu
 
+	--===================================================================================================================================
 	-- LAYER 4: testing, debugging/quickfix, execution ================================================================================== 4
-	["asyncrun"]        = { id = "skywind3000/asyncrun.vim",  expander = gh, lazy = false }, -- needs nix
-	["neotest-haskell"] = { id = "MrcJkb/neotest-haskell",    expander = gh, lazy = false }, -- TODO
-	["neotest-python"]  = { id = "nvim-neotest/neotest-python", expander = gh, lazy = false },
-	["neotest"]         = { id = "nvim-neotest/neotest",      expander = gh, lazy = false },
-	["dap-python"]      = { id = "mfussenegger/nvim-dap-python", expander = cb, lazy = false }, -- needs nix; pipx install debugpy
-	["dap-ui"]          = { id = "rcarriga/nvim-dap-ui",      expander = gh, lazy = false }, -- needs nix
+	--===================================================================================================================================
+	-------------------------------------------------
+	----- Code execution / task running / build -----
+	-------------------------------------------------
+	["overseer"]        = { id = "stevearc/overseer.nvim",         expander = gh, lazy = false }, -- needs nix
+	["asyncrun"]        = { id = "skywind3000/asyncrun.vim",       expander = gh, lazy = false }, -- needs nix
+	["compiler"]        = { id = "Zeioth/compiler.nvim",           expander = gh, lazy = false },
+    ["code_runner"]     = { id = "CRAG666/code_runner.nvim",       expander = gh, lazy = false },
+	["sniprun"]         = { id = "michaelb/sniprun",               expander = gh, lazy = false },
+	["yabs"]            = { id = "pianocomposer321/officer.nvim",  expander = gh, lazy = false },
+	-------------------
+	----- Testing -----
+	-------------------
+	["neotest-haskell"] = { id = "MrcJkb/neotest-haskell",         expander = gh, lazy = false }, -- TODO
+	["neotest-python"]  = { id = "nvim-neotest/neotest-python",    expander = gh, lazy = false },
+	["neotest"]         = { id = "nvim-neotest/neotest",           expander = gh, lazy = false },
+	["dap-python"]      = { id = "mfussenegger/nvim-dap-python",   expander = cb, lazy = false }, -- needs nix; pipx install debugpy
+	["dap-ui"]          = { id = "rcarriga/nvim-dap-ui",           expander = gh, lazy = false }, -- needs nix
 	["nvim-dap-virtual-text"] = { id = "theHamsta/nvim-dap-virtual-text", expander = cb, lazy = false }, -- needs nix
-	["dap"]             = { id = "mfussenegger/nvim-dap",     expander = cb, lazy = false }, -- needs nix
-	["mypy"]            = { id = "feakuru/mypy.nvim",         expander = gh, lazy = false }, -- needs nix
-	["nvim-lint"]       = { id = "mfussenegger/nvim-lint",    expander = gh, lazy = false }, -- needs nix
-	------ DAP/quickix UI
-	["trouble.nvim"]    = { id = "folke/trouble.nvim",        expander = gh, lazy = false }, -- needs nix
-	["quicker"]         = { id = "stevearc/quicker.nvim",     expander = gh, lazy = false }, -- needs nix
-	["nvim-bqf"]        = { id = "kevinhwang91/nvim-bqf",     expander = gh, lazy = false },
-	------ terminal
-	["vim-floaterm"]    = { id = "voldikss/vim-floaterm",     expander = gh, lazy = false },
-	["toggleterm"]      = { id = "akinsho/toggleterm.nvim",   expander = gh, lazy = false },
-	------ code/task runners
-	["overseer"]        = { id = "stevearc/overseer.nvim",    expander = gh, lazy = false }, -- needs nix
-
-	-- LAYER 5: refactoring & code intelligence ========================================================================================= 5
+	["dap"]             = { id = "mfussenegger/nvim-dap",          expander = cb, lazy = false }, -- needs nix
+	["mypy"]            = { id = "feakuru/mypy.nvim",              expander = gh, lazy = false }, -- needs nix
+	["nvim-lint"]       = { id = "mfussenegger/nvim-lint",         expander = gh, lazy = false }, -- needs nix
+	---------------------------
+	------ DAP/quickix UI -----
+	---------------------------
+	["trouble.nvim"]    = { id = "folke/trouble.nvim",             expander = gh, lazy = false }, -- needs nix
+	["quicker"]         = { id = "stevearc/quicker.nvim",          expander = gh, lazy = false }, -- needs nix
+	["nvim-bqf"]        = { id = "kevinhwang91/nvim-bqf",          expander = gh, lazy = false },
+	---------------------
+	------ terminal -----
+	---------------------
+	["vim-floaterm"]    = { id = "voldikss/vim-floaterm",          expander = gh, lazy = false },
+	--===================================================================================================================================
+	--==== LAYER 5: refactoring & code intelligence ===================================================================================== 5
+	--===================================================================================================================================
 	["refactoring"]     = { id = "ThePrimeagen/refactoring.nvim", expander = gh, lazy = false }, -- needs nix
-	------ project management
+	-------------------------------
+	------ project management -----
+	-------------------------------
 	["project"]         = { id = "ahmedkhalf/project.nvim",   expander = gh, lazy = false }, -- needs nix
 	["telescope-project"] = { id = "nvim-telescope/telescope-project.nvim", expander = gh, lazy = false }, -- needs nix
 
-	-- LAYER 6: version control & collaboration ========================================================================================= 6
-	["jj"]              = { id = "NicolasGB/jj.nvim",         expander = gh, lazy = false }, -- needs nix
+	--===================================================================================================================================
+	--==== LAYER 6: version control & collaboration ===================================================================================== 6
+	--===================================================================================================================================
+	["jj"]              = { id = "NicolasGB/jj.nvim",           expander = gh, lazy = false }, -- needs nix
 	["jujutsu"]         = { id = "yannvanhalewyn/jujutsu.nvim", expander = gh, lazy = false }, -- needs nix
-	["lazygit"]         = { id = "kdheepak/lazygit.nvim",     expander = gh, lazy = false }, -- needs nix
-	["git-conflict"]    = { id = "akinsho/git-conflict.nvim", expander = gh, lazy = false }, -- needs nix
-	["neogit"]          = { id = "NeogitOrg/neogit",          expander = gh, lazy = false }, -- needs nix
-	["jiejie"]          = { id = "jceb/jiejie.nvim",          expander = gh, lazy = false }, -- needs nix
-	["diffview"]        = { id = "sindrets/diffview.nvim",    expander = gh, lazy = false },
-	["gitsigns"]        = { id = "lewis6991/gitsigns.nvim",   expander = gh, lazy = false },
-	["vim-fugitive"]    = { id = "tpope/vim-fugitive",        expander = gh, lazy = false }, -- needs nix
-	-- git forges
+	["lazygit"]         = { id = "kdheepak/lazygit.nvim",       expander = gh, lazy = false }, -- needs nix
+	["git-conflict"]    = { id = "akinsho/git-conflict.nvim",   expander = gh, lazy = false }, -- needs nix
+	["neogit"]          = { id = "NeogitOrg/neogit",            expander = gh, lazy = false }, -- needs nix
+	["jiejie"]          = { id = "jceb/jiejie.nvim",            expander = gh, lazy = false }, -- needs nix
+	["diffview"]        = { id = "sindrets/diffview.nvim",      expander = gh, lazy = false },
+	["gitsigns"]        = { id = "lewis6991/gitsigns.nvim",     expander = gh, lazy = false },
+	["vim-fugitive"]    = { id = "tpope/vim-fugitive",          expander = gh, lazy = false }, -- needs nix
+	----------------------
+	----- Git forges -----
+	----------------------
 	["octo"]            = { id = "pwntester/octo.nvim",       expander = gh, lazy = false }, -- needs nix
 	["gitlab-nvim"]     = { id = "harrisoncramer/gitlab.nvim", expander = gh, lazy = false }, -- needs nix
 	["gitlab"]          = { id = "gitlab-org/editor-extensions/gitlab.vim", expander = gh, lazy = false }, -- needs nix
 
-	-- LAYER 7: UI polish & productivity ================================================================================================ 7
+	--===================================================================================================================================
+	--==== LAYER 7: UI polish & productivity ============================================================================================ 7
+	--===================================================================================================================================
 	["dashboard-nvim"]  = { id = "nvimdev/dashboard-nvim",    expander = gh, lazy = false }, -- needs nix
 	["dashboard"]       = { id = "MeanderingProgrammer/dashboard.nvim", expander = gh, lazy = false }, -- needs nix
 	["noice"]           = { id = "folke/noice.nvim",          expander = gh, lazy = false }, -- needs nix
 	["modes"]           = { id = "mvllow/modes.nvim",         expander = gh, lazy = false }, -- needs nix
-	------ UI (important for LSP)
+	-----------------------------------
+	------ UI (important for LSP) -----
+	-----------------------------------
 	["fidget"]          = { id = "j-hui/fidget.nvim",         expander = gh, lazy = false }, -- needs nix
 	["nvim-notify"]     = { id = "rcarriga/nvim-notify",      expander = gh, lazy = false }, -- needs nix; see also mini.notify
 	["headlines"]       = { id = "lukas-reineke/headlines.nvim", expander = gh, lazy = false }, -- needs nix
-	------ session management
+	-------------------------------
+	------ session management -----
+	-------------------------------
 	["auto-session"]    = { id = "rmagatti/auto-session",     expander = gh, lazy = false }, -- needs nix
 	["persistence"]     = { id = "folke/persistence.nvim",    expander = gh, lazy = false }, -- needs nix
-
-	-- LAYER 8: miscellaneous/advanced =========================================================================================================== 8
+ 
+	--===================================================================================================================================
+	--==== LAYER 8: miscellaneous/advanced ============================================================================================== 8
+	--===================================================================================================================================
 	["vimtex"]          = { id = "lervag/vimtex",             expander = gh, lazy = false }, -- needs nix; use vim.cmd.source or vim.fn.runtime
 	["texmagic"]        = { id = "jakewvincent/texmagic.nvim", expander = gh, lazy = false }, -- needs nix
 	["schemastore"]     = { id = "b0o/SchemaStore.nvim",      expander = gh, lazy = false }, -- needs nix
@@ -413,7 +515,9 @@ local PLUGIN_DECLARATION = {
 	["jupytext"]        = { id = "GCBallesteros/jupytext.nvim", expander = gh, lazy = false }, -- needs nix
 	["quarto"]          = { id = "quarto-dev/quarto-nvim",    expander = gh, lazy = false }, -- needs nix
 	["markdown-preview"] = { id = "iamcco/markdown-preview.nvim", expander = gh, lazy = false }, -- needs nix
-	------ Lua / self-referential
+	-----------------------------------
+	------ Lua / self-referential -----
+	-----------------------------------
 	["structlog"]       = { id = "Tastyep/structlog.nvim",    expander = gh, lazy = false }, -- needs nix
 	["neorepl"]         = { id = "ii14/neorepl.nvim",         expander = gh, lazy = false }, -- needs nix
 }
@@ -441,22 +545,36 @@ function contains(table, element)
 	return false
 end
 
--- ============================================================================================================================================================
+--=============================================================================================================================================================
 -- LAYER 0: foundation, colors, search, core navigation ===============================================================================
+--=============================================================================================================================================================
+local function print_todo(name)
+	local pad = string.rep(" ", 20 - string.len(name))
+	print("IMPORTED " .. name .. pad .. " (NOT CONFIGURED)")
+end
+local function print_error(name)
+	local pad = string.rep(" ", 15 - string.len(name))
+	print("NOT IMPORTED: " .. name .. pad .. " (NEEDS DEBUGGING)")
+end
 ------ core dependencies
 if contains(PLUGINS, "plenary") then
-	print("TODO")
+	local plugin_name = "plenary"
+	require("plenary")
+	print_todo("plenary")
 end
-if contains(PLUGINS, "nvim-nio") then
-	print("TODO")
+if contains(PLUGINS, "nio") then
+	local plugin_name = "nio"
+	require(plugin_name)
+	print_todo(plugin_name)
 end
 if contains(PLUGINS, "nvim-web-devicons") then
-	print("TODO")
-	require("nvim-web-devicons").setup()
+	local plugin_name = "nvim-web-devicons"
+	require(plugin_name).setup()
+	print_todo(plugin_name)
 end
 ------ core setup and UI
 if contains(PLUGINS, "bamboo") then
-	print("Setting up bamboo")
+	printb("Setting up bamboo")
 	require("bamboo").setup({
 		style = "multiplex",
 		colors = {
@@ -470,36 +588,41 @@ if contains(PLUGINS, "bamboo") then
 	-- vim.cmd(":hi statusline guibg=#081608")
 end
 if contains(PLUGINS, "zen-mode") then
-	print("TODO")
-	require("zen-mode").setup()
+	local plugin_name = "zen-mode"
+	require(plugin_name).setup()
+	print_todo(plugin_name)
 end
 if contains(PLUGINS, "lualine") then
-	print("TODO")
-	require("lualine").setup()
+    plugin_name = "lualine"
+    require("lualine").setup()
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "nvim-navic") then
-	print("TODO")
-	require("nvim-navic").setup()
+    plugin_name = "nvim-navic"
+    require("nvim-navic").setup()
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "bufferline") then
-	print("TODO")
-	require("bufferline").setup()
+    plugin_name = "bufferline"
+    require("bufferline").setup()
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "statuscol") then
-	print("TODO")
-	require("statuscol").setup()
+    plugin_name = "statuscol"
+    require("statuscol").setup()
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "nvim-treesitter") then
-	print("Setting up treesitter.")
+	printb("Setting up treesitter.")
 	local my_install_dir = (not HAS_NIX) and vim.fn.stdpath("data") .. "/site" or nil
 	local my_parser_install_dir = (not HAS_NIX) and vim.fn.stdpath("data") .. "/parsers" or nil
 	local my_ensure_installed = HAS_NIX and {} or TS_LANGUAGES
 	-- vim.fn.mkdir(my_parser_install_dir, "p")
 	-- IMPORTANT: Neovim expects parsers to be in a 'parser' subfolder of an RTP entry
 	-- vim.opt.runtimepath:append(my_parser_install_dir)
-	print(my_install_dir)
-	print(my_parser_install_dir)
-	print(vim.inspect(my_ensure_installed))
+	printv(my_install_dir)
+	printv(my_parser_install_dir)
+	printv(vim.inspect(my_ensure_installed))
 	local treesitter = require("nvim-treesitter")
 	-- for k, v in pairs(treesitter) do
 	-- 	print(k)
@@ -529,298 +652,458 @@ if contains(PLUGINS, "nvim-treesitter") then
 	-- print(vim.inspect(require("nvim-treesitter").get_installed()))
 end
 if contains(PLUGINS, "treesitter-modules") then
-	print("TODO")
-	require("treesitter-modules").setup()
+    plugin_name = "treesitter-modules"
+    require("treesitter-modules").setup()
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "dropbar") then
-	print("TODO")
-	require("dropbar").setup()
+    plugin_name = "dropbar"
+    require("dropbar").setup()
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "nvim-navbuddy") then
-	print("TODO")
-	-- require("nui").setup()
-	require("nvim-navbuddy").setup()
+    plugin_name = "nvim-navbuddy"
+    require("nvim-navbuddy").setup()
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "aerial") then
-	print("aerial")
+    plugin_name = "aerial"
+    require("aerial")
+    print_todo(plugin_name)
 end
 ------ file explorer (as central focus)
 if contains(PLUGINS, "oil") then
-	print("TODO")
-	require("oil").setup()
+    plugin_name = "oil"
+    require("oil").setup()
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "yazi") then
-	print("yazi")
-	require("yazi").setup()
+    plugin_name = "yazi"
+    require("yazi").setup()
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "neo-tree") then
-	print("TODO")
-	require("neo-tree").setup({})
+    plugin_name = "neo-tree"
+    require("neo-tree").setup({})
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "nvim-tree") then
-	print("TODO")
-	require("nvim-tree").setup()
+    plugin_name = "nvim-tree"
+    require("nvim-tree").setup()
+    print_todo(plugin_name)
 end
 ------ picker / search
 if contains(PLUGINS, "pickme") then
-	print("TODO")
+    plugin_name = "pickme"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "telescope") then
-	print("TODO")
+    plugin_name = "telescope"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "telescope-fzf-native") then
-	print("TODO")
+    plugin_name = "telescope-fzf-native"
+    -- require(plugin_name).setup()
+    print_error(plugin_name)
 end
 if contains(PLUGINS, "fzf-lua") then
-	print("TODO")
+    plugin_name = "fzf-lua"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
-if contains(PLUGINS, "nvim-deck") then
-	print("TODO")
+if contains(PLUGINS, "deck") then
+    plugin_name = "deck"
+    require('deck.easy').setup()
+    print_todo(plugin_name)
 end
 ------ suites
 if contains(PLUGINS, "mini") then
-	print("TODO")
+    plugin_name = "mini"
+    require("mini.keymap").setup()
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "snacks") then
-	print("TODO")
+    plugin_name = "snacks"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "blink") then
-	print("TODO")
+    plugin_name = "blink"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 ------ search
-if contains(PLUGINS, "nvim-hlslens") then
-	print("TODO")
+if contains(PLUGINS, "hlslens") then
+    plugin_name = "hlslens"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "hlsearch") then
-	print("TODO")
+    plugin_name = "hlsearch"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 ------ find-and-replace
 if contains(PLUGINS, "grug-far") then
-	print("TODO")
+    plugin_name = "grug-far"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
-if contains(PLUGINS, "nvim-spectre") then
-	print("TODO")
+if contains(PLUGINS, "spectre") then
+    plugin_name = "spectre"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 ------ layout & buffer/tab navigation
 if contains(PLUGINS, "flybuf") then
-	print("TODO")
+    plugin_name = "flybuf"
+    require(plugin_name).setup({})
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "stickybuf") then
-	print("TODO")
+    plugin_name = "stickybuf"
+    require(plugin_name).setup({})
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "swm") then
-	print("TODO")
+    plugin_name = "swm"
+    local swm = require(plugin_name)
+	vim.keymap.set('n', '<C-w>h', swm.h)
+	vim.keymap.set('n', '<C-w>j', swm.j)
+	vim.keymap.set('n', '<C-w>k', swm.k)
+	vim.keymap.set('n', '<C-w>l', swm.l)
+    print_todo(plugin_name)
 end
 ------ wezterm integration
 if contains(PLUGINS, "smart-splits") then
-	print("TODO")
+    plugin_name = "smart-splits"
+    require(plugin_name).setup({})
+    print_todo(plugin_name)
 end
 
 -- LAYER 1: editing enhancements ==================================================================================================== 1
 ------ folds
 if contains(PLUGINS, "nvim-ufo") then
-	print("TODO")
+    plugin_name = "nvim-ufo"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 ------ macros
 if contains(PLUGINS, "NeoComposer") then
-	print("TODO")
+    plugin_name = "NeoComposer"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "nvim-macros") then
-	print("TODO")
+    plugin_name = "nvim-macros"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "nvim-recorder") then
-	print("TODO")
+    plugin_name = "nvim-recorder"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 
 ------ multi-cursor
 if contains(PLUGINS, "vim-visual-multi") then
-	print("TODO")
+    plugin_name = "vim-visual-multi"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 ------ motion
 if contains(PLUGINS, "leap") then
-	print("TODO")
+    plugin_name = "leap"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "flash") then
-	print("TODO")
+    plugin_name = "flash"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "hop") then
-	print("TODO")
+    plugin_name = "hop"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 ------ pairs
 if contains(PLUGINS, "rainbow-delimiters") then
-	print("TODO")
+    plugin_name = "rainbow-delimiters"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "nvim-autopairs") then
-	print("TODO")
+    plugin_name = "nvim-autopairs"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "blink.pairs") then
-	print("TODO")
+    plugin_name = "blink.pairs"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "vim-sandwich") then
-	print("TODO")
+    plugin_name = "vim-sandwich"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "nvim-surround") then
-	print("TODO")
+    plugin_name = "nvim-surround"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 ------ undo
 if contains(PLUGINS, "vim-mundo") then
-	print("TODO")
+    plugin_name = "vim-mundo"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 ------ keymapping-related
 if contains(PLUGINS, "mini.keymap") then
-	print("TODO")
+    plugin_name = "mini.keymap"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "hydra") then
-	print("TODO")
+    plugin_name = "hydra"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "nvim-insx") then
-	print("TODO")
+    plugin_name = "nvim-insx"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "which-key") then
-	print("TODO")
+    plugin_name = "which-key"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 ------ alignment / indentation
 if contains(PLUGINS, "indentmini") then
-	print("TODO")
+    plugin_name = "indentmini"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "indent-blankline") then
-	print("TODO")
+    plugin_name = "indent-blankline"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "nvim-anydent") then
-	print("TODO")
+    plugin_name = "nvim-anydent"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "mini.align") then
-	print("TODO")
+    plugin_name = "mini.align"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "tabular") then
-	print("TODO")
+    plugin_name = "tabular"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 ------ textobjects
 if contains(PLUGINS, "nvim-treesitter-textobjects") then
-	print("TODO")
+    plugin_name = "nvim-treesitter-textobjects"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "nvim-various-textobjs") then
-	print("TODO")
+    plugin_name = "nvim-various-textobjs"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 ------ comments
 if contains(PLUGINS, "Comment") then
-	print("TODO")
+    plugin_name = "Comment"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "todo-comments") then
-	print("TODO")
+    plugin_name = "todo-comments"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "vim-commentary") then
-	print("TODO")
+    plugin_name = "vim-commentary"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 ------ split / join
 if contains(PLUGINS, "treesj") then
-	print("TODO")
+    plugin_name = "treesj"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 ------ value manipulation
 if contains(PLUGINS, "dial") then
-	print("TODO")
+    plugin_name = "dial"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 ------ marks
 if contains(PLUGINS, "harpoon-core") then
-	print("TODO")
+    plugin_name = "harpoon-core"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "marks") then
-	print("TODO")
+    plugin_name = "marks"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "markit") then
-	print("TODO")
+    plugin_name = "markit"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 ------ yank/paste & clipboard
 if contains(PLUGINS, "nvim-pasta") then
-	print("TODO")
+    plugin_name = "nvim-pasta"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 ------ miscellaneous
 if contains(PLUGINS, "beam") then
-	print("TODO")
+    plugin_name = "beam"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 ------ sort
 
 -- LAYER 2: LSP, autocompletion, snippets =========================================================================================== 2
 ------ snippets, autocomplete
 if contains(PLUGINS, "blink.cmp") then
-	print("TODO")
+    plugin_name = "blink.cmp"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "nvim-cmp") then
-	print("TODO")
+    plugin_name = "nvim-cmp"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 ------ snippets (as main focus)
 if contains(PLUGINS, "friendly-snippets") then
-	print("TODO")
+    plugin_name = "friendly-snippets"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "ultisnips") then
-	print("TODO")
+    plugin_name = "ultisnips"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "LuaSnip") then
-	print("TODO")
+    plugin_name = "LuaSnip"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 ------ completion sources
 if contains(PLUGINS, "cmp-nvim-lsp") then
-	print("TODO")
+    plugin_name = "cmp-nvim-lsp"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "cmp-buffer") then
-	print("TODO")
+    plugin_name = "cmp-buffer"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "cmp-path") then
-	print("TODO")
+    plugin_name = "cmp-path"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "cmp-cmdline") then
-	print("TODO")
+    plugin_name = "cmp-cmdline"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 ------ LSP general (configure ruff, pyright, lua-language-server, haskell-language-server, rust-analyzer with built-in client)
 if contains(PLUGINS, "lsp-format") then
-	print("TODO")
+    plugin_name = "lsp-format"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "lspkind") then
-	print("TODO")
+    plugin_name = "lspkind"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 ------ LSP UI
 -- see also fidget.nvim
 if contains(PLUGINS, "lspsaga") then
-	print("TODO")
+    plugin_name = "lspsaga"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 ------ language-specific
 if contains(PLUGINS, "lazydev") then
-	print("TODO")
+    plugin_name = "lazydev"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "rustaceanvim") then
-	print("TODO")
+    plugin_name = "rustaceanvim"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "crates") then
-	print("TODO")
+    plugin_name = "crates"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "haskell-tools") then
-	print("TODO")
+    plugin_name = "haskell-tools"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 ------ LSP-adjacent
 if contains(PLUGINS, "none-ls") then
-	print("TODO")
+    plugin_name = "none-ls"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 
 -- LAYER 3: formatting & linting ==================================================================================================== 3
 if contains(PLUGINS, "guard") then
-	print("TODO")
+    plugin_name = "guard"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "conform") then
-	print("TODO")
+    plugin_name = "conform"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 
 -- LAYER 4: testing, debugging/quickfix, execution ================================================================================== 4
 if contains(PLUGINS, "asyncrun") then
-	print("TODO")
+    plugin_name = "asyncrun"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "neotest-haskell") then
-	print("TODO")
+    plugin_name = "neotest-haskell"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "neotest-python") then
-	print("TODO")
+    plugin_name = "neotest-python"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "neotest") then
-	print("TODO")
+    plugin_name = "neotest"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "dap-python") then
 	print("dap-python")
@@ -844,122 +1127,192 @@ if contains(PLUGINS, "dap-python") then
 	end)
 end
 if contains(PLUGINS, "dap-ui") then
-	print("TODO")
+    plugin_name = "dap-ui"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "nvim-dap-virtual-text") then
-	print("TODO")
+    plugin_name = "nvim-dap-virtual-text"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "dap") then
-	print("TODO")
+    plugin_name = "dap"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "mypy") then
-	print("TODO")
+    plugin_name = "mypy"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "nvim-lint") then
-	print("TODO")
+    plugin_name = "nvim-lint"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 ------ DAP/quickix UI
 if contains(PLUGINS, "trouble.nvim") then
-	print("TODO")
+    plugin_name = "trouble.nvim"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "quicker") then
-	print("TODO")
+    plugin_name = "quicker"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "nvim-bqf") then
-	print("TODO")
+    plugin_name = "nvim-bqf"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 ------ terminal
 if contains(PLUGINS, "vim-floaterm") then
-	print("TODO")
+    plugin_name = "vim-floaterm"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "toggleterm") then
-	print("TODO")
+    plugin_name = "toggleterm"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 ------ code/task runners
 if contains(PLUGINS, "overseer") then
-	print("TODO")
+    plugin_name = "overseer"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 
 -- LAYER 5: refactoring & code intelligence ========================================================================================= 5
 if contains(PLUGINS, "refactoring") then
-	print("TODO")
+    plugin_name = "refactoring"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 ------ project management
 if contains(PLUGINS, "project") then
-	print("TODO")
+    plugin_name = "project"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "telescope-project") then
-	print("TODO")
+    plugin_name = "telescope-project"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 
 -- LAYER 6: version control & collaboration ========================================================================================= 6
 if contains(PLUGINS, "jj") then
-	print("TODO")
+    plugin_name = "jj"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "jujutsu") then
-	print("TODO")
+    plugin_name = "jujutsu"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "lazygit") then
-	print("TODO")
+    plugin_name = "lazygit"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "git-conflict") then
-	print("TODO")
+    plugin_name = "git-conflict"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "neogit") then
-	print("TODO")
+    plugin_name = "neogit"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "jiejie") then
-	print("TODO")
+    plugin_name = "jiejie"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "diffview") then
-	print("TODO")
+    plugin_name = "diffview"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "gitsigns") then
-	print("TODO")
+    plugin_name = "gitsigns"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "vim-fugitive") then
-	print("TODO")
+    plugin_name = "vim-fugitive"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 -- git forges
 if contains(PLUGINS, "octo") then
-	print("TODO")
+    plugin_name = "octo"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "gitlab-nvim") then
-	print("TODO")
+    plugin_name = "gitlab-nvim"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "gitlab") then
-	print("TODO")
+    plugin_name = "gitlab"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 
 -- LAYER 7: UI polish & productivity ================================================================================================ 7
 if contains(PLUGINS, "dashboard-nvim") then
-	print("TODO")
+    plugin_name = "dashboard-nvim"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "dashboard") then
-	print("TODO")
+    plugin_name = "dashboard"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "noice") then
-	print("TODO")
+    plugin_name = "noice"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "modes") then
-	print("TODO")
+    plugin_name = "modes"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 ------ UI (important for LSP)
 if contains(PLUGINS, "fidget") then
-	print("TODO")
+    plugin_name = "fidget"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "nvim-notify") then
-	print("TODO")
+    plugin_name = "nvim-notify"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "headlines") then
-	print("TODO")
+    plugin_name = "headlines"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 ------ session management
 if contains(PLUGINS, "auto-session") then
-	print("TODO")
+    plugin_name = "auto-session"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "persistence") then
-	print("TODO")
+    plugin_name = "persistence"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 
 -- LAYER 8: miscellaneous/advanced =========================================================================================================== 8
@@ -967,34 +1320,52 @@ if contains(PLUGINS, "vimtex") then
 	vim.g.vimtex_view_method = "zathura"
 end
 if contains(PLUGINS, "texmagic") then
-	print("TODO")
+    plugin_name = "texmagic"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "schemastore") then
-	print("TODO")
+    plugin_name = "schemastore"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "firenvim") then
-	print("TODO")
+    plugin_name = "firenvim"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "render-markdown") then
-	print("TODO")
+    plugin_name = "render-markdown"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "jupytext") then
-	print("TODO")
+    plugin_name = "jupytext"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "quarto") then
-	print("TODO")
+    plugin_name = "quarto"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "markdown-preview") then
-	print("TODO")
+    plugin_name = "markdown-preview"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 ------ Lua / self-referential
 if contains(PLUGINS, "structlog") then
-	print("TODO")
+    plugin_name = "structlog"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
 if contains(PLUGINS, "neorepl") then
-	print("TODO")
+    plugin_name = "neorepl"
+    require(plugin_name).setup()
+    print_todo(plugin_name)
 end
--- ============================================================================================================================================================
+--=============================================================================================================================================================
 
 if WEZTERM then
 	-- https://github.com/ianhomer/wezterm.nvim/blob/main/lua/wezterm.lua --------------------------------------------------

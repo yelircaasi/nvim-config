@@ -13,6 +13,7 @@ decisions = (
         "glean",
         "vendored",
         "configured",
+        "inConfig",
         "selected",
         "vendor",
         "trying",
