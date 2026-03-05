@@ -7,13 +7,13 @@ local LAYERS = {
 	-- -1,
 	-- 0,
 	1,
-	-- 2,
-	-- 3,
-	-- 4,
-	-- 5,
-	-- 6,
-	-- 7,
-	-- 8,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
 }
 local PLUGINS = {}
 PLUGINS_BY_LAYER = {
@@ -525,8 +525,8 @@ local PLUGIN_DECLARATION = {
 	["neotest-python"]                           = { id = "nvim-neotest/neotest-python",   expander = gh, lazy = false },
 	["neotest"]                                  = { id = "nvim-neotest/neotest",          expander = gh, lazy = false },
 	["dap-python"]                               = { id = "mfussenegger/nvim-dap-python",  expander = cb, lazy = false }, -- needs nix; pipx install debugpy
-	["dapui"]                                   = { id = "rcarriga/nvim-dap-ui",          expander = gh, lazy = false }, -- needs nix
-	["nvim-dap-virtual-text"]  = { id = "theHamsta/nvim-dap-virtual-text", expander = cb, lazy = false }, -- needs nix
+	["dapui"]                                    = { id = "rcarriga/nvim-dap-ui",          expander = gh, lazy = false }, -- needs nix
+	["nvim-dap-virtual-text"]                    = { id = "theHamsta/nvim-dap-virtual-text", expander = gh, lazy = false }, -- needs nix
 	["dap"]                                      = { id = "mfussenegger/nvim-dap",         expander = cb, lazy = false }, -- needs nix
 	["mypy"]                                     = { id = "feakuru/mypy.nvim",             expander = gh, lazy = false }, -- needs nix
 	["nvim-lint"]                                = { id = "mfussenegger/nvim-lint",        expander = gh, lazy = false }, -- needs nix
@@ -567,7 +567,7 @@ local PLUGIN_DECLARATION = {
 	----------------------
 	["octo"]                                     = { id = "pwntester/octo.nvim",           expander = gh, lazy = false }, -- needs nix
 	["gitlab-nvim"]                              = { id = "harrisoncramer/gitlab.nvim",    expander = gh, lazy = false }, -- needs nix
-	["gitlab"]                                   = { id = "gitlab-org/editor-extensions/gitlab.vim", expander = gh, lazy = false }, -- needs nix
+	["gitlab"]                                   = { id = "gitlab-org/editor-extensions/gitlab.vim", expander = gl, lazy = false }, -- needs nix
 
 	--===================================================================================================================================
 	--==== LAYER 7: UI polish & productivity ============================================================================================ 7
@@ -607,13 +607,8 @@ local PLUGIN_DECLARATION = {
 }
 
 local add_plugin = function(name)
-	-- print(name)
-	-- print(vim.inspect(PLUGIN_DECLARATION[name]))
-	local expander = PLUGIN_DECLARATION[name].expander
-	-- print(expander)
-	local url = expander(PLUGIN_DECLARATION[name].id)
-	-- print(url)
-	vim.pack.add({ { src = url } })
+	local cfg = PLUGIN_DECLARATION[name]
+	vim.pack.add({ { src = cfg.expander(cfg.id) } })
 end
 
 for _, name in ipairs(PLUGINS) do
