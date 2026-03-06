@@ -1,0 +1,16 @@
+[
+    {
+        "executable": "ruff",
+        "group": "",
+        "version_subcommand": "",
+        "version_constraints": ">=0.14", 
+        "install_command": ""
+    },
+    {
+        "executable": "mypy",
+        "group": "",
+        "version_subcommand": "",
+        "version_constraints": ">=1.19", 
+        "install_command": ""
+    }
+]

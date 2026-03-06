@@ -1,1 +1,1 @@
-python /home/isaac/repos/nvim-config/testing/installer.py  --config-dir="/home/isaac/repos/nvim-config/testing" install
+python3 $HOME/repos/nvim-config/testing/installer.py  --config-dir="$HOME/repos/nvim-config/testing" install
