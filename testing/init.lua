@@ -2,18 +2,45 @@ vim.g.loaded_matchparen = 1
 vim.g.loaded_matchit = 1
 vim.g.loaded_netrw = 1
 
+
+--======================================================================================================================
+local plugin_base_dir = vim.fn.expand("~/.local/share/nvim-plugins")
+
+-- Get a list of all directories inside your custom folder
+local handle = vim.uv.fs_scandir(plugin_base_dir)
+
+if handle then
+    while true do
+        local name, type = vim.uv.fs_scandir_next(handle)
+        if not name then break end
+        
+        -- Only process directories (skip READMEs, .DS_Store, etc.)
+        if type == "directory" and name == "yazi" or name == "plenary" then
+            local plugin_path = plugin_base_dir .. "/" .. name
+            
+            -- Prepend to RTP so your manual plugins take priority over defaults
+            vim.opt.runtimepath:prepend(plugin_path)
+        end
+    end
+else
+    print("Warning: Plugin directory not found: " .. plugin_base_dir)
+end
+require("yazi")
+--======================================================================================================================
+--[[
+
 WEZTERM = true
 local LAYERS = {
 	-- -1,
 	-- 0,
-	1,
-	2,
-	3,
-	4,
-	5,
-	6,
-	7,
-	8,
+	-- 1,
+	-- 2,
+	-- 3,
+	-- 4,
+	-- 5,
+	-- 6,
+	-- 7,
+	-- 8,
 }
 local PLUGINS = {}
 PLUGINS_BY_LAYER = {
@@ -1063,3 +1090,6 @@ if WEZTERM then
 		end
 	end
 end
+
+
+--]]
