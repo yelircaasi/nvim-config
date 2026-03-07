@@ -1,0 +1,5 @@
+local plugins_dir = vim.fn.expand("~/.local/share/nvim-plugins")
+M = {
+    ["lualine"] = plugins_dir .. "/lualine"
+}
+return M

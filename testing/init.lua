@@ -25,8 +25,53 @@ if handle then
 else
     print("Warning: Plugin directory not found: " .. plugin_base_dir)
 end
-require("yazi")
+-- require("yazi")
 --======================================================================================================================
+
+local plugins_file = vim.fn.expand("~/repos/nvim-config/testing/plugin_paths.lua") --"~/.config/nvim/plugin_paths.lua")
+plugins_table = dofile(plugins_file)
+
+local function safe_prepend(path)
+    local expanded_path = vim.fn.expand(path)
+    -- Use vim.tbl_contains for a much shorter check
+    if not vim.tbl_contains(vim.opt.runtimepath:get(), expanded_path) then
+        vim.opt.runtimepath:prepend(expanded_path)
+    end
+end
+
+dependencies = {
+	["yazi"] = "plenary",
+}
+
+function get_plugin(name)
+	local path = plugins_table[name]
+	print(path)
+	local deps = dependencies[name]
+    safe_prepend(path)
+	if dependencies then
+		for _, dep_path in ipairs(dependencies) do
+			safe_prepend(dep_path)
+		end
+	end
+	local required = require(name)
+	return required
+end
+
+function configure_plugin(name, config)
+	return get_plugin(name).setup(config)
+end
+
+function custom_setup(name, setup_func)
+	return setup_func(get_plugin(name))
+end
+
+-- get_plugin("lualine").setup({})
+configure_plugin("lualine", {})
+configure_plugin("yazi", {})
+-- custom_setup("lualine", function(plugin) plugin.setup({}) end)
+--======================================================================================================================
+
+
 --[[
 
 WEZTERM = true

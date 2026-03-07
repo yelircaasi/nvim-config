@@ -28,7 +28,7 @@ import subprocess
 from datetime import date
 
 import argparse
-from typing import Final, Literal, NotRequired, Self, TypedDict
+from typing import Final, Iterable, Literal, NotRequired, Self, TypedDict
 
 
 ### TYPES ##############################################################################################################
@@ -84,12 +84,25 @@ class Paths:
         plugin_dir: Path,
         plugins_jsonc: Path | None = None,
         lockfile: Path | None = None,
+        plugins_lua: Path | None = None
     ) -> None:
         self.config_dir = config_dir
         self.plugin_dir = plugin_dir
         self.plugins_jsonc = plugins_jsonc or config_dir / "plugins.jsonc"
         self.lockfile = lockfile or config_dir / "plugins-lock.json"
+        self.plugins_lua = config_dir / "plugin_paths.lua"
 
+    @classmethod
+    def from_args(cls, args: argparse.Namespace) -> Self:
+        argdict = args.__dict__
+        return cls(
+                config_dir=args.config_dir,
+                plugin_dir=args.plugin_dir,
+                plugins_jsonc=argdict.get("plugins_jsonc"),
+                lockfile=argdict.get("lockfile"),
+                plugins_lua=argdict.get("plugins_lua"),
+            )
+    
 
 print(Globals.DEFAULT_CONFIG_DIR)
 print(Globals.DEFAULT_PLUGIN_DIR)
@@ -307,12 +320,19 @@ class Specs:
         raise ValueError("Invalid")
 
 
+def write_plugins_lua(paths: Paths, plugin_names: Iterable[str]) -> None:
+    plugin_dir = paths.plugin_dir
+    lines = "\n\t".join((f'["{name}"] = "{plugin_dir / name}",' for name in plugin_names))
+    file = f"""local M = {{
+    {lines}\n}}\nreturn M\n"""
+    paths.plugins_lua.write_text(file)
+
 ### COMMAND FUNCTIONS ##################################################################################################
 
 
-def install_fresh(args) -> None:
-    plugin_dir: Path = args.plugin_dir
-    config_dir: Path = args.config_dir
+def install_fresh(paths: Paths) -> None:
+    plugin_dir: Path = paths.plugin_dir
+    config_dir: Path = paths.config_dir
     plugins_file = config_dir / "plugins.jsonc"
     plugins_lockfile = config_dir / "plugins-lock.json"
     if not plugin_dir.exists():
@@ -323,12 +343,13 @@ def install_fresh(args) -> None:
         directory=plugin_dir,
     )
     lock = specs.install_plugins()
+    write_plugins_lua(paths, lock)
 
     plugins_lockfile.write_text(json.dumps(lock, indent=4))
     print(f"lockfile written to {plugins_lockfile}")
 
 
-def install_from_lockfile(args) -> None:
+def install_from_lockfile(paths: Paths) -> None:
     raise NotImplementedError
 
 
@@ -342,32 +363,32 @@ def check_for_updates(repo_path: Path) -> bool:
     return bool(output)
 
 
-def update_plugins(args) -> None:
+def update_plugins(paths: Paths) -> None:
     print("Not yet implemented!")
 
 
-def check_updates(args) -> None:
-    print(f"Checking updates, config at {args.config_dir}")
+def check_updates(paths: Paths) -> None:
+    print(f"Checking updates, config at {paths.config_dir}")
 
 
 def apply_updates(args) -> None:
     print("Not yet implemented!")
 
 
-def check_tools(args) -> None:
+def check_tools(paths: Paths) -> None:
     print("Not yet implemented!")
 
 
-def snapshot_tools(args) -> None:
+def snapshot_tools(paths: Paths) -> None:
     print("Not yet implemented!")
 
 
-def write_tools_script(args) -> None:
+def write_tools_script(paths: Paths) -> None:
     print("Not yet implemented!")
 
 
-def audit_nix(args) -> None:
-    print(f"Auditing Nix plugins against {args.config_dir}")
+def audit_nix(paths: Paths) -> None:
+    print(f"Auditing Nix plugins against {paths.config_dir}")
 
 
 ### CLI ################################################################################################################
@@ -427,29 +448,29 @@ def parse_args() -> argparse.Namespace:
 def main() -> None:
     args = parse_args()
     print(args)
-    paths = Paths(config_dir=args.config_dir, plugin_dir=args.plugin_dir)
+    paths = Paths.from_args(args)
 
     subcommand_pair = (args.subcommand, args.subsubcommand)
     print(subcommand_pair)
     match subcommand_pair:
         case ("plugins", "install-fresh"):
-            install_fresh(args)
+            install_fresh(paths)
         case ("plugins", "install-from-lockfile"):
-            install_from_lockfile(args)
+            install_from_lockfile(paths)
         case ("plugins", "update"):
-            update_plugins(args)
+            update_plugins(paths)
         case ("plugins", "check-updates"):
-            check_updates(args)
+            check_updates(paths)
         case ("plugins", "apply-updates"):
-            apply_updates(args)
+            apply_updates(paths)
         case ("tools", "check"):
-            check_tools(args)
+            check_tools(paths)
         case ("tools", "snapshot"):
-            snapshot_tools(args)
+            snapshot_tools(paths)
         case ("tools", "write-script"):
-            write_tools_script(args)
+            write_tools_script(paths)
         case ("nix", "audit"):
-            audit_nix(args)
+            audit_nix(paths)
         case _:
             raise ValueError
 
