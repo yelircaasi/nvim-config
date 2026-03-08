@@ -1,5 +1,7 @@
 # Error handling in Lua
 
+for notes: https://docs.drools.org/8.39.0.Final/drools-docs/docs-website/drools/language-reference/index.html
+
 ### 1. Basic "Try-Catch" with `pcall`
 
 `pcall` (protected call) executes a function. If an error occurs, it catches it and returns `false` plus the error message. If it succeeds, it returns `true` plus any values returned by the function.

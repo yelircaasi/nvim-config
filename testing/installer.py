@@ -57,7 +57,7 @@ class PluginLockData(TypedDict):
     version: str | None
 
 
-class Status(StrEnum):
+class Category(StrEnum):
     TRYING = auto()
     SELECTED = auto()
     NEXT = auto()
@@ -67,9 +67,10 @@ class Status(StrEnum):
     LATER_C = "laterC"
     LATER = "later"
     ALTERNATE = auto()
+    LANG = auto()
 
     def __str__(self) -> str:
-        return f"Status.{self.name}"
+        return f"Category.{self.name}"
     
     @property
     def included(self) -> bool:
@@ -131,9 +132,9 @@ class Paths:
         )
 
 
-print(Globals.DEFAULT_CONFIG_DIR)
-print(Globals.DEFAULT_PLUGIN_DIR)
-print(Globals.IS_NIX)
+# print(Globals.DEFAULT_CONFIG_DIR)
+# print(Globals.DEFAULT_PLUGIN_DIR)
+# print(Globals.IS_NIX)
 
 
 ### HELPER FUNCTIONS ###################################################################################################
@@ -174,6 +175,7 @@ class Source(StrEnum):
     GH = auto()
     CB = auto()
     GL = auto()
+    NONE = ""
 
 
 @dataclass
@@ -181,7 +183,7 @@ class Spec:
     name: str
     id: str
     source: Source
-    status: Status
+    category: Category
     lazy: bool = True
     dir_name: str | None = None
     custom_url: str | None = None
@@ -193,15 +195,15 @@ class Spec:
 
     @property
     def url(self) -> str:
-        return self.custom_url or f"{self.url_base}/{self.id}"
+        return self.custom_url or f"{self.url_base}{self.id}"
 
     @property
     def url_base(self) -> str:
         return {
-            Source.GH: "https://github.com",
-            Source.GL: "https://gitlab.com",
-            Source.CB: "https://codeberg.org",
-        }[self.source]
+            Source.GH: "https://github.com/",
+            Source.GL: "https://gitlab.com/",
+            Source.CB: "https://codeberg.org/",
+        }.get(self.source, "")
 
     @property
     def destination(self) -> str:
@@ -209,20 +211,24 @@ class Spec:
 
     @classmethod
     def from_dict(cls, spec_dict: PluginSpecDict) -> Self:
-        return cls(
-            id=spec_dict["id"],
-            name=spec_dict["name"],
-            source=Source[spec_dict["source"].upper()],
-            lazy=spec_dict["lazy"],
-            status=Status(spec_dict["status"]),
-            dir_name=spec_dict.get("dir_name"),
-            custom_url=spec_dict.get("custom_url"),
-            sha=spec_dict.get("sha"),
-            version=spec_dict.get("version"),
-            deps=tuple(spec_dict.get("deps", tuple())),
-            build=spec_dict.get("build"),
-            notes=spec_dict.get("notes"),
-        )
+        try:
+            return cls(
+                id=spec_dict["id"],
+                name=spec_dict["name"],
+                source=Source[spec_dict["source"].upper() or "NONE"],
+                lazy=spec_dict["lazy"],
+                category=Category(spec_dict["category"]),
+                dir_name=spec_dict.get("dir_name"),
+                custom_url=spec_dict.get("custom_url"),
+                sha=spec_dict.get("sha"),
+                version=spec_dict.get("version"),
+                deps=tuple(spec_dict.get("deps", tuple())),
+                build=spec_dict.get("build"),
+                notes=spec_dict.get("notes"),
+            )
+        except Exception as e:
+            print(spec_dict)
+            raise e
 
 
 def parse_jsonc(raw: str) -> list[PluginSpecDict]:
@@ -241,7 +247,6 @@ def get_commit_info(dest: Path) -> tuple[str, str]:
         return "AAAAAAAAAAAAAAAA", "1970-01-01"
     command_list = ["git", "-C", str(dest), "log", "-1", "--format='%H %cI'"]
     output = subprocess.check_output(command_list).decode().strip()
-    print(output)
     sha, date = output.split()
     return sha[1:], date[:10]
 
@@ -300,9 +305,9 @@ class Specs:
     def install_plugins(self) -> dict[str, PluginLockData | None]:
         lock: dict[str, PluginLockData | None] = {}
         for spec in self._specs.values():
-            if not spec.status.included:
+            if not spec.category.included:
+                # print(spec.name)
                 continue
-            print(f"{spec.name:<20} {spec.url}")
             status, _path = self.install_plugin(spec.name)
             if status is InstallStatus.ERROR:
                 print(
@@ -404,7 +409,6 @@ def check_for_updates(repo_path: Path) -> bool:
     diff_command = ["git", "-C", location, "log", "HEAD..origin/HEAD", "--oneline"]
     run(fetch_command)
     output = capture(diff_command)
-    print(output)
     return bool(output)
 
 

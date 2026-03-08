@@ -13,6 +13,7 @@ def arg_or_envvar(argpos: int, envvarname: str, fallback: str | Path) -> str:
     except:
         return os.getenv(envvarname) or fallback
 
+
 DEVICE_NAME = arg_or_envvar(1, "DEVICE_NAME", socket.gethostname())
 CONFIG_NAME = arg_or_envvar(2, "NVIM_CONFIG_NAME", "DEFAULT")
 CONFIG_PATH = arg_or_envvar(3, "NVIM_CONFIG_PATH", "")

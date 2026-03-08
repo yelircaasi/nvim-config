@@ -2,7 +2,7 @@
 DEVICE_NAME='edgar'
 NVIM_CONFIG_NAME='DEFAULT'
 NVIM_CONFIG_PATH='/Users/ext_riley/.cache/init.lua'
-NVIM_WRITE_DIR=/Users/ext_riley/repos/nvim-config/info
+NVIM_WRITE_DIR=/Users/ext_riley/repos/nvim-config/notes/info
 NVIM_NVIM_COMMAND='nvim'
 
 hostname: SIT-SMBP-G3614Q
