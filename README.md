@@ -440,7 +440,14 @@ to hack on:
 
 ```json
 [
-        {
+
+    {
+        "link": "https://github.com/arakkkkk/marktodo.nvim",
+        "decision": "rejected",
+        "projects": ["productivity","todo"],
+        "reason": "none"
+    },
+    {
         "link": "https://github.com/Kurama622/profile.nvim",
         "decision": "hack",
         "projects": [""],
