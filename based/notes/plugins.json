@@ -608,11 +608,6 @@
         "projects": ["","treesitter"]
     },
     {
-        "link": "https://github.com/madox2/vim-ai",
-        "decision": "next",
-        "projects": ["ai","llm"]
-    },
-    {
         "link": "https://github.com/echasnovski/mini.align",
         "decision": "trying",
         "projects": ["alignment"]
@@ -1339,12 +1334,6 @@
         "projects": ["startup"]
     },
     {
-        "link": "https://github.com/pianocomposer321/yabs.nvim",
-        "decision": "rejected",
-        "projects": ["taskRunning"],
-        "reason": "archived"
-    },
-    {
         "link": "https://github.com/pianocomposer321/officer.nvim",
         "decision": "trying",
         "projects": ["taskRunning"]
@@ -1410,7 +1399,7 @@
     },
     {
         "link": "https://github.com/ecthelionvi/NeoComposer.nvim",
-        "decision": "next",
+        "decision": "rejected",
         "projects": [""],
         "rating": 4.99,
         "topics": ["macros"]
@@ -1514,6 +1503,11 @@
         "description": "Use your Neovim like using Cursor AI IDE!"
     },
     {
+        "link": "https://github.com/madox2/vim-ai",
+        "decision": "next",
+        "projects": ["ai","llm"]
+    },
+    {
         "link": "https://github.com/svermeulen/nvim-teal-maker",
         "decision": "next",
         "projects": ["async","nextStep","pluginDev","pluginUtil","proglangSpecific"]
@@ -1571,6 +1565,12 @@
         "link": "https://github.com/Mohammed-Taher/AdvancedNewFile.nvim",
         "decision": "next",
         "projects": ["clipboard","yankPaste"]
+    },
+    {
+        "link": "https://github.com/gbprod/yanky.nvim",
+        "decision": "next",
+        "projects": ["clipboard","yankPaste"],
+        "reason": "none"
     },
     {
         "link": "https://github.com/IndianBoy42/tree-sitter-just",
@@ -3090,7 +3090,7 @@
     {
         "text": "typescripttolua.github.io",
         "link": "https://typescripttolua.github.io",
-        "decision": "laterC",
+        "decision": "glean",
         "projects": ["async","pluginDev","pluginUtil","proglangSpecific"]
     },
     {
@@ -3145,7 +3145,7 @@
     },
     {
         "link": "https://github.com/nvimdev/nvim-plugin-template",
-        "decision": "laterC",
+        "decision": "glean",
         "projects": ["async","pluginDev","pluginUtil","proglangSpecific"]
     },
     {
@@ -3389,22 +3389,22 @@
     },
     {
         "link": "https://github.com/ellisonleao/nvim-plugin-template",
-        "decision": "laterC",
+        "decision": "glean",
         "projects": ["proglangSpecific","selfReferential"]
     },
     {
         "link": "https://github.com/shortcuts/neovim-plugin-boilerplate",
-        "decision": "laterC",
+        "decision": "glean",
         "projects": ["proglangSpecific","selfReferential"]
     },
     {
         "link": "https://github.com/nvim-lua/nvim-lua-plugin-template",
-        "decision": "laterC",
+        "decision": "glean",
         "projects": ["proglangSpecific","selfReferential"]
     },
     {
         "link": "https://github.com/m00qek/plugin-template.nvim",
-        "decision": "laterC",
+        "decision": "glean",
         "projects": ["proglangSpecific","selfReferential"]
     },
     {
@@ -3779,6 +3779,12 @@
         "projects": ["ai","llm"]
     },
     {
+        "link": "https://github.com/mfussenegger/nvim-jdtls",
+        "decision": "later",
+        "notes": "https://tarkalabs.com/blogs/neovim-as-java-ide/",
+        "projects": ["java", "proglangSpecific"]
+    },
+    {
         "link": "https://github.com/David-Kunz/gen.nvim",
         "decision": "later",
         "projects": ["ai","llm"]
@@ -4063,7 +4069,7 @@
     },
     {
         "link": "https://github.com/leosmaia21/gcompilecommands.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["build","cpp","proglangSpecific"]
     },
     {
@@ -4078,37 +4084,37 @@
     },
     {
         "link": "https://github.com/hfn92/cmake-gtest.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["cmake","cpp","proglangSpecific"]
     },
     {
         "link": "https://github.com/Carbone13/runner.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["cmake","cpp","proglangSpecific"]
     },
     {
         "link": "https://github.com/Civitasv/cmake-tools.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["cmake","cpp","proglangSpecific"]
     },
     {
         "link": "https://github.com/Cartogy/nvim-cdbg",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["cmake","cpp","proglangSpecific"]
     },
     {
         "link": "https://github.com/AbaoFromCUG/cmake-tools.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["cmake","cpp","proglangSpecific"]
     },
     {
         "link": "https://github.com/XDeme/cmake-kits.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["cmake","cpp","proglangSpecific"]
     },
     {
         "link": "https://github.com/gergol/cmake-debugger.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["cmake","cpp","proglangSpecific"]
     },
     {
@@ -4120,7 +4126,7 @@
     },
     {
         "link": "https://github.com/idanarye/nvim-moonicipal",
-        "decision": "later",
+        "decision": "next",
         "projects": ["codeRunner"],
         "rating": 4.22222,
         "topics": ["taskRunning"]
@@ -4630,137 +4636,137 @@
     },
     {
         "link": "https://github.com/p00f/clangd_extensions.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["cpp","proglangSpecific"]
     },
     {
         "link": "https://github.com/ranjithshegde/ccls.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["cpp","proglangSpecific"]
     },
     {
         "link": "https://github.com/strptrk/clangwarningparser.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["cpp","proglangSpecific"]
     },
     {
         "link": "https://github.com/Kohirus/cppassist.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["cpp","proglangSpecific"]
     },
     {
         "link": "https://github.com/madskjeldgaard/cppman.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["cpp","proglangSpecific"]
     },
     {
         "link": "https://github.com/Cartogy/cproj.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["cpp","proglangSpecific"]
     },
     {
         "link": "https://github.com/ii14/nvim-ts-docgen",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["cpp","proglangSpecific"]
     },
     {
         "link": "https://github.com/amikai/cscope.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["cpp","proglangSpecific"]
     },
     {
         "link": "https://github.com/hardyrafael17/norminette42.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["cpp","proglangSpecific"]
     },
     {
         "link": "https://github.com/PatWie/include-guard.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["cpp","proglangSpecific"]
     },
     {
         "link": "https://github.com/paddywz/doxycpp.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["cpp","proglangSpecific"]
     },
     {
         "link": "https://github.com/liaozixin/nvim-cpptools",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["cpp","proglangSpecific"]
     },
     {
         "link": "https://github.com/Xertes0/cppdoc.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["cpp","proglangSpecific"]
     },
     {
         "link": "https://github.com/Hoffs/omnisharp-extended-lsp.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["cpp","proglangSpecific"]
     },
     {
         "link": "https://github.com/rossjaywill/insights.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["cpp","proglangSpecific"]
     },
     {
         "link": "https://github.com/Dr-42/builder_cpp.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["cpp","proglangSpecific"]
     },
     {
         "link": "https://github.com/skuzniar/nvim-cppgen",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["cpp","proglangSpecific"]
     },
     {
         "link": "https://github.com/daishengdong/calltree.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["cpp","proglangSpecific"]
     },
     {
         "link": "https://github.com/Maduki-tech/header.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["cpp","proglangSpecific"]
     },
     {
         "link": "https://github.com/octol/vim-cpp-enhanced-highlight",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["cpp","proglangSpecific"]
     },
     {
         "link": "https://github.com/jakemason/ouroboros.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["cpp","proglangSpecific"]
     },
     {
         "link": "https://github.com/jakemason/ouroboros",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["cpp","proglangSpecific"]
     },
     {
         "link": "https://github.com/Shougo/deoplete-clangx",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["cpp","proglangSpecific"]
     },
     {
         "link": "https://github.com/segoon/telescope-cc.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["cpp","proglangSpecific","telescope"]
     },
     {
         "link": "https://github.com/ofwinterpassed/gtestrunner.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["cpp","proglangSpecific","testing"]
     },
     {
         "link": "https://github.com/alfaix/neotest-gtest",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["cpp","proglangSpecific","testing"]
     },
     {
         "link": "https://github.com/Badhi/nvim-treesitter-cpp-tools",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["cpp","proglangSpecific","treesitter"]
     },
     {
@@ -4798,95 +4804,95 @@
     },
     {
         "link": "https://github.com/kndndrj/nvim-dbee",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["database","editor","go","lua","proglangSpecific"],
         "description": "Interactive database client for neovim"
     },
     {
         "link": "https://github.com/nvimdev/dbsession.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["database","proglangSpecific"]
     },
     {
         "text": "vim-dadbod ### database utils",
         "link": "https://github.com/tpope/vim-dadbod",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["database","proglangSpecific"]
     },
     {
         "text": "Mysql.vim specific",
         "link": "https://github.com/wsdjeg/Mysql.vim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["database","proglangSpecific"]
     },
     {
         "link": "https://github.com/jparise/vim-graphql",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["database","proglangSpecific"]
     },
     {
         "link": "https://github.com/kristijanhusak/vim-dadbod-ui",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["database","proglangSpecific"]
     },
     {
         "link": "https://github.com/abenz1267/nvim-databasehelper",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["database","proglangSpecific"]
     },
     {
         "link": "https://github.com/tami5/sqlite.lua",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["database","proglangSpecific"]
     },
     {
         "link": "https://github.com/jrop/mongo.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["database","proglangSpecific"]
     },
     {
         "link": "https://github.com/DariusCorvus/tree-sitter-surrealdb.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["database","proglangSpecific"]
     },
     {
         "link": "https://github.com/njaczko/nvim-psql",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["database","proglangSpecific","sql"]
     },
     {
         "link": "https://github.com/mzarnitsa/psql",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["database","proglangSpecific","sql"]
     },
     {
         "link": "https://github.com/guysherman/pg.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["database","proglangSpecific","sql"]
     },
     {
         "link": "https://github.com/tosiek88/nvim-sql-runner",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["database","proglangSpecific","sql"]
     },
     {
         "link": "https://github.com/rsdot/sqlpilot.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["database","proglangSpecific","sql"]
     },
     {
         "link": "https://github.com/ddzero2c/go-embedded-sql.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["database","proglangSpecific","sql"]
     },
     {
         "link": "https://github.com/Xemptuous/sqlua.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["database","proglangSpecific","sql"]
     },
     {
         "link": "https://github.com/mrvaita/sqlrun.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["database","proglangSpecific","sql"]
     },
     {
@@ -4922,7 +4928,7 @@
     },
     {
         "link": "https://github.com/MaxwelMazur/gofmt.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["formatting","go","proglangSpecific"]
     },
     {
@@ -5043,127 +5049,127 @@
     },
     {
         "link": "https://github.com/josa42/nvim-markdown-preview",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["go","proglangSpecific"]
     },
     {
         "link": "https://github.com/ray-x/go.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["go","proglangSpecific"]
     },
     {
         "link": "https://github.com/crispgm/nvim-go",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["go","proglangSpecific"]
     },
     {
         "link": "https://github.com/rafaelsq/nvim-goc.lua",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["go","proglangSpecific"]
     },
     {
         "link": "https://github.com/Snyssfx/goerr-nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["go","proglangSpecific"]
     },
     {
         "link": "https://github.com/crusj/structrue-go.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["go","proglangSpecific"]
     },
     {
         "link": "https://github.com/crusj/hierarchy-tree-go.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["go","proglangSpecific"]
     },
     {
         "link": "https://github.com/leoluz/nvim-dap-go",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["go","proglangSpecific"]
     },
     {
         "link": "https://github.com/abecodes/gox.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["go","proglangSpecific"]
     },
     {
         "link": "https://github.com/aca/go-patch-unusedvar.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["go","proglangSpecific"]
     },
     {
         "link": "https://github.com/jeniasaigak/goplay.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["go","proglangSpecific"]
     },
     {
         "link": "https://github.com/BoyerDamien/golang-code-actions.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["go","proglangSpecific"]
     },
     {
         "link": "https://github.com/lordvidex/go-heat.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["go","proglangSpecific"]
     },
     {
         "link": "https://github.com/pcolladosoto/tinygo.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["go","proglangSpecific"]
     },
     {
         "link": "https://github.com/buoto/gotests-vim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["go","proglangSpecific"]
     },
     {
         "link": "https://github.com/fatih/vim-go",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["go","proglangSpecific"]
     },
     {
         "link": "https://github.com/sebdah/vim-delve",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["go","proglangSpecific"]
     },
     {
         "link": "https://github.com/lukasl-dev/go-list.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["go","proglangSpecific","testing"]
     },
     {
         "link": "https://github.com/Azrealy/go-autotest.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["go","proglangSpecific","testing"]
     },
     {
         "link": "https://github.com/crochee/gotests.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["go","proglangSpecific","testing"]
     },
     {
         "link": "https://github.com/hobord/gotest.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["go","proglangSpecific","testing"]
     },
     {
         "link": "https://github.com/sshelll/gott.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["go","proglangSpecific","testing"]
     },
     {
         "link": "https://github.com/KaFski/gotest.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["go","proglangSpecific","testing"]
     },
     {
         "link": "https://github.com/leoluz/gotest.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["go","proglangSpecific","testing"]
     },
     {
         "link": "https://github.com/benediktjost/nvim-treesitter-go-return",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["go","proglangSpecific","treesitter"]
     },
     {
@@ -5173,224 +5179,224 @@
     },
     {
         "link": "https://github.com/cosminadrianpopescu/telescope-json-history.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["javascript","misc","proglangSpecific","telescope","typescript"]
     },
     {
         "text": "nvim-ts-rainbow 2",
         "link": "https://github.com/HiPhish/nvim-ts-rainbow",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["javascript","misc","proglangSpecific","typescript"]
     },
     {
         "text": "vscode-es 7-javascript-react-snippets",
         "link": "https://github.com/dsznajder/vscode-es",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["javascript","misc","proglangSpecific","typescript"]
     },
     {
         "link": "https://github.com/axelvc/template-string.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["javascript","misc","proglangSpecific","typescript"]
     },
     {
         "link": "https://github.com/JoosepAlviste/nvim-ts-context-commentstring",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["javascript","misc","proglangSpecific","typescript"]
     },
     {
         "link": "https://github.com/digitaltoad/vim-pug",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["javascript","misc","proglangSpecific","typescript"]
     },
     {
         "link": "https://github.com/mrjones2014/nvim-ts-rainbow",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["javascript","misc","proglangSpecific","typescript"]
     },
     {
         "link": "https://github.com/heavenshell/vim-jsdoc",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["javascript","misc","proglangSpecific","typescript"]
     },
     {
         "link": "https://github.com/jose-elias-alvarez/typescript.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["javascript","misc","proglangSpecific","typescript"]
     },
     {
         "link": "https://github.com/leafgarland/typescript-vim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["javascript","misc","proglangSpecific","typescript"]
     },
     {
         "link": "https://github.com/mhartington/nvim-typescript",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["javascript","misc","proglangSpecific","typescript"]
     },
     {
         "link": "https://github.com/pangloss/vim-javascript",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["javascript","misc","proglangSpecific","typescript"]
     },
     {
         "link": "https://github.com/LeviticusNelson/sfdx.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["javascript","misc","proglangSpecific","typescript"]
     },
     {
         "link": "https://github.com/kristijanhusak/vim-js-file-import",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["javascript","misc","proglangSpecific","typescript"]
     },
     {
         "link": "https://github.com/styled-components/vim-styled-components",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["javascript","misc","proglangSpecific","typescript"]
     },
     {
         "link": "https://github.com/ThePrimeagen/jvim.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["javascript","misc","proglangSpecific","typescript"]
     },
     {
         "link": "https://github.com/phelipetls/jsonpath.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["javascript","misc","proglangSpecific","typescript"]
     },
     {
         "link": "https://github.com/jrop/jq.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["javascript","misc","proglangSpecific","typescript"]
     },
     {
         "link": "https://github.com/2nthony/sortjson.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["javascript","misc","proglangSpecific","typescript"]
     },
     {
         "link": "https://github.com/Duologic/nvim-jsonnet",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["javascript","misc","proglangSpecific","typescript"]
     },
     {
         "link": "https://github.com/midoBB/nvim-quicktype",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["javascript","misc","proglangSpecific","typescript"]
     },
     {
         "link": "https://github.com/beyond-the-cloud-dev/vsc-salesforce-code-snippets",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["javascript","misc","proglangSpecific","typescript"]
     },
     {
         "link": "https://github.com/ckolkey/ts-node-action",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["javascript","misc","proglangSpecific","typescript"]
     },
     {
         "link": "https://github.com/nvim-neotest/neotest-jest",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["javascript","misc","proglangSpecific","typescript"]
     },
     {
         "link": "https://github.com/johnpapa/vscode-angular-snippets",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["javascript","misc","proglangSpecific","typescript"]
     },
     {
         "link": "https://github.com/Quramy/tsuquyomi",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["javascript","misc","proglangSpecific","typescript"]
     },
     {
         "link": "https://github.com/microsoft/vscode-js-debug",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["javascript","misc","proglangSpecific","typescript"]
     },
     {
         "link": "https://github.com/thenbe/neotest-playwright",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["javascript","misc","proglangSpecific","typescript"]
     },
     {
         "link": "https://github.com/nvim-telescope/telescope-node-modules.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["javascript","node","proglangSpecific","telescope","typescript"]
     },
     {
         "link": "https://github.com/elianiva/telescope-npm.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["javascript","node","proglangSpecific","telescope","typescript"]
     },
     {
         "link": "https://github.com/chuck-flowers/jest.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["javascript","node","proglangSpecific","testing","typescript"]
     },
     {
         "link": "https://github.com/justinrassier/jesting.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["javascript","node","proglangSpecific","testing","typescript"]
     },
     {
         "link": "https://github.com/adl3879/jest-runner.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["javascript","node","proglangSpecific","testing","typescript"]
     },
     {
         "link": "https://github.com/raine/testonly.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["javascript","node","proglangSpecific","testing","typescript"]
     },
     {
         "link": "https://github.com/zivlakmilos/TestRunner.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["javascript","node","proglangSpecific","testing","typescript"]
     },
     {
         "link": "https://github.com/David-Kunz/jester",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["javascript","node","proglangSpecific","testing","typescript"]
     },
     {
         "link": "https://github.com/vuki656/package-info.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["javascript","node","proglangSpecific","typescript"]
     },
     {
         "link": "https://github.com/lukahartwig/pnpm.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["javascript","node","proglangSpecific","typescript"]
     },
     {
         "link": "https://github.com/dzfrias/nvim-classy",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["javascript","node","proglangSpecific","typescript"]
     },
     {
         "link": "https://github.com/jellydn/typecheck.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["javascript","node","proglangSpecific","typescript"]
     },
     {
         "link": "https://github.com/azizgharbi/nodePackageCheck.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["javascript","node","proglangSpecific","typescript"]
     },
     {
         "link": "https://github.com/pipoprods/nvm.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["javascript","node","proglangSpecific","typescript"]
     },
     {
         "link": "https://github.com/muryp/muryp-findList.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["javascript","node","proglangSpecific","typescript"]
     },
     {
         "link": "https://github.com/gugahoi/yarn.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["javascript","node","proglangSpecific","typescript"]
     },
     {
@@ -5435,7 +5441,7 @@
     },
     {
         "link": "https://github.com/Diogo-ss/42-C-Formatter.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["lint","proglangSpecific"]
     },
     {
@@ -5480,207 +5486,207 @@
     },
     {
         "link": "https://github.com/ekalinin/dockerfile.vim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["proglangSpecific"]
     },
     {
         "text": "vim-dockerfile specific",
         "link": "https://github.com/wsdjeg/vim-dockerfile",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["proglangSpecific"]
     },
     {
         "link": "https://github.com/Issafalcon/neotest-dotnet",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["proglangSpecific"]
     },
     {
         "link": "https://github.com/c9s/perlomni.vim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["proglangSpecific"]
     },
     {
         "text": "perldoc-vim specific",
         "link": "https://github.com/wsdjeg/perldoc-vim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["proglangSpecific"]
     },
     {
         "link": "https://github.com/vim-perl/vim-perl",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["proglangSpecific"]
     },
     {
         "link": "https://github.com/StanAngeloff/php.vim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["proglangSpecific"]
     },
     {
         "link": "https://github.com/lumiliet/vim-twig (php)",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["proglangSpecific"]
     },
     {
         "link": "https://github.com/2072/PHP-Indenting-for-VIm",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["proglangSpecific"]
     },
     {
         "text": "pubspec-assist.nvim (dart)",
         "link": "https://github.com/akinsho/pubspec-assist.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["proglangSpecific"]
     },
     {
         "link": "https://github.com/akinsho/flutter-tools.nvim (dart)",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["proglangSpecific"]
     },
     {
         "link": "https://github.com/dart-lang/dart-vim-plugin",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["proglangSpecific"]
     },
     {
         "text": "nvim-r-plots",
         "link": "https://hstern.ca/blog/posts/nvim-r-plots",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["proglangSpecific"]
     },
     {
         "link": "https://github.com/SerMeliodas/ecsstractor.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["proglangSpecific"]
     },
     {
         "link": "TODO: search: flutter development in nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["proglangSpecific"]
     },
     {
         "link": "https://github.com/hsanson/vim-android",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["proglangSpecific"]
     },
     {
         "link": "https://github.com/darkonig/nvim-graphql-executor.lua",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["proglangSpecific"]
     },
     {
         "link": "https://github.com/mfussenegger/nvim-jdtls (java)",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["proglangSpecific"]
     },
     {
         "link": "https://github.com/rhysd/vim-wasm",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["proglangSpecific"]
     },
     {
         "link": "https://github.com/ynkdir/vim-vimlparser",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["proglangSpecific"]
     },
     {
         "link": "https://github.com/syngan/vim-vimlint",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["proglangSpecific"]
     },
     {
         "link": "https://github.com/tpope/vim-rbenv",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["proglangSpecific","ruby"]
     },
     {
         "link": "https://github.com/tpope/vim-rails",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["proglangSpecific","ruby"]
     },
     {
         "link": "https://github.com/tpope/vim-rake",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["proglangSpecific","ruby"]
     },
     {
         "link": "https://github.com/tpope/vim-bundler",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["proglangSpecific","ruby"]
     },
     {
         "link": "https://github.com/weizheheng/ror.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["proglangSpecific","ruby"]
     },
     {
         "link": "https://github.com/tpope/gem-browse",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["proglangSpecific","ruby"]
     },
     {
         "link": "https://github.com/lpoto/telescope-docker.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["proglangSpecific","telescope"]
     },
     {
         "link": "https://github.com/jfpedroza/neotest-elixir",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["proglangSpecific","testing"]
     },
     {
         "link": "https://github.com/ray-x/web-tools.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["proglangSpecific","typescript"]
     },
     {
         "link": "https://github.com/blevantovych/printer.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["proglangSpecific","typescript"]
     },
     {
         "link": "https://github.com/barrett-ruth/import-cost.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["proglangSpecific","typescript"]
     },
     {
         "link": "https://github.com/bennypowers/template-literal-comments.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["proglangSpecific","typescript"]
     },
     {
         "link": "https://github.com/llllvvuu/nvim-js-actions",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["proglangSpecific","typescript"]
     },
     {
         "link": "https://github.com/github-naresh/auto-fold-imports.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["proglangSpecific","typescript"]
     },
     {
         "link": "https://github.com/dmmulroy/tsc.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["proglangSpecific","typescript"]
     },
     {
         "link": "https://github.com/OlegGulevskyy/better-ts-errors.nvim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["proglangSpecific","typescript"]
     },
     {
         "link": "https://github.com/Traap/vim-bundle-plantuml",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["proglangSpecific","uml"]
     },
     {
         "text": "plantuml-previewer.vim specific",
         "link": "https://github.com/weirongxu/plantuml-previewer.vim",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["proglangSpecific","uml"]
     },
     {
         "link": "https://github.com/aklt/plantuml-syntax",
-        "decision": "later",
+        "decision": "lang",
         "projects": ["proglangSpecific","uml"]
     },
     {
@@ -7694,12 +7700,6 @@
     {
         "link": "https://github.com/AckslD/nvim-neoclip.lua",
         "decision": "rejected",
-        "projects": ["clipboard","yankPaste"],
-        "reason": "none"
-    },
-    {
-        "link": "https://github.com/gbprod/yanky.nvim",
-        "decision": "next",
         "projects": ["clipboard","yankPaste"],
         "reason": "none"
     },
@@ -18832,6 +18832,12 @@
         "decision": "rejected",
         "projects": ["tabulation"],
         "reason": "none"
+    },
+    {
+        "link": "https://github.com/pianocomposer321/yabs.nvim",
+        "decision": "rejected",
+        "projects": ["taskRunning"],
+        "reason": "archived"
     },
     {
         "link": "https://github.com/yutkat/taskrun.nvim",

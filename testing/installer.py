@@ -70,6 +70,15 @@ class Status(StrEnum):
 
     def __str__(self) -> str:
         return f"Status.{self.name}"
+    
+    @property
+    def included(self) -> bool:
+        return self in {
+            self.TRYING,
+            self.SELECTED,
+            self.NEXT,
+            self.SOONER,
+        }
 
 
 class ExternalToolSpec(TypedDict):
@@ -277,7 +286,6 @@ def install_plugin_with_build(
 class Specs:
     _specs: dict[str, Spec]
     directory: Path
-    stati = {Status.TRYING, Status.SELECTED}
 
     @classmethod
     def from_paths(cls, paths: Paths) -> Self:
@@ -292,7 +300,7 @@ class Specs:
     def install_plugins(self) -> dict[str, PluginLockData | None]:
         lock: dict[str, PluginLockData | None] = {}
         for spec in self._specs.values():
-            if not spec.status in self.stati:
+            if not spec.status.included:
                 continue
             print(f"{spec.name:<20} {spec.url}")
             status, _path = self.install_plugin(spec.name)

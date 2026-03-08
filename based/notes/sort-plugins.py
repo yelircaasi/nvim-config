@@ -23,6 +23,7 @@ decisions = (
         "laterA",
         "laterB",
         "laterC",
+        "lang",
         "laterD",
         "later",
         "extra",
