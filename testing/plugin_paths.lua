@@ -144,5 +144,12 @@ local M = {
 	["markdown-preview"] = "/Users/ext_riley/.local/share/nvim-plugins/markdown-preview",
 	["structlog"] = "/Users/ext_riley/.local/share/nvim-plugins/structlog",
 	["neorepl"] = "/Users/ext_riley/.local/share/nvim-plugins/neorepl",
+	["typescript-tools"] = "/Users/ext_riley/.local/share/nvim-plugins/typescript-tools",
+	["auto-pandoc"] = "/Users/ext_riley/.local/share/nvim-plugins/auto-pandoc",
+	["panvimdoc"] = "/Users/ext_riley/.local/share/nvim-plugins/panvimdoc",
+	["gopher"] = "/Users/ext_riley/.local/share/nvim-plugins/gopher",
+	["nfnl"] = "/Users/ext_riley/.local/share/nvim-plugins/nfnl",
+	["metals"] = "/Users/ext_riley/.local/share/nvim-plugins/metals",
+	["neotest-scala"] = "/Users/ext_riley/.local/share/nvim-plugins/neotest-scala",
 }
 return M

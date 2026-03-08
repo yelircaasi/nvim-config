@@ -1158,5 +1158,61 @@
         "cloned_on": "2026-03-07",
         "recency": "2024-06-02",
         "version": null
+    },
+    "typescript-tools": {
+        "location": "typescript-tools",
+        "url": "https://github.com/pmizio/typescript-tools.nvim",
+        "sha": "c2f5910074103705661e9651aa841e0d7eea9932",
+        "cloned_on": "2026-03-07",
+        "recency": "2025-11-18",
+        "version": null
+    },
+    "auto-pandoc": {
+        "location": "auto-pandoc",
+        "url": "https://github.com/jghauser/auto-pandoc.nvim",
+        "sha": "1e28cbb1de644be466a36a009c6fd3b7950cacf7",
+        "cloned_on": "2026-03-07",
+        "recency": "2025-08-31",
+        "version": null
+    },
+    "panvimdoc": {
+        "location": "panvimdoc",
+        "url": "https://github.com/kdheepak/panvimdoc",
+        "sha": "9d5379b4141f59a8b6f0a79f1d4cfe23e51e6ff0",
+        "cloned_on": "2026-03-07",
+        "recency": "2025-09-26",
+        "version": null
+    },
+    "gopher": {
+        "location": "gopher",
+        "url": "https://github.com/olexsmir/gopher.nvim",
+        "sha": "27ba078f14dd39fcd5e8a57d7009cdd77450ebbb",
+        "cloned_on": "2026-03-07",
+        "recency": "2026-03-04",
+        "version": null
+    },
+    "nfnl": {
+        "location": "nfnl",
+        "url": "https://github.com/Olical/nfnl",
+        "sha": "fecf731e02bc51d88372c4f992fe1ef0c19c02ae",
+        "cloned_on": "2026-03-07",
+        "recency": "2025-11-02",
+        "version": null
+    },
+    "metals": {
+        "location": "metals",
+        "url": "https://github.com/scalameta/nvim-metals",
+        "sha": "7ed47cd3095508e80423e30922385d5b9988f9d6",
+        "cloned_on": "2026-03-07",
+        "recency": "2026-01-16",
+        "version": null
+    },
+    "neotest-scala": {
+        "location": "neotest-scala",
+        "url": "https://github.com/stevanmilic/neotest-scala",
+        "sha": "685f0fac6196862b47025c6b91513af6a406501a",
+        "cloned_on": "2026-03-07",
+        "recency": "2022-10-15",
+        "version": null
     }
 }

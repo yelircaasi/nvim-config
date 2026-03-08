@@ -49,12 +49,27 @@ class PluginSpecDict(TypedDict):
     build: str | None
 
 
-class PluginLock(TypedDict):
+class PluginLockData(TypedDict):
     url: str
     sha: str
     cloned_on: str
     recency: str
     version: str | None
+
+
+class Status(StrEnum):
+    TRYING = auto()
+    SELECTED = auto()
+    NEXT = auto()
+    SOONER = auto()
+    LATER_A = "laterA"
+    LATER_B = "laterB"
+    LATER_C = "laterC"
+    LATER = "later"
+    ALTERNATE = auto()
+
+    def __str__(self) -> str:
+        return f"Status.{self.name}"
 
 
 class ExternalToolSpec(TypedDict):
@@ -84,7 +99,7 @@ class Paths:
         plugin_dir: Path,
         plugins_jsonc: Path | None = None,
         lockfile: Path | None = None,
-        plugins_lua: Path | None = None
+        plugins_lua: Path | None = None,
     ) -> None:
         self.config_dir = config_dir
         self.plugin_dir = plugin_dir
@@ -92,17 +107,20 @@ class Paths:
         self.lockfile = lockfile or config_dir / "plugins-lock.json"
         self.plugins_lua = config_dir / "plugin_paths.lua"
 
+        if not self.plugin_dir.exists():
+            Path.mkdir(self.plugin_dir)
+
     @classmethod
     def from_args(cls, args: argparse.Namespace) -> Self:
         argdict = args.__dict__
         return cls(
-                config_dir=args.config_dir,
-                plugin_dir=args.plugin_dir,
-                plugins_jsonc=argdict.get("plugins_jsonc"),
-                lockfile=argdict.get("lockfile"),
-                plugins_lua=argdict.get("plugins_lua"),
-            )
-    
+            config_dir=args.config_dir,
+            plugin_dir=args.plugin_dir,
+            plugins_jsonc=argdict.get("plugins_jsonc"),
+            lockfile=argdict.get("lockfile"),
+            plugins_lua=argdict.get("plugins_lua"),
+        )
+
 
 print(Globals.DEFAULT_CONFIG_DIR)
 print(Globals.DEFAULT_PLUGIN_DIR)
@@ -112,17 +130,21 @@ print(Globals.IS_NIX)
 ### HELPER FUNCTIONS ###################################################################################################
 
 
+def run(commands: list[str]) -> subprocess.CompletedProcess[bytes]:
+    return subprocess.run(commands, check=True, capture_output=True)
+
+
+def capture(commands: list[str]) -> str:
+    return subprocess.run(commands, capture_output=True).stdout.decode().strip()
+
+
 def get_executable_and_version(name: str, subcommand: str | None = None) -> str:
-    executable = (
-        subprocess.run(["which", name], capture_output=True).stdout.decode().strip()
-    )
+    executable = capture(["which", name])
+
     if not executable:
         return "", ""
-    output = (
-        subprocess.run([executable, subcommand or "--version"], capture_output=True)
-        .stdout.decode()
-        .strip()
-    )
+
+    output = capture([executable, subcommand or "--version"])
     search = re.search(r"\bv?([\d\.]+)\b", output)
     return executable, (search.group(1) if search else "")
 
@@ -150,6 +172,7 @@ class Spec:
     name: str
     id: str
     source: Source
+    status: Status
     lazy: bool = True
     dir_name: str | None = None
     custom_url: str | None = None
@@ -182,6 +205,7 @@ class Spec:
             name=spec_dict["name"],
             source=Source[spec_dict["source"].upper()],
             lazy=spec_dict["lazy"],
+            status=Status(spec_dict["status"]),
             dir_name=spec_dict.get("dir_name"),
             custom_url=spec_dict.get("custom_url"),
             sha=spec_dict.get("sha"),
@@ -196,7 +220,6 @@ def parse_jsonc(raw: str) -> list[PluginSpecDict]:
     decommented = "".join(
         line for line in map(str.strip, raw.splitlines()) if not line.startswith("//")
     )
-    print(decommented[:500])
     return json.loads((decommented))
 
 
@@ -244,19 +267,7 @@ def install_plugin_simple(
         return InstallStatus.ERROR, _destination
 
 
-def install_plugin_with_deps(
-    spec: Spec, directory: Path, update_existing: bool = False
-) -> tuple[InstallStatus, Path]:
-    return InstallStatus.NO_OP, directory / "NONEXISTENT"
-
-
 def install_plugin_with_build(
-    spec: Spec, directory: Path, update_existing: bool = False
-) -> tuple[InstallStatus, Path]:
-    return InstallStatus.NO_OP, directory / "NONEXISTENT"
-
-
-def install_plugin_with_deps_and_build(
     spec: Spec, directory: Path, update_existing: bool = False
 ) -> tuple[InstallStatus, Path]:
     return InstallStatus.NO_OP, directory / "NONEXISTENT"
@@ -266,23 +277,33 @@ def install_plugin_with_deps_and_build(
 class Specs:
     _specs: dict[str, Spec]
     directory: Path
+    stati = {Status.TRYING, Status.SELECTED}
+
+    @classmethod
+    def from_paths(cls, paths: Paths) -> Self:
+        return cls(
+            _specs=open_plugins_jsonc(paths.plugins_jsonc),
+            directory=paths.plugin_dir,
+        )
 
     def lookup(self, name: str) -> Spec:
         return self._specs[name]
 
-    def install_plugins(self) -> dict[str, PluginLock | None]:
-        lock: dict[str, PluginLock | None] = {}
+    def install_plugins(self) -> dict[str, PluginLockData | None]:
+        lock: dict[str, PluginLockData | None] = {}
         for spec in self._specs.values():
+            if not spec.status in self.stati:
+                continue
             print(f"{spec.name:<20} {spec.url}")
             status, _path = self.install_plugin(spec.name)
             if status is InstallStatus.ERROR:
                 print(
                     f"{spec.name} not installed: {spec.url} ========================================================"
                 )
-                lock_data: PluginLock | None = None
+                lock_data: PluginLockData | None = None
             else:
                 sha, recency = get_commit_info(_path)
-                lock_data = {
+                lock_data: PluginLockData = {
                     "location": str(_path.relative_to(self.directory)),
                     "url": spec.url,
                     "sha": sha,
@@ -292,6 +313,7 @@ class Specs:
                 }
             lock.update({spec.name: lock_data})
         return lock
+    
 
     def install_plugin(
         self,
@@ -299,68 +321,104 @@ class Specs:
         update_existing: bool = False,
     ) -> tuple[InstallStatus, Path]:
         spec = self.lookup(name)
-        directive = (bool(spec.deps), bool(spec.build))
-        match directive:
-            case (False, False):
-                return install_plugin_simple(
-                    spec, self.directory, update_existing=update_existing
-                )
-            case (True, False):
-                return install_plugin_with_deps(
-                    spec, self.directory, update_existing=update_existing
-                )
-            case (False, True):
-                return install_plugin_with_build(
-                    spec, self.directory, update_existing=update_existing
-                )
-            case (True, True):
-                return install_plugin_with_deps_and_build(
-                    spec, self.directory, update_existing=update_existing
-                )
-        raise ValueError("Invalid")
+        if bool(spec.build):
+            return install_plugin_with_build(
+                spec, self.directory, update_existing=update_existing
+            )
+        else:
+            return install_plugin_simple(
+                spec, self.directory, update_existing=update_existing
+            )
+
+
+@dataclass
+class LockData:
+    _lock: dict[str, PluginLockData]
+    directory: Path
+
+    @classmethod
+    def from_paths(cls, paths: Paths) -> Self:
+        return cls(
+            _lock=json.loads(paths.lockfile.read_text()),
+            directory=paths.plugin_dir,
+        )
+
+    def install_plugins(self) -> None: #dict[str, PluginLockData | None]:
+        # new_lock: dict[str, PluginLockData] = dict(self._lock.items())
+        for name, lock in self._lock.items():
+            destination = self.directory / name
+            sha, url = lock["url"], lock["sha"]
+            old_sha, recency = get_commit_info(destination)
+            if sha != old_sha:
+                self.install_plugin(destination, url, sha)
+                # lock_data: PluginLockData = {
+                #     "location": str(destination.relative_to(self.directory)),
+                #     "url": url,
+                #     "sha": sha,
+                #     "cloned_on": Globals.TODAY,
+                #     "recency": recency,
+                #     "version": None,
+                # }
+                # new_lock.update({name: lock_data})
+        # return new_lock
+
+    def install_plugin(
+        self,
+        destination: Path,
+        url: str,
+        sha: str,
+    ) -> tuple[InstallStatus, Path]:
+        
+
+        try:
+            run(["git", "clone", "--filter=blob:none", url, destination])
+            run(["git", "-C", str(destination), "checkout", sha])
+
+            return InstallStatus.SUCCESS, destination
+
+        except subprocess.CalledProcessError:
+            return InstallStatus.ERROR, destination
 
 
 def write_plugins_lua(paths: Paths, plugin_names: Iterable[str]) -> None:
     plugin_dir = paths.plugin_dir
-    lines = "\n\t".join((f'["{name}"] = "{plugin_dir / name}",' for name in plugin_names))
+    lines = "\n\t".join(
+        (f'["{name}"] = "{plugin_dir / name}",' for name in plugin_names)
+    )
     file = f"""local M = {{
     {lines}\n}}\nreturn M\n"""
     paths.plugins_lua.write_text(file)
-
-### COMMAND FUNCTIONS ##################################################################################################
-
-
-def install_fresh(paths: Paths) -> None:
-    plugin_dir: Path = paths.plugin_dir
-    config_dir: Path = paths.config_dir
-    plugins_file = config_dir / "plugins.jsonc"
-    plugins_lockfile = config_dir / "plugins-lock.json"
-    if not plugin_dir.exists():
-        Path.mkdir(plugin_dir)
-    print(f"Installing plugins to {plugin_dir}")
-    specs = Specs(
-        _specs=open_plugins_jsonc(plugins_file),
-        directory=plugin_dir,
-    )
-    lock = specs.install_plugins()
-    write_plugins_lua(paths, lock)
-
-    plugins_lockfile.write_text(json.dumps(lock, indent=4))
-    print(f"lockfile written to {plugins_lockfile}")
-
-
-def install_from_lockfile(paths: Paths) -> None:
-    raise NotImplementedError
 
 
 def check_for_updates(repo_path: Path) -> bool:
     location = str(repo_path)
     fetch_command = ["git", "-C", location, "fetch", "--dry-run", "origin"]
     diff_command = ["git", "-C", location, "log", "HEAD..origin/HEAD", "--oneline"]
-    subprocess.run(fetch_command, capture_output=True)
-    output = subprocess.run(diff_command, capture_output=True).stdout.decode().strip()
+    run(fetch_command)
+    output = capture(diff_command)
     print(output)
     return bool(output)
+
+
+### COMMAND FUNCTIONS ##################################################################################################
+
+
+def install_fresh(paths: Paths) -> None:
+    print(f"Installing plugins to {paths.plugin_dir}")
+    specs = Specs.from_paths(paths)
+    lock = specs.install_plugins()
+    write_plugins_lua(paths, lock)
+    paths.lockfile.write_text(json.dumps(lock, indent=4))
+    print(f"lockfile written to {paths.lockfile}")
+
+
+def install_from_lockfile(paths: Paths) -> None:
+    print(f"Installing plugins to {paths.plugin_dir}")
+    lock_data = LockData.from_paths(paths)
+    lock = lock_data.install_plugins()
+    write_plugins_lua(paths, lock) 
+    # paths.lockfile.write_text(json.dumps(lock, indent=4))
+    # print(f"lockfile written to {paths.lockfile}")
 
 
 def update_plugins(paths: Paths) -> None:
