@@ -1,4 +1,4 @@
-local setup = function(config)
+local function setup(config)
 	local VERBOSE = config.verbose
 	local prepend_safe = config.prepend_safe
 	local PLUGIN_PATHS = config.plugin_paths
@@ -15,26 +15,37 @@ local setup = function(config)
 			print("--- layer " .. layer .. ": " .. #layer_table .. " plugins")
 		end
 
-		for __, name in ipairs(layer_table) do
+		for _, name in ipairs(layer_table) do
 			table.insert(M.PLUGINS_INCLUDED, name)
 		end
 	end
-	local trivial = function(msg) end
 
-	M.printv = (VERBOSE and print) or trivial
+	local trivial = function(_)
+		return nil
+	end
+
+	if VERBOSE then
+		M.printv = print
+	else
+		M.printv = trivial
+	end
 
 	M.printb = function(msg)
 		local bar = string.rep("=", 120)
-		local end_bar = string.rep("=", 115 - string.len(msg))
+		local end_bar = string.rep("=", 115 - #msg)
 		print(bar)
 		print("=== " .. msg .. " " .. end_bar)
 		print(bar)
 	end
 
-	M.printbv = (VERBOSE and M.printb) or trivial
+	if VERBOSE then
+		M.printbv = M.printb
+	else
+		M.printbv = trivial
+	end
 
-	M.call_safe = function(func, arg, err_msg)
-		local result, return_value = pcall(func, arg)
+	M.call_safe = function(func, single_arg, err_msg)
+		local result, return_value = pcall(func, single_arg), T
 		if not result then
 			M.printb(err_msg)
 			return false, nil
@@ -44,7 +55,7 @@ local setup = function(config)
 	end
 
 	M.print_status = function(length, prefix, name, suffix)
-		local pad = string.rep(" ", length - string.len(name))
+		local pad = string.rep(" ", length - #name)
 		print(prefix .. " " .. name .. pad .. " " .. suffix)
 	end
 
@@ -54,16 +65,14 @@ local setup = function(config)
 
 	M.get_plugin = function(plugin_name)
 		if not M.is_included(plugin_name) then
-			return
+			return nil
 		end
 		local path = PLUGIN_PATHS[plugin_name]
-		-- print(path)
 		local deps = DEPENDENCIES[plugin_name]
 		prepend_safe(path)
 		if deps then
 			for _, dep_name in ipairs(deps) do
 				local dep_path = PLUGIN_PATHS[dep_name]
-				-- print(dep_path)
 				prepend_safe(dep_path)
 			end
 		end
@@ -78,9 +87,10 @@ local setup = function(config)
 		local path = PLUGIN_PATHS[plugin_name]
 		prepend_safe(path)
 		vim.cmd("packadd " .. plugin_name)
-		if custom_func then
-			custom_func()
+		if custom_func == nil then
+			return
 		end
+		custom_func()
 	end
 
 	local function setup_plugin_safe(plugin_name, config_or_function)
@@ -95,18 +105,15 @@ local setup = function(config)
 		if not config_or_function then
 			return
 		end
+
 		if type(config_or_function) == "table" then
-			local config = config_or_function
-			M.call_safe(plugin.setup, config, "ERROR: configuring" .. plugin_name)
-			return
+			local plugin_with_setup = plugin
+			M.call_safe(plugin_with_setup.setup, config_or_function, "ERROR: configuring" .. plugin_name)
+		elseif type(config_or_function) == "function" then
+			M.call_safe(config_or_function, plugin, "ERROR: custom setup function failed for " .. plugin_name)
 		end
-		if type(config_or_function) == "function" then
-			local custom_setup_function = config_or_function
-			M.call_safe(custom_setup_function, plugin, "ERROR: custom setup function failed for " .. plugin_name)
-			return
-		end
-		print("ERROR: 'config_or_function' must be nil, table, or function; found " .. type(config_or_function))
 	end
+
 	local function setup_plugin_default(plugin_name, config_or_function)
 		if not M.is_included(plugin_name) then
 			return
@@ -115,20 +122,27 @@ local setup = function(config)
 		if not config_or_function then
 			return
 		end
+
 		if type(config_or_function) == "table" then
-			local config = config_or_function
-			plugin.setup(config)
+			local plugin_with_setup = plugin
+			plugin_with_setup.setup(config_or_function)
 			return
 		end
 		if type(config_or_function) == "function" then
-			local custom_setup_function = config_or_function
-			custom_setup_function(plugin)
-			return
+			config_or_function(plugin)
 		end
-		error("'config_or_function' must be nil, table, or function; found " .. type(config_or_function))
 	end
 
-	M.setup_plugin = (config.safe and setup_plugin_safe) or setup_plugin_default
+	if config.safe then
+		M.setup_plugin = setup_plugin_safe
+	else
+		M.setup_plugin = setup_plugin_default
+	end
+
+	M.map = function(mode, lhs, rhs, opts)
+		vim.keymap.set(mode, lhs, rhs, (opts or {}))
+	end
+
 	return M
 end
 
