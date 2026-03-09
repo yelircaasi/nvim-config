@@ -26,59 +26,13 @@ else
     print("Warning: Plugin directory not found: " .. plugin_base_dir)
 end
 -- require("yazi")
---======================================================================================================================
 
-local plugins_file = vim.fn.expand("~/repos/nvim-config/testing/plugin_paths.lua") --"~/.config/nvim/plugin_paths.lua")
-plugins_table = dofile(plugins_file)
-
-local function safe_prepend(path)
-    local expanded_path = vim.fn.expand(path)
-    -- Use vim.tbl_contains for a much shorter check
-    if not vim.tbl_contains(vim.opt.runtimepath:get(), expanded_path) then
-        vim.opt.runtimepath:prepend(expanded_path)
-    end
-end
-
-dependencies = {
-	["yazi"] = "plenary",
-}
-
-function get_plugin(name)
-	local path = plugins_table[name]
-	print(path)
-	local deps = dependencies[name]
-    safe_prepend(path)
-	if dependencies then
-		for _, dep_path in ipairs(dependencies) do
-			safe_prepend(dep_path)
-		end
-	end
-	local required = require(name)
-	return required
-end
-
-function configure_plugin(name, config)
-	return get_plugin(name).setup(config)
-end
-
-function custom_setup(name, setup_func)
-	return setup_func(get_plugin(name))
-end
-
--- get_plugin("lualine").setup({})
-configure_plugin("lualine", {})
-configure_plugin("yazi", {})
--- custom_setup("lualine", function(plugin) plugin.setup({}) end)
---======================================================================================================================
-
-
---[[
 
 WEZTERM = true
 local LAYERS = {
 	-- -1,
-	-- 0,
-	-- 1,
+	0,
+	1,
 	-- 2,
 	-- 3,
 	-- 4,
@@ -87,8 +41,7 @@ local LAYERS = {
 	-- 7,
 	-- 8,
 }
-local PLUGINS = {}
-PLUGINS_BY_LAYER = {
+local PLUGINS_BY_LAYER = {
 	[-1] = {
 		-- old
 		"bamboo",
@@ -167,13 +120,13 @@ PLUGINS_BY_LAYER = {
 		"nvim-autopairs",
 		"blink.pairs",
 		"vim-sandwich",
-		"surround",
+		"nvim-surround",
 		-- undo
 		"vim-mundo",
 		-- keymapping-related
 		"mini.keymap",
 		"hydra",
-		"nvim-insx",
+		"insx",
 		"which-key",
 		-- alignment / indentation
 		"indentmini",
@@ -307,13 +260,20 @@ PLUGINS_BY_LAYER = {
 		"neorepl",
 	},
 }
-for _, layer in ipairs(LAYERS) do
-	local layer_table = PLUGINS_BY_LAYER[layer]
-	print("--- layer " .. layer .. ": " .. #layer_table .. " plugins")
 
-	for __, name in ipairs(layer_table) do
-		table.insert(PLUGINS, name)
+local PLUGINS_INCLUDED = {}
+for _, layer in ipairs(LAYERS) do
+		local layer_table = PLUGINS_BY_LAYER[layer]
+		print("--- layer " .. layer .. ": " .. #layer_table .. " plugins")
+	
+		for __, name in ipairs(layer_table) do
+			table.insert(PLUGINS_INCLUDED, name)
+		end
 	end
+print(vim.inspect(PLUGINS_INCLUDED))
+
+function is_included(plugin_name)
+	return vim.tbl_contains(PLUGINS_INCLUDED, plugin_name)
 end
 
 vim.g.mapleader = " "
@@ -373,19 +333,97 @@ local function printb(msg)
 end
 
 
-printb(vim.inspect(PLUGINS))
-printb(#PLUGINS)
+printb(vim.inspect(PLUGINS_INCLUDED))
+printb(#PLUGINS_INCLUDED)
 
 
 
-function contains(table, element)
-	for _, value in pairs(table) do
-		if value == element then
-			return true
+-- function contains(table, element)
+-- 	for _, value in pairs(table) do
+-- 		if value == element then
+-- 			return true
+-- 		end
+-- 	end
+-- 	return false
+-- end
+--======================================================================================================================
+
+local plugins_file = vim.fn.expand("~/repos/nvim-config/testing/plugin_paths.lua") --"~/.config/nvim/plugin_paths.lua")
+PLUGINS_TABLE = dofile(plugins_file)
+-- print(vim.inspect(PLUGINS_TABLE))
+
+local function safe_prepend(path)
+    local expanded_path = vim.fn.expand(path)
+    -- Use vim.tbl_contains for a much shorter check
+    if not vim.tbl_contains(vim.opt.runtimepath:get(), expanded_path) then
+        vim.opt.runtimepath:prepend(expanded_path)
+    end
+end
+
+dependencies = {
+	["yazi"] = {"plenary",},
+	["nvim-navbuddy"] = {"nui",},
+}
+
+function packadd(plugin_name) -- TODO
+	local path = PLUGINS_TABLE[name]
+	safe_prepend(path)
+	vim.cmd("packadd " .. plugin_name)
+end 
+
+function get_plugin(name)
+	local path = PLUGINS_TABLE[name]
+	-- print(path)
+	local deps = dependencies[name]
+    safe_prepend(path)
+	if deps then
+		for _, dep_name in ipairs(deps) do
+			local dep_path = PLUGINS_TABLE[dep_name]
+			print(dep_path)
+			safe_prepend(dep_path)
 		end
 	end
-	return false
+	local required = require(name)
+	return required
 end
+
+function configure_plugin(name, config)
+	return get_plugin(name).setup(config)
+end
+
+function custom_setup(name, setup_func)
+	return setup_func(get_plugin(name))
+end
+
+-- get_plugin("lualine").setup({})
+-- configure_plugin("lualine", {})
+-- configure_plugin("yazi", {})
+
+
+function setup_plugin(plugin_name, config_or_function)
+	if not is_included(plugin_name) then
+		print(plugin_name .. " not contained.")
+		return
+	end
+	plugin = get_plugin(plugin_name)
+    if not config_or_function then return end
+    if type(config_or_function) == "table" then
+		local config = config_or_function
+		plugin.setup(config)
+		return
+	end	
+	if type(config_or_function) == "function" then
+		custom_setup_function = config_or_function
+		custom_setup_function(plugin)
+		return
+	end
+	error("'config_or_function' must be nil, table, or function; found " .. type(config_or_function)) 
+end
+
+
+setup_plugin("lualine", {})
+setup_plugin("yazi", {})
+
 
 local function print_status(length, prefix, name, suffix)
 	local pad = string.rep(" ", length - string.len(name))
@@ -393,22 +431,29 @@ local function print_status(length, prefix, name, suffix)
 end
 
 
-function attempt(plugin_name, opts)
-	if not contains(PLUGINS, plugin_name) then
+function _attempt(plugin_name, opts)
+	if not is_included(plugin_name) then
+		print(plugin_name .. " not contained.")
 		return
 	end
-	local result, plugin = pcall(require, plugin_name)
+	local result, plugin = pcall(get_plugin, plugin_name)
 	if not result then
 		print_status(30, "IMPORTING:  ", plugin_name, "[ERROR]")
 		return
 	end
 	local result, setup = pcall(plugin.setup, opts or {})
 	if result then
-		print_status(30, "CONFIGURING:", plugin_name, "[SUCCESS]")
+		-- print_status(30, "CONFIGURING:", plugin_name, "[SUCCESS]")
 	else
 		print_status(30, "CONFIGURING:", plugin_name, "[ERROR] ===================================")
 	end
 end
+
+
+attempt = setup_plugin
+-- custom_setup("lualine", function(plugin) plugin.setup({}) end)
+--======================================================================================================================
+
 
 --======================================================================================================================
 -- LAYER 0: foundation, colors, search, core navigation ================================================================
@@ -420,16 +465,17 @@ attempt("nio")
 
 attempt("nvim-web-devicons")
 ------ core setup and UI
-if contains(PLUGINS, "bamboo") then
+if is_included("bamboo") then
 	printb("Setting up bamboo")
-	require("bamboo").setup({
+	local bamboo = get_plugin("bamboo")
+	bamboo.setup({
 		style = "multiplex",
 		colors = {
 			bg0 = "#020802",
 		},
 		-- highlights   = { Normal = { bg = "#020802" } },
 	})
-	require("bamboo").load()
+	bamboo.load()
 	-- require("vague").setup({ transparent = true })
 	-- vim.cmd("colorscheme bamboo")
 	-- vim.cmd(":hi statusline guibg=#081608")
@@ -439,7 +485,7 @@ attempt("lualine")
 attempt("nvim-navic")
 attempt("bufferline")
 attempt("statuscol")
-if contains(PLUGINS, "nvim-treesitter") then
+if is_included("nvim-treesitter") then
 	printb("Setting up treesitter.")
 	local my_install_dir = (not HAS_NIX) and vim.fn.stdpath("data") .. "/site" or nil
 	local my_parser_install_dir = (not HAS_NIX) and vim.fn.stdpath("data") .. "/parsers" or nil
@@ -450,7 +496,8 @@ if contains(PLUGINS, "nvim-treesitter") then
 	printv(my_install_dir)
 	printv(my_parser_install_dir)
 	printv(vim.inspect(my_ensure_installed))
-	local treesitter = require("nvim-treesitter")
+	-- local treesitter = get_plugin("nvim-treesitter")
+	local treesitter = get_plugin("nvim-treesitter")
 	-- for k, v in pairs(treesitter) do
 	-- 	print(k)
 	-- 	print(v)
@@ -461,7 +508,7 @@ if contains(PLUGINS, "nvim-treesitter") then
 	-- 	print(k)
 	-- 	print(v)
 	-- end
-	local treesitter = require("nvim-treesitter")
+	-- local treesitter = get_plugin("nvim-treesitter")
 	treesitter.setup({
 		-- directory to install parsers and queries to (prepended to `runtimepath` to have priority)
 		install_dir = my_install_dir,
@@ -481,9 +528,9 @@ end
 attempt("treesitter-modules")
 attempt("dropbar")
 attempt("nvim-navbuddy")
-if contains(PLUGINS, "aerial") then
+if is_included("aerial") then
 	plugin_name = "aerial"
-	require("aerial")
+	get_plugin("aerial")
 	print_status(30, "IMPORTING:  ", plugin_name, "[SUCCESS]")
 end
 ------ file explorer (as central focus)
@@ -494,7 +541,7 @@ attempt("nvim-tree")
 ------ picker / search
 attempt("pickme")
 attempt("telescope")
-if contains(PLUGINS, "telescope-fzf-native") then
+if is_included("telescope-fzf-native") then
 	plugin_name = "telescope-fzf-native"
 	-- require(plugin_name).setup()
 	print_status(30, "IMPORTING:  ", plugin_name, "[ERROR]")
@@ -514,9 +561,9 @@ attempt("spectre")
 ------ layout & buffer/tab navigation
 attempt("flybuf")
 attempt("stickybuf")
-if contains(PLUGINS, "swm") then
+if is_included("swm") then
 	plugin_name = "swm"
-	local swm = require(plugin_name)
+	local swm = get_plugin(plugin_name)
 	vim.keymap.set("n", "<C-w>h", swm.h)
 	vim.keymap.set("n", "<C-w>j", swm.j)
 	vim.keymap.set("n", "<C-w>k", swm.k)
@@ -529,7 +576,7 @@ attempt("smart-splits")
 -- LAYER 1: editing enhancements ======================================================================================= 1
 ------ folds
 attempt("ufo")
--- if contains(PLUGINS, "ufo") then
+-- if is_included("ufo") then
 -- 	plugin_name = "ufo"
 -- 	-- require(plugin_name).setup()
 -- 	print_error(plugin_name)
@@ -537,9 +584,9 @@ attempt("ufo")
 
 ------ macros
 attempt("NeoComposer")
-if contains(PLUGINS, "nvim-macros") then
+if is_included("nvim-macros") then
 	plugin_name = "nvim-macros"
-	require(plugin_name).setup({
+	get_plugin(plugin_name).setup({
 		-- json_file_path = "./macros.json",
 		-- default_macro_register = "a",
 		-- json_formatter = "jq",
@@ -549,7 +596,7 @@ end
 attempt("recorder")
 
 ------ multi-cursor
-if contains(PLUGINS, "vim-visual-multi") then
+if is_included("vim-visual-multi") then
 	plugin_name = "vim-visual-multi"
 	-- require(plugin_name).setup()
 	print_status(30, "IMPORTING:  ", plugin_name, "[ERROR]")
@@ -559,7 +606,7 @@ attempt("leap")
 attempt("flash")
 attempt("hop")
 ------ pairs
-if contains(PLUGINS, "rainbow-delimiters") then
+if is_included("rainbow-delimiters") then
 	-- plugin_name = "rainbow-delimiters"
 	-- require(plugin_name).setup()
 	-- print_todo(plugin_name)
@@ -567,14 +614,15 @@ if contains(PLUGINS, "rainbow-delimiters") then
 end
 attempt("nvim-autopairs")
 --TODO attempt("blink.pairs")
-attempt("vim-sandwich")
-attempt("surround")
+packadd("vim-sandwich")
+-- attempt("vim-sandwich")
+attempt("nvim-surround")
 ------ undo
-attempt("vim-mundo")
+packadd("vim-mundo")
 ------ keymapping-related
 attempt("mini.keymap")
 attempt("hydra")
-attempt("nvim-insx")
+attempt("insx")
 attempt("which-key")
 ------ alignment / indentation
 attempt("indentmini")
@@ -639,9 +687,9 @@ attempt("asyncrun")
 attempt("neotest-haskell")
 attempt("neotest-python")
 attempt("neotest")
-if contains(PLUGINS, "dap-python") then
+if is_included("dap-python") then
 	print("dap-python")
-	local dap_python = require("dap-python")
+	local dap_python = get_plugin("dap-python")
 	dap_python.setup("debugpy-adapter")
 	dap_python.test_runner = "pytest"
 	vim.keymap.set("n", "<leader>tt", function()
@@ -651,13 +699,13 @@ if contains(PLUGINS, "dap-python") then
 		print("This works")
 	end)
 	vim.keymap.set("n", "<leader>dn", function()
-		require("dap-python").test_method()
+		get_plugin("dap-python").test_method()
 	end)
 	vim.keymap.set("n", "<leader>df", function()
-		require("dap-python").test_class()
+		get_plugin("dap-python").test_class()
 	end)
 	vim.keymap.set("v", "<leader>ds", function()
-		require("dap-python").debug_selection()
+		get_plugin("dap-python").debug_selection()
 	end)
 end
 attempt("dapui")
@@ -710,7 +758,7 @@ attempt("auto-session")
 attempt("persistence")
 
 -- LAYER 8: miscellaneous/advanced =========================================================================================================== 8
-if contains(PLUGINS, "vimtex") then
+if is_included("vimtex") then
 	vim.g.vimtex_view_method = "zathura"
 end
 attempt("texmagic")
@@ -827,5 +875,3 @@ if WEZTERM then
 	end
 end
 
-
---]]

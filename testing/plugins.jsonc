@@ -16,13 +16,13 @@
 	{ "name": "zen-mode",                     "id": "folke/zen-mode.nvim",                  "source": "gh", "lazy": false, "category": "trying"},
 	{ "name": "illuminate",                   "id": "RRethy/vim-illuminate",                "source": "gh", "lazy": false, "category": "trying"},
 	{ "name": "lualine",                      "id": "nvim-lualine/lualine.nvim",            "source": "gh", "lazy": false, "category": "trying"},
-	{ "name": "navic",                        "id": "SmiteshP/nvim-navic",                  "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" }, 
+	{ "name": "nvim-navic",                   "id": "SmiteshP/nvim-navic",                  "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" }, 
 	{ "name": "bufferline",                   "id": "akinsho/bufferline.nvim",              "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" }, 
 	{ "name": "statuscol",                    "id": "luukvbaal/statuscol.nvim",             "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" }, 
-	{ "name": "treesitter",                   "id": "nvim-treesitter/nvim-treesitter",      "source": "gh", "lazy": false, "category": "trying",    "notes": "brew install tree-sitter; brew install tree-sitter-cli" }, 
+	{ "name": "nvim-treesitter",              "id": "nvim-treesitter/nvim-treesitter",      "source": "gh", "lazy": false, "category": "trying",    "notes": "brew install tree-sitter; brew install tree-sitter-cli" }, 
 	{ "name": "treesitter-modules",           "id": "MeanderingProgrammer/treesitter-modules.nvim", "source": "gh", "lazy": false, "category": "trying", "notes": "needs nix" }, 
 	{ "name": "dropbar",                      "id": "Bekaboo/dropbar.nvim",                 "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" }, 
-	{ "name": "navbuddy",                     "id": "SmiteshP/nvim-navbuddy",               "source": "gh", "lazy": false, "deps": ["nui"], "category": "trying", "notes": "needs nix" }, 
+	{ "name": "nvim-navbuddy",                "id": "SmiteshP/nvim-navbuddy",               "source": "gh", "lazy": false, "deps": ["nui"], "category": "trying", "notes": "needs nix" }, 
 	{ "name": "aerial",                       "id": "stevearc/aerial.nvim",                 "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" }, 
 	//---------------------------------------------
 	//------ file explorer (as central focus) -----
@@ -30,7 +30,7 @@
 	{ "name": "oil",                          "id": "stevearc/oil.nvim",                    "source": "gh", "lazy": false, "category": "trying"},
 	{ "name": "yazi",                         "id": "mikavilpas/yazi.nvim",                 "source": "gh", "lazy": false, "category": "trying"},
 	{ "name": "neo-tree",                     "id": "nvim-neo-tree/neo-tree.nvim",          "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" }, 
-	{ "name": "tree",                         "id": "nvim-tree/nvim-tree.lua",              "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" }, 
+	{ "name": "nvim-tree",                    "id": "nvim-tree/nvim-tree.lua",              "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" }, 
 	//----------------------------
 	//------ picker / search -----
 	//----------------------------
@@ -78,7 +78,7 @@
 	//------ macros -----
 	//-------------------
 	{ "name": "NeoComposer",                  "id": "lvim-tech/NeoComposer.nvim",           "source": "gh", "lazy": false, "category": "trying"},
-	{ "name": "macros",                       "id": "kr40/nvim-macros",                     "source": "gh", "lazy": false, "category": "trying"},
+	{ "name": "nvim-macros",                  "id": "kr40/nvim-macros",                     "source": "gh", "lazy": false, "category": "trying"},
 	{ "name": "recorder",                     "id": "chrisgrieser/nvim-recorder",           "source": "gh", "lazy": false, "category": "trying"},
 	//-------------------------
 	//------ multi-cursor -----
@@ -94,10 +94,10 @@
 	//------ pairs -----
 	//------------------
 	{ "name": "rainbow-delimiters",           "id": "HiPhish/rainbow-delimiters.nvim",      "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" }, 
-	{ "name": "autopairs",                    "id": "windwp/nvim-autopairs",                "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" }, 
+	{ "name": "nvim-autopairs",               "id": "windwp/nvim-autopairs",                "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" }, 
 	{ "name": "blink.pairs",                  "id": "saghen/blink.pairs",                   "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" }, 
 	{ "name": "vim-sandwich",                 "id": "machakann/vim-sandwich",               "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" }, 
-	{ "name": "surround",                     "id": "kylechui/nvim-surround",               "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" }, 
+	{ "name": "nvim-surround",                     "id": "kylechui/nvim-surround",               "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" }, 
 	//-----------------
 	//------ undo -----
 	//-----------------

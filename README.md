@@ -10,6 +10,10 @@ No nvim framework or distribution is used currently.
 
 - [ ] re-add links to notes, where applicable (especially consilium project)
 - [ ] remove from plugins.json plugins that were moved to plugins.jsonc
+- [ ] [read](https://www.reddit.com/r/neovim/comments/115baze/which_vim_plugins_do_not_have_a_lua_equivalent_yet/)
+- [ ] annotate in plugins.jsonc which plugins are vimscript
+- [ ] https://github.com/aliyss/vim-himalaya-ui
+- [ ] https://github.com/aliyss
 
 
 ## Plugins
@@ -499,6 +503,199 @@ to hack on:
 ]
 ```
 
+to glean from / hack on later:
+
+```json
+[
+
+    {
+        "link": "https://github.com/marcushwz/nvim-workbench",
+        "decision": "rejected",
+        "projects": ["productivity","todo"],
+        "reason": "none"
+    },
+    {
+        "link": "https://github.com/nagy135/capture-nvim",
+        "decision": "rejected",
+        "projects": ["productivity","todo"],
+        "reason": "none"
+    },
+    {
+        "link": "https://github.com/smolck/nvim-todoist.lua",
+        "decision": "rejected",
+        "projects": ["productivity","todo"],
+        "reason": "none"
+    },
+    {
+        "link": "https://github.com/arnarg/todotxt.nvim",
+        "decision": "rejected",
+        "projects": ["productivity","todo"],
+        "reason": "none"
+    },
+    {
+        "link": "https://github.com/NFrid/due.nvim",
+        "decision": "rejected",
+        "projects": ["productivity","todo"],
+        "reason": "none"
+    },
+    {
+        "link": "https://github.com/defntvdm/todos.nvim",
+        "decision": "rejected",
+        "projects": ["productivity","todo"],
+        "reason": "none"
+    },
+    {
+        "link": "https://github.com/amiroslaw/taskmaker.nvim",
+        "decision": "rejected",
+        "projects": ["productivity","todo"],
+        "reason": "none"
+    },
+    {
+        "link": "https://github.com/unamatasanatarai/nvim-md-todo-toggle",
+        "decision": "rejected",
+        "projects": ["productivity","todo"],
+        "reason": "none"
+    },
+    {
+        "link": "https://github.com/nocksock/do.nvim",
+        "decision": "rejected",
+        "projects": ["productivity","todo"],
+        "reason": "none"
+    },
+    {
+        "link": "https://github.com/MaximilianLloyd/todo.nvim",
+        "decision": "rejected",
+        "projects": ["productivity","todo"],
+        "reason": "none"
+    },
+    {
+        "link": "https://github.com/alex-laycalvert/todo.nvim",
+        "decision": "rejected",
+        "projects": ["productivity","todo"],
+        "reason": "none"
+    },
+    {
+        "link": "https://github.com/torcor-dev/todoman.nvim",
+        "decision": "rejected",
+        "projects": ["productivity","todo"],
+        "reason": "none"
+    },
+    {
+        "link": "https://github.com/malramsay64/mind.nvim",
+        "decision": "rejected",
+        "projects": ["productivity","todo"],
+        "reason": "none"
+    },
+    {
+        "link": "https://github.com/arakkkkk/kanban.nvim",
+        "decision": "rejected",
+        "projects": ["productivity","todo"],
+        "reason": "none"
+    },
+    {
+        "link": "https://github.com/Cartogy/todo.nvim",
+        "decision": "rejected",
+        "projects": ["productivity","todo"],
+        "reason": "none"
+    },
+    {
+        "link": "https://github.com/kperath/dailynotes.nvim",
+        "decision": "rejected",
+        "projects": ["productivity","todo"],
+        "reason": "none"
+    },
+    {
+        "link": "https://github.com/psaikido/lifetrak.nvim",
+        "decision": "rejected",
+        "projects": ["productivity","todo"],
+        "reason": "none"
+    },
+    {
+        "link": "https://github.com/ca-mantis-shrimp/Todoist.nvim",
+        "decision": "rejected",
+        "projects": ["productivity","todo"],
+        "reason": "none"
+    },
+    {
+        "link": "https://github.com/jed-richards/todo.nvim",
+        "decision": "rejected",
+        "projects": ["productivity","todo"],
+        "reason": "none"
+    },
+    {
+        "link": "https://github.com/oncomouse/todo.nvim",
+        "decision": "rejected",
+        "projects": ["productivity","todo"],
+        "reason": "none"
+    },
+    {
+        "link": "https://github.com/mvolkmann/todo-quickfix.nvim",
+        "decision": "rejected",
+        "projects": ["productivity","todo"],
+        "reason": "none"
+    },
+    {
+        "link": "https://github.com/rareitems/saved_notes.nvim",
+        "decision": "rejected",
+        "projects": ["productivity","todo"],
+        "reason": "none"
+    },
+    {
+        "link": "https://github.com/pablopunk/todo.nvim",
+        "decision": "rejected",
+        "projects": ["productivity","todo"],
+        "reason": "none"
+    },
+    {
+        "link": "https://github.com/mariogarridopt/todo.nvim",
+        "decision": "rejected",
+        "projects": ["productivity","todo"],
+        "reason": "none"
+    },
+    {
+        "link": "https://github.com/aymenhafeez/scratch.nvim",
+        "decision": "rejected",
+        "projects": ["productivity","todo"],
+        "reason": "none"
+    },
+    {
+        "link": "https://github.com/yoshigoya/nvim-joplin.nvim",
+        "decision": "rejected",
+        "projects": ["productivity","todo"],
+        "reason": "none"
+    },
+    {
+        "link": "https://github.com/jungyong0615dot/planner.nvim",
+        "decision": "rejected",
+        "projects": ["productivity","todo"],
+        "reason": "none"
+    },
+    {
+        "link": "https://github.com/kimpors/plan.nvim",
+        "decision": "rejected",
+        "projects": ["productivity","todo"],
+        "reason": "none"
+    },
+    {
+        "link": "https://github.com/rrossmiller/tasklist.nvim",
+        "decision": "rejected",
+        "projects": ["productivity","todo"],
+        "reason": "none"
+    },
+    {
+        "link": "https://github.com/LandonTr0n/taskb0t.nvim",
+        "decision": "rejected",
+        "projects": ["productivity","todo"],
+        "reason": "none"
+    },
+    {
+        "link": "https://github.com/ManasPatil0967/nvim-todo",
+        "decision": "rejected",
+        "projects": ["productivity","todo"],
+        "reason": "none"
+    }
+]
+```
 plugins for much later
 
 ```json
