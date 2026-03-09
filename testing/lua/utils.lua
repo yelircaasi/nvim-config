@@ -1,30 +1,27 @@
 
 
 local setup = function(config)
-    local debug = config.debug
+    local VERBOSE = config.verbose
     local prepend_safe = config.prepend_safe
-    local plugin_paths = config.plugin_paths
-    local dependencies = config.dependencies
-    local layers = config.layers
-    local plugins_by_layer = config.plugins_by_layer
+    local PLUGIN_PATHS = config.plugin_paths
+    local DEPENDENCIES = config.dependencies
+    local LAYERS = config.layers
+    local PLUGINS_BY_LAYER = config.plugins_by_layer
 
     local M = {}
 
     M.PLUGINS_INCLUDED = {}
-    for _, layer in ipairs(layers) do
-                local layer_table = plugins_by_layer[layer]
-                print("--- layer " .. layer .. ": " .. #layer_table .. " plugins")
+    for _, layer in ipairs(LAYERS) do
+                local layer_table = PLUGINS_BY_LAYER[layer]
+                if VERBOSE then print("--- layer " .. layer .. ": " .. #layer_table .. " plugins") end
             
                 for __, name in ipairs(layer_table) do
                     table.insert(M.PLUGINS_INCLUDED, name)
                 end
             end
+    local trivial = function(msg) end
 
-    M.printv = function(msg)
-        if DEBUG then
-            print(msg)
-        end
-    end
+    M.printv = (VERBOSE and print) or trivial
 
     M.printb = function(msg)
         local bar = string.rep("=", 120)
@@ -33,6 +30,8 @@ local setup = function(config)
         print("=== " .. msg .. " " .. end_bar)
         print(bar)
     end
+
+    M.printbv = (VERBOSE and M.printb) or trivial
 
     M.call_safe = function(func, arg, err_msg)
         local result, return_value = pcall(func, arg)
@@ -55,13 +54,13 @@ local setup = function(config)
 
     M.get_plugin = function(plugin_name)
             if not M.is_included(plugin_name) then return end
-            local path = plugin_paths[plugin_name]
+            local path = PLUGIN_PATHS[plugin_name]
             -- print(path)
-            local deps = dependencies[plugin_name]
+            local deps = DEPENDENCIES[plugin_name]
             prepend_safe(path)
             if deps then
                 for _, dep_name in ipairs(deps) do
-                    local dep_path = plugin_paths[dep_name]
+                    local dep_path = PLUGIN_PATHS[dep_name]
                     -- print(dep_path)
                     prepend_safe(dep_path)
                 end
@@ -72,7 +71,7 @@ local setup = function(config)
 
     M.packadd = function(plugin_name, custom_func)
             if not M.is_included(plugin_name) then return end
-            local path = plugin_paths[plugin_name]
+            local path = PLUGIN_PATHS[plugin_name]
             prepend_safe(path)
             vim.cmd("packadd " .. plugin_name)
             if custom_func then custom_func() end
@@ -116,7 +115,7 @@ local setup = function(config)
             error("'config_or_function' must be nil, table, or function; found " .. type(config_or_function)) 
         end
 
-    M.setup_plugin = (debug and setup_plugin_safe) or setup_plugin_default
+    M.setup_plugin = (config.safe and setup_plugin_safe) or setup_plugin_default
     return M
 end
 
