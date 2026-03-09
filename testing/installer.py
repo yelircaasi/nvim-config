@@ -115,7 +115,7 @@ class Paths:
         self.plugin_dir = plugin_dir
         self.plugins_jsonc = plugins_jsonc or config_dir / "plugins.jsonc"
         self.lockfile = lockfile or config_dir / "plugins-lock.json"
-        self.plugins_lua = config_dir / "plugin_paths.lua"
+        self.plugins_lua = config_dir / "meta/plugin_paths.lua"
 
         if not self.plugin_dir.exists():
             Path.mkdir(self.plugin_dir)
