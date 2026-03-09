@@ -14,7 +14,17 @@ No nvim framework or distribution is used currently.
 - [ ] annotate in plugins.jsonc which plugins are vimscript
 - [ ] https://github.com/aliyss/vim-himalaya-ui
 - [ ] https://github.com/aliyss
+- [ ] https://qwik.dev
 
+## External tools
+
+- treesitter: `brew install tree-sitter`
+- debugpy
+
+## Plugin build steps
+
+- blink
+- telescope-fzf-native
 
 ## Plugins
 

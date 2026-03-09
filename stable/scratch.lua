@@ -53,3 +53,28 @@ vim.pack.add({
     M.plug("blink.cmp", "saghen/blink.cmp"),
     M.plug("rustaceanvim", "mrcjkb/rustaceanvim"),
 })
+
+
+
+-- PLUGINS DIR (OLD)
+local plugin_base_dir = vim.fn.expand("~/.local/share/nvim-plugins")
+
+-- Get a list of all directories inside your custom folder
+local handle = vim.uv.fs_scandir(plugin_base_dir)
+
+if handle then
+    while true do
+        local name, type = vim.uv.fs_scandir_next(handle)
+        if not name then break end
+        
+        -- Only process directories (skip READMEs, .DS_Store, etc.)
+        if type == "directory" and name == "yazi" or name == "plenary" then
+            local plugin_path = plugin_base_dir .. "/" .. name
+            
+            -- Prepend to RTP so your manual plugins take priority over defaults
+            vim.opt.runtimepath:prepend(plugin_path)
+        end
+    end
+else
+    print("Warning: Plugin directory not found: " .. plugin_base_dir)
+end

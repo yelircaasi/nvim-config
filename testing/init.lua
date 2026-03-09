@@ -2,32 +2,6 @@ vim.g.loaded_matchparen = 1
 vim.g.loaded_matchit = 1
 vim.g.loaded_netrw = 1
 
-
---======================================================================================================================
-local plugin_base_dir = vim.fn.expand("~/.local/share/nvim-plugins")
-
--- Get a list of all directories inside your custom folder
-local handle = vim.uv.fs_scandir(plugin_base_dir)
-
-if handle then
-    while true do
-        local name, type = vim.uv.fs_scandir_next(handle)
-        if not name then break end
-        
-        -- Only process directories (skip READMEs, .DS_Store, etc.)
-        if type == "directory" and name == "yazi" or name == "plenary" then
-            local plugin_path = plugin_base_dir .. "/" .. name
-            
-            -- Prepend to RTP so your manual plugins take priority over defaults
-            vim.opt.runtimepath:prepend(plugin_path)
-        end
-    end
-else
-    print("Warning: Plugin directory not found: " .. plugin_base_dir)
-end
--- require("yazi")
-
-
 WEZTERM = true
 local LAYERS = {
 	-- -1,
@@ -45,14 +19,9 @@ local PLUGINS_BY_LAYER = {
 	[-1] = {
 		-- old
 		"bamboo",
-		-- "vimtex",
-		-- "neotest",
-		-- "neotest-python",
 		"dap", -- debugpy
 		"dap-python",
 		"dapui",
-		-- "nvim-treesitter", -- brew install tree-sitter
-		--
 	},
 	-- LAYER 0: foundation, colors, search, core navigation
 	[0] = {
@@ -270,7 +239,7 @@ for _, layer in ipairs(LAYERS) do
 			table.insert(PLUGINS_INCLUDED, name)
 		end
 	end
-print(vim.inspect(PLUGINS_INCLUDED))
+-- print(vim.inspect(PLUGINS_INCLUDED))
 
 function is_included(plugin_name)
 	return vim.tbl_contains(PLUGINS_INCLUDED, plugin_name)
@@ -301,23 +270,6 @@ TS_LANGUAGES = {
 	"zig",
 }
 
-local gh = function(id)
-	return "https://github.com/" .. id
-end
-local gl = function(id)
-	return "https://gitlab.com/" .. id
-end
-local cb = function(id)
-	return "https://codeberg.org/" .. id
-end
-
-local function build_telescope_fzf_native()
-	print("TODO")
-end
-local function build_blink_cmp()
-	print("TODO")
-end
-
 local printv = function(msg)
 	if BE_VERBOSE then
 		print(msg)
@@ -332,29 +284,15 @@ local function printb(msg)
 	print(bar)
 end
 
+-- printb(vim.inspect(PLUGINS_INCLUDED))
+printb(#PLUGINS_INCLUDED .. " plugins included")
 
-printb(vim.inspect(PLUGINS_INCLUDED))
-printb(#PLUGINS_INCLUDED)
-
-
-
--- function contains(table, element)
--- 	for _, value in pairs(table) do
--- 		if value == element then
--- 			return true
--- 		end
--- 	end
--- 	return false
--- end
 --======================================================================================================================
 
-local plugins_file = vim.fn.expand("~/repos/nvim-config/testing/plugin_paths.lua") --"~/.config/nvim/plugin_paths.lua")
-PLUGINS_TABLE = dofile(plugins_file)
--- print(vim.inspect(PLUGINS_TABLE))
+PLUGINS_TABLE = dofile(vim.fn.expand("~/repos/nvim-config/testing/plugin_paths.lua"))
 
 local function safe_prepend(path)
     local expanded_path = vim.fn.expand(path)
-    -- Use vim.tbl_contains for a much shorter check
     if not vim.tbl_contains(vim.opt.runtimepath:get(), expanded_path) then
         vim.opt.runtimepath:prepend(expanded_path)
     end
@@ -369,7 +307,7 @@ function packadd(plugin_name) -- TODO
 	local path = PLUGINS_TABLE[name]
 	safe_prepend(path)
 	vim.cmd("packadd " .. plugin_name)
-end 
+end
 
 function get_plugin(name)
 	local path = PLUGINS_TABLE[name]
@@ -379,7 +317,7 @@ function get_plugin(name)
 	if deps then
 		for _, dep_name in ipairs(deps) do
 			local dep_path = PLUGINS_TABLE[dep_name]
-			print(dep_path)
+			-- print(dep_path)
 			safe_prepend(dep_path)
 		end
 	end
@@ -387,22 +325,32 @@ function get_plugin(name)
 	return required
 end
 
-function configure_plugin(name, config)
-	return get_plugin(name).setup(config)
-end
+-- function configure_plugin(name, config)
+-- 	return get_plugin(name).setup(config)
+-- end
 
-function custom_setup(name, setup_func)
-	return setup_func(get_plugin(name))
-end
+-- function custom_setup(name, setup_func)
+-- 	return setup_func(get_plugin(name))
+-- end
 
 -- get_plugin("lualine").setup({})
 -- configure_plugin("lualine", {})
 -- configure_plugin("yazi", {})
 
+local function safe_call(func, arg, err_msg)
+	local result, return_value = pcall(func, arg)
+	if not result then
+		printb(err_msg)
+		return false, nil
+	else
+		return true, return_value
+	end
+end
 
-function setup_plugin(plugin_name, config_or_function)
+
+local function setup_plugin_(plugin_name, config_or_function)
 	if not is_included(plugin_name) then
-		print(plugin_name .. " not contained.")
+		-- print(plugin_name .. " not contained.")
 		return
 	end
 	plugin = get_plugin(plugin_name)
@@ -421,6 +369,32 @@ function setup_plugin(plugin_name, config_or_function)
 end
 
 
+local function setup_plugin_safe(plugin_name, config_or_function)
+	if not is_included(plugin_name) then
+		-- print(plugin_name .. " not contained.")
+		return
+	end
+	local result, plugin = pcall(get_plugin, plugin_name)
+	if not result then
+		print("ERROR: plugin require unsuccessful: " .. plugin_name)
+		return
+	end
+    if not config_or_function then return end
+    if type(config_or_function) == "table" then
+		local config = config_or_function
+		safe_call(plugin.setup, config, "ERROR: configuring" .. plugin_name)
+		return
+	end	
+	if type(config_or_function) == "function" then
+		custom_setup_function = config_or_function
+		safe_call(custom_setup_function, plugin, "ERROR: custom setup function failed for " .. plugin_name)
+		return
+	end
+	printb("ERROR: 'config_or_function' must be nil, table, or function; found " .. type(config_or_function)) 
+end
+
+local setup_plugin = setup_plugin_safe
+
 setup_plugin("lualine", {})
 setup_plugin("yazi", {})
 
@@ -431,7 +405,7 @@ local function print_status(length, prefix, name, suffix)
 end
 
 
-function _attempt(plugin_name, opts)
+function OLD_attempt(plugin_name, opts)
 	if not is_included(plugin_name) then
 		print(plugin_name .. " not contained.")
 		return
@@ -443,31 +417,24 @@ function _attempt(plugin_name, opts)
 	end
 	local result, setup = pcall(plugin.setup, opts or {})
 	if result then
-		-- print_status(30, "CONFIGURING:", plugin_name, "[SUCCESS]")
+		print_status(30, "CONFIGURING:", plugin_name, "[SUCCESS]")
 	else
 		print_status(30, "CONFIGURING:", plugin_name, "[ERROR] ===================================")
 	end
 end
-
-
-attempt = setup_plugin
--- custom_setup("lualine", function(plugin) plugin.setup({}) end)
---======================================================================================================================
-
 
 --======================================================================================================================
 -- LAYER 0: foundation, colors, search, core navigation ================================================================
 --======================================================================================================================
 
 ------ core dependencies
-attempt("plenary")
-attempt("nio")
+setup_plugin("plenary")
+setup_plugin("nio")
 
-attempt("nvim-web-devicons")
+setup_plugin("nvim-web-devicons")
 ------ core setup and UI
-if is_included("bamboo") then
+setup_plugin("bamboo", function(bamboo)
 	printb("Setting up bamboo")
-	local bamboo = get_plugin("bamboo")
 	bamboo.setup({
 		style = "multiplex",
 		colors = {
@@ -479,13 +446,13 @@ if is_included("bamboo") then
 	-- require("vague").setup({ transparent = true })
 	-- vim.cmd("colorscheme bamboo")
 	-- vim.cmd(":hi statusline guibg=#081608")
-end
-attempt("zen-mode")
-attempt("lualine")
-attempt("nvim-navic")
-attempt("bufferline")
-attempt("statuscol")
-if is_included("nvim-treesitter") then
+end)
+setup_plugin("zen-mode")
+setup_plugin("lualine")
+setup_plugin("nvim-navic")
+setup_plugin("bufferline")
+setup_plugin("statuscol")
+setup_plugin("nvim-treesitter", function(treesitter)
 	printb("Setting up treesitter.")
 	local my_install_dir = (not HAS_NIX) and vim.fn.stdpath("data") .. "/site" or nil
 	local my_parser_install_dir = (not HAS_NIX) and vim.fn.stdpath("data") .. "/parsers" or nil
@@ -496,19 +463,7 @@ if is_included("nvim-treesitter") then
 	printv(my_install_dir)
 	printv(my_parser_install_dir)
 	printv(vim.inspect(my_ensure_installed))
-	-- local treesitter = get_plugin("nvim-treesitter")
-	local treesitter = get_plugin("nvim-treesitter")
-	-- for k, v in pairs(treesitter) do
-	-- 	print(k)
-	-- 	print(v)
-	-- end
 	print("Treesitter exists -------------------")
-	-- local treesitter_config = require("nvim-treesitter.config")
-	-- for k, v in pairs(treesitter_config) do
-	-- 	print(k)
-	-- 	print(v)
-	-- end
-	-- local treesitter = get_plugin("nvim-treesitter")
 	treesitter.setup({
 		-- directory to install parsers and queries to (prepended to `runtimepath` to have priority)
 		install_dir = my_install_dir,
@@ -517,178 +472,141 @@ if is_included("nvim-treesitter") then
 		highlight = { enable = true },
 		indent = { enable = true },
 	})
-	-- require("nvim-treesitter.config").setup({
-	-- 	ensure_installed = my_ensure_installed,
-	-- })
-	-- -- if not HAS_NIX then
-	-- treesitter.install({ "python" })
-	-- -- end
-	-- print(vim.inspect(require("nvim-treesitter").get_installed()))
-end
-attempt("treesitter-modules")
-attempt("dropbar")
-attempt("nvim-navbuddy")
-if is_included("aerial") then
-	plugin_name = "aerial"
-	get_plugin("aerial")
-	print_status(30, "IMPORTING:  ", plugin_name, "[SUCCESS]")
-end
+end)
+setup_plugin("treesitter-modules")
+setup_plugin("dropbar")
+setup_plugin("nvim-navbuddy")
+setup_plugin("aerial")
 ------ file explorer (as central focus)
-attempt("oil")
-attempt("yazi")
-attempt("neo-tree")
-attempt("nvim-tree")
+setup_plugin("oil")
+setup_plugin("yazi")
+setup_plugin("neo-tree")
+setup_plugin("nvim-tree")
 ------ picker / search
-attempt("pickme")
-attempt("telescope")
-if is_included("telescope-fzf-native") then
-	plugin_name = "telescope-fzf-native"
-	-- require(plugin_name).setup()
-	print_status(30, "IMPORTING:  ", plugin_name, "[ERROR]")
-end
-attempt("fzf-lua")
-attempt("deck")
+setup_plugin("pickme")
+setup_plugin("telescope")
+setup_plugin("telescope-fzf-native")
+setup_plugin("fzf-lua")
+setup_plugin("deck")
 ------ suites
-attempt("mini")
-attempt("snacks")
-attempt("blink")
+setup_plugin("mini")
+setup_plugin("snacks")
+setup_plugin("blink")
 ------ search
-attempt("hlslens")
-attempt("hlsearch")
+setup_plugin("hlslens")
+setup_plugin("hlsearch")
 ------ find-and-replace
-attempt("grug-far")
-attempt("spectre")
+setup_plugin("grug-far")
+setup_plugin("spectre")
 ------ layout & buffer/tab navigation
-attempt("flybuf")
-attempt("stickybuf")
-if is_included("swm") then
-	plugin_name = "swm"
-	local swm = get_plugin(plugin_name)
+setup_plugin("flybuf")
+setup_plugin("stickybuf")
+setup_plugin("swm", function(swm)
 	vim.keymap.set("n", "<C-w>h", swm.h)
 	vim.keymap.set("n", "<C-w>j", swm.j)
 	vim.keymap.set("n", "<C-w>k", swm.k)
 	vim.keymap.set("n", "<C-w>l", swm.l)
-	print_status(30, "CONFIGURING:", plugin_name, "[SUCCESS]")
-end
+end)
 ------ wezterm integration
-attempt("smart-splits")
+setup_plugin("smart-splits")
 
 -- LAYER 1: editing enhancements ======================================================================================= 1
 ------ folds
-attempt("ufo")
--- if is_included("ufo") then
--- 	plugin_name = "ufo"
--- 	-- require(plugin_name).setup()
--- 	print_error(plugin_name)
--- end
-
+setup_plugin("ufo")
 ------ macros
-attempt("NeoComposer")
-if is_included("nvim-macros") then
-	plugin_name = "nvim-macros"
-	get_plugin(plugin_name).setup({
-		-- json_file_path = "./macros.json",
-		-- default_macro_register = "a",
-		-- json_formatter = "jq",
-	})
-	print_status(30, "CONFIGURING:", plugin_name, "[SUCCESS]")
-end
-attempt("recorder")
+setup_plugin("NeoComposer")
+setup_plugin("nvim-macros", {
+	json_file_path = "./macros.json",
+	default_macro_register = "a",
+	json_formatter = "jq",
+})
+setup_plugin("recorder")
 
 ------ multi-cursor
-if is_included("vim-visual-multi") then
-	plugin_name = "vim-visual-multi"
-	-- require(plugin_name).setup()
-	print_status(30, "IMPORTING:  ", plugin_name, "[ERROR]")
-end
+setup_plugin("vim-visual-multi")
 ------ motion
-attempt("leap")
-attempt("flash")
-attempt("hop")
+setup_plugin("leap")
+setup_plugin("flash")
+setup_plugin("hop")
 ------ pairs
-if is_included("rainbow-delimiters") then
-	-- plugin_name = "rainbow-delimiters"
-	-- require(plugin_name).setup()
-	-- print_todo(plugin_name)
-	attempt("rainbow-delimiters")
-end
-attempt("nvim-autopairs")
---TODO attempt("blink.pairs")
+
+setup_plugin("rainbow-delimiters")
+setup_plugin("nvim-autopairs")
+--TODO setup_plugin("blink.pairs")
 packadd("vim-sandwich")
--- attempt("vim-sandwich")
-attempt("nvim-surround")
+-- setup_plugin("vim-sandwich")
+setup_plugin("nvim-surround")
 ------ undo
 packadd("vim-mundo")
 ------ keymapping-related
-attempt("mini.keymap")
-attempt("hydra")
-attempt("insx")
-attempt("which-key")
+setup_plugin("mini.keymap")
+setup_plugin("hydra")
+setup_plugin("insx")
+setup_plugin("which-key")
 ------ alignment / indentation
-attempt("indentmini")
-attempt("indent-blankline")
-attempt("nvim-anydent")
-attempt("mini.align")
-attempt("tabular")
+setup_plugin("indentmini")
+setup_plugin("indent-blankline")
+setup_plugin("nvim-anydent")
+setup_plugin("mini.align")
+setup_plugin("tabular")
 ------ textobjects
-attempt("nvim-treesitter-textobjects")
-attempt("nvim-various-textobjs")
+setup_plugin("nvim-treesitter-textobjects")
+setup_plugin("nvim-various-textobjs")
 ------ comments
-attempt("Comment")
-attempt("todo-comments")
-attempt("vim-commentary")
+setup_plugin("Comment")
+setup_plugin("todo-comments")
+setup_plugin("vim-commentary")
 ------ split / join
-attempt("treesj")
+setup_plugin("treesj")
 ------ value manipulation
-attempt("dial")
+setup_plugin("dial")
 ------ marks
-attempt("harpoon-core")
-attempt("marks")
-attempt("markit")
+setup_plugin("harpoon-core")
+setup_plugin("marks")
+setup_plugin("markit")
 ------ yank/paste & clipboard
-attempt("nvim-pasta")
+setup_plugin("nvim-pasta")
 ------ miscellaneous
-attempt("beam")
+setup_plugin("beam")
 ------ sort
 
 -- LAYER 2: LSP, autocompletion, snippets =========================================================================================== 2
 ------ snippets, autocomplete
-attempt("blink.cmp")
-attempt("nvim-cmp")
+setup_plugin("blink.cmp")
+setup_plugin("nvim-cmp")
 ------ snippets (as main focus)
-attempt("friendly-snippets")
-attempt("ultisnips")
-attempt("LuaSnip")
+setup_plugin("friendly-snippets")
+setup_plugin("ultisnips")
+setup_plugin("LuaSnip")
 ------ completion sources
-attempt("cmp-nvim-lsp")
-attempt("cmp-buffer")
-attempt("cmp-path")
-attempt("cmp-cmdline")
+setup_plugin("cmp-nvim-lsp")
+setup_plugin("cmp-buffer")
+setup_plugin("cmp-path")
+setup_plugin("cmp-cmdline")
 ------ LSP general (configure ruff, pyright, lua-language-server, haskell-language-server, rust-analyzer with built-in client)
-attempt("lsp-format")
-attempt("lspkind")
+setup_plugin("lsp-format")
+setup_plugin("lspkind")
 ------ LSP UI
 -- see also fidget.nvim
-attempt("lspsaga")
+setup_plugin("lspsaga")
 ------ language-specific
-attempt("lazydev")
-attempt("rustaceanvim")
-attempt("crates")
-attempt("haskell-tools")
+setup_plugin("lazydev")
+setup_plugin("rustaceanvim")
+setup_plugin("crates")
+setup_plugin("haskell-tools")
 ------ LSP-adjacent
-attempt("none-ls")
+setup_plugin("none-ls")
 
 -- LAYER 3: formatting & linting ==================================================================================================== 3
-attempt("guard")
-attempt("conform")
+setup_plugin("guard")
+setup_plugin("conform")
 
 -- LAYER 4: testing, debugging/quickfix, execution ================================================================================== 4
-attempt("asyncrun")
-attempt("neotest-haskell")
-attempt("neotest-python")
-attempt("neotest")
-if is_included("dap-python") then
-	print("dap-python")
+setup_plugin("asyncrun")
+setup_plugin("neotest-haskell")
+setup_plugin("neotest-python")
+setup_plugin("neotest")
+setup_plugin("dap-python", function()
 	local dap_python = get_plugin("dap-python")
 	dap_python.setup("debugpy-adapter")
 	dap_python.test_runner = "pytest"
@@ -707,70 +625,70 @@ if is_included("dap-python") then
 	vim.keymap.set("v", "<leader>ds", function()
 		get_plugin("dap-python").debug_selection()
 	end)
-end
-attempt("dapui")
-attempt("nvim-dap-virtual-text")
-attempt("dap")
-attempt("mypy")
-attempt("nvim-lint")
+end)
+setup_plugin("dapui")
+setup_plugin("nvim-dap-virtual-text")
+setup_plugin("dap")
+setup_plugin("mypy")
+setup_plugin("nvim-lint")
 ------ DAP/quickix UI
-attempt("trouble.nvim")
-attempt("quicker")
-attempt("nvim-bqf")
+setup_plugin("trouble.nvim")
+setup_plugin("quicker")
+setup_plugin("nvim-bqf")
 ------ terminal
-attempt("vim-floaterm")
-attempt("toggleterm")
+setup_plugin("vim-floaterm")
+setup_plugin("toggleterm")
 ------ code/task runners
-attempt("overseer")
+setup_plugin("overseer")
 
 -- LAYER 5: refactoring & code intelligence ========================================================================================= 5
-attempt("refactoring")
+setup_plugin("refactoring")
 ------ project management
-attempt("project")
-attempt("telescope-project")
+setup_plugin("project")
+setup_plugin("telescope-project")
 
 -- LAYER 6: version control & collaboration ========================================================================================= 6
-attempt("jj")
-attempt("jujutsu")
-attempt("lazygit")
-attempt("git-conflict")
-attempt("neogit")
-attempt("jiejie")
-attempt("diffview")
-attempt("gitsigns")
-attempt("vim-fugitive")
+setup_plugin("jj")
+setup_plugin("jujutsu")
+setup_plugin("lazygit")
+setup_plugin("git-conflict")
+setup_plugin("neogit")
+setup_plugin("jiejie")
+setup_plugin("diffview")
+setup_plugin("gitsigns")
+setup_plugin("vim-fugitive")
 -- git forges
-attempt("octo")
-attempt("gitlab-nvim")
-attempt("gitlab")
+setup_plugin("octo")
+setup_plugin("gitlab-nvim")
+setup_plugin("gitlab")
 
 -- LAYER 7: UI polish & productivity ================================================================================================ 7
-attempt("dashboard-nvim")
-attempt("dashboard")
-attempt("noice")
-attempt("modes")
+setup_plugin("dashboard-nvim")
+setup_plugin("dashboard")
+setup_plugin("noice")
+setup_plugin("modes")
 ------ UI (important for LSP)
-attempt("fidget")
-attempt("nvim-notify")
-attempt("headlines")
+setup_plugin("fidget")
+setup_plugin("nvim-notify")
+setup_plugin("headlines")
 ------ session management
-attempt("auto-session")
-attempt("persistence")
+setup_plugin("auto-session")
+setup_plugin("persistence")
 
 -- LAYER 8: miscellaneous/advanced =========================================================================================================== 8
 if is_included("vimtex") then
 	vim.g.vimtex_view_method = "zathura"
 end
-attempt("texmagic")
-attempt("schemastore")
-attempt("firenvim")
-attempt("render-markdown")
-attempt("jupytext")
-attempt("quarto")
-attempt("markdown-preview")
+setup_plugin("texmagic")
+setup_plugin("schemastore")
+setup_plugin("firenvim")
+setup_plugin("render-markdown")
+setup_plugin("jupytext")
+setup_plugin("quarto")
+setup_plugin("markdown-preview")
 ------ Lua / self-referential
-attempt("structlog")
-attempt("neorepl")
+setup_plugin("structlog")
+setup_plugin("neorepl")
 --=============================================================================================================================================================
 
 if WEZTERM then
