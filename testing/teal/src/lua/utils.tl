@@ -1,4 +1,4 @@
-local function setup(config: cfg.Config): cfg.Utils
+local function setup(config: UtilsConfig): Utils
 	local VERBOSE = config.verbose
 	local prepend_safe = config.prepend_safe
 	local PLUGIN_PATHS = config.plugin_paths
@@ -6,7 +6,7 @@ local function setup(config: cfg.Config): cfg.Utils
 	local LAYERS = config.layers
 	local PLUGINS_BY_LAYER = config.plugins_by_layer
 
-	local M: cfg.Utils = {}
+	local M: Utils = {}
 
 	M.PLUGINS_INCLUDED = {}
 	for _, layer in ipairs(LAYERS) do
@@ -21,8 +21,8 @@ local function setup(config: cfg.Config): cfg.Utils
 	end
 
 	local trivial = function(_: string): nil
-        return nil
-    end
+	   return nil
+	end
 
 	if VERBOSE then
 	    M.printv = print as function(msg: string): nil
@@ -45,10 +45,10 @@ local function setup(config: cfg.Config): cfg.Utils
 	end
 
 	M.call_safe = function<T>(
-        func: function(table): T,
-        single_arg: table,
-        err_msg: string
-    ): boolean, T
+	   func: function(table): T,
+	   single_arg: table,
+	   err_msg: string
+	): boolean, T
 	    local result, return_value = pcall(func, single_arg) as boolean, T
 	    if not result then
 		   M.printb(err_msg)
@@ -67,7 +67,7 @@ local function setup(config: cfg.Config): cfg.Utils
 	    return vim.tbl_contains(M.PLUGINS_INCLUDED, plugin_name)
 	end
 
-	M.get_plugin = function(plugin_name: string): cfg.Plugin
+	M.get_plugin = function(plugin_name: string): Plugin
 	    if not M.is_included(plugin_name) then return nil end
 	    local path = PLUGIN_PATHS[plugin_name]
 	    local deps = DEPENDENCIES[plugin_name]
@@ -78,7 +78,7 @@ local function setup(config: cfg.Config): cfg.Utils
 			  prepend_safe(dep_path)
 		   end
 	    end
-	    local required = require(plugin_name) as cfg.Plugin
+	    local required = require(plugin_name) as Plugin
 	    return required
 	end
 
@@ -91,33 +91,33 @@ local function setup(config: cfg.Config): cfg.Utils
 		custom_func()
 	end
 
-	local function setup_plugin_safe(plugin_name: string, config_or_function?: cfg.PluginConfig | function(cfg.Plugin)): nil
+	local function setup_plugin_safe(plugin_name: string, config_or_function?: PluginConfig | function(Plugin)): nil
 	    if not M.is_included(plugin_name) then return end
-	    local result, plugin = pcall(M.get_plugin, plugin_name) as (boolean, cfg.Plugin)
+	    local result, plugin = pcall(M.get_plugin, plugin_name) as (boolean, Plugin)
 	    if not result then
 		   print("ERROR: plugin require unsuccessful: " .. plugin_name)
 		   return
 	    end
 	    if not config_or_function then return end
 
-	    if config_or_function is cfg.PluginConfig then
-			local plugin_with_setup = plugin as cfg.PluginWithSetup
+	    if config_or_function is PluginConfig then
+			local plugin_with_setup = plugin as PluginWithSetup
 			M.call_safe(plugin_with_setup.setup, config_or_function, "ERROR: configuring" .. plugin_name)
 	    elseif config_or_function is function then
 			M.call_safe(config_or_function, plugin, "ERROR: custom setup function failed for " .. plugin_name)
 	    end
 	end
 
-	local function setup_plugin_default(plugin_name: string, config_or_function?: cfg.PluginConfig | function(cfg.Plugin)): nil
+	local function setup_plugin_default(plugin_name: string, config_or_function?: PluginConfig | function(Plugin)): nil
 	    if not M.is_included(plugin_name) then return end
 	    local plugin = M.get_plugin(plugin_name)
 	    if not config_or_function then return end
 
-	    if config_or_function is cfg.PluginConfig then
-			local plugin_with_setup = plugin as cfg.PluginWithSetup
+	    if config_or_function is PluginConfig then
+			local plugin_with_setup = plugin as PluginWithSetup
 			plugin_with_setup.setup(config_or_function) return
-        end
-        if config_or_function is function then
+	   end
+	   if config_or_function is function then
 			config_or_function(plugin)
 	    end
 	end
@@ -127,14 +127,6 @@ local function setup(config: cfg.Config): cfg.Utils
 	else
 	    M.setup_plugin = setup_plugin_default
 	end
-
-	-- M.map = function(
-	-- 	mode: string | {string},
-	-- 	lhs: string,
-	-- 	rhs: string | function():nil
-	-- ): nil
-	-- 	vim.keymap.set(mode, lhs, rhs, {})
-	-- end
 
 	M.map = function(mode: string | {string}, lhs: string, rhs: string | function(), opts?: vim.keymap.SetOpts): nil
 		vim.keymap.set(mode, lhs, rhs, (opts or {}) as vim.keymap.SetOpts)

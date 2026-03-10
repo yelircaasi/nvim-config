@@ -6,39 +6,37 @@ vim.g.loaded_matchit = 1
 vim.g.loaded_netrw = 1
 
 -- UTILS ===============================================================================================================
-local resolve = function(path: string): string
-    return vim.fn.expand(path) as string
+local path_helpers: {string: (function(string):string)} = {}
+
+path_helpers.resolve = function(path: string): string return vim.fn.expand(path) as string end
+
+path_helpers.resolve_existing = function(path: string): string
+	local resolved: string = path_helpers.resolve(path)
+	if not vim.fn.exists() then error("function 'resolve': path " .. path .. " must already exist.") end
+	return resolved
 end
 
-local resolve_existing = function(path: string): string
-    local resolved: string = vim.fn.expand(path) as string
-    if not vim.fn.exists() then 
-        error("function 'resolve': path " .. path .. " must already exist.")
-    end
-    return resolved
+path_helpers.resolve_and_mkdir = function(path: string): string
+	local resolved: string = path_helpers.resolve(path)
+	if not vim.fn.exists() as boolean then vim.fn.mkdir(resolved) end
+	return resolved
 end
 
-local resolve_and_mkdir = function(path: string): string
-    local resolved: string = resolve(path)
-    if not vim.fn.exists() as boolean then
-        vim.fn.mkdir(resolved)
-    end
-    return resolved
-end
-
-local prepend_safe = function(path: string): nil
-    local expanded_path: string = resolve(path) as string
-    if not vim.tbl_contains(vim.opt.runtimepath:get() as {string}, expanded_path) then
-        vim.opt.runtimepath:prepend(expanded_path)
-    end
+local prepend_safe = function(path: string, create?: boolean): nil
+	local expanded_path: string
+	if create then expanded_path = path_helpers.resolve_and_mkdir(path)
+    else expanded_path = path_helpers.resolve_existing(path) end
+	if not vim.tbl_contains(vim.opt.runtimepath:get() as {string}, expanded_path) then
+		vim.opt.runtimepath:prepend(expanded_path)
+	end
 end
 
 local HAS_NIX: boolean = vim.fn.isdirectory("/nix/store") ~= 0
-local NVIM_DIR: string = resolve("~/repos/nvim-config/testing")
+local NVIM_DIR: string = path_helpers.resolve_existing("~/repos/nvim-config/testing")
 
-prepend_safe(resolve(NVIM_DIR))
+prepend_safe(NVIM_DIR)
 
-local utils: cfg.Utils = require("lua.utils").setup({
+local utils: Utils = require("lua.utils").setup({
 	verbose = false,
 	safe = true,
 	prepend_safe = prepend_safe,
@@ -47,8 +45,8 @@ local utils: cfg.Utils = require("lua.utils").setup({
 	dependencies = dofile(NVIM_DIR .. "/meta/dependencies.lua") as {string:{string}},
 	plugins_by_layer = dofile(NVIM_DIR .. "/meta/plugin_layers.lua") as {number:{string}},
 })
-local setup_plugin: cfg.SetupFunction = utils.setup_plugin
-local map: cfg.MapFunction = utils.map
+local setup_plugin: SetupFunction = utils.setup_plugin
+local map: MapFunction = utils.map
 
 utils.printv("PLUGINS INCLUDED: " .. vim.inspect(utils.PLUGINS_INCLUDED))
 utils.printbv(#utils.PLUGINS_INCLUDED .. " plugins included")
@@ -64,14 +62,14 @@ setup_plugin("nio")
 
 setup_plugin("nvim-web-devicons")
 ------ core setup and UI
-setup_plugin("bamboo", function(bamboo: cfg.Plugin)
+setup_plugin("bamboo", function(bamboo: Plugin)
 	utils.printbv("Setting up bamboo")
 	(bamboo.setup as function(table))({
 		style = "multiplex",
 		colors = {
 			bg0 = "#020802",
 		},
-		-- highlights   = { Normal = { bg = "#020802" } },
+		-- highlights = { Normal = { bg = "#020802" } },
 	})
 	(bamboo.load as function)() -- tl: ignore
 	-- require("vague").setup({ transparent = true })
@@ -83,7 +81,7 @@ setup_plugin("lualine")
 setup_plugin("nvim-navic")
 setup_plugin("bufferline")
 setup_plugin("statuscol")
-setup_plugin("nvim-treesitter", function(treesitter: cfg.Plugin)
+setup_plugin("nvim-treesitter", function(treesitter: Plugin)
 	local TS_LANGUAGES = {
 		"haskell",
 		"javascript",
@@ -118,7 +116,7 @@ setup_plugin("nvim-treesitter", function(treesitter: cfg.Plugin)
 		highlight = { enable = true },
 		indent = { enable = true },
 	})
-end as cfg.CustomSetupFunction)
+end as CustomSetupFunction)
 setup_plugin("treesitter-modules")
 setup_plugin("dropbar")
 setup_plugin("nvim-navbuddy")
@@ -147,12 +145,12 @@ setup_plugin("spectre")
 ------ layout & buffer/tab navigation
 setup_plugin("flybuf")
 setup_plugin("stickybuf")
-setup_plugin("swm", function(swm: cfg.Plugin)
+setup_plugin("swm", function(swm: Plugin)
 	map("n", "<C-w>h", swm.h as function())
 	map("n", "<C-w>j", swm.j as function())
 	map("n", "<C-w>k", swm.k as function())
 	map("n", "<C-w>l", swm.l as function())
-end as cfg.CustomSetupFunction)
+end as CustomSetupFunction)
 ------ wezterm integration
 setup_plugin("smart-splits")
 
@@ -234,7 +232,7 @@ setup_plugin("cmp-cmdline")
 setup_plugin("lsp-format")
 setup_plugin("lspkind")
 ------ LSP UI
--- see also fidget.nvim
+----- see also fidget.nvim
 setup_plugin("lspsaga")
 ------ language-specific
 setup_plugin("lazydev")
@@ -253,8 +251,8 @@ setup_plugin("asyncrun")
 setup_plugin("neotest-haskell")
 setup_plugin("neotest-python")
 setup_plugin("neotest")
-setup_plugin("dap-python", function(dap_python: cfg.Plugin)
-    (dap_python.setup as function(string))("debugpy-adapter")
+setup_plugin("dap-python", function(dap_python: Plugin)
+	(dap_python.setup as function(string))("debugpy-adapter")
 	dap_python.test_runner = "pytest"
 	map("n", "<leader>tt", function()
 		print("Leader is working!")
@@ -285,7 +283,7 @@ setup_plugin("refactoring")
 setup_plugin("project")
 setup_plugin("telescope-project")
 
--- LAYER 6: version control & collaboration ========================================================================================= 6
+-- LAYER 6: version control & collaboration ========================================================================== 6
 setup_plugin("jj")
 setup_plugin("jujutsu")
 setup_plugin("lazygit")

@@ -8,6 +8,25 @@ No nvim framework or distribution is used currently.
 
 ## Next Steps
 
+https://github.com/teal-language/teal-language-server/
+https://teal-language.org/book/latest/index.html
+https://www.lua.org/manual/5.1/pt/
+https://github.com/jake-stewart/dotfiles/tree/main/.config/nvim
+https://luarocks.org/
+https://github.com/teal-language
+https://github.com/teal-language/cyan
+https://learnxinyminutes.com/vimscript/
+https://github.com/jake-stewart/ts.nvim
+https://github.com/nvim-mini/mini.ai
+https://gitlab.com/HiPhish/nvim-config
+https://gitlab.com/HiPhish/multiquery.nvim
+https://gitlab.com/HiPhish/fennel-repl.nvim
+https://github.com/LuaCATS
+https://github.com/BirdeeHub/nixCats-nvim
+https://birdeehub.github.io/nix-wrapper-modules/wrapperModules/neovim.html
+https://github.com/BirdeeHub/nix-wrapper-modules | https://birdeehub.github.io/nix-wrapper-modules/
+https://github.com/saecki/crates.nvim
+https://github.com/svermeulen/nvim-teal-maker?tab=readme-ov-file
 - [ ] re-add links to notes, where applicable (especially consilium project)
 - [ ] remove from plugins.json plugins that were moved to plugins.jsonc
 - [ ] [read](https://www.reddit.com/r/neovim/comments/115baze/which_vim_plugins_do_not_have_a_lua_equivalent_yet/)
@@ -15,6 +34,79 @@ No nvim framework or distribution is used currently.
 - [ ] https://github.com/aliyss/vim-himalaya-ui
 - [ ] https://github.com/aliyss
 - [ ] https://qwik.dev
+
+https://github.com/Onelinerhub/onelinerhub -> use for PLT
+https://github.com/teal-language/awesome-teal
+
+https://www.jonhavron.com/post/introduction-to-moonscript/
+https://dora-ssr.net/docs/tutorial/Language%20Tutorial/teal-tutorial/
+
+https://typescripttolua.github.io/ -> need to package for nix
+https://search.nixos.org/packages?channel=25.11&query=cyan
+https://dev.algorand.co/getting-started/portal-guide/ | https://uapcxplfdevdocs.z6.web.core.windows.net/contributor_guide/getting_started.html
+https://hisham.hm/
+https://github.com/pallene-lang/pallene
+https://github.com/teal-language/tl
+https://github.com/xyproto/algernon
+http://torch.ch/
+https://github.com/teal-language/teal-types/tree/master/types
+
+Haskell <3 Lua https://bobkonf.de/2022/krewinkel.html
+
+https://github.com/smallreflection/teal-night
+https://qwik.dev
+https://www.youtube.com/@neovimtips-v4y
+https://github.com/fengari-lua/fengari
+https://github.com/aliyss/vim-himalaya-ui
+https://github.com/jake-stewart
+https://github.com/kaorahi/howm
+https://github.com/luau-lang/luau | https://luau.org/
+https://nelua.io/ | https://github.com/edubart/nelua-lang | https://github.com/search?p=1&q=%23nelua&type=Repositories
+luarocks --lua-version 5.4 install vim-tl-type
+Experimenting with Bevy rust game engine and luau JIT (mlua) https://www.youtube.com/watch?v=96QI5Smx_bE
+Rust + Lua - Why & Full Code Examples https://www.youtube.com/watch?v=OAA55AAwQls
+https://wubingzheng.github.io/build-lua-in-rust/en/  https://wubingzheng.github.io/build-lua-in-rust/zh/
+https://crates.io/crates/kaledis_dalbit
+https://www.codeconvert.ai/haskell-to-lua-converter
+https://www.codeconvert.ai/free-converter -> look into similar
+https://www.codeconvert.ai/python-to-rust-converter
+https://github.com/microsoft/oxidizer
+https://haxe.org/manual/target-lua-getting-started.html
+https://github.com/Unisay/purescript-lua
+https://github.com/seaofvoices/darklua | https://darklua.com/docs/
+https://github.com/Kampfkarren/full-moon
+https://github.com/CavefulGames/dalbit
+https://github.com/koalaman/shellcheck | https://www.shellcheck.net/
+http://lambda-the-ultimate.org/
+https://hisham.hm/dit/ | https://github.com/hishamhm/dit
+https://effect.website/
+fork and hack on: https://github.com/VideoCarp/IndentSyntax
+fork and hack on: https://github.com/VideoCarp/python-lua
+
+## Different languages
+
+install:
+
+- `tl`: `luarocks install --lua-version 5.4 tl`; luaPackages.tl
+- `cyan`: `luarocks install --lua-version 5.4 cyan`; luaPackages.cyan
+- `tstl`: `npm install -D typescript typescript-to-lua`; `npx tstl`; -> custom package for NixOS
+- `haxe`: look into [haxe-nvim](https://github.com/danielo515/haxe-nvim)
+  -> [dotfiles](https://github.com/danielo515/dotfiles)
+  and [haxe-nvim-example-plugin](https://github.com/danielo515/haxe-nvim-example-plugin)
+- `moonscript` -> [nvim-moonmaker](https://github.com/svermeulen/nvim-moonmaker)
+- `teal`: look into [nvim-teal-maker](https://github.com/svermeulen/nvim-teal-maker)
+- `purescript`: see [purescript-lua](https://github.com/Unisay/purescript-lua)
+
+```txt
+nvim/transpiled/
+ |- lua_reference
+ |- teal
+ |- purescript
+ |- typescript
+ |- moonscript
+ |- haxe
+ |- fennel
+```
 
 ## External tools
 

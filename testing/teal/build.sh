@@ -4,3 +4,4 @@ cyan \
     --global-env-def cfg \
     build --prune
 stylua build/
+echo "Built lua config."

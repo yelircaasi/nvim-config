@@ -4,37 +4,44 @@ vim.g.loaded_matchparen = 1
 vim.g.loaded_matchit = 1
 vim.g.loaded_netrw = 1
 
-local resolve = function(path)
+local path_helpers = {}
+
+path_helpers.resolve = function(path)
 	return vim.fn.expand(path)
 end
 
-local resolve_existing = function(path)
-	local resolved = vim.fn.expand(path)
+path_helpers.resolve_existing = function(path)
+	local resolved = path_helpers.resolve(path)
 	if not vim.fn.exists() then
 		error("function 'resolve': path " .. path .. " must already exist.")
 	end
 	return resolved
 end
 
-local resolve_and_mkdir = function(path)
-	local resolved = resolve(path)
+path_helpers.resolve_and_mkdir = function(path)
+	local resolved = path_helpers.resolve(path)
 	if not vim.fn.exists() then
 		vim.fn.mkdir(resolved)
 	end
 	return resolved
 end
 
-local prepend_safe = function(path)
-	local expanded_path = resolve(path)
+local prepend_safe = function(path, create)
+	local expanded_path
+	if create then
+		expanded_path = path_helpers.resolve_and_mkdir(path)
+	else
+		expanded_path = path_helpers.resolve_existing(path)
+	end
 	if not vim.tbl_contains(vim.opt.runtimepath:get(), expanded_path) then
 		vim.opt.runtimepath:prepend(expanded_path)
 	end
 end
 
 local HAS_NIX = vim.fn.isdirectory("/nix/store") ~= 0
-local NVIM_DIR = resolve("~/repos/nvim-config/testing")
+local NVIM_DIR = path_helpers.resolve_existing("~/repos/nvim-config/testing")
 
-prepend_safe(resolve(NVIM_DIR))
+prepend_safe(NVIM_DIR)
 
 local utils = require("lua.utils").setup({
 	verbose = false,
