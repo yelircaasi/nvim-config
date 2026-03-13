@@ -31,6 +31,13 @@ import argparse
 from typing import Final, Iterable, Literal, NotRequired, Self, TypedDict
 
 
+def resolve_path(envvar: str, fallback: str) -> Path:
+    from_var: Path | None = os.environ.get(envvar)
+    path: Path = from_var or (Path.home() / ".local/sharenvim-plugins")
+    path.mkdir(exist_ok=True)
+    return path
+
+
 ### TYPES ##############################################################################################################
 
 
@@ -57,6 +64,9 @@ class PluginLockData(TypedDict):
     version: str | None
 
 
+type PluginLockTable = dict[str, PluginLockData | None]  # type: ignore
+
+
 class Category(StrEnum):
     TRYING = auto()
     SELECTED = auto()
@@ -71,7 +81,7 @@ class Category(StrEnum):
 
     def __str__(self) -> str:
         return f"Category.{self.name}"
-    
+
     @property
     def included(self) -> bool:
         return self in {
@@ -90,12 +100,9 @@ class ExternalToolSpec(TypedDict):
 
 
 class Globals:
-    DEFAULT_CONFIG_DIR: Final[Path] = (
-        Path(os.environ.get("XDG_CONFIG_HOME", Path.home() / ".config")) / "nvim"
-    )
-    DEFAULT_PLUGIN_DIR: Final[Path] = (
-        Path(os.environ.get("XDG_DATA_HOME", Path.home() / ".local/share"))
-        / "nvim-plugins"
+    DEFAULT_CONFIG_DIR: Final[Path] = resolve_path("XDG_CONFIG_HOME", ".config/nvim")
+    DEFAULT_PLUGIN_DIR: Final[Path] = resolve_path(
+        "XDG_DATA_HOME", ".local/share/nvim-plugins"
     )
     IS_NIX: Final[bool] = Path("/nix/store").exists()
     TODAY: Final[str] = str(date.today())
@@ -130,11 +137,6 @@ class Paths:
             lockfile=argdict.get("lockfile"),
             plugins_lua=argdict.get("plugins_lua"),
         )
-
-
-# print(Globals.DEFAULT_CONFIG_DIR)
-# print(Globals.DEFAULT_PLUGIN_DIR)
-# print(Globals.IS_NIX)
 
 
 ### HELPER FUNCTIONS ###################################################################################################
@@ -302,8 +304,8 @@ class Specs:
     def lookup(self, name: str) -> Spec:
         return self._specs[name]
 
-    def install_plugins(self) -> dict[str, PluginLockData | None]:
-        lock: dict[str, PluginLockData | None] = {}
+    def install_plugins(self) -> PluginLockTable:
+        lock: PluginLockTable = {}
         for spec in self._specs.values():
             if not spec.category.included:
                 # print(spec.name)
@@ -326,7 +328,6 @@ class Specs:
                 }
             lock.update({spec.name: lock_data})
         return lock
-    
 
     def install_plugin(
         self,
@@ -346,7 +347,7 @@ class Specs:
 
 @dataclass
 class LockData:
-    _lock: dict[str, PluginLockData]
+    _lock: PluginLockTable
     directory: Path
 
     @classmethod
@@ -356,24 +357,13 @@ class LockData:
             directory=paths.plugin_dir,
         )
 
-    def install_plugins(self) -> None: #dict[str, PluginLockData | None]:
-        # new_lock: dict[str, PluginLockData] = dict(self._lock.items())
+    def install_plugins(self) -> None:
         for name, lock in self._lock.items():
             destination = self.directory / name
             sha, url = lock["url"], lock["sha"]
             old_sha, recency = get_commit_info(destination)
             if sha != old_sha:
                 self.install_plugin(destination, url, sha)
-                # lock_data: PluginLockData = {
-                #     "location": str(destination.relative_to(self.directory)),
-                #     "url": url,
-                #     "sha": sha,
-                #     "cloned_on": Globals.TODAY,
-                #     "recency": recency,
-                #     "version": None,
-                # }
-                # new_lock.update({name: lock_data})
-        # return new_lock
 
     def install_plugin(
         self,
@@ -381,8 +371,6 @@ class LockData:
         url: str,
         sha: str,
     ) -> tuple[InstallStatus, Path]:
-        
-
         try:
             run(["git", "clone", "--filter=blob:none", url, destination])
             run(["git", "-C", str(destination), "checkout", sha])
@@ -394,10 +382,8 @@ class LockData:
 
 
 def write_plugins_lua(paths: Paths, plugin_names: Iterable[str]) -> None:
-    plugin_dir = paths.plugin_dir
-    lines = "\n\t".join(
-        (f'["{name}"] = "{plugin_dir / name}",' for name in plugin_names)
-    )
+    pd = paths.plugin_dir
+    lines = "\n\t".join((f'["{pn}"] = "{pd / pn}",' for pn in plugin_names))
     file = f"""local M = {{
     {lines}\n}}\nreturn M\n"""
     paths.plugins_lua.write_text(file)
@@ -416,6 +402,9 @@ def check_for_updates(repo_path: Path) -> bool:
 
 
 def install_fresh(paths: Paths) -> None:
+    """
+    
+    """
     print(f"Installing plugins to {paths.plugin_dir}")
     specs = Specs.from_paths(paths)
     lock = specs.install_plugins()
@@ -425,12 +414,15 @@ def install_fresh(paths: Paths) -> None:
 
 
 def install_from_lockfile(paths: Paths) -> None:
+    """
+    TODO: support installing from a lockfile
+        e.g. newly cloned when old lockfile exists, and touching only the
+        plugins that are not in the old lockfile or whose hash differs.
+    """
     print(f"Installing plugins to {paths.plugin_dir}")
     lock_data = LockData.from_paths(paths)
     lock = lock_data.install_plugins()
-    write_plugins_lua(paths, lock) 
-    # paths.lockfile.write_text(json.dumps(lock, indent=4))
-    # print(f"lockfile written to {paths.lockfile}")
+    write_plugins_lua(paths, lock)
 
 
 def update_plugins(paths: Paths) -> None:

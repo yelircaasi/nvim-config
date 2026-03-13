@@ -83,6 +83,8 @@ https://effect.website/
 fork and hack on: https://github.com/VideoCarp/IndentSyntax
 fork and hack on: https://github.com/VideoCarp/python-lua
 
+https://github.com/cweill/gotests
+
 ## Different languages
 
 install:
@@ -306,6 +308,7 @@ to vendor:
 
 ```json
 [
+    { "name": "auto-fold-imports",            "id": "github-naresh/auto-fold-imports.nvim", "source": "gh", "lazy": false, "category": "lang", "notes": "needs nix" },
     {
         "link": "https://github.com/haolian9/sudo_write.nvim",
         "decision": "vendor",
@@ -538,13 +541,16 @@ to vendor:
         "link": "https://github.com/statiolake/nvim-junkfile | https://github.com/AidanThomas/scratchpad.nvim | https://github.com/adalessa/scratch.nvim",
         "decision": "vendor",
         "projects": ["scratch"]
-    }
+    },
+    { "name": "jq",                           "id": "jrop/jq.nvim",                         "source": "gh", "lazy": false, "category": "lang", "notes": "needs nix" },
+    { "name": "classy",                       "id": "dzfrias/nvim-classy",                  "source": "gh", "lazy": false, "category": "lang", "notes": "needs nix" },
+	
 ]
 ```
 
 to hack on:
 
-```json
+```jsonc
 [
 
     {
@@ -601,7 +607,13 @@ to hack on:
         "link": "https://github.com/kristijanhusak/line-notes.nvim",
         "decision": "hack",
         "projects": ["scratch"]
-    }
+    },
+    // JS/TS-focused
+    { "name": "printer",                      "id": "blevantovych/printer.nvim",            "source": "gh", "lazy": false, "category": "lang", "notes": "needs nix", "description": "Smartly puts a print statement for a variable using treesitter. JS/TS -> extend to other progLangs" },
+    { "name": "import-cost",                  "id": "barrett-ruth/import-cost.nvim",        "source": "gh", "lazy": false, "category": "lang", "notes": "needs nix", "description": "display javascript import costs inside of neovim -> exten to other progLangs" },
+    { "name": "template-literal-comments",    "id": "bennypowers/template-literal-comments.nvim", "source": "gh", "lazy": false, "category": "lang", "notes": "needs nix", "description": "highlight languages embedded in ECMAScript template literals by adding a comment" },
+	{ "name": "js-actions",                   "id": "llllvvuu/nvim-js-actions",             "source": "gh", "lazy": false, "category": "lang", "notes": "needs nix" },
+    { "name": "package-info",                 "id": "vuki656/package-info.nvim",            "source": "gh", "lazy": false, "category": "lang", "notes": "needs nix" }
 ]
 ```
 
@@ -802,6 +814,10 @@ plugins for much later
 
 ```json
 [
+	{ "name": "vim-bundle-plantuml",          "id": "Traap/vim-bundle-plantuml",            "source": "gh", "lazy": false, "category": "lang", "notes": "needs nix" },
+	{ "name": "plantuml-previewer.vim",       "id": "weirongxu/plantuml-previewer.vim",     "source": "gh", "lazy": false, "category": "lang", "notes": "needs nix" },
+	{ "name": "plantuml-syntax",              "id": "aklt/plantuml-syntax",                 "source": "gh", "lazy": false, "category": "lang", "notes": "needs nix" },
+	
 
     {
         "link": "https://github.com/numine777/py-bazel.nvim",
