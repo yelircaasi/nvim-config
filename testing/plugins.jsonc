@@ -1,4 +1,6 @@
 [
+	// glean?
+	{ "name": "nvim-teal-maker",              "id": "svermeulen/nvim-teal-maker",           "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
 	//===================================================================================================================================
 	//==== LAYER 0: foundation, colors, search, core navigation =========================================================================
 	//===================================================================================================================================
@@ -361,8 +363,6 @@
 	// layer ?
 	{ "name": "codecompanion",                "id": "olimorris/codecompanion.nvim",         "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
 	// layer ?
-	{ "name": "nvim-teal-maker",              "id": "svermeulen/nvim-teal-maker",           "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
-	// layer ?
 	{ "name": "blame",                        "id": "sairajchouhan/blame.nvim",             "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
 	// layer ?
 	{ "name": "bafa",                         "id": "mistweaverco/bafa.nvim",               "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
@@ -370,6 +370,8 @@
 	{ "name": "windline",                     "id": "windwp/windline.nvim",                 "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
 	// layer ?
 	{ "name": "barbar",                       "id": "romgrk/barbar.nvim",                   "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	// layer ?
+	{ "name": "dmap",                         "id": "doums/dmap.nvim",                      "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
 	// layer ?
 	{ "name": "cokeline",                     "id": "willothy/nvim-cokeline",               "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
 	// layer ?
@@ -614,6 +616,8 @@
 	// layer ?
 	{ "name": "knap",                         "id": "frabjous/knap",                        "source": "gh", "lazy": false, "category": "sooner",    "notes": "consilium; needs nix" },
 	// layer ?
+	{ "name": "fsread",                       "id": "nullchilly/fsread.nvim",               "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
+	// layer ?
 	{ "name": "vimwiki",                      "id": "vimwiki/vimwiki",                      "source": "gh", "lazy": false, "category": "sooner",    "notes": "consilium; needs nix" },
 	// layer ?
 	{ "name": "flote",                        "id": "JellyApple102/flote.nvim",             "source": "gh", "lazy": false, "category": "sooner",    "notes": "consilium; needs nix" },
@@ -650,8 +654,6 @@
 	// layer ?
 	{ "name": "daily-focus",                  "id": "steveclarke/daily-focus.nvim",         "source": "gh", "lazy": false, "category": "sooner",    "notes": "consilium; needs nix" },
 	// layer ?
-	{ "name": "showkeys",                     "id": "nvzone/showkeys",                      "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
-	// layer ?
 	{ "name": "TreePin",                      "id": "KaitlynEthylia/TreePin",               "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
 	// layer ?
 	{ "name": "Hypersonic",                   "id": "tomiis4/Hypersonic.nvim",              "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
@@ -674,10 +676,6 @@
 	// laterA
 	{ "name": "paredit",                      "id": "julienvincent/nvim-paredit",           "source": "gh", "lazy": false, "category": "laterA",    "notes": "needs nix" },
 	// layer ?
-	{ "name": "keyseer",                      "id": "jokajak/keyseer.nvim",                 "source": "gh", "lazy": false, "category": "laterA",    "notes": "needs nix" },
-	// layer ?
-	{ "name": "keytex",                       "id": "cronJohn/keytex.nvim",                 "source": "gh", "lazy": false, "category": "laterA",    "notes": "needs nix" },
-	// layer ?
 	{ "name": "homerows",                     "id": "kbario/homerows.nvim",                 "source": "gh", "lazy": false, "category": "laterA",    "notes": "needs nix" },
 	// layer ?
 	{ "name": "bepo",                         "id": "vetsE/bepo.nvim",                      "source": "gh", "lazy": false, "category": "laterA",    "notes": "needs nix" },
@@ -685,16 +683,6 @@
 	{ "name": "xkbswitch",                    "id": "ivanesmantovich/xkbswitch.nvim",       "source": "gh", "lazy": false, "category": "laterA",    "notes": "needs nix" },
 	// layer ?
 	{ "name": "cyrillic",                     "id": "nativerv/cyrillic.nvim",               "source": "gh", "lazy": false, "category": "laterA",    "notes": "needs nix" },
-	// layer ?
-	{ "name": "unimpaired-which-key",         "id": "afreakk/unimpaired-which-key.nvim",    "source": "gh", "lazy": false, "category": "laterA",    "notes": "needs nix" },
-	// layer ?
-	{ "name": "nvim-whichkey-setup.lua",      "id": "AckslD/nvim-whichkey-setup.lua",       "source": "gh", "lazy": false, "category": "laterA",    "notes": "needs nix" },
-	// layer ?
-	{ "name": "autoref",                      "id": "October-Studios/autoref.nvim",         "source": "gh", "lazy": false, "category": "laterA",    "notes": "needs nix" },
-	// layer ?
-	{ "name": "whichkey-ft",                  "id": "CharliePlate/whichkey-ft.nvim",        "source": "gh", "lazy": false, "category": "laterA",    "notes": "needs nix" },
-	// layer ?
-	{ "name": "keymapper",                    "id": "bgrohman/nvim-keymapper",              "source": "gh", "lazy": false, "category": "laterA",    "notes": "needs nix" },
 	// layer ?
 	{ "name": "wf",                           "id": "Cassin01/wf.nvim",                     "source": "gh", "lazy": false, "category": "laterA",    "notes": "needs nix" },
 	// layer ?
@@ -802,32 +790,6 @@
 	// layer ?
 	{ "name": "fsplash",                      "id": "jovanlanik/fsplash.nvim",              "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
 	// layer ?
-	{ "name": "scrollbar",                    "id": "petertriho/nvim-scrollbar",            "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
-	// layer ?
-	{ "name": "scrollbar",                    "id": "Xuyuanp/scrollbar.nvim",               "source": "gh", "lazy": false, "category": "alternate", "notes": "needs nix" },
-	// layer ?
-	{ "name": "neoscroll",                    "id": "karb94/neoscroll.nvim",                "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
-	// layer ?
-	{ "name": "vim-smoothie",                 "id": "psliwka/vim-smoothie",                 "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
-	// layer ?
-	{ "name": "satellite",                    "id": "lewis6991/satellite.nvim",             "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
-	// layer ?
-	{ "name": "scrollview",                   "id": "dstein64/nvim-scrollview",             "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
-	// layer ?
-	{ "name": "scrlbkun",                     "id": "kensyo/nvim-scrlbkun",                 "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
-	// layer ?
-	{ "name": "dmap",                         "id": "doums/dmap.nvim",                      "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
-	// layer ?
-	{ "name": "cinnamon",                     "id": "declancm/cinnamon.nvim",               "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
-	// layer ?
-	{ "name": "endscroll",                    "id": "plax-00/endscroll.nvim",               "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
-	// layer ?
-	{ "name": "fsread",                       "id": "nullchilly/fsread.nvim",               "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
-	// layer ?
-	{ "name": "SmoothCursor",                 "id": "gen740/SmoothCursor.nvim",             "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
-	// layer ?
-	{ "name": "view-tween",                   "id": "sindrets/view-tween.nvim",             "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
-	// layer ?
 	{ "name": "lvim-ui-config",               "id": "lvim-tech/lvim-ui-config",             "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
 	// layer ?
 	{ "name": "kui",                          "id": "romgrk/kui.nvim",                      "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
@@ -837,8 +799,6 @@
 	{ "name": "typebreak",                    "id": "nagy135/typebreak.nvim",               "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
 	// layer ?
 	{ "name": "duckytype",                    "id": "kwakzalver/duckytype.nvim",            "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
-	// layer ?
-	{ "name": "keylab",                       "id": "BooleanCube/keylab.nvim",              "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
 	// layer ?
 	{ "name": "typist",                       "id": "BYT0723/typist.nvim",                  "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
 	// layer ?
@@ -1102,6 +1062,27 @@
 	// =======================
 	// FURTHER CMP SOURCES ===
 	// =======================
+
+	// ========
+	// KEYS ===
+	// ========
+	// layer ?
+	{ "name": "unimpaired-which-key",         "id": "afreakk/unimpaired-which-key.nvim",    "source": "gh", "lazy": false, "category": "laterA",    "notes": "needs nix" },
+	// layer ?
+	{ "name": "nvim-whichkey-setup.lua",      "id": "AckslD/nvim-whichkey-setup.lua",       "source": "gh", "lazy": false, "category": "laterA",    "notes": "needs nix" },
+	// layer ?
+	{ "name": "whichkey-ft",                  "id": "CharliePlate/whichkey-ft.nvim",        "source": "gh", "lazy": false, "category": "laterA",    "notes": "needs nix" },
+	// layer ?
+	{ "name": "keymapper",                    "id": "bgrohman/nvim-keymapper",              "source": "gh", "lazy": false, "category": "laterA",    "notes": "needs nix" },
+	// layer ?
+	{ "name": "keyseer",                      "id": "jokajak/keyseer.nvim",                 "source": "gh", "lazy": false, "category": "laterA",    "notes": "needs nix" },
+	// layer ?
+	{ "name": "keytex",                       "id": "cronJohn/keytex.nvim",                 "source": "gh", "lazy": false, "category": "laterA",    "notes": "needs nix" },
+	// layer ?
+	{ "name": "showkeys",                     "id": "nvzone/showkeys",                      "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
+	// layer ?
+	{ "name": "keylab",                       "id": "BooleanCube/keylab.nvim",              "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
+	
 	
 	// ==============
 	// MISC LANGS ===
@@ -1343,5 +1324,30 @@
 	// layer ?
 	{ "name": "treesitter-cpp-tools",         "id": "Badhi/nvim-treesitter-cpp-tools",      "source": "gh", "lazy": false, "category": "lang", "notes": "needs nix" },
 	// layer ?
-	{ "name": "vim-cpp-enhanced-highlight",   "id": "octol/vim-cpp-enhanced-highlight",     "source": "gh", "lazy": false, "category": "lang", "notes": "needs nix" }
+	{ "name": "vim-cpp-enhanced-highlight",   "id": "octol/vim-cpp-enhanced-highlight",     "source": "gh", "lazy": false, "category": "lang", "notes": "needs nix" },
+	// =============
+	// SCROLLING ===
+	// =============
+	// layer ?
+	{ "name": "scrollbar",                    "id": "petertriho/nvim-scrollbar",            "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
+	// layer ?
+	{ "name": "scrollbar",                    "id": "Xuyuanp/scrollbar.nvim",               "source": "gh", "lazy": false, "category": "alternate", "notes": "needs nix" },
+	// layer ?
+	{ "name": "neoscroll",                    "id": "karb94/neoscroll.nvim",                "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
+	// layer ?
+	{ "name": "vim-smoothie",                 "id": "psliwka/vim-smoothie",                 "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
+	// layer ?
+	{ "name": "satellite",                    "id": "lewis6991/satellite.nvim",             "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
+	// layer ?
+	{ "name": "scrollview",                   "id": "dstein64/nvim-scrollview",             "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
+	// layer ?
+	{ "name": "scrlbkun",                     "id": "kensyo/nvim-scrlbkun",                 "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
+	// layer ?
+	{ "name": "cinnamon",                     "id": "declancm/cinnamon.nvim",               "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
+	// layer ?
+	{ "name": "endscroll",                    "id": "plax-00/endscroll.nvim",               "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
+	// layer ?
+	{ "name": "SmoothCursor",                 "id": "gen740/SmoothCursor.nvim",             "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
+	// layer ?
+	{ "name": "view-tween",                   "id": "sindrets/view-tween.nvim",             "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" }
 ]

@@ -35,6 +35,8 @@ https://github.com/svermeulen/nvim-teal-maker?tab=readme-ov-file
 - [ ] https://github.com/aliyss
 - [ ] https://qwik.dev
 
+https://github.com/fabridamicelli/cronex.nvim
+
 https://github.com/Onelinerhub/onelinerhub -> use for PLT
 https://github.com/teal-language/awesome-teal
 
