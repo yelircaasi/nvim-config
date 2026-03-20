@@ -5,12 +5,17 @@
     { "name": "vague",                        "id": "vague2k/vague.nvim",                   "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
 	{ "name": "gruvbox-material",             "id": "sainnhe/gruvbox-material",             "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
 	{ "name": "oceanic-material",             "id": "nvimdev/oceanic-material",             "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
-	
-    // ==========
+	{ "name": "batman.nvim",                  "id": "the-coding-doggo/batman.nvim",             "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	// ==========
 	// IMAGES ===
 	// ==========
-    { "name": "image_preview",                "id": "adelarsq/image_preview.nvim",          "source": "gh", "lazy": false, "category": "sooner",    "notes": "consilium; needs nix" },
+    { "name": "image",                        "id": "3rd/image.nvim",                       "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
+	{ "name": "image",                        "id": "samodostal/image.nvim",                "source": "gh", "lazy": false, "category": "alternate", "notes": "needs nix" },
+	{ "name": "image_preview",                "id": "adelarsq/image_preview.nvim",          "source": "gh", "lazy": false, "category": "sooner",    "notes": "consilium; needs nix" },
 	{ "name": "hologram",                     "id": "edluffy/hologram.nvim",                "source": "gh", "lazy": false, "category": "sooner",    "notes": "consilium; needs nix" },
+	{ "name": "svgo",                         "id": "bennypowers/svgo.nvim",                "source": "gh", "lazy": false, "category": "laterC",    "notes": "needs nix" },
+	{ "name": "picgo",                        "id": "askfiy/nvim-picgo",                    "source": "gh", "lazy": false, "category": "laterC",    "notes": "needs nix" },
+	{ "name": "txtin",                        "id": "jsMRSoL/txtin.nvim",                   "source": "gh", "lazy": false, "category": "laterC",    "notes": "needs nix" },
 	
     // ==============
 	// MISC LANGS ===
@@ -41,10 +46,14 @@
 	{ "name": "dart-vim-plugin",              "id": "dart-lang/dart-vim-plugin",            "source": "gh", "lazy": false, "category": "lang", "notes": "needs nix" },
     { "name": "jsonnet",                      "id": "Duologic/nvim-jsonnet",                "source": "gh", "lazy": false, "category": "lang", "notes": "needs nix" },
 	
+    { "name": "neotest-dotnet",               "id": "Issafalcon/neotest-dotnet",            "source": "gh", "lazy": false, "category": "lang", "notes": "needs nix" },
+	{ "name": "42-C-Formatter",               "id": "Diogo-ss/42-C-Formatter.nvim",         "source": "gh", "lazy": false, "category": "lang", "notes": "needs nix" },
+	
     // ======================
     // miscellaneous apps ===
-    // ===================
-
+    // ======================
+    { "name": "spotify",                      "id": "Terminal127/nvim-spotify",             "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
+	
     // ======================
     // ASYNC ETC. ===
     // ======================
@@ -55,6 +64,7 @@
 	{ "name": "async",                        "id": "lewis6991/async.nvim",                 "source": "gh", "lazy": false, "category": "laterC",    "notes": "needs nix" },
 	{ "name": "async-uv",                     "id": "ec965/async-uv.nvim",                  "source": "gh", "lazy": false, "category": "laterC",    "notes": "needs nix" },
 	{ "name": "micro-async",                  "id": "willothy/micro-async.nvim",            "source": "gh", "lazy": false, "category": "laterC",    "notes": "needs nix" },
+	{ "name": "lusc",                         "id": "svermeulen/nvim-lusc",                 "source": "gh", "lazy": false, "category": "laterC",    "notes": "needs nix" },
 	
     // ======================
     // SECRETS/ENCRYPTION ===
@@ -164,6 +174,10 @@
     { "name": "silicon",                      "id": "michaelrommel/nvim-silicon",           "source": "gh", "lazy": false, "category": "alternate", "notes": "needs nix" },
 	{ "name": "code-shot",                    "id": "niuiic/code-shot.nvim",                "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
 	{ "name": "share",                        "id": "AlexXi19/share.nvim",                  "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
+	{ "name": "scs",                          "id": "mattydebie/scs.nvim",                  "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
+	{ "name": "screenshot",                   "id": "Raeein/screenshot.nvim",               "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
+	{ "name": "silicon",                      "id": "krivahtoo/silicon.nvim",               "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
+	{ "name": "Pixie",                        "id": "atlj/Pixie.nvim",                      "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
 	
     // ===================
     // TYPING PRACTICE ===
@@ -291,6 +305,6 @@
     // =========
     // fancy ===
     // =========
-    { "name": "BufEx",                        "id": "tomiis4/BufEx.nvim",                   "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
+    { "name": "BufEx",                        "id": "tomiis4/BufEx.nvim",                   "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" }
 	
 ]

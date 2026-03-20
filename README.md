@@ -647,6 +647,11 @@ to glean from / hack on later:
 
 ```json
 [
+    {
+        "link": "https://github.com/romgrk/kirby.nvim"
+    },
+    { "name": "kui",                          "id": "romgrk/kui.nvim",                      "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
+	
 
     {
         "link": "https://github.com/marcushwz/nvim-workbench",
