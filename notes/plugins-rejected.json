@@ -13649,5 +13649,8 @@
         "decision": "rejected",
         "projects": ["windowManagement"],
         "reason": "none"
-    }
+    },
+    { "name": "neodev",                       "id": "folke/neodev.nvim",                    "source": "gh", "lazy": false, "category": "laterC",    "notes": "needs nix" },
+    { "name": "nlua",                         "id": "tjdevries/nlua.nvim",                  "source": "gh", "lazy": false, "category": "laterC",    "notes": "needs nix" }
+
 ]

@@ -7,7 +7,9 @@ No nvim framework or distribution is used currently.
 
 
 ## Next Steps
-
+https://github.com/jakehamilton/neovim
+for notes: https://github.com/eschnett/SixelTerm.jl
+	
 https://github.com/teal-language/teal-language-server/
 https://teal-language.org/book/latest/index.html
 https://www.lua.org/manual/5.1/pt/
@@ -123,6 +125,13 @@ nvim/transpiled/
 - telescope-fzf-native
 
 ## Plugins
+
+config / plugin development tools
+
+```jsonc
+{ "name": "oxi",                          "id": "noib3/nvim-oxi",                       "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+
+```
 
 to glean from:
 
@@ -308,8 +317,23 @@ to glean from:
 
 to vendor:
 
-```json
+```jsonc
 [
+    // Toggles between hybrid and absolute line numbers automatically
+    { "name": "vim-numbertoggle",             "id": "jeffkreeftmeijer/vim-numbertoggle",    "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	
+    // Neovim API utility wrapper for more convenience with Lua keymaps, highlights, autocommands and options.
+    { "name": "nx",                           "id": "tenxsoydev/nx.nvim",                   "source": "gh", "lazy": false, "category": "laterC",    "notes": "needs nix" },
+	{ "name": "nvim-utility-lib",             "id": "ollbx/nvim-utility-lib.nvim",          "source": "gh", "lazy": false, "category": "laterC",    "notes": "needs nix" },
+	{ "name": "cool",                         "id": "wrightjjw/cool.nvim",                  "source": "gh", "lazy": false, "category": "laterC",    "notes": "needs nix" },
+	// 
+    { "name": "git-blame.vim",                "id": "zivyangll/git-blame.vim",              "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	
+    { "name": "ecsstractor",                  "id": "SerMeliodas/ecsstractor.nvim",         "source": "gh", "lazy": false, "category": "lang", "notes": "needs nix" },
+	
+    { "name": "vim-capslock",                 "id": "tpope/vim-capslock",                   "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+    { "name": "nvim-trevJ.lua",               "id": "AckslD/nvim-trevJ.lua",                "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	
     { "name": "auto-fold-imports",            "id": "github-naresh/auto-fold-imports.nvim", "source": "gh", "lazy": false, "category": "lang", "notes": "needs nix" },
     {
         "link": "https://github.com/haolian9/sudo_write.nvim",
