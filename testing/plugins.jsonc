@@ -15,6 +15,7 @@
 	{ "name": "commons",                      "id": "linrongbin16/commons.nvim",            "source": "gh", "lazy": false, "category": "laterC",    "notes": "needs nix" },
 	{ "name": "nvim-api-wrappers",            "id": "anuvyklack/nvim-api-wrappers",         "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
 	{ "name": "pathlib",                      "id": "pysan3/pathlib.nvim",                  "source": "gh", "lazy": false, "category": "laterC",    "notes": "needs nix" },
+	{ "name": "cmdTree",                      "id": "CWood-sdf/cmdTree.nvim",               "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
 	//---------------------------------------------
 	//--------------------- core setup and UI -----
 	//---------------------------------------------
@@ -22,20 +23,30 @@
 	{ "name": "illuminate",                   "id": "RRethy/vim-illuminate",                "source": "gh", "lazy": false, "category": "trying"},
 	{ "name": "lualine",                      "id": "nvim-lualine/lualine.nvim",            "source": "gh", "lazy": false, "category": "trying"},
 	{ "name": "nvim-navic",                   "id": "SmiteshP/nvim-navic",                  "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
-	{ "name": "statuscol",                    "id": "luukvbaal/statuscol.nvim",             "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
 	{ "name": "nvim-treesitter",              "id": "nvim-treesitter/nvim-treesitter",      "source": "gh", "lazy": false, "category": "trying",    "notes": "brew install tree-sitter; brew install tree-sitter-cli" },
 	{ "name": "otter",                        "id": "jmbuhr/otter.nvim",                    "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
 	{ "name": "treesitter-modules",           "id": "MeanderingProgrammer/treesitter-modules.nvim", "source": "gh", "lazy": false, "category": "trying", "notes": "needs nix" },
 	{ "name": "dropbar",                      "id": "Bekaboo/dropbar.nvim",                 "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
-	{ "name": "nvim-navbuddy",                "id": "SmiteshP/nvim-navbuddy",               "source": "gh", "lazy": false, "deps": ["nui"], "category": "trying", "notes": "needs nix" },
 	{ "name": "aerial",                       "id": "stevearc/aerial.nvim",                 "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "name": "symbols",                      "id": "oskarrrrrrr/symbols.nvim",             "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
+	// pinning
+	{ "name": "nvim-treesitter-context",      "id": "nvim-treesitter/nvim-treesitter-context","source": "gh","lazy": false,"category": "next",      "notes": "needs nix" },
+	{ "name": "TreePin",                      "id": "KaitlynEthylia/TreePin",               "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
+	// status column
+	{ "name": "statuscol",                    "id": "luukvbaal/statuscol.nvim",             "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	// vertical column line
+	{ "name": "smartcolumn",                  "id": "m4xshen/smartcolumn.nvim",             "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "name": "virtcolumn",                   "id": "xiyaowong/virtcolumn.nvim",            "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	
 	// status line
 	{ "name": "bufferline",                   "id": "akinsho/bufferline.nvim",              "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
 	{ "name": "galaxyline",                   "id": "nvimdev/galaxyline.nvim",              "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
 	{ "name": "heirline",                     "id": "rebelot/heirline.nvim",                "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
 	{ "name": "heirline-components",          "id": "Zeioth/heirline-components.nvim",      "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
 	{ "name": "staline",                      "id": "tamton-aquib/staline.nvim",            "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
+	{ "name": "nvim-navbuddy",                "id": "SmiteshP/nvim-navbuddy",               "source": "gh", "lazy": false, "deps": ["nui"], "category": "trying", "notes": "needs nix" },
 	// other lines window, buffer, etc
+	{ "name": "nougat.nvim",                  "id": "MunifTanjim/nougat.nvim",              "source": "gh", "lazy": false, "category": "alternate", "notes": "needs nix" },
 	{ "name": "winbar",                       "id": "Alighorab/winbar.nvim",                "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
 	{ "name": "minibar",                      "id": "aktersnurra/minibar.nvim",             "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
 	{ "name": "bafa",                         "id": "mistweaverco/bafa.nvim",               "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
@@ -61,6 +72,11 @@
 	{ "name": "deck",                         "id": "hrsh7th/nvim-deck",                    "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
 	// ----- alternative -----
 	{ "name": "ido",                          "id": "shoumodip/ido.nvim",                   "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	// ----- telescope extensions -----
+	{ "name": "telescope-smart-history",      "id": "nvim-telescope/telescope-smart-history.nvim","source":"gh","lazy":false,"category":"next",     "notes": "needs nix" },
+	{ "name": "telescope-repo",               "id": "cljoly/telescope-repo.nvim",           "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
+	{ "name": "telescope-json-history",       "id": "cosminadrianpopescu/telescope-json-history.nvim", "source": "gh", "lazy": false, "category": "lang", "notes": "needs nix" },
+
 	//---------------------------------------------
 	//-------------------------------- suites -----
 	//---------------------------------------------
@@ -100,6 +116,7 @@
 	{ "name": "retrospect",                   "id": "mrquantumcodes/retrospect.nvim",       "source": "gh", "lazy": false, "category": "laterA",    "notes": "needs nix" },
 	{ "name": "vuffers.nvim",                 "id": "Hajime-Suzuki/vuffers.nvim",           "source": "gh", "lazy": false, "category": "laterA",    "notes": "needs nix" },
 	{ "name": "pragma.nvim",                  "id": "DrKGD/pragma.nvim",                   "source": "gh", "lazy": false, "category": "laterA",    "notes": "needs nix" },
+	{ "name": "windows",                      "id": "anuvyklack/windows.nvim",              "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
 	//---------------------------------------------
 	//------------------- wezterm integration -----
 	//---------------------------------------------
@@ -127,6 +144,10 @@
 	//----------------------------- selection -----
 	//---------------------------------------------
 	{ "name": "wildfire",                     "id": "SUSTech-data/wildfire.nvim",           "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	//---------------------------------------------
+	//------------------------------- sorting -----
+	//---------------------------------------------
+	{ "name": "sort",                         "id": "sQVe/sort.nvim",                       "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
 	
 	//---------------------------------------------
 	//-------------------------------- motion -----
@@ -136,6 +157,8 @@
 	{ "name": "hop",                          "id": "smoka7/hop.nvim",                      "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
 	{ "name": "neowords",                     "id": "backdround/neowords.nvim",             "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
 	{ "name": "spider",                       "id": "chrisgrieser/nvim-spider",             "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "name": "vim-wordmotion",               "id": "chaoren/vim-wordmotion",               "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "name": "vim-edgemotion",               "id": "haya14busa/vim-edgemotion",            "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
 	// ----- alternative -----
 	{ "name": "treemonkey",                   "id": "atusy/treemonkey.nvim",                "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
 	{ "name": "hierarchy",                    "id": "Slyces/hierarchy.nvim",                "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
@@ -148,6 +171,7 @@
 	{ "name": "blink.pairs",                  "id": "saghen/blink.pairs",                   "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
 	{ "name": "vim-sandwich",                 "id": "machakann/vim-sandwich",               "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
 	{ "name": "nvim-surround",                "id": "kylechui/nvim-surround",               "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "name": "vim-surround",                 "id": "tpope/vim-surround",                   "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
 	//---------------------------------------------
 	//---------------------------------- undo -----
 	//---------------------------------------------
@@ -159,6 +183,21 @@
 	{ "name": "hydra",                        "id": "nvimtools/hydra.nvim",                 "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
 	{ "name": "insx",                         "id": "hrsh7th/nvim-insx",                    "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
 	{ "name": "which-key",                    "id": "folke/which-key.nvim",                 "source": "gh", "lazy": false, "category": "trying"},
+	// ---- other -----
+	{ "name": "apm",                          "id": "pseudocc/nvim-apm",                    "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "name": "unimpaired-which-key",         "id": "afreakk/unimpaired-which-key.nvim",    "source": "gh", "lazy": false, "category": "laterA",    "notes": "needs nix" },
+	{ "name": "nvim-whichkey-setup.lua",      "id": "AckslD/nvim-whichkey-setup.lua",       "source": "gh", "lazy": false, "category": "laterA",    "notes": "needs nix" },
+	{ "name": "whichkey-ft",                  "id": "CharliePlate/whichkey-ft.nvim",        "source": "gh", "lazy": false, "category": "laterA",    "notes": "needs nix" },
+	{ "name": "keymapper",                    "id": "bgrohman/nvim-keymapper",              "source": "gh", "lazy": false, "category": "laterA",    "notes": "needs nix" },
+	{ "name": "keyseer",                      "id": "jokajak/keyseer.nvim",                 "source": "gh", "lazy": false, "category": "laterA",    "notes": "needs nix" },
+	{ "name": "keytex",                       "id": "cronJohn/keytex.nvim",                 "source": "gh", "lazy": false, "category": "laterA",    "notes": "needs nix" },
+	{ "name": "showkeys",                     "id": "nvzone/showkeys",                      "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
+	{ "name": "keylab",                       "id": "BooleanCube/keylab.nvim",              "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
+	{ "name": "xkbswitch",                    "id": "ivanesmantovich/xkbswitch.nvim",       "source": "gh", "lazy": false, "category": "laterA",    "notes": "needs nix" },
+	{ "name": "cyrillic",                     "id": "nativerv/cyrillic.nvim",               "source": "gh", "lazy": false, "category": "laterA",    "notes": "needs nix" },
+	{ "name": "homerows",                     "id": "kbario/homerows.nvim",                 "source": "gh", "lazy": false, "category": "laterA",    "notes": "needs nix" },
+	{ "name": "wf",                           "id": "Cassin01/wf.nvim",                     "source": "gh", "lazy": false, "category": "laterA",    "notes": "needs nix" },
+
 	//---------------------------------------------
 	//--------------- alignment / indentation -----
 	//---------------------------------------------
@@ -167,6 +206,7 @@
 	{ "name": "anydent",                      "id": "hrsh7th/nvim-anydent",                 "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
 	{ "name": "mini.align",                   "id": "nvim-mini/mini.align",                 "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
 	{ "name": "tabular",                      "id": "godlygeek/tabular",                    "source": "gh", "lazy": false, "category": "trying",    "notes": " -- needs nix; https://devhints.io/tabular" },
+	{ "name": "indent-tools",                 "id": "arsham/indent-tools.nvim",             "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
 	//---------------------------------------------
 	//--------------------------- textobjects -----
 	//---------------------------------------------
@@ -185,10 +225,12 @@
 	{ "name": "treesj",                       "id": "Wansmer/treesj",                       "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
 	{ "name": "splitjoin",                    "id": "bennypowers/splitjoin.nvim",           "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
 	{ "name": "splitjoin.vim",                "id": "AndrewRadev/splitjoin.vim",            "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
-	//---------------------------------------------
+    { "name": "spread",                       "id": "aarondiel/spread.nvim",                "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+    //---------------------------------------------
 	//-------------------- value manipulation -----
 	//---------------------------------------------
 	{ "name": "dial",                         "id": "monaqa/dial.nvim",                     "source": "gh", "lazy": false, "category": "trying"},
+	{ "name": "switch.vim",                   "id": "AndrewRadev/switch.vim",               "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
 	//---------------------------------------------
 	//--------------------------------- marks -----
 	//---------------------------------------------
@@ -205,11 +247,20 @@
 	{ "name": "wastebin",                     "id": "matze/wastebin.nvim",                  "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
 	{ "name": "lazyclip",                     "id": "atiladefreitas/lazyclip",              "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
 	{ "name": "yanky",                        "id": "gbprod/yanky.nvim",                    "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "name": "moveline",                     "id": "willothy/moveline.nvim",               "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
 	//---------------------------------------------
 	//------------------------------ wrapping -----
 	//---------------------------------------------
 	{ "name": "wrapping",                     "id": "andrewferrier/wrapping.nvim",          "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
 	{ "name": "wrapping-paper",               "id": "benlubas/wrapping-paper.nvim",         "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	
+	//---------------------------------------------
+	//-------------------------------- saving -----
+	//---------------------------------------------
+	{ "name": "savior",                       "id": "willothy/savior.nvim",                 "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "name": "zpragmatic",                   "id": "muhammadzkralla/zpragmatic.nvim",      "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
+	{ "name": "vim-auto-save",                "id": "907th/vim-auto-save",                  "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+
 	//---------------------------------------------
 	//------------------------- miscellaneous -----
 	//---------------------------------------------
@@ -218,6 +269,10 @@
 	{ "name": "ax",                           "id": "mikeslattery/ax.nvim",                 "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
 	{ "name": "AdvancedNewFile",              "id": "Mohammed-Taher/AdvancedNewFile.nvim",  "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
 	{ "name": "dotdot",                       "id": "hernandez/dotdot.nvim",                "source": "cb", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "name": "minimal-narrow-region",        "id": "bagohart/minimal-narrow-region.nvim",  "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "name": "date-time-inserter",           "id": "AntonVanAssche/date-time-inserter.nvim","source": "gh","lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "name": "bullets",                      "id": "kaymmm/bullets.nvim",                  "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
+	{ "name": "vim-caser",                    "id": "arthurxavierx/vim-caser",              "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
 	//===================================================================================================================================
 	//==== LAYER 2: LSP, autocompletion, snippets ======================================================================================= 2
 	//===================================================================================================================================
@@ -227,6 +282,7 @@
 	{ "name": "blink.cmp",                    "id": "Saghen/blink.cmp",                     "source": "gh", "lazy": false, "category": "trying"},
 	{ "name": "cmp",                          "id": "hrsh7th/nvim-cmp",                     "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
 	{ "name": "lsp_signature",                "id": "ray-x/lsp_signature.nvim",             "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "name": "inlayhint-filler",             "id": "davidyz/inlayhint-filler.nvim",        "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
 	// ----- alternate -----
 	{ "name": "ivy",                          "id": "AdeAttwood/ivy.nvim",                  "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
 	//---------------------------------------------
@@ -240,6 +296,12 @@
 	{ "name": "cmp-buffer",                   "id": "hrsh7th/cmp-buffer",                   "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
 	{ "name": "cmp-path",                     "id": "hrsh7th/cmp-path",                     "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
 	{ "name": "cmp-cmdline",                  "id": "hrsh7th/cmp-cmdline",                  "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	// ----- other completion sources -----
+	{ "name": "nvim-cmp-fonts",               "id": "amarakon/nvim-cmp-fonts",              "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
+	{ "name": "nvim-cmp-lua-latex-symbols",   "id": "amarakon/nvim-cmp-lua-latex-symbols",  "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
+	{ "name": "cmp-nvim-telekasten-tags",     "id": "Cybolic/cmp-nvim-telekasten-tags",     "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
+	{ "name": "cmp_bulma",                    "id": "garyhurtz/cmp_bulma.nvim",             "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+
 	//---------------------------------------------
 	//--------------------------- LSP general -----
 	//---------------------------------------------
@@ -247,6 +309,12 @@
 	{ "name": "lsp-format",                   "id": "lukas-reineke/lsp-format.nvim",        "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
 	{ "name": "lspkind",                      "id": "onsails/lspkind.nvim",                 "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
 	{ "name": "efm",                          "id": "mattn/efm-langserver",                 "source": "gh", "lazy": false, "category": "trying"},
+	//---------------------------------------------
+	//---------------------------- LSP output -----
+	//---------------------------------------------
+	{ "name": "output-panel",                "id": "mhanberg/output-panel.nvim",          "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "name": "control-panel",                "id": "mhanberg/control-panel.nvim",          "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	
 	//---------------------------------------------
 	//--------- LSP UI/NAVIGATION (-> fidget) -----
 	//---------------------------------------------
@@ -258,6 +326,7 @@
 	{ "name": "doc-window",                   "id": "resonyze/doc-window.nvim",             "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
 	{ "name": "lightbulb",                    "id": "kosayoda/nvim-lightbulb",              "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
 	{ "name": "telescope-code-actions",       "id": "nyarthan/telescope-code-actions.nvim", "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "name": "dmap",                         "id": "doums/dmap.nvim",                      "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
 	//------ language-specific -----
 	{ "name": "lazydev",                      "id": "folke/lazydev.nvim",                   "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
 	{ "name": "rustaceanvim",                 "id": "mrcjkb/rustaceanvim",                  "source": "gh", "lazy": false, "category": "trying",    "notes": "already lazy" },
@@ -279,6 +348,7 @@
 	//===================================================================================================================================
 	{ "name": "guard",                        "id": "nvimdev/guard.nvim",                   "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
 	{ "name": "conform",                      "id": "stevearc/conform.nvim",                "source": "gh", "lazy": false, "category": "trying",    "notes": "ruff, rustfmt, stylua, fourmolu" },
+	{ "name": "strict",                       "id": "emileferreira/nvim-strict",            "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
 	//===================================================================================================================================
 	// LAYER 4: testing, debugging/quickfix, execution ================================================================================== 4
 	//===================================================================================================================================
@@ -294,7 +364,11 @@
 	{ "name": "jaq-nvim",                     "id": "is0n/jaq-nvim",                        "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
 	{ "name": "moonicipal",                   "id": "idanarye/nvim-moonicipal",             "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
 	{ "name": "conjure",                      "id": "Olical/conjure",                       "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "name": "telemake",                     "id": "ChSotiriou/nvim-telemake",             "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "name": "equals",                       "id": "liborw/equals",                        "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
+	{ "name": "telescope-xc",                 "id": "joerdav/telescope-xc.nvim",            "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
 	// ----- other -----
+	{ "name": "resin",                        "id": "fdschmidt93/resin.nvim",               "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
 	{ "name": "vim-slime",                    "id": "jpalardy/vim-slime",                   "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
 	{ "name": "repl",                         "id": "pappasam/nvim-repl",                   "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
 	{ "name": "yarepl",                       "id": "milanglacier/yarepl.nvim",             "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
@@ -308,25 +382,33 @@
 	//---------------------------------------------
 	//------------------------------- Testing -----
 	//---------------------------------------------
+	{ "name": "neotest",                      "id": "nvim-neotest/neotest",                 "source": "gh", "lazy": false, "category": "trying"},
+	{ "name": "coverage",                     "id": "andythigpen/nvim-coverage",            "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
 	{ "name": "neotest-haskell",              "id": "MrcJkb/neotest-haskell",               "source": "gh", "lazy": false, "category": "trying",    "notes": "TODO" },
 	{ "name": "neotest-python",               "id": "nvim-neotest/neotest-python",          "source": "gh", "lazy": false, "category": "trying"},
-	{ "name": "neotest",                      "id": "nvim-neotest/neotest",                 "source": "gh", "lazy": false, "category": "trying"},
+	{ "name": "mypy",                         "id": "feakuru/mypy.nvim",                    "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "name": "lint",                         "id": "mfussenegger/nvim-lint",               "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	// DAP
 	{ "name": "dap-python",                   "id": "mfussenegger/nvim-dap-python",         "source": "cb", "lazy": false, "category": "trying",    "notes": "needs nix; pipx install debugpy" },
 	{ "name": "dapui",                        "id": "rcarriga/nvim-dap-ui",                 "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
 	{ "name": "nvim-dap-virtual-text",        "id": "theHamsta/nvim-dap-virtual-text",      "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
 	{ "name": "dap",                          "id": "mfussenegger/nvim-dap",                "source": "cb", "lazy": false, "category": "trying",    "notes": "needs nix" },
-	{ "name": "mypy",                         "id": "feakuru/mypy.nvim",                    "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
-	{ "name": "lint",                         "id": "mfussenegger/nvim-lint",               "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "name": "Launch",                       "id": "Beloin/Launch.nvim",                   "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "name": "tracebundler",                 "id": "notomo/tracebundler.nvim",             "source": "gh", "lazy": false, "category": "laterC",    "notes": "needs nix" },
 	//---------------------------------------------
 	//------------------------ DAP/quickix UI -----
 	//---------------------------------------------
 	{ "name": "trouble",                      "id": "folke/trouble.nvim",                   "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
 	{ "name": "quicker",                      "id": "stevearc/quicker.nvim",                "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
 	{ "name": "bqf",                          "id": "kevinhwang91/nvim-bqf",                "source": "gh", "lazy": false, "category": "trying"},
+	{ "name": "glance",                       "id": "dnlhc/glance.nvim",                    "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
 	//---------------------------------------------
 	//------------------------------ terminal -----
 	//---------------------------------------------
 	{ "name": "vim-floaterm",                 "id": "voldikss/vim-floaterm",                "source": "gh", "lazy": false, "category": "trying"},
+	{ "name": "termim",                       "id": "2KAbhishek/termim.nvim",               "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "name": "neaterm",                      "id": "Dan7h3x/neaterm.nvim",                 "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "name": "neomux",                       "id": "nikvdp/neomux",                        "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
 	//===================================================================================================================================
 	//==== LAYER 5: refactoring & code intelligence ===================================================================================== 5
 	//===================================================================================================================================
@@ -342,6 +424,7 @@
 	//===================================================================================================================================
 	//==== LAYER 6: version control & collaboration ===================================================================================== 6
 	//===================================================================================================================================
+	{ "name": "advanced-git-search",          "id": "aaronhallaert/advanced-git-search.nvim","source":"gh", "lazy": false, "category": "next",      "notes": "needs nix" },
 	{ "name": "blame",                        "id": "sairajchouhan/blame.nvim",             "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
 	{ "name": "forgit",                       "id": "ray-x/forgit.nvim",                    "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
 	{ "name": "jj",                           "id": "NicolasGB/jj.nvim",                    "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
@@ -353,6 +436,7 @@
 	{ "name": "diffview",                     "id": "sindrets/diffview.nvim",               "source": "gh", "lazy": false, "category": "trying"},
 	{ "name": "gitsigns",                     "id": "lewis6991/gitsigns.nvim",              "source": "gh", "lazy": false, "category": "trying"},
 	{ "name": "vim-fugitive",                 "id": "tpope/vim-fugitive",                   "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "name": "g-worktree",                   "id": "Mohanbarman/g-worktree.nvim",          "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
 	//---------------------------------------------
 	//---------------------------- Git forges -----
 	//---------------------------------------------
@@ -372,6 +456,9 @@
 	{ "name": "volt",                         "id": "nvzone/volt",                          "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
 	{ "name": "menu",                         "id": "nvzone/menu",                          "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
 	{ "name": "bye-nerdfont",                 "id": "dullmode/bye-nerdfont.nvim",           "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
+	{ "name": "reactive",                     "id": "rasulomaroff/reactive.nvim",           "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "name": "modicator",                    "id": "mawkler/modicator.nvim",               "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
+	{ "name": "fsplash",                      "id": "jovanlanik/fsplash.nvim",              "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
 	//---------------------------------------------
 	//---------------- UI (important for LSP) -----
 	//---------------------------------------------
@@ -389,12 +476,12 @@
 	{ "name": "shade",                        "id": "sunjon/shade.nvim",                    "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
 	{ "name": "zen-mode",                     "id": "folke/zen-mode.nvim",                  "source": "gh", "lazy": false, "category": "trying"},
 	{ "name": "sunglasses",                   "id": "miversen33/sunglasses.nvim",           "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
-	
+	{ "name": "vimade",                       "id": "TaDaa/vimade",                         "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+
 	//===================================================================================================================================
 	//==== LAYER 8: miscellaneous/advanced ============================================================================================== 8
 	//===================================================================================================================================
-	{ "name": "vimtex",                       "id": "lervag/vimtex",                        "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix; use vim.cmd.source or vim.fn.runtime" },
-	{ "name": "texmagic",                     "id": "jakewvincent/texmagic.nvim",           "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "name": "runtimetable",                 "id": "notomo/runtimetable.nvim",             "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
 	{ "name": "schemastore",                  "id": "b0o/SchemaStore.nvim",                 "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
 	{ "name": "firenvim",                     "id": "glacambre/firenvim",                   "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
 	{ "name": "render-markdown",              "id": "MeanderingProgrammer/render-markdown.nvim","source":"gh","lazy":false,"category": "trying",    "notes": "needs nix" },
@@ -411,7 +498,6 @@
 	{ "name": "flashcards",                   "id": "alex-laycalvert/flashcards.nvim",      "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
 	{ "name": "license",                      "id": "KronsyC/nvim-license",                 "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
 	{ "name": "nougat",                       "id": "IsaacTay/nougat.nvim",                 "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
-	{ "name": "ltex_extra",                   "id": "barreiroleo/ltex_extra.nvim",          "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
 	{ "name": "live-server",                  "id": "barrett-ruth/live-server.nvim",        "source": "gh", "lazy": false, "category": "sooner",    "notes": "consilium; needs nix" },
 	{ "name": "nvim-mail-merge",              "id": "martineausimon/nvim-mail-merge",       "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
 	{ "name": "better-digraphs",              "id": "protex/better-digraphs.nvim",          "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
@@ -419,6 +505,19 @@
 	{ "name": "tldr",                         "id": "acuteenvy/tldr.nvim",                  "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
 	{ "name": "pre-commit",                   "id": "Ttibsi/pre-commit.nvim",               "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
 	{ "name": "endpoint-previewer",           "id": "tlj/endpoint-previewer.nvim",          "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "name": "fsread",                       "id": "nullchilly/fsread.nvim",               "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
+	{ "name": "feed",                         "id": "neo451/feed.nvim",                     "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
+	{ "name": "nerdy",                        "id": "2KAbhishek/nerdy.nvim",                "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
+	{ "name": "knap",                         "id": "frabjous/knap",                        "source": "gh", "lazy": false, "category": "sooner",    "notes": "consilium; needs nix" },
+	{ "name": "urlview",                      "id": "axieax/urlview.nvim",                  "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
+	{ "name": "interlaced",                   "id": "tanloong/interlaced.nvim",             "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	//---------------------------------------------
+	//--------------------------------- LaTeX -----
+	//---------------------------------------------
+	{ "name": "texmagic",                     "id": "jakewvincent/texmagic.nvim",           "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "name": "vimtex",                       "id": "lervag/vimtex",                        "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix; use vim.cmd.source or vim.fn.runtime" },
+	{ "name": "ltex_extra",                   "id": "barreiroleo/ltex_extra.nvim",          "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
+	
 	//---------------------------------------------
 	//----------------------------------- Fun -----
 	//---------------------------------------------
@@ -429,6 +528,7 @@
 	{ "name": "ascii-image",                  "id": "Jeansidharta/ascii-image.nvim",        "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
 	{ "name": "emoji_picker-nvim",            "id": "WilsonOh/emoji_picker-nvim",           "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
 	{ "name": "dotfyle-metadata",             "id": "creativenull/dotfyle-metadata.nvim",   "source": "gh", "lazy": false, "category": "laterC",    "notes": "needs nix" },
+	{ "name": "extmark-toy",                  "id": "sunjon/extmark-toy.nvim",              "source": "gh", "lazy": false, "category": "laterC",    "notes": "needs nix" },
 	//---------------------------------------------
 	//--------------------------------- Regex -----
 	//---------------------------------------------
@@ -440,6 +540,7 @@
 	//---------------------------------------------
 	{ "name": "structlog",                    "id": "Tastyep/structlog.nvim",               "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
 	{ "name": "neorepl",                      "id": "ii14/neorepl.nvim",                    "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "name": "neotest-plenary",              "id": "nvim-neotest/neotest-plenary",         "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
 	//---------------------------------------------
 	//--------------------------- color utils -----
 	//---------------------------------------------
@@ -488,118 +589,13 @@
 	{ "name": "obsidian",                     "id": "epwalsh/obsidian.nvim",                "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
 	{ "name": "vim-twig",                     "id": "lumiliet/vim-twig",                          "source": "gh", "lazy": false, "category": "lang", "notes": "PHP; needs nix" },
 	{ "name": "timerly",                      "id": "nvzone/timerly",                       "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
-	{ "name": "apm",                          "id": "pseudocc/nvim-apm",                    "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "name": "sche",                         "id": "Cassin01/sche.nvim",                   "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
 	// ----- PKM -----
 	{ "name": "vimwiki",                      "id": "vimwiki/vimwiki",                      "source": "gh", "lazy": false, "category": "sooner",    "notes": "consilium; needs nix" },
 	{ "name": "flote",                        "id": "JellyApple102/flote.nvim",             "source": "gh", "lazy": false, "category": "sooner",    "notes": "consilium; needs nix" },
 	{ "name": "neorg",                        "id": "nvim-neorg/neorg",                     "source": "gh", "lazy": false, "category": "sooner",    "notes": "consilium; needs nix" },
 	{ "name": "quicknote",                    "id": "RutaTang/quicknote.nvim",              "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
 	{ "name": "scratch-buffer",               "id": "miguelcrespo/scratch-buffer.nvim",     "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
-	//---------------------------------------------
-	// ----------------------------- UNSORTED -----
-	//---------------------------------------------
-	{ "name": "telescope-file-history",       "id": "dawsers/telescope-file-history.nvim",  "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
-	{ "name": "telescope-xc",                 "id": "joerdav/telescope-xc.nvim",            "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
-	{ "name": "telescope-smart-history",      "id": "nvim-telescope/telescope-smart-history.nvim","source":"gh","lazy":false,"category":"next",     "notes": "needs nix" },
-	{ "name": "telescope-repo",               "id": "cljoly/telescope-repo.nvim",           "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
-	{ "name": "telescope-json-history",       "id": "cosminadrianpopescu/telescope-json-history.nvim", "source": "gh", "lazy": false, "category": "lang", "notes": "needs nix" },
-	
-	{ "name": "runtimetable",                 "id": "notomo/runtimetable.nvim",             "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
-	{ "name": "wb-only-current-line",         "id": "yutkat/wb-only-current-line.nvim",     "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
-	{ "name": "haste-nvim",                   "id": "pollen00/haste-nvim",                  "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
-	{ "name": "cmp_bulma",                    "id": "garyhurtz/cmp_bulma.nvim",             "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
-	{ "name": "dotbox",                       "id": "jakehamilton/dotbox.nvim",             "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
-	{ "name": "control-panel",                "id": "mhanberg/control-panel.nvim",          "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
-	{ "name": "cmdTree",                      "id": "CWood-sdf/cmdTree.nvim",               "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
-	{ "name": "sche",                         "id": "Cassin01/sche.nvim",                   "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
-	{ "name": "sort",                         "id": "sQVe/sort.nvim",                       "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
-	{ "name": "neaterm",                      "id": "Dan7h3x/neaterm.nvim",                 "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
-	{ "name": "Launch",                       "id": "Beloin/Launch.nvim",                   "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
-	{ "name": "dmap",                         "id": "doums/dmap.nvim",                      "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
-	{ "name": "telemake",                     "id": "ChSotiriou/nvim-telemake",             "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
-	{ "name": "reactive",                     "id": "rasulomaroff/reactive.nvim",           "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
-	{ "name": "smartcolumn",                  "id": "m4xshen/smartcolumn.nvim",             "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
-	{ "name": "moveline",                     "id": "willothy/moveline.nvim",               "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
-	{ "name": "minimal-narrow-region",        "id": "bagohart/minimal-narrow-region.nvim",  "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
-	{ "name": "edit-list",                    "id": "Sharonex/edit-list.nvim",              "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
-	{ "name": "vim-auto-save",                "id": "907th/vim-auto-save",                  "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
-	{ "name": "spread",                       "id": "aarondiel/spread.nvim",                "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
-	{ "name": "vim-surround",                 "id": "tpope/vim-surround",                   "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
-	{ "name": "vim-repeat",                   "id": "tpope/vim-repeat",                     "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
-	{ "name": "dsf.vim",                      "id": "AndrewRadev/dsf.vim",                  "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
-	{ "name": "switch.vim",                   "id": "AndrewRadev/switch.vim",               "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
-	{ "name": "vim-caser",                    "id": "arthurxavierx/vim-caser",              "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
-	{ "name": "vim-wordmotion",               "id": "chaoren/vim-wordmotion",               "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
-	{ "name": "virtcolumn",                   "id": "xiyaowong/virtcolumn.nvim",            "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
-	{ "name": "lastplace",                    "id": "ethanholz/nvim-lastplace",             "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
-	{ "name": "vim-edgemotion",               "id": "haya14busa/vim-edgemotion",            "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
-	{ "name": "date-time-inserter",           "id": "AntonVanAssche/date-time-inserter.nvim","source": "gh","lazy": false, "category": "next",      "notes": "needs nix" },
-	{ "name": "nvim-treesitter-context",      "id": "nvim-treesitter/nvim-treesitter-context","source": "gh","lazy": false,"category": "next",      "notes": "needs nix" },
-	{ "name": "termim",                       "id": "2KAbhishek/termim.nvim",               "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
-	{ "name": "advanced-git-search",          "id": "aaronhallaert/advanced-git-search.nvim","source":"gh", "lazy": false, "category": "next",      "notes": "needs nix" },
-	{ "name": "vimade",                       "id": "TaDaa/vimade",                         "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
-	{ "name": "local-yokel",                  "id": "mskelton/local-yokel.nvim",            "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
-	{ "name": "g-worktree",                   "id": "Mohanbarman/g-worktree.nvim",          "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
-	{ "name": "indent-tools",                 "id": "arsham/indent-tools.nvim",             "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
-	{ "name": "neotest-plenary",              "id": "nvim-neotest/neotest-plenary",         "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
-	{ "name": "neomux",                       "id": "nikvdp/neomux",                        "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
-	{ "name": "interlaced",                   "id": "tanloong/interlaced.nvim",             "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
-	{ "name": "inlayhint-filler",             "id": "davidyz/inlayhint-filler.nvim",        "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
-	{ "name": "resin",                        "id": "fdschmidt93/resin.nvim",               "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
-	{ "name": "savior",                       "id": "willothy/savior.nvim",                 "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
-	{ "name": "glance",                       "id": "dnlhc/glance.nvim",                    "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
-	{ "name": "zpragmatic",                   "id": "muhammadzkralla/zpragmatic.nvim",      "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
-	{ "name": "editorconfig",                 "id": "gpanders/editorconfig.nvim",           "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
-	{ "name": "strict",                       "id": "emileferreira/nvim-strict",            "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
-	{ "name": "symbols",                      "id": "oskarrrrrrr/symbols.nvim",             "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
-	{ "name": "knap",                         "id": "frabjous/knap",                        "source": "gh", "lazy": false, "category": "sooner",    "notes": "consilium; needs nix" },
-	{ "name": "fsread",                       "id": "nullchilly/fsread.nvim",               "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
-	{ "name": "coverage",                     "id": "andythigpen/nvim-coverage",            "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
-	{ "name": "modicator",                    "id": "mawkler/modicator.nvim",               "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
-	{ "name": "bullets",                      "id": "kaymmm/bullets.nvim",                  "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
-	{ "name": "TreePin",                      "id": "KaitlynEthylia/TreePin",               "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
-	{ "name": "checkupdate",                  "id": "diegoroccia/checkupdate.nvim",         "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
-	{ "name": "equals",                       "id": "liborw/equals",                        "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
-	{ "name": "urlview",                      "id": "axieax/urlview.nvim",                  "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
-	{ "name": "paredit",                      "id": "julienvincent/nvim-paredit",           "source": "gh", "lazy": false, "category": "laterA",    "notes": "needs nix" },
-	{ "name": "homerows",                     "id": "kbario/homerows.nvim",                 "source": "gh", "lazy": false, "category": "laterA",    "notes": "needs nix" },
-	{ "name": "bepo",                         "id": "vetsE/bepo.nvim",                      "source": "gh", "lazy": false, "category": "laterA",    "notes": "needs nix" },
-	{ "name": "feed",                         "id": "neo451/feed.nvim",                     "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
-	{ "name": "nerdy",                        "id": "2KAbhishek/nerdy.nvim",                "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
-	{ "name": "windows",                      "id": "anuvyklack/windows.nvim",              "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
-	{ "name": "maim",                         "id": "kiran94/maim.nvim",                    "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
-	{ "name": "rayso",                        "id": "TobinPalmer/rayso.nvim",               "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
-	{ "name": "fsplash",                      "id": "jovanlanik/fsplash.nvim",              "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
-	{ "name": "dummy.lua",                    "id": "MunifTanjim/dummy.lua",                "source": "gh", "lazy": false, "category": "laterC",    "notes": "needs nix" },
-	{ "name": "nvim-github-uploader",         "id": "ch3n9w/nvim-github-uploader",          "source": "gh", "lazy": false, "category": "laterC",    "notes": "needs nix" },
-	{ "name": "extmark-toy",                  "id": "sunjon/extmark-toy.nvim",              "source": "gh", "lazy": false, "category": "laterC",    "notes": "needs nix" },
-	{ "name": "nvimager",                     "id": "mbpowers/nvimager",                    "source": "gh", "lazy": false, "category": "laterC",    "notes": "needs nix" },
-	{ "name": "osfa",                         "id": "javio7/nvim-osfa",                     "source": "gh", "lazy": false, "category": "laterC",    "notes": "needs nix" },
-	{ "name": "lreload",                      "id": "notomo/lreload.nvim",                  "source": "gh", "lazy": false, "category": "laterC",    "notes": "needs nix" },
-	{ "name": "tracebundler",                 "id": "notomo/tracebundler.nvim",             "source": "gh", "lazy": false, "category": "laterC",    "notes": "needs nix" },
-	{ "name": "template-string",              "id": "axelvc/template-string.nvim",          "source": "gh", "lazy": false, "category": "lang", "notes": "needs nix" },
-    { "name": "muryp-findList",               "id": "muryp/muryp-findList.nvim",            "source": "gh", "lazy": false, "category": "lang", "notes": "needs nix" },
-	// { "name": "/hstern.ca/blog/posts/nvim-r-plots", "id": "https://hstern.ca/blog/posts/nvim-r-plots", "source": "gh", "lazy": false, "category": "lang", "notes": "needs nix" },
-	// { "name": "",                             "id": "TODO: search: flutter development in nvim", "source": "gh", "lazy": false, "category": "lang", "notes": "needs nix" },
-	// =======================
-	// FURTHER CMP SOURCES ===
-	// =======================
-	{ "name": "nvim-cmp-fonts",               "id": "amarakon/nvim-cmp-fonts",              "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
-	{ "name": "nvim-cmp-lua-latex-symbols",   "id": "amarakon/nvim-cmp-lua-latex-symbols",  "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
-	{ "name": "cmp-nvim-telekasten-tags",     "id": "Cybolic/cmp-nvim-telekasten-tags",     "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
-	
-	// ========
-	// KEYS ===
-	// ========
-	{ "name": "unimpaired-which-key",         "id": "afreakk/unimpaired-which-key.nvim",    "source": "gh", "lazy": false, "category": "laterA",    "notes": "needs nix" },
-	{ "name": "nvim-whichkey-setup.lua",      "id": "AckslD/nvim-whichkey-setup.lua",       "source": "gh", "lazy": false, "category": "laterA",    "notes": "needs nix" },
-	{ "name": "whichkey-ft",                  "id": "CharliePlate/whichkey-ft.nvim",        "source": "gh", "lazy": false, "category": "laterA",    "notes": "needs nix" },
-	{ "name": "keymapper",                    "id": "bgrohman/nvim-keymapper",              "source": "gh", "lazy": false, "category": "laterA",    "notes": "needs nix" },
-	{ "name": "keyseer",                      "id": "jokajak/keyseer.nvim",                 "source": "gh", "lazy": false, "category": "laterA",    "notes": "needs nix" },
-	{ "name": "keytex",                       "id": "cronJohn/keytex.nvim",                 "source": "gh", "lazy": false, "category": "laterA",    "notes": "needs nix" },
-	{ "name": "showkeys",                     "id": "nvzone/showkeys",                      "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
-	{ "name": "keylab",                       "id": "BooleanCube/keylab.nvim",              "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
-	{ "name": "xkbswitch",                    "id": "ivanesmantovich/xkbswitch.nvim",       "source": "gh", "lazy": false, "category": "laterA",    "notes": "needs nix" },
-	{ "name": "cyrillic",                     "id": "nativerv/cyrillic.nvim",               "source": "gh", "lazy": false, "category": "laterA",    "notes": "needs nix" },
-	{ "name": "wf",                           "id": "Cassin01/wf.nvim",                     "source": "gh", "lazy": false, "category": "laterA",    "notes": "needs nix" }
+	// ----- tracking -----
+	{ "name": "edit-list",                    "id": "Sharonex/edit-list.nvim",              "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" }
 ]

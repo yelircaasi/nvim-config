@@ -7,9 +7,21 @@ No nvim framework or distribution is used currently.
 
 
 ## Next Steps
+
+https://yutkat.github.io/my-neovim-pluginlist/
+https://github.com/mhanberg/.dotfiles/blob/main/config/nvim/init.lua
+https://github.com/mhanberg/.dotfiles/
+
+https://github.com/detachhead/basedpyright
+https://github.com/julienvincent/config.nvim
+
 https://github.com/jakehamilton/neovim
 for notes: https://github.com/eschnett/SixelTerm.jl
-	
+
+https://hstern.ca/blog/posts/nvim-r-plots
+
+TODO: search: flutter development in nvim
+
 https://github.com/teal-language/teal-language-server/
 https://teal-language.org/book/latest/index.html
 https://www.lua.org/manual/5.1/pt/
@@ -129,14 +141,19 @@ nvim/transpiled/
 config / plugin development tools
 
 ```jsonc
-{ "name": "oxi",                          "id": "noib3/nvim-oxi",                       "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
-
+[
+    { "name": "oxi",                          "id": "noib3/nvim-oxi",                       "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+    { "name": "lreload",                      "id": "",                  "source": "gh", "lazy": false, "category": "laterC",    "notes": "needs nix" }
+]
+	
 ```
 
 to glean from:
 
 ```json
 [
+    { "name": "bepo",                         "id": "vetsE/bepo.nvim",                      "source": "gh", "lazy": false, "category": "laterA",    "notes": "needs nix" },
+	
     {
         "link": "https://www.youtube.com/watch?v=VC1DhAoRSpg",
         "decision": "glean",
@@ -319,6 +336,19 @@ to vendor:
 
 ```jsonc
 [
+    { "name": "telescope-file-history",       "id": "dawsers/telescope-file-history.nvim",  "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	
+    { "name": "editorconfig",                 "id": "gpanders/editorconfig.nvim",           "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
+	{ "name": "local-yokel",                  "id": "mskelton/local-yokel.nvim",            "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	
+    { "name": "lastplace",                    "id": "ethanholz/nvim-lastplace",             "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "name": "dsf.vim",                      "id": "AndrewRadev/dsf.vim",                  "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{
+        "link": "https://github.com/faceleg/delete-surrounding-function-call.vim"
+    }
+    { "name": "wb-only-current-line",         "id": "yutkat/wb-only-current-line.nvim",     "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "name": "vim-repeat",                   "id": "tpope/vim-repeat",                     "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	
     // Toggles between hybrid and absolute line numbers automatically
     { "name": "vim-numbertoggle",             "id": "jeffkreeftmeijer/vim-numbertoggle",    "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
 	
@@ -328,6 +358,7 @@ to vendor:
 	{ "name": "cool",                         "id": "wrightjjw/cool.nvim",                  "source": "gh", "lazy": false, "category": "laterC",    "notes": "needs nix" },
 	// 
     { "name": "git-blame.vim",                "id": "zivyangll/git-blame.vim",              "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "name": "checkupdate",                  "id": "diegoroccia/checkupdate.nvim",         "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
 	
     { "name": "ecsstractor",                  "id": "SerMeliodas/ecsstractor.nvim",         "source": "gh", "lazy": false, "category": "lang", "notes": "needs nix" },
 	

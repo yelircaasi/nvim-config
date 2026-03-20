@@ -16,10 +16,15 @@
 	{ "name": "svgo",                         "id": "bennypowers/svgo.nvim",                "source": "gh", "lazy": false, "category": "laterC",    "notes": "needs nix" },
 	{ "name": "picgo",                        "id": "askfiy/nvim-picgo",                    "source": "gh", "lazy": false, "category": "laterC",    "notes": "needs nix" },
 	{ "name": "txtin",                        "id": "jsMRSoL/txtin.nvim",                   "source": "gh", "lazy": false, "category": "laterC",    "notes": "needs nix" },
+	{ "name": "nvimager",                     "id": "mbpowers/nvimager",                    "source": "gh", "lazy": false, "category": "laterC",    "notes": "needs nix" },
 	
     // ==============
 	// MISC LANGS ===
 	// ==============
+    { "name": "dotbox",                       "id": "jakehamilton/dotbox.nvim",             "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	
+    { "name": "paredit",                      "id": "julienvincent/nvim-paredit",           "source": "gh", "lazy": false, "category": "laterA",    "notes": "needs nix" },
+	{ "name": "osfa",                         "id": "javio7/nvim-osfa",                     "source": "gh", "lazy": false, "category": "laterC",    "notes": "needs nix" },
 	{ "name": "metals",                       "id": "scalameta/nvim-metals",                "source": "gh", "lazy": false, "category": "selected",  "notes": "needs nix" },
 	{ "name": "neotest-scala",                "id": "stevanmilic/neotest-scala",            "source": "gh", "lazy": false, "category": "selected",  "notes": "needs nix" },
 	{ "name": "perldoc-vim",                  "id": "wsdjeg/perldoc-vim",                   "source": "gh", "lazy": false, "category": "lang", "notes": "needs nix" },
@@ -113,7 +118,6 @@
 	{ "name": "typst-preview",                "id": "chomosuke/typst-preview.nvim",         "source": "gh", "lazy": false, "category": "alternate", "notes": "needs nix" },
 	{ "name": "render",                       "id": "SeniorMars/render.nvim",               "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
 	{ "name": "typst",                        "id": "SeniorMars/typst.nvim",                "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
-	
 
 	// ========
 	// JIRA ===
@@ -167,7 +171,7 @@
 	{ "name": "tsuquyomi",                    "id": "Quramy/tsuquyomi",                     "source": "gh", "lazy": false, "category": "lang", "notes": "needs nix" },
 	{ "name": "tsc",                          "id": "dmmulroy/tsc.nvim",                    "source": "gh", "lazy": false, "category": "lang", "notes": "needs nix" },
 	{ "name": "better-ts-errors",             "id": "OlegGulevskyy/better-ts-errors.nvim",  "source": "gh", "lazy": false, "category": "lang", "notes": "needs nix" },
-	
+    { "name": "template-string",              "id": "axelvc/template-string.nvim",          "source": "gh", "lazy": false, "category": "lang", "notes": "needs nix" },
     // ==========================
     // CODE CAPTURE / SHARING ===
     // ==========================
@@ -178,7 +182,9 @@
 	{ "name": "screenshot",                   "id": "Raeein/screenshot.nvim",               "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
 	{ "name": "silicon",                      "id": "krivahtoo/silicon.nvim",               "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
 	{ "name": "Pixie",                        "id": "atlj/Pixie.nvim",                      "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
-	
+	{ "name": "maim",                         "id": "kiran94/maim.nvim",                    "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
+	{ "name": "rayso",                        "id": "TobinPalmer/rayso.nvim",               "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
+
     // ===================
     // TYPING PRACTICE ===
     // ===================
@@ -301,7 +307,8 @@
 	{ "name": "pinmd",                        "id": "zaiic/pinmd.nvim",                     "source": "gh", "lazy": false, "category": "laterC",    "notes": "needs nix" },
 	{ "name": "pastify",                      "id": "TobinPalmer/pastify.nvim",             "source": "gh", "lazy": false, "category": "laterC",    "notes": "needs nix" },
 	{ "name": "clipboard-image",              "id": "ekickx/clipboard-image.nvim",          "source": "gh", "lazy": false, "category": "laterC",    "notes": "needs nix" },
-
+    { "name": "nvim-github-uploader",         "id": "ch3n9w/nvim-github-uploader",          "source": "gh", "lazy": false, "category": "laterC",    "notes": "needs nix" },
+	
     // =========
     // fancy ===
     // =========
