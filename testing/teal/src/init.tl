@@ -12,13 +12,13 @@ path_helpers.resolve = function(path: string): string return vim.fn.expand(path)
 
 path_helpers.resolve_existing = function(path: string): string
 	local resolved: string = path_helpers.resolve(path)
-	if not vim.fn.exists() then error("function 'resolve': path " .. path .. " must already exist.") end
+	if not vim.fn.exists(resolved) then error("function 'resolve': path " .. path .. " must already exist.") end
 	return resolved
 end
 
 path_helpers.resolve_and_mkdir = function(path: string): string
 	local resolved: string = path_helpers.resolve(path)
-	if not vim.fn.exists() as boolean then vim.fn.mkdir(resolved) end
+	if not vim.fn.exists(resolved) then vim.fn.mkdir(resolved) end
 	return resolved
 end
 
@@ -32,18 +32,20 @@ local prepend_safe = function(path: string, create?: boolean): nil
 end
 
 local HAS_NIX: boolean = vim.fn.isdirectory("/nix/store") ~= 0
-local NVIM_DIR: string = path_helpers.resolve_existing("~/repos/nvim-config/testing")
+local NVIM_DIR: string = (vim.fn.expand("<sfile>:p:h") as string)
+-- debug.getinfo(2, "S").source:sub(2):match("(.*/)") or "./"
+print(NVIM_DIR)
+-- vim.opt.runtimepath:prepend(NVIM_DIR) TODO: not working (maybe not in time?)
+package.path = package.path .. ";" .. NVIM_DIR .. "/?.lua"
 
-prepend_safe(NVIM_DIR)
-
-local utils: Utils = require("lua.utils").setup({
-	verbose = false,
+local utils = require("lua.utils").setup({
+	verbose = true,
 	safe = true,
 	prepend_safe = prepend_safe,
 	layers = {0, 1,},
 	plugin_paths = dofile(NVIM_DIR .. "/meta/plugin_paths.lua") as {string:string},
 	dependencies = dofile(NVIM_DIR .. "/meta/dependencies.lua") as {string:{string}},
-	plugins_by_layer = dofile(NVIM_DIR .. "/meta/plugin_layers.lua") as {number:{string}},
+	plugins_by_layer = dofile(NVIM_DIR .. "/meta/plugin_layers.lua") as {number:{number:{string}}},
 })
 local setup_plugin: SetupFunction = utils.setup_plugin
 local map: MapFunction = utils.map
@@ -59,11 +61,9 @@ utils.printbv(#utils.PLUGINS_INCLUDED .. " plugins included")
 ------ core dependencies
 setup_plugin("plenary")
 setup_plugin("nio")
-
 setup_plugin("nvim-web-devicons")
 ------ core setup and UI
 setup_plugin("bamboo", function(bamboo: Plugin)
-	utils.printbv("Setting up bamboo")
 	(bamboo.setup as function(table))({
 		style = "multiplex",
 		colors = {
@@ -71,7 +71,8 @@ setup_plugin("bamboo", function(bamboo: Plugin)
 		},
 		-- highlights = { Normal = { bg = "#020802" } },
 	})
-	(bamboo.load as function)() -- tl: ignore
+	(bamboo.load as function)()
+	utils.printbv("Set up bamboo")
 	-- require("vague").setup({ transparent = true })
 	-- vim.cmd("colorscheme bamboo")
 	-- vim.cmd(":hi statusline guibg=#081608")

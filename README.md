@@ -8,10 +8,12 @@ No nvim framework or distribution is used currently.
 
 ## Next Steps
 
+https://github.com/josa42/config-nvim
+
 https://yutkat.github.io/my-neovim-pluginlist/
 https://github.com/mhanberg/.dotfiles/blob/main/config/nvim/init.lua
 https://github.com/mhanberg/.dotfiles/
-
+https://tduyng.com/blog/ ||| https://tduyng.com/series/neovim/
 https://github.com/detachhead/basedpyright
 https://github.com/julienvincent/config.nvim
 
@@ -153,6 +155,7 @@ to glean from:
 ```json
 [
     { "name": "bepo",                         "id": "vetsE/bepo.nvim",                      "source": "gh", "lazy": false, "category": "laterA",    "notes": "needs nix" },
+	{ "name": "markdown-preview",             "id": "josa42/nvim-markdown-preview",         "source": "gh", "lazy": false, "category": "alternate", "notes": "needs nix" },
 	
     {
         "link": "https://www.youtube.com/watch?v=VC1DhAoRSpg",
@@ -336,6 +339,8 @@ to vendor:
 
 ```jsonc
 [
+    { "name": "search-replace",               "id": "roobert/search-replace.nvim",          "source": "gh", "lazy": false, "category": "alternate", "notes": "needs nix" },
+	
     { "name": "telescope-file-history",       "id": "dawsers/telescope-file-history.nvim",  "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
 	
     { "name": "editorconfig",                 "id": "gpanders/editorconfig.nvim",           "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },

@@ -40,5 +40,5 @@ global record UtilsConfig
 	plugin_paths: {string:string}
 	dependencies: {string:{string}}
 	layers: {number}
-	plugins_by_layer: {number:{string}}
+	plugins_by_layer: {number:{number:{string}}}
 end

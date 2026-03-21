@@ -10,13 +10,17 @@ local function setup(config)
 
 	M.PLUGINS_INCLUDED = {}
 	for _, layer in ipairs(LAYERS) do
+		print("layer" .. layer)
 		local layer_table = PLUGINS_BY_LAYER[layer]
 		if VERBOSE then
-			print("--- layer " .. layer .. ": " .. #layer_table .. " plugins")
+			print("--- layer " .. tostring(layer) .. ": " .. #layer_table .. " plugins")
 		end
-
-		for _, name in ipairs(layer_table) do
-			table.insert(M.PLUGINS_INCLUDED, name)
+		print(vim.inspect(layer_table))
+		for _, names in pairs(layer_table) do
+			for _, name in ipairs(names) do
+				print(name)
+				table.insert(M.PLUGINS_INCLUDED, name)
+			end
 		end
 	end
 
