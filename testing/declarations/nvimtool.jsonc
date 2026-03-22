@@ -1,0 +1,6 @@
+{
+    "config-source": "~/repos/nvim-config/testing",
+    "config-target": "~/.config/nvim/trial",
+    "plugin-dir": "~/local/share/nvim-plugins",
+    "update-window": 30  // days since last commit before updating
+}

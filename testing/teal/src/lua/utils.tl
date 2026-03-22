@@ -122,7 +122,7 @@ local function setup(config: UtilsConfig): Utils
 			plugin_with_setup.setup(config_or_function) return
 	   end
 	   if config_or_function is function then
-			config_or_function(plugin)
+			config_or_function(plugin) return
 	    end
 	end
 
