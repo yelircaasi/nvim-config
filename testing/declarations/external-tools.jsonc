@@ -11,7 +11,15 @@
         "executable": "mypy",
         "group": "",
         "version_subcommand": "",
-        "version_constraints": ">=1.19", 
+        "version_constraints": "=1.19.1", 
+        "install_command": "",
+        "description": "python static type checker"
+    },
+    {
+        "executable": "pyright",
+        "group": "",
+        "version_subcommand": "",
+        "version_constraints": ">=1.1", 
         "install_command": "",
         "description": "python static type checker"
     }

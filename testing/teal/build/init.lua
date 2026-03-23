@@ -14,15 +14,15 @@ path_helpers.resolve_and_mkdir = function(path)
 	return resolved
 end
 local prepend_safe = function(path, create)
-	local expanded_path
-	if create then expanded_path = path_helpers.resolve_and_mkdir(path) else  end
+	local resolver = create and path_helpers.resolve_and_mkdir or path_helpers.resolve_existing
+	local expanded_path = resolver(path)
 	if not vim.tbl_contains(vim.opt.runtimepath:get(), expanded_path) then vim.opt.runtimepath:prepend(expanded_path) end
 end
 local HAS_NIX = vim.fn.isdirectory("/nix/store") ~= 0
-local NVIM_DIR = (vim.fn.expand("<sfile>:p:h")); print(NVIM_DIR)
+local NVIM_DIR = (vim.fn.expand("<sfile>:p:h"))
 package.path = package.path .. ";" .. NVIM_DIR .. "/?.lua"
 local utils = require("lua.utils").setup({
-	verbose = true, safe = true,
+	verbose = false, safe = true,
 	prepend_safe = prepend_safe,
 	layers = { 0, 1 },
 	plugin_paths = dofile(NVIM_DIR .. "/meta/plugin_paths.lua"),
@@ -30,12 +30,12 @@ local utils = require("lua.utils").setup({
 	plugins_by_layer = dofile(NVIM_DIR .. "/meta/plugin_layers.lua"),
 })
 local setup_plugin = utils.setup_plugin
-local map = utils.map; utils.printv("PLUGINS INCLUDED: " .. vim.inspect(utils.PLUGINS_INCLUDED)); utils.printbv(#utils.PLUGINS_INCLUDED .. " plugins included")
+local map = utils.map; utils.printv("NVIM_DIR: " .. NVIM_DIR); utils.printv("PLUGINS INCLUDED: " .. vim.inspect(utils.PLUGINS_INCLUDED)); utils.printbv(#utils.PLUGINS_INCLUDED .. " plugins included")
 setup_plugin("plenary")
 setup_plugin("nio")
 setup_plugin("nvim-web-devicons")
 setup_plugin("bamboo", function(bamboo)
-	bamboo.setup({ style = "multiplex", colors = { bg0 = "#020802" } })
+	bamboo.setup({ style = "multiplex", colors = { bg0 = "#020802" }, })
 	bamboo.load(); utils.printbv("Set up bamboo") end)
 setup_plugin("zen-mode")
 setup_plugin("lualine")

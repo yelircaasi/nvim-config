@@ -23,9 +23,8 @@ path_helpers.resolve_and_mkdir = function(path: string): string
 end
 
 local prepend_safe = function(path: string, create?: boolean): nil
-	local expanded_path: string
-	if create then expanded_path = path_helpers.resolve_and_mkdir(path)
-    else expanded_path = path_helpers.resolve_existing(path) end
+	local resolver: function(string): string = create and path_helpers.resolve_and_mkdir or path_helpers.resolve_existing
+	local expanded_path: string = resolver(path)
 	if not vim.tbl_contains(vim.opt.runtimepath:get() as {string}, expanded_path) then
 		vim.opt.runtimepath:prepend(expanded_path)
 	end
@@ -34,12 +33,12 @@ end
 local HAS_NIX: boolean = vim.fn.isdirectory("/nix/store") ~= 0
 local NVIM_DIR: string = (vim.fn.expand("<sfile>:p:h") as string)
 -- debug.getinfo(2, "S").source:sub(2):match("(.*/)") or "./"
-print(NVIM_DIR)
+
 -- vim.opt.runtimepath:prepend(NVIM_DIR) TODO: not working (maybe not in time?)
 package.path = package.path .. ";" .. NVIM_DIR .. "/?.lua"
 
 local utils = require("lua.utils").setup({
-	verbose = true,
+	verbose = false,
 	safe = true,
 	prepend_safe = prepend_safe,
 	layers = {0, 1,},
@@ -50,6 +49,7 @@ local utils = require("lua.utils").setup({
 local setup_plugin: SetupFunction = utils.setup_plugin
 local map: MapFunction = utils.map
 
+utils.printv("NVIM_DIR: " .. NVIM_DIR)
 utils.printv("PLUGINS INCLUDED: " .. vim.inspect(utils.PLUGINS_INCLUDED))
 utils.printbv(#utils.PLUGINS_INCLUDED .. " plugins included")
 

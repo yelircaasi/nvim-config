@@ -10,15 +10,16 @@ local function setup(config: UtilsConfig): Utils
 
 	M.PLUGINS_INCLUDED = {}
 	for _, layer in ipairs(LAYERS) do
-		print("layer" .. layer)
+		M.printv("layer" .. layer)
 	    local layer_table: {number: {string}} = PLUGINS_BY_LAYER[layer]
 	    if VERBOSE then
-		   print("--- layer " .. tostring(layer) .. ": " .. #layer_table .. " plugins")
-	    end
-        print(vim.inspect(layer_table))
+			print("--- layer " .. tostring(layer) .. ": " .. #layer_table .. " plugins")
+			print(vim.inspect(layer_table))
+		end
+        
 	    for _, names in pairs(layer_table) do
 			for _, name in ipairs(names) do
-				print(name)
+				if VERBOSE then print(name) end
 			    table.insert(M.PLUGINS_INCLUDED, name)
 			end
 	    end
@@ -64,7 +65,7 @@ local function setup(config: UtilsConfig): Utils
 
 	M.print_status = function(length: integer, prefix: string, name: string, suffix: string)
 	    local pad = string.rep(" ", length - #name)
-	    print(prefix .. " " .. name .. pad .. " " .. suffix)
+	    M.printv(prefix .. " " .. name .. pad .. " " .. suffix)
 	end
 
 	M.is_included = function(plugin_name: string): boolean
@@ -99,7 +100,7 @@ local function setup(config: UtilsConfig): Utils
 	    if not M.is_included(plugin_name) then return end
 	    local result, plugin = pcall(M.get_plugin, plugin_name) as (boolean, Plugin)
 	    if not result then
-		   print("ERROR: plugin require unsuccessful: " .. plugin_name)
+		   M.printv("ERROR: plugin require unsuccessful: " .. plugin_name)
 		   return
 	    end
 	    if not config_or_function then return end

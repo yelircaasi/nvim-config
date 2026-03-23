@@ -36,7 +36,6 @@ local function clean_file(filename, compact)
         text = compact_blocks(text)
     end
 
-
     local out = io.open(filename, "wb")
     if out then
         out:write(text)

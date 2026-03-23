@@ -10,15 +10,18 @@ local function setup(config)
 
 	M.PLUGINS_INCLUDED = {}
 	for _, layer in ipairs(LAYERS) do
-		print("layer" .. layer)
 		local layer_table = PLUGINS_BY_LAYER[layer]
 		if VERBOSE then
+			print("layer: " .. layer)
 			print("--- layer " .. tostring(layer) .. ": " .. #layer_table .. " plugins")
+			print(vim.inspect(layer_table))
 		end
-		print(vim.inspect(layer_table))
+
 		for _, names in pairs(layer_table) do
 			for _, name in ipairs(names) do
-				print(name)
+				if VERBOSE then
+					print(name)
+				end
 				table.insert(M.PLUGINS_INCLUDED, name)
 			end
 		end
@@ -60,7 +63,7 @@ local function setup(config)
 
 	M.print_status = function(length, prefix, name, suffix)
 		local pad = string.rep(" ", length - #name)
-		print(prefix .. " " .. name .. pad .. " " .. suffix)
+		M.printv(prefix .. " " .. name .. pad .. " " .. suffix)
 	end
 
 	M.is_included = function(plugin_name)
@@ -103,7 +106,7 @@ local function setup(config)
 		end
 		local result, plugin = pcall(M.get_plugin, plugin_name)
 		if not result then
-			print("ERROR: plugin require unsuccessful: " .. plugin_name)
+			M.printv("ERROR: plugin require unsuccessful: " .. plugin_name)
 			return
 		end
 		if not config_or_function then
@@ -130,9 +133,11 @@ local function setup(config)
 		if type(config_or_function) == "table" then
 			local plugin_with_setup = plugin
 			plugin_with_setup.setup(config_or_function)
+			return
 		end
 		if type(config_or_function) == "function" then
 			config_or_function(plugin)
+			return
 		end
 	end
 
