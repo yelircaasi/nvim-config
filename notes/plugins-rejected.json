@@ -8665,12 +8665,6 @@
         "reason": "none"
     },
     {
-        "link": "https://github.com/AckslD/nvim-FeMaco.lua",
-        "decision": "rejected",
-        "projects": ["misc"],
-        "reason": "none"
-    },
-    {
         "link": "https://github.com/Betelgeuse1/zealua.nvim",
         "decision": "rejected",
         "projects": ["misc"],

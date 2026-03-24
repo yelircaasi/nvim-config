@@ -25,6 +25,7 @@
 	{ "layer": 0, "sublayer": 0, "name": "nvim-navic",                   "id": "SmiteshP/nvim-navic",                  "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
 	{ "layer": 0, "sublayer": 0, "name": "nvim-treesitter",              "id": "nvim-treesitter/nvim-treesitter",      "source": "gh", "lazy": false, "category": "trying",    "notes": "brew install tree-sitter; brew install tree-sitter-cli" },
 	{ "layer": 0, "sublayer": 0, "name": "otter",                        "id": "jmbuhr/otter.nvim",                    "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
+	{ "layer": 0, "sublayer": 0, "name": "nvim-FeMaco",                  "id": "AckslD/nvim-FeMaco.lua",               "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
 	{ "layer": 0, "sublayer": 0, "name": "treesitter-modules",           "id": "MeanderingProgrammer/treesitter-modules.nvim", "source": "gh", "lazy": false, "category": "trying", "notes": "needs nix" },
 	{ "layer": 0, "sublayer": 0, "name": "dropbar",                      "id": "Bekaboo/dropbar.nvim",                 "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
 	{ "layer": 0, "sublayer": 0, "name": "aerial",                       "id": "stevearc/aerial.nvim",                 "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
