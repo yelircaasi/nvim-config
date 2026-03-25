@@ -64,7 +64,7 @@
         "nixName": "commons-nvim",
         "id": "linrongbin16/commons.nvim",
         "source": "gh",
-        "attrset": "pkgs.vimPlugins",
+        "attrset": "pkgs.luajitPackages",
         "rev": "5c60d95ac937c9630349f6dbd94ddcd5a752e41b",
         "hash": "sha256-WoEhqOgjhfDB41mfVSa0lfCBk6x4Pi0ISm9mbSwPoNY=",
         "last_commit": "2026-02-04"
@@ -84,7 +84,7 @@
         "nixName": "pathlib-nvim",
         "id": "pysan3/pathlib.nvim",
         "source": "gh",
-        "attrset": "pkgs.vimPlugins",
+        "attrset": "pkgs.luajitPackages",
         "rev": "57e5598af6fe253761c1b48e0b59b7cd6699e2c1",
         "hash": "sha256-YhCJeNKlcjgg3q51UWFhuIEPzNueC8YTpeuPPJDndvw=",
         "last_commit": "2024-08-29"
@@ -160,8 +160,8 @@
         "last_commit": "2026-02-14"
     },
     {
-        "name": "nvim-FeMaco",
-        "nixName": "nvim-femaco",
+        "name": "FeMaco",
+        "nixName": "nvim-FeMaco-lua",
         "id": "AckslD/nvim-FeMaco.lua",
         "source": "gh",
         "attrset": "pkgs.vimPlugins",
@@ -761,8 +761,8 @@
         "last_commit": ""
     },
     {
-        "name": "vuffers.nvim",
-        "nixName": "vuffers.nvim",
+        "name": "vuffers",
+        "nixName": "vuffers",
         "id": "Hajime-Suzuki/vuffers.nvim",
         "source": "gh",
         "attrset": "custom",
@@ -771,8 +771,8 @@
         "last_commit": ""
     },
     {
-        "name": "pragma.nvim",
-        "nixName": "pragma.nvim",
+        "name": "pragma",
+        "nixName": "pragma",
         "id": "DrKGD/pragma.nvim",
         "source": "gh",
         "attrset": "custom",
@@ -1001,8 +1001,8 @@
         "last_commit": ""
     },
     {
-        "name": "navigator.lua",
-        "nixName": "navigator.lua",
+        "name": "navigator",
+        "nixName": "navigator",
         "id": "ray-x/navigator.lua",
         "source": "gh",
         "attrset": "custom",
@@ -2052,17 +2052,20 @@
     },
     {
         "name": "yaml",
-        "id": "https://tangled.org/cuducos.me/yaml.nvim",
-        "attrset": "custom",
         "nixName": "yaml",
-        "source": ""
+        "id": "https://tangled.org/cuducos.me/yaml.nvim",
+        "source": "",
+        "attrset": "custom",
+        "rev": "b6eaf919fb0a2a254ce20ae657787d67e6b9300e",
+        "hash": "sha256-MKRtbr70vdkGuByUl5+8M64Ki6ylESUNxb39Na9nlGI=",
+        "last_commit": "2026-01-04"
     },
     {
         "name": "tree-sitter-just",
-        "nixName": "tree-sitter-grammars.tree-sitter-just",
+        "nixName": "tree-sitter-just",
         "id": "IndianBoy42/tree-sitter-just",
         "source": "gh",
-        "attrset": "pkgs.vimPlugins",
+        "attrset": "pkgs.tree-sitter-grammars",
         "rev": "d9da862c156020c1a83d3c6ccdda32be6d8a5d4a",
         "hash": "sha256-YV+vab/QqGHVPV1e3wjd0w1nFskJEIU4ukq/yIlojk0=",
         "last_commit": ""
@@ -3052,7 +3055,7 @@
         "nixName": "panvimdoc",
         "id": "kdheepak/panvimdoc",
         "source": "gh",
-        "attrset": "pkgs.vimPlugins",
+        "attrset": "pkgs",
         "rev": "9d5379b4141f59a8b6f0a79f1d4cfe23e51e6ff0",
         "hash": "sha256-/3TMghCTTjoLE9EGZZ6Kg00/JgokL220RNPJIvEEOk8=",
         "last_commit": ""
@@ -3562,7 +3565,7 @@
         "nixName": "doing-nvim",
         "id": "Hashino/doing.nvim",
         "source": "gh",
-        "attrset": "pkgs.vimPlugins",
+        "attrset": "custom",
         "rev": "83a0b110d9b6655172695238e066e2e513e78aaf",
         "hash": "sha256-r3fZnGP3MqIMondJAsq6IskGWT5581/5HuH67rOeTCU=",
         "last_commit": ""

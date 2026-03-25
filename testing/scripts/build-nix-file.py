@@ -4,90 +4,186 @@ from typing import cast
 
 from nvimtool import Source, Utils
 
+lbrace = "{"
+rbrace = "}"
+indent_size = 2
+level0 = ""
+level1 = " " * 1 * indent_size
+level2 = " " * 2 * indent_size
+level3 = " " * 3 * indent_size
+level4 = " " * 4 * indent_size
+
 nn = Path.home() / ("repos/nvim-config/testing/declarations/nix-info.json")
 result = Path.home() / ("repos/nvim-config/testing/snapshots/nvim-plugins.nix")
-
+flake = Path.home() / ("repos/nvim-config/testing/snapshots/flake.nix")
 
 plugin_expr_template = """{name} = pkgs.vimUtils.buildVimPlugin {lbrace}
         pname = "{nix_name}";
         version = "{version}";
-        src = builtins.fetchGit {lbrace}
-            url = "{url}/";
-            name = "{name}";
-            rev = "{rev}";
-            hash = "{nix_hash}";
+        src = pkgs.fetchgit {lbrace}
+          url = "{url}";
+          rev = "{rev}";
+          hash = "{nix_hash}";
         {rbrace};
-        meta.homepage = "{url}/";
-    {rbrace};"""
+        doCheck = false;
+        meta = {lbrace}
+          homepage = "{url}";
+          description = "";
+        {rbrace};
+      {rbrace};"""
+
+
+plugin_expr_template_gh = """{name} = pkgs.vimUtils.buildVimPlugin {lbrace}
+        pname = "{nix_name}";
+        version = "{version}";
+        src = pkgs.fetchFromGitHub {lbrace}
+          owner = "{owner}";
+          repo = "{repo}";
+          rev = "{rev}";
+          hash = "{nix_hash}";
+        {rbrace};
+        doCheck = false;
+        meta = {lbrace}
+          homepage = "{url}";
+          description = "";
+        {rbrace};
+      {rbrace};"""
 
 
 def make_expression(d: dict) -> str:
-    source = Source(d["source"])
-    base = {
-        Source.GH: "https://github.com/",
-        Source.GL: "https://gitlab.com/",
-        Source.CB: "https://codeberg.org/",
-    }.get(source, "")
-    ret =  plugin_expr_template.format(
-        name=d["name"],
-        nix_name=d["nixName"],
-        version="PLACEHOLDER",
-        url="/".join((base, d["id"])),
-        rev="PLACEHOLD_REV",
-        nix_hash="PLACEHOLDER_HASH",
-        lbrace="{",
-        rbrace="}",
-    )
-    print(ret)
-    return ret
-
-
-nix_data = cast(list[dict], Utils.read_json(nn))
-custom_info = [d for d in nix_data if d.get("attrset", "").startswith("custom")]
-custom = "\n    ".join(map(make_expression, custom_info))
-file_contents = (
-    "{pkgs, lib}:\nlet custom = {\n    "
-    f'{custom}'
-    "\n}; in {\n"
-    "    # config to go here\n}"
-)
-
-result.write_text(file_contents)
-
-
-
-tmp: dict = cast(dict, Utils.read_json(Path("/home/isaac/repos/nvim-config/testing/tmp.json")))
-
-def fix_data(d: dict) -> dict:
-    if d["source"] != "gh":
-        return d
-    if d["hash"]:
-        return d
     try:
-        if d["id"] in tmp:
-            tmp_info = tmp[d["id"]]
-            return d | {
-                "rev": tmp_info["src"]["rev"],
-                "hash": tmp_info["src"]["hash"],
-                "last_commit": tmp_info["meta"].get("commitDate", ""),
-            }
-        command = ["nix-prefetch-github", *d["id"].split("/"), "--json", "--meta"]
-        print('"' + d["id"] + '"')
-        result = (Utils.capture(command))
-        print(result)
-        result = json.loads(result)
-        return d | {
-            "rev": result["src"]["rev"],
-            "hash": result["src"]["hash"],
-            "last_commit": result["meta"].get("commitDate", ""),
-        }
+        source = Source(d["source"])
+        base = {
+            Source.GH: "https://github.com",
+            Source.GL: "https://gitlab.com",
+            Source.CB: "https://codeberg.org",
+        }.get(source, "")
+        if d["source"] == "gh":
+            template = plugin_expr_template_gh
+            owner, repo = d["id"].split("/")
+        else:
+            template = plugin_expr_template
+            owner, repo = "", ""
+        
+        ret = template.format(
+            name=d["name"],
+            nix_name=d["nixName"],
+            version=d.get("last_commit", "1970-01-01"),
+            url="/".join((base, d["id"])).strip("/"),
+            rev=d["rev"],
+            nix_hash=d["hash"],
+            lbrace="{",
+            rbrace="}",
+            owner=owner,
+            repo=repo,
+        )
+        # print(ret)
+        return ret
     except Exception as e:
         print(e)
-        return d
+        print(d)
+        raise e
+
+
+def make_name(d: dict) -> str:
+    attrset = d['attrset']
+    nix_name = d["nixName"]
+    return f"{attrset}.{nix_name}"
+
+
+def make_nixpkgs_set(d: dict) -> str:
+    nix_name = d['nixName'] if d["attrset"] == "pkgs.vimPlugins" else f"{d['attrset']}.{d['nixName']}"
+    return f"{lbrace}\n{level4}name = \"{d['name']}\";\n{level4}path = {nix_name};\n{level3}{rbrace}"
+
+nix_data = cast(list[dict], Utils.read_json(nn))
+custom_data = [d for d in nix_data if d.get("attrset", "").startswith("custom")]
+nixpkgs_data = [d for d in nix_data if d.get("attrset", "").startswith("pkgs")]
+other_data = [d for d in nix_data if (d not in custom_data) and (d not in nixpkgs_data)]
+print(other_data)
+custom = "\n      ".join(map(make_expression, custom_data))
+nixpkgs_list = "\n      ".join(map(make_nixpkgs_set, nixpkgs_data))
+# file_contents = (
+#     "{pkgs, lib}:\nlet custom = {\n    "
+#     f'{custom}'
+#     "\n}; in {\n"
+#     "    # config to go here\n}"
+# )
+
+# result.write_text(file_contents)
+
+flake_nix = """{
+  description = "nvim plugins bundled in a derivation using linkFarm";
+
+  inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
+
+  outputs = {
+    self,
+    nixpkgs,
+  }: let
+    system = "x86_64-linux";
+    pkgs = nixpkgs.legacyPackages.${system};
+
+    customPlugins = {
+      """ + custom + r"""};
+
+    customList =
+      pkgs.lib.attrsets.mapAttrsToList (_name: package: {
+        name = _name;
+        path = "${package}";
+      })
+      customPlugins;
+
+    nixpkgsList = with pkgs.vimPlugins; [
+      """ + nixpkgs_list + """
+    ];
+
+    nvimPlugins =
+      pkgs.linkFarm "nvim-tmp-plugins"
+      (customList ++ nixpkgsList);
+  in {
+    packages.${system} = {
+      # inherit (custom) pluginA pluginB;
+      inherit nvimPlugins;
+      default = nvimPlugins;
+    };
+  };
+}
+"""
+
+flake.write_text(flake_nix, )
+
+# tmp: dict = cast(dict, Utils.read_json(Path("/home/isaac/repos/nvim-config/testing/tmp.json")))
+
+# def fetch_hashes(d: dict) -> dict:
+#     if d["source"] != "gh":
+#         return d
+#     if d["hash"]:
+#         return d
+#     try:
+#         if d["id"] in tmp:
+#             tmp_info = tmp[d["id"]]
+#             return d | {
+#                 "rev": tmp_info["src"]["rev"],
+#                 "hash": tmp_info["src"]["hash"],
+#                 "last_commit": tmp_info["meta"].get("commitDate", ""),
+#             }
+#         command = ["nix-prefetch-github", *d["id"].split("/"), "--json", "--meta"]
+#         print('"' + d["id"] + '"')
+#         result = (Utils.capture(command))
+#         print(result)
+#         result = json.loads(result)
+#         return d | {
+#             "rev": result["src"]["rev"],
+#             "hash": result["src"]["hash"],
+#             "last_commit": result["meta"].get("commitDate", ""),
+#         }
+#     except Exception as e:
+#         print(e)
+#         return d
         
     
-nix_data = list(map(fix_data, nix_data))
-Utils.write_json(nix_data, nn)
+# nix_data = list(map(fetch_hashes, nix_data))
+# Utils.write_json(nix_data, nn)
 
 #  nix run nixpkgs#nix-prefetch-github -- Sharonex edit-list.nvim --json --meta --rev '01e5a827684140ccd20ec249e74da91115dc8c39'
 #  nix-prefetch-github-directory --directory edit-list.nvim --json --meta

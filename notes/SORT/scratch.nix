@@ -1,11 +1,9 @@
 # home.nix
 let
-  in {
+in {
 }
-
 # old:
-
-/* 
+/*
 
 let
   myPlugins = with pkgs.vimPlugins; [
@@ -15,22 +13,22 @@ let
     rustaceanvim
   ];
 
-  toLuaTable = plugins: 
+  toLuaTable = plugins:
     let
       # Extraction Logic:
       # If it's from GitHub, we get "owner/repo".
       # Otherwise, we fall back to the package name.
-      getPluginId = p: 
+      getPluginId = p:
         if (p ? src && p.src ? owner && p.src ? repo) then
           "${p.src.owner}/${p.src.repo}"
-        else 
+        else
           p.pname;
 
       lines = map (p: "  [\"${getPluginId p}\"] = { path = \"${p}\" },") plugins;
     in
     "return {\n" + (builtins.concatStringsSep "\n" lines) + "\n}";
 in {
-  
-}
 
+}
 */
+
