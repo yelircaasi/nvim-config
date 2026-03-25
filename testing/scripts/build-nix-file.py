@@ -4,8 +4,8 @@ from typing import cast
 
 from nvimtool import Source, Utils
 
-nn = Path("/Users/ext_riley/repos/nvim-config/testing/nix-names.json")
-result = Path("/Users/ext_riley/repos/nvim-config/testing/nvim-plugins.nix")
+nn = Path.home() / ("repos/nvim-config/testing/declarations/nix-info.json")
+result = Path.home() / ("repos/nvim-config/testing/snapshots/nvim-plugins.nix")
 
 
 plugin_expr_template = """{name} = pkgs.vimUtils.buildVimPlugin {lbrace}
@@ -55,4 +55,43 @@ file_contents = (
 result.write_text(file_contents)
 
 
-# nix-prefetch --fetchurl --rev master --url 
+
+tmp: dict = cast(dict, Utils.read_json(Path("/home/isaac/repos/nvim-config/testing/tmp.json")))
+
+def fix_data(d: dict) -> dict:
+    if d["source"] != "gh":
+        return d
+    if d["hash"]:
+        return d
+    try:
+        if d["id"] in tmp:
+            tmp_info = tmp[d["id"]]
+            return d | {
+                "rev": tmp_info["src"]["rev"],
+                "hash": tmp_info["src"]["hash"],
+                "last_commit": tmp_info["meta"].get("commitDate", ""),
+            }
+        command = ["nix-prefetch-github", *d["id"].split("/"), "--json", "--meta"]
+        print('"' + d["id"] + '"')
+        result = (Utils.capture(command))
+        print(result)
+        result = json.loads(result)
+        return d | {
+            "rev": result["src"]["rev"],
+            "hash": result["src"]["hash"],
+            "last_commit": result["meta"].get("commitDate", ""),
+        }
+    except Exception as e:
+        print(e)
+        return d
+        
+    
+nix_data = list(map(fix_data, nix_data))
+Utils.write_json(nix_data, nn)
+
+#  nix run nixpkgs#nix-prefetch-github -- Sharonex edit-list.nvim --json --meta --rev '01e5a827684140ccd20ec249e74da91115dc8c39'
+#  nix-prefetch-github-directory --directory edit-list.nvim --json --meta
+#  nix-prefetch-git https://gitlab.com/gitlab-org/editor-extensions/gitlab.vim
+#
+# nix run nixpkgs#nix-prefetch-github -- Sharonex edit-list.nvim --nix
+# nix run nixpkgs#nix-prefetch-git -- --url https://codeberg.org/hernandez/dotdot.nvim
