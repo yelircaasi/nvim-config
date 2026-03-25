@@ -1,0 +1,2635 @@
+[
+    {
+        "name": "nvim-teal-maker",
+        "id": "svermeulen/nvim-teal-maker",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "nvim-teal-maker",
+        "source": "gh"
+    },
+    {
+        "name": "plenary",
+        "id": "nvim-lua/plenary.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "plenary-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "nio",
+        "id": "nvim-neotest/nvim-nio",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "nvim-nio",
+        "source": "gh"
+    },
+    {
+        "name": "nvim-web-devicons",
+        "id": "nvim-tree/nvim-web-devicons",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "nvim-web-devicons",
+        "source": "gh"
+    },
+    {
+        "name": "nui",
+        "id": "MunifTanjim/nui.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "nui-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "cosmic-ui",
+        "id": "CosmicNvim/cosmic-ui",
+        "attrset": "custom",
+        "nixName": "cosmic-ui",
+        "source": "gh"
+    },
+    {
+        "name": "commons",
+        "id": "linrongbin16/commons.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "commons-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "nvim-api-wrappers",
+        "id": "anuvyklack/nvim-api-wrappers",
+        "attrset": "custom",
+        "nixName": "nvim-api-wrappers",
+        "source": "gh"
+    },
+    {
+        "name": "pathlib",
+        "id": "pysan3/pathlib.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "pathlib-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "cmdTree",
+        "id": "CWood-sdf/cmdTree.nvim",
+        "attrset": "custom",
+        "nixName": "cmdTree",
+        "source": "gh"
+    },
+    {
+        "name": "bamboo",
+        "id": "ribru17/bamboo.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "bamboo-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "illuminate",
+        "id": "RRethy/vim-illuminate",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "vim-illuminate",
+        "source": "gh"
+    },
+    {
+        "name": "lualine",
+        "id": "nvim-lualine/lualine.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "lualine-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "nvim-navic",
+        "id": "SmiteshP/nvim-navic",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "nvim-navic",
+        "source": "gh"
+    },
+    {
+        "name": "nvim-treesitter",
+        "id": "nvim-treesitter/nvim-treesitter",
+        "attrset": "custom",
+        "nixName": "nvim-treesitter",
+        "source": "gh"
+    },
+    {
+        "name": "otter",
+        "id": "jmbuhr/otter.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "otter-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "nvim-FeMaco",
+        "id": "AckslD/nvim-FeMaco.lua",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "nvim-femaco",
+        "source": "gh"
+    },
+    {
+        "name": "treesitter-modules",
+        "id": "MeanderingProgrammer/treesitter-modules.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "treesitter-modules-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "dropbar",
+        "id": "Bekaboo/dropbar.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "dropbar-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "aerial",
+        "id": "stevearc/aerial.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "aerial-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "symbols",
+        "id": "oskarrrrrrr/symbols.nvim",
+        "attrset": "custom",
+        "nixName": "symbols",
+        "source": "gh"
+    },
+    {
+        "name": "nvim-treesitter-context",
+        "id": "nvim-treesitter/nvim-treesitter-context",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "nvim-treesitter-context",
+        "source": "gh"
+    },
+    {
+        "name": "TreePin",
+        "id": "KaitlynEthylia/TreePin",
+        "attrset": "custom",
+        "nixName": "TreePin",
+        "source": "gh"
+    },
+    {
+        "name": "statuscol",
+        "id": "luukvbaal/statuscol.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "statuscol-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "smartcolumn",
+        "id": "m4xshen/smartcolumn.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "smartcolumn-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "virtcolumn",
+        "id": "xiyaowong/virtcolumn.nvim",
+        "attrset": "custom",
+        "nixName": "virtcolumn",
+        "source": "gh"
+    },
+    {
+        "name": "bufferline",
+        "id": "akinsho/bufferline.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "bufferline-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "galaxyline",
+        "id": "nvimdev/galaxyline.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "galaxyline-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "heirline",
+        "id": "rebelot/heirline.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "heirline-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "heirline-components",
+        "id": "Zeioth/heirline-components.nvim",
+        "attrset": "custom",
+        "nixName": "heirline-components",
+        "source": "gh"
+    },
+    {
+        "name": "staline",
+        "id": "tamton-aquib/staline.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "staline-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "nvim-navbuddy",
+        "id": "SmiteshP/nvim-navbuddy",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "nvim-navbuddy",
+        "source": "gh"
+    },
+    {
+        "name": "nougat",
+        "id": "MunifTanjim/nougat.nvim",
+        "attrset": "custom",
+        "nixName": "nougat",
+        "source": "gh"
+    },
+    {
+        "name": "winbar",
+        "id": "Alighorab/winbar.nvim",
+        "attrset": "custom",
+        "nixName": "winbar",
+        "source": "gh"
+    },
+    {
+        "name": "minibar",
+        "id": "aktersnurra/minibar.nvim",
+        "attrset": "custom",
+        "nixName": "minibar",
+        "source": "gh"
+    },
+    {
+        "name": "bafa",
+        "id": "mistweaverco/bafa.nvim",
+        "attrset": "custom",
+        "nixName": "bafa",
+        "source": "gh"
+    },
+    {
+        "name": "windline",
+        "id": "windwp/windline.nvim",
+        "attrset": "custom",
+        "nixName": "windline",
+        "source": "gh"
+    },
+    {
+        "name": "barbar",
+        "id": "romgrk/barbar.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "barbar-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "cokeline",
+        "id": "willothy/nvim-cokeline",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "nvim-cokeline",
+        "source": "gh"
+    },
+    {
+        "name": "oil",
+        "id": "stevearc/oil.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "oil-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "yazi",
+        "id": "mikavilpas/yazi.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "yazi-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "neo-tree",
+        "id": "nvim-neo-tree/neo-tree.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "neo-tree-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "nvim-tree",
+        "id": "nvim-tree/nvim-tree.lua",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "nvim-tree-lua",
+        "source": "gh"
+    },
+    {
+        "name": "chadtree",
+        "id": "ms-jpq/chadtree",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "chadtree",
+        "source": "gh"
+    },
+    {
+        "name": "telescope-file-browser",
+        "id": "nvim-telescope/telescope-file-browser.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "telescope-file-browser-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "pickme",
+        "id": "2KAbhishek/pickme.nvim",
+        "attrset": "custom",
+        "nixName": "pickme",
+        "source": "gh"
+    },
+    {
+        "name": "telescope",
+        "id": "nvim-telescope/telescope.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "telescope-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "telescope-fzf-native",
+        "id": "nvim-telescope/telescope-fzf-native.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "telescope-fzf-native-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "fzf-lua",
+        "id": "ibhagwan/fzf-lua",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "fzf-lua",
+        "source": "gh"
+    },
+    {
+        "name": "deck",
+        "id": "hrsh7th/nvim-deck",
+        "attrset": "custom",
+        "nixName": "deck",
+        "source": "gh"
+    },
+    {
+        "name": "ido",
+        "id": "shoumodip/ido.nvim",
+        "attrset": "custom",
+        "nixName": "ido",
+        "source": "gh"
+    },
+    {
+        "name": "telescope-smart-history",
+        "id": "nvim-telescope/telescope-smart-history.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "telescope-smart-history-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "telescope-repo",
+        "id": "cljoly/telescope-repo.nvim",
+        "attrset": "custom",
+        "nixName": "telescope-repo",
+        "source": "gh"
+    },
+    {
+        "name": "telescope-json-history",
+        "id": "cosminadrianpopescu/telescope-json-history.nvim",
+        "attrset": "custom",
+        "nixName": "telescope-json-history",
+        "source": "gh"
+    },
+    {
+        "name": "mini",
+        "id": "nvim-mini/mini.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "mini-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "snacks",
+        "id": "folke/snacks.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "snacks-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "blink",
+        "id": "saghen/blink.nvim",
+        "attrset": "custom",
+        "nixName": "TODO: separate packages",
+        "source": "gh",
+        "notes": "https://search.nixos.org/packages?buckets={%22package_attr_set%22:[%22vimPlugins%22],%22package_license_set%22:[],%22package_maintainers_set%22:[],%22package_teams_set%22:[],%22package_platforms%22:[]}&channel=unstable&query=blink"
+    },
+    {
+        "name": "hlslens",
+        "id": "kevinhwang91/nvim-hlslens",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "nvim-hlslens",
+        "source": "gh"
+    },
+    {
+        "name": "hlsearch",
+        "id": "nvimdev/hlsearch.nvim",
+        "attrset": "custom",
+        "nixName": "hlsearch",
+        "source": "gh"
+    },
+    {
+        "name": "clever-f.vim",
+        "id": "rhysd/clever-f.vim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "clever-f-vim",
+        "source": "gh"
+    },
+    {
+        "name": "grug-far",
+        "id": "MagicDuck/grug-far.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "grug-far-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "spectre",
+        "id": "nvim-pack/nvim-spectre",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "nvim-spectre",
+        "source": "gh"
+    },
+    {
+        "name": "nvim-rip-substitute",
+        "id": "chrisgrieser/nvim-rip-substitute",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "nvim-rip-substitute",
+        "source": "gh"
+    },
+    {
+        "name": "inc-rename",
+        "id": "smjonas/inc-rename.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "inc-rename-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "search-replace",
+        "id": "mosheavni/search-replace.nvim",
+        "attrset": "custom",
+        "nixName": "search-replace",
+        "source": "gh"
+    },
+    {
+        "name": "ssr",
+        "id": "cshuaimin/ssr.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "ssr-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "sad",
+        "id": "ray-x/sad.nvim",
+        "attrset": "custom",
+        "nixName": "sad",
+        "source": "gh"
+    },
+    {
+        "name": "substitute",
+        "id": "gbprod/substitute.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "substitute-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "replacer",
+        "id": "gabrielpoca/replacer.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "replacer-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "renamer",
+        "id": "enrodpre/renamer.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "renamer-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "muren",
+        "id": "AckslD/muren.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "muren-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "nvim_winpick",
+        "id": "MarcusGrass/nvim_winpick",
+        "attrset": "custom",
+        "nixName": "nvim_winpick",
+        "source": "gh"
+    },
+    {
+        "name": "flybuf",
+        "id": "nvimdev/flybuf.nvim",
+        "attrset": "custom",
+        "nixName": "flybuf",
+        "source": "gh"
+    },
+    {
+        "name": "stickybuf",
+        "id": "stevearc/stickybuf.nvim",
+        "attrset": "custom",
+        "nixName": "stickybuf",
+        "source": "gh"
+    },
+    {
+        "name": "swm",
+        "id": "hrsh7th/nvim-swm",
+        "attrset": "custom",
+        "nixName": "swm",
+        "source": "gh"
+    },
+    {
+        "name": "retrospect",
+        "id": "mrquantumcodes/retrospect.nvim",
+        "attrset": "custom",
+        "nixName": "retrospect",
+        "source": "gh"
+    },
+    {
+        "name": "vuffers.nvim",
+        "id": "Hajime-Suzuki/vuffers.nvim",
+        "attrset": "custom",
+        "nixName": "vuffers.nvim",
+        "source": "gh"
+    },
+    {
+        "name": "pragma.nvim",
+        "id": "DrKGD/pragma.nvim",
+        "attrset": "custom",
+        "nixName": "pragma.nvim",
+        "source": "gh"
+    },
+    {
+        "name": "windows",
+        "id": "anuvyklack/windows.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "windows-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "smart-splits",
+        "id": "mrjones2014/smart-splits.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "smart-splits-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "ufo",
+        "id": "kevinhwang91/nvim-ufo",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "nvim-ufo",
+        "source": "gh"
+    },
+    {
+        "name": "wrapping",
+        "id": "andrewferrier/wrapping.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "wrapping-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "wrapping-paper",
+        "id": "benlubas/wrapping-paper.nvim",
+        "attrset": "custom",
+        "nixName": "wrapping-paper",
+        "source": "gh"
+    },
+    {
+        "name": "savior",
+        "id": "willothy/savior.nvim",
+        "attrset": "custom",
+        "nixName": "savior",
+        "source": "gh"
+    },
+    {
+        "name": "zpragmatic",
+        "id": "muhammadzkralla/zpragmatic.nvim",
+        "attrset": "custom",
+        "nixName": "zpragmatic",
+        "source": "gh"
+    },
+    {
+        "name": "vim-auto-save",
+        "id": "907th/vim-auto-save",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "vim-auto-save",
+        "source": "gh"
+    },
+    {
+        "name": "vim-visual-multi",
+        "id": "mg979/vim-visual-multi",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "vim-visual-multi",
+        "source": "gh"
+    },
+    {
+        "name": "multicursors",
+        "id": "smoka7/multicursors.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "multicursors-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "vim-multiple-cursors",
+        "id": "terryma/vim-multiple-cursors",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "vim-multiple-cursors",
+        "source": "gh"
+    },
+    {
+        "name": "wildfire",
+        "id": "SUSTech-data/wildfire.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "wildfire-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "sort",
+        "id": "sQVe/sort.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "sort-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "leap",
+        "id": "andyg/leap.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "leap-nvim",
+        "source": "cb"
+    },
+    {
+        "name": "flash",
+        "id": "folke/flash.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "flash-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "hop",
+        "id": "smoka7/hop.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "hop-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "neowords",
+        "id": "backdround/neowords.nvim",
+        "attrset": "custom",
+        "nixName": "neowords",
+        "source": "gh"
+    },
+    {
+        "name": "spider",
+        "id": "chrisgrieser/nvim-spider",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "nvim-spider",
+        "source": "gh"
+    },
+    {
+        "name": "vim-wordmotion",
+        "id": "chaoren/vim-wordmotion",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "vim-wordmotion",
+        "source": "gh"
+    },
+    {
+        "name": "vim-edgemotion",
+        "id": "haya14busa/vim-edgemotion",
+        "attrset": "custom",
+        "nixName": "vim-edgemotion",
+        "source": "gh"
+    },
+    {
+        "name": "treemonkey",
+        "id": "atusy/treemonkey.nvim",
+        "attrset": "custom",
+        "nixName": "treemonkey",
+        "source": "gh"
+    },
+    {
+        "name": "hierarchy",
+        "id": "Slyces/hierarchy.nvim",
+        "attrset": "custom",
+        "nixName": "hierarchy",
+        "source": "gh"
+    },
+    {
+        "name": "navigator.lua",
+        "id": "ray-x/navigator.lua",
+        "attrset": "custom",
+        "nixName": "navigator.lua",
+        "source": "gh"
+    },
+    {
+        "name": "rainbow-delimiters",
+        "id": "HiPhish/rainbow-delimiters.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "rainbow-delimiters-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "nvim-autopairs",
+        "id": "windwp/nvim-autopairs",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "nvim-autopairs",
+        "source": "gh"
+    },
+    {
+        "name": "blink.pairs",
+        "id": "saghen/blink.pairs",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "blink-pairs",
+        "source": "gh"
+    },
+    {
+        "name": "vim-sandwich",
+        "id": "machakann/vim-sandwich",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "vim-sandwich",
+        "source": "gh"
+    },
+    {
+        "name": "nvim-surround",
+        "id": "kylechui/nvim-surround",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "nvim-surround",
+        "source": "gh"
+    },
+    {
+        "name": "vim-surround",
+        "id": "tpope/vim-surround",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "vim-surround",
+        "source": "gh"
+    },
+    {
+        "name": "vim-mundo",
+        "id": "simnalamburt/vim-mundo",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "vim-mundo",
+        "source": "gh"
+    },
+    {
+        "name": "mini.keymap",
+        "id": "nvim-mini/mini.keymap",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "mini-keymap",
+        "source": "gh"
+    },
+    {
+        "name": "hydra",
+        "id": "nvimtools/hydra.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "hydra-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "insx",
+        "id": "hrsh7th/nvim-insx",
+        "attrset": "custom",
+        "nixName": "insx",
+        "source": "gh"
+    },
+    {
+        "name": "which-key",
+        "id": "folke/which-key.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "which-key-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "apm",
+        "id": "pseudocc/nvim-apm",
+        "attrset": "custom",
+        "nixName": "apm",
+        "source": "gh"
+    },
+    {
+        "name": "unimpaired-which-key",
+        "id": "afreakk/unimpaired-which-key.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "unimpaired-which-key-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "nvim-whichkey-setup.lua",
+        "id": "AckslD/nvim-whichkey-setup.lua",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "nvim-whichkey-setup-lua",
+        "source": "gh"
+    },
+    {
+        "name": "keymapper",
+        "id": "bgrohman/nvim-keymapper",
+        "attrset": "custom",
+        "nixName": "keymapper",
+        "source": "gh"
+    },
+    {
+        "name": "keyseer",
+        "id": "jokajak/keyseer.nvim",
+        "attrset": "custom",
+        "nixName": "keyseer",
+        "source": "gh"
+    },
+    {
+        "name": "keytex",
+        "id": "cronJohn/keytex.nvim",
+        "attrset": "custom",
+        "nixName": "keytex",
+        "source": "gh"
+    },
+    {
+        "name": "showkeys",
+        "id": "nvzone/showkeys",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "showkeys",
+        "source": "gh"
+    },
+    {
+        "name": "keylab",
+        "id": "BooleanCube/keylab.nvim",
+        "attrset": "custom",
+        "nixName": "keylab",
+        "source": "gh"
+    },
+    {
+        "name": "xkbswitch",
+        "id": "ivanesmantovich/xkbswitch.nvim",
+        "attrset": "custom",
+        "nixName": "xkbswitch",
+        "source": "gh"
+    },
+    {
+        "name": "cyrillic",
+        "id": "nativerv/cyrillic.nvim",
+        "attrset": "custom",
+        "nixName": "cyrillic",
+        "source": "gh"
+    },
+    {
+        "name": "homerows",
+        "id": "kbario/homerows.nvim",
+        "attrset": "custom",
+        "nixName": "homerows",
+        "source": "gh"
+    },
+    {
+        "name": "wf",
+        "id": "Cassin01/wf.nvim",
+        "attrset": "custom",
+        "nixName": "wf",
+        "source": "gh"
+    },
+    {
+        "name": "NeoComposer",
+        "id": "lvim-tech/NeoComposer.nvim",
+        "attrset": "custom",
+        "nixName": "NeoComposer",
+        "source": "gh"
+    },
+    {
+        "name": "nvim-macros",
+        "id": "kr40/nvim-macros",
+        "attrset": "custom",
+        "nixName": "nvim-macros",
+        "source": "gh"
+    },
+    {
+        "name": "recorder",
+        "id": "chrisgrieser/nvim-recorder",
+        "attrset": "custom",
+        "nixName": "recorder",
+        "source": "gh"
+    },
+    {
+        "name": "indentmini",
+        "id": "nvimdev/indentmini.nvim",
+        "attrset": "custom",
+        "nixName": "indentmini",
+        "source": "gh"
+    },
+    {
+        "name": "indent-blankline",
+        "id": "lukas-reineke/indent-blankline.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "indent-blankline-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "anydent",
+        "id": "hrsh7th/nvim-anydent",
+        "attrset": "custom",
+        "nixName": "anydent",
+        "source": "gh"
+    },
+    {
+        "name": "mini.align",
+        "id": "nvim-mini/mini.align",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "mini-align",
+        "source": "gh"
+    },
+    {
+        "name": "tabular",
+        "id": "godlygeek/tabular",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "tabular",
+        "source": "gh"
+    },
+    {
+        "name": "indent-tools",
+        "id": "arsham/indent-tools.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "indent-tools-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "nvim-treesitter-textobjects",
+        "id": "nvim-treesitter/nvim-treesitter-textobjects",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "nvim-treesitter-textobjects",
+        "source": "gh"
+    },
+    {
+        "name": "nvim-various-textobjs",
+        "id": "chrisgrieser/nvim-various-textobjs",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "nvim-various-textobjs",
+        "source": "gh"
+    },
+    {
+        "name": "Comment",
+        "id": "numToStr/Comment.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "comment-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "ts-context-commentstring",
+        "id": "JoosepAlviste/nvim-ts-context-commentstring",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "nvim-ts-context-commentstring",
+        "source": "gh"
+    },
+    {
+        "name": "todo-comments",
+        "id": "folke/todo-comments.nvim",
+        "attrset": "custom",
+        "nixName": "TODO-comments-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "vim-commentary",
+        "id": "tpope/vim-commentary",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "vim-commentary",
+        "source": "gh"
+    },
+    {
+        "name": "treesj",
+        "id": "Wansmer/treesj",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "treesj",
+        "source": "gh"
+    },
+    {
+        "name": "splitjoin",
+        "id": "bennypowers/splitjoin.nvim",
+        "attrset": "custom",
+        "nixName": "splitjoin",
+        "source": "gh"
+    },
+    {
+        "name": "splitjoin.vim",
+        "id": "AndrewRadev/splitjoin.vim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "splitjoin-vim",
+        "source": "gh"
+    },
+    {
+        "name": "spread",
+        "id": "aarondiel/spread.nvim",
+        "attrset": "custom",
+        "nixName": "spread",
+        "source": "gh"
+    },
+    {
+        "name": "dial",
+        "id": "monaqa/dial.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "dial-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "switch.vim",
+        "id": "AndrewRadev/switch.vim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "switch-vim",
+        "source": "gh"
+    },
+    {
+        "name": "harpoon-core",
+        "id": "MeanderingProgrammer/harpoon-core.nvim",
+        "attrset": "custom",
+        "nixName": "harpoon-core",
+        "source": "gh"
+    },
+    {
+        "name": "marks",
+        "id": "chentoast/marks.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "marks-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "markit",
+        "id": "2KAbhishek/markit.nvim",
+        "attrset": "custom",
+        "nixName": "markit",
+        "source": "gh"
+    },
+    {
+        "name": "spear",
+        "id": "kbario/spear.nvim",
+        "attrset": "custom",
+        "nixName": "spear",
+        "source": "gh"
+    },
+    {
+        "name": "arrow",
+        "id": "otavioschwanck/arrow.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "arrow-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "whaler",
+        "id": "SalOrak/whaler.nvim",
+        "attrset": "custom",
+        "nixName": "whaler",
+        "source": "gh"
+    },
+    {
+        "name": "pasta",
+        "id": "hrsh7th/nvim-pasta",
+        "attrset": "custom",
+        "nixName": "pasta",
+        "source": "gh"
+    },
+    {
+        "name": "wastebin",
+        "id": "matze/wastebin.nvim",
+        "attrset": "custom",
+        "nixName": "wastebin",
+        "source": "gh"
+    },
+    {
+        "name": "lazyclip",
+        "id": "atiladefreitas/lazyclip",
+        "attrset": "custom",
+        "nixName": "lazyclip",
+        "source": "gh"
+    },
+    {
+        "name": "yanky",
+        "id": "gbprod/yanky.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "yanky-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "moveline",
+        "id": "willothy/moveline.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "moveline-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "beam",
+        "id": "Piotr1215/beam.nvim",
+        "attrset": "custom",
+        "nixName": "beam",
+        "source": "gh"
+    },
+    {
+        "name": "vim-abolish",
+        "id": "tpope/vim-abolish",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "vim-abolish",
+        "source": "gh"
+    },
+    {
+        "name": "ax",
+        "id": "mikeslattery/ax.nvim",
+        "attrset": "custom",
+        "nixName": "ax",
+        "source": "gh"
+    },
+    {
+        "name": "AdvancedNewFile",
+        "id": "Mohammed-Taher/AdvancedNewFile.nvim",
+        "attrset": "custom",
+        "nixName": "AdvancedNewFile",
+        "source": "gh"
+    },
+    {
+        "name": "dotdot",
+        "id": "hernandez/dotdot.nvim",
+        "attrset": "custom",
+        "nixName": "dotdot",
+        "source": "cb"
+    },
+    {
+        "name": "minimal-narrow-region",
+        "id": "bagohart/minimal-narrow-region.nvim",
+        "attrset": "custom",
+        "nixName": "minimal-narrow-region",
+        "source": "gh"
+    },
+    {
+        "name": "date-time-inserter",
+        "id": "AntonVanAssche/date-time-inserter.nvim",
+        "attrset": "custom",
+        "nixName": "date-time-inserter",
+        "source": "gh"
+    },
+    {
+        "name": "bullets",
+        "id": "kaymmm/bullets.nvim",
+        "attrset": "custom",
+        "nixName": "bullets",
+        "source": "gh"
+    },
+    {
+        "name": "vim-caser",
+        "id": "arthurxavierx/vim-caser",
+        "attrset": "custom",
+        "nixName": "vim-caser",
+        "source": "gh"
+    },
+    {
+        "name": "blink.cmp",
+        "id": "Saghen/blink.cmp",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "blink-cmp",
+        "source": "gh"
+    },
+    {
+        "name": "cmp",
+        "id": "hrsh7th/nvim-cmp",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "nvim-cmp",
+        "source": "gh"
+    },
+    {
+        "name": "lsp_signature",
+        "id": "ray-x/lsp_signature.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "lsp_signature-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "inlayhint-filler",
+        "id": "davidyz/inlayhint-filler.nvim",
+        "attrset": "custom",
+        "nixName": "inlayhint-filler",
+        "source": "gh"
+    },
+    {
+        "name": "ivy",
+        "id": "AdeAttwood/ivy.nvim",
+        "attrset": "custom",
+        "nixName": "ivy",
+        "source": "gh"
+    },
+    {
+        "name": "friendly-snippets",
+        "id": "rafamadriz/friendly-snippets",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "friendly-snippets",
+        "source": "gh"
+    },
+    {
+        "name": "ultisnips",
+        "id": "SirVer/ultisnips",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "ultisnips",
+        "source": "gh"
+    },
+    {
+        "name": "LuaSnip",
+        "id": "L3MON4D3/LuaSnip",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "luasnip",
+        "source": "gh"
+    },
+    {
+        "name": "cmp-nvim-lsp",
+        "id": "hrsh7th/cmp-nvim-lsp",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "cmp-nvim-lsp",
+        "source": "gh"
+    },
+    {
+        "name": "cmp-buffer",
+        "id": "hrsh7th/cmp-buffer",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "cmp-buffer",
+        "source": "gh"
+    },
+    {
+        "name": "cmp-path",
+        "id": "hrsh7th/cmp-path",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "cmp-path",
+        "source": "gh"
+    },
+    {
+        "name": "cmp-cmdline",
+        "id": "hrsh7th/cmp-cmdline",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "cmp-cmdline",
+        "source": "gh"
+    },
+    {
+        "name": "nvim-cmp-fonts",
+        "id": "amarakon/nvim-cmp-fonts",
+        "attrset": "custom",
+        "nixName": "nvim-cmp-fonts",
+        "source": "gh"
+    },
+    {
+        "name": "nvim-cmp-lua-latex-symbols",
+        "id": "amarakon/nvim-cmp-lua-latex-symbols",
+        "attrset": "custom",
+        "nixName": "nvim-cmp-lua-latex-symbols",
+        "source": "gh"
+    },
+    {
+        "name": "cmp-nvim-telekasten-tags",
+        "id": "Cybolic/cmp-nvim-telekasten-tags",
+        "attrset": "custom",
+        "nixName": "cmp-nvim-telekasten-tags",
+        "source": "gh"
+    },
+    {
+        "name": "cmp_bulma",
+        "id": "garyhurtz/cmp_bulma.nvim",
+        "attrset": "custom",
+        "nixName": "cmp_bulma",
+        "source": "gh"
+    },
+    {
+        "name": "lsp-format",
+        "id": "lukas-reineke/lsp-format.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "lsp-format-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "lspkind",
+        "id": "onsails/lspkind.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "lspkind-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "efm",
+        "id": "mattn/efm-langserver",
+        "attrset": "custom",
+        "nixName": "efm",
+        "source": "gh"
+    },
+    {
+        "name": "output-panel",
+        "id": "mhanberg/output-panel.nvim",
+        "attrset": "custom",
+        "nixName": "output-panel",
+        "source": "gh"
+    },
+    {
+        "name": "control-panel",
+        "id": "mhanberg/control-panel.nvim",
+        "attrset": "custom",
+        "nixName": "control-panel",
+        "source": "gh"
+    },
+    {
+        "name": "lspsaga",
+        "id": "nvimdev/lspsaga.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "lspsaga-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "cmp-nvim-lsp-signature-help",
+        "id": "hrsh7th/cmp-nvim-lsp-signature-help",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "cmp-nvim-lsp-signature-help",
+        "source": "gh"
+    },
+    {
+        "name": "corn",
+        "id": "RaafatTurki/corn.nvim",
+        "attrset": "custom",
+        "nixName": "corn",
+        "source": "gh"
+    },
+    {
+        "name": "diagflow",
+        "id": "dgagn/diagflow.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "diagflow-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "error-jump",
+        "id": "Dr-42/error-jump.nvim",
+        "attrset": "custom",
+        "nixName": "error-jump",
+        "source": "gh"
+    },
+    {
+        "name": "doc-window",
+        "id": "resonyze/doc-window.nvim",
+        "attrset": "custom",
+        "nixName": "doc-window",
+        "source": "gh"
+    },
+    {
+        "name": "lightbulb",
+        "id": "kosayoda/nvim-lightbulb",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "nvim-lightbulb",
+        "source": "gh"
+    },
+    {
+        "name": "telescope-code-actions",
+        "id": "nyarthan/telescope-code-actions.nvim",
+        "attrset": "custom",
+        "nixName": "telescope-code-actions",
+        "source": "gh"
+    },
+    {
+        "name": "dmap",
+        "id": "doums/dmap.nvim",
+        "attrset": "custom",
+        "nixName": "dmap",
+        "source": "gh"
+    },
+    {
+        "name": "lazydev",
+        "id": "folke/lazydev.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "lazydev-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "rustaceanvim",
+        "id": "mrcjkb/rustaceanvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "rustaceanvim",
+        "source": "gh"
+    },
+    {
+        "name": "crates",
+        "id": "saecki/crates.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "crates-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "haskell-tools",
+        "id": "mrcjkb/haskell-tools.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "haskell-tools-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "debugpy",
+        "id": "HiPhish/debugpy.nvim",
+        "attrset": "custom",
+        "nixName": "debugpy",
+        "source": "gh"
+    },
+    {
+        "name": "pylsp-rope",
+        "id": "python-rope/pylsp-rope",
+        "attrset": "custom",
+        "nixName": "TODO: move to external tools",
+        "source": "gh"
+    },
+    {
+        "name": "jvim",
+        "id": "ThePrimeagen/jvim.nvim",
+        "attrset": "custom",
+        "nixName": "jvim",
+        "source": "gh"
+    },
+    {
+        "name": "jsonpath",
+        "id": "phelipetls/jsonpath.nvim",
+        "attrset": "custom",
+        "nixName": "jsonpath",
+        "source": "gh"
+    },
+    {
+        "name": "sortjson",
+        "id": "2nthony/sortjson.nvim",
+        "attrset": "custom",
+        "nixName": "sortjson",
+        "source": "gh"
+    },
+    {
+        "name": "quicktype",
+        "id": "midoBB/nvim-quicktype",
+        "attrset": "custom",
+        "nixName": "quicktype",
+        "source": "gh"
+    },
+    {
+        "name": "yaml",
+        "id": "https://tangled.org/cuducos.me/yaml.nvim",
+        "attrset": "custom",
+        "nixName": "yaml",
+        "source": ""
+    },
+    {
+        "name": "tree-sitter-just",
+        "id": "IndianBoy42/tree-sitter-just",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "tree-sitter-grammars.tree-sitter-just",
+        "source": "gh"
+    },
+    {
+        "name": "none-ls",
+        "id": "nvimtools/none-ls.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "none-ls-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "guard",
+        "id": "nvimdev/guard.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "guard-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "conform",
+        "id": "stevearc/conform.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "conform-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "strict",
+        "id": "emileferreira/nvim-strict",
+        "attrset": "custom",
+        "nixName": "strict",
+        "source": "gh"
+    },
+    {
+        "name": "overseer",
+        "id": "stevearc/overseer.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "overseer-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "asyncrun",
+        "id": "skywind3000/asyncrun.vim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "asyncrun-vim",
+        "source": "gh"
+    },
+    {
+        "name": "compiler",
+        "id": "Zeioth/compiler.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "compiler-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "code_runner",
+        "id": "CRAG666/code_runner.nvim",
+        "attrset": "custom",
+        "nixName": "code_runner",
+        "source": "gh"
+    },
+    {
+        "name": "sniprun",
+        "id": "michaelb/sniprun",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "sniprun",
+        "source": "gh"
+    },
+    {
+        "name": "yabs",
+        "id": "pianocomposer321/officer.nvim",
+        "attrset": "custom",
+        "nixName": "yabs",
+        "source": "gh"
+    },
+    {
+        "name": "jaq-nvim",
+        "id": "is0n/jaq-nvim",
+        "attrset": "custom",
+        "nixName": "jaq-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "moonicipal",
+        "id": "idanarye/nvim-moonicipal",
+        "attrset": "custom",
+        "nixName": "moonicipal",
+        "source": "gh"
+    },
+    {
+        "name": "conjure",
+        "id": "Olical/conjure",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "conjure",
+        "source": "gh"
+    },
+    {
+        "name": "telemake",
+        "id": "ChSotiriou/nvim-telemake",
+        "attrset": "custom",
+        "nixName": "telemake",
+        "source": "gh"
+    },
+    {
+        "name": "equals",
+        "id": "liborw/equals",
+        "attrset": "custom",
+        "nixName": "equals",
+        "source": "gh"
+    },
+    {
+        "name": "telescope-xc",
+        "id": "joerdav/telescope-xc.nvim",
+        "attrset": "custom",
+        "nixName": "telescope-xc",
+        "source": "gh"
+    },
+    {
+        "name": "resin",
+        "id": "fdschmidt93/resin.nvim",
+        "attrset": "custom",
+        "nixName": "resin",
+        "source": "gh"
+    },
+    {
+        "name": "vim-slime",
+        "id": "jpalardy/vim-slime",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "vim-slime",
+        "source": "gh"
+    },
+    {
+        "name": "repl",
+        "id": "pappasam/nvim-repl",
+        "attrset": "custom",
+        "nixName": "repl",
+        "source": "gh"
+    },
+    {
+        "name": "yarepl",
+        "id": "milanglacier/yarepl.nvim",
+        "attrset": "custom",
+        "nixName": "yarepl",
+        "source": "gh"
+    },
+    {
+        "name": "channelot",
+        "id": "idanarye/nvim-channelot",
+        "attrset": "custom",
+        "nixName": "channelot",
+        "source": "gh"
+    },
+    {
+        "name": "xmake",
+        "id": "Mythos-404/xmake.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "xmake-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "live-command",
+        "id": "smjonas/live-command.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "live-command-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "cmdbuf",
+        "id": "notomo/cmdbuf.nvim",
+        "attrset": "custom",
+        "nixName": "cmdbuf",
+        "source": "gh"
+    },
+    {
+        "name": "actions-preview",
+        "id": "aznhe21/actions-preview.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "actions-preview-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "neotest",
+        "id": "nvim-neotest/neotest",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "neotest",
+        "source": "gh"
+    },
+    {
+        "name": "coverage",
+        "id": "andythigpen/nvim-coverage",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "nvim-coverage",
+        "source": "gh"
+    },
+    {
+        "name": "neotest-haskell",
+        "id": "MrcJkb/neotest-haskell",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "neotest-haskell",
+        "source": "gh"
+    },
+    {
+        "name": "neotest-python",
+        "id": "nvim-neotest/neotest-python",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "neotest-python",
+        "source": "gh"
+    },
+    {
+        "name": "mypy",
+        "id": "feakuru/mypy.nvim",
+        "attrset": "custom",
+        "nixName": "mypy",
+        "source": "gh"
+    },
+    {
+        "name": "lint",
+        "id": "mfussenegger/nvim-lint",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "nvim-lint",
+        "source": "gh"
+    },
+    {
+        "name": "dap-python",
+        "id": "mfussenegger/nvim-dap-python",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "nvim-dap-python",
+        "source": "cb"
+    },
+    {
+        "name": "dapui",
+        "id": "rcarriga/nvim-dap-ui",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "nvim-dap-ui",
+        "source": "gh"
+    },
+    {
+        "name": "nvim-dap-virtual-text",
+        "id": "theHamsta/nvim-dap-virtual-text",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "nvim-dap-virtual-text",
+        "source": "gh"
+    },
+    {
+        "name": "dap",
+        "id": "mfussenegger/nvim-dap",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "nvim-dap",
+        "source": "cb"
+    },
+    {
+        "name": "Launch",
+        "id": "Beloin/Launch.nvim",
+        "attrset": "custom",
+        "nixName": "Launch",
+        "source": "gh"
+    },
+    {
+        "name": "tracebundler",
+        "id": "notomo/tracebundler.nvim",
+        "attrset": "custom",
+        "nixName": "tracebundler",
+        "source": "gh"
+    },
+    {
+        "name": "trouble",
+        "id": "folke/trouble.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "trouble-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "quicker",
+        "id": "stevearc/quicker.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "quicker-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "bqf",
+        "id": "kevinhwang91/nvim-bqf",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "nvim-bqf",
+        "source": "gh"
+    },
+    {
+        "name": "glance",
+        "id": "dnlhc/glance.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "glance-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "vim-floaterm",
+        "id": "voldikss/vim-floaterm",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "vim-floaterm",
+        "source": "gh"
+    },
+    {
+        "name": "termim",
+        "id": "2KAbhishek/termim.nvim",
+        "attrset": "custom",
+        "nixName": "termim",
+        "source": "gh"
+    },
+    {
+        "name": "neaterm",
+        "id": "Dan7h3x/neaterm.nvim",
+        "attrset": "custom",
+        "nixName": "neaterm",
+        "source": "gh"
+    },
+    {
+        "name": "neomux",
+        "id": "nikvdp/neomux",
+        "attrset": "custom",
+        "nixName": "neomux",
+        "source": "gh"
+    },
+    {
+        "name": "refactoring",
+        "id": "ThePrimeagen/refactoring.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "refactoring-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "telescope-project",
+        "id": "nvim-telescope/telescope-project.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "telescope-project-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "project",
+        "id": "Zeioth/project.nvim",
+        "attrset": "custom",
+        "nixName": "project",
+        "source": "gh"
+    },
+    {
+        "name": "monorepos",
+        "id": "sajjathossain/nvim-monorepos",
+        "attrset": "custom",
+        "nixName": "monorepos",
+        "source": "gh"
+    },
+    {
+        "name": "projector",
+        "id": "smolovk/projector.nvim",
+        "attrset": "custom",
+        "nixName": "projector",
+        "source": "gh"
+    },
+    {
+        "name": "advanced-git-search",
+        "id": "aaronhallaert/advanced-git-search.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "advanced-git-search-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "blame",
+        "id": "sairajchouhan/blame.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "blame-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "forgit",
+        "id": "ray-x/forgit.nvim",
+        "attrset": "custom",
+        "nixName": "forgit",
+        "source": "gh"
+    },
+    {
+        "name": "jj",
+        "id": "NicolasGB/jj.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "jj-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "jujutsu",
+        "id": "yannvanhalewyn/jujutsu.nvim",
+        "attrset": "custom",
+        "nixName": "jujutsu",
+        "source": "gh"
+    },
+    {
+        "name": "lazygit",
+        "id": "kdheepak/lazygit.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "lazygit-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "git-conflict",
+        "id": "akinsho/git-conflict.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "git-conflict-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "neogit",
+        "id": "NeogitOrg/neogit",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "neogit",
+        "source": "gh"
+    },
+    {
+        "name": "jiejie",
+        "id": "jceb/jiejie.nvim",
+        "attrset": "custom",
+        "nixName": "jiejie",
+        "source": "gh"
+    },
+    {
+        "name": "diffview",
+        "id": "sindrets/diffview.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "diffview-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "gitsigns",
+        "id": "lewis6991/gitsigns.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "gitsigns-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "vim-fugitive",
+        "id": "tpope/vim-fugitive",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "vim-fugitive",
+        "source": "gh"
+    },
+    {
+        "name": "g-worktree",
+        "id": "Mohanbarman/g-worktree.nvim",
+        "attrset": "custom",
+        "nixName": "g-worktree",
+        "source": "gh"
+    },
+    {
+        "name": "octo",
+        "id": "pwntester/octo.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "octo-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "gitlab-nvim",
+        "id": "harrisoncramer/gitlab.nvim",
+        "attrset": "custom",
+        "nixName": "gitlab-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "gitlab",
+        "id": "gitlab-org/editor-extensions/gitlab.vim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "gitlab-vim",
+        "source": "gl"
+    },
+    {
+        "name": "octohub",
+        "id": "2KAbhishek/octohub.nvim",
+        "attrset": "custom",
+        "nixName": "octohub",
+        "source": "gh"
+    },
+    {
+        "name": "telescope-github",
+        "id": "nvim-telescope/telescope-github.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "telescope-github-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "dashboard-nvim",
+        "id": "nvimdev/dashboard-nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "dashboard-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "dashboard",
+        "id": "MeanderingProgrammer/dashboard.nvim",
+        "attrset": "custom",
+        "nixName": "dashboard",
+        "source": "gh"
+    },
+    {
+        "name": "noice",
+        "id": "folke/noice.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "noice-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "modes",
+        "id": "mvllow/modes.nvim",
+        "attrset": "custom",
+        "nixName": "modes",
+        "source": "gh"
+    },
+    {
+        "name": "lvim-ui-config",
+        "id": "lvim-tech/lvim-ui-config",
+        "attrset": "custom",
+        "nixName": "lvim-ui-config",
+        "source": "gh"
+    },
+    {
+        "name": "volt",
+        "id": "nvzone/volt",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "nvzone-volt",
+        "source": "gh"
+    },
+    {
+        "name": "menu",
+        "id": "nvzone/menu",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "nvzone-menu",
+        "source": "gh"
+    },
+    {
+        "name": "bye-nerdfont",
+        "id": "dullmode/bye-nerdfont.nvim",
+        "attrset": "custom",
+        "nixName": "bye-nerdfont",
+        "source": "gh"
+    },
+    {
+        "name": "reactive",
+        "id": "rasulomaroff/reactive.nvim",
+        "attrset": "custom",
+        "nixName": "reactive",
+        "source": "gh"
+    },
+    {
+        "name": "modicator",
+        "id": "mawkler/modicator.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "modicator-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "fsplash",
+        "id": "jovanlanik/fsplash.nvim",
+        "attrset": "custom",
+        "nixName": "fsplash",
+        "source": "gh"
+    },
+    {
+        "name": "fidget",
+        "id": "j-hui/fidget.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "fidget-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "notify",
+        "id": "rcarriga/nvim-notify",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "nvim-notify",
+        "source": "gh"
+    },
+    {
+        "name": "headlines",
+        "id": "lukas-reineke/headlines.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "headlines-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "auto-session",
+        "id": "rmagatti/auto-session",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "auto-session",
+        "source": "gh"
+    },
+    {
+        "name": "persistence",
+        "id": "folke/persistence.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "persistence-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "shade",
+        "id": "sunjon/shade.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "Shade-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "zen-mode",
+        "id": "folke/zen-mode.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "zen-mode-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "sunglasses",
+        "id": "miversen33/sunglasses.nvim",
+        "attrset": "custom",
+        "nixName": "sunglasses",
+        "source": "gh"
+    },
+    {
+        "name": "vimade",
+        "id": "TaDaa/vimade",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "vimade",
+        "source": "gh"
+    },
+    {
+        "name": "runtimetable",
+        "id": "notomo/runtimetable.nvim",
+        "attrset": "custom",
+        "nixName": "runtimetable",
+        "source": "gh"
+    },
+    {
+        "name": "schemastore",
+        "id": "b0o/SchemaStore.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "SchemaStore-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "firenvim",
+        "id": "glacambre/firenvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "firenvim",
+        "source": "gh"
+    },
+    {
+        "name": "render-markdown",
+        "id": "MeanderingProgrammer/render-markdown.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "render-markdown-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "markdown-preview",
+        "id": "iamcco/markdown-preview.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "markdown-preview-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "web-tools",
+        "id": "ray-x/web-tools.nvim",
+        "attrset": "custom",
+        "nixName": "web-tools",
+        "source": "gh"
+    },
+    {
+        "name": "vim-pug",
+        "id": "digitaltoad/vim-pug",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "vim-pug",
+        "source": "gh"
+    },
+    {
+        "name": "Calendar",
+        "id": "ds1sqe/Calendar.nvim",
+        "attrset": "custom",
+        "nixName": "Calendar",
+        "source": "gh"
+    },
+    {
+        "name": "http-codes",
+        "id": "barrettruth/http-codes.nvim",
+        "attrset": "custom",
+        "nixName": "http-codes",
+        "source": "gh"
+    },
+    {
+        "name": "auto-pandoc",
+        "id": "jghauser/auto-pandoc.nvim",
+        "attrset": "custom",
+        "nixName": "auto-pandoc",
+        "source": "gh"
+    },
+    {
+        "name": "panvimdoc",
+        "id": "kdheepak/panvimdoc",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "panvimdoc",
+        "source": "gh"
+    },
+    {
+        "name": "vale",
+        "id": "marcelofern/vale.nvim",
+        "attrset": "custom",
+        "nixName": "vale",
+        "source": "gh"
+    },
+    {
+        "name": "present",
+        "id": "Chaitanyabsprip/present.nvim",
+        "attrset": "custom",
+        "nixName": "present",
+        "source": "gh"
+    },
+    {
+        "name": "flashcards",
+        "id": "alex-laycalvert/flashcards.nvim",
+        "attrset": "custom",
+        "nixName": "flashcards",
+        "source": "gh"
+    },
+    {
+        "name": "license",
+        "id": "KronsyC/nvim-license",
+        "attrset": "custom",
+        "nixName": "license",
+        "source": "gh"
+    },
+    {
+        "name": "live-server",
+        "id": "barrett-ruth/live-server.nvim",
+        "attrset": "custom",
+        "nixName": "live-server",
+        "source": "gh"
+    },
+    {
+        "name": "nvim-mail-merge",
+        "id": "martineausimon/nvim-mail-merge",
+        "attrset": "custom",
+        "nixName": "nvim-mail-merge",
+        "source": "gh"
+    },
+    {
+        "name": "better-digraphs",
+        "id": "protex/better-digraphs.nvim",
+        "attrset": "custom",
+        "nixName": "better-digraphs",
+        "source": "gh"
+    },
+    {
+        "name": "qalc",
+        "id": "Apeiros-46B/qalc.nvim",
+        "attrset": "custom",
+        "nixName": "qalc",
+        "source": "gh"
+    },
+    {
+        "name": "tldr",
+        "id": "acuteenvy/tldr.nvim",
+        "attrset": "custom",
+        "nixName": "tldr",
+        "source": "gh"
+    },
+    {
+        "name": "pre-commit",
+        "id": "Ttibsi/pre-commit.nvim",
+        "attrset": "custom",
+        "nixName": "pre-commit",
+        "source": "gh"
+    },
+    {
+        "name": "endpoint-previewer",
+        "id": "tlj/endpoint-previewer.nvim",
+        "attrset": "custom",
+        "nixName": "endpoint-previewer",
+        "source": "gh"
+    },
+    {
+        "name": "fsread",
+        "id": "nullchilly/fsread.nvim",
+        "attrset": "custom",
+        "nixName": "fsread",
+        "source": "gh"
+    },
+    {
+        "name": "feed",
+        "id": "neo451/feed.nvim",
+        "attrset": "custom",
+        "nixName": "feed",
+        "source": "gh"
+    },
+    {
+        "name": "nerdy",
+        "id": "2KAbhishek/nerdy.nvim",
+        "attrset": "custom",
+        "nixName": "nerdy",
+        "source": "gh"
+    },
+    {
+        "name": "knap",
+        "id": "frabjous/knap",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "knap",
+        "source": "gh"
+    },
+    {
+        "name": "urlview",
+        "id": "axieax/urlview.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "urlview-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "interlaced",
+        "id": "tanloong/interlaced.nvim",
+        "attrset": "custom",
+        "nixName": "interlaced",
+        "source": "gh"
+    },
+    {
+        "name": "texmagic",
+        "id": "jakewvincent/texmagic.nvim",
+        "attrset": "custom",
+        "nixName": "texmagic",
+        "source": "gh"
+    },
+    {
+        "name": "vimtex",
+        "id": "lervag/vimtex",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "vimtex",
+        "source": "gh"
+    },
+    {
+        "name": "ltex_extra",
+        "id": "barreiroleo/ltex_extra.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "ltex_extra-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "drop",
+        "id": "folke/drop.nvim",
+        "attrset": "custom",
+        "nixName": "drop",
+        "source": "gh"
+    },
+    {
+        "name": "regex-vars",
+        "id": "jake-stewart/regex-vars.nvim",
+        "attrset": "custom",
+        "nixName": "regex-vars",
+        "source": "gh"
+    },
+    {
+        "name": "regexplainer",
+        "id": "bennypowers/nvim-regexplainer",
+        "attrset": "custom",
+        "nixName": "regexplainer",
+        "source": "gh"
+    },
+    {
+        "name": "Hypersonic",
+        "id": "tomiis4/Hypersonic.nvim",
+        "attrset": "custom",
+        "nixName": "Hypersonic",
+        "source": "gh"
+    },
+    {
+        "name": "structlog",
+        "id": "Tastyep/structlog.nvim",
+        "attrset": "custom",
+        "nixName": "structlog",
+        "source": "gh"
+    },
+    {
+        "name": "neorepl",
+        "id": "ii14/neorepl.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "neorepl-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "neotest-plenary",
+        "id": "nvim-neotest/neotest-plenary",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "neotest-plenary",
+        "source": "gh"
+    },
+    {
+        "name": "minty",
+        "id": "nvzone/minty",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "nvzone-minty",
+        "source": "gh"
+    },
+    {
+        "name": "color-picker",
+        "id": "ziontee113/color-picker.nvim",
+        "attrset": "custom",
+        "nixName": "color-picker",
+        "source": "gh"
+    },
+    {
+        "name": "export-colorscheme",
+        "id": "jpe90/export-colorscheme.nvim",
+        "attrset": "custom",
+        "nixName": "export-colorscheme",
+        "source": "gh"
+    },
+    {
+        "name": "kreative",
+        "id": "katawful/kreative",
+        "attrset": "custom",
+        "nixName": "kreative",
+        "source": "gh"
+    },
+    {
+        "name": "text-to-colorscheme",
+        "id": "svermeulen/text-to-colorscheme",
+        "attrset": "custom",
+        "nixName": "text-to-colorscheme",
+        "source": "gh"
+    },
+    {
+        "name": "easycolor",
+        "id": "neph-iap/easycolor.nvim",
+        "attrset": "custom",
+        "nixName": "easycolor",
+        "source": "gh"
+    },
+    {
+        "name": "paint",
+        "id": "folke/paint.nvim",
+        "attrset": "custom",
+        "nixName": "paint",
+        "source": "gh"
+    },
+    {
+        "name": "nvim-highlight-colors",
+        "id": "brenoprata10/nvim-highlight-colors",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "nvim-highlight-colors",
+        "source": "gh"
+    },
+    {
+        "name": "kubels",
+        "id": "elasticrash/kubels.nvim",
+        "attrset": "custom",
+        "nixName": "kubels",
+        "source": "gh"
+    },
+    {
+        "name": "kubernetes",
+        "id": "diogo464/kubernetes.nvim",
+        "attrset": "custom",
+        "nixName": "kubernetes",
+        "source": "gh"
+    },
+    {
+        "name": "kpops",
+        "id": "disrupted/kpops.nvim",
+        "attrset": "custom",
+        "nixName": "kpops",
+        "source": "gh"
+    },
+    {
+        "name": "k8vim",
+        "id": "alonso-montero/k8vim.nvim",
+        "attrset": "custom",
+        "nixName": "k8vim",
+        "source": "gh"
+    },
+    {
+        "name": "kubectl",
+        "id": "michaelPotter/kubectl.nvim",
+        "attrset": "custom",
+        "nixName": "kubectl",
+        "source": "gh"
+    },
+    {
+        "name": "vim-helm",
+        "id": "towolf/vim-helm",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "vim-helm",
+        "source": "gh"
+    },
+    {
+        "name": "avante",
+        "id": "yetone/avante.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "avante-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "vim-ai",
+        "id": "madox2/vim-ai",
+        "attrset": "custom",
+        "nixName": "vim-ai",
+        "source": "gh"
+    },
+    {
+        "name": "codecompanion",
+        "id": "olimorris/codecompanion.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "codecompanion-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "llm",
+        "id": "huggingface/llm.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "llm-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "sg",
+        "id": "sourcegraph/sg.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "sg-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "metrics",
+        "id": "mgerb/metrics.nvim",
+        "attrset": "custom",
+        "nixName": "metrics",
+        "source": "gh"
+    },
+    {
+        "name": "orgmode",
+        "id": "nvim-orgmode/orgmode",
+        "attrset": "custom",
+        "nixName": "orgmode",
+        "source": "gh"
+    },
+    {
+        "name": "twig",
+        "id": "hugginsio/twig.nvim",
+        "attrset": "custom",
+        "nixName": "twig",
+        "source": "gh"
+    },
+    {
+        "name": "neorg-taskwarrior",
+        "id": "skbolton/neorg-taskwarrior",
+        "attrset": "custom",
+        "nixName": "neorg-taskwarrior",
+        "source": "gh"
+    },
+    {
+        "name": "doing",
+        "id": "Hashino/doing.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "doing-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "daily-focus",
+        "id": "steveclarke/daily-focus.nvim",
+        "attrset": "custom",
+        "nixName": "daily-focus",
+        "source": "gh"
+    },
+    {
+        "name": "nomodoro",
+        "id": "dbinagi/nomodoro",
+        "attrset": "custom",
+        "nixName": "nomodoro",
+        "source": "gh"
+    },
+    {
+        "name": "pommodoro-clock",
+        "id": "jackMort/pommodoro-clock.nvim",
+        "attrset": "custom",
+        "nixName": "pommodoro-clock",
+        "source": "gh"
+    },
+    {
+        "name": "baleia",
+        "id": "m00qek/baleia.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "baleia-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "timew",
+        "id": "eliasCVII/timew.nvim",
+        "attrset": "custom",
+        "nixName": "timew",
+        "source": "gh"
+    },
+    {
+        "name": "pomodoro",
+        "id": "wthollingsworth/pomodoro.nvim",
+        "attrset": "custom",
+        "nixName": "pomodoro",
+        "source": "gh"
+    },
+    {
+        "name": "tdo",
+        "id": "2KAbhishek/tdo.nvim",
+        "attrset": "custom",
+        "nixName": "tdo",
+        "source": "gh"
+    },
+    {
+        "name": "tktodo",
+        "id": "tarting/tktodo.nvim",
+        "attrset": "custom",
+        "nixName": "tktodo",
+        "source": "gh"
+    },
+    {
+        "name": "zettelkasten",
+        "id": "Furkanzmc/zettelkasten.nvim",
+        "attrset": "custom",
+        "nixName": "zettelkasten",
+        "source": "gh"
+    },
+    {
+        "name": "obsidian",
+        "id": "epwalsh/obsidian.nvim",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "obsidian-nvim",
+        "source": "gh"
+    },
+    {
+        "name": "vim-twig",
+        "id": "lumiliet/vim-twig",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "vim-twig",
+        "source": "gh"
+    },
+    {
+        "name": "timerly",
+        "id": "nvzone/timerly",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "timerly",
+        "source": "gh"
+    },
+    {
+        "name": "sche",
+        "id": "Cassin01/sche.nvim",
+        "attrset": "custom",
+        "nixName": "sche",
+        "source": "gh"
+    },
+    {
+        "name": "vimwiki",
+        "id": "vimwiki/vimwiki",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "vimwiki",
+        "source": "gh"
+    },
+    {
+        "name": "flote",
+        "id": "JellyApple102/flote.nvim",
+        "attrset": "custom",
+        "nixName": "flote",
+        "source": "gh"
+    },
+    {
+        "name": "neorg",
+        "id": "nvim-neorg/neorg",
+        "attrset": "pkgs.vimPlugins",
+        "nixName": "neorg",
+        "source": "gh"
+    },
+    {
+        "name": "quicknote",
+        "id": "RutaTang/quicknote.nvim",
+        "attrset": "custom",
+        "nixName": "quicknote",
+        "source": "gh"
+    },
+    {
+        "name": "scratch-buffer",
+        "id": "miguelcrespo/scratch-buffer.nvim",
+        "attrset": "custom",
+        "nixName": "scratch-buffer",
+        "source": "gh"
+    },
+    {
+        "name": "edit-list",
+        "id": "Sharonex/edit-list.nvim",
+        "attrset": "custom",
+        "nixName": "edit-list",
+        "source": "gh"
+    }
+]

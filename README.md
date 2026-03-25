@@ -7,8 +7,39 @@ No nvim framework or distribution is used currently.
 
 
 ## Next Steps
+https://github.com/numToStr/Navigator.nvim/ *********
+https://github.com/asiryk/auto-hlsearch.nvim/
+https://github.com/micangl/cmp-vimtex/
+https://github.com/GCBallesteros/NotebookNavigator.nvim/
+https://github.com/dmitmel/cmp-cmdline-history/
+https://github.com/agda/cornelis/
+https://github.com/jgmdev/wl-color-picker
+
+https://www.kreativekorp.com/software/fonts/ksquare/ ||| kreative-square
+https://github.com/DreamMaoMao/wshowkeys
+https://github.com/AlynxZhou/showmethekey ||| https://showmethekey.alynx.one/
+https://hackage.haskell.org/package/tabular
+
+
+https://github.com/eero-lehtinen/oklch-color-picker.nvim/
+https://github.com/eero-lehtinen/oklch-color-picker
+
+https://github.com/MaxVerevkin/wlr-which-key *********
+
+https://github.com/mattn/efm-langserver: to external tools
+https://github.com/matze/wastebin: to external tools
+
+https://ctan.org/pkg/tempora
+
+https://github.com/jmacadie/telescope-hierarchy.nvim/
+https://github.com/juansalvatore/git-dashboard-nvim/
+https://github.com/f-person/git-blame.nvim/
+
+https://github.com/drupol/markdown-code-runner
 
 https://github.com/josa42/config-nvim
+
+https://github.com/swaits/lazyjj.nvim/ ||| https://github.com/Cretezy/lazyjj
 
 https://yutkat.github.io/my-neovim-pluginlist/
 https://github.com/mhanberg/.dotfiles/blob/main/config/nvim/init.lua
@@ -23,6 +54,10 @@ for notes: https://github.com/eschnett/SixelTerm.jl
 https://hstern.ca/blog/posts/nvim-r-plots
 
 TODO: search: flutter development in nvim
+
+https://github.com/robpike/ivy
+https://github.com/Tomiyou/ivyterm
+https://gradle.org/
 
 https://github.com/teal-language/teal-language-server/
 https://teal-language.org/book/latest/index.html
@@ -102,6 +137,8 @@ fork and hack on: https://github.com/VideoCarp/IndentSyntax
 fork and hack on: https://github.com/VideoCarp/python-lua
 
 https://github.com/cweill/gotests
+
+https://git.2f30.org/noice/files.html
 
 ## Different languages
 

@@ -44,3 +44,4 @@ luac.out
 
 .vscode
 .idea
+__pycache__
