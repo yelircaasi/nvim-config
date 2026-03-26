@@ -268,7 +268,7 @@
       };
       telescope-json-history = pkgs.vimUtils.buildVimPlugin {
         pname = "telescope-json-history";
-        version = "";
+        version = "2023-02-09";
         src = pkgs.fetchFromGitHub {
           owner = "cosminadrianpopescu";
           repo = "telescope-json-history.nvim";
@@ -283,7 +283,7 @@
       };
       blink = pkgs.vimUtils.buildVimPlugin {
         pname = "TODO: separate packages";
-        version = "";
+        version = "2025-10-21";
         src = pkgs.fetchFromGitHub {
           owner = "saghen";
           repo = "blink.nvim";
@@ -298,7 +298,7 @@
       };
       hlsearch = pkgs.vimUtils.buildVimPlugin {
         pname = "hlsearch";
-        version = "";
+        version = "2024-01-10";
         src = pkgs.fetchFromGitHub {
           owner = "nvimdev";
           repo = "hlsearch.nvim";
@@ -313,7 +313,7 @@
       };
       search-replace = pkgs.vimUtils.buildVimPlugin {
         pname = "search-replace";
-        version = "";
+        version = "2026-01-26";
         src = pkgs.fetchFromGitHub {
           owner = "mosheavni";
           repo = "search-replace.nvim";
@@ -328,7 +328,7 @@
       };
       sad = pkgs.vimUtils.buildVimPlugin {
         pname = "sad";
-        version = "";
+        version = "2025-05-01";
         src = pkgs.fetchFromGitHub {
           owner = "ray-x";
           repo = "sad.nvim";
@@ -343,7 +343,7 @@
       };
       nvim_winpick = pkgs.vimUtils.buildVimPlugin {
         pname = "nvim_winpick";
-        version = "";
+        version = "2025-01-30";
         src = pkgs.fetchFromGitHub {
           owner = "MarcusGrass";
           repo = "nvim_winpick";
@@ -358,7 +358,7 @@
       };
       flybuf = pkgs.vimUtils.buildVimPlugin {
         pname = "flybuf";
-        version = "";
+        version = "2023-03-25";
         src = pkgs.fetchFromGitHub {
           owner = "nvimdev";
           repo = "flybuf.nvim";
@@ -373,7 +373,7 @@
       };
       stickybuf = pkgs.vimUtils.buildVimPlugin {
         pname = "stickybuf";
-        version = "";
+        version = "2025-03-05";
         src = pkgs.fetchFromGitHub {
           owner = "stevearc";
           repo = "stickybuf.nvim";
@@ -388,7 +388,7 @@
       };
       swm = pkgs.vimUtils.buildVimPlugin {
         pname = "swm";
-        version = "";
+        version = "2025-02-11";
         src = pkgs.fetchFromGitHub {
           owner = "hrsh7th";
           repo = "nvim-swm";
@@ -403,7 +403,7 @@
       };
       retrospect = pkgs.vimUtils.buildVimPlugin {
         pname = "retrospect";
-        version = "";
+        version = "2025-11-05";
         src = pkgs.fetchFromGitHub {
           owner = "mrquantumcodes";
           repo = "retrospect.nvim";
@@ -418,7 +418,7 @@
       };
       vuffers = pkgs.vimUtils.buildVimPlugin {
         pname = "vuffers";
-        version = "";
+        version = "2025-05-20";
         src = pkgs.fetchFromGitHub {
           owner = "Hajime-Suzuki";
           repo = "vuffers.nvim";
@@ -433,7 +433,7 @@
       };
       pragma = pkgs.vimUtils.buildVimPlugin {
         pname = "pragma";
-        version = "";
+        version = "2024-11-28";
         src = pkgs.fetchFromGitHub {
           owner = "DrKGD";
           repo = "pragma.nvim";
@@ -448,7 +448,7 @@
       };
       wrapping-paper = pkgs.vimUtils.buildVimPlugin {
         pname = "wrapping-paper";
-        version = "";
+        version = "2025-04-02";
         src = pkgs.fetchFromGitHub {
           owner = "benlubas";
           repo = "wrapping-paper.nvim";
@@ -463,7 +463,7 @@
       };
       savior = pkgs.vimUtils.buildVimPlugin {
         pname = "savior";
-        version = "";
+        version = "2025-05-09";
         src = pkgs.fetchFromGitHub {
           owner = "willothy";
           repo = "savior.nvim";
@@ -478,7 +478,7 @@
       };
       zpragmatic = pkgs.vimUtils.buildVimPlugin {
         pname = "zpragmatic";
-        version = "";
+        version = "2024-11-26";
         src = pkgs.fetchFromGitHub {
           owner = "muhammadzkralla";
           repo = "zpragmatic.nvim";
@@ -493,7 +493,7 @@
       };
       neowords = pkgs.vimUtils.buildVimPlugin {
         pname = "neowords";
-        version = "";
+        version = "2024-09-04";
         src = pkgs.fetchFromGitHub {
           owner = "backdround";
           repo = "neowords.nvim";
@@ -508,7 +508,7 @@
       };
       vim-edgemotion = pkgs.vimUtils.buildVimPlugin {
         pname = "vim-edgemotion";
-        version = "";
+        version = "2017-12-26";
         src = pkgs.fetchFromGitHub {
           owner = "haya14busa";
           repo = "vim-edgemotion";
@@ -523,7 +523,7 @@
       };
       treemonkey = pkgs.vimUtils.buildVimPlugin {
         pname = "treemonkey";
-        version = "";
+        version = "2025-06-08";
         src = pkgs.fetchFromGitHub {
           owner = "atusy";
           repo = "treemonkey.nvim";
@@ -538,7 +538,7 @@
       };
       hierarchy = pkgs.vimUtils.buildVimPlugin {
         pname = "hierarchy";
-        version = "";
+        version = "2022-09-01";
         src = pkgs.fetchFromGitHub {
           owner = "Slyces";
           repo = "hierarchy.nvim";
@@ -553,7 +553,7 @@
       };
       navigator = pkgs.vimUtils.buildVimPlugin {
         pname = "navigator";
-        version = "";
+        version = "2025-10-30";
         src = pkgs.fetchFromGitHub {
           owner = "ray-x";
           repo = "navigator.lua";
@@ -568,7 +568,7 @@
       };
       insx = pkgs.vimUtils.buildVimPlugin {
         pname = "insx";
-        version = "";
+        version = "2025-06-10";
         src = pkgs.fetchFromGitHub {
           owner = "hrsh7th";
           repo = "nvim-insx";
@@ -583,7 +583,7 @@
       };
       apm = pkgs.vimUtils.buildVimPlugin {
         pname = "apm";
-        version = "";
+        version = "2023-03-04";
         src = pkgs.fetchFromGitHub {
           owner = "pseudocc";
           repo = "nvim-apm";
@@ -598,7 +598,7 @@
       };
       keymapper = pkgs.vimUtils.buildVimPlugin {
         pname = "keymapper";
-        version = "";
+        version = "2022-11-10";
         src = pkgs.fetchFromGitHub {
           owner = "bgrohman";
           repo = "nvim-keymapper";
@@ -613,7 +613,7 @@
       };
       keyseer = pkgs.vimUtils.buildVimPlugin {
         pname = "keyseer";
-        version = "";
+        version = "2023-12-02";
         src = pkgs.fetchFromGitHub {
           owner = "jokajak";
           repo = "keyseer.nvim";
@@ -628,7 +628,7 @@
       };
       keytex = pkgs.vimUtils.buildVimPlugin {
         pname = "keytex";
-        version = "";
+        version = "2024-03-28";
         src = pkgs.fetchFromGitHub {
           owner = "cronJohn";
           repo = "keytex.nvim";
@@ -643,7 +643,7 @@
       };
       keylab = pkgs.vimUtils.buildVimPlugin {
         pname = "keylab";
-        version = "";
+        version = "2023-06-14";
         src = pkgs.fetchFromGitHub {
           owner = "BooleanCube";
           repo = "keylab.nvim";
@@ -658,7 +658,7 @@
       };
       xkbswitch = pkgs.vimUtils.buildVimPlugin {
         pname = "xkbswitch";
-        version = "";
+        version = "2025-01-05";
         src = pkgs.fetchFromGitHub {
           owner = "ivanesmantovich";
           repo = "xkbswitch.nvim";
@@ -673,7 +673,7 @@
       };
       cyrillic = pkgs.vimUtils.buildVimPlugin {
         pname = "cyrillic";
-        version = "";
+        version = "2023-07-07";
         src = pkgs.fetchFromGitHub {
           owner = "nativerv";
           repo = "cyrillic.nvim";
@@ -688,7 +688,7 @@
       };
       homerows = pkgs.vimUtils.buildVimPlugin {
         pname = "homerows";
-        version = "";
+        version = "2023-05-08";
         src = pkgs.fetchFromGitHub {
           owner = "kbario";
           repo = "homerows.nvim";
@@ -703,7 +703,7 @@
       };
       wf = pkgs.vimUtils.buildVimPlugin {
         pname = "wf";
-        version = "";
+        version = "2024-11-23";
         src = pkgs.fetchFromGitHub {
           owner = "Cassin01";
           repo = "wf.nvim";
@@ -718,7 +718,7 @@
       };
       NeoComposer = pkgs.vimUtils.buildVimPlugin {
         pname = "NeoComposer";
-        version = "";
+        version = "2025-05-17";
         src = pkgs.fetchFromGitHub {
           owner = "lvim-tech";
           repo = "NeoComposer.nvim";
@@ -733,7 +733,7 @@
       };
       nvim-macros = pkgs.vimUtils.buildVimPlugin {
         pname = "nvim-macros";
-        version = "";
+        version = "2024-02-16";
         src = pkgs.fetchFromGitHub {
           owner = "kr40";
           repo = "nvim-macros";
@@ -748,7 +748,7 @@
       };
       recorder = pkgs.vimUtils.buildVimPlugin {
         pname = "recorder";
-        version = "";
+        version = "2026-02-06";
         src = pkgs.fetchFromGitHub {
           owner = "chrisgrieser";
           repo = "nvim-recorder";
@@ -763,7 +763,7 @@
       };
       indentmini = pkgs.vimUtils.buildVimPlugin {
         pname = "indentmini";
-        version = "";
+        version = "2026-01-04";
         src = pkgs.fetchFromGitHub {
           owner = "nvimdev";
           repo = "indentmini.nvim";
@@ -778,7 +778,7 @@
       };
       anydent = pkgs.vimUtils.buildVimPlugin {
         pname = "anydent";
-        version = "";
+        version = "2026-01-22";
         src = pkgs.fetchFromGitHub {
           owner = "hrsh7th";
           repo = "nvim-anydent";
@@ -793,7 +793,7 @@
       };
       todo-comments = pkgs.vimUtils.buildVimPlugin {
         pname = "TODO-comments-nvim";
-        version = "";
+        version = "2025-11-10";
         src = pkgs.fetchFromGitHub {
           owner = "folke";
           repo = "todo-comments.nvim";
@@ -808,7 +808,7 @@
       };
       splitjoin = pkgs.vimUtils.buildVimPlugin {
         pname = "splitjoin";
-        version = "";
+        version = "2026-03-03";
         src = pkgs.fetchFromGitHub {
           owner = "bennypowers";
           repo = "splitjoin.nvim";
@@ -823,7 +823,7 @@
       };
       spread = pkgs.vimUtils.buildVimPlugin {
         pname = "spread";
-        version = "";
+        version = "2026-02-04";
         src = pkgs.fetchFromGitHub {
           owner = "aarondiel";
           repo = "spread.nvim";
@@ -838,7 +838,7 @@
       };
       harpoon-core = pkgs.vimUtils.buildVimPlugin {
         pname = "harpoon-core";
-        version = "";
+        version = "2025-08-30";
         src = pkgs.fetchFromGitHub {
           owner = "MeanderingProgrammer";
           repo = "harpoon-core.nvim";
@@ -853,7 +853,7 @@
       };
       markit = pkgs.vimUtils.buildVimPlugin {
         pname = "markit";
-        version = "";
+        version = "2025-10-09";
         src = pkgs.fetchFromGitHub {
           owner = "2KAbhishek";
           repo = "markit.nvim";
@@ -868,7 +868,7 @@
       };
       spear = pkgs.vimUtils.buildVimPlugin {
         pname = "spear";
-        version = "";
+        version = "2022-11-15";
         src = pkgs.fetchFromGitHub {
           owner = "kbario";
           repo = "spear.nvim";
@@ -883,7 +883,7 @@
       };
       whaler = pkgs.vimUtils.buildVimPlugin {
         pname = "whaler";
-        version = "";
+        version = "2026-03-09";
         src = pkgs.fetchFromGitHub {
           owner = "SalOrak";
           repo = "whaler.nvim";
@@ -898,7 +898,7 @@
       };
       pasta = pkgs.vimUtils.buildVimPlugin {
         pname = "pasta";
-        version = "";
+        version = "2024-10-24";
         src = pkgs.fetchFromGitHub {
           owner = "hrsh7th";
           repo = "nvim-pasta";
@@ -913,7 +913,7 @@
       };
       wastebin = pkgs.vimUtils.buildVimPlugin {
         pname = "wastebin";
-        version = "";
+        version = "2025-05-07";
         src = pkgs.fetchFromGitHub {
           owner = "matze";
           repo = "wastebin.nvim";
@@ -928,7 +928,7 @@
       };
       lazyclip = pkgs.vimUtils.buildVimPlugin {
         pname = "lazyclip";
-        version = "";
+        version = "2025-07-22";
         src = pkgs.fetchFromGitHub {
           owner = "atiladefreitas";
           repo = "lazyclip";
@@ -943,7 +943,7 @@
       };
       beam = pkgs.vimUtils.buildVimPlugin {
         pname = "beam";
-        version = "";
+        version = "2026-01-29";
         src = pkgs.fetchFromGitHub {
           owner = "Piotr1215";
           repo = "beam.nvim";
@@ -958,7 +958,7 @@
       };
       ax = pkgs.vimUtils.buildVimPlugin {
         pname = "ax";
-        version = "";
+        version = "2025-02-06";
         src = pkgs.fetchFromGitHub {
           owner = "mikeslattery";
           repo = "ax.nvim";
@@ -973,7 +973,7 @@
       };
       AdvancedNewFile = pkgs.vimUtils.buildVimPlugin {
         pname = "AdvancedNewFile";
-        version = "";
+        version = "2022-07-31";
         src = pkgs.fetchFromGitHub {
           owner = "Mohammed-Taher";
           repo = "AdvancedNewFile.nvim";
@@ -1002,7 +1002,7 @@
       };
       minimal-narrow-region = pkgs.vimUtils.buildVimPlugin {
         pname = "minimal-narrow-region";
-        version = "";
+        version = "2023-02-04";
         src = pkgs.fetchFromGitHub {
           owner = "bagohart";
           repo = "minimal-narrow-region.nvim";
@@ -1017,7 +1017,7 @@
       };
       date-time-inserter = pkgs.vimUtils.buildVimPlugin {
         pname = "date-time-inserter";
-        version = "";
+        version = "2025-11-23";
         src = pkgs.fetchFromGitHub {
           owner = "AntonVanAssche";
           repo = "date-time-inserter.nvim";
@@ -1032,7 +1032,7 @@
       };
       bullets = pkgs.vimUtils.buildVimPlugin {
         pname = "bullets";
-        version = "";
+        version = "2025-10-03";
         src = pkgs.fetchFromGitHub {
           owner = "kaymmm";
           repo = "bullets.nvim";
@@ -1047,7 +1047,7 @@
       };
       vim-caser = pkgs.vimUtils.buildVimPlugin {
         pname = "vim-caser";
-        version = "";
+        version = "2021-07-27";
         src = pkgs.fetchFromGitHub {
           owner = "arthurxavierx";
           repo = "vim-caser";
@@ -1062,7 +1062,7 @@
       };
       inlayhint-filler = pkgs.vimUtils.buildVimPlugin {
         pname = "inlayhint-filler";
-        version = "";
+        version = "2025-11-22";
         src = pkgs.fetchFromGitHub {
           owner = "davidyz";
           repo = "inlayhint-filler.nvim";
@@ -1077,7 +1077,7 @@
       };
       ivy = pkgs.vimUtils.buildVimPlugin {
         pname = "ivy";
-        version = "";
+        version = "2025-12-08";
         src = pkgs.fetchFromGitHub {
           owner = "AdeAttwood";
           repo = "ivy.nvim";
@@ -1092,7 +1092,7 @@
       };
       nvim-cmp-fonts = pkgs.vimUtils.buildVimPlugin {
         pname = "nvim-cmp-fonts";
-        version = "";
+        version = "2022-10-10";
         src = pkgs.fetchFromGitHub {
           owner = "amarakon";
           repo = "nvim-cmp-fonts";
@@ -1107,7 +1107,7 @@
       };
       nvim-cmp-lua-latex-symbols = pkgs.vimUtils.buildVimPlugin {
         pname = "nvim-cmp-lua-latex-symbols";
-        version = "";
+        version = "2023-09-23";
         src = pkgs.fetchFromGitHub {
           owner = "amarakon";
           repo = "nvim-cmp-lua-latex-symbols";
@@ -1122,7 +1122,7 @@
       };
       cmp-nvim-telekasten-tags = pkgs.vimUtils.buildVimPlugin {
         pname = "cmp-nvim-telekasten-tags";
-        version = "";
+        version = "2023-10-04";
         src = pkgs.fetchFromGitHub {
           owner = "Cybolic";
           repo = "cmp-nvim-telekasten-tags";
@@ -1137,7 +1137,7 @@
       };
       cmp_bulma = pkgs.vimUtils.buildVimPlugin {
         pname = "cmp_bulma";
-        version = "";
+        version = "2023-03-15";
         src = pkgs.fetchFromGitHub {
           owner = "garyhurtz";
           repo = "cmp_bulma.nvim";
@@ -1152,7 +1152,7 @@
       };
       efm = pkgs.vimUtils.buildVimPlugin {
         pname = "efm";
-        version = "";
+        version = "2026-03-08";
         src = pkgs.fetchFromGitHub {
           owner = "mattn";
           repo = "efm-langserver";
@@ -1167,7 +1167,7 @@
       };
       output-panel = pkgs.vimUtils.buildVimPlugin {
         pname = "output-panel";
-        version = "";
+        version = "2026-03-04";
         src = pkgs.fetchFromGitHub {
           owner = "mhanberg";
           repo = "output-panel.nvim";
@@ -1182,7 +1182,7 @@
       };
       control-panel = pkgs.vimUtils.buildVimPlugin {
         pname = "control-panel";
-        version = "";
+        version = "2023-05-12";
         src = pkgs.fetchFromGitHub {
           owner = "mhanberg";
           repo = "control-panel.nvim";
@@ -1197,7 +1197,7 @@
       };
       corn = pkgs.vimUtils.buildVimPlugin {
         pname = "corn";
-        version = "";
+        version = "2024-10-08";
         src = pkgs.fetchFromGitHub {
           owner = "RaafatTurki";
           repo = "corn.nvim";
@@ -1212,7 +1212,7 @@
       };
       error-jump = pkgs.vimUtils.buildVimPlugin {
         pname = "error-jump";
-        version = "";
+        version = "2024-10-05";
         src = pkgs.fetchFromGitHub {
           owner = "Dr-42";
           repo = "error-jump.nvim";
@@ -1227,7 +1227,7 @@
       };
       doc-window = pkgs.vimUtils.buildVimPlugin {
         pname = "doc-window";
-        version = "";
+        version = "2023-08-30";
         src = pkgs.fetchFromGitHub {
           owner = "resonyze";
           repo = "doc-window.nvim";
@@ -1242,7 +1242,7 @@
       };
       telescope-code-actions = pkgs.vimUtils.buildVimPlugin {
         pname = "telescope-code-actions";
-        version = "";
+        version = "2022-09-24";
         src = pkgs.fetchFromGitHub {
           owner = "nyarthan";
           repo = "telescope-code-actions.nvim";
@@ -1257,7 +1257,7 @@
       };
       dmap = pkgs.vimUtils.buildVimPlugin {
         pname = "dmap";
-        version = "";
+        version = "2024-09-14";
         src = pkgs.fetchFromGitHub {
           owner = "doums";
           repo = "dmap.nvim";
@@ -1272,7 +1272,7 @@
       };
       debugpy = pkgs.vimUtils.buildVimPlugin {
         pname = "debugpy";
-        version = "";
+        version = "2024-07-23";
         src = pkgs.fetchFromGitHub {
           owner = "HiPhish";
           repo = "debugpy.nvim";
@@ -1287,7 +1287,7 @@
       };
       pylsp-rope = pkgs.vimUtils.buildVimPlugin {
         pname = "TODO: move to external tools";
-        version = "";
+        version = "2024-11-17";
         src = pkgs.fetchFromGitHub {
           owner = "python-rope";
           repo = "pylsp-rope";
@@ -1302,7 +1302,7 @@
       };
       jvim = pkgs.vimUtils.buildVimPlugin {
         pname = "jvim";
-        version = "";
+        version = "2022-02-19";
         src = pkgs.fetchFromGitHub {
           owner = "ThePrimeagen";
           repo = "jvim.nvim";
@@ -1317,7 +1317,7 @@
       };
       jsonpath = pkgs.vimUtils.buildVimPlugin {
         pname = "jsonpath";
-        version = "";
+        version = "2025-09-22";
         src = pkgs.fetchFromGitHub {
           owner = "phelipetls";
           repo = "jsonpath.nvim";
@@ -1332,7 +1332,7 @@
       };
       sortjson = pkgs.vimUtils.buildVimPlugin {
         pname = "sortjson";
-        version = "";
+        version = "2026-03-08";
         src = pkgs.fetchFromGitHub {
           owner = "2nthony";
           repo = "sortjson.nvim";
@@ -1347,7 +1347,7 @@
       };
       quicktype = pkgs.vimUtils.buildVimPlugin {
         pname = "quicktype";
-        version = "";
+        version = "2025-05-10";
         src = pkgs.fetchFromGitHub {
           owner = "midoBB";
           repo = "nvim-quicktype";
@@ -1376,7 +1376,7 @@
       };
       strict = pkgs.vimUtils.buildVimPlugin {
         pname = "strict";
-        version = "";
+        version = "2025-01-08";
         src = pkgs.fetchFromGitHub {
           owner = "emileferreira";
           repo = "nvim-strict";
@@ -1391,7 +1391,7 @@
       };
       code_runner = pkgs.vimUtils.buildVimPlugin {
         pname = "code_runner";
-        version = "";
+        version = "2026-03-21";
         src = pkgs.fetchFromGitHub {
           owner = "CRAG666";
           repo = "code_runner.nvim";
@@ -1406,7 +1406,7 @@
       };
       yabs = pkgs.vimUtils.buildVimPlugin {
         pname = "yabs";
-        version = "";
+        version = "2025-09-10";
         src = pkgs.fetchFromGitHub {
           owner = "pianocomposer321";
           repo = "officer.nvim";
@@ -1421,7 +1421,7 @@
       };
       jaq-nvim = pkgs.vimUtils.buildVimPlugin {
         pname = "jaq-nvim";
-        version = "";
+        version = "2022-10-11";
         src = pkgs.fetchFromGitHub {
           owner = "is0n";
           repo = "jaq-nvim";
@@ -1436,7 +1436,7 @@
       };
       moonicipal = pkgs.vimUtils.buildVimPlugin {
         pname = "moonicipal";
-        version = "";
+        version = "2025-11-03";
         src = pkgs.fetchFromGitHub {
           owner = "idanarye";
           repo = "nvim-moonicipal";
@@ -1451,7 +1451,7 @@
       };
       telemake = pkgs.vimUtils.buildVimPlugin {
         pname = "telemake";
-        version = "";
+        version = "2023-01-16";
         src = pkgs.fetchFromGitHub {
           owner = "ChSotiriou";
           repo = "nvim-telemake";
@@ -1466,7 +1466,7 @@
       };
       equals = pkgs.vimUtils.buildVimPlugin {
         pname = "equals";
-        version = "";
+        version = "2022-11-23";
         src = pkgs.fetchFromGitHub {
           owner = "liborw";
           repo = "equals";
@@ -1481,7 +1481,7 @@
       };
       telescope-xc = pkgs.vimUtils.buildVimPlugin {
         pname = "telescope-xc";
-        version = "";
+        version = "2023-11-27";
         src = pkgs.fetchFromGitHub {
           owner = "joerdav";
           repo = "telescope-xc.nvim";
@@ -1496,7 +1496,7 @@
       };
       resin = pkgs.vimUtils.buildVimPlugin {
         pname = "resin";
-        version = "";
+        version = "2023-02-01";
         src = pkgs.fetchFromGitHub {
           owner = "fdschmidt93";
           repo = "resin.nvim";
@@ -1511,7 +1511,7 @@
       };
       repl = pkgs.vimUtils.buildVimPlugin {
         pname = "repl";
-        version = "";
+        version = "2025-05-05";
         src = pkgs.fetchFromGitHub {
           owner = "pappasam";
           repo = "nvim-repl";
@@ -1526,7 +1526,7 @@
       };
       yarepl = pkgs.vimUtils.buildVimPlugin {
         pname = "yarepl";
-        version = "";
+        version = "2026-02-04";
         src = pkgs.fetchFromGitHub {
           owner = "milanglacier";
           repo = "yarepl.nvim";
@@ -1541,7 +1541,7 @@
       };
       channelot = pkgs.vimUtils.buildVimPlugin {
         pname = "channelot";
-        version = "";
+        version = "2025-10-26";
         src = pkgs.fetchFromGitHub {
           owner = "idanarye";
           repo = "nvim-channelot";
@@ -1556,7 +1556,7 @@
       };
       cmdbuf = pkgs.vimUtils.buildVimPlugin {
         pname = "cmdbuf";
-        version = "";
+        version = "2026-03-14";
         src = pkgs.fetchFromGitHub {
           owner = "notomo";
           repo = "cmdbuf.nvim";
@@ -1571,7 +1571,7 @@
       };
       mypy = pkgs.vimUtils.buildVimPlugin {
         pname = "mypy";
-        version = "";
+        version = "2025-08-26";
         src = pkgs.fetchFromGitHub {
           owner = "feakuru";
           repo = "mypy.nvim";
@@ -1586,7 +1586,7 @@
       };
       Launch = pkgs.vimUtils.buildVimPlugin {
         pname = "Launch";
-        version = "";
+        version = "2025-05-29";
         src = pkgs.fetchFromGitHub {
           owner = "Beloin";
           repo = "Launch.nvim";
@@ -1601,11 +1601,11 @@
       };
       tracebundler = pkgs.vimUtils.buildVimPlugin {
         pname = "tracebundler";
-        version = "";
+        version = "2024-10-21";
         src = pkgs.fetchFromGitHub {
           owner = "notomo";
           repo = "tracebundler.nvim";
-          rev = "9cc719f455295e7a2fc7340d4fd87327f3fe15ca";
+          rev = "d5cf812d20ef4291c4f858cccc0d38cb4d0439fe";
           hash = "sha256-1hHT4mmrTnvLyBL2TAzl7cCYqvRPF6PoQUbOez6JjoI=";
         };
         doCheck = false;
@@ -1616,7 +1616,7 @@
       };
       termim = pkgs.vimUtils.buildVimPlugin {
         pname = "termim";
-        version = "";
+        version = "2025-12-01";
         src = pkgs.fetchFromGitHub {
           owner = "2KAbhishek";
           repo = "termim.nvim";
@@ -1631,7 +1631,7 @@
       };
       neaterm = pkgs.vimUtils.buildVimPlugin {
         pname = "neaterm";
-        version = "";
+        version = "2025-07-25";
         src = pkgs.fetchFromGitHub {
           owner = "Dan7h3x";
           repo = "neaterm.nvim";
@@ -1646,7 +1646,7 @@
       };
       neomux = pkgs.vimUtils.buildVimPlugin {
         pname = "neomux";
-        version = "";
+        version = "2026-03-17";
         src = pkgs.fetchFromGitHub {
           owner = "nikvdp";
           repo = "neomux";
@@ -1661,7 +1661,7 @@
       };
       project = pkgs.vimUtils.buildVimPlugin {
         pname = "project";
-        version = "";
+        version = "2024-05-26";
         src = pkgs.fetchFromGitHub {
           owner = "Zeioth";
           repo = "project.nvim";
@@ -1676,7 +1676,7 @@
       };
       monorepos = pkgs.vimUtils.buildVimPlugin {
         pname = "monorepos";
-        version = "";
+        version = "2025-08-14";
         src = pkgs.fetchFromGitHub {
           owner = "sajjathossain";
           repo = "nvim-monorepos";
@@ -1691,7 +1691,7 @@
       };
       projector = pkgs.vimUtils.buildVimPlugin {
         pname = "projector";
-        version = "";
+        version = "2022-07-28";
         src = pkgs.fetchFromGitHub {
           owner = "smolovk";
           repo = "projector.nvim";
@@ -1706,7 +1706,7 @@
       };
       forgit = pkgs.vimUtils.buildVimPlugin {
         pname = "forgit";
-        version = "";
+        version = "2025-04-23";
         src = pkgs.fetchFromGitHub {
           owner = "ray-x";
           repo = "forgit.nvim";
@@ -1721,7 +1721,7 @@
       };
       jujutsu = pkgs.vimUtils.buildVimPlugin {
         pname = "jujutsu";
-        version = "";
+        version = "2026-03-25";
         src = pkgs.fetchFromGitHub {
           owner = "yannvanhalewyn";
           repo = "jujutsu.nvim";
@@ -1736,7 +1736,7 @@
       };
       jiejie = pkgs.vimUtils.buildVimPlugin {
         pname = "jiejie";
-        version = "";
+        version = "2026-03-10";
         src = pkgs.fetchFromGitHub {
           owner = "jceb";
           repo = "jiejie.nvim";
@@ -1751,7 +1751,7 @@
       };
       g-worktree = pkgs.vimUtils.buildVimPlugin {
         pname = "g-worktree";
-        version = "";
+        version = "2023-09-03";
         src = pkgs.fetchFromGitHub {
           owner = "Mohanbarman";
           repo = "g-worktree.nvim";
@@ -1766,7 +1766,7 @@
       };
       gitlab-nvim = pkgs.vimUtils.buildVimPlugin {
         pname = "gitlab-nvim";
-        version = "";
+        version = "2026-03-25";
         src = pkgs.fetchFromGitHub {
           owner = "harrisoncramer";
           repo = "gitlab.nvim";
@@ -1781,7 +1781,7 @@
       };
       octohub = pkgs.vimUtils.buildVimPlugin {
         pname = "octohub";
-        version = "";
+        version = "2025-08-09";
         src = pkgs.fetchFromGitHub {
           owner = "2KAbhishek";
           repo = "octohub.nvim";
@@ -1796,7 +1796,7 @@
       };
       dashboard = pkgs.vimUtils.buildVimPlugin {
         pname = "dashboard";
-        version = "";
+        version = "2025-10-14";
         src = pkgs.fetchFromGitHub {
           owner = "MeanderingProgrammer";
           repo = "dashboard.nvim";
@@ -1811,7 +1811,7 @@
       };
       modes = pkgs.vimUtils.buildVimPlugin {
         pname = "modes";
-        version = "";
+        version = "2026-03-16";
         src = pkgs.fetchFromGitHub {
           owner = "mvllow";
           repo = "modes.nvim";
@@ -1826,7 +1826,7 @@
       };
       lvim-ui-config = pkgs.vimUtils.buildVimPlugin {
         pname = "lvim-ui-config";
-        version = "";
+        version = "2024-12-26";
         src = pkgs.fetchFromGitHub {
           owner = "lvim-tech";
           repo = "lvim-ui-config";
@@ -1841,7 +1841,7 @@
       };
       bye-nerdfont = pkgs.vimUtils.buildVimPlugin {
         pname = "bye-nerdfont";
-        version = "";
+        version = "2023-07-24";
         src = pkgs.fetchFromGitHub {
           owner = "dullmode";
           repo = "bye-nerdfont.nvim";
@@ -1856,7 +1856,7 @@
       };
       reactive = pkgs.vimUtils.buildVimPlugin {
         pname = "reactive";
-        version = "";
+        version = "2025-12-30";
         src = pkgs.fetchFromGitHub {
           owner = "rasulomaroff";
           repo = "reactive.nvim";
@@ -1871,7 +1871,7 @@
       };
       fsplash = pkgs.vimUtils.buildVimPlugin {
         pname = "fsplash";
-        version = "";
+        version = "2023-05-26";
         src = pkgs.fetchFromGitHub {
           owner = "jovanlanik";
           repo = "fsplash.nvim";
@@ -1886,7 +1886,7 @@
       };
       sunglasses = pkgs.vimUtils.buildVimPlugin {
         pname = "sunglasses";
-        version = "";
+        version = "2025-01-13";
         src = pkgs.fetchFromGitHub {
           owner = "miversen33";
           repo = "sunglasses.nvim";
@@ -1901,7 +1901,7 @@
       };
       runtimetable = pkgs.vimUtils.buildVimPlugin {
         pname = "runtimetable";
-        version = "";
+        version = "2026-03-14";
         src = pkgs.fetchFromGitHub {
           owner = "notomo";
           repo = "runtimetable.nvim";
@@ -1916,7 +1916,7 @@
       };
       web-tools = pkgs.vimUtils.buildVimPlugin {
         pname = "web-tools";
-        version = "";
+        version = "2025-03-14";
         src = pkgs.fetchFromGitHub {
           owner = "ray-x";
           repo = "web-tools.nvim";
@@ -1931,7 +1931,7 @@
       };
       Calendar = pkgs.vimUtils.buildVimPlugin {
         pname = "Calendar";
-        version = "";
+        version = "2025-05-13";
         src = pkgs.fetchFromGitHub {
           owner = "ds1sqe";
           repo = "Calendar.nvim";
@@ -1946,7 +1946,7 @@
       };
       http-codes = pkgs.vimUtils.buildVimPlugin {
         pname = "http-codes";
-        version = "";
+        version = "2026-03-20";
         src = pkgs.fetchFromGitHub {
           owner = "barrettruth";
           repo = "http-codes.nvim";
@@ -1961,7 +1961,7 @@
       };
       auto-pandoc = pkgs.vimUtils.buildVimPlugin {
         pname = "auto-pandoc";
-        version = "";
+        version = "2025-08-31";
         src = pkgs.fetchFromGitHub {
           owner = "jghauser";
           repo = "auto-pandoc.nvim";
@@ -1976,7 +1976,7 @@
       };
       vale = pkgs.vimUtils.buildVimPlugin {
         pname = "vale";
-        version = "";
+        version = "2024-05-07";
         src = pkgs.fetchFromGitHub {
           owner = "marcelofern";
           repo = "vale.nvim";
@@ -1991,7 +1991,7 @@
       };
       present = pkgs.vimUtils.buildVimPlugin {
         pname = "present";
-        version = "";
+        version = "2025-03-03";
         src = pkgs.fetchFromGitHub {
           owner = "Chaitanyabsprip";
           repo = "present.nvim";
@@ -2006,7 +2006,7 @@
       };
       flashcards = pkgs.vimUtils.buildVimPlugin {
         pname = "flashcards";
-        version = "";
+        version = "2022-09-25";
         src = pkgs.fetchFromGitHub {
           owner = "alex-laycalvert";
           repo = "flashcards.nvim";
@@ -2021,7 +2021,7 @@
       };
       license = pkgs.vimUtils.buildVimPlugin {
         pname = "license";
-        version = "";
+        version = "2023-05-13";
         src = pkgs.fetchFromGitHub {
           owner = "KronsyC";
           repo = "nvim-license";
@@ -2036,7 +2036,7 @@
       };
       live-server = pkgs.vimUtils.buildVimPlugin {
         pname = "live-server";
-        version = "";
+        version = "2026-03-22";
         src = pkgs.fetchFromGitHub {
           owner = "barrett-ruth";
           repo = "live-server.nvim";
@@ -2051,7 +2051,7 @@
       };
       nvim-mail-merge = pkgs.vimUtils.buildVimPlugin {
         pname = "nvim-mail-merge";
-        version = "";
+        version = "2025-05-07";
         src = pkgs.fetchFromGitHub {
           owner = "martineausimon";
           repo = "nvim-mail-merge";
@@ -2066,7 +2066,7 @@
       };
       better-digraphs = pkgs.vimUtils.buildVimPlugin {
         pname = "better-digraphs";
-        version = "";
+        version = "2024-11-16";
         src = pkgs.fetchFromGitHub {
           owner = "protex";
           repo = "better-digraphs.nvim";
@@ -2081,7 +2081,7 @@
       };
       qalc = pkgs.vimUtils.buildVimPlugin {
         pname = "qalc";
-        version = "";
+        version = "2026-01-29";
         src = pkgs.fetchFromGitHub {
           owner = "Apeiros-46B";
           repo = "qalc.nvim";
@@ -2096,7 +2096,7 @@
       };
       tldr = pkgs.vimUtils.buildVimPlugin {
         pname = "tldr";
-        version = "";
+        version = "2025-12-01";
         src = pkgs.fetchFromGitHub {
           owner = "acuteenvy";
           repo = "tldr.nvim";
@@ -2111,7 +2111,7 @@
       };
       pre-commit = pkgs.vimUtils.buildVimPlugin {
         pname = "pre-commit";
-        version = "";
+        version = "2025-09-08";
         src = pkgs.fetchFromGitHub {
           owner = "Ttibsi";
           repo = "pre-commit.nvim";
@@ -2126,7 +2126,7 @@
       };
       endpoint-previewer = pkgs.vimUtils.buildVimPlugin {
         pname = "endpoint-previewer";
-        version = "";
+        version = "2023-12-21";
         src = pkgs.fetchFromGitHub {
           owner = "tlj";
           repo = "endpoint-previewer.nvim";
@@ -2141,7 +2141,7 @@
       };
       fsread = pkgs.vimUtils.buildVimPlugin {
         pname = "fsread";
-        version = "";
+        version = "2023-02-20";
         src = pkgs.fetchFromGitHub {
           owner = "nullchilly";
           repo = "fsread.nvim";
@@ -2156,7 +2156,7 @@
       };
       feed = pkgs.vimUtils.buildVimPlugin {
         pname = "feed";
-        version = "";
+        version = "2025-12-15";
         src = pkgs.fetchFromGitHub {
           owner = "neo451";
           repo = "feed.nvim";
@@ -2171,7 +2171,7 @@
       };
       nerdy = pkgs.vimUtils.buildVimPlugin {
         pname = "nerdy";
-        version = "";
+        version = "2026-01-20";
         src = pkgs.fetchFromGitHub {
           owner = "2KAbhishek";
           repo = "nerdy.nvim";
@@ -2186,7 +2186,7 @@
       };
       interlaced = pkgs.vimUtils.buildVimPlugin {
         pname = "interlaced";
-        version = "";
+        version = "2025-07-21";
         src = pkgs.fetchFromGitHub {
           owner = "tanloong";
           repo = "interlaced.nvim";
@@ -2201,7 +2201,7 @@
       };
       texmagic = pkgs.vimUtils.buildVimPlugin {
         pname = "texmagic";
-        version = "";
+        version = "2026-03-02";
         src = pkgs.fetchFromGitHub {
           owner = "jakewvincent";
           repo = "texmagic.nvim";
@@ -2216,7 +2216,7 @@
       };
       drop = pkgs.vimUtils.buildVimPlugin {
         pname = "drop";
-        version = "";
+        version = "2025-10-28";
         src = pkgs.fetchFromGitHub {
           owner = "folke";
           repo = "drop.nvim";
@@ -2231,7 +2231,7 @@
       };
       regex-vars = pkgs.vimUtils.buildVimPlugin {
         pname = "regex-vars";
-        version = "";
+        version = "2025-03-31";
         src = pkgs.fetchFromGitHub {
           owner = "jake-stewart";
           repo = "regex-vars.nvim";
@@ -2246,7 +2246,7 @@
       };
       regexplainer = pkgs.vimUtils.buildVimPlugin {
         pname = "regexplainer";
-        version = "";
+        version = "2025-12-22";
         src = pkgs.fetchFromGitHub {
           owner = "bennypowers";
           repo = "nvim-regexplainer";
@@ -2261,7 +2261,7 @@
       };
       Hypersonic = pkgs.vimUtils.buildVimPlugin {
         pname = "Hypersonic";
-        version = "";
+        version = "2024-08-11";
         src = pkgs.fetchFromGitHub {
           owner = "tomiis4";
           repo = "Hypersonic.nvim";
@@ -2276,7 +2276,7 @@
       };
       structlog = pkgs.vimUtils.buildVimPlugin {
         pname = "structlog";
-        version = "";
+        version = "2023-01-08";
         src = pkgs.fetchFromGitHub {
           owner = "Tastyep";
           repo = "structlog.nvim";
@@ -2291,7 +2291,7 @@
       };
       color-picker = pkgs.vimUtils.buildVimPlugin {
         pname = "color-picker";
-        version = "";
+        version = "2023-05-21";
         src = pkgs.fetchFromGitHub {
           owner = "ziontee113";
           repo = "color-picker.nvim";
@@ -2306,7 +2306,7 @@
       };
       export-colorscheme = pkgs.vimUtils.buildVimPlugin {
         pname = "export-colorscheme";
-        version = "";
+        version = "2023-01-17";
         src = pkgs.fetchFromGitHub {
           owner = "jpe90";
           repo = "export-colorscheme.nvim";
@@ -2321,7 +2321,7 @@
       };
       kreative = pkgs.vimUtils.buildVimPlugin {
         pname = "kreative";
-        version = "";
+        version = "2022-12-10";
         src = pkgs.fetchFromGitHub {
           owner = "katawful";
           repo = "kreative";
@@ -2336,7 +2336,7 @@
       };
       text-to-colorscheme = pkgs.vimUtils.buildVimPlugin {
         pname = "text-to-colorscheme";
-        version = "";
+        version = "2024-08-14";
         src = pkgs.fetchFromGitHub {
           owner = "svermeulen";
           repo = "text-to-colorscheme";
@@ -2351,7 +2351,7 @@
       };
       easycolor = pkgs.vimUtils.buildVimPlugin {
         pname = "easycolor";
-        version = "";
+        version = "2024-05-24";
         src = pkgs.fetchFromGitHub {
           owner = "neph-iap";
           repo = "easycolor.nvim";
@@ -2366,7 +2366,7 @@
       };
       paint = pkgs.vimUtils.buildVimPlugin {
         pname = "paint";
-        version = "";
+        version = "2025-10-28";
         src = pkgs.fetchFromGitHub {
           owner = "folke";
           repo = "paint.nvim";
@@ -2381,7 +2381,7 @@
       };
       kubels = pkgs.vimUtils.buildVimPlugin {
         pname = "kubels";
-        version = "";
+        version = "2023-10-04";
         src = pkgs.fetchFromGitHub {
           owner = "elasticrash";
           repo = "kubels.nvim";
@@ -2396,7 +2396,7 @@
       };
       kubernetes = pkgs.vimUtils.buildVimPlugin {
         pname = "kubernetes";
-        version = "";
+        version = "2025-05-29";
         src = pkgs.fetchFromGitHub {
           owner = "diogo464";
           repo = "kubernetes.nvim";
@@ -2411,7 +2411,7 @@
       };
       kpops = pkgs.vimUtils.buildVimPlugin {
         pname = "kpops";
-        version = "";
+        version = "2025-11-20";
         src = pkgs.fetchFromGitHub {
           owner = "disrupted";
           repo = "kpops.nvim";
@@ -2426,7 +2426,7 @@
       };
       k8vim = pkgs.vimUtils.buildVimPlugin {
         pname = "k8vim";
-        version = "";
+        version = "2023-11-28";
         src = pkgs.fetchFromGitHub {
           owner = "alonso-montero";
           repo = "k8vim.nvim";
@@ -2441,7 +2441,7 @@
       };
       kubectl = pkgs.vimUtils.buildVimPlugin {
         pname = "kubectl";
-        version = "";
+        version = "2025-08-26";
         src = pkgs.fetchFromGitHub {
           owner = "michaelPotter";
           repo = "kubectl.nvim";
@@ -2456,7 +2456,7 @@
       };
       vim-ai = pkgs.vimUtils.buildVimPlugin {
         pname = "vim-ai";
-        version = "";
+        version = "2026-03-11";
         src = pkgs.fetchFromGitHub {
           owner = "madox2";
           repo = "vim-ai";
@@ -2471,7 +2471,7 @@
       };
       metrics = pkgs.vimUtils.buildVimPlugin {
         pname = "metrics";
-        version = "";
+        version = "2023-07-25";
         src = pkgs.fetchFromGitHub {
           owner = "mgerb";
           repo = "metrics.nvim";
@@ -2486,7 +2486,7 @@
       };
       orgmode = pkgs.vimUtils.buildVimPlugin {
         pname = "orgmode";
-        version = "";
+        version = "2026-03-19";
         src = pkgs.fetchFromGitHub {
           owner = "nvim-orgmode";
           repo = "orgmode";
@@ -2501,7 +2501,7 @@
       };
       twig = pkgs.vimUtils.buildVimPlugin {
         pname = "twig";
-        version = "";
+        version = "2023-12-04";
         src = pkgs.fetchFromGitHub {
           owner = "hugginsio";
           repo = "twig.nvim";
@@ -2516,7 +2516,7 @@
       };
       neorg-taskwarrior = pkgs.vimUtils.buildVimPlugin {
         pname = "neorg-taskwarrior";
-        version = "";
+        version = "2022-09-11";
         src = pkgs.fetchFromGitHub {
           owner = "skbolton";
           repo = "neorg-taskwarrior";
@@ -2531,7 +2531,7 @@
       };
       doing = pkgs.vimUtils.buildVimPlugin {
         pname = "doing-nvim";
-        version = "";
+        version = "2026-01-19";
         src = pkgs.fetchFromGitHub {
           owner = "Hashino";
           repo = "doing.nvim";
@@ -2546,7 +2546,7 @@
       };
       daily-focus = pkgs.vimUtils.buildVimPlugin {
         pname = "daily-focus";
-        version = "";
+        version = "2023-12-25";
         src = pkgs.fetchFromGitHub {
           owner = "steveclarke";
           repo = "daily-focus.nvim";
@@ -2561,7 +2561,7 @@
       };
       nomodoro = pkgs.vimUtils.buildVimPlugin {
         pname = "nomodoro";
-        version = "";
+        version = "2024-06-02";
         src = pkgs.fetchFromGitHub {
           owner = "dbinagi";
           repo = "nomodoro";
@@ -2576,7 +2576,7 @@
       };
       pommodoro-clock = pkgs.vimUtils.buildVimPlugin {
         pname = "pommodoro-clock";
-        version = "";
+        version = "2023-01-23";
         src = pkgs.fetchFromGitHub {
           owner = "jackMort";
           repo = "pommodoro-clock.nvim";
@@ -2591,7 +2591,7 @@
       };
       timew = pkgs.vimUtils.buildVimPlugin {
         pname = "timew";
-        version = "";
+        version = "2024-02-21";
         src = pkgs.fetchFromGitHub {
           owner = "eliasCVII";
           repo = "timew.nvim";
@@ -2606,7 +2606,7 @@
       };
       pomodoro = pkgs.vimUtils.buildVimPlugin {
         pname = "pomodoro";
-        version = "";
+        version = "2024-04-29";
         src = pkgs.fetchFromGitHub {
           owner = "wthollingsworth";
           repo = "pomodoro.nvim";
@@ -2621,7 +2621,7 @@
       };
       tdo = pkgs.vimUtils.buildVimPlugin {
         pname = "tdo";
-        version = "";
+        version = "2025-11-20";
         src = pkgs.fetchFromGitHub {
           owner = "2KAbhishek";
           repo = "tdo.nvim";
@@ -2636,7 +2636,7 @@
       };
       tktodo = pkgs.vimUtils.buildVimPlugin {
         pname = "tktodo";
-        version = "";
+        version = "2023-01-26";
         src = pkgs.fetchFromGitHub {
           owner = "tarting";
           repo = "tktodo.nvim";
@@ -2651,7 +2651,7 @@
       };
       zettelkasten = pkgs.vimUtils.buildVimPlugin {
         pname = "zettelkasten";
-        version = "";
+        version = "2025-09-21";
         src = pkgs.fetchFromGitHub {
           owner = "Furkanzmc";
           repo = "zettelkasten.nvim";
@@ -2666,7 +2666,7 @@
       };
       sche = pkgs.vimUtils.buildVimPlugin {
         pname = "sche";
-        version = "";
+        version = "2024-08-18";
         src = pkgs.fetchFromGitHub {
           owner = "Cassin01";
           repo = "sche.nvim";
@@ -2681,7 +2681,7 @@
       };
       flote = pkgs.vimUtils.buildVimPlugin {
         pname = "flote";
-        version = "";
+        version = "2024-04-13";
         src = pkgs.fetchFromGitHub {
           owner = "JellyApple102";
           repo = "flote.nvim";
@@ -2696,7 +2696,7 @@
       };
       quicknote = pkgs.vimUtils.buildVimPlugin {
         pname = "quicknote";
-        version = "";
+        version = "2025-01-26";
         src = pkgs.fetchFromGitHub {
           owner = "RutaTang";
           repo = "quicknote.nvim";
@@ -2711,7 +2711,7 @@
       };
       scratch-buffer = pkgs.vimUtils.buildVimPlugin {
         pname = "scratch-buffer";
-        version = "";
+        version = "2023-10-27";
         src = pkgs.fetchFromGitHub {
           owner = "miguelcrespo";
           repo = "scratch-buffer.nvim";
@@ -2726,7 +2726,7 @@
       };
       edit-list = pkgs.vimUtils.buildVimPlugin {
         pname = "edit-list";
-        version = "";
+        version = "2023-10-31";
         src = pkgs.fetchFromGitHub {
           owner = "Sharonex";
           repo = "edit-list.nvim";
