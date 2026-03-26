@@ -1,3 +1,9 @@
+# /// script
+# dependencies = [
+#   "adiumentum>=0.7.1",
+# ]
+# ///
+
 """
 Utility script to install plugins on non-nix systems.
 
@@ -18,10 +24,21 @@ Subcommands:
     - write-script
 """
 
-import sys
+from adiumentum import (  # type: ignore
+    Colorizer,
+    JsonContainer,
+    JsonObject,
+    JsonValue,
+    Version,
+    run,
+    capture,
+    run_with_result,
+    read_json,
+    read_jsonc,
+    write_json,
+)
 from dataclasses import dataclass
 import json
-import operator
 import os
 from pathlib import Path
 from enum import StrEnum, auto
@@ -36,193 +53,14 @@ import argparse
 from typing import Any, Callable, Final, Iterable, Literal, NotRequired, Self, TypedDict
 
 
-class Colorizer:
-    def __init__(self, use_colors: bool = True) -> None:
-        if use_colors:
-            self.BLACK = "\u001b[30m"
-            self.RED = "\u001b[31m"
-            self.GREEN = "\u001b[32m"
-            self.YELLOW = "\u001b[33m"
-            self.BLUE = "\u001b[34m"
-            self.MAGENTA = "\u001b[35m"
-            self.CYAN = "\u001b[36m"
-            self.WHITE = "\u001b[37m"
-            self.RESET = "\u001b[0m"
-        else:
-            self.BLACK = ""
-            self.RED = ""
-            self.GREEN = ""
-            self.YELLOW = ""
-            self.BLUE = ""
-            self.MAGENTA = ""
-            self.CYAN = ""
-            self.WHITE = ""
-            self.RESET = ""
-
-    @staticmethod
-    def strip(s: str) -> str:
-        return s[5:-4] if s.startswith("\u001b") else s
-
-    def length(self, s: str) -> int:
-        return len(self.strip(s))
-
-    def black(self, text: str) -> str:
-        return self._format(text, self.BLACK)
-
-    def red(self, text: str) -> str:
-        return self._format(text, self.RED)
-
-    def green(self, text: str) -> str:
-        return self._format(text, self.GREEN)
-
-    def yellow(self, text: str) -> str:
-        return self._format(text, self.YELLOW)
-
-    def blue(self, text: str) -> str:
-        return self._format(text, self.BLUE)
-
-    def magenta(self, text: str) -> str:
-        return self._format(text, self.MAGENTA)
-
-    def cyan(self, text: str) -> str:
-        return self._format(text, self.CYAN)
-
-    def white(self, text: str) -> str:
-        return self._format(text, self.WHITE)
-
-    def _format(self, text: str, color_code: str) -> str:
-        return f"{color_code}{text}{self.RESET}"
-
-
 color = Colorizer()
-
-
-class Version:
-    def __init__(self, major: int, minor: int, patch: int | str | None = None) -> None:
-        self.major = major
-        self.minor = minor
-        self.patch = patch
-
-    @property
-    def patch_or_0(self) -> int | str:
-        return self.patch or 0
-
-    @classmethod
-    def from_string(cls, version_string: str) -> Self | str:
-        semver_pattern = re.compile(
-            r".*?(?P<major>[0-9]+)\.(?P<minor>[0-9]+)(\.(?P<patch>.*))?"
-            ""
-        )
-        search_result = re.search(semver_pattern, version_string)
-        patch: str | int | None
-        if search_result:
-            gd = search_result.groupdict()
-            _patch = gd.get("patch")
-            try:
-                patch = int(_patch)  # type: ignore
-            except TypeError:
-                patch = _patch
-
-            return cls(int(gd["major"]), int(gd["minor"]), patch)
-        return version_string
-
-    def __str__(self) -> str:
-        return f"{self.major}.{self.minor}.{self.patch}"
-
-    def __repr__(self) -> str:
-        return str(self)
-
-    def __eq__(self, other: object) -> bool:
-        if not isinstance(other, Version):
-            raise TypeError
-        return self.major == other.major and self.minor == other.minor and self.patch_or_0 == other.patch_or_0
-
-    def minor_equal(self, other: Version) -> bool:
-        return self.major == other.major and self.minor == other.minor
-
-    def meets_constraint(self, constraint: str) -> bool:
-        pattern: re.Pattern[str] = re.compile(r"^ *(?P<op>\^|[\>\<\=]\=?) *(?P<version>.+) *")
-        for segment in re.split(r" *, *", constraint):
-            if not (search := re.search(pattern, segment)):
-                raise ValueError(segment)
-            gd = search.groupdict()
-            if not isinstance(ver := Version.from_string(gd["version"]), Version):
-                raise ValueError(gd["version"])
-            op = {
-                "==": operator.eq,
-                "=": operator.eq,
-                ">": operator.gt,
-                "<": operator.lt,
-                ">=": operator.ge,
-                "<=": operator.le,
-            }[gd["op"]]
-            if not op(self, ver):
-                return False
-
-        return True
-
-    def distance(self, other: Version) -> str:
-        def _distance(a: Version, b: Version) -> str:
-            def replace_negative(i: int) -> str:
-                return "?" if i < 0 else str(i)
-
-            major = replace_negative(b.major - a.major)
-            if major == "?":
-                breakpoint()
-            minor = replace_negative(b.minor - a.minor)
-            try:
-                if b.patch_or_0 == a.patch_or_0:
-                    _patch = 0
-                else:
-                    _patch = b.patch_or_0 - a.patch_or_0  # type: ignore
-                patch = replace_negative(_patch)
-            except TypeError:
-                patch = "?"
-            return f"{major}.{minor}.{patch}"
-
-        if self > other:
-            return _distance(other, self)
-        elif other > self:
-            return _distance(self, other)
-        breakpoint()
-        return "?.?.?"
-
-    def __sub__(self: Self, other: Version) -> Version:
-        try:
-            patch_diff = self.patch_or_0 - other.patch_or_0  # type: ignore
-        except TypeError:
-            patch_diff = "?"
-        return self.__class__(
-            self.major - other.major,
-            self.minor - other.minor,
-            patch_diff,
-        )
-
-    def __ge__(self, other: Version) -> bool:
-        if (self.major, self.minor, self.patch_or_0) < (other.major, other.minor, self.patch_or_0):
-            return False
-        if self.minor_equal(other) and (type(self.patch_or_0) != type(self.patch_or_0)):
-            return False
-        return (self.major, self.minor) >= (other.major, other.minor)
-
-    def __gt__(self, other: Version) -> bool:
-        if (self.major, self.minor, str(self.patch_or_0)) <= (other.major, other.minor, str(other.patch_or_0)):
-            return False
-        if self.minor_equal(other):
-            if type(self.patch_or_0) != type(other.patch_or_0):
-                return False
-
-        return (self.major, self.minor, self.patch_or_0) > (other.major, other.minor, other.patch_or_0)
 
 
 class NvimtoolConfig(TypedDict): ...
 
 
 type CommandList = list[str | Path | int | float]
-type JsonValue = int | float | str | bool | None
-type JsonArray = Sequence[JsonValue | JsonObject]
-type JsonObject = Mapping[str, JsonValue | JsonObject | JsonArray]
-type JsonContainer = JsonArray | JsonObject
+
 type LuaTable = dict[str, str] | dict[str, list[str]] | dict[int, dict[int, set[str]]]
 type PluginSpecData = Sequence[PluginSpecDict]
 type PluginLockTable = Mapping[str, PluginLockData | None]
@@ -254,19 +92,6 @@ class Utils:
         return cast(JsonContainer, json.loads(path.read_text()))
 
     @staticmethod
-    def read_jsonc(path: Path) -> JsonContainer:
-        def _strip_comments(s: str) -> str:
-            s = s.strip()
-            if s.startswith("//"):
-                return ""
-            return search.group(1) if (search := re.search(r"^(.+?[,\"\}\]\d e]) *//.*$", s)) else s
-
-        return cast(
-            JsonContainer,
-            json.loads("".join(map(_strip_comments, path.read_text().splitlines()))),
-        )
-
-    @staticmethod
     def get_commit_info(path: Path) -> tuple[str, str]:
         if not (path / ".git").is_dir():
             return "AAAAAAAAAAAAAAAA", "1970-01-01"
@@ -276,51 +101,13 @@ class Utils:
         return sha[1:], date[:10]
 
     @staticmethod
-    def run(commands: CommandList, **kwargs) -> subprocess.CompletedProcess[bytes]:
-        return subprocess.run(list(map(str, commands)), check=True, capture_output=True, **kwargs)
-
-    @staticmethod
-    def run_with_result(
-        commands: CommandList,
-        print_output: bool = False,
-        fail_on_error: bool = True,
-        **kwargs,
-    ) -> tuple[bool, str]:
-        _commands: list[str] = list(map(str, commands))
-        subproc_result = subprocess.run(_commands, capture_output=True, **kwargs)
-        result = not bool(subproc_result.returncode)
-        stdout = subproc_result.stdout.decode().strip()
-        stdout = stdout + "\n" * bool(stdout)
-        stderr = subproc_result.stderr.decode().strip()
-        stderr = stderr + "\n" * bool(stdout)
-        bar = "-" * 36
-        topbar = f"{'=' * 36} {color.blue('COMMAND')} {'=' * 35}"
-        command_literal = " ".join(list(map(str, _commands)))
-        msg = (
-            f"\n{topbar}\n{color.blue(command_literal)}"
-            f"\n\n{bar} {color.green('STDOUT')} {bar}\n{stdout}\n{bar} {color.red('STDERR')} {bar}\n{stderr}\n"
-        )
-        if fail_on_error and not result:
-            print(color.red(f"\nCommand failed: {command_literal}'"))
-            print(msg)
-            sys.exit(1)
-        if print_output:
-            print()
-            print(msg)
-        return result, msg
-
-    @staticmethod
-    def capture(commands: CommandList) -> str:
-        return subprocess.run(list(map(str, commands)), capture_output=True).stdout.decode().strip()
-
-    @classmethod
-    def get_executable_and_version(cls, name: str, subcommand: str | None = None) -> tuple[str, str]:
-        executable = cls.capture(["which", name])
+    def get_executable_and_version(name: str, subcommand: str | None = None) -> tuple[str, str]:
+        executable = capture(["which", name])
 
         if not executable:
             return "", ""
 
-        output = cls.capture([executable, subcommand or "--version"])
+        output = capture([executable, subcommand or "--version"])
         search = re.search(r"\bv?([\d\.]+)\b", output)
         return executable, (search.group(1) if search else "")
 
@@ -345,17 +132,17 @@ class Utils:
             "HEAD..origin/HEAD",
             "--oneline",
         ]
-        Utils.run(fetch_command)
-        output = Utils.capture(diff_command)
+        run(fetch_command)
+        output = capture(diff_command)
         if output:
             print(output)
         return bool(output)
 
-    @classmethod
-    def read_config(cls, path: Path) -> dict[str, str | Path]:
+    @staticmethod
+    def read_config(path: Path) -> dict[str, str | Path]:
         if not path.exists():
             return {}
-        d = cast(dict[str, str | Path], cls.read_jsonc(path))
+        d = cast(dict[str, str | Path], read_jsonc(path))
         for k in ("config-source", "config-target", "plugin-dir"):
             d[k] = Path(d[k]).resolve()
         return d
@@ -518,7 +305,7 @@ class Paths:
 
     @classmethod
     def from_json(cls, json_file: Path) -> Self:
-        d = cast(dict[str, str], Utils.read_jsonc(json_file))
+        d = cast(dict[str, str], read_jsonc(json_file))
         return cls(
             config_source=Path(d.get("config-source", "~/repos/nvim-config/testing")).resolve(),
             config_destination=Path(d.get("config-target", "~/.config/nvim/trial")).resolve(),
@@ -753,7 +540,7 @@ def install_plugin_simple(spec: Spec, directory: Path, update_existing: bool = F
 
         subprocess.run(["git", "clone", *command_specifics, url, destination], check=True)
         if post_command:
-            Utils.run(post_command)
+            run(post_command)
 
         return InstallStatus.SUCCESS, destination
 
@@ -772,7 +559,7 @@ class Specs:
 
     @classmethod
     def from_paths(cls, paths: Paths) -> Self:
-        dicts = cast(list[PluginSpecDict], Utils.read_jsonc(paths.plugins_jsonc))
+        dicts = cast(list[PluginSpecDict], read_jsonc(paths.plugins_jsonc))
         return cls(
             _specs=dict((s.name, s) for s in map(Spec.from_dict, dicts)),
             directory=paths.plugin_dir,
@@ -825,7 +612,7 @@ class LockData:
     @classmethod
     def from_paths(cls, paths: Paths) -> Self:
         return cls(
-            _lock=cast(dict[str, PluginLockData | None], Utils.read_json(paths.plugins_lock)),
+            _lock=cast(dict[str, PluginLockData | None], read_json(paths.plugins_lock)),
             directory=paths.plugin_dir,
         )
 
@@ -845,8 +632,8 @@ class LockData:
         sha: str,
     ) -> tuple[InstallStatus, Path]:
         try:
-            Utils.run(["git", "clone", "--filter=blob:none", url, destination])
-            Utils.run(["git", "-C", str(destination), "checkout", sha])
+            run(["git", "clone", "--filter=blob:none", url, destination])
+            run(["git", "-C", str(destination), "checkout", sha])
 
             return InstallStatus.SUCCESS, destination
 
@@ -868,7 +655,7 @@ class LockData:
 class ExternalToolSpecs(list[ExternalToolSpec]):
     @classmethod
     def from_paths(cls, paths: Paths) -> Self:
-        return cls(cast(list[ExternalToolSpec], Utils.read_jsonc(paths.external_tools_declaration)))
+        return cls(cast(list[ExternalToolSpec], read_jsonc(paths.external_tools_declaration)))
 
 
 def write_plugin_paths_tl(paths: Paths, plugin_lock: LockData | PluginLockTable) -> None:
@@ -946,12 +733,10 @@ def transpile_tl(paths: Paths) -> None:
         "build",
         "--prune",
     ]
-    Utils.run_with_result(cyan_command, cwd=tl_root, fail_on_error=True, print_output=True)
-    result, _ = Utils.run_with_result(
-        ["stylua", transpile_target / "init.lua", transpile_target / "lua"], print_output=True
-    )
+    run_with_result(cyan_command, cwd=tl_root, fail_on_error=True, print_output=True)
+    result, _ = run_with_result(["stylua", transpile_target / "init.lua", transpile_target / "lua"], print_output=True)
     if result:
-        Utils.run_with_result(["lua", str(paths.cleanup_lua), transpile_target], fail_on_error=True, print_output=True)
+        run_with_result(["lua", str(paths.cleanup_lua), transpile_target], fail_on_error=True, print_output=True)
     shutil.copytree(copy_target, paths.backup_dir / copy_target.name)
     shutil.copytree(transpile_target, copy_target, dirs_exist_ok=True)
     print("Built lua config.")
@@ -966,7 +751,7 @@ def install_new(paths: Paths) -> None:
     specs = Specs.from_paths(paths)
     lock: dict[str, PluginLockData | None] = specs.install_plugins()
     write_plugin_paths_tl(paths, lock)
-    Utils.write_json(cast(JsonObject, lock), paths.plugins_lock)
+    write_json(cast(JsonObject, lock), paths.plugins_lock)
     print(f"lockfile written to {paths.plugins_lock}")
 
 
@@ -1012,16 +797,16 @@ def check_updates(paths: Paths) -> None:
             if updates_available:
                 update_info.update({name: {"path": paths.rel(repo)}})
                 print(f"Updates available for {repo}")
-    Utils.write_json(update_info, paths.available_updates)
+    write_json(update_info, paths.available_updates)
 
 
 def apply_updates(paths: Paths) -> None:
-    update_info = cast(dict[str, dict[str, str]], Utils.read_json(paths.available_updates))
+    update_info = cast(dict[str, dict[str, str]], read_json(paths.available_updates))
     lock = LockData.from_paths(paths)
     for name, info in update_info.items():
         lock_data = update_plugin(info["path"])
         lock.update(name, lock_data)
-    Utils.write_json(cast(JsonObject, lock), paths.plugins_lock)
+    write_json(cast(JsonObject, lock), paths.plugins_lock)
 
 
 def update_and_install_plugins(paths: Paths) -> None:
@@ -1055,7 +840,7 @@ def snapshot_tools(paths: Paths) -> None:
         executable = tool["executable"]
         executable_path, version_str = Utils.get_executable_and_version(executable)
         tools_lock.update({executable: {"path": paths.rel(executable_path or None), "version": version_str or None}})
-    Utils.write_json(cast(JsonObject, tools_lock), paths.external_tools_lock)
+    write_json(cast(JsonObject, tools_lock), paths.external_tools_lock)
     paths.external_tools_tl.write_text(
         Utils.write_table(cast(LuaTable, tools_lock), head=r"local M: {string: {string: string}} = ", foot="\nreturn M")
     )
