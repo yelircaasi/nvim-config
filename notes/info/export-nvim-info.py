@@ -11,7 +11,7 @@ def arg_or_envvar(argpos: int, envvarname: str, fallback: str | Path) -> str:
     try:
         return sys.argv[argpos]
     except:
-        return os.getenv(envvarname) or fallback
+        return os.getenv(envvarname) or str(fallback)
 
 
 DEVICE_NAME = arg_or_envvar(1, "DEVICE_NAME", socket.gethostname())
@@ -167,6 +167,13 @@ def split_blocks(s: str) -> list[str]:
     return re.split(BLOCK_SPLITTER, s)
 
 
+def safe_search(p: re.Pattern[str], s: str) -> dict[str, str]:
+    result = re.search(p, s)
+    if not result:
+        return {}
+    return result.groupdict()
+
+
 def parse_colors(raw: str) -> dict[str, dict[str, str]]:
     c = {}
     blocks = split_blocks(raw)
@@ -174,7 +181,7 @@ def parse_colors(raw: str) -> dict[str, dict[str, str]]:
         result = re.search(COLOR_PATTERN, block)
         if result:
             gd = result.groupdict()
-            gd |= re.search(COLOR_BODY_PATTERN, gd["body"] or "").groupdict()
+            gd |= safe_search(COLOR_BODY_PATTERN, gd["body"] or "")
             c.update({gd["name"]: {key: gd[key] for key in COLOR_KEYS}})
 
         else:
@@ -226,14 +233,24 @@ def parse_commands(raw: str) -> dict[str, dict[str, str]]:
     return c
 
 
-def parse_rtp(raw: str) -> dict[str, dict[str, str]]:
-    r: dict[str, dict[str, str]] = {}
+def safe_search_group1(p: re.Pattern[str] | str, s: str, optional: bool = False) -> str:
+    p = re.compile(p) if isinstance(p, str) else p
+    if not (result := re.search(p, s)):
+        if not optional:
+            raise ValueError(f"{p} not found in {s}")
+        return ""
+    return result.group(1)
+    
 
-    default = re.search(r'default = "([^\n]+)",', raw).group(1)
+
+def parse_rtp(raw: str) -> dict[str, list[str] | dict[str, str | list[str]]]:
+    r: dict[str, list[str] | dict[str, str | list[str]]] = {}
+
+    default = safe_search_group1(r'default = "([^\n]+)",', raw)
     print(default)
     r["default"] = default.split(",")
 
-    value = re.search(r'_value = "([^\n]+)",', raw).group(1)
+    value = safe_search_group1(r'_value = "([^\n]+)",', raw)
     print(default)
     r["value"] = value.split(",")
 

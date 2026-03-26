@@ -888,7 +888,7 @@ def write_plugin_paths_tl(paths: Paths, plugin_lock: LockData | PluginLockTable)
 def write_plugin_layers_tl(paths: Paths, plugin_data: PluginSpecData) -> None:
     layers: dict[int, dict[int, set]] = {d["layer"]: {} for d in plugin_data}
     for d in plugin_data:
-        layer, sublayer = d["layer"], d["sublayer"]
+        layer, sublayer = d["layer"], d.get("sublayer", -1)
         if sublayer not in layers[layer]:
             layers[layer].update({sublayer: set()})
         layers[layer][sublayer].add(d["name"])
