@@ -1,5 +1,4 @@
 from pathlib import Path
-import json
 from typing import cast
 
 from nvimtool import Source, Utils
@@ -15,7 +14,7 @@ level4 = " " * 4 * indent_size
 
 nn = Path.home() / ("repos/nvim-config/testing/declarations/nix-info.json")
 result = Path.home() / ("repos/nvim-config/testing/snapshots/nvim-plugins.nix")
-flake = Path.home() / ("repos/nvim-config/testing/snapshots/flake_.nix")
+flake = Path.home() / ("repos/nvim-config/testing/snapshots/flake.nix")
 
 plugin_expr_template = """{name} = pkgs.vimUtils.buildVimPlugin {lbrace}
         pname = "{nix_name}";
