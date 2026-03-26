@@ -1,0 +1,2258 @@
+{
+    "AdvancedNewFile": {
+        "name": "AdvancedNewFile",
+        "path": "/nix/store/yq94mwbxc00azlws1308vc5v54igh7z7-vimplugin-AdvancedNewFile-",
+        "rev": "9b4576dcf916d848148241e7269c9cd78f299b22",
+        "version": ""
+    },
+    "Calendar": {
+        "name": "Calendar",
+        "path": "/nix/store/dsr5xlimg5ax3lgsl7vi4i9xf5hhz11x-vimplugin-Calendar-",
+        "rev": "d89b3ba88c27d66ff8af410ea65975b94ce55f59",
+        "version": ""
+    },
+    "Comment": {
+        "name": "Comment",
+        "path": "/nix/store/csh6k9rl8f4gzmbxvydzbpqxjs68c3xn-vimplugin-comment.nvim-0.8.0-unstable-2024-06-09",
+        "rev": "e30b7f2008e52442154b66f7c519bfd2f1e32acb",
+        "version": "0.8.0-unstable-2024-06-09"
+    },
+    "FeMaco": {
+        "name": "FeMaco",
+        "path": "/nix/store/jkapn2k2x7qpqj5hpnxvlswwzv2qzp4w-vimplugin-nvim-FeMaco.lua-0-unstable-2024-04-21",
+        "rev": "96bbf843595dbe865838b3f2484b73557f34700c",
+        "version": "0-unstable-2024-04-21"
+    },
+    "Hypersonic": {
+        "name": "Hypersonic",
+        "path": "/nix/store/pz4zd2fjp9537v77zsr6zjc09w4kh5cw-vimplugin-Hypersonic-",
+        "rev": "734dfbfbe51952f102a9b439d53d4267bb0024cd",
+        "version": ""
+    },
+    "Launch": {
+        "name": "Launch",
+        "path": "/nix/store/1rlj1p1602hr3cxaj662rx5w0v1r3i28-vimplugin-Launch-",
+        "rev": "93535ba3d243880ac3d9bf62c5b4e2297c775def",
+        "version": ""
+    },
+    "LuaSnip": {
+        "name": "LuaSnip",
+        "path": "/nix/store/dak7iv7ja5zignqpl6x38z468cjn8hnq-vimplugin-luajit2.1-luasnip-2.4.1-1-unstable-2.4.1-1",
+        "rev": "unknown",
+        "version": "2.4.1-1-unstable-2.4.1-1"
+    },
+    "NeoComposer": {
+        "name": "NeoComposer",
+        "path": "/nix/store/s628cmpzivf2k6dvx5c1gxjgzvj4vf0q-vimplugin-NeoComposer-",
+        "rev": "83f78b23c4f6826b0f484a91869415b85f74b24f",
+        "version": ""
+    },
+    "TreePin": {
+        "name": "TreePin",
+        "path": "/nix/store/ilis9qs7fhcrmisz0219cxs8hswcjza2-vimplugin-TreePin-2023-07-20",
+        "rev": "e9063721edb2bae0b16433e7c1ee562ce1ac1597",
+        "version": "2023-07-20"
+    },
+    "actions-preview": {
+        "name": "actions-preview",
+        "path": "/nix/store/vxpq0flpf8lw6laanbgwa3j7s3wagxzc-vimplugin-actions-preview.nvim-0-unstable-2025-10-03",
+        "rev": "cb938c25edaac38d362555f19244a9cb85d561e8",
+        "version": "0-unstable-2025-10-03"
+    },
+    "advanced-git-search": {
+        "name": "advanced-git-search",
+        "path": "/nix/store/qa4rnfdgpg510hhdlaihyhqpysicz6fa-vimplugin-advanced-git-search.nvim-1.2.0-unstable-2025-12-09",
+        "rev": "cead1214709226bdef89093f0c58964fb65c81e8",
+        "version": "1.2.0-unstable-2025-12-09"
+    },
+    "aerial": {
+        "name": "aerial",
+        "path": "/nix/store/dixnpbmmwcal95m0wm7sqcadyjg60sn6-vimplugin-aerial.nvim-3.1.0-unstable-2026-02-25",
+        "rev": "645d108a5242ec7b378cbe643eb6d04d4223f034",
+        "version": "3.1.0-unstable-2026-02-25"
+    },
+    "anydent": {
+        "name": "anydent",
+        "path": "/nix/store/vaxcpv33hixwlbj0mxfwf027fhkwsx3p-vimplugin-anydent-",
+        "rev": "b6151bd50d5935522a71709202a0495a50681156",
+        "version": ""
+    },
+    "apm": {
+        "name": "apm",
+        "path": "/nix/store/k9jgxwc2pjzcdyf6wknf60dxh4awds74-vimplugin-apm-",
+        "rev": "0e96b6222f322377063d1940648bd78a15cf55e9",
+        "version": ""
+    },
+    "arrow": {
+        "name": "arrow",
+        "path": "/nix/store/y5f0j1r4nfp9s6wc4a9j2k00yxy8y08s-vimplugin-arrow.nvim-0-unstable-2025-03-31",
+        "rev": "6e0f726f55f99332dd726a53effd6813786b6d49",
+        "version": "0-unstable-2025-03-31"
+    },
+    "asyncrun": {
+        "name": "asyncrun",
+        "path": "/nix/store/m42qx8kqagbbrbicpz83i4nxjpjfabwg-vimplugin-asyncrun.vim-2.13.4-unstable-2025-11-20",
+        "rev": "98d3c0fdeb983f0ef62fe3a49da440f6d2c045ce",
+        "version": "2.13.4-unstable-2025-11-20"
+    },
+    "auto-pandoc": {
+        "name": "auto-pandoc",
+        "path": "/nix/store/dc9njyznhpc6blf4q5n9b991j99jwnl4-vimplugin-auto-pandoc-",
+        "rev": "1e28cbb1de644be466a36a009c6fd3b7950cacf7",
+        "version": ""
+    },
+    "auto-session": {
+        "name": "auto-session",
+        "path": "/nix/store/1i68wz1kag108b4cxa44r2f0gqdxlbw5-vimplugin-auto-session-0-unstable-2026-02-15",
+        "rev": "62437532b38495551410b3f377bcf4aaac574ebe",
+        "version": "0-unstable-2026-02-15"
+    },
+    "avante": {
+        "name": "avante",
+        "path": "/nix/store/bfd53scjjnzb6xfhff594azljcssanyl-vimplugin-avante.nvim-0.0.27-unstable-2026-03-11",
+        "rev": "9a7793461549939f1d52b2b309a1aa44680170c8",
+        "version": "0.0.27-unstable-2026-03-11"
+    },
+    "ax": {
+        "name": "ax",
+        "path": "/nix/store/c2pwavk4axh2yhrgb7rb63wv4mv97skg-vimplugin-ax-",
+        "rev": "f9ed1a62197ade90a3bf3f02b518d6f70c067690",
+        "version": ""
+    },
+    "bafa": {
+        "name": "bafa",
+        "path": "/nix/store/nkhgf3inkxhzkvxf7pp1crgxrn2cvbkg-vimplugin-bafa-2026-03-12",
+        "rev": "e5886581dcd8aba95e813a01fa77fef864ee3135",
+        "version": "2026-03-12"
+    },
+    "baleia": {
+        "name": "baleia",
+        "path": "/nix/store/idyamdjjm8l28qlb37d54z53iajpz280-vimplugin-baleia.nvim-1.4.0-unstable-2026-02-03",
+        "rev": "32617940adb2eea56e85a64883a19961ceac9641",
+        "version": "1.4.0-unstable-2026-02-03"
+    },
+    "bamboo": {
+        "name": "bamboo",
+        "path": "/nix/store/yny2yrbgki572cgpgdaj0h490z3gw5di-vimplugin-bamboo.nvim-0-unstable-2025-11-25",
+        "rev": "1309bc88bffcf1bedc3e84e7fa9004de93da774a",
+        "version": "0-unstable-2025-11-25"
+    },
+    "barbar": {
+        "name": "barbar",
+        "path": "/nix/store/d7f1gm4fhp43cgf3f2wjpays370bq45y-vimplugin-barbar.nvim-1.9.1-unstable-2025-12-02",
+        "rev": "539d73def39c9172b4d4d769f14090e08f37b29d",
+        "version": "1.9.1-unstable-2025-12-02"
+    },
+    "beam": {
+        "name": "beam",
+        "path": "/nix/store/g9fvs8ns9fv4f32nbwmjbi0k7hagcqwr-vimplugin-beam-",
+        "rev": "78c0cb21b2ad026768d2ff96f1570c4c2d5d8087",
+        "version": ""
+    },
+    "better-digraphs": {
+        "name": "better-digraphs",
+        "path": "/nix/store/120g2q8pq70gpfcd26v8z65hbvhq63sn-vimplugin-better-digraphs-",
+        "rev": "c895f619cbd2e23860285baea6d2933649a28b26",
+        "version": ""
+    },
+    "blame": {
+        "name": "blame",
+        "path": "/nix/store/h0daaqnfqd1mmfbxbj2vfzd06899clnf-vimplugin-blame.nvim-0-unstable-2026-02-12",
+        "rev": "179da7aaacce7c52874af636255ede72dd6fe796",
+        "version": "0-unstable-2026-02-12"
+    },
+    "blink": {
+        "name": "blink",
+        "path": "/nix/store/s9gv8j0d3l2zq46jji3mcdi9and9hrzz-vimplugin-TODO-separate-packages-",
+        "rev": "d1e7c7c45d45c6b6a25427bf62db4db73b03ff3d",
+        "version": ""
+    },
+    "blink.cmp": {
+        "name": "blink.cmp",
+        "path": "/nix/store/2ng27bi2y9dyxq16kdhdh5d0h89k0n43-vimplugin-blink.cmp-1.10.1",
+        "rev": "refs/tags/v1.10.1",
+        "version": "1.10.1"
+    },
+    "blink.pairs": {
+        "name": "blink.pairs",
+        "path": "/nix/store/bi148765lqbw6s2i5wkkr4fh72al4bwc-vimplugin-blink.pairs-0.4.1",
+        "rev": "refs/tags/v0.4.1",
+        "version": "0.4.1"
+    },
+    "bqf": {
+        "name": "bqf",
+        "path": "/nix/store/3rnkb2779xlwcx0qhsc8dnhq6z6wn4kq-vimplugin-nvim-bqf-1.1.1-unstable-2026-02-02",
+        "rev": "f65fba733268ffcf9c5b8ac381287eca7c223422",
+        "version": "1.1.1-unstable-2026-02-02"
+    },
+    "bufferline": {
+        "name": "bufferline",
+        "path": "/nix/store/x4lnl991zwgrvd9nhz92hr11znrb1slv-vimplugin-bufferline.nvim-4.9.1-unstable-2025-01-14",
+        "rev": "655133c3b4c3e5e05ec549b9f8cc2894ac6f51b3",
+        "version": "4.9.1-unstable-2025-01-14"
+    },
+    "bullets": {
+        "name": "bullets",
+        "path": "/nix/store/4pgls7z03c637zw9q2wp11kdhm4hk55h-vimplugin-bullets-",
+        "rev": "0163fac9c1e7a04cd14d22aa63fd04509cad6900",
+        "version": ""
+    },
+    "bye-nerdfont": {
+        "name": "bye-nerdfont",
+        "path": "/nix/store/sp7d0xc4ixrcvpd0vqzj9p0lap7cba80-vimplugin-bye-nerdfont-",
+        "rev": "2c7951e404250f6bc98e625a3920a9a3d0432f11",
+        "version": ""
+    },
+    "chadtree": {
+        "name": "chadtree",
+        "path": "/nix/store/4lsfkjymmd66amspcvfg9lr5vj80s6hp-vimplugin-chadtree-0-unstable-2026-01-18",
+        "rev": "6c37557462f9a8b51d0fc873c63863672a45cf5a",
+        "version": "0-unstable-2026-01-18"
+    },
+    "channelot": {
+        "name": "channelot",
+        "path": "/nix/store/3dq6pfqd385abil6yh1cdiifxfhx0a1r-vimplugin-channelot-",
+        "rev": "80259020d16730266b7173eac1f38aea66b706c2",
+        "version": ""
+    },
+    "clever-f.vim": {
+        "name": "clever-f.vim",
+        "path": "/nix/store/4d5k7ncbmhg71hk2308jnhqmbjfmj7cf-vimplugin-clever-f.vim-0-unstable-2022-10-15",
+        "rev": "6a3ac5e3688598af9411ab741737f98c47370c22",
+        "version": "0-unstable-2022-10-15"
+    },
+    "cmdTree": {
+        "name": "cmdTree",
+        "path": "/nix/store/1dklpifm6jpqmvrgq1r6z39kdznhrb5a-vimplugin-cmdTree-2024-12-29",
+        "rev": "5b689e6c288057236aa4ea53b517c4722ae6c0dc",
+        "version": "2024-12-29"
+    },
+    "cmdbuf": {
+        "name": "cmdbuf",
+        "path": "/nix/store/78r1r5fg7ww3ar23qn30hyhqq40bnfhs-vimplugin-cmdbuf-",
+        "rev": "9de81b38786b3039063998fc67351dc38a7f66f1",
+        "version": ""
+    },
+    "cmp": {
+        "name": "cmp",
+        "path": "/nix/store/cjcbv8s1l398mz88pf0f5i584haw38gg-vimplugin-luajit2.1-nvim-cmp-scm-1-unstable-scm-1",
+        "rev": "da88697d7f45d16852c6b2769dc52387d1ddc45f",
+        "version": "scm-1-unstable-scm-1"
+    },
+    "cmp-buffer": {
+        "name": "cmp-buffer",
+        "path": "/nix/store/xqlblms13fmsl51kgwgyyhgkblxzmk1v-vimplugin-cmp-buffer-0-unstable-2025-04-01",
+        "rev": "b74fab3656eea9de20a9b8116afa3cfc4ec09657",
+        "version": "0-unstable-2025-04-01"
+    },
+    "cmp-cmdline": {
+        "name": "cmp-cmdline",
+        "path": "/nix/store/hrv5dpn3z0jmsj745p6g43hdhb0k9vsq-vimplugin-cmp-cmdline-0-unstable-2025-05-18",
+        "rev": "d126061b624e0af6c3a556428712dd4d4194ec6d",
+        "version": "0-unstable-2025-05-18"
+    },
+    "cmp-nvim-lsp": {
+        "name": "cmp-nvim-lsp",
+        "path": "/nix/store/isb8hvy5zz09k8m9caaqdvv7w4ijprkf-vimplugin-cmp-nvim-lsp-0-unstable-2025-11-13",
+        "rev": "cbc7b02bb99fae35cb42f514762b89b5126651ef",
+        "version": "0-unstable-2025-11-13"
+    },
+    "cmp-nvim-lsp-signature-help": {
+        "name": "cmp-nvim-lsp-signature-help",
+        "path": "/nix/store/6gnyqw0mb8mp92jy5nbmlb15365g6g31-vimplugin-cmp-nvim-lsp-signature-help-0-unstable-2025-11-14",
+        "rev": "fd3e882e56956675c620898bf1ffcf4fcbe7ec84",
+        "version": "0-unstable-2025-11-14"
+    },
+    "cmp-nvim-telekasten-tags": {
+        "name": "cmp-nvim-telekasten-tags",
+        "path": "/nix/store/4zjz66x8z8bqakx88mdx4s039kaxnn72-vimplugin-cmp-nvim-telekasten-tags-",
+        "rev": "ef3b84f609c8fc70999326e04a4771d2981f73c3",
+        "version": ""
+    },
+    "cmp-path": {
+        "name": "cmp-path",
+        "path": "/nix/store/dj7w7018f4mv4n100b5pd2gb7i4qdmxm-vimplugin-cmp-path-0-unstable-2025-07-30",
+        "rev": "c642487086dbd9a93160e1679a1327be111cbc25",
+        "version": "0-unstable-2025-07-30"
+    },
+    "cmp_bulma": {
+        "name": "cmp_bulma",
+        "path": "/nix/store/i9hhv28m3qavapwf6j75fkjx8xwzx0p7-vimplugin-cmp_bulma-",
+        "rev": "40b6b1b06a0b4378fbf11ff2e60a334663ae77bd",
+        "version": ""
+    },
+    "code_runner": {
+        "name": "code_runner",
+        "path": "/nix/store/96a70wiw9kanvcp5dgp2nbpc3fh2xl90-vimplugin-code_runner-",
+        "rev": "eed10eb4953bc172d7652f30d289a4e575028a98",
+        "version": ""
+    },
+    "codecompanion": {
+        "name": "codecompanion",
+        "path": "/nix/store/r7ag9z2mhixqzagg5qj9mqhw51wld7ws-vimplugin-codecompanion.nvim-19.3.0-unstable-2026-03-10",
+        "rev": "5e4f7cfac58c94c61d5a3d3a99d715d5c8762db6",
+        "version": "19.3.0-unstable-2026-03-10"
+    },
+    "cokeline": {
+        "name": "cokeline",
+        "path": "/nix/store/cdbk6428150rb51qv6vf1nmq2q46kc28-vimplugin-nvim-cokeline-0.4.0-unstable-2025-01-24",
+        "rev": "9fbed130683b7b6f73198c09e35ba4b33f547c08",
+        "version": "0.4.0-unstable-2025-01-24"
+    },
+    "color-picker": {
+        "name": "color-picker",
+        "path": "/nix/store/h7y4myl2113w550q53b11cjvakk10nvp-vimplugin-color-picker-",
+        "rev": "06cb5f853535dea529a523e9a0e8884cdf9eba4d",
+        "version": ""
+    },
+    "commons": {
+        "name": "commons",
+        "path": "/nix/store/8sm1l9jiv5akpwih0gp6s17iyhyc6x9v-luajit2.1-commons.nvim-27.0.0-1",
+        "rev": "unknown",
+        "version": "27.0.0-1"
+    },
+    "compiler": {
+        "name": "compiler",
+        "path": "/nix/store/l4iyq3hlbz956lr3bll5b7y4dh7fc3yr-vimplugin-compiler.nvim-3.3.9-unstable-2025-08-14",
+        "rev": "c09ab4e795b92378727d7377c03b0d5c2453957c",
+        "version": "3.3.9-unstable-2025-08-14"
+    },
+    "conform": {
+        "name": "conform",
+        "path": "/nix/store/xaq571am6y50ynyigml606n3x271g3ys-vimplugin-conform.nvim-9.1.0-unstable-2026-03-10",
+        "rev": "086a40dc7ed8242c03be9f47fbcee68699cc2395",
+        "version": "9.1.0-unstable-2026-03-10"
+    },
+    "conjure": {
+        "name": "conjure",
+        "path": "/nix/store/sjzkdjficvhc8zqy15fyz7g8274mw3yr-vimplugin-conjure-4.58.0-unstable-2026-02-13",
+        "rev": "42048ce74a7d86dd85091d7d8cebb78d25761da3",
+        "version": "4.58.0-unstable-2026-02-13"
+    },
+    "control-panel": {
+        "name": "control-panel",
+        "path": "/nix/store/laz63hhfyzmfdlb0xc72m5zm6qivm4n5-vimplugin-control-panel-",
+        "rev": "b074f8f05f9c83904375a3f697a3ec8034ee84b9",
+        "version": ""
+    },
+    "corn": {
+        "name": "corn",
+        "path": "/nix/store/a6w0j6dwv1vrnnw3s5rmvzdnanqmn1hs-vimplugin-corn-",
+        "rev": "5106eff0d02decb76e823ae2abb2f74113579100",
+        "version": ""
+    },
+    "cosmic-ui": {
+        "name": "cosmic-ui",
+        "path": "/nix/store/3s8if6m56pln9p9xa5jv359j2ilh6sn0-vimplugin-cosmic-ui-2026-03-23",
+        "rev": "915c385370d5064412adcc9eee5e522925a09d93",
+        "version": "2026-03-23"
+    },
+    "coverage": {
+        "name": "coverage",
+        "path": "/nix/store/s4kh350k5qls884w8gqf15c2q3jm9arc-vimplugin-nvim-coverage-0-unstable-2024-12-18",
+        "rev": "a939e425e363319d952a6c35fb3f38b34041ded2",
+        "version": "0-unstable-2024-12-18"
+    },
+    "crates": {
+        "name": "crates",
+        "path": "/nix/store/2fsz7bmh9bpgjx62c2n58bhmxydky30v-vimplugin-crates.nvim-0.7.1-unstable-2025-08-23",
+        "rev": "ac9fa498a9edb96dc3056724ff69d5f40b898453",
+        "version": "0.7.1-unstable-2025-08-23"
+    },
+    "cyrillic": {
+        "name": "cyrillic",
+        "path": "/nix/store/hsm58kh40f1vfml1d6q1qjvypf6895hc-vimplugin-cyrillic-",
+        "rev": "86186af29eed2af1a069f9e36140d116a2765c80",
+        "version": ""
+    },
+    "daily-focus": {
+        "name": "daily-focus",
+        "path": "/nix/store/7ccwlxgqm170azms152d9pdlfm3llxm5-vimplugin-daily-focus-",
+        "rev": "480f709f859d0c19610d6eaf7d836e1c1e84105c",
+        "version": ""
+    },
+    "dap": {
+        "name": "dap",
+        "path": "/nix/store/6lmqmrxbvvycf2hd5182vr1lxf5nmz2v-vimplugin-nvim-dap-0.10.0-unstable-2026-03-06",
+        "rev": "a9d8cb68ee7184111dc66156c4a2ebabfbe01bc5",
+        "version": "0.10.0-unstable-2026-03-06"
+    },
+    "dap-python": {
+        "name": "dap-python",
+        "path": "/nix/store/w6idrlx0lz80s0hjx2vcdgscjyxkf3ny-vimplugin-nvim-dap-python-0-unstable-2025-12-20",
+        "rev": "1808458eba2b18f178f990e01376941a42c7f93b",
+        "version": "0-unstable-2025-12-20"
+    },
+    "dapui": {
+        "name": "dapui",
+        "path": "/nix/store/0b56si942d8kf46k96gm87nzvffp018b-vimplugin-nvim-dap-ui-4.0.0-unstable-2025-07-09",
+        "rev": "cf91d5e2d07c72903d052f5207511bf7ecdb7122",
+        "version": "4.0.0-unstable-2025-07-09"
+    },
+    "dashboard": {
+        "name": "dashboard",
+        "path": "/nix/store/v7yq2gk5shgnaw7gazfzdhfzlkbavapy-vimplugin-dashboard-",
+        "rev": "ba80a1e57feb278872c6bb5c2b1048a80b58e921",
+        "version": ""
+    },
+    "dashboard-nvim": {
+        "name": "dashboard-nvim",
+        "path": "/nix/store/ql4917fgzysdnnjvyskdlff7bgmmhbnv-vimplugin-dashboard-nvim-0-unstable-2025-08-31",
+        "rev": "0775e567b6c0be96d01a61795f7b64c1758262f6",
+        "version": "0-unstable-2025-08-31"
+    },
+    "date-time-inserter": {
+        "name": "date-time-inserter",
+        "path": "/nix/store/b384v6xdhnl0480cmn2992xafmz5nc9d-vimplugin-date-time-inserter-",
+        "rev": "2d37e1a7aa75f8b4c90cb38248b442f979fe5830",
+        "version": ""
+    },
+    "debugpy": {
+        "name": "debugpy",
+        "path": "/nix/store/94jcwbxvp9kkx55w3xz2xjbw8hn1d42r-vimplugin-debugpy-",
+        "rev": "490a0d7bfa23af8c6096bb3fbd867770b7d4a28b",
+        "version": ""
+    },
+    "deck": {
+        "name": "deck",
+        "path": "/nix/store/b2nyy117ggramswqk4i960rsjv6z2m0d-vimplugin-deck-2026-03-18",
+        "rev": "1881b722e609dd827be58be80c3985381b6cde9b",
+        "version": "2026-03-18"
+    },
+    "diagflow": {
+        "name": "diagflow",
+        "path": "/nix/store/sq7mry2w8iyvsd8680232zbiz4gcvdc7-vimplugin-diagflow.nvim-0-unstable-2025-03-04",
+        "rev": "b13321b517ff64bf42eeac2214085d3c76d83a0d",
+        "version": "0-unstable-2025-03-04"
+    },
+    "dial": {
+        "name": "dial",
+        "path": "/nix/store/zpja7p79bim67pg69hw2mmrs01hdnl92-vimplugin-dial.nvim-0.5.1-unstable-2025-12-21",
+        "rev": "f2634758455cfa52a8acea6f142dcd6271a1bf57",
+        "version": "0.5.1-unstable-2025-12-21"
+    },
+    "diffview": {
+        "name": "diffview",
+        "path": "/nix/store/p1qv9dj60340x1zfk4w5qzibjnfnd9v7-vimplugin-diffview.nvim-0-unstable-2024-06-13",
+        "rev": "4516612fe98ff56ae0415a259ff6361a89419b0a",
+        "version": "0-unstable-2024-06-13"
+    },
+    "dmap": {
+        "name": "dmap",
+        "path": "/nix/store/8xdnindnx7f83im58fafs0qlxjba2833-vimplugin-dmap-",
+        "rev": "ceccbdf31742a8427f87bf52d1fc419483045887",
+        "version": ""
+    },
+    "doc-window": {
+        "name": "doc-window",
+        "path": "/nix/store/q2x3gx9gf4dh08vp2ka37935rfxf7lcb-vimplugin-doc-window-",
+        "rev": "c69e83d53e864fe1648dd6a8e9cc5d5c59c05e81",
+        "version": ""
+    },
+    "doing": {
+        "name": "doing",
+        "path": "/nix/store/15rz44hh6zb45dqxqbgscsgvdsfdgqry-vimplugin-doing-nvim-",
+        "rev": "83a0b110d9b6655172695238e066e2e513e78aaf",
+        "version": ""
+    },
+    "dotdot": {
+        "name": "dotdot",
+        "path": "/nix/store/hq2c2ppjjsi4sqixfrk65bhw9sjr878r-vimplugin-dotdot-2026-03-14",
+        "rev": "515625fd04b855de57351a43b819fc1bbfd30be6",
+        "version": "2026-03-14"
+    },
+    "drop": {
+        "name": "drop",
+        "path": "/nix/store/giy02axs6v0xwffqrxvyfarflhk5r1xr-vimplugin-drop-",
+        "rev": "f27c147af59c41712dd3d513cb03f4fae7aec46d",
+        "version": ""
+    },
+    "dropbar": {
+        "name": "dropbar",
+        "path": "/nix/store/k6c075cs1nczh67zd49sjc3l9vdmp09k-vimplugin-dropbar.nvim-14.2.1-unstable-2025-10-05",
+        "rev": "ce202248134e3949aac375fd66c28e5207785b10",
+        "version": "14.2.1-unstable-2025-10-05"
+    },
+    "easycolor": {
+        "name": "easycolor",
+        "path": "/nix/store/mklsq93415rnziqjz9b7hsnfkrzxl2pv-vimplugin-easycolor-",
+        "rev": "327135955e27ca8568cf4782ffc7840a89f31fef",
+        "version": ""
+    },
+    "edit-list": {
+        "name": "edit-list",
+        "path": "/nix/store/m5s2rgkq5kscpii41llb00iddx61f8hk-vimplugin-edit-list-",
+        "rev": "86983717aafaeb9d82445d6f11b13eed6d20dc37",
+        "version": ""
+    },
+    "efm": {
+        "name": "efm",
+        "path": "/nix/store/3nyqp1l3y06cavb0kjp69xlh9rz6c5zy-vimplugin-efm-",
+        "rev": "9408c7e9db230bce9ba1d428b9cf80dc7693f082",
+        "version": ""
+    },
+    "endpoint-previewer": {
+        "name": "endpoint-previewer",
+        "path": "/nix/store/i99rsh0w0cka8izmpp1bprcszxmkrylz-vimplugin-endpoint-previewer-",
+        "rev": "58468e609eea671fd48501910826edf35341502f",
+        "version": ""
+    },
+    "equals": {
+        "name": "equals",
+        "path": "/nix/store/agm8fcf3dy47hirvpp7cgvk4i26fhn7f-vimplugin-equals-",
+        "rev": "4dfc2f7f4d83a68e73218f3ac87efc902f16a479",
+        "version": ""
+    },
+    "error-jump": {
+        "name": "error-jump",
+        "path": "/nix/store/ywkvlwq8988w11spi1vgjmgll0argqc5-vimplugin-error-jump-",
+        "rev": "4469f48935948d599e09302f72836549fe223800",
+        "version": ""
+    },
+    "export-colorscheme": {
+        "name": "export-colorscheme",
+        "path": "/nix/store/chgpqwn97qlnlb6vicnick2awm5kcv87-vimplugin-export-colorscheme-",
+        "rev": "805bc285c9ba0e6da5c7c08fc89734f19d72e473",
+        "version": ""
+    },
+    "feed": {
+        "name": "feed",
+        "path": "/nix/store/bm2922r66sy9rf882rmgkr3468a0xha1-vimplugin-feed-",
+        "rev": "d1f8cee9df8ea4c7e319db701fb0ece0eca9a005",
+        "version": ""
+    },
+    "fidget": {
+        "name": "fidget",
+        "path": "/nix/store/i3bjnxya8qvlaszil90pgf7ng957bi9b-vimplugin-luajit2.1-fidget.nvim-1.6.0-1-unstable-1.6.0-1",
+        "rev": "unknown",
+        "version": "1.6.0-1-unstable-1.6.0-1"
+    },
+    "firenvim": {
+        "name": "firenvim",
+        "path": "/nix/store/82iw5ljkhq7mvyx5d1kbfxgqmp1ay3nd-vimplugin-firenvim-0.2.16-unstable-2025-09-30",
+        "rev": "a18ef908ac06b52ad9333b70e3e630b0a56ecb3d",
+        "version": "0.2.16-unstable-2025-09-30"
+    },
+    "flash": {
+        "name": "flash",
+        "path": "/nix/store/9hy4cixh3xcdx68wybvd0vrvzyqgb59z-vimplugin-flash.nvim-2.1.0-unstable-2025-10-28",
+        "rev": "fcea7ff883235d9024dc41e638f164a450c14ca2",
+        "version": "2.1.0-unstable-2025-10-28"
+    },
+    "flashcards": {
+        "name": "flashcards",
+        "path": "/nix/store/39k2h4hqmsvrg4rjpsldc6hwdapf63k9-vimplugin-flashcards-",
+        "rev": "5b99cd63415625f04056602a14176755028520ff",
+        "version": ""
+    },
+    "flote": {
+        "name": "flote",
+        "path": "/nix/store/22iqk3i0h5zl1jaymb2dbhr3c23bw0ir-vimplugin-flote-",
+        "rev": "0baa72f59c249b28cd33f07db862bed3192c03f9",
+        "version": ""
+    },
+    "flybuf": {
+        "name": "flybuf",
+        "path": "/nix/store/y0zindqs7mjmk76xy6kw3ffq479sn09b-vimplugin-flybuf-",
+        "rev": "fe1fbd9699f6988a1db3b2e2ffa599154784c6e1",
+        "version": ""
+    },
+    "forgit": {
+        "name": "forgit",
+        "path": "/nix/store/rnhmnmiyf16rs7dvm28arf7rjv0xzz0k-vimplugin-forgit-",
+        "rev": "d499a9cd433c0d64feb8e01b91f70d4695c671c6",
+        "version": ""
+    },
+    "friendly-snippets": {
+        "name": "friendly-snippets",
+        "path": "/nix/store/m77dv7z6dccljm0x6bj2fffd7nh8qb0d-vimplugin-friendly-snippets-0-unstable-2026-01-23",
+        "rev": "6cd7280adead7f586db6fccbd15d2cac7e2188b9",
+        "version": "0-unstable-2026-01-23"
+    },
+    "fsplash": {
+        "name": "fsplash",
+        "path": "/nix/store/y364j7plpajsnydrs6zcaijv7vfsxg35-vimplugin-fsplash-",
+        "rev": "efd4565bbeb526a93c9cb25c24bd8123e1af63ee",
+        "version": ""
+    },
+    "fsread": {
+        "name": "fsread",
+        "path": "/nix/store/zr66l1mxgp3s49gnxjyhc5dpq6s63p5g-vimplugin-fsread-",
+        "rev": "a637bf048f733def7c5c46f5bf482f93a8311b29",
+        "version": ""
+    },
+    "fzf-lua": {
+        "name": "fzf-lua",
+        "path": "/nix/store/r83q5gr105b1nm32sbrn7qrc7q2jwqlg-vimplugin-luajit2.1-fzf-lua-0.0.2545-1-unstable-0.0.2545-1",
+        "rev": "unknown",
+        "version": "0.0.2545-1-unstable-0.0.2545-1"
+    },
+    "g-worktree": {
+        "name": "g-worktree",
+        "path": "/nix/store/kmf98q2cym63ksnp4cw9agj3fx61cfr0-vimplugin-g-worktree-",
+        "rev": "9a4808325f6b705b8425c1322fa47550798c9aab",
+        "version": ""
+    },
+    "galaxyline": {
+        "name": "galaxyline",
+        "path": "/nix/store/mk6ggspwy24sqh5h876rlnn3ahqa5wrk-vimplugin-galaxyline.nvim-0-unstable-2022-01-21",
+        "rev": "4d4f5fc8e20a10824117e5beea7ec6e445466a8f",
+        "version": "0-unstable-2022-01-21"
+    },
+    "git-conflict": {
+        "name": "git-conflict",
+        "path": "/nix/store/5j5fx5msmprjbih9w9yhf8d45yk1l3k7-vimplugin-git-conflict.nvim-2.1.0-unstable-2024-12-27",
+        "rev": "refs/tags/v2.1.0",
+        "version": "2.1.0"
+    },
+    "gitlab": {
+        "name": "gitlab",
+        "path": "/nix/store/sry9bgx5mlhchq7xffwn51afllgddnhk-vimplugin-gitlab.vim-0.1.1",
+        "rev": "v0.1.1",
+        "version": "0.1.1"
+    },
+    "gitlab-nvim": {
+        "name": "gitlab-nvim",
+        "path": "/nix/store/9wq0hxaxp7x96f7mczyc0rqc73sjjr9k-vimplugin-gitlab-nvim-",
+        "rev": "0f007fcf7934426338fcb5f2f17a8d6e9f3bc514",
+        "version": ""
+    },
+    "gitsigns": {
+        "name": "gitsigns",
+        "path": "/nix/store/l9zjfjjvddyqwyx1yj5ikl4n4nygkg1p-vimplugin-luajit2.1-gitsigns.nvim-2.0.0-1-unstable-2.0.0-1",
+        "rev": "unknown",
+        "version": "2.0.0-1-unstable-2.0.0-1"
+    },
+    "glance": {
+        "name": "glance",
+        "path": "/nix/store/hli4kdb6gw062yhnic2478gx5pfhxg6i-vimplugin-glance.nvim-0-unstable-2025-06-16",
+        "rev": "bf86d8b79dce808e65fdb6e9269d0b4ed6d2eefc",
+        "version": "0-unstable-2025-06-16"
+    },
+    "grug-far": {
+        "name": "grug-far",
+        "path": "/nix/store/5asi9zppqsdarc309hjw1r4h363dzqsa-vimplugin-luajit2.1-grug-far.nvim-1.6.63-1-unstable-1.6.63-1",
+        "rev": "unknown",
+        "version": "1.6.63-1-unstable-1.6.63-1"
+    },
+    "guard": {
+        "name": "guard",
+        "path": "/nix/store/b42r0kn3ng6rlxjgn9f2galnkkprkyzg-vimplugin-guard.nvim-2.7.0-unstable-2026-01-31",
+        "rev": "addb8d2f40662b8b62d60dd7d18f503beb2332e7",
+        "version": "2.7.0-unstable-2026-01-31"
+    },
+    "harpoon-core": {
+        "name": "harpoon-core",
+        "path": "/nix/store/k09qw7b1cj7mf406fr42m94a8gncgn4l-vimplugin-harpoon-core-",
+        "rev": "61ccd5f77cb70fef6f96ddd00fe2bf7a9a3670fa",
+        "version": ""
+    },
+    "haskell-tools": {
+        "name": "haskell-tools",
+        "path": "/nix/store/pb0h73nbbsv5bs6qbckw7cdxzn1hxih2-vimplugin-luajit2.1-haskell-tools.nvim-7.0.3-1-unstable-7.0.3-1",
+        "rev": "unknown",
+        "version": "7.0.3-1-unstable-7.0.3-1"
+    },
+    "headlines": {
+        "name": "headlines",
+        "path": "/nix/store/fm2xirr4ywihq5d0hyv50dmqwrar833h-vimplugin-headlines.nvim-5.0.0-unstable-2024-09-13",
+        "rev": "bf17c96a836ea27c0a7a2650ba385a7783ed322e",
+        "version": "5.0.0-unstable-2024-09-13"
+    },
+    "heirline": {
+        "name": "heirline",
+        "path": "/nix/store/yjh9i66dywng55cjhd8adafrfi2l56pl-vimplugin-heirline.nvim-1.0.8-unstable-2025-05-23",
+        "rev": "fae936abb5e0345b85c3a03ecf38525b0828b992",
+        "version": "1.0.8-unstable-2025-05-23"
+    },
+    "heirline-components": {
+        "name": "heirline-components",
+        "path": "/nix/store/r2ii3c9hg8i3cd6vm1ql7jw0mrda6dp7-vimplugin-heirline-components-2026-02-25",
+        "rev": "5ea9a16286c01b7c36d58c91903d1f8ff0b7ddeb",
+        "version": "2026-02-25"
+    },
+    "hierarchy": {
+        "name": "hierarchy",
+        "path": "/nix/store/ff5svcxcgmvr3ripvk75jh3yfgawwvlg-vimplugin-hierarchy-",
+        "rev": "b6f2d9510fabf1fa3a268f30221c8f19bcf37775",
+        "version": ""
+    },
+    "hlsearch": {
+        "name": "hlsearch",
+        "path": "/nix/store/f38m2vwzn7a32z8rq81rxvjp3miw0bww-vimplugin-hlsearch-",
+        "rev": "fdeb60b890d15d9194e8600042e5232ef8c29b0e",
+        "version": ""
+    },
+    "hlslens": {
+        "name": "hlslens",
+        "path": "/nix/store/55f0acm57x21k0zvqx8rnb6qkgywip4v-vimplugin-nvim-hlslens-1.1.0-unstable-2026-01-11",
+        "rev": "be2d7b2be01860b5445a007ff2bc72b29896db6b",
+        "version": "1.1.0-unstable-2026-01-11"
+    },
+    "homerows": {
+        "name": "homerows",
+        "path": "/nix/store/s56krip587c0zngj046wxfv6ym2svnca-vimplugin-homerows-",
+        "rev": "b79e8fffb97ec8f93b040e7bae8846e171728fba",
+        "version": ""
+    },
+    "hop": {
+        "name": "hop",
+        "path": "/nix/store/7mwp0w3v309p80vpi30bnidqvszjnj92-vimplugin-hop.nvim-2.7.2-unstable-2025-08-22",
+        "rev": "707049feaca9ae65abb3696eff9aefc7879e66aa",
+        "version": "2.7.2-unstable-2025-08-22"
+    },
+    "http-codes": {
+        "name": "http-codes",
+        "path": "/nix/store/fbxzbf3azac2qsg0n9akhp75wjz3dw4c-vimplugin-http-codes-",
+        "rev": "3f45aa9ee5c6709d46a54ddf8b35f982485decaa",
+        "version": ""
+    },
+    "hydra": {
+        "name": "hydra",
+        "path": "/nix/store/yis6h93gs4myqiwzfcffzk31d5jbsj0d-vimplugin-hydra.nvim-1.0.3-unstable-2025-05-03",
+        "rev": "8c4a9f621ec7cdc30411a1f3b6d5eebb12b469dc",
+        "version": "1.0.3-unstable-2025-05-03"
+    },
+    "ido": {
+        "name": "ido",
+        "path": "/nix/store/zsa25zp889c5hipky9chqg1xkn68krvs-vimplugin-ido-2025-12-09",
+        "rev": "0f8d467bb17c74244cb2d94a3b698800bd4e6990",
+        "version": "2025-12-09"
+    },
+    "illuminate": {
+        "name": "illuminate",
+        "path": "/nix/store/j8mkjygr09d85l4qagmrsy4bz93gzfii-vimplugin-vim-illuminate-0-unstable-2025-05-24",
+        "rev": "0d1e93684da00ab7c057410fecfc24f434698898",
+        "version": "0-unstable-2025-05-24"
+    },
+    "inc-rename": {
+        "name": "inc-rename",
+        "path": "/nix/store/ljln7d3hp0vxfaa5aphp4499ljsnp456-vimplugin-inc-rename.nvim-0-unstable-2026-03-02",
+        "rev": "0074b551a17338ccdcd299bd86687cc651bcb33d",
+        "version": "0-unstable-2026-03-02"
+    },
+    "indent-blankline": {
+        "name": "indent-blankline",
+        "path": "/nix/store/g2w5skj5468iirflls7rwrk3fk75678s-vimplugin-indent-blankline.nvim-3.9.1-unstable-2026-02-17",
+        "rev": "d28a3f70721c79e3c5f6693057ae929f3d9c0a03",
+        "version": "3.9.1-unstable-2026-02-17"
+    },
+    "indent-tools": {
+        "name": "indent-tools",
+        "path": "/nix/store/4zgmf3ymm9kqdjbvkqcljga9gzxcsa61-vimplugin-indent-tools.nvim-0.5.2-unstable-2026-01-23",
+        "rev": "9b6a33be70c72da562c83d1e741ebe1ce6c20a3c",
+        "version": "0.5.2-unstable-2026-01-23"
+    },
+    "indentmini": {
+        "name": "indentmini",
+        "path": "/nix/store/mrav5abiydkl3l5z14hghczj5c5zb2qa-vimplugin-indentmini-",
+        "rev": "38572ce5a7a064a5deb89d6d861b7c40fc929ab1",
+        "version": ""
+    },
+    "inlayhint-filler": {
+        "name": "inlayhint-filler",
+        "path": "/nix/store/a57bi248f81syyndbyalrsrnyp4b9prn-vimplugin-inlayhint-filler-",
+        "rev": "4b2b8d0df39d1ad7aaa7c101e5c382333b5bde01",
+        "version": ""
+    },
+    "insx": {
+        "name": "insx",
+        "path": "/nix/store/y9hlikz94p3cg7vayr4djfhi6ipp94ip-vimplugin-insx-",
+        "rev": "fbba86031f3927ecbc11556217b4976a149c29c6",
+        "version": ""
+    },
+    "interlaced": {
+        "name": "interlaced",
+        "path": "/nix/store/1bqs6d72vr6j354znxwshvr1jjgd1nz6-vimplugin-interlaced-",
+        "rev": "f7c40de1b64e5c0641fb0d5d27a6e0c8479c65a2",
+        "version": ""
+    },
+    "ivy": {
+        "name": "ivy",
+        "path": "/nix/store/ywrwa7xqhxnf9qsxb7k6mpb59bzg9mq5-vimplugin-ivy-",
+        "rev": "fb506738119b8e51d0f1d3fe8bef3584297143dc",
+        "version": ""
+    },
+    "jaq-nvim": {
+        "name": "jaq-nvim",
+        "path": "/nix/store/y4p5w2kg7qkw0nps51qfraij017lvml7-vimplugin-jaq-nvim-",
+        "rev": "236296aae555657487d1bb4d066cbde9d79d8cd4",
+        "version": ""
+    },
+    "jiejie": {
+        "name": "jiejie",
+        "path": "/nix/store/235hq83sp0nvdkviy3lkjk5nmlz125yw-vimplugin-jiejie-",
+        "rev": "331c83952a9818e5084b4df7a952cca11679761f",
+        "version": ""
+    },
+    "jj": {
+        "name": "jj",
+        "path": "/nix/store/rnx5cspcyw9hsj3rxk1l9sfa823xigfp-vimplugin-jj.nvim-0.5.0-unstable-2026-03-12",
+        "rev": "d471a03685836faedbe952ab3794fdca65c4af60",
+        "version": "0.5.0-unstable-2026-03-12"
+    },
+    "jsonpath": {
+        "name": "jsonpath",
+        "path": "/nix/store/bckxizxf4km7vlmig49wmy985y2p9qpq-vimplugin-jsonpath-",
+        "rev": "9e7a3c2aec3465a8f7c86cec6424cf98ee62ee24",
+        "version": ""
+    },
+    "jujutsu": {
+        "name": "jujutsu",
+        "path": "/nix/store/rhjy5v06xfi59rqidc5zgwldrwz5gm12-vimplugin-jujutsu-",
+        "rev": "4e1a9737a8f57897c4b8a8282a9e8e3b2aa8786b",
+        "version": ""
+    },
+    "jvim": {
+        "name": "jvim",
+        "path": "/nix/store/b1n42j5wiwbqfq0943rfcj77hcjf4z24-vimplugin-jvim-",
+        "rev": "9fb5c4bea3c765ec4321f8ab837d55e126a2efac",
+        "version": ""
+    },
+    "k8vim": {
+        "name": "k8vim",
+        "path": "/nix/store/1zmh82pf8xj4spvwfla31smbivm39nfh-vimplugin-k8vim-",
+        "rev": "0bd48d39640bd66b3cee2b53425b6924759afe0d",
+        "version": ""
+    },
+    "keylab": {
+        "name": "keylab",
+        "path": "/nix/store/vp7iq7hqnii09ylzcvxmr90f0aifp74g-vimplugin-keylab-",
+        "rev": "9686b09253b5dde40e18554d189deb1b0c47f437",
+        "version": ""
+    },
+    "keymapper": {
+        "name": "keymapper",
+        "path": "/nix/store/ljq2hsw8c0hjf6hrfpb9ky70jlj87kja-vimplugin-keymapper-",
+        "rev": "7e23f4b38a38d2c125763bdf456f464dbbd64fbb",
+        "version": ""
+    },
+    "keyseer": {
+        "name": "keyseer",
+        "path": "/nix/store/9skicv0lz1kjjw4pxn3z4bkmfla70276-vimplugin-keyseer-",
+        "rev": "346fd45a91af8cd89072887c34e30a2c5edf901d",
+        "version": ""
+    },
+    "keytex": {
+        "name": "keytex",
+        "path": "/nix/store/3blhayw325hx6pdlqvxqai5np02ywpzv-vimplugin-keytex-",
+        "rev": "34c3cbb0e10102ed234695ea1d26332ea631d917",
+        "version": ""
+    },
+    "knap": {
+        "name": "knap",
+        "path": "/nix/store/njy7gsfar1n116zkmfygmi502yk8v4pk-vimplugin-knap-0-unstable-2024-10-22",
+        "rev": "7db44d0bb760120142cc1e8f43e44976de59c2f6",
+        "version": "0-unstable-2024-10-22"
+    },
+    "kpops": {
+        "name": "kpops",
+        "path": "/nix/store/rjbxc403bvrkbw2d32qjyqzpaa6f4i8d-vimplugin-kpops-",
+        "rev": "5b154cb540317db2ee7c63b2f2ace8fa3170f0e6",
+        "version": ""
+    },
+    "kreative": {
+        "name": "kreative",
+        "path": "/nix/store/i62f198pws5dc0d7dgqqlmfac0fpal5s-vimplugin-kreative-",
+        "rev": "75d29935e90cb5c138c296d47b4043eb931cc32c",
+        "version": ""
+    },
+    "kubectl": {
+        "name": "kubectl",
+        "path": "/nix/store/w3ix2hgpgnq0xj4zc65zmh3sjrpcisv4-vimplugin-kubectl-",
+        "rev": "f460bd034e2796564c01b2094578b99d4a748424",
+        "version": ""
+    },
+    "kubels": {
+        "name": "kubels",
+        "path": "/nix/store/4768abrxclcrgw3sxplkg5vqkki3zzsk-vimplugin-kubels-",
+        "rev": "e1126031d9580d6567e3feb9b1e17bef8778cdd5",
+        "version": ""
+    },
+    "kubernetes": {
+        "name": "kubernetes",
+        "path": "/nix/store/bla1hm00glg1yd9qj8vkqqamn6v798q6-vimplugin-kubernetes-",
+        "rev": "44daf998345628a1a7034e3aaa31f4e05e4dde7c",
+        "version": ""
+    },
+    "lazyclip": {
+        "name": "lazyclip",
+        "path": "/nix/store/wqh5pmxrqjsyjdknfg5rris7w61nxsyh-vimplugin-lazyclip-",
+        "rev": "ca1f9b747a98d7ed6a02ad7a24d186b1d82300c5",
+        "version": ""
+    },
+    "lazydev": {
+        "name": "lazydev",
+        "path": "/nix/store/pq4da9mg1q5rqp9l42i6ax4axz9czg6m-vimplugin-lazydev.nvim-1.10.0-unstable-2026-03-14",
+        "rev": "ff2cbcba459b637ec3fd165a2be59b7bbaeedf0d",
+        "version": "1.10.0-unstable-2026-03-14"
+    },
+    "lazygit": {
+        "name": "lazygit",
+        "path": "/nix/store/m4n6k4rwlxkkrsfbdkl6frbqmxbsvxdi-vimplugin-lazygit.nvim-0-unstable-2025-12-19",
+        "rev": "a04ad0dbc725134edbee3a5eea29290976695357",
+        "version": "0-unstable-2025-12-19"
+    },
+    "leap": {
+        "name": "leap",
+        "path": "/nix/store/xk2cq2xnzffahq6cn01aqv3dzy9dxmw3-vimplugin-leap.nvim-0-unstable-2026-03-07",
+        "rev": "774c452da3521d4434f912b6ca6dd97318aca4b0",
+        "version": "0-unstable-2026-03-07"
+    },
+    "license": {
+        "name": "license",
+        "path": "/nix/store/mxi789jp470yzrsgl4l6hcss8g3n317v-vimplugin-license-",
+        "rev": "adc45e665f6ffd52c6eb9450e29b86dce6f8936c",
+        "version": ""
+    },
+    "lightbulb": {
+        "name": "lightbulb",
+        "path": "/nix/store/315kfg3s2z2mwmzp5337l5icb8zybm7j-vimplugin-nvim-lightbulb-1.0.0-unstable-2025-03-29",
+        "rev": "aa3a8b0f4305b25cfe368f6c9be9923a7c9d0805",
+        "version": "1.0.0-unstable-2025-03-29"
+    },
+    "lint": {
+        "name": "lint",
+        "path": "/nix/store/cvsvvxx75lbzf4nqrwibsybr4q21c7xh-vimplugin-nvim-lint-0-unstable-2026-02-23",
+        "rev": "606b823a57b027502a9ae00978ebf4f5d5158098",
+        "version": "0-unstable-2026-02-23"
+    },
+    "live-command": {
+        "name": "live-command",
+        "path": "/nix/store/askfqz7rzbmpdsf0kskk6rv6pi7c86d7-vimplugin-live-command.nvim-2.2.0-unstable-2025-12-19",
+        "rev": "fc8c36d7e5b96945fbc52af7029facc317a47377",
+        "version": "2.2.0-unstable-2025-12-19"
+    },
+    "live-server": {
+        "name": "live-server",
+        "path": "/nix/store/x8ahacx103dz232cwscp856v2apgpmg8-vimplugin-live-server-",
+        "rev": "b69ceae07e862f408c2c2511605f13cbf511ec62",
+        "version": ""
+    },
+    "llm": {
+        "name": "llm",
+        "path": "/nix/store/9zj88wjhb4d7mk9wn3ag0adq7783cicz-vimplugin-llm.nvim-0-unstable-2025-01-09",
+        "rev": "ce69731ba3f8d3ea8bc4c8f58c74c2f9ea0b33de",
+        "version": "0-unstable-2025-01-09"
+    },
+    "lsp-format": {
+        "name": "lsp-format",
+        "path": "/nix/store/f02xa8ff6rl1m6892b75k3zkrhcb92bm-vimplugin-lsp-format.nvim-2.7.2-unstable-2025-05-08",
+        "rev": "42d1d3e407c846d95f84ea3767e72ed6e08f7495",
+        "version": "2.7.2-unstable-2025-05-08"
+    },
+    "lsp_signature": {
+        "name": "lsp_signature",
+        "path": "/nix/store/s379zdlikgfy4y7ah5y278za0hrz2djn-vimplugin-lsp_signature.nvim-0.3.1-unstable-2026-03-01",
+        "rev": "af7e4074d85d785cf6614352ba9ad3b28a1f8a56",
+        "version": "0.3.1-unstable-2026-03-01"
+    },
+    "lspkind": {
+        "name": "lspkind",
+        "path": "/nix/store/85hin95i5j7ivkcd2vbvq6yw7kx8ckc5-vimplugin-lspkind.nvim-0-unstable-2026-01-29",
+        "rev": "c7274c48137396526b59d86232eabcdc7fed8a32",
+        "version": "0-unstable-2026-01-29"
+    },
+    "lspsaga": {
+        "name": "lspsaga",
+        "path": "/nix/store/n80007lqkrfa20lnckrgb19kpqiprvll-vimplugin-lspsaga.nvim-0-unstable-2026-03-03",
+        "rev": "562d9724e3869ffd1801c572dd149cc9f8d0cc36",
+        "version": "0-unstable-2026-03-03"
+    },
+    "ltex_extra": {
+        "name": "ltex_extra",
+        "path": "/nix/store/ddb376l444y2wyi4mgbqpdam57yaz1dy-vimplugin-ltex_extra.nvim-0.2.2-unstable-2025-11-01",
+        "rev": "49ea83c231139d98b7c9668c99e7b4591421b056",
+        "version": "0.2.2-unstable-2025-11-01"
+    },
+    "lualine": {
+        "name": "lualine",
+        "path": "/nix/store/6lggfms1agaixp8nan2hsci6gvx69mh8-vimplugin-luajit2.1-lualine.nvim-scm-1-unstable-scm-1",
+        "rev": "47f91c416daef12db467145e16bed5bbfe00add8",
+        "version": "scm-1-unstable-scm-1"
+    },
+    "lvim-ui-config": {
+        "name": "lvim-ui-config",
+        "path": "/nix/store/bqvmcpkfkrbwb40c3s2hwm8zdf4vr46r-vimplugin-lvim-ui-config-",
+        "rev": "56ec5a05408045b62f5fd59d94ca34223450cf57",
+        "version": ""
+    },
+    "markdown-preview": {
+        "name": "markdown-preview",
+        "path": "/nix/store/k0gzyjc1nm91w1hy7n6rg9hycr8y5hv8-vimplugin-markdown-preview.nvim-0.0.10-unstable-2023-10-17",
+        "rev": "a923f5fc5ba36a3b17e289dc35dc17f66d0548ee",
+        "version": "0.0.10-unstable-2023-10-17"
+    },
+    "markit": {
+        "name": "markit",
+        "path": "/nix/store/b29zjixxfsgqy80fb7wwqm6dq2ng97hm-vimplugin-markit-",
+        "rev": "c716195d5b0b21ef03a20a1facc46d33ca9f7c49",
+        "version": ""
+    },
+    "marks": {
+        "name": "marks",
+        "path": "/nix/store/hhldribs2ajd1qfqjqvhp1cmzyq81cc8-vimplugin-marks.nvim-0-unstable-2025-05-13",
+        "rev": "f353e8c08c50f39e99a9ed474172df7eddd89b72",
+        "version": "0-unstable-2025-05-13"
+    },
+    "menu": {
+        "name": "menu",
+        "path": "/nix/store/xzdw3j9vhbbn3094n5h6fj3d8qr9b5vn-vimplugin-nvzone-menu-0-unstable-2025-06-01",
+        "rev": "7a0a4a2896b715c066cfbe320bdc048091874cc6",
+        "version": "0-unstable-2025-06-01"
+    },
+    "metrics": {
+        "name": "metrics",
+        "path": "/nix/store/5iplm5r2kpfgba3023p2r3sh5gbsc7m2-vimplugin-metrics-",
+        "rev": "763a277b86a6e0e2bc86d0425761c1eeb55f48f8",
+        "version": ""
+    },
+    "mini": {
+        "name": "mini",
+        "path": "/nix/store/w450n9sljii488bfy9sjxfa3yb334mvg-vimplugin-mini.nvim-0.17.0-unstable-2026-03-12",
+        "rev": "9990c41f10f54f29a888d13024c9f765037bde23",
+        "version": "0.17.0-unstable-2026-03-12"
+    },
+    "mini.align": {
+        "name": "mini.align",
+        "path": "/nix/store/qfbxjm3cf78g14c6qhjjjgk4j1cq8jwn-vimplugin-mini.align-0.17.0-unstable-2026-02-21",
+        "rev": "4d45e0e4f1fd8baefb6ae52a44659704fe7ebe8b",
+        "version": "0.17.0-unstable-2026-02-21"
+    },
+    "mini.keymap": {
+        "name": "mini.keymap",
+        "path": "/nix/store/ha4x65gkzql8shrj9kbkph2z91c1wbb6-vimplugin-mini.keymap-0.17.0-unstable-2026-02-21",
+        "rev": "c6f362c835914188d499694743fb89014a815e2c",
+        "version": "0.17.0-unstable-2026-02-21"
+    },
+    "minibar": {
+        "name": "minibar",
+        "path": "/nix/store/3fm5g31v80ppvs1qy5c028gj9i02zl02-vimplugin-minibar-2023-01-06",
+        "rev": "353ca4efaf7fff1566bb02e0d7cb51133c41f660",
+        "version": "2023-01-06"
+    },
+    "minimal-narrow-region": {
+        "name": "minimal-narrow-region",
+        "path": "/nix/store/yj372pfcskhnssgg4nrjk2nr1qa4v1n4-vimplugin-minimal-narrow-region-",
+        "rev": "43a46bec5afc37a96bddc08d1a0772dfa26986fb",
+        "version": ""
+    },
+    "minty": {
+        "name": "minty",
+        "path": "/nix/store/zldjk9dd9yvwk0yzmqh4v4wv7313m0jx-vimplugin-nvzone-minty-0-unstable-2025-02-28",
+        "rev": "aafc9e8e0afe6bf57580858a2849578d8d8db9e0",
+        "version": "0-unstable-2025-02-28"
+    },
+    "modes": {
+        "name": "modes",
+        "path": "/nix/store/9rf8vjnd040yhnglzs52zv01nahm5z9d-vimplugin-modes-",
+        "rev": "2badf8771dbb2d1e1066fd6a5dddaad2fc836e72",
+        "version": ""
+    },
+    "modicator": {
+        "name": "modicator",
+        "path": "/nix/store/m1s8iy09nbwvgswdk6x0xx1zckxs51mv-vimplugin-modicator.nvim-0-unstable-2025-10-24",
+        "rev": "0bc989b32a7ba3cab06cb79a433557384eb2a0be",
+        "version": "0-unstable-2025-10-24"
+    },
+    "monorepos": {
+        "name": "monorepos",
+        "path": "/nix/store/lzhr7wyaskjxwy1pksc0qyfvb63xji9m-vimplugin-monorepos-",
+        "rev": "fdfb5c65faad6fb38581037521cf1b69f326aa28",
+        "version": ""
+    },
+    "moonicipal": {
+        "name": "moonicipal",
+        "path": "/nix/store/fb46h2g417h78g6pddjwm6dr2mfqijdz-vimplugin-moonicipal-",
+        "rev": "9ebe72787be2a3339bdc91e1c3eafe58a389c0c9",
+        "version": ""
+    },
+    "moveline": {
+        "name": "moveline",
+        "path": "/nix/store/242sq60s12qjjwb2fz6advsbfi2dmf2l-vimplugin-moveline-nvim-0.3.1-unstable-2023-07-06",
+        "rev": "570603637be8af20e97b91cf554fef29cab73ca6",
+        "version": "0.3.1-unstable-2023-07-06"
+    },
+    "multicursors": {
+        "name": "multicursors",
+        "path": "/nix/store/hsjr5c2ampvwk85y5rzpgyqvgg1k63d9-vimplugin-multicursors.nvim-2.0.0-unstable-2025-02-26",
+        "rev": "72225ea9e4443c3f4b9df91d0193e07c4ee8d382",
+        "version": "2.0.0-unstable-2025-02-26"
+    },
+    "muren": {
+        "name": "muren",
+        "path": "/nix/store/rkvy87fa1120lq4fblyny4w90aybg5nq-vimplugin-muren.nvim-0-unstable-2025-02-09",
+        "rev": "fa18f2df80a52afd201da062d1af0e80c8d1988e",
+        "version": "0-unstable-2025-02-09"
+    },
+    "mypy": {
+        "name": "mypy",
+        "path": "/nix/store/89ars8gcbw5bsygygbzhfw13cpap241y-vimplugin-mypy-",
+        "rev": "43f9e095441bbe7c7281b9a888728dc2d87ffc4f",
+        "version": ""
+    },
+    "navigator": {
+        "name": "navigator",
+        "path": "/nix/store/2dl7cvbajsr0yldrz9a7j2lz1c06wblv-vimplugin-navigator-",
+        "rev": "deaf00338fe288d24f5632b1842130f8d9c15b0a",
+        "version": ""
+    },
+    "neaterm": {
+        "name": "neaterm",
+        "path": "/nix/store/jmjnq2v60gz02r5qcr67qb5xak6yych3-vimplugin-neaterm-",
+        "rev": "274fd715e2f7dbb29500e940fe217fbac20c89a9",
+        "version": ""
+    },
+    "neo-tree": {
+        "name": "neo-tree",
+        "path": "/nix/store/9hp1g1xkxy9wrqvywy5d2kvygrrbj4s3-vimplugin-neo-tree.nvim-3.39.0-unstable-2026-03-12",
+        "rev": "4597f1e0b928a78d5fe1b3d33d1a5141453ba839",
+        "version": "3.39.0-unstable-2026-03-12"
+    },
+    "neogit": {
+        "name": "neogit",
+        "path": "/nix/store/yy75vm6f1vcizaglr0ia5ryrxwq0lhhd-vimplugin-neogit-3.0.0-unstable-2026-03-14",
+        "rev": "d3890fc3cdf0859845a86b2be306bba01458df1a",
+        "version": "3.0.0-unstable-2026-03-14"
+    },
+    "neomux": {
+        "name": "neomux",
+        "path": "/nix/store/276vh1v7z6xywkzifyzm43kqanjnwcnd-vimplugin-neomux-",
+        "rev": "e5950a14275062dfe21f489bf84165fd69220e4c",
+        "version": ""
+    },
+    "neorepl": {
+        "name": "neorepl",
+        "path": "/nix/store/7g94rg7chlp1lnfn33h6m32visgs0ikl-vimplugin-neorepl.nvim-0-unstable-2024-06-02",
+        "rev": "15f4c4e523e1fbec74766e1967e1c2491df013c9",
+        "version": "0-unstable-2024-06-02"
+    },
+    "neorg": {
+        "name": "neorg",
+        "path": "/nix/store/329f8mqr0cznzqq0d1pgkmh3lp58y4nl-vimplugin-luajit2.1-neorg-9.4.0-1-unstable-9.4.0-1",
+        "rev": "unknown",
+        "version": "9.4.0-1-unstable-9.4.0-1"
+    },
+    "neorg-taskwarrior": {
+        "name": "neorg-taskwarrior",
+        "path": "/nix/store/lcz5ppa4sdm5ndsl0qf8bvzfnwj87glr-vimplugin-neorg-taskwarrior-",
+        "rev": "d2d57a8d3b8b7a19093850ecdf59c1fac179eb2e",
+        "version": ""
+    },
+    "neotest": {
+        "name": "neotest",
+        "path": "/nix/store/ylzg83979vpa5g84xh5j03n9r8plxim4-vimplugin-luajit2.1-neotest-5.13.4-1-unstable-5.13.4-1",
+        "rev": "unknown",
+        "version": "5.13.4-1-unstable-5.13.4-1"
+    },
+    "neotest-haskell": {
+        "name": "neotest-haskell",
+        "path": "/nix/store/dxn46lwfr63gxsgxxwhfjx61lbrflmcb-vimplugin-neotest-haskell-3.0.1-unstable-2026-03-08",
+        "rev": "ff5af86f224ad7b50891b85b6a99709397d2c12d",
+        "version": "3.0.1-unstable-2026-03-08"
+    },
+    "neotest-plenary": {
+        "name": "neotest-plenary",
+        "path": "/nix/store/nkp9xpz9rlfgyxc50sd0xyvskqknvzn6-vimplugin-neotest-plenary-0-unstable-2024-09-15",
+        "rev": "3523adcf9ffaad1911960c5813b0136c1b63a2ec",
+        "version": "0-unstable-2024-09-15"
+    },
+    "neotest-python": {
+        "name": "neotest-python",
+        "path": "/nix/store/6cwjgww19myffvgkyllc44y23zjq04vv-vimplugin-neotest-python-0-unstable-2025-10-13",
+        "rev": "b0d3a861bd85689d8ed73f0590c47963a7eb1bf9",
+        "version": "0-unstable-2025-10-13"
+    },
+    "neowords": {
+        "name": "neowords",
+        "path": "/nix/store/mq14zwcr7rx35gykyh4mgmvpv086xk6i-vimplugin-neowords-",
+        "rev": "47a38cd4aa3118a6be3f64ac4987a8483bd2e98a",
+        "version": ""
+    },
+    "nerdy": {
+        "name": "nerdy",
+        "path": "/nix/store/pvs1qccg91vlz4qzlg39jyrjn6jfxv00-vimplugin-nerdy-",
+        "rev": "97b0914dece80204a777f04c94b9980da0f7ac88",
+        "version": ""
+    },
+    "nio": {
+        "name": "nio",
+        "path": "/nix/store/zp93yfywaq3q4db4rxavlczvwb4cf9pj-vimplugin-luajit2.1-nvim-nio-1.10.1-1-unstable-1.10.1-1",
+        "rev": "unknown",
+        "version": "1.10.1-1-unstable-1.10.1-1"
+    },
+    "noice": {
+        "name": "noice",
+        "path": "/nix/store/08mhd5dfg6vwy6qqzr4gl8flxylvmml7-vimplugin-noice.nvim-4.10.0-unstable-2025-11-03",
+        "rev": "7bfd942445fb63089b59f97ca487d605e715f155",
+        "version": "4.10.0-unstable-2025-11-03"
+    },
+    "nomodoro": {
+        "name": "nomodoro",
+        "path": "/nix/store/j7qs472mdf0b1xz7mzfgixdvr3p1vdp0-vimplugin-nomodoro-",
+        "rev": "35076f96ea21fecc6202162304891338c8eebe3c",
+        "version": ""
+    },
+    "none-ls": {
+        "name": "none-ls",
+        "path": "/nix/store/ppb69qjsil1xixlxy5kj2vrl90z577q4-vimplugin-none-ls.nvim-0-unstable-2026-03-10",
+        "rev": "c9317c2a8629d4e39e7cf47be74cb67f3ab37cda",
+        "version": "0-unstable-2026-03-10"
+    },
+    "notify": {
+        "name": "notify",
+        "path": "/nix/store/29yx1j58kiksjspxjj9nvldqqmx83ljf-vimplugin-nvim-notify-3.15.0-unstable-2025-09-06",
+        "rev": "8701bece920b38ea289b457f902e2ad184131a5d",
+        "version": "3.15.0-unstable-2025-09-06"
+    },
+    "nougat": {
+        "name": "nougat",
+        "path": "/nix/store/hl7wgk6gmzrrjpg2rp198pin41sihi8p-vimplugin-nougat-2024-01-07",
+        "rev": "1c1cde6e53d7d7c2242d125fe67552b00e235876",
+        "version": "2024-01-07"
+    },
+    "nui": {
+        "name": "nui",
+        "path": "/nix/store/v3fpygg4nra7l8k11cwcf1plg6087fv6-vimplugin-luajit2.1-nui.nvim-0.4.0-1-unstable-0.4.0-1",
+        "rev": "refs/tags/0.4.0",
+        "version": "0.4.0-1-unstable-0.4.0-1"
+    },
+    "nvim-api-wrappers": {
+        "name": "nvim-api-wrappers",
+        "path": "/nix/store/xndic0rpdjsx01xr8psg9ba97ricwcqi-vimplugin-nvim-api-wrappers-2022-12-22",
+        "rev": "57085c898b2f6cd8a735f05c945b92f20a3c364d",
+        "version": "2022-12-22"
+    },
+    "nvim-autopairs": {
+        "name": "nvim-autopairs",
+        "path": "/nix/store/lmp16xldhg141wpfw7kv7vwzfx07i9c8-vimplugin-nvim-autopairs-0.10.0-unstable-2026-01-30",
+        "rev": "59bce2eef357189c3305e25bc6dd2d138c1683f5",
+        "version": "0.10.0-unstable-2026-01-30"
+    },
+    "nvim-cmp-fonts": {
+        "name": "nvim-cmp-fonts",
+        "path": "/nix/store/ap714r5nsd01am798n13m43h932sbb1p-vimplugin-nvim-cmp-fonts-",
+        "rev": "43be83eb24ff8aec124c3aae64d053a095e03bd0",
+        "version": ""
+    },
+    "nvim-cmp-lua-latex-symbols": {
+        "name": "nvim-cmp-lua-latex-symbols",
+        "path": "/nix/store/mnb4i2vwmmqgi112c4qvw47n2y1ilp34-vimplugin-nvim-cmp-lua-latex-symbols-",
+        "rev": "89345d6e333c700d13748e8a7ee6fe57279b7f88",
+        "version": ""
+    },
+    "nvim-dap-virtual-text": {
+        "name": "nvim-dap-virtual-text",
+        "path": "/nix/store/qbrg6cf2n6fn0v57zjbg2v4gd9hp8d25-vimplugin-nvim-dap-virtual-text-0-unstable-2025-05-25",
+        "rev": "fbdb48c2ed45f4a8293d0d483f7730d24467ccb6",
+        "version": "0-unstable-2025-05-25"
+    },
+    "nvim-highlight-colors": {
+        "name": "nvim-highlight-colors",
+        "path": "/nix/store/58359arm5jxi834ldws00j0w0whywvvg-vimplugin-nvim-highlight-colors-0-unstable-2026-01-26",
+        "rev": "e2cb22089cc2358b2b995c09578224f142de6039",
+        "version": "0-unstable-2026-01-26"
+    },
+    "nvim-macros": {
+        "name": "nvim-macros",
+        "path": "/nix/store/vh4d7acajxqp8ybvgkiqn108npqnby4l-vimplugin-nvim-macros-",
+        "rev": "f29d08ee7844ed6c9552699206e8c977d6936ee4",
+        "version": ""
+    },
+    "nvim-mail-merge": {
+        "name": "nvim-mail-merge",
+        "path": "/nix/store/nin59phfdr92hqffd3ca94mdx50xfj8i-vimplugin-nvim-mail-merge-",
+        "rev": "45445e1c95cb644eaf3c200fc335ad52521deaf1",
+        "version": ""
+    },
+    "nvim-navbuddy": {
+        "name": "nvim-navbuddy",
+        "path": "/nix/store/hwkmv797xvb3d1hlanr57bfnqv7a6h90-vimplugin-nvim-navbuddy-0-unstable-2025-05-01",
+        "rev": "a34786c77a528519f6b8a142db7609f6e387842d",
+        "version": "0-unstable-2025-05-01"
+    },
+    "nvim-navic": {
+        "name": "nvim-navic",
+        "path": "/nix/store/4hqsy8aj5iv81921vmnphll6vll6csdc-vimplugin-nvim-navic-0-unstable-2025-12-29",
+        "rev": "f5eba192f39b453675d115351808bd51276d9de5",
+        "version": "0-unstable-2025-12-29"
+    },
+    "nvim-rip-substitute": {
+        "name": "nvim-rip-substitute",
+        "path": "/nix/store/2rkjbkpn98raf9dp5prlscgwf4apn408-vimplugin-nvim-rip-substitute-0-unstable-2026-02-06",
+        "rev": "1fae57ead7e1f3221286beced9e32fdd661e453b",
+        "version": "0-unstable-2026-02-06"
+    },
+    "nvim-surround": {
+        "name": "nvim-surround",
+        "path": "/nix/store/dmba97imax5mmvap1fnkdwsfg396kc9c-vimplugin-nvim-surround-4.0.4-unstable-2026-03-07",
+        "rev": "61319d4bd1c5e336e197defa15bd104c51f0fb29",
+        "version": "4.0.4-unstable-2026-03-07"
+    },
+    "nvim-teal-maker": {
+        "name": "nvim-teal-maker",
+        "path": "/nix/store/flvbx3ya24f6i693j0k8fh9avvpxplqr-vimplugin-nvim-teal-maker-0-unstable-2022-04-09",
+        "rev": "4d7ef05fa47de4bd9d02c4578d66b7cdc6848807",
+        "version": "0-unstable-2022-04-09"
+    },
+    "nvim-tree": {
+        "name": "nvim-tree",
+        "path": "/nix/store/zj0ka53cbw2x7gj5br40k90zrbgsh14c-vimplugin-nvim-tree.lua-1.15.0-unstable-2026-03-13",
+        "rev": "9197f3ee3f0c9a754aab5b16500db6d7da5f68fd",
+        "version": "1.15.0-unstable-2026-03-13"
+    },
+    "nvim-treesitter": {
+        "name": "nvim-treesitter",
+        "path": "/nix/store/21arqaf5rjdjsayb0y9cnfxgmx98dixm-vimplugin-nvim-treesitter-2026-03-23",
+        "rev": "6620ae1c44dfa8623b22d0cbf873a9e8d073b849",
+        "version": "2026-03-23"
+    },
+    "nvim-treesitter-context": {
+        "name": "nvim-treesitter-context",
+        "path": "/nix/store/djl58wwc1j2prpzhb5cc7497ji2zl482-vimplugin-nvim-treesitter-context-1.0.0-unstable-2026-03-14",
+        "rev": "9a8e39993e3b895601bf8227124a48ea8268149e",
+        "version": "1.0.0-unstable-2026-03-14"
+    },
+    "nvim-treesitter-textobjects": {
+        "name": "nvim-treesitter-textobjects",
+        "path": "/nix/store/3mj0fi7a4inkps6rx3rzi38gdahnl077-vimplugin-nvim-treesitter-textobjects-0-unstable-2026-03-08",
+        "rev": "4e91b5d0394329a229725b021a8ea217099826ef",
+        "version": "0-unstable-2026-03-08"
+    },
+    "nvim-various-textobjs": {
+        "name": "nvim-various-textobjs",
+        "path": "/nix/store/4adzdldsjh7rk0gisji9d6f4r8r61ifs-vimplugin-nvim-various-textobjs-0-unstable-2026-02-10",
+        "rev": "34ca4f6b54cf167554c5792cacc69c930b654136",
+        "version": "0-unstable-2026-02-10"
+    },
+    "nvim-web-devicons": {
+        "name": "nvim-web-devicons",
+        "path": "/nix/store/ayx306l6hg8hdl40b5a93dgyya96rd1l-vimplugin-luajit2.1-nvim-web-devicons-0.100-1-unstable-0.100-1",
+        "rev": "unknown",
+        "version": "0.100-1-unstable-0.100-1"
+    },
+    "nvim-whichkey-setup.lua": {
+        "name": "nvim-whichkey-setup.lua",
+        "path": "/nix/store/5k28kqh2zdf607pflxqjfr4vzxx117pl-vimplugin-nvim-whichkey-setup.lua-0-unstable-2021-04-16",
+        "rev": "b2df0761b8ba3fca31b7ae1b0afcad2f8a4e89f4",
+        "version": "0-unstable-2021-04-16"
+    },
+    "nvim_winpick": {
+        "name": "nvim_winpick",
+        "path": "/nix/store/xmzaahgx7jqrsiymsjp1mc31pr1qdjjz-vimplugin-nvim_winpick-",
+        "rev": "18037e9f5ce417bd75d16ebbf70787bcc478c249",
+        "version": ""
+    },
+    "obsidian": {
+        "name": "obsidian",
+        "path": "/nix/store/bpfbxqa3wlic71sd0ahzmrv0rkdhhag3-vimplugin-obsidian.nvim-3.15.11-unstable-2026-03-12",
+        "rev": "2a698c300d0504ce73844c8478ca44a5c1d8a157",
+        "version": "3.15.11-unstable-2026-03-12"
+    },
+    "octo": {
+        "name": "octo",
+        "path": "/nix/store/49c13kzng2qkiwav9lc0lsl2vy8gg51b-vimplugin-octo.nvim-0-unstable-2026-03-10",
+        "rev": "42e547c08433c22c8311d7848998d2d08bfaf77e",
+        "version": "0-unstable-2026-03-10"
+    },
+    "octohub": {
+        "name": "octohub",
+        "path": "/nix/store/v9f3sk30km3x8wqv0g5596pnk3v7d0yz-vimplugin-octohub-",
+        "rev": "03b50d28a61583387616c04ba08cee53379049b2",
+        "version": ""
+    },
+    "oil": {
+        "name": "oil",
+        "path": "/nix/store/i0hj61lgz1qr8rg6762p07h7k3xzdvrq-vimplugin-luajit2.1-oil.nvim-2.15.0-1-unstable-2.15.0-1",
+        "rev": "unknown",
+        "version": "2.15.0-1-unstable-2.15.0-1"
+    },
+    "orgmode": {
+        "name": "orgmode",
+        "path": "/nix/store/hq4xscf4fjafc9akygzchdwm97ki16ri-vimplugin-orgmode-",
+        "rev": "2fc30d36fd1c3e6086a7424858e19a52a29ae937",
+        "version": ""
+    },
+    "otter": {
+        "name": "otter",
+        "path": "/nix/store/bz5fvasnma7kkrw41ihjfb55ph1qy1jx-vimplugin-otter.nvim-2.14.4-unstable-2026-02-14",
+        "rev": "4796602953348e19fb24916557af7b89e188751f",
+        "version": "2.14.4-unstable-2026-02-14"
+    },
+    "output-panel": {
+        "name": "output-panel",
+        "path": "/nix/store/ydfcnkpzn7l83y83mg32piip06vz9hdx-vimplugin-output-panel-",
+        "rev": "4773c0ed7549f7621a5c2cd1e3d3387d836cff9a",
+        "version": ""
+    },
+    "overseer": {
+        "name": "overseer",
+        "path": "/nix/store/8yyw2hcbl6czvs1q80l1nfh7scvqjnm6-vimplugin-overseer.nvim-2.1.0-unstable-2026-03-10",
+        "rev": "a2194447f4c5a1baf95139c5c7b539fa7b0d012f",
+        "version": "2.1.0-unstable-2026-03-10"
+    },
+    "paint": {
+        "name": "paint",
+        "path": "/nix/store/7dh9cx9217vyff8svfy0cdyddyl02aq1-vimplugin-paint-",
+        "rev": "07ffa7e0e41f8d5b4ee7aa1531a33812db7595ac",
+        "version": ""
+    },
+    "panvimdoc": {
+        "name": "panvimdoc",
+        "path": "/nix/store/nvl47553ljh7g268daiazj7s90yy2gk1-panvimdoc-4.0.1",
+        "rev": "refs/tags/v4.0.1",
+        "version": "4.0.1"
+    },
+    "pasta": {
+        "name": "pasta",
+        "path": "/nix/store/0g40l56xhm1vx8lz4ifry193qkczj6la-vimplugin-pasta-",
+        "rev": "7cc66bcf7101e40a6184b46a37eff0d5a43bde8d",
+        "version": ""
+    },
+    "pathlib": {
+        "name": "pathlib",
+        "path": "/nix/store/dkmnjpajx3w9va9mqbj97qx3j62hi5sx-luajit2.1-pathlib.nvim-2.2.3-1",
+        "rev": "unknown",
+        "version": "2.2.3-1"
+    },
+    "persistence": {
+        "name": "persistence",
+        "path": "/nix/store/bhiymi9bn094zcnmw9470i3zyb141mfk-vimplugin-persistence.nvim-3.1.0-unstable-2025-10-28",
+        "rev": "b20b2a7887bd39c1a356980b45e03250f3dce49c",
+        "version": "3.1.0-unstable-2025-10-28"
+    },
+    "pickme": {
+        "name": "pickme",
+        "path": "/nix/store/b1zwrviw80m8sdgd7l989m7lwd0j8zqf-vimplugin-pickme-2025-12-24",
+        "rev": "3bfd63fa0a1fa362afc9dfa86b83100e75903e6b",
+        "version": "2025-12-24"
+    },
+    "plenary": {
+        "name": "plenary",
+        "path": "/nix/store/ylkvq6wwv50xl7all4x6d06lmpjfmw35-vimplugin-luajit2.1-plenary.nvim-scm-1-unstable-scm-1",
+        "rev": "b9fd5226c2f76c951fc8ed5923d85e4de065e509",
+        "version": "scm-1-unstable-scm-1"
+    },
+    "pommodoro-clock": {
+        "name": "pommodoro-clock",
+        "path": "/nix/store/ckiinzfx5x143gc4r2jxfxwsasrbpdaj-vimplugin-pommodoro-clock-",
+        "rev": "eb7a59109c82917ba1c386f730ecdb9ef778b8a5",
+        "version": ""
+    },
+    "pomodoro": {
+        "name": "pomodoro",
+        "path": "/nix/store/0rdyc2cc5ag2wc5g2bvlq87070chcr7h-vimplugin-pomodoro-",
+        "rev": "04ea4152b1e1d0a42ac95f9f527a7cd9adec59f2",
+        "version": ""
+    },
+    "pragma": {
+        "name": "pragma",
+        "path": "/nix/store/madz7j0k27rkdzbd37qnpz1rxvzfych1-vimplugin-pragma-",
+        "rev": "1f2b4e6f9a567d3852354d9d124e07bd0c19f25b",
+        "version": ""
+    },
+    "pre-commit": {
+        "name": "pre-commit",
+        "path": "/nix/store/bymsh4fd7119m4mmcpr03bv2w32bcggp-vimplugin-pre-commit-",
+        "rev": "5e60fc6f534845782891738f78b76c81be6c4187",
+        "version": ""
+    },
+    "present": {
+        "name": "present",
+        "path": "/nix/store/m5y1drg79s1pikb6fqd0fnhlif3ahg2f-vimplugin-present-",
+        "rev": "c76e6996b346ff3ec6260c2461e56946c4a72d0d",
+        "version": ""
+    },
+    "project": {
+        "name": "project",
+        "path": "/nix/store/xz5smvsai0jvga5djisywcb79hg89ykh-vimplugin-project-",
+        "rev": "9cc719f455295e7a2fc7340d4fd87327f3fe15ca",
+        "version": ""
+    },
+    "projector": {
+        "name": "projector",
+        "path": "/nix/store/bl05wggv13m2vh2cc1lhk6cj79bbff3z-vimplugin-projector-",
+        "rev": "63094c395fe00559772796c4281993955f7d2024",
+        "version": ""
+    },
+    "pylsp-rope": {
+        "name": "pylsp-rope",
+        "path": "/nix/store/ab518wl9snihy1s0v729j68dpfcdxkcm-vimplugin-TODO-move-to-external-tools-",
+        "rev": "aa7f929e5f434b31b5d775bfb87a9883ac4c2cd0",
+        "version": ""
+    },
+    "qalc": {
+        "name": "qalc",
+        "path": "/nix/store/0cr9vw785kr8j4fnbm1p44hfck6qhxv0-vimplugin-qalc-",
+        "rev": "33198ba0533d6a514f9a48cb472e40407c2ea9f6",
+        "version": ""
+    },
+    "quicker": {
+        "name": "quicker",
+        "path": "/nix/store/l23kdcrr2d2hwn83rwpmsrnb6gflziab-vimplugin-quicker.nvim-1.5.0-unstable-2026-03-10",
+        "rev": "063cc44da1eef8681bbd653b29d3bc961780886a",
+        "version": "1.5.0-unstable-2026-03-10"
+    },
+    "quicknote": {
+        "name": "quicknote",
+        "path": "/nix/store/q5kyc25kmg9xrmhm9p7mrcixc40cxj1n-vimplugin-quicknote-",
+        "rev": "a60828e54b5e4c474e7d583a14df09c98882dd42",
+        "version": ""
+    },
+    "quicktype": {
+        "name": "quicktype",
+        "path": "/nix/store/xknhxm6cbbfsxml3n0ngkrwjnwblcsa4-vimplugin-quicktype-",
+        "rev": "6d557a32fec1fb8a0b635e98cb856b24c7f0ef00",
+        "version": ""
+    },
+    "rainbow-delimiters": {
+        "name": "rainbow-delimiters",
+        "path": "/nix/store/n72garjnk0jcchlncx4cbh35mvmcwhxs-vimplugin-rainbow-delimiters.nvim-0.10.0",
+        "rev": "refs/tags/v0.10.0",
+        "version": "0.10.0"
+    },
+    "reactive": {
+        "name": "reactive",
+        "path": "/nix/store/jrc6223rv53zp1f0l0hx6v8c2ima5fbg-vimplugin-reactive-",
+        "rev": "0588b5c2b0cf49bd2232fe4366b3516c32edee44",
+        "version": ""
+    },
+    "recorder": {
+        "name": "recorder",
+        "path": "/nix/store/1rz1ll4vl4gvv9x2mmrkf51ld7x47xhv-vimplugin-recorder-",
+        "rev": "cf2e07d1d60f225943b2f2457ecd8e2b3e4ee2d5",
+        "version": ""
+    },
+    "refactoring": {
+        "name": "refactoring",
+        "path": "/nix/store/c1ww8xig8axn39wkyzxplcz7w7y6gbz5-vimplugin-refactoring.nvim-0-unstable-2025-10-21",
+        "rev": "6784b54587e6d8a6b9ea199318512170ffb9e418",
+        "version": "0-unstable-2025-10-21"
+    },
+    "regex-vars": {
+        "name": "regex-vars",
+        "path": "/nix/store/2cfk1ang1mg88jzimrg0zw8zshzki9ny-vimplugin-regex-vars-",
+        "rev": "4e64d37078afae68e8e6c0a263fb3aa10e5da311",
+        "version": ""
+    },
+    "regexplainer": {
+        "name": "regexplainer",
+        "path": "/nix/store/bpzrlxgnn2cbnjik3rzga7hi70g1plfx-vimplugin-regexplainer-",
+        "rev": "78257e4ade22ddcc74dc18b67444e8da079ee7ec",
+        "version": ""
+    },
+    "renamer": {
+        "name": "renamer",
+        "path": "/nix/store/dkyv4nfw0sqgll96a0g3jqdgs0zspzj1-vimplugin-renamer.nvim-5.1.0-unstable-2022-08-29",
+        "rev": "1614d466df53899f11dd5395eaac3c09a275c384",
+        "version": "5.1.0-unstable-2022-08-29"
+    },
+    "render-markdown": {
+        "name": "render-markdown",
+        "path": "/nix/store/s6abcji6bg4d3chcqqnxz681kdgs0py9-vimplugin-render-markdown.nvim-8.12.0-unstable-2026-03-09",
+        "rev": "e3c18ddd27a853f85a6f513a864cf4f2982b9f26",
+        "version": "8.12.0-unstable-2026-03-09"
+    },
+    "repl": {
+        "name": "repl",
+        "path": "/nix/store/n84jbg2nzwm6ipb56ism05w1nf12583x-vimplugin-repl-",
+        "rev": "b2dc92607fd6d1833b9c2bd916eeedcb04cad7de",
+        "version": ""
+    },
+    "replacer": {
+        "name": "replacer",
+        "path": "/nix/store/dcxzamx9r4hdk94qm78q40k2mvcl8834-vimplugin-replacer.nvim-0-unstable-2023-07-29",
+        "rev": "32e1713230844fa52f7f0598c59295de3c90dc95",
+        "version": "0-unstable-2023-07-29"
+    },
+    "resin": {
+        "name": "resin",
+        "path": "/nix/store/6qhh067z55qwhsaykrkd3zhmdx61zij7-vimplugin-resin-",
+        "rev": "0929ab8813ebe8ce642604f8c6e2106e21330d38",
+        "version": ""
+    },
+    "retrospect": {
+        "name": "retrospect",
+        "path": "/nix/store/iyi1f45m4km7317lc3yicaqqkdsqrq23-vimplugin-retrospect-",
+        "rev": "0818a59c9bd12bfa3e79b50858d1da988b032842",
+        "version": ""
+    },
+    "runtimetable": {
+        "name": "runtimetable",
+        "path": "/nix/store/rsgll7z3ykihc1sxjcxwcw1yzx54v4gs-vimplugin-runtimetable-",
+        "rev": "e70d37a91725cd76a3e3f89178f5f2200a0ac5a6",
+        "version": ""
+    },
+    "rustaceanvim": {
+        "name": "rustaceanvim",
+        "path": "/nix/store/0zf82qq6galx3hvibfwb6w9by45rfmfk-vimplugin-luajit2.1-rustaceanvim-8.0.4-2-unstable-8.0.4-2",
+        "rev": "unknown",
+        "version": "8.0.4-2-unstable-8.0.4-2"
+    },
+    "sad": {
+        "name": "sad",
+        "path": "/nix/store/g19dmripc2nz75j27zavw51wkq8qdfg6-vimplugin-sad-",
+        "rev": "e7511767b59fcff237cc7209d47d08aba64b9f63",
+        "version": ""
+    },
+    "savior": {
+        "name": "savior",
+        "path": "/nix/store/xlgbb8rsr2v9d2dnk2apf0ifshgfj33p-vimplugin-savior-",
+        "rev": "ad8878c929bd759c8fac64744306f6e6c1e15e7d",
+        "version": ""
+    },
+    "sche": {
+        "name": "sche",
+        "path": "/nix/store/39z9bbi9and5bpldmin4q5m826jf7bcr-vimplugin-sche-",
+        "rev": "31eda33db63ccff579867fea54c08da91af9f35f",
+        "version": ""
+    },
+    "schemastore": {
+        "name": "schemastore",
+        "path": "/nix/store/9ls02ail69123a7n227f3yjk02fh9swr-vimplugin-SchemaStore.nvim-0-unstable-2026-03-12",
+        "rev": "27f7d753990c8d79bdefe75be0094e7e86eabf16",
+        "version": "0-unstable-2026-03-12"
+    },
+    "scratch-buffer": {
+        "name": "scratch-buffer",
+        "path": "/nix/store/9zk4bnyikdcjqj6wqg96zj9lq00qp8mj-vimplugin-scratch-buffer-",
+        "rev": "e14fba7425d3deab3e8abb9b599114cb6c955524",
+        "version": ""
+    },
+    "search-replace": {
+        "name": "search-replace",
+        "path": "/nix/store/4z6bgzpy1699sixijfz9mdm08hx8wjcv-vimplugin-search-replace-",
+        "rev": "06ebf663fca3f3b3d1b73bbca695f0c9eb7c7309",
+        "version": ""
+    },
+    "sg": {
+        "name": "sg",
+        "path": "/nix/store/qj4796dhdsda8sy4yxqq8nlf1yzphy7n-vimplugin-sg.nvim-1.1.0-unstable-2025-01-21",
+        "rev": "775f22b75a9826eabf69b0094dd1d51d619fe552",
+        "version": "1.1.0-unstable-2025-01-21"
+    },
+    "shade": {
+        "name": "shade",
+        "path": "/nix/store/6vhm4xkzxvbyzpwvmzmjmgbg0gpgijys-vimplugin-Shade.nvim-0-unstable-2022-02-01",
+        "rev": "4286b5abc47d62d0c9ffb22a4f388b7bf2ac2461",
+        "version": "0-unstable-2022-02-01"
+    },
+    "showkeys": {
+        "name": "showkeys",
+        "path": "/nix/store/y4yb49s7sdpczm4wxza2y1p517xpadwd-vimplugin-showkeys-0-unstable-2025-05-24",
+        "rev": "cb0a50296f11f1e585acffba8c253b9e8afc1f84",
+        "version": "0-unstable-2025-05-24"
+    },
+    "smart-splits": {
+        "name": "smart-splits",
+        "path": "/nix/store/bicsrbww9c16djfhmfww7gay5c6wnwkp-vimplugin-smart-splits.nvim-2.0.5-unstable-2026-03-13",
+        "rev": "82d01bb71bc051955654b3af68355f783d872fe0",
+        "version": "2.0.5-unstable-2026-03-13"
+    },
+    "smartcolumn": {
+        "name": "smartcolumn",
+        "path": "/nix/store/d0br7mzb4jrm7kva4qi6kb8z837bplbc-vimplugin-smartcolumn.nvim-1.1.1-unstable-2025-07-21",
+        "rev": "b9cdbdf42f7ac5a659204cd5926017c7ff724a19",
+        "version": "1.1.1-unstable-2025-07-21"
+    },
+    "snacks": {
+        "name": "snacks",
+        "path": "/nix/store/a26wq6rf69pys7nbjb2y42d243759qfn-vimplugin-snacks.nvim-2.30.0-unstable-2026-03-14",
+        "rev": "b2cb00ef7d12da7f2d6e0684c43e2965896309dd",
+        "version": "2.30.0-unstable-2026-03-14"
+    },
+    "sniprun": {
+        "name": "sniprun",
+        "path": "/nix/store/791isz34fb9dsaass6y4d4wakfsyf9gi-vimplugin-sniprun-1.3.22",
+        "rev": "refs/tags/v1.3.22",
+        "version": "1.3.22"
+    },
+    "sort": {
+        "name": "sort",
+        "path": "/nix/store/y8x3yya4d70ykjc4894q4ny9q5myjg4s-vimplugin-sort.nvim-2.4.0-unstable-2026-01-28",
+        "rev": "3365768ad75fb7aa2a74ebaf609b7c802354fd46",
+        "version": "2.4.0-unstable-2026-01-28"
+    },
+    "sortjson": {
+        "name": "sortjson",
+        "path": "/nix/store/vmmjj66jk9qnnx6qwr6w21gxclg5qkmb-vimplugin-sortjson-",
+        "rev": "341e371e8c2b1f44b2129ad08da5efd6d7007c9f",
+        "version": ""
+    },
+    "spear": {
+        "name": "spear",
+        "path": "/nix/store/qxi7kjqwsyhmrdqrr663vr8sz10q7j34-vimplugin-spear-",
+        "rev": "9fdcc9f2dcf264221d59a0e7938fcb31ea2331a8",
+        "version": ""
+    },
+    "spectre": {
+        "name": "spectre",
+        "path": "/nix/store/2a1clsk5znxp53qybwkx8mzkdqwv6k72-vimplugin-nvim-spectre-0-unstable-2025-05-13",
+        "rev": "72f56f7585903cd7bf92c665351aa585e150af0f",
+        "version": "0-unstable-2025-05-13"
+    },
+    "spider": {
+        "name": "spider",
+        "path": "/nix/store/3ys7vqdqyfcq70p9halv6phwd6m5zp8s-vimplugin-nvim-spider-0-unstable-2026-02-26",
+        "rev": "4bca4dbc53f01b37385146b37ab5ce55bdc083fc",
+        "version": "0-unstable-2026-02-26"
+    },
+    "splitjoin": {
+        "name": "splitjoin",
+        "path": "/nix/store/yh8d8sfjs32pcsc2kgkfw8c1j5xsrw7m-vimplugin-splitjoin-",
+        "rev": "09b5c82591b298c1042d493acf016f124bef0053",
+        "version": ""
+    },
+    "splitjoin.vim": {
+        "name": "splitjoin.vim",
+        "path": "/nix/store/lkj3drp1g76ggja9nnkvnhc5mh25y1wv-vimplugin-splitjoin.vim-1.2.0-unstable-2025-12-08",
+        "rev": "9ce4fb4f0538cff02a57a393057b7ab371324483",
+        "version": "1.2.0-unstable-2025-12-08"
+    },
+    "spread": {
+        "name": "spread",
+        "path": "/nix/store/q4idy7d3sacn3fh4g6l8rqdzhjp94wkh-vimplugin-spread-",
+        "rev": "825c9c4b11f5624bfe322b0626f1dc24cb3e06b5",
+        "version": ""
+    },
+    "ssr": {
+        "name": "ssr",
+        "path": "/nix/store/1wmgifqyqvwvbpyznvxj4wx5f8qb6m26-vimplugin-ssr.nvim-0-unstable-2024-09-07",
+        "rev": "7c95cfa5836508f08ae833a4b31d2ed265560f64",
+        "version": "0-unstable-2024-09-07"
+    },
+    "staline": {
+        "name": "staline",
+        "path": "/nix/store/xdqk594cbami8ldmy4z4nm8g2c303jxz-vimplugin-staline.nvim-0-unstable-2024-06-02",
+        "rev": "d337bc9b343df3328921ef4c3f8ff604102d0201",
+        "version": "0-unstable-2024-06-02"
+    },
+    "statuscol": {
+        "name": "statuscol",
+        "path": "/nix/store/dfmhr2a259b3scgd6qqnrr591l2li50n-vimplugin-statuscol.nvim-0-unstable-2025-06-02",
+        "rev": "c46172d0911aa5d49ba5f39f4351d1bb7aa289cc",
+        "version": "0-unstable-2025-06-02"
+    },
+    "stickybuf": {
+        "name": "stickybuf",
+        "path": "/nix/store/dvb9dabwlkvsgkmgpax94c1b4qir8m6k-vimplugin-stickybuf-",
+        "rev": "0c1e5f1a3eb36eea2cea57083828269cc62c58e4",
+        "version": ""
+    },
+    "strict": {
+        "name": "strict",
+        "path": "/nix/store/83l7r4xypbzfikj6317ysmrhbqj7fmqb-vimplugin-strict-",
+        "rev": "146da0e4c914f3bc5805187aeb94a1b461dfdd84",
+        "version": ""
+    },
+    "structlog": {
+        "name": "structlog",
+        "path": "/nix/store/snw1axvj3gm961vqqds3cf95lgg49mx7-vimplugin-structlog-",
+        "rev": "45b26a2b1036bb93c0e83f4225e85ab3cee8f476",
+        "version": ""
+    },
+    "substitute": {
+        "name": "substitute",
+        "path": "/nix/store/2nzjvqnipsjc1jnmagyvv1w4fng7dfvc-vimplugin-substitute.nvim-2.0.0-unstable-2026-02-17",
+        "rev": "0d2077398552f069abccbd964a26dd7cd26882cd",
+        "version": "2.0.0-unstable-2026-02-17"
+    },
+    "sunglasses": {
+        "name": "sunglasses",
+        "path": "/nix/store/sj2hvca3bwqgrfz897b96cl8jh415j8a-vimplugin-sunglasses-",
+        "rev": "1e4c4ea4d6b46124090df1d35426a705cb3b99cf",
+        "version": ""
+    },
+    "switch.vim": {
+        "name": "switch.vim",
+        "path": "/nix/store/banqc1hzp3s0f1mqzjz2ix9gg6r1qmw1-vimplugin-switch.vim-0.3.0-unstable-2026-02-25",
+        "rev": "297346b630943ebd4ea58598dfd30bae5debc739",
+        "version": "0.3.0-unstable-2026-02-25"
+    },
+    "swm": {
+        "name": "swm",
+        "path": "/nix/store/8843y96kqgfna3jy86xzq3lglpl7irw7-vimplugin-swm-",
+        "rev": "4ccb2b137b117092f3efa426261ddbef25111454",
+        "version": ""
+    },
+    "symbols": {
+        "name": "symbols",
+        "path": "/nix/store/r90mmdmrw3p2zzwk95y8pqfjk6jf0716-vimplugin-symbols-2025-08-19",
+        "rev": "b22e987c69749adcf1342e8040312e9318083d4a",
+        "version": "2025-08-19"
+    },
+    "tabular": {
+        "name": "tabular",
+        "path": "/nix/store/rp6zibswdv9wsg6x717kwj3nwq2hda6k-vimplugin-tabular-1.0.0-unstable-2024-07-03",
+        "rev": "12437cd1b53488e24936ec4b091c9324cafee311",
+        "version": "1.0.0-unstable-2024-07-03"
+    },
+    "tdo": {
+        "name": "tdo",
+        "path": "/nix/store/cwkvx4scga6ppd6731ddfa1gj7vzygss-vimplugin-tdo-",
+        "rev": "3e067afe8687517e205588dacf818648a163a5a4",
+        "version": ""
+    },
+    "telemake": {
+        "name": "telemake",
+        "path": "/nix/store/x8f9n52zihwnhlk2jqsw68v4dvrv7x78-vimplugin-telemake-",
+        "rev": "8322ffb24ffef50503ff888c17593f630fadc527",
+        "version": ""
+    },
+    "telescope": {
+        "name": "telescope",
+        "path": "/nix/store/nrs3kysj1g9kbr7dlz1pcqi4fjna5rxs-vimplugin-luajit2.1-telescope.nvim-scm-1-unstable-scm-1",
+        "rev": "5255aa27c422de944791318024167ad5d40aad20",
+        "version": "scm-1-unstable-scm-1"
+    },
+    "telescope-code-actions": {
+        "name": "telescope-code-actions",
+        "path": "/nix/store/x2l5y4z2rjqhzyg94fnz6zbh04nmxz4b-vimplugin-telescope-code-actions-",
+        "rev": "44a0c56886fa18d3c905ae9506e782d6cce65700",
+        "version": ""
+    },
+    "telescope-file-browser": {
+        "name": "telescope-file-browser",
+        "path": "/nix/store/zna5wpi1ald2mk68dips7abjy755x193-vimplugin-telescope-file-browser.nvim-0-unstable-2025-08-05",
+        "rev": "3610dc7dc91f06aa98b11dca5cc30dfa98626b7e",
+        "version": "0-unstable-2025-08-05"
+    },
+    "telescope-fzf-native": {
+        "name": "telescope-fzf-native",
+        "path": "/nix/store/pxw2m70p05jb9vwxn0892y7dk9vbyr5b-vimplugin-telescope-fzf-native.nvim-0-unstable-2025-11-07",
+        "rev": "6fea601bd2b694c6f2ae08a6c6fab14930c60e2c",
+        "version": "0-unstable-2025-11-07"
+    },
+    "telescope-github": {
+        "name": "telescope-github",
+        "path": "/nix/store/d5xhfflswfxnxs3p8m0wm4kwjkmqi7fz-vimplugin-telescope-github.nvim-1.0.2-unstable-2026-01-20",
+        "rev": "cdd3ce7d317729709821d33820c619be21b22948",
+        "version": "1.0.2-unstable-2026-01-20"
+    },
+    "telescope-json-history": {
+        "name": "telescope-json-history",
+        "path": "/nix/store/l7nmv92k3d9l2gy5njrjqxra4b89yi89-vimplugin-telescope-json-history-",
+        "rev": "04d592e441b5723d445046e1467270f6bd48d978",
+        "version": ""
+    },
+    "telescope-project": {
+        "name": "telescope-project",
+        "path": "/nix/store/8sfxqfh8yx241as4r4fj9nr9p2qzalrg-vimplugin-telescope-project.nvim-0-unstable-2025-04-23",
+        "rev": "8e11df94419e444601c09828dadf70890484e443",
+        "version": "0-unstable-2025-04-23"
+    },
+    "telescope-repo": {
+        "name": "telescope-repo",
+        "path": "/nix/store/f71xjkzvfihjkr4pqaa23v168sb6a5r5-vimplugin-telescope-repo-2025-01-21",
+        "rev": "a5395a4bf0fd742cc46b4e8c50e657062f548ba9",
+        "version": "2025-01-21"
+    },
+    "telescope-smart-history": {
+        "name": "telescope-smart-history",
+        "path": "/nix/store/vpv23a8186wkzczq0srz6pfxglm7k8d7-vimplugin-telescope-smart-history.nvim-0-unstable-2022-12-15",
+        "rev": "81a4cceaa54d65d5f7c7c26178ee63b634d3e26d",
+        "version": "0-unstable-2022-12-15"
+    },
+    "telescope-xc": {
+        "name": "telescope-xc",
+        "path": "/nix/store/5ci4smra1rl0nrh2y1rfrsh4894f0qbn-vimplugin-telescope-xc-",
+        "rev": "1646d45c933cd29528b9f0ea74e676cc257c6b12",
+        "version": ""
+    },
+    "termim": {
+        "name": "termim",
+        "path": "/nix/store/1n32ihnirahavb4l0w2y992sqi23vx35-vimplugin-termim-",
+        "rev": "0bb39e30d2a1c05448f8eaeb9f5a09c742370490",
+        "version": ""
+    },
+    "texmagic": {
+        "name": "texmagic",
+        "path": "/nix/store/14555fp36i6cnr3k46kxs6x5qprs96bc-vimplugin-texmagic-",
+        "rev": "8172d2d974b444dcc996d87a9e05723348676d5e",
+        "version": ""
+    },
+    "text-to-colorscheme": {
+        "name": "text-to-colorscheme",
+        "path": "/nix/store/w6dlx2qw989vnpjfz664vrw9pvp8arld-vimplugin-text-to-colorscheme-",
+        "rev": "f5fcd3df60dac59fb3f7686e8524297b005c7405",
+        "version": ""
+    },
+    "timerly": {
+        "name": "timerly",
+        "path": "/nix/store/lhymimq9r2issdwg8pj0vvpfnn0kgnfr-vimplugin-timerly-0-unstable-2025-08-16",
+        "rev": "1c78999480af0e4f8201fe6bfa1e5e0b70a59acf",
+        "version": "0-unstable-2025-08-16"
+    },
+    "timew": {
+        "name": "timew",
+        "path": "/nix/store/2hsg3gl7vyxdb5hhzwmawpwxb7jzxr53-vimplugin-timew-",
+        "rev": "139c72ac853d43cbbfdb04b60cd41c8940f33439",
+        "version": ""
+    },
+    "tktodo": {
+        "name": "tktodo",
+        "path": "/nix/store/kan4slpmc8g1c0j05h6vrhnncn2vi0iq-vimplugin-tktodo-",
+        "rev": "b49ae216846f5cd60478abc9e7ee17c3249b7705",
+        "version": ""
+    },
+    "tldr": {
+        "name": "tldr",
+        "path": "/nix/store/fwv79g4b5d0rwwc60b3l0g13ygid80lk-vimplugin-tldr-",
+        "rev": "11e1ffde14d7510e474b2b34bf3fa6e8a7e0ac00",
+        "version": ""
+    },
+    "todo-comments": {
+        "name": "todo-comments",
+        "path": "/nix/store/ac7ws2lpx82m0kkl0akbw3aaghvnnmwm-vimplugin-TODO-comments-nvim-",
+        "rev": "31e3c38ce9b29781e4422fc0322eb0a21f4e8668",
+        "version": ""
+    },
+    "tracebundler": {
+        "name": "tracebundler",
+        "path": "/nix/store/0wdgl00bl8fd2sz3bh18j3zqs6v9xswi-vimplugin-tracebundler-",
+        "rev": "9cc719f455295e7a2fc7340d4fd87327f3fe15ca",
+        "version": ""
+    },
+    "tree-sitter-just": {
+        "name": "tree-sitter-just",
+        "path": "/nix/store/yqmmxrxpldz8xvh1nkb7vq93dm75d2r5-tree-sitter-just-0-unstable-2025-01-05",
+        "rev": "bb0c898a80644de438e6efe5d88d30bf092935cd",
+        "version": "0-unstable-2025-01-05"
+    },
+    "treemonkey": {
+        "name": "treemonkey",
+        "path": "/nix/store/gqjylccf29lifl3yhccmcp75dzhlvna6-vimplugin-treemonkey-",
+        "rev": "b13e9024f51c8a12ce2196fb49ceb793338ed66e",
+        "version": ""
+    },
+    "treesitter-modules": {
+        "name": "treesitter-modules",
+        "path": "/nix/store/jscp18q0lx7rddkmlddvxnpdzdr3jhb3-vimplugin-treesitter-modules.nvim-0-unstable-2026-02-05",
+        "rev": "0cc09da40061051b0186479203faa75052cddab6",
+        "version": "0-unstable-2026-02-05"
+    },
+    "treesj": {
+        "name": "treesj",
+        "path": "/nix/store/31mg2qa6byqarhi9ccw8wkmrm7hx6l70-vimplugin-treesj-0-unstable-2025-12-08",
+        "rev": "186084dee5e9c8eec40f6e39481c723dd567cb05",
+        "version": "0-unstable-2025-12-08"
+    },
+    "trouble": {
+        "name": "trouble",
+        "path": "/nix/store/abnarmvfcbdh6plhiz9av02fc09agfwj-vimplugin-trouble.nvim-3.7.1-unstable-2025-10-31",
+        "rev": "bd67efe408d4816e25e8491cc5ad4088e708a69a",
+        "version": "3.7.1-unstable-2025-10-31"
+    },
+    "ts-context-commentstring": {
+        "name": "ts-context-commentstring",
+        "path": "/nix/store/rsg0alkq8djl7hp0vgsafcfp74s1a93l-vimplugin-nvim-ts-context-commentstring-0-unstable-2024-12-07",
+        "rev": "1b212c2eee76d787bbea6aa5e92a2b534e7b4f8f",
+        "version": "0-unstable-2024-12-07"
+    },
+    "twig": {
+        "name": "twig",
+        "path": "/nix/store/hyzd12d1p67nxs8w20l68qcahk8wazwz-vimplugin-twig-",
+        "rev": "09b57e888c61f5b2c479bf8e0689f1343d2ba5e9",
+        "version": ""
+    },
+    "ufo": {
+        "name": "ufo",
+        "path": "/nix/store/36qhx70rqsfdnxvgrzcrlbl4dzmq7jra-vimplugin-nvim-ufo-1.5.0-unstable-2026-01-11",
+        "rev": "ab3eb124062422d276fae49e0dd63b3ad1062cfc",
+        "version": "1.5.0-unstable-2026-01-11"
+    },
+    "ultisnips": {
+        "name": "ultisnips",
+        "path": "/nix/store/b02wifsgq41rmnpj87lciq7ra6s23jp7-vimplugin-ultisnips-3.2-unstable-2026-03-12",
+        "rev": "34d3ef028f19d34106b4eeadeb6c11b249e26887",
+        "version": "3.2-unstable-2026-03-12"
+    },
+    "unimpaired-which-key": {
+        "name": "unimpaired-which-key",
+        "path": "/nix/store/mvsnxrzgin21fvcss6lfg82j96misj2h-vimplugin-unimpaired-which-key.nvim-2.0-unstable-2024-08-16",
+        "rev": "c35f413a631e2d2a29778cc390e4d2da28fc2727",
+        "version": "2.0-unstable-2024-08-16"
+    },
+    "urlview": {
+        "name": "urlview",
+        "path": "/nix/store/pgbd0x4w4p3vv8bk7b1hqf7j7dsmcz16-vimplugin-urlview.nvim-0.6-compat-unstable-2025-11-30",
+        "rev": "813736e6891b8dccca58aa3baaeabef032f44525",
+        "version": "0.6-compat-unstable-2025-11-30"
+    },
+    "vale": {
+        "name": "vale",
+        "path": "/nix/store/ip0a9rl87455lf5pqhb3x035z6vxfpcz-vimplugin-vale-",
+        "rev": "4ca34a6355f8b422fc717d5a5cc41f0438a2b05e",
+        "version": ""
+    },
+    "vim-abolish": {
+        "name": "vim-abolish",
+        "path": "/nix/store/rjwq80g5pk1pndf2c85vjywr0iabk1wb-vimplugin-vim-abolish-1.2-unstable-2023-09-29",
+        "rev": "dcbfe065297d31823561ba787f51056c147aa682",
+        "version": "1.2-unstable-2023-09-29"
+    },
+    "vim-ai": {
+        "name": "vim-ai",
+        "path": "/nix/store/z05bq8mxsz8192laaps7s3vvj330s5g7-vimplugin-vim-ai-",
+        "rev": "f46c2343a7d81c74ab249214ed9d0a9c6edac07f",
+        "version": ""
+    },
+    "vim-auto-save": {
+        "name": "vim-auto-save",
+        "path": "/nix/store/vnlank4snmcng5hr8ils3i9wmnj0hpnf-vimplugin-vim-auto-save-0-unstable-2022-08-08",
+        "rev": "2e3e54ea4c0fc946c21b0a4ee4c1c295ba736ee8",
+        "version": "0-unstable-2022-08-08"
+    },
+    "vim-caser": {
+        "name": "vim-caser",
+        "path": "/nix/store/xcz6xjrxdwhxcd112s4wzmvkh38ifndd-vimplugin-vim-caser-",
+        "rev": "6bc9f41d170711c58e0157d882a5fe8c30f34bf6",
+        "version": ""
+    },
+    "vim-commentary": {
+        "name": "vim-commentary",
+        "path": "/nix/store/dr7h0h03lkgbghl36bf0437h3cv288mp-vimplugin-vim-commentary-1.3-unstable-2024-10-22",
+        "rev": "64a654ef4a20db1727938338310209b6a63f60c9",
+        "version": "1.3-unstable-2024-10-22"
+    },
+    "vim-edgemotion": {
+        "name": "vim-edgemotion",
+        "path": "/nix/store/47xn0pvydcyfdvv2grqxxiziiw2n2b3a-vimplugin-vim-edgemotion-",
+        "rev": "8d16bd92f6203dfe44157d43be7880f34fd5c060",
+        "version": ""
+    },
+    "vim-floaterm": {
+        "name": "vim-floaterm",
+        "path": "/nix/store/f0fqysa9gyqjw5l1c2vlylhj5fly98bc-vimplugin-vim-floaterm-0-unstable-2026-02-10",
+        "rev": "0ab5eb8135dc884bc543a819ac7033c15e72a76b",
+        "version": "0-unstable-2026-02-10"
+    },
+    "vim-fugitive": {
+        "name": "vim-fugitive",
+        "path": "/nix/store/mrdy5iy1z2y25863z3pnsfzql7mkpgrv-vimplugin-vim-fugitive-3.7-unstable-2026-03-07",
+        "rev": "3b753cf8c6a4dcde6edee8827d464ba9b8c4a6f0",
+        "version": "3.7-unstable-2026-03-07"
+    },
+    "vim-helm": {
+        "name": "vim-helm",
+        "path": "/nix/store/ci1w4763gsxa9namr7bgzbrjhkgzd7f9-vimplugin-vim-helm-0-unstable-2025-09-27",
+        "rev": "2c8525fd98e57472769d137317bca83e477858ce",
+        "version": "0-unstable-2025-09-27"
+    },
+    "vim-multiple-cursors": {
+        "name": "vim-multiple-cursors",
+        "path": "/nix/store/j3hc0jk3i5klva1fsnb8ybyysgpfrg8v-vimplugin-vim-multiple-cursors-2.2-unstable-2020-07-30",
+        "rev": "6456718e1d30b42c04b920c5413ca44f68f08759",
+        "version": "2.2-unstable-2020-07-30"
+    },
+    "vim-mundo": {
+        "name": "vim-mundo",
+        "path": "/nix/store/zkz2d5lfz858lzl91sjskpgbc8h4i7wh-vimplugin-vim-mundo-3.1.0-1-unstable-2023-12-15",
+        "rev": "2ceda8c65f7b3f9066820729fc02003a09df91f9",
+        "version": "3.1.0-1-unstable-2023-12-15"
+    },
+    "vim-pug": {
+        "name": "vim-pug",
+        "path": "/nix/store/jmpyrar6y23bsyc66dbrcx7qi6dqlz1d-vimplugin-vim-pug-0-unstable-2019-09-23",
+        "rev": "ea39cd942cf3194230cf72bfb838901a5344d3b3",
+        "version": "0-unstable-2019-09-23"
+    },
+    "vim-sandwich": {
+        "name": "vim-sandwich",
+        "path": "/nix/store/laz1mpl7r793l96ibsslawknbphpizq7-vimplugin-vim-sandwich-1.0.0-unstable-2024-03-20",
+        "rev": "74cf93d58ccc567d8e2310a69860f1b93af19403",
+        "version": "1.0.0-unstable-2024-03-20"
+    },
+    "vim-slime": {
+        "name": "vim-slime",
+        "path": "/nix/store/965xyky2c46qcvwdy49jhjp9xlyzv0rq-vimplugin-vim-slime-0-unstable-2026-02-27",
+        "rev": "2cfdc3b24e7ebaa64f5a1a04b00555600c622b79",
+        "version": "0-unstable-2026-02-27"
+    },
+    "vim-surround": {
+        "name": "vim-surround",
+        "path": "/nix/store/apibkxa6n3r8x4si85f9530ai2g9ywxg-vimplugin-vim-surround-2.2-unstable-2022-10-25",
+        "rev": "3d188ed2113431cf8dac77be61b842acb64433d9",
+        "version": "2.2-unstable-2022-10-25"
+    },
+    "vim-twig": {
+        "name": "vim-twig",
+        "path": "/nix/store/0sza088a1lm9gj5rpb8bn0jfwqw12swi-vimplugin-vim-twig-0-unstable-2018-05-23",
+        "rev": "ad115512725bcc156f7f89b72ff563b9fa44933b",
+        "version": "0-unstable-2018-05-23"
+    },
+    "vim-visual-multi": {
+        "name": "vim-visual-multi",
+        "path": "/nix/store/ly21whbclkm7qcy9prqn8m7ac7v97l4q-vimplugin-vim-visual-multi-0.5.8-unstable-2024-09-01",
+        "rev": "a6975e7c1ee157615bbc80fc25e4392f71c344d4",
+        "version": "0.5.8-unstable-2024-09-01"
+    },
+    "vim-wordmotion": {
+        "name": "vim-wordmotion",
+        "path": "/nix/store/ph6d58c3bxajzj6ffh3zqgwwq2bgkaxv-vimplugin-vim-wordmotion-0-unstable-2023-02-26",
+        "rev": "81d9bd298376ab0dc465c85d55afa4cb8d5f47a1",
+        "version": "0-unstable-2023-02-26"
+    },
+    "vimade": {
+        "name": "vimade",
+        "path": "/nix/store/hmsh3myp6xvcj04c7j28wly01wx5kn1v-vimplugin-vimade-2.5.1-unstable-2025-11-09",
+        "rev": "266cb28a451448754eb8ae2a2a46d6ae526b33f8",
+        "version": "2.5.1-unstable-2025-11-09"
+    },
+    "vimtex": {
+        "name": "vimtex",
+        "path": "/nix/store/qvwq8dfgsafl8vvynkab4s5gi1cvhhqy-vimplugin-vimtex-2.17-unstable-2026-03-04",
+        "rev": "82d2305ff71dfb3bd91602534cc9bb9a195bcb38",
+        "version": "2.17-unstable-2026-03-04"
+    },
+    "vimwiki": {
+        "name": "vimwiki",
+        "path": "/nix/store/jkrrcwlsy726wgz50nmdcygvcjbpy6ny-vimplugin-vimwiki-2024.01.24-unstable-2024-10-14",
+        "rev": "72792615e739d0eb54a9c8f7e0a46a6e2407c9e8",
+        "version": "2024.01.24-unstable-2024-10-14"
+    },
+    "virtcolumn": {
+        "name": "virtcolumn",
+        "path": "/nix/store/yh24sq4lhhn9hl6kblqi6b8y11jj8lak-vimplugin-virtcolumn-2023-12-15",
+        "rev": "4d385b4aa42aa3af6fa2cb8527462fa4badbd163",
+        "version": "2023-12-15"
+    },
+    "volt": {
+        "name": "volt",
+        "path": "/nix/store/ccj2n3j4wzlwbx71ha1x4qq9bc95sfla-vimplugin-nvzone-volt-0-unstable-2025-09-13",
+        "rev": "620de1321f275ec9d80028c68d1b88b409c0c8b1",
+        "version": "0-unstable-2025-09-13"
+    },
+    "vuffers": {
+        "name": "vuffers",
+        "path": "/nix/store/c0g98d3z1w678d5v8s4alzbgrf1kl7ll-vimplugin-vuffers-",
+        "rev": "00f94b92a3776d07295028fd862832ad38260c1c",
+        "version": ""
+    },
+    "wastebin": {
+        "name": "wastebin",
+        "path": "/nix/store/ip2x3bzvhlkymxc6fhk3r2lmk70k93x8-vimplugin-wastebin-",
+        "rev": "7a70a7e5efc2af5025134c395bd27e3ada9b8629",
+        "version": ""
+    },
+    "web-tools": {
+        "name": "web-tools",
+        "path": "/nix/store/9xsb0rbzxh6vkczsqqlpcbyd1ya0q7w7-vimplugin-web-tools-",
+        "rev": "2f895049d3b6e3a0b2cedfa18c8733b36fb6cbda",
+        "version": ""
+    },
+    "wf": {
+        "name": "wf",
+        "path": "/nix/store/cij4hv6q9zxq348igprr38xxnnpjhl10-vimplugin-wf-",
+        "rev": "5b96c7300d4391f990d4bef22eace9d834167da4",
+        "version": ""
+    },
+    "whaler": {
+        "name": "whaler",
+        "path": "/nix/store/xsfv7v7xcjpvp4ffckz542x617yfi7b6-vimplugin-whaler-",
+        "rev": "3581707eb24aa9feba9788ac997117eec67b1ad7",
+        "version": ""
+    },
+    "which-key": {
+        "name": "which-key",
+        "path": "/nix/store/vjc24g4bnnxw7rszb7yaajh8pzgkwlrk-vimplugin-which-key.nvim-3.17.0-unstable-2025-10-28",
+        "rev": "3aab2147e74890957785941f0c1ad87d0a44c15a",
+        "version": "3.17.0-unstable-2025-10-28"
+    },
+    "wildfire": {
+        "name": "wildfire",
+        "path": "/nix/store/skzkiwc0zgw0f3plfa71gmvkvrwcqirn-vimplugin-wildfire.nvim-0-unstable-2025-10-14",
+        "rev": "918a1873c2b8010baa034f373cf28c53ce4f038f",
+        "version": "0-unstable-2025-10-14"
+    },
+    "winbar": {
+        "name": "winbar",
+        "path": "/nix/store/9zzhmil4xfw3i8f18rw74ffjx33nb0g0-vimplugin-winbar-2022-11-23",
+        "rev": "38a92be23ceee9909aa775e7048159ada7a94fe9",
+        "version": "2022-11-23"
+    },
+    "windline": {
+        "name": "windline",
+        "path": "/nix/store/q2crnnvn2asbk15p7c7rchsnyr3x9m1k-vimplugin-windline-2025-10-22",
+        "rev": "2e83922bf289ffd30fbd7f7028fdb4711592dd92",
+        "version": "2025-10-22"
+    },
+    "windows": {
+        "name": "windows",
+        "path": "/nix/store/ykqywz2zpsl3qpi0b0ib363wfw2rnc3c-vimplugin-windows.nvim-0-unstable-2023-01-16",
+        "rev": "c7492552b23d0ab30325e90b56066ec51242adc8",
+        "version": "0-unstable-2023-01-16"
+    },
+    "wrapping": {
+        "name": "wrapping",
+        "path": "/nix/store/74qz2ayigrdrqc8w01hhx8d39bj1v3qk-vimplugin-wrapping.nvim-2.1.3-unstable-2026-02-12",
+        "rev": "6cdc793511ccccee2ddd5322d640a17b7b255504",
+        "version": "2.1.3-unstable-2026-02-12"
+    },
+    "wrapping-paper": {
+        "name": "wrapping-paper",
+        "path": "/nix/store/c1diwpwxca4c5s5l95r4kzvgn000m2k1-vimplugin-wrapping-paper-",
+        "rev": "661d026455deea984b45e1ae8677da19d0ecb389",
+        "version": ""
+    },
+    "xkbswitch": {
+        "name": "xkbswitch",
+        "path": "/nix/store/dz463za5wwg3mdgdn3b04wqmiwb987kr-vimplugin-xkbswitch-",
+        "rev": "aae56d49db9baf0d9b9675a77da35173d8d87a30",
+        "version": ""
+    },
+    "xmake": {
+        "name": "xmake",
+        "path": "/nix/store/whz5x9lrb34wifwabcndy3ahms76hpqg-vimplugin-xmake.nvim-3.1.4-unstable-2026-01-31",
+        "rev": "32462f8bfbb5022c0772337dbef1efbf8610b392",
+        "version": "3.1.4-unstable-2026-01-31"
+    },
+    "yabs": {
+        "name": "yabs",
+        "path": "/nix/store/lhfdzwrlak0wl1khpk7fhlmkhg20iv05-vimplugin-yabs-",
+        "rev": "29df3cd138bbc453ab71303f8f64ff04a599fc90",
+        "version": ""
+    },
+    "yaml": {
+        "name": "yaml",
+        "path": "/nix/store/qrlpcpaxph13n4hyp2mx0kri584rwy07-vimplugin-yaml-2026-01-04",
+        "rev": "b6eaf919fb0a2a254ce20ae657787d67e6b9300e",
+        "version": "2026-01-04"
+    },
+    "yanky": {
+        "name": "yanky",
+        "path": "/nix/store/s4ihzm66wdv8zfzl4iq9ri8if53b9ygb-vimplugin-yanky.nvim-2.0.0-unstable-2026-03-12",
+        "rev": "784188e0a7363e762e53140f39124d786aec0832",
+        "version": "2.0.0-unstable-2026-03-12"
+    },
+    "yarepl": {
+        "name": "yarepl",
+        "path": "/nix/store/rn4nqvrpj56976p393nimjfnkzf2mdy9-vimplugin-yarepl-",
+        "rev": "e615730419bdbb0ccef6d4a3e3fa7a6169fda915",
+        "version": ""
+    },
+    "yazi": {
+        "name": "yazi",
+        "path": "/nix/store/hdq4vz0cb9am8z7g5m4l3m8fcps7ynqw-vimplugin-yazi.nvim-13.1.5-unstable-2026-03-14",
+        "rev": "f0830270ee1ffea7af83ec2a89019c8ace667be3",
+        "version": "13.1.5-unstable-2026-03-14"
+    },
+    "zen-mode": {
+        "name": "zen-mode",
+        "path": "/nix/store/p5gj0087bhb3rsi1xzqgkh12afyd8f0s-vimplugin-zen-mode.nvim-1.4.1-unstable-2025-10-28",
+        "rev": "8564ce6d29ec7554eb9df578efa882d33b3c23a7",
+        "version": "1.4.1-unstable-2025-10-28"
+    },
+    "zettelkasten": {
+        "name": "zettelkasten",
+        "path": "/nix/store/ikgsykzllayvwmhab30gbhdxmvavky3h-vimplugin-zettelkasten-",
+        "rev": "002c207be2eb3a0433e7e3c5999c81936106142a",
+        "version": ""
+    },
+    "zpragmatic": {
+        "name": "zpragmatic",
+        "path": "/nix/store/zwlz8q2pvcip7fpz1mmi2imi4d6dbdlb-vimplugin-zpragmatic-",
+        "rev": "95dc3e54f2b00278a7363451f11daacc75ea8844",
+        "version": ""
+    }
+}

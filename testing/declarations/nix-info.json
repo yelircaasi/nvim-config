@@ -537,7 +537,7 @@
         "attrset": "custom",
         "rev": "04d592e441b5723d445046e1467270f6bd48d978",
         "hash": "sha256-Ot47ockIDYd4gmjCFbwDYWWtq+YG52BiInlHnJbFmTs=",
-        "last_commit": ""
+        "last_commit": "2023-02-09"
     },
     {
         "name": "mini",
@@ -547,7 +547,7 @@
         "attrset": "pkgs.vimPlugins",
         "rev": "439cdcd6992bc9012efd7d8ed7a7b7a0f1fac32a",
         "hash": "sha256-pxI8tHG6T7Dtdqzi7IEf1XMG0nmoBVvB6SsnnFCYSFI=",
-        "last_commit": ""
+        "last_commit": "2026-03-19"
     },
     {
         "name": "snacks",
@@ -557,7 +557,7 @@
         "attrset": "pkgs.vimPlugins",
         "rev": "ad9ede6a9cddf16cedbd31b8932d6dcdee9b716e",
         "hash": "sha256-7lDH1JlTM+H/LWjMlAQPNY6A+xmS/cp+wChy4buGYIU=",
-        "last_commit": ""
+        "last_commit": "2026-03-14"
     },
     {
         "name": "blink",
@@ -567,7 +567,7 @@
         "attrset": "custom",
         "rev": "d1e7c7c45d45c6b6a25427bf62db4db73b03ff3d",
         "hash": "sha256-FSfk8RF/yZqgT3OcRHkNnO+oM5YA7H0Cd6C4rGHV1uI=",
-        "last_commit": "",
+        "last_commit": "2025-10-21",
         "notes": "https://search.nixos.org/packages?buckets={%22package_attr_set%22:[%22vimPlugins%22],%22package_license_set%22:[],%22package_maintainers_set%22:[],%22package_teams_set%22:[],%22package_platforms%22:[]}&channel=unstable&query=blink"
     },
     {
@@ -578,7 +578,7 @@
         "attrset": "pkgs.vimPlugins",
         "rev": "be2d7b2be01860b5445a007ff2bc72b29896db6b",
         "hash": "sha256-W+R/GY6a6easPnpndGAb8TuE+jqaYZlqT9ZQUdQnUwQ=",
-        "last_commit": ""
+        "last_commit": "2026-01-11"
     },
     {
         "name": "hlsearch",
@@ -588,7 +588,7 @@
         "attrset": "custom",
         "rev": "fdeb60b890d15d9194e8600042e5232ef8c29b0e",
         "hash": "sha256-ibizMO16T/SwZIcl+zckbpDHMYQovKPEB5iO2YBRj74=",
-        "last_commit": ""
+        "last_commit": "2024-01-10"
     },
     {
         "name": "clever-f.vim",
@@ -598,7 +598,7 @@
         "attrset": "pkgs.vimPlugins",
         "rev": "6a3ac5e3688598af9411ab741737f98c47370c22",
         "hash": "sha256-miltIeW0AZPgqoDno0Nyo287mBbV2cJaf1XahECZfr0=",
-        "last_commit": ""
+        "last_commit": "2022-10-15"
     },
     {
         "name": "grug-far",
@@ -608,7 +608,7 @@
         "attrset": "pkgs.vimPlugins",
         "rev": "dc4684e163971bb1f5bfb93fbd4bb3e892bf9b15",
         "hash": "sha256-dx+3836KUZIuaQcMvKYZ6UIJd5QKLuhpW8hjbobVRYg=",
-        "last_commit": ""
+        "last_commit": "2026-03-12"
     },
     {
         "name": "spectre",
@@ -618,7 +618,7 @@
         "attrset": "pkgs.vimPlugins",
         "rev": "72f56f7585903cd7bf92c665351aa585e150af0f",
         "hash": "sha256-WPEizIClDmseDEhomCasLx/zfAMT7lq7ZBnfc/a8CuA=",
-        "last_commit": ""
+        "last_commit": "2025-05-13"
     },
     {
         "name": "nvim-rip-substitute",
@@ -628,7 +628,7 @@
         "attrset": "pkgs.vimPlugins",
         "rev": "1fae57ead7e1f3221286beced9e32fdd661e453b",
         "hash": "sha256-OZ/LbGJ5zwqSla+hbYhCFG38f1DZYupF40JbuThmWKk=",
-        "last_commit": ""
+        "last_commit": "2026-02-06"
     },
     {
         "name": "inc-rename",
@@ -638,7 +638,7 @@
         "attrset": "pkgs.vimPlugins",
         "rev": "0074b551a17338ccdcd299bd86687cc651bcb33d",
         "hash": "sha256-WDvzCOCWJFNTGl6g0/BF1SLPR+Xc4vGwVLqIdhAShkg=",
-        "last_commit": ""
+        "last_commit": "2026-03-02"
     },
     {
         "name": "search-replace",
@@ -648,7 +648,7 @@
         "attrset": "custom",
         "rev": "06ebf663fca3f3b3d1b73bbca695f0c9eb7c7309",
         "hash": "sha256-s5ayWMzoH9pihUtnMZcyaGSNts4RkHpS9M344RVIHXw=",
-        "last_commit": ""
+        "last_commit": "2026-01-26"
     },
     {
         "name": "ssr",
@@ -658,7 +658,7 @@
         "attrset": "pkgs.vimPlugins",
         "rev": "7c95cfa5836508f08ae833a4b31d2ed265560f64",
         "hash": "sha256-wjmUixNZB6fiiT0caG+xvyOy8fMUoNKzf62J0OSZxjY=",
-        "last_commit": ""
+        "last_commit": "2024-09-07"
     },
     {
         "name": "sad",
@@ -668,7 +668,7 @@
         "attrset": "custom",
         "rev": "e7511767b59fcff237cc7209d47d08aba64b9f63",
         "hash": "sha256-CBX1EAch/cAE432g8/Tt8QqU8tIkTviXVdRyOwRyNEo=",
-        "last_commit": ""
+        "last_commit": "2025-05-01"
     },
     {
         "name": "substitute",
@@ -678,7 +678,7 @@
         "attrset": "pkgs.vimPlugins",
         "rev": "0d2077398552f069abccbd964a26dd7cd26882cd",
         "hash": "sha256-t3wgyUtHab0erJkA7kUOGvbyHTzMmWlNE5WNtjDZL0g=",
-        "last_commit": ""
+        "last_commit": "2026-02-17"
     },
     {
         "name": "replacer",
@@ -688,7 +688,7 @@
         "attrset": "pkgs.vimPlugins",
         "rev": "32e1713230844fa52f7f0598c59295de3c90dc95",
         "hash": "sha256-pY0BiclthomTdgJeBFmeVStRFexgsA5V1MU+YGL0OmI=",
-        "last_commit": ""
+        "last_commit": "2023-07-29"
     },
     {
         "name": "renamer",
@@ -718,7 +718,7 @@
         "attrset": "custom",
         "rev": "18037e9f5ce417bd75d16ebbf70787bcc478c249",
         "hash": "sha256-YXwM0hzqyIob6wMumkqqsPp2nRMuPxYnrHW4ihU6htw=",
-        "last_commit": ""
+        "last_commit": "2025-01-30"
     },
     {
         "name": "flybuf",
@@ -728,7 +728,7 @@
         "attrset": "custom",
         "rev": "fe1fbd9699f6988a1db3b2e2ffa599154784c6e1",
         "hash": "sha256-dZWRc7p7g4q/F+bF6VVmz5bfN9kItSiWdBusm9yHz2w=",
-        "last_commit": ""
+        "last_commit": "2023-03-25"
     },
     {
         "name": "stickybuf",
@@ -738,7 +738,7 @@
         "attrset": "custom",
         "rev": "0c1e5f1a3eb36eea2cea57083828269cc62c58e4",
         "hash": "sha256-tMP91R7da79K7035lkVzVQ59xe8uG46qeH3uQU0iQLk=",
-        "last_commit": ""
+        "last_commit": "2025-03-05"
     },
     {
         "name": "swm",
@@ -748,7 +748,7 @@
         "attrset": "custom",
         "rev": "4ccb2b137b117092f3efa426261ddbef25111454",
         "hash": "sha256-9BAFWSnKO/UAY7z/01i4I6B12yfAInjgo6UOCZBtD0U=",
-        "last_commit": ""
+        "last_commit": "2025-02-11"
     },
     {
         "name": "retrospect",
@@ -758,7 +758,7 @@
         "attrset": "custom",
         "rev": "0818a59c9bd12bfa3e79b50858d1da988b032842",
         "hash": "sha256-BXmYoou/5rCbx4buF5jSWwQNsvkyQSGXx82C/UixxcU=",
-        "last_commit": ""
+        "last_commit": "2025-11-05"
     },
     {
         "name": "vuffers",
@@ -768,7 +768,7 @@
         "attrset": "custom",
         "rev": "00f94b92a3776d07295028fd862832ad38260c1c",
         "hash": "sha256-Ags4jUhqglgPQ1O66LrUislZIJYAxF8fXcjZQC3vPAM=",
-        "last_commit": ""
+        "last_commit": "2025-05-20"
     },
     {
         "name": "pragma",
@@ -778,7 +778,7 @@
         "attrset": "custom",
         "rev": "1f2b4e6f9a567d3852354d9d124e07bd0c19f25b",
         "hash": "sha256-BlaxFUdZzAIyhqvoXHI5bB7Ka01HXDyApcYBFcjkBb0=",
-        "last_commit": ""
+        "last_commit": "2024-11-28"
     },
     {
         "name": "windows",
@@ -828,7 +828,7 @@
         "attrset": "custom",
         "rev": "661d026455deea984b45e1ae8677da19d0ecb389",
         "hash": "sha256-Q7KvOmC0vOnMKxGbyg2UHC3QWoavkJ3kqA6Mt9up2DE=",
-        "last_commit": ""
+        "last_commit": "2025-04-02"
     },
     {
         "name": "savior",
@@ -838,7 +838,7 @@
         "attrset": "custom",
         "rev": "ad8878c929bd759c8fac64744306f6e6c1e15e7d",
         "hash": "sha256-BtI7PAs5TrwGYTo+duM9ZiDxu7WWnvkm0mmnnUBAqlE=",
-        "last_commit": ""
+        "last_commit": "2025-05-09"
     },
     {
         "name": "zpragmatic",
@@ -848,7 +848,7 @@
         "attrset": "custom",
         "rev": "95dc3e54f2b00278a7363451f11daacc75ea8844",
         "hash": "sha256-rZd+iMC6VOM/4SIG+8qCxyO/zMslQqOQlIMg6QMniQg=",
-        "last_commit": ""
+        "last_commit": "2024-11-26"
     },
     {
         "name": "vim-auto-save",
@@ -948,7 +948,7 @@
         "attrset": "custom",
         "rev": "47a38cd4aa3118a6be3f64ac4987a8483bd2e98a",
         "hash": "sha256-Q0JpvOi4jpPJl4JODFJG+vG+aTvDyD+vc0DXWOmNtIY=",
-        "last_commit": ""
+        "last_commit": "2024-09-04"
     },
     {
         "name": "spider",
@@ -978,7 +978,7 @@
         "attrset": "custom",
         "rev": "8d16bd92f6203dfe44157d43be7880f34fd5c060",
         "hash": "sha256-CFDU+q1CLbKgCwed5Qx728olgTpCTpYDzz6LefjEdvA=",
-        "last_commit": ""
+        "last_commit": "2017-12-26"
     },
     {
         "name": "treemonkey",
@@ -988,7 +988,7 @@
         "attrset": "custom",
         "rev": "b13e9024f51c8a12ce2196fb49ceb793338ed66e",
         "hash": "sha256-sVQwtC1E/csNRB+9tb0TPtcvJcUsf6qARwRFdebYW6w=",
-        "last_commit": ""
+        "last_commit": "2025-06-08"
     },
     {
         "name": "hierarchy",
@@ -998,7 +998,7 @@
         "attrset": "custom",
         "rev": "b6f2d9510fabf1fa3a268f30221c8f19bcf37775",
         "hash": "sha256-1/uKsQAOF52qnhXU9B6XFNpP+bZ369QSVXJ9dT1jSk8=",
-        "last_commit": ""
+        "last_commit": "2022-09-01"
     },
     {
         "name": "navigator",
@@ -1008,7 +1008,7 @@
         "attrset": "custom",
         "rev": "deaf00338fe288d24f5632b1842130f8d9c15b0a",
         "hash": "sha256-VjKaSzibXFufCGb6x2RFtkgWTDqZQRbdNtgXQgDUGys=",
-        "last_commit": ""
+        "last_commit": "2025-10-30"
     },
     {
         "name": "rainbow-delimiters",
@@ -1108,7 +1108,7 @@
         "attrset": "custom",
         "rev": "fbba86031f3927ecbc11556217b4976a149c29c6",
         "hash": "sha256-6ZDu1B4L9NESAd5Suh/NUKCkssRtLEYtf0+/ipR+7Ic=",
-        "last_commit": ""
+        "last_commit": "2025-06-10"
     },
     {
         "name": "which-key",
@@ -1128,7 +1128,7 @@
         "attrset": "custom",
         "rev": "0e96b6222f322377063d1940648bd78a15cf55e9",
         "hash": "sha256-ewEjvS3K5rQbv/eSZuY/zbKW61vH2QxBka3bo5Mn2ck=",
-        "last_commit": ""
+        "last_commit": "2023-03-04"
     },
     {
         "name": "unimpaired-which-key",
@@ -1158,7 +1158,7 @@
         "attrset": "custom",
         "rev": "7e23f4b38a38d2c125763bdf456f464dbbd64fbb",
         "hash": "sha256-ipDz9p9q2HXBJdG1nFGh7igjg5OI/vXnh1JfuShKxZI=",
-        "last_commit": ""
+        "last_commit": "2022-11-10"
     },
     {
         "name": "keyseer",
@@ -1168,7 +1168,7 @@
         "attrset": "custom",
         "rev": "346fd45a91af8cd89072887c34e30a2c5edf901d",
         "hash": "sha256-yjL51Ze9mYGNop710SFwJe9YAQnkHEuZbQ44niOEfV8=",
-        "last_commit": ""
+        "last_commit": "2023-12-02"
     },
     {
         "name": "keytex",
@@ -1178,7 +1178,7 @@
         "attrset": "custom",
         "rev": "34c3cbb0e10102ed234695ea1d26332ea631d917",
         "hash": "sha256-aFI1X7LpJBH7Evtdr3kQCcgKs/G8o/mC6W9PyXXWjgw=",
-        "last_commit": ""
+        "last_commit": "2024-03-28"
     },
     {
         "name": "showkeys",
@@ -3208,7 +3208,7 @@
         "attrset": "pkgs.vimPlugins",
         "rev": "7db44d0bb760120142cc1e8f43e44976de59c2f6",
         "hash": "sha256-BX/y1rEcDqj96rDssWwrMbj93SVIfFCW3tFgsFI1d4M=",
-        "last_commit": ""
+        "last_commit": "2024-10-22"
     },
     {
         "name": "urlview",
@@ -3218,7 +3218,7 @@
         "attrset": "pkgs.vimPlugins",
         "rev": "813736e6891b8dccca58aa3baaeabef032f44525",
         "hash": "sha256-61Bq8w7r1cwEhyKJ4pKbeZLXupIsGdbAzrpE51uIcpc=",
-        "last_commit": ""
+        "last_commit": "2025-11-30"
     },
     {
         "name": "interlaced",
@@ -3248,7 +3248,7 @@
         "attrset": "pkgs.vimPlugins",
         "rev": "82d2305ff71dfb3bd91602534cc9bb9a195bcb38",
         "hash": "sha256-rBe8FivGH4I7uRlbrMu+9GYFA2TQ2yoyOPNcZwBLVho=",
-        "last_commit": ""
+        "last_commit": "2026-03-04"
     },
     {
         "name": "ltex_extra",
@@ -3258,7 +3258,7 @@
         "attrset": "pkgs.vimPlugins",
         "rev": "49ea83c231139d98b7c9668c99e7b4591421b056",
         "hash": "sha256-9DLLewfRn17BeQfZB2+FbeFI+2DhNevlBqhrvsmpYU4=",
-        "last_commit": ""
+        "last_commit": "2025-11-01"
     },
     {
         "name": "drop",
@@ -3318,7 +3318,7 @@
         "attrset": "pkgs.vimPlugins",
         "rev": "15f4c4e523e1fbec74766e1967e1c2491df013c9",
         "hash": "sha256-PBEZDbwH1ZYAh9y2XXavbKo1SzlzO66J4e03gOh+Pwc=",
-        "last_commit": ""
+        "last_commit": "2024-06-02"
     },
     {
         "name": "neotest-plenary",
@@ -3328,7 +3328,7 @@
         "attrset": "pkgs.vimPlugins",
         "rev": "3523adcf9ffaad1911960c5813b0136c1b63a2ec",
         "hash": "sha256-NQGGq1HiBmu/4OhkvNruUWw+OmzS8MQ8LL9dWwaw2oo=",
-        "last_commit": ""
+        "last_commit": "2024-09-15"
     },
     {
         "name": "minty",
@@ -3338,7 +3338,7 @@
         "attrset": "pkgs.vimPlugins",
         "rev": "aafc9e8e0afe6bf57580858a2849578d8d8db9e0",
         "hash": "sha256-jdz0cR1uz1EdxFCuxndsK9gyTZ2jg8wdYA0v33SevOg=",
-        "last_commit": ""
+        "last_commit": "2025-02-28"
     },
     {
         "name": "color-picker",
@@ -3408,7 +3408,7 @@
         "attrset": "pkgs.vimPlugins",
         "rev": "e2cb22089cc2358b2b995c09578224f142de6039",
         "hash": "sha256-LrY61knLKAn36+RnMddAzxf/wYtdnLxnnQhtHB3mQwc=",
-        "last_commit": ""
+        "last_commit": "2026-01-26"
     },
     {
         "name": "kubels",
@@ -3468,7 +3468,7 @@
         "attrset": "pkgs.vimPlugins",
         "rev": "2c8525fd98e57472769d137317bca83e477858ce",
         "hash": "sha256-X+hTI/v7ro3z9hQl2cQOz3LbCvh4LUzBwj+u6QGbr18=",
-        "last_commit": ""
+        "last_commit": "2025-09-27"
     },
     {
         "name": "avante",
@@ -3478,7 +3478,7 @@
         "attrset": "pkgs.vimPlugins",
         "rev": "348be57354a8ac232b599474069b0e518308a9a3",
         "hash": "sha256-/tSnFJ9uvlcT/ZyaMmnvX676y9ZW/tzeB6qnZoCuFBM=",
-        "last_commit": ""
+        "last_commit": "2026-03-11"
     },
     {
         "name": "vim-ai",
@@ -3498,7 +3498,7 @@
         "attrset": "pkgs.vimPlugins",
         "rev": "e010179d64538ce1fd88310d08b4697b356b17c8",
         "hash": "sha256-860ek9xwjv3mfPH9cj18tRa1NxhQLlWbBajgCJEvSOo=",
-        "last_commit": ""
+        "last_commit": "2026-03-19"
     },
     {
         "name": "llm",
@@ -3508,7 +3508,7 @@
         "attrset": "pkgs.vimPlugins",
         "rev": "ce69731ba3f8d3ea8bc4c8f58c74c2f9ea0b33de",
         "hash": "sha256-8bJwksIEE5/K4g1akzYRWpkkTLb5bEBWwiCFC8VGfSU=",
-        "last_commit": ""
+        "last_commit": "2025-01-09"
     },
     {
         "name": "sg",
@@ -3518,7 +3518,7 @@
         "attrset": "pkgs.vimPlugins",
         "rev": "775f22b75a9826eabf69b0094dd1d51d619fe552",
         "hash": "sha256-i5g+pzxB8pAORLbr1wlYWUTsrJJmVj9UwlCg8pU3Suw=",
-        "last_commit": ""
+        "last_commit": "2025-01-21"
     },
     {
         "name": "metrics",
@@ -3608,7 +3608,7 @@
         "attrset": "pkgs.vimPlugins",
         "rev": "32617940adb2eea56e85a64883a19961ceac9641",
         "hash": "sha256-LT2mJWR5gzE65OfF09LRRoycAzkcGqRTcMdN+9jciKs=",
-        "last_commit": ""
+        "last_commit": "2026-02-03"
     },
     {
         "name": "timew",
@@ -3638,7 +3638,7 @@
         "attrset": "custom",
         "rev": "3e067afe8687517e205588dacf818648a163a5a4",
         "hash": "sha256-Fpa0/WXAoel/w+sDBinniAMArcRcVYH3aF+Dy8sCbVU=",
-        "last_commit": ""
+        "last_commit": "2025-20-11"
     },
     {
         "name": "tktodo",
@@ -3648,7 +3648,7 @@
         "attrset": "custom",
         "rev": "b49ae216846f5cd60478abc9e7ee17c3249b7705",
         "hash": "sha256-KFfEkUcooaUb5ZxLrrKVqsYcVO/XI87bGwlHKbME1io=",
-        "last_commit": ""
+        "last_commit": "2023-01-26"
     },
     {
         "name": "zettelkasten",
@@ -3658,7 +3658,7 @@
         "attrset": "custom",
         "rev": "002c207be2eb3a0433e7e3c5999c81936106142a",
         "hash": "sha256-HhWSg1ARF41TCUa7eJ+NEX3K0VFgnxzkhcG8QfFzH5c=",
-        "last_commit": ""
+        "last_commit": "2025-09-21"
     },
     {
         "name": "obsidian",
@@ -3668,7 +3668,7 @@
         "attrset": "pkgs.vimPlugins",
         "rev": "14e0427bef6c55da0d63f9a313fd9941be3a2479",
         "hash": "sha256-mbq7fAPmlwOAbWlN3lGX9WGBKTV8cAPZx8pnRCyszJc=",
-        "last_commit": ""
+        "last_commit": "2026-03-19"
     },
     {
         "name": "vim-twig",
@@ -3678,7 +3678,7 @@
         "attrset": "pkgs.vimPlugins",
         "rev": "ad115512725bcc156f7f89b72ff563b9fa44933b",
         "hash": "sha256-0pajFA5JcLa8WMoOB43TXC5n05IxiYXQ7KTzCiZ0+tw=",
-        "last_commit": ""
+        "last_commit": "2018-05-23"
     },
     {
         "name": "timerly",
@@ -3688,7 +3688,7 @@
         "attrset": "pkgs.vimPlugins",
         "rev": "1c78999480af0e4f8201fe6bfa1e5e0b70a59acf",
         "hash": "sha256-XPavAumJdwG0ocrRKXFAt79VvaxGh+Zd2uHuAfBidkk=",
-        "last_commit": ""
+        "last_commit": "2025-08-16"
     },
     {
         "name": "sche",
@@ -3698,7 +3698,7 @@
         "attrset": "custom",
         "rev": "31eda33db63ccff579867fea54c08da91af9f35f",
         "hash": "sha256-kL54YyP5UjvO6hyRlBj6hYBsFaHt1ilsXDdhKuY1rrY=",
-        "last_commit": ""
+        "last_commit": "2024-08-18"
     },
     {
         "name": "vimwiki",
@@ -3708,7 +3708,7 @@
         "attrset": "pkgs.vimPlugins",
         "rev": "72792615e739d0eb54a9c8f7e0a46a6e2407c9e8",
         "hash": "sha256-O85nZUWxIKm0gFILAkWH9WqfVcEbnbxR56grqMmum3A=",
-        "last_commit": ""
+        "last_commit": "2024-10-14"
     },
     {
         "name": "flote",
@@ -3718,7 +3718,7 @@
         "attrset": "custom",
         "rev": "0baa72f59c249b28cd33f07db862bed3192c03f9",
         "hash": "sha256-lzJWw+M9tTSIXfaZiiTWNqq8Be9/PlW6BhAlNOYjZbQ=",
-        "last_commit": ""
+        "last_commit": "2024-04-13"
     },
     {
         "name": "neorg",
@@ -3728,7 +3728,7 @@
         "attrset": "pkgs.vimPlugins",
         "rev": "338f601c7c164e7e3ded7539f209c1f12344a5d5",
         "hash": "sha256-ifCD/EZVS53qRxolq7MK8IhuUPFx520HAAiPQk2AeX0=",
-        "last_commit": ""
+        "last_commit": "2026-03-21"
     },
     {
         "name": "quicknote",
@@ -3738,7 +3738,7 @@
         "attrset": "custom",
         "rev": "a60828e54b5e4c474e7d583a14df09c98882dd42",
         "hash": "sha256-tPfFeuzxT//qTBcqe90SpsiTnyAEp3cFoMD7DbqMxfs=",
-        "last_commit": ""
+        "last_commit": "2025-01-26"
     },
     {
         "name": "scratch-buffer",
@@ -3748,7 +3748,7 @@
         "attrset": "custom",
         "rev": "e14fba7425d3deab3e8abb9b599114cb6c955524",
         "hash": "sha256-tAJoRrP3y5vJcT2gBMbMNr/j5vNoQ5TvFV4aXf5K8kU=",
-        "last_commit": ""
+        "last_commit": "2023-10-27"
     },
     {
         "name": "edit-list",
@@ -3758,6 +3758,6 @@
         "attrset": "custom",
         "rev": "86983717aafaeb9d82445d6f11b13eed6d20dc37",
         "hash": "sha256-xeBjO4cFwpo+fBYNEwhP0hm2mgMoCRUY0qbcAIyCVMM=",
-        "last_commit": ""
+        "last_commit": "2023-10-31"
     }
 ]
