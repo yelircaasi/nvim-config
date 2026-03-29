@@ -120,6 +120,8 @@ https://github.com/josa42/config-nvim
 
 https://github.com/swaits/lazyjj.nvim/ ||| https://github.com/Cretezy/lazyjj
 
+https://www.freecodecamp.org/news/claude-code-handbook/
+
 https://yutkat.github.io/my-neovim-pluginlist/
 https://github.com/mhanberg/.dotfiles/blob/main/config/nvim/init.lua
 https://github.com/mhanberg/.dotfiles/
