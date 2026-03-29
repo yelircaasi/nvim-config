@@ -16,6 +16,7 @@
 	{ "layer": 0, "sublayer":-1, "name": "nvim-api-wrappers",            "id": "anuvyklack/nvim-api-wrappers",         "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
 	{ "layer": 0, "sublayer":-1, "name": "pathlib",                      "id": "pysan3/pathlib.nvim",                  "source": "gh", "lazy": false, "category": "laterC",    "notes": "needs nix" },
 	{ "layer": 0, "sublayer":-1, "name": "cmdTree",                      "id": "CWood-sdf/cmdTree.nvim",               "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "layer": 0, "sublayer":-1, "name": "sqlite",                       "id": "kkharji/sqlite.lua",                   "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
 	//---------------------------------------------
 	//--------------------- core setup and UI -----
 	//---------------------------------------------
@@ -187,6 +188,7 @@
 	{ "layer": 1, "sublayer": -1, "name": "insx",                         "id": "hrsh7th/nvim-insx",                    "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
 	{ "layer": 1, "sublayer": -1, "name": "which-key",                    "id": "folke/which-key.nvim",                 "source": "gh", "lazy": false, "category": "trying"},
 	// ---- other -----
+	{ "layer": 1, "sublayer": -1, "name": "better-escape.nvim",           "id": "max397574/better-escape.nvim",         "source": "gh", "lazy": false, "category": "trying"},
 	{ "layer": 1, "sublayer": -1, "name": "apm",                          "id": "pseudocc/nvim-apm",                    "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
 	{ "layer": 1, "sublayer": -1, "name": "unimpaired-which-key",         "id": "afreakk/unimpaired-which-key.nvim",    "source": "gh", "lazy": false, "category": "laterA",    "notes": "needs nix" },
 	{ "layer": 1, "sublayer": -1, "name": "nvim-whichkey-setup.lua",      "id": "AckslD/nvim-whichkey-setup.lua",       "source": "gh", "lazy": false, "category": "laterA",    "notes": "needs nix" },
@@ -290,6 +292,7 @@
 	{ "layer": 2, "sublayer": -1, "name": "cmp-buffer",                   "id": "hrsh7th/cmp-buffer",                   "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
 	{ "layer": 2, "sublayer": -1, "name": "cmp-path",                     "id": "hrsh7th/cmp-path",                     "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
 	{ "layer": 2, "sublayer": -1, "name": "cmp-cmdline",                  "id": "hrsh7th/cmp-cmdline",                  "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "layer": 2, "sublayer": -1, "name": "cmp_luasnip",                  "id": "saadparwaiz1/cmp_luasnip",             "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
 	// ----- other completion sources -----
 	{ "layer": 2, "sublayer": -1, "name": "nvim-cmp-fonts",               "id": "amarakon/nvim-cmp-fonts",              "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
 	{ "layer": 2, "sublayer": -1, "name": "nvim-cmp-lua-latex-symbols",   "id": "amarakon/nvim-cmp-lua-latex-symbols",  "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
@@ -319,7 +322,8 @@
 	{ "layer": 2, "sublayer": -1, "name": "lightbulb",                    "id": "kosayoda/nvim-lightbulb",              "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
 	{ "layer": 2, "sublayer": -1, "name": "telescope-code-actions",       "id": "nyarthan/telescope-code-actions.nvim", "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
 	{ "layer": 2, "sublayer": -1, "name": "dmap",                         "id": "doums/dmap.nvim",                      "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
-	//------ language-specific -----
+	//------ language-specific ----- 
+	{ "layer": 2, "sublayer": -1, "name": "nix-develop.nvim",             "id": "figsoda/nix-develop.nvim",             "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
 	{ "layer": 2, "sublayer": -1, "name": "lazydev",                      "id": "folke/lazydev.nvim",                   "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
 	{ "layer": 2, "sublayer": -1, "name": "rustaceanvim",                 "id": "mrcjkb/rustaceanvim",                  "source": "gh", "lazy": false, "category": "trying",    "notes": "already lazy" },
 	{ "layer": 2, "sublayer": -1, "name": "crates",                       "id": "saecki/crates.nvim",                   "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
@@ -407,6 +411,7 @@
 	//---------------------------------------------
 	//-------------------- project management -----
 	//---------------------------------------------
+	{ "layer": 5, "sublayer": -1, "name": "neoconf.nvim",                 "id": "folke/neoconf.nvim",                   "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
 	{ "layer": 5, "sublayer": -1, "name": "telescope-project",            "id": "nvim-telescope/telescope-project.nvim","source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
 	{ "layer": 5, "sublayer": -1, "name": "project",                      "id": "Zeioth/project.nvim",                  "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix; see also jay-babu/project.nvim" },
 	{ "layer": 5, "sublayer": -1, "name": "monorepos",                    "id": "sajjathossain/nvim-monorepos",         "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
@@ -415,7 +420,7 @@
 	//==== LAYER 6: version control & collaboration ===================================================================================== 6
 	//===================================================================================================================================
 	{ "layer": 6, "sublayer": -1, "name": "advanced-git-search",          "id": "aaronhallaert/advanced-git-search.nvim","source":"gh", "lazy": false, "category": "next",      "notes": "needs nix" },
-	{ "layer": 6, "sublayer": -1, "name": "blame",                        "id": "sairajchouhan/blame.nvim",             "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "layer": 6, "sublayer": -1, "name": "blame",                        "id": "FabijanZulj/blame.nvim",             "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
 	{ "layer": 6, "sublayer": -1, "name": "forgit",                       "id": "ray-x/forgit.nvim",                    "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
 	{ "layer": 6, "sublayer": -1, "name": "jj",                           "id": "NicolasGB/jj.nvim",                    "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
 	{ "layer": 6, "sublayer": -1, "name": "jujutsu",                      "id": "yannvanhalewyn/jujutsu.nvim",          "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },

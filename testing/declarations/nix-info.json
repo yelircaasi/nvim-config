@@ -1,5 +1,15 @@
 [
     {
+        "name": "sqlite",
+        "nixName": "sqlite-lua",
+        "id": "kkharji/sqlite.lua",
+        "source": "gh",
+        "attrset": "pkgs.vimPlugins",
+        "rev": "",
+        "hash": "",
+        "last_commit": "2025-03-14"
+    },
+    {
         "name": "nvim-teal-maker",
         "nixName": "nvim-teal-maker",
         "id": "svermeulen/nvim-teal-maker",
@@ -1121,6 +1131,16 @@
         "last_commit": "2025-10-28"
     },
     {
+        "name": "better-escape",
+        "nixName": "better-escape-nvim",
+        "id": "max397574/better-escape.nvim",
+        "source": "gh",
+        "attrset": "pkgs.vimPlugins",
+        "rev": "",
+        "hash": "",
+        "last_commit": "2025-04-29"
+    },
+    {
         "name": "apm",
         "nixName": "apm",
         "id": "pseudocc/nvim-apm",
@@ -1771,6 +1791,16 @@
         "last_commit": "2025-05-18"
     },
     {
+        "name": "cmp_luasnip",
+        "nixName": "cmp_luasnip",
+        "id": "saadparwaiz1/cmp_luasnip",
+        "source": "gh",
+        "attrset": "pkgs.vimPlugins",
+        "rev": "",
+        "hash": "",
+        "last_commit": "2025-04-29"
+    },
+    {
         "name": "nvim-cmp-fonts",
         "nixName": "nvim-cmp-fonts",
         "id": "amarakon/nvim-cmp-fonts",
@@ -1949,6 +1979,16 @@
         "rev": "ceccbdf31742a8427f87bf52d1fc419483045887",
         "hash": "sha256-zfC0l4ioJrFP8Nb8hw3W9xPcWtqCSdeMrV/MxWiqDtU=",
         "last_commit": "2024-09-14"
+    },
+    {
+        "name": "nix-develop",
+        "nixName": "nix-develop-nvim",
+        "id": "figsoda/nix-develop.nvim",
+        "source": "gh",
+        "attrset": "custom",
+        "rev": "",
+        "hash": "",
+        "last_commit": "2026-01-29"
     },
     {
         "name": "lazydev",
@@ -2531,6 +2571,16 @@
         "last_commit": "2025-10-21"
     },
     {
+        "name": "neoconf",
+        "nixName": "neoconf-nvim",
+        "id": "folke/neoconf.nvim",
+        "source": "gh",
+        "attrset": "pkgs.vimPlugins",
+        "rev": "",
+        "hash": "",
+        "last_commit": "2026-03-20"
+    },
+    {
         "name": "telescope-project",
         "nixName": "telescope-project-nvim",
         "id": "nvim-telescope/telescope-project.nvim",
@@ -2583,7 +2633,7 @@
     {
         "name": "blame",
         "nixName": "blame-nvim",
-        "id": "sairajchouhan/blame.nvim",
+        "id": "FabijanZulj/blame.nvim",
         "source": "gh",
         "attrset": "pkgs.vimPlugins",
         "rev": "99dd3509b52909fdfe65860e00d0a279be7bb1b6",
