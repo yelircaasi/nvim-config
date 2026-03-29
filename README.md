@@ -13,77 +13,72 @@ No nvim framework or distribution is used currently.
 
 
 ```sh
-lrwxrwxrwx - nobody  1 Jan  1970 better-escape.nvim -> /nix/store/85wp7d9vf9apshv90fhsh0ax9cs7pxnp-vimplugin-better-escape.nvim-2024-01-21
-lrwxrwxrwx - nobody  1 Jan  1970 blame-me.nvim -> /nix/store/hl6m38glj6jg117qpz1pn68iyw2a2g04-vimplugin-blame-me.nvim
-lrwxrwxrwx - nobody  1 Jan  1970 catppuccin -> /nix/store/gssl733798jaw8zg4lbnlc3iad93r8wv-vimplugin-catppuccin-nvim-2024-02-24
-lrwxrwxrwx - nobody  1 Jan  1970 clangd_extensions.nvim -> /nix/store/h31304mc12nngk72mbad6vqgd3ycck42-vimplugin-clangd_extensions.nvim-2023-10-15
-lrwxrwxrwx - nobody  1 Jan  1970 cmake-gtest.nvim -> /nix/store/jp7y7a6crbarkjj1g8swrp7gd9ya75d4-vimplugin-cmake-gtest.nvim
-lrwxrwxrwx - nobody  1 Jan  1970 cmake-tools.nvim -> /nix/store/d84z3zyjr0hmxcd5dd8h77rw1l40yyfp-vimplugin-cmake-tools.nvim
-lrwxrwxrwx - nobody  1 Jan  1970 cmp-buffer -> /nix/store/cgi5pddnnsglqfn1mpsmylvp5k0lkjc2-vimplugin-cmp-buffer-2022-08-10
-lrwxrwxrwx - nobody  1 Jan  1970 cmp-nvim-lsp -> /nix/store/q9q96s3r619ja90q5dll0xkpvf19rf1b-vimplugin-cmp-nvim-lsp-2023-12-10
-lrwxrwxrwx - nobody  1 Jan  1970 cmp-path -> /nix/store/h90nm567fnk419iwmk9nk3cgxah3v7mj-vimplugin-cmp-path-2022-10-03
-lrwxrwxrwx - nobody  1 Jan  1970 cmp_luasnip -> /nix/store/iarm15v8041gc4q1fpp7s4n5vq2izdln-vimplugin-cmp_luasnip-2023-10-09
-lrwxrwxrwx - nobody  1 Jan  1970 conform.nvim -> /nix/store/8hqsjml3gxgrhwrkibfjcj9zy2w2150a-vimplugin-conform.nvim-2024-03-01
-lrwxrwxrwx - nobody  1 Jan  1970 crates.nvim -> /nix/store/257k29pr8sy3k69jknbb5qywrcq8waj5-vimplugin-crates.nvim-2024-02-04
-lrwxrwxrwx - nobody  1 Jan  1970 dracula.nvim -> /nix/store/vizv2x8j73swrngzc095af1fra1ixl6x-vimplugin-dracula.nvim-2024-02-25
-lrwxrwxrwx - nobody  1 Jan  1970 dressing.nvim -> /nix/store/jylhiwp74nfsjbljf989jljjjy53pzwb-vimplugin-dressing.nvim-2024-01-29
-lrwxrwxrwx - nobody  1 Jan  1970 flash.nvim -> /nix/store/aj31qq4g3ahf7z51jr8xxdrw0lqy9rsk-vimplugin-flash.nvim-2023-10-17
-lrwxrwxrwx - nobody  1 Jan  1970 friendly-snippets -> /nix/store/z31zv4n85w4k17p78cbwyj6p89l91fsq-vimplugin-friendly-snippets-2024-02-25
-lrwxrwxrwx - nobody  1 Jan  1970 gitsigns.nvim -> /nix/store/zjsniyli74hsfqfp7askvvhyk0j7vhs8-lua5.1-gitsigns.nvim-scm-1-unstable-2024-01-27
-lrwxrwxrwx - nobody  1 Jan  1970 headlines.nvim -> /nix/store/jyhppdc7gcf6s3ccgm6jcyh5hjf5zffd-vimplugin-headlines.nvim-2024-02-29
-lrwxrwxrwx - nobody  1 Jan  1970 huez.nvim -> /nix/store/6ar9kqva08lhldnlal0ydbqm4i4898av-vimplugin-huez.nvim
-lrwxrwxrwx - nobody  1 Jan  1970 indent-blankline.nvim -> /nix/store/rwwl8s0ybs09ybv9gnpwg5fjpnhl4hfr-vimplugin-indent-blankline.nvim-2024-02-13
-lrwxrwxrwx - nobody  1 Jan  1970 kanagawa.nvim -> /nix/store/jsc0y0d977f1chlb6l04nk3ah3wbcrfp-vimplugin-kanagawa.nvim-2024-02-28
-lrwxrwxrwx - nobody  1 Jan  1970 LazyVim -> /nix/store/rxrm6qzzmvm6yd1kxdkgjn08q4x9cz4f-vimplugin-LazyVim-2024-02-21
-lrwxrwxrwx - nobody  1 Jan  1970 lualine.nvim -> /nix/store/nshak0ann3rsld3aqwq0zw3fl7s9kyfm-vimplugin-lualine.nvim-2024-01-25
-lrwxrwxrwx - nobody  1 Jan  1970 LuaSnip -> /nix/store/a7awgw1cvq04nixvvwpjyif5a3q42x1a-lua5.1-luasnip-2.1.1-1-unstable-2024-02-15
-lrwxrwxrwx - nobody  1 Jan  1970 marks.nvim -> /nix/store/xp16d958dybnzxz4fqc9v4jvnmjxf84b-vimplugin-marks.nvim-2024-01-07
-lrwxrwxrwx - nobody  1 Jan  1970 mini.ai -> /nix/store/4rx8bm40c1a4pdav75vm35m2fyzqkff6-vimplugin-mini.nvim-2024-02-29
-lrwxrwxrwx - nobody  1 Jan  1970 mini.bufremove -> /nix/store/4rx8bm40c1a4pdav75vm35m2fyzqkff6-vimplugin-mini.nvim-2024-02-29
-lrwxrwxrwx - nobody  1 Jan  1970 mini.comment -> /nix/store/4rx8bm40c1a4pdav75vm35m2fyzqkff6-vimplugin-mini.nvim-2024-02-29
-lrwxrwxrwx - nobody  1 Jan  1970 mini.indentscope -> /nix/store/4rx8bm40c1a4pdav75vm35m2fyzqkff6-vimplugin-mini.nvim-2024-02-29
-lrwxrwxrwx - nobody  1 Jan  1970 mini.pairs -> /nix/store/4rx8bm40c1a4pdav75vm35m2fyzqkff6-vimplugin-mini.nvim-2024-02-29
-lrwxrwxrwx - nobody  1 Jan  1970 mini.surround -> /nix/store/4rx8bm40c1a4pdav75vm35m2fyzqkff6-vimplugin-mini.nvim-2024-02-29
-lrwxrwxrwx - nobody  1 Jan  1970 neo-tree.nvim -> /nix/store/i2v7bkm3iw08am28pcp1x0afpvw4mld0-vimplugin-neo-tree.nvim-2024-02-25
-lrwxrwxrwx - nobody  1 Jan  1970 neoconf.nvim -> /nix/store/sqjv17i7z5w6bbpbn63s45vmq2a4myml-vimplugin-neoconf.nvim-2024-03-01
-lrwxrwxrwx - nobody  1 Jan  1970 neodev.nvim -> /nix/store/vw12332fbsj8fz2fx79smaf6hl3x9v7z-vimplugin-neodev.nvim-2024-02-28
-lrwxrwxrwx - nobody  1 Jan  1970 neorg -> /nix/store/3vwmyd55wb6m1iqrzrxmn1hlrz71bc6i-vimplugin-neorg-2024-02-26
-lrwxrwxrwx - nobody  1 Jan  1970 nix-develop.nvim -> /nix/store/8shcd6ypkzavwiq4136jisfwz1nc9pks-vimplugin-nix-develop.nvim-2023-07-23
-lrwxrwxrwx - nobody  1 Jan  1970 noice.nvim -> /nix/store/1qifhlfsrdxxi4rzpn4rf7np7ihbrn19-vimplugin-noice.nvim-2024-01-22
-lrwxrwxrwx - nobody  1 Jan  1970 none-ls.nvim -> /nix/store/lh9hq5f888imraxlh343d26xi2hc3xyc-vimplugin-none-ls.nvim-2024-02-29
-lrwxrwxrwx - nobody  1 Jan  1970 nui.nvim -> /nix/store/08c3bsixyd257s8j8y2hlpz6i78jp0qq-lua5.1-nui.nvim-0.2.0-1-unstable-2024-02-16
-lrwxrwxrwx - nobody  1 Jan  1970 nvim-cmp -> /nix/store/arfpw57hpm7mxg4617hrdvxb77kqkf23-lua5.1-nvim-cmp-scm-1-unstable-2024-02-02
-lrwxrwxrwx - nobody  1 Jan  1970 nvim-dap -> /nix/store/m622qladlfjhm3m1pj6z7hrzdq44icvs-vimplugin-nvim-dap-2024-02-17
-lrwxrwxrwx - nobody  1 Jan  1970 nvim-dap-ui -> /nix/store/4wx1b9crvf09xv8zhgxmgxn8ck1kgs87-vimplugin-nvim-dap-ui-2024-02-17
-lrwxrwxrwx - nobody  1 Jan  1970 nvim-dap-virtual-text -> /nix/store/nv8qlwd1j5kncafs1iza7r77q682wcb8-vimplugin-nvim-dap-virtual-text-2023-12-28
-lrwxrwxrwx - nobody  1 Jan  1970 nvim-lint -> /nix/store/52c6bjblxj91wv4j8ibzfwvbfxqj0g7s-vimplugin-nvim-lint-2024-02-29
-lrwxrwxrwx - nobody  1 Jan  1970 nvim-lspconfig -> /nix/store/x9jlxgd0vaxbxjyqxsgir07dr6wx5r97-vimplugin-nvim-lspconfig-2024-02-29
-lrwxrwxrwx - nobody  1 Jan  1970 nvim-notify -> /nix/store/6g2wz329qdwlm73rfyxc36a7p05x9gmg-vimplugin-nvim-notify-2024-02-17
-lrwxrwxrwx - nobody  1 Jan  1970 nvim-spectre -> /nix/store/b1kc40j7xnhdnrkdsnkqr2yjcqxmywg6-vimplugin-nvim-spectre-2024-02-19
-lrwxrwxrwx - nobody  1 Jan  1970 nvim-treesitter -> /nix/store/l9gxkbsjd0ra0nqwqb3d6y99hpm37ks1-vimplugin-nvim-treesitter-2024-03-01
-lrwxrwxrwx - nobody  1 Jan  1970 nvim-treesitter-context -> /nix/store/ifz0k5bhab8znwnglahpwv24iklywyj5-vimplugin-nvim-treesitter-context-2024-02-25
-lrwxrwxrwx - nobody  1 Jan  1970 nvim-treesitter-textobjects -> /nix/store/r38k9pywxlzl9z3arswwk5bphdrfad4g-vimplugin-nvim-treesitter-textobjects-2024-02-28
-lrwxrwxrwx - nobody  1 Jan  1970 nvim-ts-autotag -> /nix/store/q5lwckvddzcxv1n2w8qkijipxyrshks9-vimplugin-nvim-ts-autotag-2024-02-07
-lrwxrwxrwx - nobody  1 Jan  1970 nvim-ts-context-commentstring -> /nix/store/s5v1kybylwlf0572rdlvyhcayl6g14c6-vimplugin-nvim-ts-context-commentstring-2024-02-02
-lrwxrwxrwx - nobody  1 Jan  1970 nvim-web-devicons -> /nix/store/lffax8i938bk9j899i37zibiwd8b9gy8-vimplugin-nvim-web-devicons-2024-02-25
-lrwxrwxrwx - nobody  1 Jan  1970 oil.nvim -> /nix/store/q6pia4l9m88j5dv94rhjzliywkzbmvjl-vimplugin-oil.nvim-2024-02-23
-lrwxrwxrwx - nobody  1 Jan  1970 overseer.nvim -> /nix/store/x7dgyjm895j2cdm6rrrkm5asysh6zdys-vimplugin-overseer.nvim-2024-02-21
-lrwxrwxrwx - nobody  1 Jan  1970 persistence.nvim -> /nix/store/qcjx7w12j668rhknyac6kdnnfi6ihs9m-vimplugin-persistence.nvim-2024-01-19
-lrwxrwxrwx - nobody  1 Jan  1970 plenary.nvim -> /nix/store/m4qhzg4vr65lg6jzgrjyrxdi6l8jwv96-lua5.1-plenary.nvim-scm-1-unstable-2024-01-29
-lrwxrwxrwx - nobody  1 Jan  1970 project.nvim -> /nix/store/ya15b6ibli27xd28n8xa1ac6x35cp3rq-vimplugin-project.nvim-2023-04-04
-lrwxrwxrwx - nobody  1 Jan  1970 rust-tools.nvim -> /nix/store/zipjwn7f719q2wykzr46nz5fvx76dqkr-vimplugin-rust-tools.nvim-2024-01-03
-lrwxrwxrwx - nobody  1 Jan  1970 sqlite.lua -> /nix/store/i1f3smxcwd8idp6gjh78l4hg1fph9ff8-vimplugin-sqlite.lua-2024-02-19
-lrwxrwxrwx - nobody  1 Jan  1970 telescope-fzf-native.nvim -> /nix/store/81qav1ygg0dj5rhchqwwn9drqwggkcd5-vimplugin-telescope-fzf-native.nvim-2023-09-10
-lrwxrwxrwx - nobody  1 Jan  1970 telescope.nvim -> /nix/store/5qw4z8g0sbj4xqswdg4f7cpp80g0pd9b-lua5.1-telescope.nvim-scm-1-unstable-2024-02-29
-lrwxrwxrwx - nobody  1 Jan  1970 todo-comments.nvim -> /nix/store/v3n30r3iqs18ykx68hljmkhdywjszj5r-vimplugin-todo-comments.nvim-2024-01-21
-lrwxrwxrwx - nobody  1 Jan  1970 tokyonight.nvim -> /nix/store/g4aqnrmrhnp7l2m15b4j10pslngk55jq-vimplugin-tokyonight.nvim-2024-01-31
-lrwxrwxrwx - nobody  1 Jan  1970 trouble.nvim -> /nix/store/nkni341jmwfv03fkhdriwl989gacfpgr-vimplugin-trouble.nvim-2023-10-18
-lrwxrwxrwx - nobody  1 Jan  1970 vim-illuminate -> /nix/store/zyinscm0s3f89hm0wy0qnjr789m8jbxh-vimplugin-vim-illuminate-2024-02-04
-lrwxrwxrwx - nobody  1 Jan  1970 vim-startuptime -> /nix/store/7nvkk828w0babylf0qckwpncvnj9cs28-vimplugin-vim-startuptime-2024-02-17
-lrwxrwxrwx - nobody  1 Jan  1970 vim-tmux-navigator -> /nix/store/ki0hmmpscxlxvxzr1ax951k3i4j8i0w1-vimplugin-vim-tmux-navigator-2023-12-23
-lrwxrwxrwx - nobody  1 Jan  1970 vscode.nvim -> /nix/store/f8xmd72ybl5ficwf9lffxqn8i6mwjj7m-vimplugin-vscode.nvim-2024-02-29
-lrwxrwxrwx - nobody  1 Jan  1970 which-key.nvim -> /nix/store/lqm7kngv4sl4q9j7yjfqsw106g8qx8nx-vimplugin-which-key.nvim-2023-10-20
-lrwxrwxrwx - nobody  1 Jan  1970 yanky.nvim -> /nix/store/960pbmmfi0b2igmb0gghbdd4bhjyh1bm-vimplugin-yanky.nvim-2024-02-02
+☐ better-escape.nvim                       2024-01-21
+☐ blame-me.nvim
+☐ catppuccin-nvim                          2024-02-24
+☐ clangd_extensions.nvim                   2023-10-15
+☐ cmake-gtest.nvim
+☐ cmake-tools.nvim
+☐ cmp_luasnip                              2023-10-09
+☐ dracula.nvim                             2024-02-25
+☐ dressing.nvim                            2024-01-29
+☐ huez.nvim
+☐ kanagawa.nvim                            2024-02-28
+☐ neoconf.nvim                             2024-03-01
+☐ nix-develop.nvim                         2023-07-23
+☐ nvim-lspconfig                           2024-02-29
+☐ nvim-ts-autotag                          2024-02-07
+☐ sqlite.lua                               2024-02-19
+☐ tokyonight.nvim                          2024-01-31
+☐ vim-startuptime                          2024-02-17
+☐ vim-tmux-navigator                       2023-12-23
+☐ vscode.nvim                              2024-02-29
+✓ cmp-buffer                               2022-08-10
+✓ cmp-nvim-lsp                             2023-12-10
+✓ cmp-path                                 2022-10-03
+✓ conform.nvim                             2024-03-01
+✓ crates.nvim                              2024-02-04
+✓ flash.nvim                               2023-10-17
+✓ friendly-snippets                        2024-02-25
+✓ gitsigns.nvim                            2024-01-27
+✓ headlines.nvim                           2024-02-29
+✓ indent-blankline.nvim                    2024-02-13
+✓ lualine.nvim                             2024-01-25
+✓ luasnip                                  2024-02-15
+✓ marks.nvim                               2024-01-07
+✓ mini.nvim                                2024-02-29
+✓ neo-tree.nvim                            2024-02-25
+✓ neodev.nvim                              2024-02-28
+✓ neorg                                    2024-02-26
+✓ noice.nvim                               2024-01-22
+✓ none-ls.nvim                             2024-02-29
+✓ nui.nvim-0.2.0-1-unstable                2024-02-16
+✓ nvim-cmp                                 2024-02-02
+✓ nvim-dap                                 2024-02-17
+✓ nvim-dap-ui                              2024-02-17
+✓ nvim-dap-virtual-text                    2023-12-28
+✓ nvim-lint                                2024-02-29
+✓ nvim-notify                              2024-02-17
+✓ nvim-spectre                             2024-02-19
+✓ nvim-treesitter                          2024-03-01
+✓ nvim-treesitter-context                  2024-02-25
+✓ nvim-treesitter-textobjects              2024-02-28
+✓ nvim-ts-context-commentstring            2024-02-02
+✓ nvim-web-devicons                        2024-02-25
+✓ oil.nvim                                 2024-02-23
+✓ overseer.nvim                            2024-02-21
+✓ persistence.nvim                         2024-01-19
+✓ plenary.nvim                             2024-01-29
+✓ project.nvim                             2023-04-04
+✓ telescope-fzf-native.nvim                2023-09-10
+✓ telescope.nvim-scm-1-unstable            2024-02-29
+✓ todo-comments.nvim                       2024-01-21
+✓ trouble.nvim                             2023-10-18
+✓ vim-illuminate                           2024-02-04
+✓ which-key.nvim                           2023-10-20
+✓ yanky.nvim                               2024-02-02
+✘ LazyVim                                  2024-02-21
+✘ rust-tools.nvim                          2024-01-03
 ```
 
 https://github.com/numToStr/Navigator.nvim/ *********
