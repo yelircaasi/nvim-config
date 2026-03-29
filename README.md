@@ -8,6 +8,10 @@ No nvim framework or distribution is used currently.
 
 ## Next Steps
 
+- very next step: add external tool declaration, then py script to add them to flake.nix
+
+
+
 ```sh
 lrwxrwxrwx - nobody  1 Jan  1970 better-escape.nvim -> /nix/store/85wp7d9vf9apshv90fhsh0ax9cs7pxnp-vimplugin-better-escape.nvim-2024-01-21
 lrwxrwxrwx - nobody  1 Jan  1970 blame-me.nvim -> /nix/store/hl6m38glj6jg117qpz1pn68iyw2a2g04-vimplugin-blame-me.nvim
