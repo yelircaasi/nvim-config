@@ -33,11 +33,20 @@ from pathlib import Path
 import shutil
 
 from typing import cast
+import json
+import os
+import re
+import sys
+import socket
+import subprocess
+from pathlib import Path
+from typing import TypedDict
 
 
 from .config import Paths
 from .datamodels import (
     CommandList,
+    RTPDict,
     SingleToolSpecs,
     PluginsLockMeta,
     LuaTable,
@@ -51,11 +60,17 @@ from .datamodels import (
 )
 
 from .config import Config
+from .patterns import Patterns
 from .utils import (
+    change_extension,
     check_for_updates,
     color,
+    export_nvim_info,
     get_executable_and_version,
     get_last_date,
+    safe_search,
+    safe_search_group1,
+    split_blocks,
     write_table,
 )
 
@@ -152,6 +167,109 @@ def write_plugin_paths_tl(
             bracket_all=True,
         )
     )
+
+
+
+def profile_startup(cfg: Config):
+    """
+    Requires vim-startuptime; run:
+
+        `go install github.com/rhysd/vim-startuptime@latest`
+    """
+    config = ("-u", cfg.paths.nvim_config_init) if cfg.paths.nvim_config_init else tuple()
+    name_segments = "--".join(filter(bool, ("startup", cfg.g.DEVICE_NAME, cfg.g.CONFIG_NAME)))
+    destination = cfg.paths.info_dir / f"nvim-{name_segments}.txt"
+    config = ("--", "-u", cfg.paths.nvim_config_init) if cfg.paths.nvim_config_init else tuple()
+    cmd = [
+        "vim-startuptime",
+        "-vimpath",
+        cfg.g.NVIM_COMMAND,
+        *config,
+    ]
+    cmd = list(map(str, cmd))
+    print(" ".join(cmd))
+    output = bytes.decode(subprocess.run(cmd, capture_output=True).stdout)
+    destination.write_text(str(output))
+    return destination
+
+
+
+def parse_colors(raw: str) -> dict[str, dict[str, str]]:
+    c = {}
+    blocks = split_blocks(raw)
+    for block in blocks:
+        result = re.search(Patterns.COLOR_PATTERN, block)
+        if result:
+            gd = result.groupdict()
+            gd |= safe_search(Patterns.COLOR_BODY_PATTERN, gd["body"] or "")
+            c.update({gd["name"]: {key: gd[key] for key in Patterns.COLOR_KEYS}})
+
+        else:
+            print(block)
+
+    return c
+
+
+def parse_mappings(raw: str) -> dict[str, dict[str, str]]:
+    m = {}
+
+    raw = re.sub(r"\tLast set ", "\t\tLast set ", raw)
+    # print(raw[:500])
+
+    blocks = split_blocks(raw)[1:]
+    # print(raw)
+
+    for block in blocks:
+        result = re.search(Patterns.MAPPING_PATTERN, block)
+        if result:
+            gd = result.groupdict()
+            m.update({gd["keybind"]: {key: gd[key] for key in Patterns.MAPPING_KEYS}})
+        else:
+            print(block)
+
+    return m
+
+
+def parse_commands(raw: str) -> dict[str, dict[str, str]]:
+    c = {}
+
+    raw = re.sub(r"\n?\tLast set ", "\n\t\tLast set ", raw)
+    raw = re.sub("\n?    Name", " Name", raw)
+    raw = re.sub("\n            ", "\n\t\t\t", raw)
+    raw = re.sub(r"\n    ", "\n_   ", raw)
+
+    blocks = split_blocks(raw)[1:]
+
+    for block in blocks:
+        result = re.search(Patterns.COMMAND_PATTERN, block)
+        if result:
+            gd = result.groupdict()
+            c.update({gd["name"]: {key: gd[key] for key in Patterns.COMMAND_KEYS}})
+        else:
+            print(block)
+
+    return c
+
+
+def parse_rtp(raw: str) -> RTPDict:
+    r: RTPDict = {"default": [], "value": [], "contents": {}}
+
+    default = safe_search_group1(r'default = "([^\n]+)",', raw)
+    print(default)
+    r["default"] = default.split(",")
+
+    value = safe_search_group1(r'_value = "([^\n]+)",', raw)
+    print(default)
+    r["value"] = value.split(",")
+
+    r["contents"] = {}
+    for path in r["default"] + r["value"]:
+        if path not in r["contents"]:
+            _path = Path(path)
+            contents: list[str] = list(map(str, _path.iterdir())) if _path.exists() else ["NONEXISTENT"]
+            r["contents"].update({path: contents})
+
+    return r
 
 
 ### COMMAND FUNCTIONS ##################################################################################################
@@ -302,19 +420,62 @@ def get_info_all(cfg: Config) -> None:
 
 def get_info_startup(cfg: Config) -> None:
     print("Not yet implemented!")
+    startup_txt = profile_startup(cfg)
 
 
 def get_info_colors(cfg: Config) -> None:
     print("Not yet implemented!")
+    colors_txt = export_nvim_info("highlight", cfg)
+    colors_json = change_extension(colors_txt, "json")
+    colors_raw = colors_txt.read_text()
+    colors = parse_colors(colors_raw)
+    colors_json.write_text(json.dumps(colors, indent=4))
 
 
 def get_info_commands(cfg: Config) -> None:
     print("Not yet implemented!")
+    commands_txt = export_nvim_info("command", cfg)
+    commands_json = change_extension(commands_txt, "json")
+    commands_raw = commands_txt.read_text()
+    commands = parse_commands(commands_raw)
+    commands_json.write_text(json.dumps(commands, indent=4))
 
 
 def get_info_rtp(cfg: Config) -> None:
     print("Not yet implemented!")
+    rtp_txt = export_nvim_info("rtp", cfg)
+    rtp_json = change_extension(rtp_txt, "json")
+    rtp_raw = rtp_txt.read_text()
+    rtp = parse_rtp(rtp_raw)
+    rtp_json.write_text(json.dumps(rtp, indent=4))
+
+
+def get_info_mappings(cfg: Config) -> None:
+    print("Not yet implemented!")
+    mappings_txt = export_nvim_info("map", cfg)
+    mappings_json = change_extension(mappings_txt, "json")
+    mappings_raw = mappings_txt.read_text()
+    mappings = parse_mappings(mappings_raw)
+    mappings_json.write_text(json.dumps(mappings, indent=4))
 
 
 def do_all(cfg: Config) -> None:
     print("Not yet implemented!")
+    get_info_startup(cfg)
+    get_info_colors(cfg)
+    get_info_colors(cfg)
+    get_info_rtp(cfg)
+    get_info_mappings(cfg)
+
+    # old below here
+    config = f"""
+    {cfg.g.DEVICE_NAME=}
+    NVIM_{cfg.g.CONFIG_NAME=}
+    NVIM_{cfg.paths.nvim_config_init=}
+    NVIM_WRITE_DIR={cfg.paths.info_dir!s}
+    NVIM_{cfg.g.NVIM_COMMAND=}
+
+    hostname: {socket.gethostname()}
+    """
+    config_file = cfg.paths.info_dir / f"config--{cfg.g.DEVICE_NAME}--{cfg.g.CONFIG_NAME}.txt"
+    config_file.write_text(config)

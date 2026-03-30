@@ -4,6 +4,7 @@ from adiumentum import (  # type: ignore
 )
 from pathlib import Path
 from datetime import date, datetime
+import socket
 
 from typing import Annotated, Any
 
@@ -14,7 +15,7 @@ from adiumentum import read_json, JsonObject
 from pydantic import BeforeValidator, Field
 
 
-from .utils import resolve_path
+from .utils import arg_or_envvar, resolve_path
 
 
 def _make_backup_dir() -> Path:
@@ -42,11 +43,14 @@ class Globals:
         "plugin-dir": Path("~/local/share/nvim-plugins").resolve(),
         "update-window": 30,
     }
+    DEVICE_NAME: str = arg_or_envvar(1, "DEVICE_NAME", socket.gethostname())
+    CONFIG_NAME: str = arg_or_envvar(2, "NVIM_CONFIG_NAME", "DEFAULT")
+    NVIM_COMMAND = arg_or_envvar(5, "NVIM_COMMAND", "nvim")
 
 
 _HOME = Path.home()
 _BACKUP = _make_backup_dir()
-
+_NVIM_CONFIG_PATH = Path(arg_or_envvar(3, "NVIM_CONFIG_PATH", ""))
 
 class Paths(BaseModelRW):
     home: Path = Field(default=_HOME)
@@ -54,10 +58,12 @@ class Paths(BaseModelRW):
     config_destination: Path = Field(default=_HOME / ".config/nvim")
     plugin_dir: Path = Field(default=_HOME / ".local/share/nvim-plugins")
     explicit_declarations_dir: Path | None = Field(default=None)
+    explicit_info_dir: Path | None = Field(default=None)
     explicit_tl_dir: Path | None = Field(default=None)
     explicit_plugins_jsonc: Path | None = Field(default=None)
     explicit_plugins_lock: Path | None = Field(default=None)
     explicit_snapshot_dir: Path | None = Field(default=None)
+    nvim_config_init: Path = Field(default=_NVIM_CONFIG_PATH)
     backup_dir: Path = Field(default=_BACKUP)
     explicit_scripts_dir: Path | None = Field(default=None)
 
@@ -79,6 +85,10 @@ class Paths(BaseModelRW):
     # def from_json(cls, json_file: Path) -> Self:
     #     d = cast(dict[str, str], read_jsonc(json_file))
     #     return cls.from_dict(d)
+
+    @property
+    def info_dir(self) -> Path:
+        return self.explicit_info_dir or (self.snapshot_dir / "info")
 
     @property
     def scripts_dir(self) -> Path:

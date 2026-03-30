@@ -325,3 +325,9 @@ class SingleAvailableUpdate(BaseModel):
 
 
 class AvailableUpdates(BaseDict[str, SingleAvailableUpdate]): ...
+
+
+class RTPDict(TypedDict):
+    default: list[str]
+    value: list[str]
+    contents: dict[str, list[str]]
