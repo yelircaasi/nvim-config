@@ -26,192 +26,43 @@ Subcommands:
 """
 
 from adiumentum import (  # type: ignore
-    Colorizer,
-    JsonContainer,
-    JsonObject,
-    JsonValue,
     Version,
-    run,
-    capture,
     run_with_result,
-    read_json,
-    read_jsonc,
-    write_json,
 )
-from dataclasses import dataclass
-import json
-import os
 from pathlib import Path
-from enum import StrEnum, auto
-import re
-import subprocess
-from datetime import date, datetime, timedelta
 import shutil
 
-from typing import Mapping, Sequence, TypeVar, cast
+from typing import cast
 
 import argparse
-from typing import Any, Callable, Final, Iterable, Literal, NotRequired, Self, TypedDict
+from typing import Callable
 
-from nvimtool_helpers import *
-
-
-def install_plugin_simple(spec: Spec, directory: Path, update_existing: bool = False) -> tuple[InstallStatus, Path]:
-    url, version, sha = spec.url, spec.version, spec.sha
-    destination = directory / spec.destination
-    if (not update_existing) and destination.is_dir():
-        return InstallStatus.NO_OP, destination
-    post_command: CommandList = []
-
-    try:
-        command_specifics = ["--depth=1"]
-        if version:
-            command_specifics.extend(["--depth=1", "--branch", version])
-        elif sha:
-            command_specifics = ["--filter=blob:none"]
-            post_command = ["git", "-C", destination, "checkout", sha]
-
-        subprocess.run(["git", "clone", *command_specifics, url, destination], check=True)
-        if post_command:
-            run(post_command)
-
-        return InstallStatus.SUCCESS, destination
-
-    except subprocess.CalledProcessError:
-        return InstallStatus.ERROR, destination
+from nvimtool_helpers import (
+    CommandList,
+    Globals,
+    Paths,
+    SingleToolSpecs,
+    PluginsLockMeta,
+    LuaTable,
+    ToolsLock,
+    PluginsLock,
+    PluginSpecs,
+    PluginSpecsMeta,
+    ToolSpecs,
+    SinglePluginLock,
+    Utils,
+    color,
+    AvailableUpdates,
+)
 
 
-def install_plugin_with_build(spec: Spec, directory: Path, update_existing: bool = False) -> tuple[InstallStatus, Path]:
-    return InstallStatus.NO_OP, directory / "NONEXISTENT"
-
-
-@dataclass
-class Specs:
-    _specs: dict[str, Spec]
-    directory: Path
-
-    @classmethod
-    def from_paths(cls, paths: Paths) -> Self:
-        dicts = cast(list[PluginSpecDict], read_jsonc(paths.plugins_jsonc))
-        return cls(
-            _specs=dict((s.name, s) for s in map(Spec.from_dict, dicts)),
-            directory=paths.plugin_dir,
-        )
-
-    def lookup(self, name: str) -> Spec:
-        return self._specs[name]
-
-    def install_plugins(self) -> dict[str, PluginLockData | None]:
-        lock: dict[str, PluginLockData | None] = {}
-        for spec in self._specs.values():
-            status, _path = self.install_plugin(spec.name)
-            lock_data: PluginLockData | None = None
-            if status is InstallStatus.ERROR:
-                print(f"{spec.name} not installed: {spec.url} ========================================================")
-            else:
-                sha, recency = Utils.get_commit_info(_path)
-                lock_data = {
-                    "url": spec.url,
-                    "sha": sha,
-                    "last_update": Globals.TODAY,
-                    "location": str(_path.relative_to(self.directory)),
-                    "recency": recency,
-                    "version": spec.version,
-                }
-            lock.update({spec.name: lock_data})
-        return lock
-
-    def install_plugin(
-        self,
-        name: str,
-        update_existing: bool = False,
-    ) -> tuple[InstallStatus, Path]:
-        spec = self.lookup(name)
-        if bool(spec.build):
-            return install_plugin_with_build(spec, self.directory, update_existing=update_existing)
-        else:
-            return install_plugin_simple(spec, self.directory, update_existing=update_existing)
-
-    @property
-    def names_and_paths(self) -> tuple[tuple[str, Path], ...]:
-        return tuple((name, self.directory / name) for name in self._specs)
-
-
-@dataclass
-class LockData:
-    _lock: dict[str, PluginLockData | None]
-    directory: Path
-
-    @classmethod
-    def from_paths(cls, paths: Paths) -> Self:
-        return cls(
-            _lock=cast(dict[str, PluginLockData | None], read_json(paths.plugins_lock)),
-            directory=paths.plugin_dir,
-        )
-
-    def install_plugins(self) -> None:
-        for name, lock in self._lock.items():
-            if lock:
-                destination = self.directory / name
-                sha, url = lock["url"], lock["sha"]
-                old_sha, recency = Utils.get_commit_info(destination)
-                if sha != old_sha:
-                    self.install_plugin(destination, url, sha)
-
-    def install_plugin(
-        self,
-        destination: Path,
-        url: str,
-        sha: str,
-    ) -> tuple[InstallStatus, Path]:
-        try:
-            run(["git", "clone", "--filter=blob:none", url, destination])
-            run(["git", "-C", str(destination), "checkout", sha])
-
-            return InstallStatus.SUCCESS, destination
-
-        except subprocess.CalledProcessError:
-            return InstallStatus.ERROR, destination
-
-    def get_last_check(self, name: str) -> str:
-        if lock := self._lock[name]:
-            return lock["last_update"]
-        return "1970-01-01"
-
-    def items(self) -> Iterable[tuple[str, PluginLockData | None]]:
-        return self._lock.items()
-
-    def update(self, k: str, v: PluginLockData) -> None:
-        self._lock.update({k: v})
-
-
-class ExternalToolSpecs(list[ExternalToolSpec]):
-    @classmethod
-    def from_paths(cls, paths: Paths) -> Self:
-        return cls(cast(list[ExternalToolSpec], read_jsonc(paths.external_tools_declaration)))
-
-
-def write_plugin_paths_tl(paths: Paths, plugin_lock: LockData | PluginLockTable) -> None:
-    pd = paths.plugin_dir
-    path_dict: dict[str, str] = {pn: str(pd / pn) for pn, _ in plugin_lock.items()}
-    paths.plugin_paths_tl.write_text(
-        Utils.write_table(
-            path_dict,
-            head="local M: {string: string} = ",
-            foot="\nreturn M\n",
-            align=True,
-            bracket_all=True,
-        )
-    )
-
-
-def write_plugin_layers_tl(paths: Paths, plugin_data: PluginSpecData) -> None:
-    layers: dict[int, dict[int, set]] = {d["layer"]: {} for d in plugin_data}
+def write_plugin_layers_tl(paths: Paths, plugin_data: PluginSpecs) -> None:
+    layers: dict[int, dict[int, set]] = {d.layer: {} for d in plugin_data}
     for d in plugin_data:
-        layer, sublayer = d["layer"], d.get("sublayer", -1)
+        layer, sublayer = d.layer, d.sublayer
         if sublayer not in layers[layer]:
             layers[layer].update({sublayer: set()})
-        layers[layer][sublayer].add(d["name"])
+        layers[layer][sublayer].add(d.name)
     paths.plugin_layers_tl.write_text(
         Utils.write_table(
             layers,
@@ -222,8 +73,8 @@ def write_plugin_layers_tl(paths: Paths, plugin_data: PluginSpecData) -> None:
     )
 
 
-def write_dependencies_tl(paths: Paths, plugin_data: PluginSpecData) -> None:
-    deps = {d["name"]: d.get("deps", []) for d in plugin_data}
+def write_dependencies_tl(paths: Paths, plugin_data: PluginSpecs) -> None:
+    deps = {d.name: d.dependencies for d in plugin_data}
     paths.dependencies_tl.write_text(
         Utils.write_table(
             deps,
@@ -234,8 +85,8 @@ def write_dependencies_tl(paths: Paths, plugin_data: PluginSpecData) -> None:
     )
 
 
-def write_external_tools_tl(paths: Paths, external_tool_data: ExternalToolSpecData) -> None:
-    tools = {d["executable"]: d.get("description", "") for d in external_tool_data}
+def write_external_tools_tl(paths: Paths, external_tool_data: ToolSpecs) -> None:
+    tools = {d.executable: d.description for d in external_tool_data}
     paths.external_tools_tl.write_text(
         Utils.write_table(
             tools,
@@ -275,16 +126,30 @@ def transpile_tl(paths: Paths) -> None:
     print("Built lua config.")
 
 
+def write_plugin_paths_tl(paths: Paths, plugin_lock: PluginsLockMeta | PluginsLock) -> None:
+    pd = paths.plugin_dir
+    path_dict: dict[str, str] = {pn: str(pd / pn) for pn, _ in plugin_lock.items()}
+    paths.plugin_paths_tl.write_text(
+        Utils.write_table(
+            path_dict,
+            head="local M: {string: string} = ",
+            foot="\nreturn M\n",
+            align=True,
+            bracket_all=True,
+        )
+    )
+
+
 ### COMMAND FUNCTIONS ##################################################################################################
 
 
 def install_new(paths: Paths) -> None:
     """ """
     print(f"Installing plugins to {paths.plugin_dir}")
-    specs = Specs.from_paths(paths)
-    lock: dict[str, PluginLockData | None] = specs.install_plugins()
+    specs = PluginSpecsMeta.from_paths(paths)
+    lock: PluginsLock = specs.install_plugins()
     write_plugin_paths_tl(paths, lock)
-    write_json(cast(JsonObject, lock), paths.plugins_lock)
+    lock.write_json_file(paths.plugins_lock)
     print(f"lockfile written to {paths.plugins_lock}")
 
 
@@ -295,21 +160,23 @@ def install_from_lockfile(paths: Paths) -> None:
         plugins that are not in the old lockfile or whose hash differs.
     """
     print(f"Installing plugins to {paths.plugin_dir}")
-    lock_data = LockData.from_paths(paths)
+    lock_data = PluginsLockMeta.from_paths(paths)
     lock_data.install_plugins()
     write_plugin_paths_tl(paths, lock_data)
 
 
-def update_plugin(path: Path | str) -> PluginLockData:
+def update_plugin(path: Path | str) -> SinglePluginLock:
     print("Not yet implemented!")
-    return {
-        "url": "",
-        "sha": "",
-        "last_update": "",
-        "location": "",
-        "recency": "",
-        "version": "",
-    }
+    return SinglePluginLock.model_validate(
+        {
+            "url": "",
+            "sha": "",
+            "last_update": "",
+            "location": "",
+            "recency": "",
+            "version": "",
+        }
+    )
 
 
 def update_plugins(paths: Paths) -> None:
@@ -319,8 +186,8 @@ def update_plugins(paths: Paths) -> None:
 def check_updates(paths: Paths) -> None:
     update_info: dict[str, dict[str, str | None]] = {}
     print(f"Checking updates, config at {paths.config_source}")
-    specs = Specs.from_paths(paths)
-    lock = LockData.from_paths(paths)
+    specs = PluginSpecsMeta.from_paths(paths)
+    lock = PluginsLockMeta.from_paths(paths)
     update_before = Utils.get_last_date(Globals)
     name: str
     repo: Path
@@ -330,16 +197,16 @@ def check_updates(paths: Paths) -> None:
             if updates_available:
                 update_info.update({name: {"path": paths.rel(repo)}})
                 print(f"Updates available for {repo}")
-    write_json(update_info, paths.available_updates)
+    AvailableUpdates.model_validate(update_info).write_json_file(paths.available_updates)
 
 
 def apply_updates(paths: Paths) -> None:
-    update_info = cast(dict[str, dict[str, str]], read_json(paths.available_updates))
-    lock = LockData.from_paths(paths)
+    update_info = AvailableUpdates.read_json_file(paths.available_updates)
+    lock = PluginsLockMeta.from_paths(paths)
     for name, info in update_info.items():
-        lock_data = update_plugin(info["path"])
+        lock_data = update_plugin(info.path)
         lock.update(name, lock_data)
-    write_json(cast(JsonObject, lock), paths.plugins_lock)
+    lock.lock.write_json_file(paths.plugins_lock)
 
 
 def update_and_install_plugins(paths: Paths) -> None:
@@ -348,15 +215,15 @@ def update_and_install_plugins(paths: Paths) -> None:
 
 
 def check_tools(paths: Paths) -> None:
-    tools = ExternalToolSpecs.from_paths(paths)
+    tools = SingleToolSpecs.from_paths(paths)
     all_good: bool = True
     for tool in tools:
-        executable, version_str = Utils.get_executable_and_version(tool["executable"])
+        executable, version_str = Utils.get_executable_and_version(tool.executable)
         actual_version = Version.from_string(version_str)
         if isinstance(actual_version, str):
             print(f"Version '{actual_version} could not be parsed.")
             all_good = False
-        elif vc := tool.get("version_constraints"):
+        elif vc := tool.version_constraints:
             if not actual_version.meets_constraint(vc):
                 all_good = False
                 print(
@@ -367,15 +234,19 @@ def check_tools(paths: Paths) -> None:
 
 
 def snapshot_tools(paths: Paths) -> None:
-    tools_lock: dict[str, dict[str, str | None]] = {}
-    tools = ExternalToolSpecs.from_paths(paths)
+    tools_lock_raw: dict[str, dict[str, str | None]] = {}
+    tools = SingleToolSpecs.from_paths(paths)
     for tool in tools:
-        executable = tool["executable"]
+        executable = tool.executable
         executable_path, version_str = Utils.get_executable_and_version(executable)
-        tools_lock.update({executable: {"path": paths.rel(executable_path or None), "version": version_str or None}})
-    write_json(cast(JsonObject, tools_lock), paths.external_tools_lock)
+        tools_lock_raw.update(
+            {executable: {"path": paths.rel(executable_path or None), "version": version_str or None}}
+        )
+    ToolsLock.model_validate(tools_lock_raw).write_json_file(paths.external_tools_lock)
     paths.external_tools_tl.write_text(
-        Utils.write_table(cast(LuaTable, tools_lock), head=r"local M: {string: {string: string}} = ", foot="\nreturn M")
+        Utils.write_table(
+            cast(LuaTable, tools_lock_raw), head=r"local M: {string: {string: string}} = ", foot="\nreturn M"
+        )
     )
 
 

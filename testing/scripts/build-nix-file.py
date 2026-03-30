@@ -1,7 +1,7 @@
 from pathlib import Path
 from typing import cast
 
-from nvimtool import Source, Utils
+from nvimtool_helpers import Source, Utils
 
 lbrace = "{"
 rbrace = "}"
@@ -63,7 +63,7 @@ def make_expression(d: dict) -> str:
         else:
             template = plugin_expr_template
             owner, repo = "", ""
-        
+
         ret = template.format(
             name=d["name"],
             nix_name=d["nixName"],
@@ -85,14 +85,15 @@ def make_expression(d: dict) -> str:
 
 
 def make_name(d: dict) -> str:
-    attrset = d['attrset']
+    attrset = d["attrset"]
     nix_name = d["nixName"]
     return f"{attrset}.{nix_name}"
 
 
 def make_nixpkgs_set(d: dict) -> str:
-    nix_name = d['nixName'] if d["attrset"] == "pkgs.vimPlugins" else f"{d['attrset']}.{d['nixName']}"
-    return f"{lbrace}\n{level4}name = \"{d['name']}\";\n{level4}path = {nix_name};\n{level3}{rbrace}"
+    nix_name = d["nixName"] if d["attrset"] == "pkgs.vimPlugins" else f"{d['attrset']}.{d['nixName']}"
+    return f'{lbrace}\n{level4}name = "{d["name"]}";\n{level4}path = {nix_name};\n{level3}{rbrace}'
+
 
 nix_data = cast(list[dict], Utils.read_json(nn))
 custom_data = [d for d in nix_data if d.get("attrset", "").startswith("custom")]
@@ -110,7 +111,8 @@ nixpkgs_list = "\n      ".join(map(make_nixpkgs_set, nixpkgs_data))
 
 # result.write_text(file_contents)
 
-flake_nix = """{
+flake_nix = (
+    """{
   description = "nvim plugins bundled in a single directory using linkFarm";
 
   inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
@@ -123,7 +125,9 @@ flake_nix = """{
     pkgs = nixpkgs.legacyPackages.${system};
 
     customPlugins = {
-      """ + custom + r"""
+      """
+    + custom
+    + r"""
     };
 
     customList =
@@ -134,7 +138,9 @@ flake_nix = """{
       customPlugins;
 
     nixpkgsList = with pkgs.vimPlugins; [
-      """ + nixpkgs_list + r"""
+      """
+    + nixpkgs_list
+    + r"""
     ];
 
     fullList = customList ++ nixpkgsList;
@@ -205,8 +211,11 @@ flake_nix = """{
   };
 }
 """
+)
 
-flake.write_text(flake_nix, )
+flake.write_text(
+    flake_nix,
+)
 
 # tmp: dict = cast(dict, Utils.read_json(Path("/home/isaac/repos/nvim-config/testing/tmp.json")))
 
@@ -236,8 +245,8 @@ flake.write_text(flake_nix, )
 #     except Exception as e:
 #         print(e)
 #         return d
-        
-    
+
+
 # nix_data = list(map(fetch_hashes, nix_data))
 # Utils.write_json(nix_data, nn)
 

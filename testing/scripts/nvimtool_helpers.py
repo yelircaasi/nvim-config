@@ -1,18 +1,15 @@
 from adiumentum import (  # type: ignore
     BaseModelRW,
+    BaseDict,
+    BaseList,
     Colorizer,
     JsonContainer,
-    JsonObject,
     JsonValue,
-    Version,
     run,
     capture,
-    run_with_result,
-    read_json,
     read_jsonc,
-    write_json,
+    read_json,
 )
-from dataclasses import dataclass
 import json
 import os
 from pathlib import Path
@@ -20,24 +17,85 @@ from enum import StrEnum, auto
 import re
 import subprocess
 from datetime import date, datetime, timedelta
-import shutil
 
-from typing import Mapping, Sequence, TypeVar, cast
+from typing import Annotated, TypeVar, cast
 
 import argparse
-from typing import Any, Callable, Final, Iterable, Literal, NotRequired, Self, TypedDict
+from typing import Any, Final, Iterable, Self, TypedDict
 
-from pydantic import BaseModel  # type: ignore
-
-
-
-class PluginSpec(BaseModel):
-    ...
+from pydantic import BaseModel, Field  # type: ignore
 
 
+class ToolGroup(StrEnum):
+    REQUIRED = auto()
+    OPTIONAL = auto()
+    DISABLED = auto()
 
-class PluginData(BaseList[PluginSpec]):
-    ...
+
+class InstallStatus(StrEnum):
+    SUCCESS = auto()
+    ERROR = auto()
+    NO_OP = auto()
+
+
+class Source(StrEnum):
+    GH = auto()
+    CB = auto()
+    GL = auto()
+    NONE = ""
+
+
+color = Colorizer()
+
+
+type DictList = list[dict[str, str]]
+
+
+class SinglePluginSpec(BaseModel):
+    layer: int
+    sublayer: int
+    sublayerName: str
+    name: str
+    description: str
+    id: str
+    source: Source
+    lazy: bool
+    category: str
+    notes: str = Field(default="")
+    nixName: str
+    attrset: str
+    rev: str
+    hash: str
+    lastCommit: Annotated[str, re.compile(r"\d{4}-\d\d?-\d\d?")]
+    dir_name: str = Field(default="")
+    custom_url: str = Field(default="")
+    version: str = Field(default="")
+    build: str = Field(default="")
+    dependencies: list[str] = Field(default_factory=list)
+    integrations: list[str] = Field(default_factory=list)
+    commands: DictList
+    functions: DictList
+    keybinds: DictList
+    highlightGroups: DictList
+
+    @property
+    def url(self) -> str:
+        return self.custom_url or f"{self.url_base}{self.id}"
+
+    @property
+    def url_base(self) -> str:
+        return {
+            Source.GH: "https://github.com/",
+            Source.GL: "https://gitlab.com/",
+            Source.CB: "https://codeberg.org/",
+        }.get(self.source, "")
+
+    @property
+    def destination(self) -> str:
+        return self.dir_name or self.name
+
+
+class PluginSpecs(BaseList[SinglePluginSpec]): ...
 
 
 class NvimtoolConfig(TypedDict): ...
@@ -46,9 +104,7 @@ class NvimtoolConfig(TypedDict): ...
 type CommandList = list[str | Path | int | float]
 
 type LuaTable = dict[str, str] | dict[str, list[str]] | dict[int, dict[int, set[str]]]
-type PluginSpecData = Sequence[PluginSpecDict]
-type PluginLockTable = Mapping[str, PluginLockData | None]
-type ExternalToolSpecData = list[ExternalToolSpec]
+
 
 T = TypeVar("T", bound=JsonValue | Path)
 
@@ -201,25 +257,25 @@ class Globals:
 ### TYPES ##############################################################################################################
 
 
-class PluginSpecDict(TypedDict):
-    name: str
-    id: str
-    source: Literal["gh", "gl", "cb"]
-    lazy: bool
-    layer: int
-    sublayer: NotRequired[int]
-    deps: NotRequired[list[str]]
-    notes: NotRequired[str]
-    category: str
+# class PluginSpecDict(TypedDict):
+#     name: str
+#     id: str
+#     source: Literal["gh", "gl", "cb"]
+#     lazy: bool
+#     layer: int
+#     sublayer: NotRequired[int]
+#     deps: NotRequired[list[str]]
+#     notes: NotRequired[str]
+#     category: str
 
-    dir_name: NotRequired[str | None]
-    custom_url: NotRequired[str | None]
-    version: NotRequired[str | None]
-    sha: NotRequired[str | None]
-    build: str | None
+#     dir_name: NotRequired[str | None]
+#     custom_url: NotRequired[str | None]
+#     version: NotRequired[str | None]
+#     sha: NotRequired[str | None]
+#     build: str | None
 
 
-class PluginLockData(TypedDict):
+class SinglePluginLock(BaseModel):
     url: str
     sha: str
     last_update: str
@@ -252,15 +308,20 @@ class Category(StrEnum):
         }
 
 
-class ExternalToolSpec(TypedDict):
+class SingleToolSpec(BaseModel):
     executable: str
-    version_subcommand: NotRequired[str]
-    version_constraints: NotRequired[str]
-    install_command: NotRequired[str]
-    description: NotRequired[str]
+    version_subcommand: str = Field(default="")
+    version_constraints: str = Field(default="")
+    install_command: str = Field(default="")
+    description: str = Field(default="")
 
 
-class ExternalToolLockData(TypedDict): ...
+class SingleToolLock(BaseModel):
+    path: Path
+    version: str
+
+
+class ToolsLock(BaseDict[str, SingleToolLock]): ...
 
 
 def _make_backup_dir() -> Path:
@@ -272,19 +333,22 @@ def _make_backup_dir() -> Path:
     return _backup_dir
 
 
+_HOME = Path.home()
+_BACKUP = _make_backup_dir()
+
+
 class Paths(BaseModelRW):
+    home: Path = Field(default=_HOME)
     config_source: Path
-    config_destination: Path = Path.home() / ".config/nvim"
-    plugin_dir: Path = Path.home() / ".local/share/nvim-plugins"
-    _cache_dir: Path | None = None
-    _declarations_dir: Path | None = None
-    _tl_dir: Path | None = None
-    _plugins_jsonc: Path | None = None
-    _plugins_lock: Path | None = None
-    _snapshot_dir: Path | None = None
-    backup_dir: Path = _make_backup_dir()
-    _scripts_dir: Path | None = None
-    home: Path = Path.home()
+    config_destination: Path = Field(default=_HOME / ".config/nvim")
+    plugin_dir: Path = Field(default=_HOME / ".local/share/nvim-plugins")
+    explicit_declarations_dir: Path | None = Field(default=None)
+    explicit_tl_dir: Path | None = Field(default=None)
+    explicit_plugins_jsonc: Path | None = Field(default=None)
+    explicit_plugins_lock: Path | None = Field(default=None)
+    explicit_snapshot_dir: Path | None = Field(default=None)
+    backup_dir: Path = Field(default=_BACKUP)
+    explicit_scripts_dir: Path | None = Field(default=None)
 
     @classmethod
     def from_json(cls, json_file: Path) -> Self:
@@ -297,15 +361,15 @@ class Paths(BaseModelRW):
 
     @property
     def scripts_dir(self) -> Path:
-        return self._scripts_dir or (self.config_source / "scripts")
+        return self.explicit_scripts_dir or (self.config_source / "scripts")
 
     @property
     def declarations_dir(self) -> Path:
-        return self._declarations_dir or (self.config_source / "declarations")
+        return self.explicit_declarations_dir or (self.config_source / "declarations")
 
     @property
     def tl_dir(self) -> Path:
-        return self._tl_dir or (self.config_source / "teal")
+        return self.explicit_tl_dir or (self.config_source / "teal")
 
     @property
     def tl_src_dir(self) -> Path:
@@ -321,11 +385,11 @@ class Paths(BaseModelRW):
 
     @property
     def plugins_jsonc(self) -> Path:
-        return self._plugins_jsonc or (self.declarations_dir / "plugins.jsonc")
+        return self.explicit_plugins_jsonc or (self.declarations_dir / "plugins.jsonc")
 
     @property
     def snapshot_dir(self) -> Path:
-        return self._snapshot_dir or (self.config_source / "snapshots")
+        return self.explicit_snapshot_dir or (self.config_source / "snapshots")
 
     @property
     def dependencies_tl(self) -> Path:
@@ -345,7 +409,7 @@ class Paths(BaseModelRW):
 
     @property
     def plugins_lock(self) -> Path:
-        return self._plugins_lock or (self.snapshot_dir / "plugins-lock.json")
+        return self.explicit_plugins_lock or (self.snapshot_dir / "plugins-lock.json")
 
     @property
     def plugin_paths_tl(self) -> Path:
@@ -391,8 +455,8 @@ class Paths(BaseModelRW):
             config_source=args.config_source or cfg.get("config-source") or Globals.DEFAULT_CONFIG_SOURCE,
             config_destination=args.config_target or cfg.get("config-target") or Globals.DEFAULT_CONFIG_TARGET,
             plugin_dir=args.plugin_dir or cfg.get("plugin-dir") or Globals.DEFAULT_PLUGIN_DIR,
-            _plugins_jsonc=argdict.get("plugins_jsonc"),
-            _plugins_lock=argdict.get("lockfile"),
+            explicit_plugins_jsonc=argdict.get("plugins_jsonc"),
+            explicit_plugins_lock=argdict.get("lockfile"),
         )
 
     def __str__(self) -> str:
@@ -428,78 +492,153 @@ class Paths(BaseModelRW):
         return f"~/{path.relative_to(self.home)}"
 
 
-# paths = Paths(config_source=Path.home() / "repos/nvim-config/testing")
+class PluginsLock(BaseDict[str, SinglePluginLock | None]): ...
 
 
-### HELPER FUNCTIONS ###################################################################################################
-
-
-class ToolGroup(StrEnum):
-    REQUIRED = auto()
-    OPTIONAL = auto()
-    DISABLED = auto()
-
-
-class InstallStatus(StrEnum):
-    SUCCESS = auto()
-    ERROR = auto()
-    NO_OP = auto()
-
-
-class Source(StrEnum):
-    GH = auto()
-    CB = auto()
-    GL = auto()
-    NONE = ""
-
-
-class Spec(BaseModelRW):
-    name: str
-    id: str
-    source: Source
-    category: Category
-    lazy: bool = True
-    dir_name: str | None = None
-    custom_url: str | None = None
-    version: str | None = None
-    sha: str | None = None
-    deps: tuple[str, ...] = tuple()
-    build: str | None = None
-    notes: str | None = None
-
-    @property
-    def url(self) -> str:
-        return self.custom_url or f"{self.url_base}{self.id}"
-
-    @property
-    def url_base(self) -> str:
-        return {
-            Source.GH: "https://github.com/",
-            Source.GL: "https://gitlab.com/",
-            Source.CB: "https://codeberg.org/",
-        }.get(self.source, "")
-
-    @property
-    def destination(self) -> str:
-        return self.dir_name or self.name
+class PluginsLockMeta(BaseModelRW):
+    lock: PluginsLock
+    directory: Path
 
     @classmethod
-    def from_dict(cls, spec_dict: PluginSpecDict) -> Self:
+    def from_paths(cls, paths: Paths) -> Self:
+        return cls(
+            lock=PluginsLock.model_validate(read_json(paths.plugins_lock)),
+            directory=paths.plugin_dir,
+        )
+
+    def install_plugins(self) -> None:
+        for name, lock in self.lock.items():
+            if lock:
+                destination = self.directory / name
+                sha, url = lock.url, lock.sha
+                old_sha, recency = Utils.get_commit_info(destination)
+                if sha != old_sha:
+                    self.install_plugin(destination, url, sha)
+
+    def install_plugin(
+        self,
+        destination: Path,
+        url: str,
+        sha: str,
+    ) -> tuple[InstallStatus, Path]:
         try:
-            return cls(
-                id=spec_dict["id"],
-                name=spec_dict["name"],
-                source=Source[spec_dict["source"].upper() or "NONE"],
-                lazy=spec_dict["lazy"],
-                category=Category(spec_dict["category"]),
-                dir_name=spec_dict.get("dir_name"),
-                custom_url=spec_dict.get("custom_url"),
-                sha=spec_dict.get("sha"),
-                version=spec_dict.get("version"),
-                deps=tuple(spec_dict.get("deps", tuple())),
-                build=spec_dict.get("build"),
-                notes=spec_dict.get("notes"),
-            )
-        except Exception as e:
-            print(spec_dict)
-            raise e
+            run(["git", "clone", "--filter=blob:none", url, destination])
+            run(["git", "-C", str(destination), "checkout", sha])
+
+            return InstallStatus.SUCCESS, destination
+
+        except subprocess.CalledProcessError:
+            return InstallStatus.ERROR, destination
+
+    def get_last_check(self, name: str) -> str:
+        if lock := self.lock[name]:
+            return lock.last_update
+        return "1970-01-01"
+
+    def items(self) -> Iterable[tuple[str, SinglePluginLock | None]]:
+        return self.lock.items()
+
+    def update(self, k: str, v: SinglePluginLock) -> None:
+        self.lock.update({k: v})
+
+
+class ToolSpecs(BaseList[SingleToolSpec]): ...
+
+
+class SingleToolSpecs(BaseList[SingleToolSpec]):
+    @classmethod
+    def from_paths(cls, paths: Paths) -> Self:
+        return cls.read_json_file(paths.external_tools_declaration)
+
+
+class PluginSpecsMeta(BaseModel):
+    specs: dict[str, SinglePluginSpec]
+    directory: Path
+
+    @classmethod
+    def from_paths(cls, paths: Paths) -> Self:
+        dicts = PluginSpecs.read_json_file(paths.plugins_jsonc)
+        return cls(
+            specs=dict((s.name, s) for s in dicts),
+            directory=paths.plugin_dir,
+        )
+
+    def lookup(self, name: str) -> SinglePluginSpec:
+        return self.specs[name]
+
+    def install_plugins(self) -> PluginsLock:
+        lock: dict[str, SinglePluginLock | None] = {}
+        for spec in self.specs.values():
+            status, _path = self.install_plugin(spec.name)
+            lock_data: SinglePluginLock | None = None
+            if status is InstallStatus.ERROR:
+                print(f"{spec.name} not installed: {spec.url} ========================================================")
+            else:
+                sha, recency = Utils.get_commit_info(_path)
+                lock_data = SinglePluginLock.model_validate(
+                    {
+                        "url": spec.url,
+                        "sha": sha,
+                        "last_update": Globals.TODAY,
+                        "location": str(_path.relative_to(self.directory)),
+                        "recency": recency,
+                        "version": spec.version,
+                    }
+                )
+            lock.update({spec.name: lock_data})
+        return PluginsLock.model_validate(lock)
+
+    def install_plugin(
+        self,
+        name: str,
+        update_existing: bool = False,
+    ) -> tuple[InstallStatus, Path]:
+        spec = self.lookup(name)
+        if bool(spec.build):
+            return self.install_plugin_with_build(spec, self.directory, update_existing=update_existing)
+        else:
+            return self.install_plugin_simple(spec, self.directory, update_existing=update_existing)
+
+    @property
+    def names_and_paths(self) -> tuple[tuple[str, Path], ...]:
+        return tuple((name, self.directory / name) for name in self.specs)
+
+    @staticmethod
+    def install_plugin_simple(
+        spec: SinglePluginSpec, directory: Path, update_existing: bool = False
+    ) -> tuple[InstallStatus, Path]:
+        url, version, sha = spec.url, spec.version, spec.hash
+        destination = directory / spec.destination
+        if (not update_existing) and destination.is_dir():
+            return InstallStatus.NO_OP, destination
+        post_command: CommandList = []
+
+        try:
+            command_specifics = ["--depth=1"]
+            if version:
+                command_specifics.extend(["--depth=1", "--branch", version])
+            elif sha:
+                command_specifics = ["--filter=blob:none"]
+                post_command = ["git", "-C", destination, "checkout", sha]
+
+            subprocess.run(["git", "clone", *command_specifics, url, destination], check=True)
+            if post_command:
+                run(post_command)
+
+            return InstallStatus.SUCCESS, destination
+
+        except subprocess.CalledProcessError:
+            return InstallStatus.ERROR, destination
+
+    @staticmethod
+    def install_plugin_with_build(
+        spec: SinglePluginSpec, directory: Path, update_existing: bool = False
+    ) -> tuple[InstallStatus, Path]:
+        return InstallStatus.NO_OP, directory / "NONEXISTENT"
+
+
+class SingleAvailableUpdate(BaseModel):
+    path: Path
+
+
+class AvailableUpdates(BaseDict[str, SingleAvailableUpdate]): ...
