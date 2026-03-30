@@ -1,7 +1,5 @@
 from dataclasses import dataclass
-from adiumentum import (  # type: ignore
-    BaseModelRW,
-)
+from adiumentum import BaseModelRW
 from pathlib import Path
 from datetime import date, datetime
 import socket

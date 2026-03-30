@@ -1,10 +1,3 @@
-# /// script
-# dependencies = [
-#   "adiumentum>=0.7.1",
-#   "pydantic>=2.11",
-# ]
-# ///
-
 """
 Utility script to install plugins on non-nix systems.
 
@@ -25,7 +18,7 @@ Subcommands:
     - write-script
 """
 
-from adiumentum import (  # type: ignore
+from adiumentum import (
     Version,
     run_with_result,
 )
@@ -38,14 +31,12 @@ import re
 import socket
 import subprocess
 
-
 from .config import Paths
 from .datamodels import (
     CommandList,
     RTPDict,
     SingleToolSpecs,
     PluginsLockMeta,
-    LuaTable,
     ToolsLock,
     PluginsLock,
     PluginSpecs,
@@ -57,6 +48,7 @@ from .datamodels import (
 from .nix_helpers import build_flake_source
 from .config import Config
 from .patterns import Patterns
+from .types import LuaTable
 from .utils import (
     change_extension,
     check_for_updates,

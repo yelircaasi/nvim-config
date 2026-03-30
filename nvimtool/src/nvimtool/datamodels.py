@@ -1,4 +1,4 @@
-from adiumentum import (  # type: ignore
+from adiumentum import (
     BaseModelRW,
     BaseDict,
     BaseList,
@@ -14,9 +14,10 @@ from typing import Annotated
 
 from typing import Iterable, Self, TypedDict
 
-from pydantic import BaseModel, Field  # type: ignore
+from pydantic import BaseModel, Field
 
 from .config import Config, Paths
+from .types import CommandList, DictList
 from .utils import get_commit_info
 
 
@@ -37,9 +38,6 @@ class Source(StrEnum):
     CB = auto()
     GL = auto()
     NONE = ""
-
-
-type DictList = list[dict[str, str]]  # type: ignore
 
 
 class SinglePluginSpec(BaseModel):
@@ -90,11 +88,6 @@ class PluginSpecs(BaseList[SinglePluginSpec]): ...
 
 
 class NvimtoolConfig(TypedDict): ...
-
-
-type CommandList = list[str | Path | int | float]  # type: ignore
-
-type LuaTable = dict[str, str] | dict[str, list[str]] | dict[int, dict[int, set[str]]]  # type: ignore
 
 
 ### TYPES ##############################################################################################################

@@ -1,5 +1,5 @@
 import sys
-from adiumentum import (  # type: ignore
+from adiumentum import (
     Colorizer,
     JsonContainer,
     JsonValue,
