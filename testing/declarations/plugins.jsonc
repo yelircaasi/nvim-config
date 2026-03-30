@@ -8907,6 +8907,12 @@
         "attrset": "custom",
         "rev": "86983717aafaeb9d82445d6f11b13eed6d20dc37",
         "hash": "sha256-xeBjO4cFwpo+fBYNEwhP0hm2mgMoCRUY0qbcAIyCVMM=",
-        "lastCommit": "2023-10-31"
+        "lastCommit": "2023-10-31",
+        "dependencies": [],
+        "integrations": [],
+        "commands": [],
+        "functions": [{}],
+        "keybinds": [{}],
+        "highlightGroups": [{}]
     }
 ]

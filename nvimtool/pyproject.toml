@@ -1,0 +1,23 @@
+[project]
+name = "nvimtool"
+version = "0.1.0"
+description = "Helper CLI for Neovim."
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "adiumentum>=0.7.1",
+    "pydantic>=2.12.5",
+]
+
+[project.scripts]
+nvimtool = "nvimtool.__main__:main"
+
+[build-system]
+requires = ["uv_build>=0.11.2,<0.12"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pyrefly>=0.58.0",
+    "ruff>=0.15.8",
+]

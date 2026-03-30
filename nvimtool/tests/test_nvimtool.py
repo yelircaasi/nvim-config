@@ -1,6 +1,5 @@
 from pathlib import Path
-from nvimtool_helpers import PluginSpecs
-
+from nvimtool.datamodels import PluginSpecs  # type: ignore
 
 plugins_jsonc = Path.home() / "repos/nvim-config/testing/declarations/plugins.jsonc"
 
