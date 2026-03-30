@@ -1,0 +1,584 @@
+[
+	// glean?
+	{ "layer": -1, "sublayer": 0, "sublayerName": "meta", "name": "nvim-teal-maker",              "id": "svermeulen/nvim-teal-maker",           "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	//===================================================================================================================================
+	//==== LAYER 0: foundation, colors, search, core navigation =========================================================================
+	//===================================================================================================================================
+	//---------------------------------------------
+	//--------------------- coreDependencies -----
+	//---------------------------------------------
+	{ "layer": 0, "sublayer":-1, "sublayerName": "coreDependencies", "name": "plenary",                      "id": "nvim-lua/plenary.nvim",                "source": "gh", "lazy": false, "category": "trying"},
+	{ "layer": 0, "sublayer":-1, "sublayerName": "coreDependencies", "name": "nio",                          "id": "nvim-neotest/nvim-nio",                "source": "gh", "lazy": false, "category": "trying"},
+	{ "layer": 0, "sublayer":-1, "sublayerName": "coreDependencies", "name": "nvim-web-devicons",            "id": "nvim-tree/nvim-web-devicons",          "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "layer": 0, "sublayer":-1, "sublayerName": "coreDependencies", "name": "nui",                          "id": "MunifTanjim/nui.nvim",                 "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "layer": 0, "sublayer":-1, "sublayerName": "coreDependencies", "name": "cosmic-ui",                    "id": "CosmicNvim/cosmic-ui",                 "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
+	{ "layer": 0, "sublayer":-1, "sublayerName": "coreDependencies", "name": "commons",                      "id": "linrongbin16/commons.nvim",            "source": "gh", "lazy": false, "category": "laterC",    "notes": "needs nix" },
+	{ "layer": 0, "sublayer":-1, "sublayerName": "coreDependencies", "name": "nvim-api-wrappers",            "id": "anuvyklack/nvim-api-wrappers",         "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "layer": 0, "sublayer":-1, "sublayerName": "coreDependencies", "name": "pathlib",                      "id": "pysan3/pathlib.nvim",                  "source": "gh", "lazy": false, "category": "laterC",    "notes": "needs nix" },
+	{ "layer": 0, "sublayer":-1, "sublayerName": "coreDependencies", "name": "cmdTree",                      "id": "CWood-sdf/cmdTree.nvim",               "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "layer": 0, "sublayer":-1, "sublayerName": "coreDependencies", "name": "sqlite",                       "id": "kkharji/sqlite.lua",                   "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	//---------------------------------------------
+	//--------------------- core setup and UI -----
+	//---------------------------------------------
+	{ "layer": 0, "sublayer": 0, "sublayerName": "coreSetupAndUI", "name": "bamboo",                       "id": "ribru17/bamboo.nvim",                  "source": "gh", "lazy": false, "category": "trying"},
+	{ "layer": 0, "sublayer": 0, "sublayerName": "coreSetupAndUI", "name": "illuminate",                   "id": "RRethy/vim-illuminate",                "source": "gh", "lazy": false, "category": "trying"},
+	{ "layer": 0, "sublayer": 0, "sublayerName": "coreSetupAndUI", "name": "lualine",                      "id": "nvim-lualine/lualine.nvim",            "source": "gh", "lazy": false, "category": "trying"},
+	{ "layer": 0, "sublayer": 0, "sublayerName": "coreSetupAndUI", "name": "nvim-navic",                   "id": "SmiteshP/nvim-navic",                  "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "layer": 0, "sublayer": 0, "sublayerName": "coreSetupAndUI", "name": "nvim-treesitter",              "id": "nvim-treesitter/nvim-treesitter",      "source": "gh", "lazy": false, "category": "trying",    "notes": "brew install tree-sitter; brew install tree-sitter-cli" },
+	{ "layer": 0, "sublayer": 0, "sublayerName": "coreSetupAndUI", "name": "otter",                        "id": "jmbuhr/otter.nvim",                    "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
+	{ "layer": 0, "sublayer": 0, "sublayerName": "coreSetupAndUI", "name": "nvim-FeMaco",                  "id": "AckslD/nvim-FeMaco.lua",               "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
+	{ "layer": 0, "sublayer": 0, "sublayerName": "coreSetupAndUI", "name": "treesitter-modules",           "id": "MeanderingProgrammer/treesitter-modules.nvim", "source": "gh", "lazy": false, "category": "trying", "notes": "needs nix" },
+	{ "layer": 0, "sublayer": 0, "sublayerName": "coreSetupAndUI", "name": "dropbar",                      "id": "Bekaboo/dropbar.nvim",                 "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "layer": 0, "sublayer": 0, "sublayerName": "coreSetupAndUI", "name": "aerial",                       "id": "stevearc/aerial.nvim",                 "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "layer": 0, "sublayer": 0, "sublayerName": "coreSetupAndUI", "name": "symbols",                      "id": "oskarrrrrrr/symbols.nvim",             "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
+	// pinning
+	{ "layer": 0, "sublayer": 0, "sublayerName": "pinning", "name": "nvim-treesitter-context",      "id": "nvim-treesitter/nvim-treesitter-context","source": "gh","lazy": false,"category": "next",      "notes": "needs nix" },
+	{ "layer": 0, "sublayer": 0, "sublayerName": "pinning", "name": "TreePin",                      "id": "KaitlynEthylia/TreePin",               "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
+	// status column
+	{ "layer": 0, "sublayer": 0, "sublayerName": "columns", "name": "statuscol",                    "id": "luukvbaal/statuscol.nvim",             "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	// vertical column line
+	{ "layer": 0, "sublayer": 0, "sublayerName": "columns", "name": "smartcolumn",                  "id": "m4xshen/smartcolumn.nvim",             "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "layer": 0, "sublayer": 0, "sublayerName": "columns", "name": "virtcolumn",                   "id": "xiyaowong/virtcolumn.nvim",            "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	// status line
+	{ "layer": 0, "sublayer": 0, "sublayerName": "statusLine", "name": "bufferline",                   "id": "akinsho/bufferline.nvim",              "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "layer": 0, "sublayer": 0, "sublayerName": "statusLine", "name": "galaxyline",                   "id": "nvimdev/galaxyline.nvim",              "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "layer": 0, "sublayer": 0, "sublayerName": "statusLine", "name": "heirline",                     "id": "rebelot/heirline.nvim",                "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
+	{ "layer": 0, "sublayer": 0, "sublayerName": "statusLine", "name": "heirline-components",          "id": "Zeioth/heirline-components.nvim",      "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
+	{ "layer": 0, "sublayer": 0, "sublayerName": "statusLine", "name": "staline",                      "id": "tamton-aquib/staline.nvim",            "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
+	{ "layer": 0, "sublayer": 0, "sublayerName": "statusLine", "name": "nvim-navbuddy",                "id": "SmiteshP/nvim-navbuddy",               "source": "gh", "lazy": false, "category": "trying",    "deps": ["nui"],    "notes": "needs nix" },
+	// other lines window, buffer, etc
+	{ "layer": 0, "sublayer": 0, "sublayerName": "otherLines", "name": "nougat",                  "id": "MunifTanjim/nougat.nvim",                   "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
+	{ "layer": 0, "sublayer": 0, "sublayerName": "otherLines", "name": "winbar",                       "id": "Alighorab/winbar.nvim",                "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "layer": 0, "sublayer": 0, "sublayerName": "otherLines", "name": "minibar",                      "id": "aktersnurra/minibar.nvim",             "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "layer": 0, "sublayer": 0, "sublayerName": "otherLines", "name": "bafa",                         "id": "mistweaverco/bafa.nvim",               "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "layer": 0, "sublayer": 0, "sublayerName": "otherLines", "name": "windline",                     "id": "windwp/windline.nvim",                 "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "layer": 0, "sublayer": 0, "sublayerName": "otherLines", "name": "barbar",                       "id": "romgrk/barbar.nvim",                   "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "layer": 0, "sublayer": 0, "sublayerName": "otherLines", "name": "cokeline",                     "id": "willothy/nvim-cokeline",               "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	//---------------------------------------------
+	//------ file explorer (as central focus) -----
+	//---------------------------------------------
+	{ "layer": 0, "sublayer": 1, "sublayerName": "fileExplorer", "name": "oil",                          "id": "stevearc/oil.nvim",                    "source": "gh", "lazy": false, "category": "trying"},
+	{ "layer": 0, "sublayer": 1, "sublayerName": "fileExplorer", "name": "yazi",                         "id": "mikavilpas/yazi.nvim",                 "source": "gh", "lazy": false, "category": "trying", "deps": ["plenary"] },
+	{ "layer": 0, "sublayer": 1, "sublayerName": "fileExplorer", "name": "neo-tree",                     "id": "nvim-neo-tree/neo-tree.nvim",          "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "layer": 0, "sublayer": 1, "sublayerName": "fileExplorer", "name": "nvim-tree",                    "id": "nvim-tree/nvim-tree.lua",              "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "layer": 0, "sublayer": 1, "sublayerName": "fileExplorer", "name": "chadtree",                     "id": "ms-jpq/chadtree",                      "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
+	{ "layer": 0, "sublayer": 1, "sublayerName": "fileExplorer", "name": "telescope-file-browser",       "id": "nvim-telescope/telescope-file-browser.nvim","source":"gh","lazy":false,"category":"next",      "notes": "needs nix" },
+	//---------------------------------------------
+	//----------------------- picker / search -----
+	//---------------------------------------------
+	{ "layer": 0, "sublayer": 2, "sublayerName": "picker/search", "name": "pickme",                       "id": "2KAbhishek/pickme.nvim",               "source": "gh", "lazy": false, "category": "trying"},
+	{ "layer": 0, "sublayer": 2, "sublayerName": "picker/search", "name": "telescope",                    "id": "nvim-telescope/telescope.nvim",        "source": "gh", "lazy": false, "category": "trying"},
+	{ "layer": 0, "sublayer": 2, "sublayerName": "picker/search", "name": "telescope-fzf-native",         "id": "nvim-telescope/telescope-fzf-native.nvim", "source": "gh", "lazy": false, "category": "trying"},
+	{ "layer": 0, "sublayer": 2, "sublayerName": "picker/search", "name": "fzf-lua",                      "id": "ibhagwan/fzf-lua",                     "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "layer": 0, "sublayer": 2, "sublayerName": "picker/search", "name": "deck",                         "id": "hrsh7th/nvim-deck",                    "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	// ----- alternative -----
+	{ "layer": 0, "sublayer": 2, "sublayerName": "picker/search", "name": "ido",                          "id": "shoumodip/ido.nvim",                   "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	// ----- telescope extensions -----
+	{ "layer": 0, "sublayer": 2, "sublayerName": "telescopeExtensions", "name": "telescope-smart-history",      "id": "nvim-telescope/telescope-smart-history.nvim","source":"gh","lazy":false,"category":"next",     "notes": "needs nix" },
+	{ "layer": 0, "sublayer": 2, "sublayerName": "telescopeExtensions", "name": "telescope-repo",               "id": "cljoly/telescope-repo.nvim",           "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
+	{ "layer": 0, "sublayer": 2, "sublayerName": "telescopeExtensions", "name": "telescope-json-history",       "id": "cosminadrianpopescu/telescope-json-history.nvim", "source": "gh", "lazy": false, "category": "lang", "notes": "needs nix" },
+
+	//---------------------------------------------
+	//-------------------------------- suites -----
+	//---------------------------------------------
+	{ "layer": 0, "sublayer": 3, "sublayerName": "suite", "name": "mini",                         "id": "nvim-mini/mini.nvim",                  "source": "gh", "lazy": false, "category": "trying"},
+	{ "layer": 0, "sublayer": 3, "sublayerName": "suite", "name": "snacks",                       "id": "folke/snacks.nvim",                    "source": "gh", "lazy": false, "category": "trying"},
+	{ "layer": 0, "sublayer": 3, "sublayerName": "suite", "name": "blink",                        "id": "saghen/blink.nvim",                    "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	//---------------------------------------------
+	//-------------------------------- search -----
+	//---------------------------------------------
+	{ "layer": 0, "sublayer": 4, "sublayerName": "search", "name": "hlslens",                      "id": "kevinhwang91/nvim-hlslens",            "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "layer": 0, "sublayer": 4, "sublayerName": "search", "name": "hlsearch",                     "id": "nvimdev/hlsearch.nvim",                "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	// ----- alternative -----
+	{ "layer": 0, "sublayer": 4, "sublayerName": "search", "name": "clever-f.vim",                 "id": "rhysd/clever-f.vim",                   "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	//---------------------------------------------
+	//---------------------- find-and-replace -----
+	//---------------------------------------------
+	{ "layer": 0, "sublayer": 5, "sublayerName": "replace", "name": "grug-far",                     "id": "MagicDuck/grug-far.nvim",              "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "layer": 0, "sublayer": 5, "sublayerName": "replace", "name": "spectre",                      "id": "nvim-pack/nvim-spectre",               "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "layer": 0, "sublayer": 5, "sublayerName": "replace", "name": "nvim-rip-substitute",          "id": "chrisgrieser/nvim-rip-substitute",     "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	// ----- exploratory:
+	{ "layer": 0, "sublayer": 5, "sublayerName": "replace", "name": "inc-rename",                   "id": "smjonas/inc-rename.nvim",              "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "layer": 0, "sublayer": 5, "sublayerName": "replace", "name": "search-replace",               "id": "mosheavni/search-replace.nvim",        "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "layer": 0, "sublayer": 5, "sublayerName": "replace", "name": "ssr",                          "id": "cshuaimin/ssr.nvim",                   "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "layer": 0, "sublayer": 5, "sublayerName": "replace", "name": "sad",                          "id": "ray-x/sad.nvim",                       "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "layer": 0, "sublayer": 5, "sublayerName": "replace", "name": "substitute",                   "id": "gbprod/substitute.nvim",               "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "layer": 0, "sublayer": 5, "sublayerName": "replace", "name": "replacer",                     "id": "gabrielpoca/replacer.nvim",            "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "layer": 0, "sublayer": 5, "sublayerName": "replace", "name": "renamer",                      "id": "enrodpre/renamer.nvim",                "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "layer": 0, "sublayer": 5, "sublayerName": "replace", "name": "muren",                        "id": "AckslD/muren.nvim",                    "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	//---------------------------------------------
+	//-------- layout & window/buffer/tab nav -----
+	//---------------------------------------------
+	{ "layer": 0, "sublayer": 6, "sublayerName": "layoutNav", "name": "nvim_winpick",                 "id": "MarcusGrass/nvim_winpick",             "source": "gh", "lazy": false, "category": "trying"},
+	{ "layer": 0, "sublayer": 6, "sublayerName": "layoutNav", "name": "flybuf",                       "id": "nvimdev/flybuf.nvim",                  "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "layer": 0, "sublayer": 6, "sublayerName": "layoutNav", "name": "stickybuf",                    "id": "stevearc/stickybuf.nvim",              "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "layer": 0, "sublayer": 6, "sublayerName": "layoutNav", "name": "swm",                          "id": "hrsh7th/nvim-swm",                     "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "layer": 0, "sublayer": 6, "sublayerName": "layoutNav", "name": "retrospect",                   "id": "mrquantumcodes/retrospect.nvim",       "source": "gh", "lazy": false, "category": "laterA",    "notes": "needs nix" },
+	{ "layer": 0, "sublayer": 6, "sublayerName": "layoutNav", "name": "vuffers",                 "id": "Hajime-Suzuki/vuffers.nvim",           "source": "gh", "lazy": false, "category": "laterA",    "notes": "needs nix" },
+	{ "layer": 0, "sublayer": 6, "sublayerName": "layoutNav", "name": "pragma",                  "id": "DrKGD/pragma.nvim",                   "source": "gh", "lazy": false, "category": "laterA",    "notes": "needs nix" },
+	{ "layer": 0, "sublayer": 6, "sublayerName": "layoutNav", "name": "windows",                      "id": "anuvyklack/windows.nvim",              "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
+	//---------------------------------------------
+	//------------------- wezterm integration -----
+	//---------------------------------------------
+	{ "layer": 0, "sublayer": 7, "sublayerName": "wezterm", "name": "smart-splits",                 "id": "mrjones2014/smart-splits.nvim",        "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	//===================================================================================================================================
+	//==== LAYER 1: editing enhancements ================================================================================================ 1
+	//===================================================================================================================================
+	//---------------------------------------------
+	//--------------------------------- folds -----
+	//---------------------------------------------
+	{ "layer": 1, "sublayer": 0, "sublayerName": "folding", "name": "ufo",                          "id": "kevinhwang91/nvim-ufo",                "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	//---------------------------------------------
+	//------------------------------ wrapping -----
+	//---------------------------------------------
+	{ "layer": 1, "sublayer": 0, "sublayerName": "wrapping", "name": "wrapping",                     "id": "andrewferrier/wrapping.nvim",          "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "layer": 1, "sublayer": 0, "sublayerName": "wrapping", "name": "wrapping-paper",               "id": "benlubas/wrapping-paper.nvim",         "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	//---------------------------------------------
+	//-------------------------------- saving -----
+	//---------------------------------------------
+	{ "layer": 1, "sublayer": 0, "sublayerName": "saving", "name": "savior",                       "id": "willothy/savior.nvim",                 "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "layer": 1, "sublayer": 0, "sublayerName": "saving", "name": "zpragmatic",                   "id": "muhammadzkralla/zpragmatic.nvim",      "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
+	{ "layer": 1, "sublayer": 0, "sublayerName": "saving", "name": "vim-auto-save",                "id": "907th/vim-auto-save",                  "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	//---------------------------------------------
+	//-------------------------- multi-cursor -----
+	//---------------------------------------------
+	{ "layer": 1, "sublayer": 0, "sublayerName": "multicursor", "name": "vim-visual-multi",             "id": "mg979/vim-visual-multi",               "source": "gh", "lazy": false, "category": "trying"},
+	{ "layer": 1, "sublayer": 0, "sublayerName": "multicursor", "name": "multicursors",                 "id": "smoka7/multicursors.nvim",             "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "layer": 1, "sublayer": 0, "sublayerName": "multicursor", "name": "vim-multiple-cursors",         "id": "terryma/vim-multiple-cursors",         "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	//---------------------------------------------
+	//----------------------------- selection -----
+	//---------------------------------------------
+	{ "layer": 1, "sublayer": 0, "sublayerName": "selection", "name": "wildfire",                     "id": "SUSTech-data/wildfire.nvim",           "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	//---------------------------------------------
+	//------------------------------- sorting -----
+	//---------------------------------------------
+	{ "layer": 1, "sublayer": 0, "sublayerName": "sorting", "name": "sort",                         "id": "sQVe/sort.nvim",                       "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	//---------------------------------------------
+	//-------------------------------- motion -----
+	//---------------------------------------------
+	{ "layer": 1, "sublayer": 0, "sublayerName": "motion", "name": "leap",                         "id": "andyg/leap.nvim",                      "source": "cb", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "layer": 1, "sublayer": 0, "sublayerName": "motion", "name": "flash",                        "id": "folke/flash.nvim",                     "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "layer": 1, "sublayer": 0, "sublayerName": "motion", "name": "hop",                          "id": "smoka7/hop.nvim",                      "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "layer": 1, "sublayer": 0, "sublayerName": "motion", "name": "neowords",                     "id": "backdround/neowords.nvim",             "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
+	{ "layer": 1, "sublayer": 0, "sublayerName": "motion", "name": "spider",                       "id": "chrisgrieser/nvim-spider",             "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "layer": 1, "sublayer": 0, "sublayerName": "motion", "name": "vim-wordmotion",               "id": "chaoren/vim-wordmotion",               "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "layer": 1, "sublayer": 0, "sublayerName": "motion", "name": "vim-edgemotion",               "id": "haya14busa/vim-edgemotion",            "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	// ----- alternative -----
+	{ "layer": 1, "sublayer": 0, "sublayerName": "motion", "name": "treemonkey",                   "id": "atusy/treemonkey.nvim",                "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "layer": 1, "sublayer": 0, "sublayerName": "motion", "name": "hierarchy",                    "id": "Slyces/hierarchy.nvim",                "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "layer": 1, "sublayer": 0, "sublayerName": "motion", "name": "navigator.lua",                "id": "ray-x/navigator.lua",                  "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	//---------------------------------------------
+	//--------------------------------- pairs -----
+	//---------------------------------------------
+	{ "layer": 1, "sublayer": 0, "sublayerName": "pairs", "name": "rainbow-delimiters",           "id": "HiPhish/rainbow-delimiters.nvim",      "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "layer": 1, "sublayer": 0, "sublayerName": "pairs", "name": "nvim-autopairs",               "id": "windwp/nvim-autopairs",                "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "layer": 1, "sublayer": 0, "sublayerName": "pairs", "name": "blink.pairs",                  "id": "saghen/blink.pairs",                   "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "layer": 1, "sublayer": 0, "sublayerName": "pairs", "name": "vim-sandwich",                 "id": "machakann/vim-sandwich",               "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "layer": 1, "sublayer": 0, "sublayerName": "pairs", "name": "nvim-surround",                "id": "kylechui/nvim-surround",               "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "layer": 1, "sublayer": 0, "sublayerName": "pairs", "name": "vim-surround",                 "id": "tpope/vim-surround",                   "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	//---------------------------------------------
+	//---------------------------------- undo -----
+	//---------------------------------------------
+	{ "layer": 1, "sublayer": 0, "sublayerName": "undo", "name": "vim-mundo",                    "id": "simnalamburt/vim-mundo",               "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	//---------------------------------------------
+	//-------------------- keymapping-related -----
+	//---------------------------------------------
+	{ "layer": 1, "sublayer": 0, "sublayerName": "keymap", "name": "mini.keymap",                  "id": "nvim-mini/mini.keymap",                "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "layer": 1, "sublayer": 0, "sublayerName": "keymap", "name": "hydra",                        "id": "nvimtools/hydra.nvim",                 "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "layer": 1, "sublayer": 0, "sublayerName": "keymap", "name": "insx",                         "id": "hrsh7th/nvim-insx",                    "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "layer": 1, "sublayer": 0, "sublayerName": "keymap", "name": "which-key",                    "id": "folke/which-key.nvim",                 "source": "gh", "lazy": false, "category": "trying"},
+	// ---- other -----
+	{ "layer": 1, "sublayer": 0, "sublayerName": "keymap", "name": "better-escape",           "id": "max397574/better-escape.nvim",         "source": "gh", "lazy": false, "category": "trying"},
+	{ "layer": 1, "sublayer": 0, "sublayerName": "keymap", "name": "apm",                          "id": "pseudocc/nvim-apm",                    "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "layer": 1, "sublayer": 0, "sublayerName": "keymap", "name": "unimpaired-which-key",         "id": "afreakk/unimpaired-which-key.nvim",    "source": "gh", "lazy": false, "category": "laterA",    "notes": "needs nix" },
+	{ "layer": 1, "sublayer": 0, "sublayerName": "keymap", "name": "nvim-whichkey-setup.lua",      "id": "AckslD/nvim-whichkey-setup.lua",       "source": "gh", "lazy": false, "category": "laterA",    "notes": "needs nix" },
+	{ "layer": 1, "sublayer": 0, "sublayerName": "keymap", "name": "keymapper",                    "id": "bgrohman/nvim-keymapper",              "source": "gh", "lazy": false, "category": "laterA",    "notes": "needs nix" },
+	{ "layer": 1, "sublayer": 0, "sublayerName": "keymap", "name": "keyseer",                      "id": "jokajak/keyseer.nvim",                 "source": "gh", "lazy": false, "category": "laterA",    "notes": "needs nix" },
+	{ "layer": 1, "sublayer": 0, "sublayerName": "keymap", "name": "keytex",                       "id": "cronJohn/keytex.nvim",                 "source": "gh", "lazy": false, "category": "laterA",    "notes": "needs nix" },
+	{ "layer": 1, "sublayer": 0, "sublayerName": "keymap", "name": "showkeys",                     "id": "nvzone/showkeys",                      "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
+	{ "layer": 1, "sublayer": 0, "sublayerName": "keymap", "name": "keylab",                       "id": "BooleanCube/keylab.nvim",              "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
+	{ "layer": 1, "sublayer": 0, "sublayerName": "keymap", "name": "xkbswitch",                    "id": "ivanesmantovich/xkbswitch.nvim",       "source": "gh", "lazy": false, "category": "laterA",    "notes": "needs nix" },
+	{ "layer": 1, "sublayer": 0, "sublayerName": "keymap", "name": "cyrillic",                     "id": "nativerv/cyrillic.nvim",               "source": "gh", "lazy": false, "category": "laterA",    "notes": "needs nix" },
+	{ "layer": 1, "sublayer": 0, "sublayerName": "keymap", "name": "homerows",                     "id": "kbario/homerows.nvim",                 "source": "gh", "lazy": false, "category": "laterA",    "notes": "needs nix" },
+	{ "layer": 1, "sublayer": 0, "sublayerName": "keymap", "name": "wf",                           "id": "Cassin01/wf.nvim",                     "source": "gh", "lazy": false, "category": "laterA",    "notes": "needs nix" },
+	//---------------------------------------------
+	//-------------------------------- macros -----
+	//---------------------------------------------
+	{ "layer": 1, "sublayer": 0, "sublayerName": "macros", "name": "NeoComposer",                  "id": "lvim-tech/NeoComposer.nvim",           "source": "gh", "lazy": false, "category": "trying"},
+	{ "layer": 1, "sublayer": 0, "sublayerName": "macros", "name": "nvim-macros",                  "id": "kr40/nvim-macros",                     "source": "gh", "lazy": false, "category": "trying"},
+	{ "layer": 1, "sublayer": 0, "sublayerName": "macros", "name": "recorder",                     "id": "chrisgrieser/nvim-recorder",           "source": "gh", "lazy": false, "category": "trying"},
+	//---------------------------------------------
+	//--------------- alignment / indentation -----
+	//---------------------------------------------
+	{ "layer": 1, "sublayer": 0, "sublayerName": "alignment/indentation", "name": "indentmini",                   "id": "nvimdev/indentmini.nvim",              "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "layer": 1, "sublayer": 0, "sublayerName": "alignment/indentation", "name": "indent-blankline",             "id": "lukas-reineke/indent-blankline.nvim",  "source": "gh", "lazy": false, "category": "trying",     "notes": "needs nix" },
+	{ "layer": 1, "sublayer": 0, "sublayerName": "alignment/indentation", "name": "anydent",                      "id": "hrsh7th/nvim-anydent",                 "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "layer": 1, "sublayer": 0, "sublayerName": "alignment/indentation", "name": "mini.align",                   "id": "nvim-mini/mini.align",                 "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "layer": 1, "sublayer": 0, "sublayerName": "alignment/indentation", "name": "tabular",                      "id": "godlygeek/tabular",                    "source": "gh", "lazy": false, "category": "trying",    "notes": " -- needs nix; https://devhints.io/tabular" },
+	{ "layer": 1, "sublayer": 0, "sublayerName": "alignment/indentation", "name": "indent-tools",                 "id": "arsham/indent-tools.nvim",             "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	//---------------------------------------------
+	//--------------------------- textobjects -----
+	//---------------------------------------------
+	{ "layer": 1, "sublayer": 0, "sublayerName": "textobjects", "name": "nvim-treesitter-textobjects",  "id": "nvim-treesitter/nvim-treesitter-textobjects", "source": "gh", "lazy": false, "category": "trying"},
+	{ "layer": 1, "sublayer": 0, "sublayerName": "textobjects", "name": "nvim-various-textobjs",        "id": "chrisgrieser/nvim-various-textobjs",   "source": "gh", "lazy": false, "category": "trying",      "notes": "needs nix" },
+	//---------------------------------------------
+	//------------------------------ comments -----
+	//---------------------------------------------
+	{ "layer": 1, "sublayer": 0, "sublayerName": "comments", "name": "Comment",                      "id": "numToStr/Comment.nvim",                "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "layer": 1, "sublayer": 0, "sublayerName": "comments", "name": "ts-context-commentstring",     "id": "JoosepAlviste/nvim-ts-context-commentstring", "source": "gh", "lazy": false, "category": "lang", "notes": "needs nix" },
+	{ "layer": 1, "sublayer": 0, "sublayerName": "comments", "name": "todo-comments",                "id": "folke/todo-comments.nvim",             "source": "gh", "lazy": false, "category": "trying"},
+	{ "layer": 1, "sublayer": 0, "sublayerName": "comments", "name": "vim-commentary",               "id": "tpope/vim-commentary",                 "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	//---------------------------------------------
+	//-------------------------- split / join -----
+	//---------------------------------------------
+	{ "layer": 1, "sublayer": 0, "sublayerName": "split/join", "name": "treesj",                       "id": "Wansmer/treesj",                       "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "layer": 1, "sublayer": 0, "sublayerName": "split/join", "name": "splitjoin",                    "id": "bennypowers/splitjoin.nvim",           "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "layer": 1, "sublayer": 0, "sublayerName": "split/join", "name": "splitjoin.vim",                "id": "AndrewRadev/splitjoin.vim",            "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "layer": 1, "sublayer": 0, "sublayerName": "split/join", "name": "spread",                       "id": "aarondiel/spread.nvim",                "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	//---------------------------------------------
+	//-------------------- value manipulation -----
+	//---------------------------------------------
+	{ "layer": 1, "sublayer": 0, "sublayerName": "valueToggle", "name": "dial",                         "id": "monaqa/dial.nvim",                     "source": "gh", "lazy": false, "category": "trying"},
+	{ "layer": 1, "sublayer": 0, "sublayerName": "valueToggle", "name": "switch.vim",                   "id": "AndrewRadev/switch.vim",               "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	//---------------------------------------------
+	//--------------------------------- marks -----
+	//---------------------------------------------
+	{ "layer": 1, "sublayer": 1, "sublayerName": "marks", "name": "harpoon-core",                 "id": "MeanderingProgrammer/harpoon-core.nvim", "source": "gh", "lazy": false, "category": "trying",  "notes": "needs nix" },
+	{ "layer": 1, "sublayer": 1, "sublayerName": "marks", "name": "marks",                        "id": "chentoast/marks.nvim",                 "source": "gh", "lazy": false, "category": "trying"},
+	{ "layer": 1, "sublayer": 1, "sublayerName": "marks", "name": "markit",                       "id": "2KAbhishek/markit.nvim",               "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "layer": 1, "sublayer": 1, "sublayerName": "marks", "name": "spear",                        "id": "kbario/spear.nvim",                    "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "layer": 1, "sublayer": 1, "sublayerName": "marks", "name": "arrow",                        "id": "otavioschwanck/arrow.nvim",            "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "layer": 1, "sublayer": 1, "sublayerName": "marks", "name": "whaler",                       "id": "SalOrak/whaler.nvim",                  "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
+	//---------------------------------------------
+	//---------------- yank/paste & clipboard -----
+	//---------------------------------------------
+	{ "layer": 1, "sublayer": 2, "sublayerName": "clipboard", "name": "pasta",                        "id": "hrsh7th/nvim-pasta",                   "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "layer": 1, "sublayer": 2, "sublayerName": "clipboard", "name": "wastebin",                     "id": "matze/wastebin.nvim",                  "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
+	{ "layer": 1, "sublayer": 2, "sublayerName": "clipboard", "name": "lazyclip",                     "id": "atiladefreitas/lazyclip",              "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "layer": 1, "sublayer": 2, "sublayerName": "clipboard", "name": "yanky",                        "id": "gbprod/yanky.nvim",                    "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "layer": 1, "sublayer": 2, "sublayerName": "clipboard", "name": "moveline",                     "id": "willothy/moveline.nvim",               "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	//---------------------------------------------
+	//------------------------- miscellaneous -----
+	//---------------------------------------------
+	{ "layer": 1, "sublayer": 3, "sublayerName": "miscellaneous", "name": "beam",                         "id": "Piotr1215/beam.nvim",                  "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "layer": 1, "sublayer": 3, "sublayerName": "miscellaneous", "name": "vim-abolish",                  "id": "tpope/vim-abolish",                    "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "layer": 1, "sublayer": 3, "sublayerName": "miscellaneous", "name": "ax",                           "id": "mikeslattery/ax.nvim",                 "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
+	{ "layer": 1, "sublayer": 3, "sublayerName": "miscellaneous", "name": "AdvancedNewFile",              "id": "Mohammed-Taher/AdvancedNewFile.nvim",  "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "layer": 1, "sublayer": 3, "sublayerName": "miscellaneous", "name": "dotdot",                       "id": "hernandez/dotdot.nvim",                "source": "cb", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "layer": 1, "sublayer": 3, "sublayerName": "miscellaneous", "name": "minimal-narrow-region",        "id": "bagohart/minimal-narrow-region.nvim",  "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "layer": 1, "sublayer": 3, "sublayerName": "miscellaneous", "name": "date-time-inserter",           "id": "AntonVanAssche/date-time-inserter.nvim","source": "gh","lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "layer": 1, "sublayer": 3, "sublayerName": "miscellaneous", "name": "bullets",                      "id": "kaymmm/bullets.nvim",                  "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
+	{ "layer": 1, "sublayer": 3, "sublayerName": "miscellaneous", "name": "vim-caser",                    "id": "arthurxavierx/vim-caser",              "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	//===================================================================================================================================
+	//==== LAYER 2: LSP, autocompletion, snippets ======================================================================================= 2
+	//===================================================================================================================================
+	//---------------------------------------------
+	//---------------- snippets, autocomplete -----
+	//---------------------------------------------
+	{ "layer": 2, "sublayer": 0, "sublayerName": "completion", "name": "blink.cmp",                    "id": "Saghen/blink.cmp",                     "source": "gh", "lazy": false, "category": "trying"},
+	{ "layer": 2, "sublayer": 0, "sublayerName": "completion", "name": "cmp",                          "id": "hrsh7th/nvim-cmp",                     "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "layer": 2, "sublayer": 0, "sublayerName": "completion", "name": "lsp_signature",                "id": "ray-x/lsp_signature.nvim",             "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "layer": 2, "sublayer": 0, "sublayerName": "completion", "name": "inlayhint-filler",             "id": "davidyz/inlayhint-filler.nvim",        "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	// ----- alternative -----
+	{ "layer": 2, "sublayer": 0, "sublayerName": "completion", "name": "ivy",                          "id": "AdeAttwood/ivy.nvim",                  "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
+	//---------------------------------------------
+	//-------------- snippets (as main focus) -----
+	//---------------------------------------------
+	{ "layer": 2, "sublayer": 1, "sublayerName": "snippets", "name": "friendly-snippets",            "id": "rafamadriz/friendly-snippets",         "source": "gh", "lazy": false, "category": "trying"},
+	{ "layer": 2, "sublayer": 1, "sublayerName": "snippets", "name": "ultisnips",                    "id": "SirVer/ultisnips",                     "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix; https://ejmastnak.com/tutorials/vim-latex/ultisnips/" },
+	{ "layer": 2, "sublayer": 1, "sublayerName": "snippets", "name": "LuaSnip",                      "id": "L3MON4D3/LuaSnip",                     "source": "gh", "lazy": false, "category": "trying"},
+	//------ completion sources -----
+	{ "layer": 2, "sublayer": 2, "sublayerName": "completionSource", "name": "cmp-nvim-lsp",                 "id": "hrsh7th/cmp-nvim-lsp",                 "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "layer": 2, "sublayer": 2, "sublayerName": "completionSource", "name": "cmp-buffer",                   "id": "hrsh7th/cmp-buffer",                   "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "layer": 2, "sublayer": 2, "sublayerName": "completionSource", "name": "cmp-path",                     "id": "hrsh7th/cmp-path",                     "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "layer": 2, "sublayer": 2, "sublayerName": "completionSource", "name": "cmp-cmdline",                  "id": "hrsh7th/cmp-cmdline",                  "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "layer": 2, "sublayer": 2, "sublayerName": "completionSource", "name": "cmp_luasnip",                  "id": "saadparwaiz1/cmp_luasnip",             "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	// ----- other completion sources -----
+	{ "layer": 2, "sublayer": 2, "sublayerName": "completionSource", "name": "nvim-cmp-fonts",               "id": "amarakon/nvim-cmp-fonts",              "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
+	{ "layer": 2, "sublayer": 2, "sublayerName": "completionSource", "name": "nvim-cmp-lua-latex-symbols",   "id": "amarakon/nvim-cmp-lua-latex-symbols",  "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
+	{ "layer": 2, "sublayer": 2, "sublayerName": "completionSource", "name": "cmp-nvim-telekasten-tags",     "id": "Cybolic/cmp-nvim-telekasten-tags",     "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
+	{ "layer": 2, "sublayer": 2, "sublayerName": "completionSource", "name": "cmp_bulma",                    "id": "garyhurtz/cmp_bulma.nvim",             "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	//---------------------------------------------
+	//--------------------------- LSP general -----
+	//---------------------------------------------
+	// (configure ruff, pyright, lua-language-server, haskell-language-server, rust-analyzer with built-in client)
+	{ "layer": 2, "sublayer": 0, "sublayerName": "lsp", "name": "lsp-format",                   "id": "lukas-reineke/lsp-format.nvim",        "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "layer": 2, "sublayer": 0, "sublayerName": "lsp", "name": "lspkind",                      "id": "onsails/lspkind.nvim",                 "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "layer": 2, "sublayer": 0, "sublayerName": "lsp", "name": "efm",                          "id": "mattn/efm-langserver",                 "source": "gh", "lazy": false, "category": "trying"},
+	{ "layer": 2, "sublayer": 0, "sublayerName": "lsp", "name": "none-ls",                      "id": "nvimtools/none-ls.nvim",               "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	//---------------------------------------------
+	//---------------------------- LSP output -----
+	//---------------------------------------------
+	{ "layer": 2, "sublayer": 1, "sublayerName": "lspOutput", "name": "output-panel",                "id": "mhanberg/output-panel.nvim",          "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "layer": 2, "sublayer": 1, "sublayerName": "lspOutput", "name": "control-panel",                "id": "mhanberg/control-panel.nvim",          "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	//---------------------------------------------
+	//--------- LSP UI/NAVIGATION (-> fidget) -----
+	//---------------------------------------------
+	{ "layer": 2, "sublayer": 2, "sublayerName": "lspUI", "name": "lspsaga",                      "id": "nvimdev/lspsaga.nvim",                 "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "layer": 2, "sublayer": 2, "sublayerName": "lspUI", "name": "cmp-nvim-lsp-signature-help",  "id": "hrsh7th/cmp-nvim-lsp-signature-help",  "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "layer": 2, "sublayer": 2, "sublayerName": "lspUI", "name": "corn",                         "id": "RaafatTurki/corn.nvim",                "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "layer": 2, "sublayer": 2, "sublayerName": "lspUI", "name": "diagflow",                     "id": "dgagn/diagflow.nvim",                  "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "layer": 2, "sublayer": 2, "sublayerName": "lspUI", "name": "error-jump",                   "id": "Dr-42/error-jump.nvim",                "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "layer": 2, "sublayer": 2, "sublayerName": "lspUI", "name": "doc-window",                   "id": "resonyze/doc-window.nvim",             "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "layer": 2, "sublayer": 2, "sublayerName": "lspUI", "name": "lightbulb",                    "id": "kosayoda/nvim-lightbulb",              "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "layer": 2, "sublayer": 2, "sublayerName": "lspUI", "name": "telescope-code-actions",       "id": "nyarthan/telescope-code-actions.nvim", "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "layer": 2, "sublayer": 2, "sublayerName": "lspUI", "name": "dmap",                         "id": "doums/dmap.nvim",                      "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
+	//------ language-specific ----- 
+	{ "layer": 2, "sublayer": 3, "sublayerName": "specificLang", "name": "nix-develop",             "id": "figsoda/nix-develop.nvim",             "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "layer": 2, "sublayer": 3, "sublayerName": "specificLang", "name": "lazydev",                      "id": "folke/lazydev.nvim",                   "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "layer": 2, "sublayer": 3, "sublayerName": "specificLang", "name": "rustaceanvim",                 "id": "mrcjkb/rustaceanvim",                  "source": "gh", "lazy": false, "category": "trying",    "notes": "already lazy" },
+	{ "layer": 2, "sublayer": 3, "sublayerName": "specificLang", "name": "crates",                       "id": "saecki/crates.nvim",                   "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "layer": 2, "sublayer": 3, "sublayerName": "specificLang", "name": "haskell-tools",                "id": "mrcjkb/haskell-tools.nvim",            "source": "gh", "lazy": false, "category": "trying",    "notes": "already lazy" },
+	{ "layer": 2, "sublayer": 3, "sublayerName": "specificLang", "name": "debugpy",                      "id": "HiPhish/debugpy.nvim",                 "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "layer": 2, "sublayer": 3, "sublayerName": "specificLang", "name": "pylsp-rope",                   "id": "python-rope/pylsp-rope",               "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	// ----- data formats -----
+	{ "layer": 2, "sublayer": 4, "sublayerName": "specificFormat", "name": "jvim",                         "id": "ThePrimeagen/jvim.nvim",               "source": "gh", "lazy": false, "category": "lang", "notes": "needs nix" },
+	{ "layer": 2, "sublayer": 4, "sublayerName": "specificFormat", "name": "jsonpath",                     "id": "phelipetls/jsonpath.nvim",             "source": "gh", "lazy": false, "category": "lang", "notes": "needs nix" },
+	{ "layer": 2, "sublayer": 4, "sublayerName": "specificFormat", "name": "sortjson",                     "id": "2nthony/sortjson.nvim",                "source": "gh", "lazy": false, "category": "lang", "notes": "needs nix" },
+	{ "layer": 2, "sublayer": 4, "sublayerName": "specificFormat", "name": "quicktype",                    "id": "midoBB/nvim-quicktype",                "source": "gh", "lazy": false, "category": "lang", "notes": "needs nix" },
+	{ "layer": 2, "sublayer": 4, "sublayerName": "specificFormat", "name": "yaml",                         "id": "https://tangled.org/cuducos.me/yaml.nvim","source":"", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "layer": 2, "sublayer": 4, "sublayerName": "specificFormat", "name": "tree-sitter-just",             "id": "IndianBoy42/tree-sitter-just",         "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	//===================================================================================================================================
+	// LAYER 3: formatting & linting ==================================================================================================== 3
+	//===================================================================================================================================
+	{ "layer": 3, "sublayer": 0, "sublayerName": "formatting", "name": "guard",                        "id": "nvimdev/guard.nvim",                   "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "layer": 3, "sublayer": 0, "sublayerName": "formatting", "name": "conform",                      "id": "stevearc/conform.nvim",                "source": "gh", "lazy": false, "category": "trying",    "notes": "ruff, rustfmt, stylua, fourmolu" },
+	{ "layer": 3, "sublayer": 0, "sublayerName": "formatting", "name": "strict",                       "id": "emileferreira/nvim-strict",            "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
+	//===================================================================================================================================
+	// LAYER 4: testing, debugging/quickfix, execution ================================================================================== 4
+	//===================================================================================================================================
+	//---------------------------------------------
+	//------ Code exec / task running / build -----
+	//---------------------------------------------
+	{ "layer": 4, "sublayer": 0, "sublayerName": "codeExec/taskRunning/build", "name": "overseer",                     "id": "stevearc/overseer.nvim",               "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "layer": 4, "sublayer": 0, "sublayerName": "codeExec/taskRunning/build", "name": "asyncrun",                     "id": "skywind3000/asyncrun.vim",             "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "layer": 4, "sublayer": 0, "sublayerName": "codeExec/taskRunning/build", "name": "compiler",                     "id": "Zeioth/compiler.nvim",                 "source": "gh", "lazy": false, "category": "trying"},
+	{ "layer": 4, "sublayer": 0, "sublayerName": "codeExec/taskRunning/build", "name": "code_runner",                  "id": "CRAG666/code_runner.nvim",             "source": "gh", "lazy": false, "category": "trying"},
+	{ "layer": 4, "sublayer": 0, "sublayerName": "codeExec/taskRunning/build", "name": "sniprun",                      "id": "michaelb/sniprun",                     "source": "gh", "lazy": false, "category": "trying"},
+	{ "layer": 4, "sublayer": 0, "sublayerName": "codeExec/taskRunning/build", "name": "yabs",                         "id": "pianocomposer321/officer.nvim",        "source": "gh", "lazy": false, "category": "trying"},
+	{ "layer": 4, "sublayer": 0, "sublayerName": "codeExec/taskRunning/build", "name": "jaq-nvim",                     "id": "is0n/jaq-nvim",                        "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "layer": 4, "sublayer": 0, "sublayerName": "codeExec/taskRunning/build", "name": "moonicipal",                   "id": "idanarye/nvim-moonicipal",             "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "layer": 4, "sublayer": 0, "sublayerName": "codeExec/taskRunning/build", "name": "conjure",                      "id": "Olical/conjure",                       "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "layer": 4, "sublayer": 0, "sublayerName": "codeExec/taskRunning/build", "name": "telemake",                     "id": "ChSotiriou/nvim-telemake",             "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "layer": 4, "sublayer": 0, "sublayerName": "codeExec/taskRunning/build", "name": "equals",                       "id": "liborw/equals",                        "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
+	{ "layer": 4, "sublayer": 0, "sublayerName": "codeExec/taskRunning/build", "name": "telescope-xc",                 "id": "joerdav/telescope-xc.nvim",            "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	// ----- other -----
+	{ "layer": 4, "sublayer": 0, "sublayerName": "codeExec/taskRunning/build", "name": "resin",                        "id": "fdschmidt93/resin.nvim",               "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "layer": 4, "sublayer": 0, "sublayerName": "codeExec/taskRunning/build", "name": "vim-slime",                    "id": "jpalardy/vim-slime",                   "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
+	{ "layer": 4, "sublayer": 0, "sublayerName": "codeExec/taskRunning/build", "name": "repl",                         "id": "pappasam/nvim-repl",                   "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "layer": 4, "sublayer": 0, "sublayerName": "codeExec/taskRunning/build", "name": "yarepl",                       "id": "milanglacier/yarepl.nvim",             "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "layer": 4, "sublayer": 0, "sublayerName": "codeExec/taskRunning/build", "name": "channelot",                    "id": "idanarye/nvim-channelot",              "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
+	{ "layer": 4, "sublayer": 0, "sublayerName": "codeExec/taskRunning/build", "name": "xmake",                        "id": "Mythos-404/xmake.nvim",                "source": "gh", "lazy": false, "category": "laterC",    "notes": "needs nix" },
+	// ----- preview, interactive -----
+	{ "layer": 4, "sublayer": 1, "sublayerName": "runnerWithPreview", "name": "live-command",                 "id": "smjonas/live-command.nvim",            "source": "gh", "lazy": false, "category": "sooner",    "notes": "consilium; needs nix" },
+	{ "layer": 4, "sublayer": 1, "sublayerName": "runnerWithPreview", "name": "cmdbuf",                       "id": "notomo/cmdbuf.nvim",                   "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "layer": 4, "sublayer": 1, "sublayerName": "runnerWithPreview", "name": "actions-preview",              "id": "aznhe21/actions-preview.nvim",         "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	//---------------------------------------------
+	//------------------------------- Testing -----
+	//---------------------------------------------
+	{ "layer": 4, "sublayer": 0, "sublayerName": "testing", "name": "neotest",                      "id": "nvim-neotest/neotest",                 "source": "gh", "lazy": false, "category": "trying"},
+	{ "layer": 4, "sublayer": 0, "sublayerName": "testing", "name": "coverage",                     "id": "andythigpen/nvim-coverage",            "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
+	{ "layer": 4, "sublayer": 0, "sublayerName": "testing", "name": "neotest-haskell",              "id": "MrcJkb/neotest-haskell",               "source": "gh", "lazy": false, "category": "trying",    "notes": "TODO" },
+	{ "layer": 4, "sublayer": 0, "sublayerName": "testing", "name": "neotest-python",               "id": "nvim-neotest/neotest-python",          "source": "gh", "lazy": false, "category": "trying"},
+	{ "layer": 4, "sublayer": 0, "sublayerName": "testing", "name": "mypy",                         "id": "feakuru/mypy.nvim",                    "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "layer": 4, "sublayer": 0, "sublayerName": "testing", "name": "lint",                         "id": "mfussenegger/nvim-lint",               "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	// DAP
+	{ "layer": 4, "sublayer": 1, "sublayerName": "dap", "name": "dap-python",                   "id": "mfussenegger/nvim-dap-python",         "source": "cb", "lazy": false, "category": "trying",    "notes": "needs nix; pipx install debugpy" },
+	{ "layer": 4, "sublayer": 1, "sublayerName": "dap", "name": "dapui",                        "id": "rcarriga/nvim-dap-ui",                 "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "layer": 4, "sublayer": 1, "sublayerName": "dap", "name": "nvim-dap-virtual-text",        "id": "theHamsta/nvim-dap-virtual-text",      "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "layer": 4, "sublayer": 1, "sublayerName": "dap", "name": "dap",                          "id": "mfussenegger/nvim-dap",                "source": "cb", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "layer": 4, "sublayer": 1, "sublayerName": "dap", "name": "Launch",                       "id": "Beloin/Launch.nvim",                   "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "layer": 4, "sublayer": 1, "sublayerName": "dap", "name": "tracebundler",                 "id": "notomo/tracebundler.nvim",             "source": "gh", "lazy": false, "category": "laterC",    "notes": "needs nix" },
+	//---------------------------------------------
+	//------------------------ DAP/quickix UI -----
+	//---------------------------------------------
+	{ "layer": 4, "sublayer": 2, "sublayerName": "quickfixUI", "name": "trouble",                      "id": "folke/trouble.nvim",                   "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "layer": 4, "sublayer": 2, "sublayerName": "quickfixUI", "name": "quicker",                      "id": "stevearc/quicker.nvim",                "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "layer": 4, "sublayer": 2, "sublayerName": "quickfixUI", "name": "bqf",                          "id": "kevinhwang91/nvim-bqf",                "source": "gh", "lazy": false, "category": "trying"},
+	{ "layer": 4, "sublayer": 2, "sublayerName": "quickfixUI", "name": "glance",                       "id": "dnlhc/glance.nvim",                    "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	//---------------------------------------------
+	//------------------------------ terminal -----
+	//---------------------------------------------
+	{ "layer": 4, "sublayer": 3, "sublayerName": "terminal", "name": "vim-floaterm",                 "id": "voldikss/vim-floaterm",                "source": "gh", "lazy": false, "category": "trying"},
+	{ "layer": 4, "sublayer": 3, "sublayerName": "terminal", "name": "termim",                       "id": "2KAbhishek/termim.nvim",               "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "layer": 4, "sublayer": 3, "sublayerName": "terminal", "name": "neaterm",                      "id": "Dan7h3x/neaterm.nvim",                 "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "layer": 4, "sublayer": 3, "sublayerName": "terminal", "name": "neomux",                       "id": "nikvdp/neomux",                        "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	//===================================================================================================================================
+	//==== LAYER 5: refactoring & code intelligence ===================================================================================== 5
+	//===================================================================================================================================
+	{ "layer": 5, "sublayer": 0, "sublayerName": "refactoring", "name": "refactoring",                  "id": "ThePrimeagen/refactoring.nvim",        "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	//---------------------------------------------
+	//-------------------- project management -----
+	//---------------------------------------------
+	{ "layer": 5, "sublayer": 1, "sublayerName": "project", "name": "neoconf",                 "id": "folke/neoconf.nvim",                   "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "layer": 5, "sublayer": 1, "sublayerName": "project", "name": "telescope-project",            "id": "nvim-telescope/telescope-project.nvim","source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "layer": 5, "sublayer": 1, "sublayerName": "project", "name": "project",                      "id": "Zeioth/project.nvim",                  "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix; see also jay-babu/project.nvim" },
+	{ "layer": 5, "sublayer": 1, "sublayerName": "project", "name": "monorepos",                    "id": "sajjathossain/nvim-monorepos",         "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "layer": 5, "sublayer": 1, "sublayerName": "project", "name": "projector",                    "id": "smolovk/projector.nvim",               "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	//===================================================================================================================================
+	//==== LAYER 6: version control & collaboration ===================================================================================== 6
+	//===================================================================================================================================
+	{ "layer": 6, "sublayer": 0, "sublayerName": "vcs", "name": "advanced-git-search",          "id": "aaronhallaert/advanced-git-search.nvim","source":"gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "layer": 6, "sublayer": 0, "sublayerName": "vcs", "name": "blame",                        "id": "FabijanZulj/blame.nvim",             "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "layer": 6, "sublayer": 0, "sublayerName": "vcs", "name": "forgit",                       "id": "ray-x/forgit.nvim",                    "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
+	{ "layer": 6, "sublayer": 0, "sublayerName": "vcs", "name": "jj",                           "id": "NicolasGB/jj.nvim",                    "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "layer": 6, "sublayer": 0, "sublayerName": "vcs", "name": "jujutsu",                      "id": "yannvanhalewyn/jujutsu.nvim",          "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "layer": 6, "sublayer": 0, "sublayerName": "vcs", "name": "lazygit",                      "id": "kdheepak/lazygit.nvim",                "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "layer": 6, "sublayer": 0, "sublayerName": "vcs", "name": "git-conflict",                 "id": "akinsho/git-conflict.nvim",            "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "layer": 6, "sublayer": 0, "sublayerName": "vcs", "name": "neogit",                       "id": "NeogitOrg/neogit",                     "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "layer": 6, "sublayer": 0, "sublayerName": "vcs", "name": "jiejie",                       "id": "jceb/jiejie.nvim",                     "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "layer": 6, "sublayer": 0, "sublayerName": "vcs", "name": "diffview",                     "id": "sindrets/diffview.nvim",               "source": "gh", "lazy": false, "category": "trying"},
+	{ "layer": 6, "sublayer": 0, "sublayerName": "vcs", "name": "gitsigns",                     "id": "lewis6991/gitsigns.nvim",              "source": "gh", "lazy": false, "category": "trying"},
+	{ "layer": 6, "sublayer": 0, "sublayerName": "vcs", "name": "vim-fugitive",                 "id": "tpope/vim-fugitive",                   "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "layer": 6, "sublayer": 0, "sublayerName": "vcs", "name": "g-worktree",                   "id": "Mohanbarman/g-worktree.nvim",          "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	//---------------------------------------------
+	//---------------------------- Git forges -----
+	//---------------------------------------------
+	{ "layer": 6, "sublayer": 1, "sublayerName": "gitForge", "name": "octo",                         "id": "pwntester/octo.nvim",                  "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "layer": 6, "sublayer": 1, "sublayerName": "gitForge", "name": "gitlab-nvim",                  "id": "harrisoncramer/gitlab.nvim",           "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "layer": 6, "sublayer": 1, "sublayerName": "gitForge", "name": "gitlab",                       "id": "gitlab-org/editor-extensions/gitlab.vim","source": "gl","lazy": false,"category": "trying",    "notes": "needs nix" },
+	{ "layer": 6, "sublayer": 1, "sublayerName": "gitForge", "name": "octohub",                      "id": "2KAbhishek/octohub.nvim",              "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
+	{ "layer": 6, "sublayer": 1, "sublayerName": "gitForge", "name": "telescope-github",             "id": "nvim-telescope/telescope-github.nvim", "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
+	//===================================================================================================================================
+	//==== LAYER 7: UI polish & productivity ============================================================================================ 7
+	//===================================================================================================================================
+	{ "layer": 7, "sublayer": 0, "sublayerName": "uiPolish", "name": "dashboard-nvim",               "id": "nvimdev/dashboard-nvim",               "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "layer": 7, "sublayer": 0, "sublayerName": "uiPolish", "name": "dashboard",                    "id": "MeanderingProgrammer/dashboard.nvim",  "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "layer": 7, "sublayer": 0, "sublayerName": "uiPolish", "name": "noice",                        "id": "folke/noice.nvim",                     "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "layer": 7, "sublayer": 0, "sublayerName": "uiPolish", "name": "modes",                        "id": "mvllow/modes.nvim",                    "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "layer": 7, "sublayer": 0, "sublayerName": "uiPolish", "name": "lvim-ui-config",               "id": "lvim-tech/lvim-ui-config",             "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
+	{ "layer": 7, "sublayer": 0, "sublayerName": "uiPolish", "name": "volt",                         "id": "nvzone/volt",                          "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
+	{ "layer": 7, "sublayer": 0, "sublayerName": "uiPolish", "name": "menu",                         "id": "nvzone/menu",                          "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
+	{ "layer": 7, "sublayer": 0, "sublayerName": "uiPolish", "name": "bye-nerdfont",                 "id": "dullmode/bye-nerdfont.nvim",           "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
+	{ "layer": 7, "sublayer": 0, "sublayerName": "uiPolish", "name": "reactive",                     "id": "rasulomaroff/reactive.nvim",           "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "layer": 7, "sublayer": 0, "sublayerName": "uiPolish", "name": "modicator",                    "id": "mawkler/modicator.nvim",               "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
+	{ "layer": 7, "sublayer": 0, "sublayerName": "uiPolish", "name": "fsplash",                      "id": "jovanlanik/fsplash.nvim",              "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
+	//---------------------------------------------
+	//---------------- UI (important for LSP) -----
+	//---------------------------------------------
+	{ "layer": 7, "sublayer": 1, "sublayerName": "lspUI", "name": "fidget",                       "id": "j-hui/fidget.nvim",                    "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "layer": 7, "sublayer": 1, "sublayerName": "lspUI", "name": "notify",                       "id": "rcarriga/nvim-notify",                 "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix; see also mini.notify" },
+	{ "layer": 7, "sublayer": 1, "sublayerName": "lspUI", "name": "headlines",                    "id": "lukas-reineke/headlines.nvim",         "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	//---------------------------------------------
+	//-------------------- session management -----
+	//---------------------------------------------
+	{ "layer": 7, "sublayer": 2, "sublayerName": "session", "name": "auto-session",                 "id": "rmagatti/auto-session",                "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "layer": 7, "sublayer": 2, "sublayerName": "session", "name": "persistence",                  "id": "folke/persistence.nvim",               "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	//---------------------------------------------
+	//------------------------------ focus UI -----
+	//---------------------------------------------
+	{ "layer": 7, "sublayer": 3, "sublayerName": "focusUI", "name": "shade",                        "id": "sunjon/shade.nvim",                    "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "layer": 7, "sublayer": 3, "sublayerName": "focusUI", "name": "zen-mode",                     "id": "folke/zen-mode.nvim",                  "source": "gh", "lazy": false, "category": "trying"},
+	{ "layer": 7, "sublayer": 3, "sublayerName": "focusUI", "name": "sunglasses",                   "id": "miversen33/sunglasses.nvim",           "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "layer": 7, "sublayer": 3, "sublayerName": "focusUI", "name": "vimade",                       "id": "TaDaa/vimade",                         "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	//===================================================================================================================================
+	//==== LAYER 8: miscellaneous/advanced ============================================================================================== 8
+	//===================================================================================================================================
+	{ "layer": 8, "sublayer": 0, "sublayerName": "misc/advanced", "name": "runtimetable",                 "id": "notomo/runtimetable.nvim",             "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "layer": 8, "sublayer": 0, "sublayerName": "misc/advanced", "name": "schemastore",                  "id": "b0o/SchemaStore.nvim",                 "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "layer": 8, "sublayer": 0, "sublayerName": "misc/advanced", "name": "firenvim",                     "id": "glacambre/firenvim",                   "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "layer": 8, "sublayer": 0, "sublayerName": "misc/advanced", "name": "render-markdown",              "id": "MeanderingProgrammer/render-markdown.nvim","source":"gh","lazy":false,"category": "trying",    "notes": "needs nix" },
+	{ "layer": 8, "sublayer": 0, "sublayerName": "misc/advanced", "name": "markdown-preview",             "id": "iamcco/markdown-preview.nvim",         "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "layer": 8, "sublayer": 0, "sublayerName": "misc/advanced", "name": "web-tools",                    "id": "ray-x/web-tools.nvim",                 "source": "gh", "lazy": false, "category": "lang", "notes": "needs nix" },
+	{ "layer": 8, "sublayer": 0, "sublayerName": "misc/advanced", "name": "vim-pug",                      "id": "digitaltoad/vim-pug",                  "source": "gh", "lazy": false, "category": "lang", "notes": "needs nix" },
+	{ "layer": 8, "sublayer": 0, "sublayerName": "misc/advanced", "name": "Calendar",                     "id": "ds1sqe/Calendar.nvim",                 "source": "gh", "lazy": false, "category": "sooner",    "notes": "consilium; needs nix" },
+	{ "layer": 8, "sublayer": 0, "sublayerName": "misc/advanced", "name": "http-codes",                   "id": "barrettruth/http-codes.nvim",          "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
+	{ "layer": 8, "sublayer": 0, "sublayerName": "misc/advanced", "name": "auto-pandoc",                  "id": "jghauser/auto-pandoc.nvim",            "source": "gh", "lazy": false, "category": "selected",  "notes": "needs nix" },
+	{ "layer": 8, "sublayer": 0, "sublayerName": "misc/advanced", "name": "panvimdoc",                    "id": "kdheepak/panvimdoc",                   "source": "gh", "lazy": false, "category": "selected",  "notes": "needs nix" },
+	{ "layer": 8, "sublayer": 0, "sublayerName": "misc/advanced", "name": "vale",                         "id": "marcelofern/vale.nvim",                "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "layer": 8, "sublayer": 0, "sublayerName": "misc/advanced", "name": "present",                      "id": "Chaitanyabsprip/present.nvim",         "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
+	{ "layer": 8, "sublayer": 0, "sublayerName": "misc/advanced", "name": "flashcards",                   "id": "alex-laycalvert/flashcards.nvim",      "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
+	{ "layer": 8, "sublayer": 0, "sublayerName": "misc/advanced", "name": "license",                      "id": "KronsyC/nvim-license",                 "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
+	{ "layer": 8, "sublayer": 0, "sublayerName": "misc/advanced", "name": "live-server",                  "id": "barrett-ruth/live-server.nvim",        "source": "gh", "lazy": false, "category": "sooner",    "notes": "consilium; needs nix" },
+	{ "layer": 8, "sublayer": 0, "sublayerName": "misc/advanced", "name": "nvim-mail-merge",              "id": "martineausimon/nvim-mail-merge",       "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
+	{ "layer": 8, "sublayer": 0, "sublayerName": "misc/advanced", "name": "better-digraphs",              "id": "protex/better-digraphs.nvim",          "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
+	{ "layer": 8, "sublayer": 0, "sublayerName": "misc/advanced", "name": "qalc",                         "id": "Apeiros-46B/qalc.nvim",                "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
+	{ "layer": 8, "sublayer": 0, "sublayerName": "misc/advanced", "name": "tldr",                         "id": "acuteenvy/tldr.nvim",                  "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
+	{ "layer": 8, "sublayer": 0, "sublayerName": "misc/advanced", "name": "pre-commit",                   "id": "Ttibsi/pre-commit.nvim",               "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "layer": 8, "sublayer": 0, "sublayerName": "misc/advanced", "name": "endpoint-previewer",           "id": "tlj/endpoint-previewer.nvim",          "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "layer": 8, "sublayer": 0, "sublayerName": "misc/advanced", "name": "fsread",                       "id": "nullchilly/fsread.nvim",               "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
+	{ "layer": 8, "sublayer": 0, "sublayerName": "misc/advanced", "name": "feed",                         "id": "neo451/feed.nvim",                     "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
+	{ "layer": 8, "sublayer": 0, "sublayerName": "misc/advanced", "name": "nerdy",                        "id": "2KAbhishek/nerdy.nvim",                "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
+	{ "layer": 8, "sublayer": 0, "sublayerName": "misc/advanced", "name": "knap",                         "id": "frabjous/knap",                        "source": "gh", "lazy": false, "category": "sooner",    "notes": "consilium; needs nix" },
+	{ "layer": 8, "sublayer": 0, "sublayerName": "misc/advanced", "name": "urlview",                      "id": "axieax/urlview.nvim",                  "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
+	{ "layer": 8, "sublayer": 0, "sublayerName": "misc/advanced", "name": "interlaced",                   "id": "tanloong/interlaced.nvim",             "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	//---------------------------------------------
+	//--------------------------------- LaTeX -----
+	//---------------------------------------------
+	{ "layer": 8, "sublayer": 1, "sublayerName": "tex", "name": "texmagic",                     "id": "jakewvincent/texmagic.nvim",           "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "layer": 8, "sublayer": 1, "sublayerName": "tex", "name": "vimtex",                       "id": "lervag/vimtex",                        "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix; use vim.cmd.source or vim.fn.runtime" },
+	{ "layer": 8, "sublayer": 1, "sublayerName": "tex", "name": "ltex_extra",                   "id": "barreiroleo/ltex_extra.nvim",          "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
+	//---------------------------------------------
+	//----------------------------------- Fun -----
+	//---------------------------------------------
+	{ "layer": 8, "sublayer": 2, "sublayerName": "fun", "name": "drop",                         "id": "folke/drop.nvim",                      "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
+	//---------------------------------------------
+	//--------------------------------- Regex -----
+	//---------------------------------------------
+	{ "layer": 8, "sublayer": 3, "sublayerName": "regex", "name": "regex-vars",                   "id": "jake-stewart/regex-vars.nvim",         "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "layer": 8, "sublayer": 3, "sublayerName": "regex", "name": "regexplainer",                 "id": "bennypowers/nvim-regexplainer",        "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
+	{ "layer": 8, "sublayer": 3, "sublayerName": "regex", "name": "Hypersonic",                   "id": "tomiis4/Hypersonic.nvim",              "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
+	//---------------------------------------------
+	//---------------- Lua / self-referential -----
+	//---------------------------------------------
+	{ "layer": 8, "sublayer": 4, "sublayerName": "selfReferential", "name": "structlog",                    "id": "Tastyep/structlog.nvim",               "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "layer": 8, "sublayer": 4, "sublayerName": "selfReferential", "name": "neorepl",                      "id": "ii14/neorepl.nvim",                    "source": "gh", "lazy": false, "category": "trying",    "notes": "needs nix" },
+	{ "layer": 8, "sublayer": 4, "sublayerName": "selfReferential", "name": "neotest-plenary",              "id": "nvim-neotest/neotest-plenary",         "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	//---------------------------------------------
+	//--------------------------- color utils -----
+	//---------------------------------------------
+	{ "layer": 8, "sublayer": 5, "sublayerName": "colorUtil", "name": "minty",                        "id": "nvzone/minty",                         "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
+	{ "layer": 8, "sublayer": 5, "sublayerName": "colorUtil", "name": "color-picker",                 "id": "ziontee113/color-picker.nvim",         "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
+	{ "layer": 8, "sublayer": 5, "sublayerName": "colorUtil", "name": "export-colorscheme",           "id": "jpe90/export-colorscheme.nvim",        "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
+	{ "layer": 8, "sublayer": 5, "sublayerName": "colorUtil", "name": "kreative",                     "id": "katawful/kreative",                    "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
+	{ "layer": 8, "sublayer": 5, "sublayerName": "colorUtil", "name": "text-to-colorscheme",          "id": "svermeulen/text-to-colorscheme",       "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
+	{ "layer": 8, "sublayer": 5, "sublayerName": "colorUtil", "name": "easycolor",                    "id": "neph-iap/easycolor.nvim",              "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
+	{ "layer": 8, "sublayer": 5, "sublayerName": "colorUtil", "name": "paint",                        "id": "folke/paint.nvim",                     "source": "gh", "lazy": false, "category": "sooner",    "notes": "consilium; needs nix" },
+	{ "layer": 8, "sublayer": 5, "sublayerName": "colorUtil", "name": "nvim-highlight-colors",        "id": "brenoprata10/nvim-highlight-colors",   "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	//---------------------------------------------
+	//---------------------------- kubernetes -----
+	//---------------------------------------------
+	{ "layer": 8, "sublayer": 6, "sublayerName": "k8s", "name": "kubels",                       "id": "elasticrash/kubels.nvim",              "source": "gh", "lazy": false, "category": "laterA",    "notes": "needs nix" },
+	{ "layer": 8, "sublayer": 6, "sublayerName": "k8s", "name": "kubernetes",                   "id": "diogo464/kubernetes.nvim",             "source": "gh", "lazy": false, "category": "laterA",    "notes": "needs nix" },
+	{ "layer": 8, "sublayer": 6, "sublayerName": "k8s", "name": "kpops",                        "id": "disrupted/kpops.nvim",                 "source": "gh", "lazy": false, "category": "laterA",    "notes": "needs nix" },
+	{ "layer": 8, "sublayer": 6, "sublayerName": "k8s", "name": "k8vim",                        "id": "alonso-montero/k8vim.nvim",            "source": "gh", "lazy": false, "category": "laterA",    "notes": "needs nix" },
+	{ "layer": 8, "sublayer": 6, "sublayerName": "k8s", "name": "kubectl",                      "id": "michaelPotter/kubectl.nvim",           "source": "gh", "lazy": false, "category": "laterA",    "notes": "needs nix" },
+	{ "layer": 8, "sublayer": 6, "sublayerName": "k8s", "name": "vim-helm",                     "id": "towolf/vim-helm",                      "source": "gh", "lazy": false, "category": "laterA",    "notes": "needs nix" },
+	//===================================================================================================================================
+	//==== LAYER 9: ai ================================================================================================================== 9
+	//===================================================================================================================================
+	{ "layer": 9, "sublayer": 0, "sublayerName": "ai", "name": "avante",                       "id": "yetone/avante.nvim",                   "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "layer": 9, "sublayer": 0, "sublayerName": "ai", "name": "vim-ai",                       "id": "madox2/vim-ai",                        "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "layer": 9, "sublayer": 0, "sublayerName": "ai", "name": "codecompanion",                "id": "olimorris/codecompanion.nvim",         "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "layer": 9, "sublayer": 0, "sublayerName": "ai", "name": "llm",                          "id": "huggingface/llm.nvim",                 "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
+	{ "layer": 9, "sublayer": 0, "sublayerName": "ai", "name": "sg",                           "id": "sourcegraph/sg.nvim",                  "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
+	//===================================================================================================================================
+	//==== LAYER 10: self-management/tracking =========================================================================================== 8
+	//===================================================================================================================================
+	{ "layer": 10,"sublayer": 0, "sublayerName": "selfManagement", "name": "metrics",                      "id": "mgerb/metrics.nvim",                   "source": "gh", "lazy": false, "category": "laterC",    "notes": "needs nix" },
+	{ "layer": 10,"sublayer": 0, "sublayerName": "selfManagement", "name": "orgmode",                      "id": "nvim-orgmode/orgmode",                 "source": "gh", "lazy": false, "category": "laterA",    "notes": "needs nix" },
+	{ "layer": 10,"sublayer": 0, "sublayerName": "selfManagement", "name": "twig",                         "id": "hugginsio/twig.nvim",                  "source": "gh", "lazy": false, "category": "sooner",    "notes": "consilium; needs nix" },
+	{ "layer": 10,"sublayer": 0, "sublayerName": "selfManagement", "name": "neorg-taskwarrior",            "id": "skbolton/neorg-taskwarrior",           "source": "gh", "lazy": false, "category": "sooner",    "notes": "consilium; needs nix" },
+	{ "layer": 10,"sublayer": 0, "sublayerName": "selfManagement", "name": "doing",                        "id": "Hashino/doing.nvim",                   "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "layer": 10,"sublayer": 0, "sublayerName": "selfManagement", "name": "daily-focus",                  "id": "steveclarke/daily-focus.nvim",         "source": "gh", "lazy": false, "category": "sooner",    "notes": "consilium; needs nix" },
+	{ "layer": 10,"sublayer": 0, "sublayerName": "selfManagement", "name": "nomodoro",                     "id": "dbinagi/nomodoro",                     "source": "gh", "lazy": false, "category": "sooner",    "notes": "consilium; needs nix" },
+	{ "layer": 10,"sublayer": 0, "sublayerName": "selfManagement", "name": "pommodoro-clock",              "id": "jackMort/pommodoro-clock.nvim",        "source": "gh", "lazy": false, "category": "sooner",    "notes": "consilium; needs nix" },
+	{ "layer": 10,"sublayer": 0, "sublayerName": "selfManagement", "name": "baleia",                       "id": "m00qek/baleia.nvim",                   "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
+	{ "layer": 10,"sublayer": 0, "sublayerName": "selfManagement", "name": "timew",                        "id": "eliasCVII/timew.nvim",                 "source": "gh", "lazy": false, "category": "sooner",    "notes": "consilium; needs nix" },
+	{ "layer": 10,"sublayer": 0, "sublayerName": "selfManagement", "name": "pomodoro",                     "id": "wthollingsworth/pomodoro.nvim",        "source": "gh", "lazy": false, "category": "sooner",    "notes": "consilium; needs nix" },
+	{ "layer": 10,"sublayer": 0, "sublayerName": "selfManagement", "name": "tdo",                          "id": "2KAbhishek/tdo.nvim",                  "source": "gh", "lazy": false, "category": "sooner",    "notes": "consilium; needs nix" },
+	{ "layer": 10,"sublayer": 0, "sublayerName": "selfManagement", "name": "tktodo",                       "id": "tarting/tktodo.nvim",                  "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
+	{ "layer": 10,"sublayer": 0, "sublayerName": "selfManagement", "name": "zettelkasten",                 "id": "Furkanzmc/zettelkasten.nvim",          "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
+	{ "layer": 10,"sublayer": 0, "sublayerName": "selfManagement", "name": "obsidian",                     "id": "epwalsh/obsidian.nvim",                "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
+	{ "layer": 10,"sublayer": 0, "sublayerName": "selfManagement", "name": "vim-twig",                     "id": "lumiliet/vim-twig",                    "source": "gh", "lazy": false, "category": "lang", "notes": "PHP; needs nix" },
+	{ "layer": 10,"sublayer": 0, "sublayerName": "selfManagement", "name": "timerly",                      "id": "nvzone/timerly",                       "source": "gh", "lazy": false, "category": "laterB",    "notes": "needs nix" },
+	{ "layer": 10,"sublayer": 0, "sublayerName": "selfManagement", "name": "sche",                         "id": "Cassin01/sche.nvim",                   "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	// ----- PKM -----
+	{ "layer": 10,"sublayer": 1, "sublayerName": "pkm", "name": "vimwiki",                      "id": "vimwiki/vimwiki",                      "source": "gh", "lazy": false, "category": "sooner",    "notes": "consilium; needs nix" },
+	{ "layer": 10,"sublayer": 1, "sublayerName": "pkm", "name": "flote",                        "id": "JellyApple102/flote.nvim",             "source": "gh", "lazy": false, "category": "sooner",    "notes": "consilium; needs nix" },
+	{ "layer": 10,"sublayer": 1, "sublayerName": "pkm", "name": "neorg",                        "id": "nvim-neorg/neorg",                     "source": "gh", "lazy": false, "category": "sooner",    "notes": "consilium; needs nix" },
+	{ "layer": 10,"sublayer": 1, "sublayerName": "pkm", "name": "quicknote",                    "id": "RutaTang/quicknote.nvim",              "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "layer": 10,"sublayer": 1, "sublayerName": "pkm", "name": "scratch-buffer",               "id": "miguelcrespo/scratch-buffer.nvim",     "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	// ----- tracking -----
+	{ "layer": 10,"sublayer": 2, "sublayerName": "tracking", "name": "edit-list",                    "id": "Sharonex/edit-list.nvim",              "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" }
+]

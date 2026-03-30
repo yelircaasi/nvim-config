@@ -186,9 +186,14 @@ flake_nix = """{
       ${luaFile}
       EOF
 
+      ${pkgs.stylua}/bin/stylua $out/meta/plugin_paths.lua
+
       cat > $out/meta/plugin_paths.json << 'EOF'
       ${jsonFile}
       EOF
+
+      ${pkgs.python3}/bin/python3 -m json.tool --indent 4 $out/meta/plugin_paths.json > $out/meta/tmp.json
+      mv $out/meta/tmp.json $out/meta/plugin_paths.json
     '';
   in {
     packages.${system} = {

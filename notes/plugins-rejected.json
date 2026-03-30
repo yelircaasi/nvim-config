@@ -4230,12 +4230,6 @@
         "reason": "none"
     },
     {
-        "link": "https://github.com/folke/neoconf.nvim",
-        "decision": "rejected",
-        "projects": ["docs","hover","lsp","oldvim"],
-        "reason": "none"
-    },
-    {
         "link": "https://github.com/stsewd/sphinx.nvim",
         "decision": "rejected",
         "projects": ["docs","python","specificApp"],

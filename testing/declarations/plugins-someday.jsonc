@@ -6,7 +6,7 @@
 	{ "name": "gruvbox-material",             "id": "sainnhe/gruvbox-material",             "source": "gh", "lazy": false, "category": "sooner",    "notes": "needs nix" },
 	{ "name": "oceanic-material",             "id": "nvimdev/oceanic-material",             "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
 	{ "name": "batman.nvim",                  "id": "the-coding-doggo/batman.nvim",             "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
-
+    // tokyonight.nvim, catppuccin-nvim, dracula.nvim, kanagawa.nvim, vscode.nvim
     // ==========
 	// IMAGES ===
 	// ==========
@@ -22,7 +22,8 @@
     // ==============
 	// MISC LANGS ===
 	// ==============
-    { "name": "dotbox",                       "id": "jakehamilton/dotbox.nvim",             "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+    { "name": "nvim-ts-autotag",              "id": "windwp/nvim-ts-autotag",               "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
+	{ "name": "dotbox",                       "id": "jakehamilton/dotbox.nvim",             "source": "gh", "lazy": false, "category": "next",      "notes": "needs nix" },
     { "name": "paredit",                      "id": "julienvincent/nvim-paredit",           "source": "gh", "lazy": false, "category": "laterA",    "notes": "needs nix" },
 	{ "name": "osfa",                         "id": "javio7/nvim-osfa",                     "source": "gh", "lazy": false, "category": "laterC",    "notes": "needs nix" },
 	{ "name": "metals",                       "id": "scalameta/nvim-metals",                "source": "gh", "lazy": false, "category": "selected",  "notes": "needs nix" },

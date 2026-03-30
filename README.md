@@ -8,148 +8,33 @@ No nvim framework or distribution is used currently.
 
 ## Next Steps
 
-```sh
-☐ better-escape.nvim                       2024-01-21
-☐ blame-me.nvim
-☐ catppuccin-nvim                          2024-02-24
-☐ clangd_extensions.nvim                   2023-10-15
-☐ cmake-gtest.nvim
-☐ cmake-tools.nvim
-☐ cmp_luasnip                              2023-10-09
-☐ dracula.nvim                             2024-02-25
-☐ dressing.nvim                            2024-01-29
-☐ huez.nvim
-☐ kanagawa.nvim                            2024-02-28
-☐ neoconf.nvim                             2024-03-01
-☐ nix-develop.nvim                         2023-07-23
-☐ nvim-lspconfig                           2024-02-29
-☐ nvim-ts-autotag                          2024-02-07
-☐ sqlite.lua                               2024-02-19
-☐ tokyonight.nvim                          2024-01-31
-☐ vim-startuptime                          2024-02-17
-☐ vim-tmux-navigator                       2023-12-23
-☐ vscode.nvim                              2024-02-29
-✓ cmp-buffer                               2022-08-10
-✓ cmp-nvim-lsp                             2023-12-10
-✓ cmp-path                                 2022-10-03
-✓ conform.nvim                             2024-03-01
-✓ crates.nvim                              2024-02-04
-✓ flash.nvim                               2023-10-17
-✓ friendly-snippets                        2024-02-25
-✓ gitsigns.nvim                            2024-01-27
-✓ headlines.nvim                           2024-02-29
-✓ indent-blankline.nvim                    2024-02-13
-✓ lualine.nvim                             2024-01-25
-✓ luasnip                                  2024-02-15
-✓ marks.nvim                               2024-01-07
-✓ mini.nvim                                2024-02-29
-✓ neo-tree.nvim                            2024-02-25
-✓ neodev.nvim                              2024-02-28
-✓ neorg                                    2024-02-26
-✓ noice.nvim                               2024-01-22
-✓ none-ls.nvim                             2024-02-29
-✓ nui.nvim-0.2.0-1-unstable                2024-02-16
-✓ nvim-cmp                                 2024-02-02
-✓ nvim-dap                                 2024-02-17
-✓ nvim-dap-ui                              2024-02-17
-✓ nvim-dap-virtual-text                    2023-12-28
-✓ nvim-lint                                2024-02-29
-✓ nvim-notify                              2024-02-17
-✓ nvim-spectre                             2024-02-19
-✓ nvim-treesitter                          2024-03-01
-✓ nvim-treesitter-context                  2024-02-25
-✓ nvim-treesitter-textobjects              2024-02-28
-✓ nvim-ts-context-commentstring            2024-02-02
-✓ nvim-web-devicons                        2024-02-25
-✓ oil.nvim                                 2024-02-23
-✓ overseer.nvim                            2024-02-21
-✓ persistence.nvim                         2024-01-19
-✓ plenary.nvim                             2024-01-29
-✓ project.nvim                             2023-04-04
-✓ telescope-fzf-native.nvim                2023-09-10
-✓ telescope.nvim-scm-1-unstable            2024-02-29
-✓ todo-comments.nvim                       2024-01-21
-✓ trouble.nvim                             2023-10-18
-✓ vim-illuminate                           2024-02-04
-✓ which-key.nvim                           2023-10-20
-✓ yanky.nvim                               2024-02-02
-✘ LazyVim                                  2024-02-21
-✘ rust-tools.nvim                          2024-01-03
-```
+- very next step: add external tool declaration, then py script to add them to flake.nix
+- https://github.com/numToStr/Navigator.nvim/ *********
+- https://github.com/asiryk/auto-hlsearch.nvim/
+- https://github.com/micangl/cmp-vimtex/
+- https://github.com/GCBallesteros/NotebookNavigator.nvim/
+- https://github.com/dmitmel/cmp-cmdline-history/
+- https://github.com/agda/cornelis/
 
-https://github.com/numToStr/Navigator.nvim/ *********
-https://github.com/asiryk/auto-hlsearch.nvim/
-https://github.com/micangl/cmp-vimtex/
-https://github.com/GCBallesteros/NotebookNavigator.nvim/
-https://github.com/dmitmel/cmp-cmdline-history/
-https://github.com/agda/cornelis/
-https://github.com/jgmdev/wl-color-picker
-
-https://www.kreativekorp.com/software/fonts/ksquare/ ||| kreative-square
-https://github.com/DreamMaoMao/wshowkeys
-https://github.com/AlynxZhou/showmethekey ||| https://showmethekey.alynx.one/
-https://hackage.haskell.org/package/tabular
-
-
-https://github.com/eero-lehtinen/oklch-color-picker.nvim/
-https://github.com/eero-lehtinen/oklch-color-picker
-
-https://github.com/MaxVerevkin/wlr-which-key *********
-
-https://github.com/mattn/efm-langserver: to external tools
-https://github.com/matze/wastebin: to external tools
-
-https://ctan.org/pkg/tempora
-
-https://github.com/jmacadie/telescope-hierarchy.nvim/
-https://github.com/juansalvatore/git-dashboard-nvim/
-https://github.com/f-person/git-blame.nvim/
-
-https://github.com/drupol/markdown-code-runner
-
-https://github.com/josa42/config-nvim
-
-https://github.com/swaits/lazyjj.nvim/ ||| https://github.com/Cretezy/lazyjj
-
-https://www.freecodecamp.org/news/claude-code-handbook/
-
-https://yutkat.github.io/my-neovim-pluginlist/
-https://github.com/mhanberg/.dotfiles/blob/main/config/nvim/init.lua
-https://github.com/mhanberg/.dotfiles/
-https://tduyng.com/blog/ ||| https://tduyng.com/series/neovim/
-https://github.com/detachhead/basedpyright
-https://github.com/julienvincent/config.nvim
-
-https://github.com/jakehamilton/neovim
-for notes: https://github.com/eschnett/SixelTerm.jl
-
-https://hstern.ca/blog/posts/nvim-r-plots
-
-TODO: search: flutter development in nvim
-
-https://github.com/robpike/ivy
-https://github.com/Tomiyou/ivyterm
-https://gradle.org/
-
-https://github.com/teal-language/teal-language-server/
-https://teal-language.org/book/latest/index.html
-https://www.lua.org/manual/5.1/pt/
-https://github.com/jake-stewart/dotfiles/tree/main/.config/nvim
-https://luarocks.org/
-https://github.com/teal-language
-https://github.com/teal-language/cyan
-https://learnxinyminutes.com/vimscript/
-https://github.com/jake-stewart/ts.nvim
-https://github.com/nvim-mini/mini.ai
-https://gitlab.com/HiPhish/nvim-config
-https://gitlab.com/HiPhish/multiquery.nvim
-https://gitlab.com/HiPhish/fennel-repl.nvim
-https://github.com/LuaCATS
-https://github.com/BirdeeHub/nixCats-nvim
-https://birdeehub.github.io/nix-wrapper-modules/wrapperModules/neovim.html
-https://github.com/BirdeeHub/nix-wrapper-modules | https://birdeehub.github.io/nix-wrapper-modules/
-https://github.com/saecki/crates.nvim
-https://github.com/svermeulen/nvim-teal-maker?tab=readme-ov-file
+- https://github.com/teal-language/teal-language-server/
+- https://teal-language.org/book/latest/index.html
+- https://www.lua.org/manual/5.1/pt/
+- https://github.com/jake-stewart/dotfiles/tree/main/.config/nvim
+- https://luarocks.org/
+- https://github.com/teal-language
+- https://github.com/teal-language/cyan
+- https://learnxinyminutes.com/vimscript/
+- https://github.com/jake-stewart/ts.nvim
+- https://github.com/nvim-mini/mini.ai
+- https://gitlab.com/HiPhish/nvim-config
+- https://gitlab.com/HiPhish/multiquery.nvim
+- https://gitlab.com/HiPhish/fennel-repl.nvim
+- https://github.com/LuaCATS
+- https://github.com/BirdeeHub/nixCats-nvim
+- https://birdeehub.github.io/nix-wrapper-modules/wrapperModules/neovim.html
+- https://github.com/BirdeeHub/nix-wrapper-modules | https://birdeehub.github.io/nix-wrapper-modules/
+- https://github.com/saecki/crates.nvim
+- https://github.com/svermeulen/nvim-teal-maker
 - [ ] re-add links to notes, where applicable (especially consilium project)
 - [ ] remove from plugins.json plugins that were moved to plugins.jsonc
 - [ ] [read](https://www.reddit.com/r/neovim/comments/115baze/which_vim_plugins_do_not_have_a_lua_equivalent_yet/)
@@ -158,67 +43,7 @@ https://github.com/svermeulen/nvim-teal-maker?tab=readme-ov-file
 - [ ] https://github.com/aliyss
 - [ ] https://qwik.dev
 
-https://github.com/fabridamicelli/cronex.nvim
-
-https://github.com/Onelinerhub/onelinerhub -> use for PLT
-https://github.com/teal-language/awesome-teal
-
-https://www.jonhavron.com/post/introduction-to-moonscript/
-https://dora-ssr.net/docs/tutorial/Language%20Tutorial/teal-tutorial/
-
-https://typescripttolua.github.io/ -> need to package for nix
-https://search.nixos.org/packages?channel=25.11&query=cyan
-https://dev.algorand.co/getting-started/portal-guide/ | https://uapcxplfdevdocs.z6.web.core.windows.net/contributor_guide/getting_started.html
-https://hisham.hm/
-https://github.com/pallene-lang/pallene
-https://github.com/teal-language/tl
-https://github.com/xyproto/algernon
-http://torch.ch/
-https://github.com/teal-language/teal-types/tree/master/types
-
-https://hackage.haskell.org/package/nvim-hs
-https://github.com/lucc/nvimpager
-Haskell <3 Lua https://bobkonf.de/2022/krewinkel.html
-
-https://github.com/smallreflection/teal-night
-https://qwik.dev
-https://www.youtube.com/@neovimtips-v4y
-https://github.com/fengari-lua/fengari
-https://github.com/aliyss/vim-himalaya-ui
-https://github.com/jake-stewart
-https://github.com/kaorahi/howm
-https://github.com/luau-lang/luau | https://luau.org/
-https://nelua.io/ | https://github.com/edubart/nelua-lang | https://github.com/search?p=1&q=%23nelua&type=Repositories
-luarocks --lua-version 5.4 install vim-tl-type
-Experimenting with Bevy rust game engine and luau JIT (mlua) https://www.youtube.com/watch?v=96QI5Smx_bE
-Rust + Lua - Why & Full Code Examples https://www.youtube.com/watch?v=OAA55AAwQls
-https://wubingzheng.github.io/build-lua-in-rust/en/  https://wubingzheng.github.io/build-lua-in-rust/zh/
-https://crates.io/crates/kaledis_dalbit
-https://www.codeconvert.ai/haskell-to-lua-converter
-https://www.codeconvert.ai/free-converter -> look into similar
-https://www.codeconvert.ai/python-to-rust-converter
-https://github.com/microsoft/oxidizer
-https://haxe.org/manual/target-lua-getting-started.html
-https://github.com/Unisay/purescript-lua
-https://github.com/seaofvoices/darklua | https://darklua.com/docs/
-https://github.com/Kampfkarren/full-moon
-https://github.com/CavefulGames/dalbit
-https://github.com/koalaman/shellcheck | https://www.shellcheck.net/
-http://lambda-the-ultimate.org/
-https://hisham.hm/dit/ | https://github.com/hishamhm/dit
-https://effect.website/
-fork and hack on: https://github.com/VideoCarp/IndentSyntax
-fork and hack on: https://github.com/VideoCarp/python-lua
-
-https://github.com/cweill/gotests
-
-https://git.2f30.org/noice/files.html
-
-
-https://github.com/tstack/lnav
-
-
-https://primamateria.github.io/blog/neovim-nix/
+- https://github.com/fabridamicelli/cronex.nvim
 
 ## Different languages
 
