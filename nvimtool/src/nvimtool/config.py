@@ -52,6 +52,7 @@ _HOME = Path.home()
 _BACKUP = _make_backup_dir()
 _NVIM_CONFIG_PATH = Path(arg_or_envvar(3, "NVIM_CONFIG_PATH", ""))
 
+
 class Paths(BaseModelRW):
     home: Path = Field(default=_HOME)
     config_source: Path
@@ -63,6 +64,7 @@ class Paths(BaseModelRW):
     explicit_plugins_jsonc: Path | None = Field(default=None)
     explicit_plugins_lock: Path | None = Field(default=None)
     explicit_snapshot_dir: Path | None = Field(default=None)
+    explicit_flake: Path | None = Field(default=None)
     nvim_config_init: Path = Field(default=_NVIM_CONFIG_PATH)
     backup_dir: Path = Field(default=_BACKUP)
     explicit_scripts_dir: Path | None = Field(default=None)
@@ -89,6 +91,10 @@ class Paths(BaseModelRW):
     @property
     def info_dir(self) -> Path:
         return self.explicit_info_dir or (self.snapshot_dir / "info")
+
+    @property
+    def flake(self) -> Path:
+        return self.explicit_flake or (self.snapshot_dir / "flake.nix")
 
     @property
     def scripts_dir(self) -> Path:

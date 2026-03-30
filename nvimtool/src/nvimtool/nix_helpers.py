@@ -1,9 +1,4 @@
-from pathlib import Path
-from typing import cast
-
-from adiumentum import read_json
-
-from .datamodels import Source
+from .datamodels import PluginSpecs, SinglePluginSpec, Source
 
 lbrace = "{"
 rbrace = "}"
@@ -14,9 +9,6 @@ level2 = " " * 2 * indent_size
 level3 = " " * 3 * indent_size
 level4 = " " * 4 * indent_size
 
-nn = Path.home() / ("repos/nvim-config/testing/declarations/nix-info.json")
-result = Path.home() / ("repos/nvim-config/testing/snapshots/nvim-plugins.nix")
-flake = Path.home() / ("repos/nvim-config/testing/snapshots/flake.nix")
 
 plugin_expr_template = """{name} = pkgs.vimUtils.buildVimPlugin {lbrace}
         pname = "{nix_name}";
@@ -51,28 +43,28 @@ plugin_expr_template_gh = """{name} = pkgs.vimUtils.buildVimPlugin {lbrace}
       {rbrace};"""
 
 
-def make_expression(d: dict) -> str:
+def make_expression(ps: SinglePluginSpec) -> str:
     try:
-        source = Source(d["source"])
+        source = Source(ps.source)
         base = {
             Source.GH: "https://github.com",
             Source.GL: "https://gitlab.com",
             Source.CB: "https://codeberg.org",
         }.get(source, "")
-        if d["source"] == "gh":
+        if ps.source == "gh":
             template = plugin_expr_template_gh
-            owner, repo = d["id"].split("/")
+            owner, repo = ps.id.split("/")
         else:
             template = plugin_expr_template
             owner, repo = "", ""
 
         ret = template.format(
-            name=d["name"],
-            nix_name=d["nixName"],
-            version=d.get("last_commit", "1970-01-01"),
-            url="/".join((base, d["id"])).strip("/"),
-            rev=d["rev"],
-            nix_hash=d["hash"],
+            name=ps.name,
+            nix_name=ps.nixName,
+            version=ps.lastCommit or "1970-01-01",
+            url="/".join((base, ps.id)).strip("/"),
+            rev=ps.rev,
+            nix_hash=ps.hash,
             lbrace="{",
             rbrace="}",
             owner=owner,
@@ -82,39 +74,24 @@ def make_expression(d: dict) -> str:
         return ret
     except Exception as e:
         print(e)
-        print(d)
+        print(ps)
         raise e
 
 
-def make_name(d: dict) -> str:
-    attrset = d["attrset"]
-    nix_name = d["nixName"]
+def make_name(ps: SinglePluginSpec) -> str:
+    attrset = ps.attrset
+    nix_name = ps.nixName
     return f"{attrset}.{nix_name}"
 
 
-def make_nixpkgs_set(d: dict) -> str:
-    nix_name = d["nixName"] if d["attrset"] == "pkgs.vimPlugins" else f"{d['attrset']}.{d['nixName']}"
-    return f'{lbrace}\n{level4}name = "{d["name"]}";\n{level4}path = {nix_name};\n{level3}{rbrace}'
+def make_nixpkgs_set(ps: SinglePluginSpec) -> str:
+    nix_name = (
+        ps.nixName if ps.attrset == "pkgs.vimPlugins" else f"{ps.attrset}.{ps.nixName}"
+    )
+    return f'{lbrace}\n{level4}name = "{ps.name}";\n{level4}path = {nix_name};\n{level3}{rbrace}'
 
 
-nix_data = cast(list[dict], read_json(nn))
-custom_data = [d for d in nix_data if d.get("attrset", "").startswith("custom")]
-nixpkgs_data = [d for d in nix_data if d.get("attrset", "").startswith("pkgs")]
-other_data = [d for d in nix_data if (d not in custom_data) and (d not in nixpkgs_data)]
-print(other_data)
-custom = "\n      ".join(map(make_expression, custom_data))
-nixpkgs_list = "\n      ".join(map(make_nixpkgs_set, nixpkgs_data))
-# file_contents = (
-#     "{pkgs, lib}:\nlet custom = {\n    "
-#     f'{custom}'
-#     "\n}; in {\n"
-#     "    # config to go here\n}"
-# )
-
-# result.write_text(file_contents)
-
-flake_nix = (
-    """{
+head = """{
   description = "nvim plugins bundled in a single directory using linkFarm";
 
   inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
@@ -128,8 +105,8 @@ flake_nix = (
 
     customPlugins = {
       """
-    + custom
-    + r"""
+
+neck = r"""
     };
 
     customList =
@@ -141,8 +118,8 @@ flake_nix = (
 
     nixpkgsList = with pkgs.vimPlugins; [
       """
-    + nixpkgs_list
-    + r"""
+
+foot = r"""
     ];
 
     fullList = customList ++ nixpkgsList;
@@ -213,48 +190,16 @@ flake_nix = (
   };
 }
 """
-)
-
-flake.write_text(
-    flake_nix,
-)
-
-# tmp: dict = cast(dict, Utils.read_json(Path("/home/isaac/repos/nvim-config/testing/tmp.json")))
-
-# def fetch_hashes(d: dict) -> dict:
-#     if d["source"] != "gh":
-#         return d
-#     if d["hash"]:
-#         return d
-#     try:
-#         if d["id"] in tmp:
-#             tmp_info = tmp[d["id"]]
-#             return d | {
-#                 "rev": tmp_info["src"]["rev"],
-#                 "hash": tmp_info["src"]["hash"],
-#                 "last_commit": tmp_info["meta"].get("commitDate", ""),
-#             }
-#         command = ["nix-prefetch-github", *d["id"].split("/"), "--json", "--meta"]
-#         print('"' + d["id"] + '"')
-#         result = (Utils.capture(command))
-#         print(result)
-#         result = json.loads(result)
-#         return d | {
-#             "rev": result["src"]["rev"],
-#             "hash": result["src"]["hash"],
-#             "last_commit": result["meta"].get("commitDate", ""),
-#         }
-#     except Exception as e:
-#         print(e)
-#         return d
 
 
-# nix_data = list(map(fetch_hashes, nix_data))
-# Utils.write_json(nix_data, nn)
-
-#  nix run nixpkgs#nix-prefetch-github -- Sharonex edit-list.nvim --json --meta --rev '01e5a827684140ccd20ec249e74da91115dc8c39'
-#  nix-prefetch-github-directory --directory edit-list.nvim --json --meta
-#  nix-prefetch-git https://gitlab.com/gitlab-org/editor-extensions/gitlab.vim
-#
-# nix run nixpkgs#nix-prefetch-github -- Sharonex edit-list.nvim --nix
-# nix run nixpkgs#nix-prefetch-git -- --url https://codeberg.org/hernandez/dotdot.nvim
+def build_flake_source(nix_data: PluginSpecs) -> str:
+    custom_data = [d for d in nix_data if d.attrset.startswith("custom")]
+    nixpkgs_data = [d for d in nix_data if d.attrset.startswith("pkgs")]
+    other_data = [
+        d for d in nix_data if (d not in custom_data) and (d not in nixpkgs_data)
+    ]
+    if other_data:
+        raise ValueError
+    custom = "\n      ".join(map(make_expression, custom_data))
+    nixpkgs_list = "\n      ".join(map(make_nixpkgs_set, nixpkgs_data))
+    return "".join((head, custom, neck, nixpkgs_list, foot))

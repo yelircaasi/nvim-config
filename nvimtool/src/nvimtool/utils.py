@@ -12,14 +12,6 @@ from pathlib import Path
 import re
 import subprocess
 from datetime import date, timedelta
-import json
-import os
-import re
-import sys
-import socket
-import subprocess
-from pathlib import Path
-from typing import TypedDict
 
 from typing import TypeVar, cast
 
@@ -155,12 +147,20 @@ def arg_or_envvar(argpos: int, envvarname: str, fallback: str | Path) -> str:
 
 
 def export_nvim_info(task: str, cfg: Config) -> Path:
-    name_segments = "--".join(filter(bool, (task, cfg.g.DEVICE_NAME, cfg.g.CONFIG_NAME)))
+    name_segments = "--".join(
+        filter(bool, (task, cfg.g.DEVICE_NAME, cfg.g.CONFIG_NAME))
+    )
     destination = cfg.paths.info_dir / f"nvim-{name_segments}.txt"
     print(destination)
     # os.system(f'nvim --headless -c "set columns=1000" -c "redir! > {destination}"   -c "verbose {task}"  -c "redir END" -c "q" > /dev/null')
-    main_command = "lua print(vim.inspect(vim.opt.rtp))" if task == "rtp" else f"verbose {task}"
-    config = ("-u", str(cfg.paths.nvim_config_init)) if cfg.paths.nvim_config_init else tuple()
+    main_command = (
+        "lua print(vim.inspect(vim.opt.rtp))" if task == "rtp" else f"verbose {task}"
+    )
+    config = (
+        ("-u", str(cfg.paths.nvim_config_init))
+        if cfg.paths.nvim_config_init
+        else tuple()
+    )
     cmd = [
         cfg.g.NVIM_COMMAND,
         *config,
@@ -189,8 +189,6 @@ def safe_search_group1(p: re.Pattern[str] | str, s: str, optional: bool = False)
             raise ValueError(f"{p} not found in {s}")
         return ""
     return result.group(1)
-
-
 
 
 def split_blocks(s: str) -> list[str]:

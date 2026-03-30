@@ -34,13 +34,9 @@ import shutil
 
 from typing import cast
 import json
-import os
 import re
-import sys
 import socket
 import subprocess
-from pathlib import Path
-from typing import TypedDict
 
 
 from .config import Paths
@@ -58,7 +54,7 @@ from .datamodels import (
     SinglePluginLock,
     AvailableUpdates,
 )
-
+from .nix_helpers import build_flake_source
 from .config import Config
 from .patterns import Patterns
 from .utils import (
@@ -169,29 +165,35 @@ def write_plugin_paths_tl(
     )
 
 
-
 def profile_startup(cfg: Config):
     """
     Requires vim-startuptime; run:
 
         `go install github.com/rhysd/vim-startuptime@latest`
     """
-    config = ("-u", cfg.paths.nvim_config_init) if cfg.paths.nvim_config_init else tuple()
-    name_segments = "--".join(filter(bool, ("startup", cfg.g.DEVICE_NAME, cfg.g.CONFIG_NAME)))
+    config = (
+        ("-u", cfg.paths.nvim_config_init) if cfg.paths.nvim_config_init else tuple()
+    )
+    name_segments = "--".join(
+        filter(bool, ("startup", cfg.g.DEVICE_NAME, cfg.g.CONFIG_NAME))
+    )
     destination = cfg.paths.info_dir / f"nvim-{name_segments}.txt"
-    config = ("--", "-u", cfg.paths.nvim_config_init) if cfg.paths.nvim_config_init else tuple()
-    cmd = [
+    config = (
+        ("--", "-u", cfg.paths.nvim_config_init)
+        if cfg.paths.nvim_config_init
+        else tuple()
+    )
+    _cmd = [
         "vim-startuptime",
         "-vimpath",
         cfg.g.NVIM_COMMAND,
         *config,
     ]
-    cmd = list(map(str, cmd))
+    cmd: list[str] = list(map(str, _cmd))
     print(" ".join(cmd))
     output = bytes.decode(subprocess.run(cmd, capture_output=True).stdout)
     destination.write_text(str(output))
     return destination
-
 
 
 def parse_colors(raw: str) -> dict[str, dict[str, str]]:
@@ -266,7 +268,9 @@ def parse_rtp(raw: str) -> RTPDict:
     for path in r["default"] + r["value"]:
         if path not in r["contents"]:
             _path = Path(path)
-            contents: list[str] = list(map(str, _path.iterdir())) if _path.exists() else ["NONEXISTENT"]
+            contents: list[str] = (
+                list(map(str, _path.iterdir())) if _path.exists() else ["NONEXISTENT"]
+            )
             r["contents"].update({path: contents})
 
     return r
@@ -411,7 +415,11 @@ def audit_nix(cfg: Config) -> None:
 
 
 def write_flake(cfg: Config) -> None:
-    print(f"Writing flake.nix")
+    print("Writing flake.nix")
+    nix_data = PluginSpecs.read_json_file(cfg.paths.plugins_declaration)
+
+    flake_nix = build_flake_source(nix_data)
+    cfg.paths.flake.write_text(flake_nix)
 
 
 def get_info_all(cfg: Config) -> None:
@@ -421,6 +429,7 @@ def get_info_all(cfg: Config) -> None:
 def get_info_startup(cfg: Config) -> None:
     print("Not yet implemented!")
     startup_txt = profile_startup(cfg)
+    print(startup_txt)
 
 
 def get_info_colors(cfg: Config) -> None:
@@ -477,5 +486,7 @@ def do_all(cfg: Config) -> None:
 
     hostname: {socket.gethostname()}
     """
-    config_file = cfg.paths.info_dir / f"config--{cfg.g.DEVICE_NAME}--{cfg.g.CONFIG_NAME}.txt"
+    config_file = (
+        cfg.paths.info_dir / f"config--{cfg.g.DEVICE_NAME}--{cfg.g.CONFIG_NAME}.txt"
+    )
     config_file.write_text(config)
