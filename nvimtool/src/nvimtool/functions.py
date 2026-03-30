@@ -292,5 +292,25 @@ def audit_nix(cfg: Config) -> None:
     print(f"Auditing Nix plugins against {paths.config_source}")
 
 
+def get_info_all(cfg: Config) -> None:
+    print("Not yet implemented!")
+
+
+def get_info_startup(cfg: Config) -> None:
+    print("Not yet implemented!")
+
+
+def get_info_colors(cfg: Config) -> None:
+    print("Not yet implemented!")
+
+
+def get_info_commands(cfg: Config) -> None:
+    print("Not yet implemented!")
+
+
+def get_info_rtp(cfg: Config) -> None:
+    print("Not yet implemented!")
+
+
 def do_all(cfg: Config) -> None:
     print("Not yet implemented!")

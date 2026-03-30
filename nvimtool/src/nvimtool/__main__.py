@@ -56,6 +56,12 @@ def main() -> None:
         ("tools", "write-script"): write_tools_script,
         ("nix", None): audit_nix,
         ("nix", "audit"): audit_nix,
+        ("info", None): audit_nix,
+        ("nix", "all"): audit_nix,
+        ("nix", "startup"): audit_nix,
+        ("nix", "colors"): audit_nix,
+        ("nix", "commands"): audit_nix,
+        ("nix", "rtp"): audit_nix,
     }
     func = dispatcher.get(subcommand_pair, _fallback)
     func(cfg)

@@ -56,6 +56,7 @@ def parse_args() -> argparse.Namespace:
     plugins = subparsers.add_parser("plugins", parents=[parent_parser]).add_subparsers(
         dest="subsubcommand"
     )
+    info = subparsers.add_parser("info").add_subparsers(dest="subsubcommand")
     tools = subparsers.add_parser("tools").add_subparsers(dest="subsubcommand")
     nix = subparsers.add_parser("nix").add_subparsers(dest="subsubcommand")
 
@@ -63,6 +64,13 @@ def parse_args() -> argparse.Namespace:
     tl.add_parser(
         "transpile", help="Transpile .tl source code into Lua.", parents=[parent_parser]
     )
+
+    # 'info' subcommand
+    info.add_parser("all", help="", parents=[parent_parser])
+    info.add_parser("startup", help="", parents=[parent_parser])
+    info.add_parser("colors", help="", parents=[parent_parser])
+    info.add_parser("commands", help="", parents=[parent_parser])
+    info.add_parser("rtp", help="", parents=[parent_parser])
 
     # 'plugins' subcommand
     plugins.add_parser(
@@ -84,18 +92,3 @@ def parse_args() -> argparse.Namespace:
     nix.add_parser("audit", help="", parents=[parent_parser])
 
     return parser.parse_args()
-
-
-"""
-- plugins
-    - install-fresh
-    - install-from-lockfile
-    - update
-    - check-updates
-    - apply-updates
-
-- tools
-    - check
-    - snapshot
-    - write-script
-    """
