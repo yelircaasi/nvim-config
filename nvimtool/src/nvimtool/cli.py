@@ -90,5 +90,6 @@ def parse_args() -> argparse.Namespace:
 
     # 'nix' subcommand
     nix.add_parser("audit", help="", parents=[parent_parser])
+    nix.add_parser("write-flake", help="", parents=[parent_parser])
 
     return parser.parse_args()

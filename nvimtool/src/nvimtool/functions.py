@@ -292,6 +292,10 @@ def audit_nix(cfg: Config) -> None:
     print(f"Auditing Nix plugins against {paths.config_source}")
 
 
+def write_flake(cfg: Config) -> None:
+    print(f"Writing flake.nix")
+
+
 def get_info_all(cfg: Config) -> None:
     print("Not yet implemented!")
 
