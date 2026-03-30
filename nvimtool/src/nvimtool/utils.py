@@ -19,8 +19,9 @@ from typing import Iterable
 
 
 from .config import Config
-from .datamodels import CommandList, LuaTable
+from .datamodels import CommandList
 from .patterns import Patterns
+from .types import LuaTable
 
 color = Colorizer()
 
