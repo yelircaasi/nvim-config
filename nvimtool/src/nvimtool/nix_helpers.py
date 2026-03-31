@@ -1,4 +1,4 @@
-from .datamodels import PluginSpecs, SinglePluginSpec, Source
+from .datamodels import PluginSpecs, SinglePluginSpec, GitSource
 
 lbrace = "{"
 rbrace = "}"
@@ -45,11 +45,11 @@ plugin_expr_template_gh = """{name} = pkgs.vimUtils.buildVimPlugin {lbrace}
 
 def make_expression(ps: SinglePluginSpec) -> str:
     try:
-        source = Source(ps.source)
+        source = GitSource(ps.source)
         base = {
-            Source.GH: "https://github.com",
-            Source.GL: "https://gitlab.com",
-            Source.CB: "https://codeberg.org",
+            GitSource.GH: "https://github.com",
+            GitSource.GL: "https://gitlab.com",
+            GitSource.CB: "https://codeberg.org",
         }.get(source, "")
         if ps.source == "gh":
             template = plugin_expr_template_gh

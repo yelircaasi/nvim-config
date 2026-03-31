@@ -17,27 +17,8 @@ from typing import Iterable, Self, TypedDict
 from pydantic import BaseModel, Field
 
 from .config import Config, Paths
-from .types import CommandList, DictList
+from .types import CommandList, DictList, GitSource, InstallStatus
 from .utils import get_commit_info
-
-
-class ToolGroup(StrEnum):
-    REQUIRED = auto()
-    OPTIONAL = auto()
-    DISABLED = auto()
-
-
-class InstallStatus(StrEnum):
-    SUCCESS = auto()
-    ERROR = auto()
-    NO_OP = auto()
-
-
-class Source(StrEnum):
-    GH = auto()
-    CB = auto()
-    GL = auto()
-    NONE = ""
 
 
 class SinglePluginSpec(BaseModel):
@@ -47,7 +28,7 @@ class SinglePluginSpec(BaseModel):
     name: str
     description: str
     id: str
-    source: Source
+    source: GitSource
     lazy: bool
     category: str
     notes: str = Field(default="")
@@ -74,9 +55,9 @@ class SinglePluginSpec(BaseModel):
     @property
     def url_base(self) -> str:
         return {
-            Source.GH: "https://github.com/",
-            Source.GL: "https://gitlab.com/",
-            Source.CB: "https://codeberg.org/",
+            GitSource.GH: "https://github.com/",
+            GitSource.GL: "https://gitlab.com/",
+            GitSource.CB: "https://codeberg.org/",
         }.get(self.source, "")
 
     @property
@@ -85,30 +66,6 @@ class SinglePluginSpec(BaseModel):
 
 
 class PluginSpecs(BaseList[SinglePluginSpec]): ...
-
-
-class NvimtoolConfig(TypedDict): ...
-
-
-### TYPES ##############################################################################################################
-
-
-# class PluginSpecDict(TypedDict):
-#     name: str
-#     id: str
-#     source: Literal["gh", "gl", "cb"]
-#     lazy: bool
-#     layer: int
-#     sublayer: NotRequired[int]
-#     deps: NotRequired[list[str]]
-#     notes: NotRequired[str]
-#     category: str
-
-#     dir_name: NotRequired[str | None]
-#     custom_url: NotRequired[str | None]
-#     version: NotRequired[str | None]
-#     sha: NotRequired[str | None]
-#     build: str | None
 
 
 class SinglePluginLock(BaseModel):
