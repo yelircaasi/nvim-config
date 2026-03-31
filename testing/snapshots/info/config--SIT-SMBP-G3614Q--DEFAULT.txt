@@ -1,0 +1,9 @@
+
+    cfg.g.DEVICE_NAME='SIT-SMBP-G3614Q'
+    NVIM_cfg.g.CONFIG_NAME='DEFAULT'
+    NVIM_cfg.paths.nvim_config_init=PosixPath('.')
+    NVIM_WRITE_DIR=/Users/ext_riley/repos/nvim-config/testing/snapshots/info
+    NVIM_cfg.g.NVIM_COMMAND='nvim'
+
+    hostname: SIT-SMBP-G3614Q
+    

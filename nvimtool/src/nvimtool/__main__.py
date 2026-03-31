@@ -30,11 +30,7 @@ from .utils import color
 def main() -> None:
     args = parse_args()
     cfg = Config.from_args(args)
-
-    # TODO: clean up next 4 lines
     cfg.printv(args)
-    # if args.config.exists():
-    #     cfg.g.CONFIG |= read_config(args.config)
 
     subcommand_pair = (
         args.subcommand if "subcommand" in args else None,

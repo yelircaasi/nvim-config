@@ -18,7 +18,7 @@ from pydantic import BaseModel, Field
 
 from .config import Config, Paths
 from .types import CommandList, DictList, GitSource, InstallStatus
-from .utils import get_commit_info
+from .shell_helpers import get_commit_info
 
 
 class SinglePluginSpec(BaseModel):

@@ -1,19 +1,31 @@
-from dataclasses import dataclass
 from adiumentum import BaseModelRW
 from pathlib import Path
 from datetime import date, datetime
 import socket
+import sys
+import os
 
 from typing import Annotated, Any
 
 import argparse
-from typing import Final, Self
+from typing import Self
 
 from adiumentum import read_json, JsonObject
-from pydantic import BeforeValidator, Field
+from pydantic import BaseModel, BeforeValidator, Field, NonNegativeInt, model_validator
 
 
-from .utils import arg_or_envvar, resolve_path
+def arg_or_envvar(argpos: int, envvarname: str, fallback: str | Path) -> str:
+    """TODO: move to adiumentum"""
+    if len(sys.argv) > argpos:
+        return sys.argv[argpos]
+    return os.getenv(envvarname) or str(fallback)
+
+
+def resolve_path(envvar: str, fallback: str) -> Path:
+    from_var: str | None = os.environ.get(envvar)
+    path: Path = Path(from_var or (Path.home() / fallback))
+    path.mkdir(exist_ok=True)
+    return path
 
 
 def _make_backup_dir() -> Path:
@@ -25,25 +37,28 @@ def _make_backup_dir() -> Path:
     return _backup_dir
 
 
-@dataclass
-class Globals:
-    DEFAULT_CONFIG_SOURCE: Final[Path] = resolve_path(
-        "XDG_CONFIG_HOME", "repos/nvim-config/testing"
+class _Globals(BaseModel):
+    DEFAULT_CONFIG_SOURCE: Path = Field(
+        default=resolve_path("XDG_CONFIG_HOME", "repos/nvim-config/testing")
     )
-    DEFAULT_CONFIG_TARGET: Final[Path] = resolve_path("XDG_CONFIG_HOME", ".config/nvim")
-    DEFAULT_PLUGIN_DIR: Final[Path] = Path.home() / ".local/share/nvim-plugins"
-    IS_NIX: Final[bool] = Path("/nix/store").exists()
-    TODAY: Final[str] = str(date.today())
-    VERBOSE = False
-    CONFIG: dict[str, Path | int | str] = {
-        "config-source": Path("~/repos/nvim-config/testing").resolve(),
-        "config-target": Path("~/.config/nvim").resolve(),
-        "plugin-dir": Path("~/local/share/nvim-plugins").resolve(),
-        "update-window": 30,
-    }
-    DEVICE_NAME: str = arg_or_envvar(1, "DEVICE_NAME", socket.gethostname())
-    CONFIG_NAME: str = arg_or_envvar(2, "NVIM_CONFIG_NAME", "DEFAULT")
-    NVIM_COMMAND = arg_or_envvar(5, "NVIM_COMMAND", "nvim")
+    DEFAULT_CONFIG_TARGET: Path = Field(
+        default=resolve_path("XDG_CONFIG_HOME", ".config/nvim")
+    )
+    DEFAULT_PLUGIN_DIR: Path = Field(default=Path.home() / ".local/share/nvim-plugins")
+    IS_NIX: bool = Field(default=Path("/nix/store").exists())
+    TODAY: str = Field(default=str(date.today()))
+    VERBOSE: bool = False
+    # CONFIG: dict[str, Path | int | str] = {
+    #     "config-source": Path("~/repos/nvim-config/testing").resolve(),
+    #     "config-target": Path("~/.config/nvim").resolve(),
+    #     "plugin-dir": Path("~/local/share/nvim-plugins").resolve(),
+    #     "update-window": 30,
+    # }
+    DEVICE_NAME: str = Field(
+        default=arg_or_envvar(1, "DEVICE_NAME", socket.gethostname())
+    )
+    CONFIG_NAME: str = Field(default=arg_or_envvar(2, "NVIM_CONFIG_NAME", "DEFAULT"))
+    NVIM_COMMAND: str = Field(default=arg_or_envvar(5, "NVIM_COMMAND", "nvim"))
 
 
 _HOME = Path.home()
@@ -68,7 +83,9 @@ class Paths(BaseModelRW):
     explicit_scripts_dir: Path | None = Field(default=None)
 
     @classmethod
-    def from_dict(cls, d: dict[str, str]) -> Self:
+    def from_dict(cls, d: "Paths | dict[str, str]") -> Self:
+        if isinstance(d, Paths):
+            return d
         return cls(
             config_source=Path(
                 d.get("config-source", "~/repos/nvim-config/testing")
@@ -166,7 +183,8 @@ class Paths(BaseModelRW):
     def cleanup_lua(self) -> Path:
         return self.scripts_dir / "cleanup.lua"
 
-    def __post_init__(self) -> None:
+    @model_validator(mode="after")
+    def ensure_paths(self) -> Self:
         if not self.config_source.exists():
             raise OSError(f"Nonexistent path: {self.config_source}")
         self._ensure_exists(self.plugin_dir)
@@ -176,6 +194,8 @@ class Paths(BaseModelRW):
         self._ensure_exists(self.tl_meta_dir)
         self._ensure_exists(self.declarations_dir)
         self._ensure_exists(self.backup_dir)
+        self._ensure_exists(self.info_dir)
+        return self
 
     @staticmethod
     def _ensure_exists(path: Path) -> None:
@@ -215,13 +235,21 @@ class Paths(BaseModelRW):
         return f"~/{path.relative_to(self.home)}"
 
 
-def ensure_globals(value: dict[str, str] | None) -> Globals:
-    return Globals()
+def ensure_globals(value: _Globals | dict[str, str] | None = None) -> _Globals:
+    if isinstance(value, _Globals):
+        return value
+    if isinstance(value, dict):
+        return _Globals.model_validate(value)
+    return _Globals()
+
+
+Globals = ensure_globals()
 
 
 class Config(BaseModelRW):
     paths: Annotated[Paths, BeforeValidator(Paths.from_dict)]
-    g: Annotated[Globals, BeforeValidator(ensure_globals)]
+    g: Annotated[_Globals, BeforeValidator(ensure_globals)]
+    update_window: NonNegativeInt = Field(default=30)
 
     @classmethod
     def from_args(cls, args: argparse.Namespace) -> Self:
@@ -242,7 +270,7 @@ class Config(BaseModelRW):
             explicit_plugins_jsonc=argdict.get("plugins_jsonc"),
             explicit_plugins_lock=argdict.get("lockfile"),
         )
-        cfg = cls.model_validate(dict(paths=paths, g=Globals()))
+        cfg = cls.model_validate(dict(paths=paths, g=ensure_globals()))
         cfg.g.VERBOSE = args.verbose
         return cfg
 

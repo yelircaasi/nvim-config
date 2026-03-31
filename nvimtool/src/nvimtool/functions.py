@@ -31,7 +31,7 @@ import re
 import socket
 import subprocess
 
-from .config import Paths
+from .config import Config, Paths
 from .datamodels import (
     CommandList,
     RTPDict,
@@ -46,15 +46,16 @@ from .datamodels import (
     AvailableUpdates,
 )
 from .nix_helpers import build_flake_source
-from .config import Config
 from .patterns import Patterns
 from .types import LuaTable
-from .utils import (
-    change_extension,
+from .shell_helpers import (
     check_for_updates,
-    color,
     export_nvim_info,
     get_executable_and_version,
+)
+from .utils import (
+    change_extension,
+    color,
     get_last_date,
     safe_search,
     safe_search_group1,
