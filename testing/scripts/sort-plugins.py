@@ -52,27 +52,11 @@ for x in d:
 for k, v in Counter(projects).most_common():
     print(f"{k:<20} {v:>4}")
 
-# links = {x["link"] for x in d}
-# for link in (selected - links):
-#     if link.startswith("h"):
-#         print(link)
-#         d.append({
-#             "link": link,
-#             "decision": "trying",
-#             "projects": []
-#         })
-
 
 print()
 c = Counter((x["decision"] for x in d))
 for dec in decisions:
     print(f"{dec:<10} {c[dec]}")
-
-    # links = {x["link"] for x in d}
-    # for link in (selected - links):
-    #     if link.startswith("h"):
-    #         print(link)
-
 
 c = {k: v for k, v in Counter((x["link"] for x in d)).items() if v > 1}
 print(c)
