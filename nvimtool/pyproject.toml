@@ -3,9 +3,9 @@ name = "nvimtool"
 version = "0.1.0"
 description = "Helper CLI for Neovim."
 readme = "README.md"
-requires-python = ">=3.14"
+requires-python = ">=3.13,<3.14"
 dependencies = [
-    "adiumentum>=0.7.1",
+    "adiumentum>=0.8.0",
     "pydantic>=2.12.5",
 ]
 
@@ -17,7 +17,52 @@ requires = ["uv_build>=0.11.2,<0.12"]
 build-backend = "uv_build"
 
 [dependency-groups]
+test = [
+    "pytest            >= 8.3  ",
+    "hypothesis        >  6    ",
+    "tox               >  4.23 ",
+    "pytest-cov        >= 6.0  ",
+    "coverage          >  7.6  ",
+    "pytest-mock       >= 3.14 ",
+    "pytest-testmon    >  2.1  ",
+    "pytest-loguru     >= 0.4  ",
+    "pytest-profiling  >  1.8  ",
+    "dummy-pip-package >= 1.0  ",
+    "pathql            >= 0.0.9",
+]
 dev = [
     "pyrefly>=0.58.0",
     "ruff>=0.15.8",
+    "structlint        >= 0.2   ",
+    "ipython           >= 8.31  ",
+    "deply             >= 0.5   ",
+    "grimp             >= 3.5   ",
+    "snakefood3        >= 0.0.7 ",
+    "pyflame           >= 0.3   ",
+    "scalene           >= 1.5.49",
+    "semver            >= 3.0   ",
+    "z3c.checkversions >= 3.0   ",
+]
+docs = [
+    "mkdocs              >= 1.6  ",
+    "mkdocstrings        >= 0.27 ",
+    "mkdocstrings-python >= 1.13 ",
+    "mkdocs-material     <  9.5  ",
+    "pygments            >= 2.19 ",
+    "ruff                >= 0.9  ",
+]
+cli-utils = [
+    "rust-just       >= 1.38   ",
+    "ruff            >= 0.9    ",
+    "mdformat        >= 0.7    ",
+    "mdformat_mkdocs >= 4.3.0  ",
+    "toml-sort       >= 0.24   ",
+    "google-yamlfmt  >= 0.16   ",
+    "yamllint        >= 1.37   ",
+    "vulture         >= 2.14   ",
+    "lefthook        >= 1.10   ",
+    "pydeps          >= 1.12   ",
+    "bandit          >= 1.8    ",
+    "cyclonedx-bom   >= 5.1    ",
+    "ty              >= 0.0.0",
 ]

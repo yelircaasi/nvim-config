@@ -122,7 +122,8 @@ def scrape_file(path: Path, info: PluginInfo):
 
 from pathlib import Path
 import glob
-from adiumentum import safe_search_group1
+from adiumentum.fp import negate, lmap, lfilter
+from adiumentum.re import safe_search_group1
 from dataclasses import dataclass, field
 import re
 
@@ -178,14 +179,7 @@ class PluginInfo:
 
 
 # to utils.py (or adiumentum)
-def ext_glob(extension: str = "*", path: Path | None = None, ignore: re.Pattern[str] | None = None) -> list[Path]:
-    if not path:
-        path = Path.cwd()
-    expression = f"**/*.{extension}"
-    result: list[str] = glob.glob(expression, recursive=True)
-    if ignore:
-        result = [p for p in result if not re.search(ignore)]
-    return result
+
 
 
 
