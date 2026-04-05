@@ -1,7 +1,7 @@
 {pkgs}: let
     custom = import ./custom-packages.nix {inherit pkgs;};
 in rec {
-    pythonMinorVersion = "13";
+    pythonMinorVersion = "14";
 
     packageNamePython = "nvimtool";
 

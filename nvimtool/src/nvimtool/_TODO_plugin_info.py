@@ -123,6 +123,7 @@ def scrape_file(path: Path, info: PluginInfo):
 from pathlib import Path
 import glob
 from adiumentum.fp import negate, lmap, lfilter
+from adiumentum.path import glob_extension
 from adiumentum.re import safe_search_group1
 from dataclasses import dataclass, field
 import re
