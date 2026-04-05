@@ -23,7 +23,9 @@ def write_sbom_if_necessary():
 
     if first_newer(lock_path, sbom_path):
         result = subprocess.run(
-            ["cyclonedx-py", PYTHON_PACKAGE_MANAGER], stdout=subprocess.PIPE, check=False
+            ["cyclonedx-py", PYTHON_PACKAGE_MANAGER],
+            stdout=subprocess.PIPE,
+            check=False,
         )
         output = json.loads(result.stdout.decode())
         with open(sbom_path, "w") as f:

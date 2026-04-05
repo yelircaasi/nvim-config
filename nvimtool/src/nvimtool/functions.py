@@ -18,10 +18,10 @@ Subcommands:
     - write-script
 """
 
-from adiumentum import (
-    Version,
-    run_with_result,
-)
+from adiumentum.path import glob_extension
+from adiumentum.semver import Version
+from adiumentum.shell import run_with_result
+
 from pathlib import Path
 import shutil
 
@@ -34,7 +34,9 @@ import subprocess
 from .config import Config, Paths
 from .datamodels import (
     CommandList,
+    PluginInfo,
     RTPDict,
+    SinglePluginInfo,
     SingleToolSpecs,
     PluginsLockMeta,
     ToolsLock,
@@ -46,7 +48,7 @@ from .datamodels import (
     AvailableUpdates,
 )
 from .nix_helpers import build_flake_source
-from .patterns import Patterns
+from .patterns import Patterns, SearchPatterns
 from .types import LuaTable
 from .shell_helpers import (
     check_for_updates,
@@ -267,6 +269,53 @@ def parse_rtp(raw: str) -> RTPDict:
             r["contents"].update({path: contents})
 
     return r
+
+
+def search_plugin_directory(
+    plugin_directory: Path | str, plugin_require_name: str
+) -> SinglePluginInfo:
+    plugin_directory = Path(plugin_directory)
+    info = SinglePluginInfo()
+    lua_files = glob_extension("lua", plugin_directory)
+    vim_files = glob_extension("vim", plugin_directory)
+    txt_files = glob_extension("txt", plugin_directory)
+    md_files = glob_extension("txt", plugin_directory)
+
+    for file in lua_files:
+        text = Path(file).read_text(errors="ignore")
+        info.commands.update(SearchPatterns.COMMAND_LUA.findall(text))
+        info.lua_functions.update(
+            SearchPatterns.LUA_FUNCTION_REQUIRED(plugin_require_name).findall(text)
+        )
+        info.lua_functions.update(SearchPatterns.LUA_FUNCTION.findall(text))
+        info.highlights.update(SearchPatterns.HIGHLIGHT_GROUP_LUA.findall(text))
+        info.keymaps.update(SearchPatterns.KEYBIND_LUA.findall(text))
+        info.keymaps.update(SearchPatterns.KEYBIND_LUA_API.findall(text))
+    for file in vim_files:
+        info.commands.update(SearchPatterns.COMMAND_VIM.findall(text))
+        info.highlights.update(SearchPatterns.HIGHLIGHT_GROUP_VIM.findall(text))
+        info.keymaps.update(SearchPatterns.KEYBIND_VIM.findall(text))
+    for file in txt_files + md_files:
+        info.commands.update(SearchPatterns.COMMAND_DOCS.findall(text))
+        info.lua_functions.update(
+            SearchPatterns.LUA_FUNCTION_REQUIRED(plugin_require_name).findall(text)
+        )
+        info.highlights.update(SearchPatterns.HIGHLIGHT_GROUP_DOCS.findall(text))
+        info.keymaps.update(SearchPatterns.KEYBIND_DOCS.findall(text))
+
+    return info
+
+
+def glean_plugin_info(cfg: Config) -> None:
+    """TODO: test me!"""
+    plugins_lock = PluginsLock.read_json_file(cfg.paths.plugins_lock)
+    info = PluginInfo()
+    for name, single_lock in plugins_lock.items():
+        if not single_lock:
+            continue
+        single_info = search_plugin_directory(single_lock.location, name)
+        info.update({name: single_info})
+    info.write_json_file(cfg.paths.plugins_info)
 
 
 ### COMMAND FUNCTIONS ##################################################################################################

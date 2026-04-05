@@ -171,7 +171,6 @@ By using the **Python symlinking script** to put plugins in `opt/` and the **Aut
 
 """
 
-
 import os
 from pathlib import Path
 
@@ -181,17 +180,18 @@ SOURCE_DIR = Path("~/.local/share/nvim-plugins").expanduser()
 # Where Neovim looks for "start" plugins (Standard for 0.12)
 TARGET_DIR = Path("~/.local/share/nvim/site/pack/manual/start").expanduser()
 
+
 def sync_plugins():
     # Ensure the target directory exists
     TARGET_DIR.mkdir(parents=True, exist_ok=True)
-    
+
     print(f"--- Syncing plugins to {TARGET_DIR} ---")
 
     # 2. Iterate through your source plugins
     for item in SOURCE_DIR.iterdir():
         if item.is_dir():
             link_path = TARGET_DIR / item.name
-            
+
             # 3. Handle existing links/files
             if link_path.exists() or link_path.is_symlink():
                 if link_path.is_symlink() and os.readlink(link_path) == str(item):
@@ -201,6 +201,7 @@ def sync_plugins():
                     print(f"REMOVING: Old/Invalid path at {link_path}")
                     if link_path.is_dir() and not link_path.is_symlink():
                         import shutil
+
                         shutil.rmtree(link_path)
                     else:
                         link_path.unlink()
@@ -212,12 +213,11 @@ def sync_plugins():
             except OSError as e:
                 print(f"FAILED: Could not link {item.name}: {e}")
 
+
 if __name__ == "__main__":
     sync_plugins()
 
 
-
-import os
 import shutil
 from pathlib import Path
 
@@ -226,11 +226,12 @@ SOURCE_DIR = Path("~/.local/share/nvim-plugins").expanduser()
 # The 'opt' folder for manual/lazy loading
 TARGET_DIR = Path("~/.local/share/nvim/site/pack/manual/opt").expanduser()
 
+
 def sync_opt_plugins():
     TARGET_DIR.mkdir(parents=True, exist_ok=True)
-    
+
     source_plugins = {item.name: item for item in SOURCE_DIR.iterdir() if item.is_dir()}
-    
+
     # 1. Create/Update Symlinks
     for name, path in source_plugins.items():
         link_path = TARGET_DIR / name
@@ -240,7 +241,7 @@ def sync_opt_plugins():
             link_path.unlink()
         elif link_path.exists():
             shutil.rmtree(link_path)
-            
+
         os.symlink(path, link_path)
         print(f"LINKED: {name}")
 
@@ -252,6 +253,7 @@ def sync_opt_plugins():
                 link.unlink()
             else:
                 shutil.rmtree(link)
+
 
 if __name__ == "__main__":
     sync_opt_plugins()

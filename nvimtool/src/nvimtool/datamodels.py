@@ -1,10 +1,10 @@
-from adiumentum import (
+from adiumentum.pydantic import (
     BaseModelRW,
     BaseDict,
     BaseList,
-    run,
-    read_json,
 )
+from adiumentum.io import read_json
+from adiumentum.shell import run
 from pathlib import Path
 from enum import StrEnum, auto
 import re
@@ -281,3 +281,13 @@ class RTPDict(TypedDict):
     default: list[str]
     value: list[str]
     contents: dict[str, list[str]]
+
+
+class SinglePluginInfo(BaseModel):
+    commands: set[str] = Field(default_factory=set)
+    lua_functions: set[str] = Field(default_factory=set)
+    highlights: set[str] = Field(default_factory=set)
+    keymaps: set[tuple[str, str, str]] = Field(default_factory=set)
+
+
+class PluginInfo(BaseDict[str, SinglePluginInfo]): ...

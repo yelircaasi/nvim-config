@@ -1,4 +1,4 @@
-from adiumentum import BaseModelRW
+from adiumentum.pydantic import BaseModelRW
 from pathlib import Path
 from datetime import date, datetime
 import socket
@@ -10,7 +10,8 @@ from typing import Annotated, Any
 import argparse
 from typing import Self
 
-from adiumentum import read_json, JsonObject
+from adiumentum.io import read_json
+from adiumentum.types import JsonObject
 from pydantic import BaseModel, BeforeValidator, Field, NonNegativeInt, model_validator
 
 
@@ -106,6 +107,10 @@ class Paths(BaseModelRW):
     @property
     def info_dir(self) -> Path:
         return self.explicit_info_dir or (self.snapshot_dir / "info")
+
+    @property
+    def plugins_info(self) -> Path:
+        return self.info_dir / "plugins-info.json"
 
     @property
     def flake(self) -> Path:

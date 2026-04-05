@@ -80,3 +80,51 @@ class Patterns:
         "description",
         "origin",
     )
+
+
+class SearchPatterns:
+    COMMAND_LUA = re.compile(r'vim\.api\.nvim_create_user_command\(\s*["\'](\w+)["\']')
+    COMMAND_VIM = re.compile(r"^\s*command!?\s+(?:-\w+\s+)*(\w+)", re.MULTILINE)
+    COMMAND_DOCS = re.compile(r"(?<![`\w]):([A-Z][a-zA-Z]\w*)", re.MULTILINE)
+    LUA_FUNCTION = re.compile(r"^function\s+M\.(\w+)\s*\(", re.MULTILINE)
+
+    @staticmethod
+    def LUA_FUNCTION_REQUIRED(module_name: str) -> re.Pattern:
+        """Match calls like require('module').func("""
+        return re.compile(
+            r"require\(['\"]" + re.escape(module_name) + r"['\"]\)\.(\w+)\s*\("
+        )
+
+    HIGHLIGHT_GROUP_LUA = re.compile(
+        r'vim\.api\.nvim_set_hl\(\s*\d+,\s*["\'](\w+)["\']'
+    )
+    HIGHLIGHT_GROUP_VIM = re.compile(
+        r"^\s*hi(?:ghlight)?\s+(?:default\s+)?([A-Z]\w+)", re.MULTILINE
+    )
+    HIGHLIGHT_GROUP_DOCS = re.compile(r"^(?!)$")  # TODO
+    KEYBIND_LUA = re.compile(
+        r"vim\.keymap\.set\(\s*"
+        r'["\']([^"\']+)["\'],\s*'  # group 1: mode
+        r'["\']([^"\']+)["\'],\s*'  # group 2: lhs key sequence
+        r"(function\b"  # group 3: inline function literal
+        r'|require\(["\'][\w./-]+["\']\)[\w.]*'  #          require('mod').fn
+        r'|["\'][^"\']*["\']'  #          string command e.g. ":w<CR>"
+        r"|\w[\w.]*)"  #          variable or fn reference
+    )
+    KEYBIND_LUA_API = re.compile(
+        r"vim\.api\.nvim_set_keymap\(\s*"
+        r'["\']([^"\']+)["\'],\s*'  # group 1: mode
+        r'["\']([^"\']+)["\'],\s*'  # group 2: lhs key sequence
+        r'["\']([^"\']*)["\']'  # group 3: rhs (always a string here)
+    )
+    KEYBIND_VIM = re.compile(
+        r"^\s*([nvxitsco](?:nore)?map|(?:nore)?map)[!]?\s+"  # group 1: map command (encodes mode)
+        r"(?:<(?:silent|buffer|expr|nowait|unique)>\s*)*"  # flags (non-capturing)
+        r"(\S+)\s+"  # group 2: lhs key sequence
+        r"(.+?)$",  # group 3: rhs command/action
+        re.MULTILINE,
+    )
+    KEYBIND_DOCS = re.compile(
+        r"`(<(?:[A-Za-z0-9-]+|[A-Z]-\w)>(?:<[A-Za-z0-9-]+>)*"
+        r"|(?:<\w+>)+\w*)`"
+    )

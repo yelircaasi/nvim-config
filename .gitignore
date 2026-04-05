@@ -1,4 +1,5 @@
 .cache
+.venv
 _OLD/
 
 # Compiled Lua sources
