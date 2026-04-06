@@ -1,4 +1,4 @@
-from adiumentum import (
+from adiumentum.shell import (
     run,
     capture,
 )
@@ -9,12 +9,11 @@ import subprocess
 
 from .config import Config
 from .datamodels import CommandList
+from .utils import join_filtered
 
 
 def export_nvim_info(task: str, cfg: Config) -> Path:
-    name_segments = "--".join(
-        filter(bool, (task, cfg.g.DEVICE_NAME, cfg.g.CONFIG_NAME))
-    )
+    name_segments = join_filtered("--", (task, cfg.g.DEVICE_NAME, cfg.g.CONFIG_NAME))
     destination = cfg.paths.info_dir / f"nvim-{name_segments}.txt"
     print(destination)
     # os.system(f'nvim --headless -c "set columns=1000" -c "redir! > {destination}"   -c "verbose {task}"  -c "redir END" -c "q" > /dev/null')

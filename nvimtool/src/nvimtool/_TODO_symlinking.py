@@ -174,6 +174,8 @@ By using the **Python symlinking script** to put plugins in `opt/` and the **Aut
 import os
 from pathlib import Path
 
+import shutil
+
 # 1. Define your paths
 # Where you keep your cloned repos
 SOURCE_DIR = Path("~/.local/share/nvim-plugins").expanduser()
@@ -218,12 +220,7 @@ if __name__ == "__main__":
     sync_plugins()
 
 
-import shutil
-from pathlib import Path
-
-# Where your clones live
 SOURCE_DIR = Path("~/.local/share/nvim-plugins").expanduser()
-# The 'opt' folder for manual/lazy loading
 TARGET_DIR = Path("~/.local/share/nvim/site/pack/manual/opt").expanduser()
 
 
@@ -232,7 +229,6 @@ def sync_opt_plugins():
 
     source_plugins = {item.name: item for item in SOURCE_DIR.iterdir() if item.is_dir()}
 
-    # 1. Create/Update Symlinks
     for name, path in source_plugins.items():
         link_path = TARGET_DIR / name
         if link_path.is_symlink():
@@ -245,7 +241,6 @@ def sync_opt_plugins():
         os.symlink(path, link_path)
         print(f"LINKED: {name}")
 
-    # 2. Cleanup (Delete symlinks that no longer have a source)
     for link in TARGET_DIR.iterdir():
         if link.name not in source_plugins:
             print(f"CLEANING UP: {link.name}")

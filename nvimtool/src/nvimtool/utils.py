@@ -1,21 +1,17 @@
-from adiumentum import (
-    Colorizer,
-    JsonValue,
-)
 from pathlib import Path
 import re
 from datetime import date, timedelta
 
-from typing import TypeVar, cast
+from typing import Callable, TypeVar, cast
 
 from typing import Iterable
+
+from adiumentum.types import JsonValue
 
 
 from .config import Config
 from .patterns import Patterns
 from .types import LuaTable
-
-color = Colorizer()
 
 
 T = TypeVar("T", bound=JsonValue | Path)
@@ -95,3 +91,9 @@ def write_table(
         )
     )
     return head + "{\n" + indenter + body + f",\n{indenter[:-1]}}}" + foot
+
+
+def join_filtered(
+    sep: str, objects: Iterable[object], filtr: Callable[[object], bool] = bool
+) -> str:
+    return sep.join(map(str, filter(filtr, objects)))

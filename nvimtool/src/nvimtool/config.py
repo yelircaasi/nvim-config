@@ -15,7 +15,7 @@ from adiumentum.types import JsonObject
 from pydantic import BaseModel, BeforeValidator, Field, NonNegativeInt, model_validator
 
 
-def arg_or_envvar(argpos: int, envvarname: str, fallback: str | Path) -> str:
+def resolve_var(argpos: int, envvarname: str, fallback: str | Path) -> str:
     """TODO: move to adiumentum"""
     if len(sys.argv) > argpos:
         return sys.argv[argpos]
@@ -56,15 +56,15 @@ class _Globals(BaseModel):
     #     "update-window": 30,
     # }
     DEVICE_NAME: str = Field(
-        default=arg_or_envvar(1, "DEVICE_NAME", socket.gethostname())
+        default=resolve_var(1, "DEVICE_NAME", socket.gethostname())
     )
-    CONFIG_NAME: str = Field(default=arg_or_envvar(2, "NVIM_CONFIG_NAME", "DEFAULT"))
-    NVIM_COMMAND: str = Field(default=arg_or_envvar(5, "NVIM_COMMAND", "nvim"))
+    CONFIG_NAME: str = Field(default=resolve_var(2, "NVIM_CONFIG_NAME", "DEFAULT"))
+    NVIM_COMMAND: str = Field(default=resolve_var(5, "NVIM_COMMAND", "nvim"))
 
 
 _HOME = Path.home()
 _BACKUP = _make_backup_dir()
-_NVIM_CONFIG_PATH = Path(arg_or_envvar(3, "NVIM_CONFIG_PATH", ""))
+_NVIM_CONFIG_PATH = Path(resolve_var(3, "NVIM_CONFIG_PATH", ""))
 
 
 class Paths(BaseModelRW):
@@ -84,7 +84,7 @@ class Paths(BaseModelRW):
     explicit_scripts_dir: Path | None = Field(default=None)
 
     @classmethod
-    def from_dict(cls, d: "Paths | dict[str, str]") -> Self:
+    def from_dict(cls, d: Paths | dict[str, str]) -> Paths:
         if isinstance(d, Paths):
             return d
         return cls(
