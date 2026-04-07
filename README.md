@@ -9,6 +9,7 @@ No nvim framework or distribution is used currently.
 ## Next Steps
 
 - very next step: add external tool declaration, then py script to add them to flake.nix
+- https://github.com/OXY2DEV/helpview.nvim
 - https://github.com/numToStr/Navigator.nvim/ *********
 - https://github.com/asiryk/auto-hlsearch.nvim/
 - https://github.com/micangl/cmp-vimtex/

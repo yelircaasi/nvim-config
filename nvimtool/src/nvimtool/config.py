@@ -169,6 +169,10 @@ class Paths(BaseModelRW):
         return self.explicit_plugins_lock or (self.snapshot_dir / "plugins-lock.json")
 
     @property
+    def plugin_paths_json(self) -> Path:
+        return self.explicit_plugins_lock or (self.snapshot_dir / "plugins-lock.json")
+    
+    @property
     def plugin_paths_tl(self) -> Path:
         return self.tl_meta_dir / "plugin_cfg.paths.tl"
 
@@ -255,6 +259,17 @@ class Config(BaseModelRW):
     paths: Annotated[Paths, BeforeValidator(Paths.from_dict)]
     g: Annotated[_Globals, BeforeValidator(ensure_globals)]
     update_window: NonNegativeInt = Field(default=30)
+
+    @classmethod
+    def auto(cls) -> Self:
+        paths = Paths(
+            config_source=Globals.DEFAULT_CONFIG_SOURCE,
+            config_destination=Globals.DEFAULT_CONFIG_TARGET,
+            plugin_dir=Globals.DEFAULT_PLUGIN_DIR,
+            explicit_plugins_jsonc=None,
+            explicit_plugins_lock=None,
+        )
+        return cls.model_validate(dict(paths=paths, g=ensure_globals()))
 
     @classmethod
     def from_args(cls, args: argparse.Namespace) -> Self:

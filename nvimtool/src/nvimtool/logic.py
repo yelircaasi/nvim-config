@@ -194,15 +194,58 @@ def parse_rtp(raw: str) -> RTPDict:
     return r
 
 
+#TODO: upstream changes to adiumentum
+import glob
+from adiumentum.fp import lfilter, negate, lmap
+
+def glob_extension(extension: str = "*", path: Path | None = None, ignore: re.Pattern[str] | str | None = None) -> list[Path]:
+    """Search a directory recursively for all files ending with 'extension' and not matching 'ignore'.
+    
+        Defaults to the current directory.
+    """
+    if not path:
+        path = Path.cwd()
+    expression = f"**/*.{extension}"
+    result: list[str] = glob.glob(expression, root_dir=path, recursive=True)
+    if ignore:
+        _ignore = re.compile(ignore) if isinstance(ignore, str) else ignore
+        result = lfilter(negate(_ignore.search), result)
+    return lmap(lambda p: path / p, result)
+
+
 def search_plugin_directory(
     plugin_directory: Path | str, plugin_require_name: str
 ) -> SinglePluginInfo:
+    """Get init file"""
     plugin_directory = Path(plugin_directory)
+    print(plugin_directory)
     info = SinglePluginInfo()
     lua_files = glob_extension("lua", plugin_directory)
     vim_files = glob_extension("vim", plugin_directory)
     txt_files = glob_extension("txt", plugin_directory)
     md_files = glob_extension("txt", plugin_directory)
+    print(lua_files)
+    print(vim_files)
+    print(txt_files)
+    print(md_files)
+    
+    def get_init_file(dir_: Path) -> Path | None:
+        init = dir_ / "lua" / plugin_require_name / "init.lua"
+        alt = dir_ / f"lua/{plugin_require_name}.lua"
+        if init.exists():
+            return init
+        elif alt.exists():
+            return alt
+        return None
+    
+    def get_doc_file(dir_: Path) -> Path | None:
+        candidate = dir_ / f"doc/{plugin_require_name}.txt"
+        if candidate.exists():
+            return candidate
+        
+    doc_file = get_doc_file(plugin_directory)
+    init_file = get_init_file(plugin_directory)
+    # TODO
 
     for file in lua_files:
         text = Path(file).read_text(errors="ignore")
@@ -215,10 +258,12 @@ def search_plugin_directory(
         info.keymaps.update(SearchPatterns.KEYBIND_LUA.findall(text))
         info.keymaps.update(SearchPatterns.KEYBIND_LUA_API.findall(text))
     for file in vim_files:
+        text = Path(file).read_text(errors="ignore")
         info.commands.update(SearchPatterns.COMMAND_VIM.findall(text))
         info.highlights.update(SearchPatterns.HIGHLIGHT_GROUP_VIM.findall(text))
         info.keymaps.update(SearchPatterns.KEYBIND_VIM.findall(text))
     for file in txt_files + md_files:
+        text = Path(file).read_text(errors="ignore")
         info.commands.update(SearchPatterns.COMMAND_DOCS.findall(text))
         info.lua_functions.update(
             SearchPatterns.LUA_FUNCTION_REQUIRED(plugin_require_name).findall(text)
@@ -227,15 +272,3 @@ def search_plugin_directory(
         info.keymaps.update(SearchPatterns.KEYBIND_DOCS.findall(text))
 
     return info
-
-
-def glean_plugin_info(cfg: Config) -> None:
-    """TODO: test me!"""
-    plugins_lock = PluginsLock.read_json_file(cfg.paths.plugins_lock)
-    info = PluginInfo()
-    for name, single_lock in plugins_lock.items():
-        if not single_lock:
-            continue
-        single_info = search_plugin_directory(single_lock.location, name)
-        info.update({name: single_info})
-    info.write_json_file(cfg.paths.plugins_info)
