@@ -60,6 +60,28 @@ def get_functions_from_init(s: str) -> list[str]:
     return pattern.findall(s)
 
 
+# --------- CONSTRUCTION SITE ------------------------------------------------------------------------------------------
+
+def glean_suite(info: SinglePluginInfo) -> SinglePluginInfo:
+    return info
+
+
+def glean_snacks(info: SinglePluginInfo) -> SinglePluginInfo:
+    return info
+
+
+def glean_blink(info: SinglePluginInfo) -> SinglePluginInfo:
+    return info
+
+
+def glean_mini(info: SinglePluginInfo) -> SinglePluginInfo:
+    return info
+
+
+
+# ----------------------------------------------------------------------------------------------------------------------
+
+
 def search_plugin_directory(
     plugin_directory: Path | str, plugin_require_name: str
 ) -> SinglePluginInfo:
