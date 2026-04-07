@@ -4,7 +4,7 @@ requires-python = "==3.14.*"
 
 [[package]]
 name = "adiumentum"
-version = "0.8.2"
+version = "0.8.3"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "gitpython" },
@@ -12,9 +12,9 @@ dependencies = [
     { name = "multipledispatch" },
     { name = "pydantic" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/13/61/2907beaf99c23036cd95222a906393aee7f224b2dcb0c60d3847938d90da/adiumentum-0.8.2.tar.gz", hash = "sha256:f42aabdc4658e47f1fe80e1e4bcaaa8e46cbe7413dfa6610fd1f71e178eed662", size = 26086, upload-time = "2026-04-05T21:41:07.124Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/ca/e6/37c36861b3fe79fe8d780e0f0db5a59ba921e1e136cbf5bec24218a03613/adiumentum-0.8.3.tar.gz", hash = "sha256:2ece8cea7a8d88040c1733a0e680ce044662dbe97609009b274c1eba6891e975", size = 26103, upload-time = "2026-04-07T08:19:02.33Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/1d/e8/0e0f74af1a00bb3bf4c7b4cecdf5149636eca9f06883f0c7ef53211d8f68/adiumentum-0.8.2-py3-none-any.whl", hash = "sha256:c26a1b2f6305d2978f0563816b1f56efa06ba20f39f075cf13273dec5de4b374", size = 32245, upload-time = "2026-04-05T21:41:05.867Z" },
+    { url = "https://files.pythonhosted.org/packages/0d/b9/9f84a0568250da448698af2c7a62766e19c9fcf2878d0847b6d3e1ede407/adiumentum-0.8.3-py3-none-any.whl", hash = "sha256:6e720379b5c3adafea2d2320c919fa3981ab72e63cd954b587bacdac7793bd53", size = 32248, upload-time = "2026-04-07T08:19:01.199Z" },
 ]
 
 [[package]]
@@ -1060,7 +1060,7 @@ test = [
 
 [package.metadata]
 requires-dist = [
-    { name = "adiumentum", specifier = ">=0.8.2" },
+    { name = "adiumentum", specifier = ">=0.8.3" },
     { name = "pydantic", specifier = ">=2.12.5" },
 ]
 

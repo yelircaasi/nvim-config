@@ -171,7 +171,7 @@ class Paths(BaseModelRW):
     @property
     def plugin_paths_json(self) -> Path:
         return self.explicit_plugins_lock or (self.snapshot_dir / "plugins-lock.json")
-    
+
     @property
     def plugin_paths_tl(self) -> Path:
         return self.tl_meta_dir / "plugin_cfg.paths.tl"
