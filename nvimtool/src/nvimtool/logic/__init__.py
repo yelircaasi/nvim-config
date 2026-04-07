@@ -21,6 +21,7 @@ __all__ = (
     "parse_commands",
     "parse_mappings",
     "parse_rtp",
+    "profile_startup",
     "search_plugin_directory",
     "write_plugin_layers_tl",
     "write_dependencies_tl",

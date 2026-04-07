@@ -10,7 +10,7 @@ from nvimtool.logic import search_plugin_directory
 oil = Path(
     "/nix/store/i0hj61lgz1qr8rg6762p07h7k3xzdvrq-vimplugin-luajit2.1-oil.nvim-2.15.0-1-unstable-2.15.0-1"
 )
-oil = Path("/home/isaac/.local/share/nvim-plugins/oil")
+oil = Path.home() / ".local/share/nvim-plugins/aerial"
 info_dir = Path("/tmp/oil_info.json")
 info = search_plugin_directory(oil, "oil")
 
@@ -20,9 +20,10 @@ print(info_dir)
 # TODO: check doc files for standards
 # TODO: manually collect from oil, bamboo, which-key,
 
-sections = []
 
+exit()
 if __name__ == "__main__":
+    sections = []
     p = Path.home() / ".local/share/nvim-plugins"
     for plugin in p.iterdir():
         _p = p / plugin
@@ -35,7 +36,7 @@ if __name__ == "__main__":
                 text = _docfile.read_text()
                 _sections = re.findall(r"\n([A-Z]{3,}) ", text)
                 sections.extend(_sections)
-            except:
+            except Exception:
                 pass
     c = Counter(sections)
     for k, v in c.most_common():

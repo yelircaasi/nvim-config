@@ -285,9 +285,11 @@ class RTPDict(TypedDict):
 
 class SinglePluginInfo(BaseModel):
     commands: set[str] = Field(default_factory=set)
-    lua_functions: set[str] = Field(default_factory=set)
+    lua_functions: set[str] = Field(default_factory=set, alias="luaFunctions")
     highlights: set[str] = Field(default_factory=set)
-    keymaps: set[tuple[str, str, str]] = Field(default_factory=set)
+    keymaps: set[tuple[str, str, str] | str] = Field(default_factory=set)
+    has_vimdoc: bool = Field(default=False, alias="hasVimdoc")
+    has_lua: bool = Field(default=False, alias="hasLua")
 
 
 class PluginInfo(BaseDict[str, SinglePluginInfo]): ...

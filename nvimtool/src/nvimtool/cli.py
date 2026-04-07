@@ -72,6 +72,7 @@ def parse_args() -> argparse.Namespace:
     info.add_parser("commands", help="", parents=[parent_parser])
     info.add_parser("rtp", help="", parents=[parent_parser])
     info.add_parser("mappings", help="", parents=[parent_parser])
+    info.add_parser("plugin-source", help="", parents=[parent_parser])
 
     # 'plugins' subcommand
     plugins.add_parser(

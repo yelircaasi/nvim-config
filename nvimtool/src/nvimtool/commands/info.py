@@ -2,9 +2,11 @@ import json
 
 
 from ..config import Config
-from ..logic import (
+from ..datamodels import (
     PluginInfo,
     PluginsLock,
+)
+from ..logic import (
     parse_colors,
     parse_commands,
     parse_mappings,
@@ -24,14 +26,15 @@ from ..utils import (
 def glean_nvim(cfg: Config) -> None: ...
 
 
-def glean_plugin_info(cfg: Config) -> None:
+def glean_plugin_source(cfg: Config) -> None:
     """TODO: test me!"""
     plugins_lock = PluginsLock.read_json_file(cfg.paths.plugins_lock)
+    plugin_dir = cfg.paths.plugin_dir
     info = PluginInfo()
     for name, single_lock in plugins_lock.items():
         if not single_lock:
             continue
-        single_info = search_plugin_directory(single_lock.location, name)
+        single_info = search_plugin_directory(plugin_dir / single_lock.location, name)
         info.update({name: single_info})
     info.write_json_file(cfg.paths.plugins_info)
 

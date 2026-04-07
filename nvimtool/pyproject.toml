@@ -5,7 +5,7 @@ description = "Helper CLI for Neovim."
 readme = "README.md"
 requires-python = ">=3.14,<3.15"
 dependencies = [
-    "adiumentum>=0.8.3",
+    "adiumentum>=0.8.4",
     "pydantic>=2.12.5",
 ]
 

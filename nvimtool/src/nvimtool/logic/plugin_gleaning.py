@@ -8,43 +8,56 @@ from adiumentum.path import glob_extension
 from pathlib import Path
 
 
-from ..datamodels import (
-    SinglePluginInfo,
-)
+from ..datamodels import SinglePluginInfo
 from ..patterns import SearchPatterns
 
 
-def get_init_file(dir_: Path, plugin_require_name: str) -> Path | None:
+def get_init_file(dir_: Path, plugin_require_name: str) -> str:
     init = dir_ / "lua" / plugin_require_name / "init.lua"
     alt = dir_ / f"lua/{plugin_require_name}.lua"
     if init.exists():
-        return init
+        return init.read_text()
     elif alt.exists():
-        return alt
-    return None
+        return alt.read_text()
+    return ""
 
 
-def get_doc_file(dir_: Path, plugin_require_name: str) -> Path | None:
+def get_doc_file_sections(dir_: Path, plugin_require_name: str) -> list[str]:
     candidate = dir_ / f"doc/{plugin_require_name}.txt"
     if candidate.exists():
-        return candidate
-    return None
+        sections = re.split("\n(?=[A-Z]{3,})", candidate.read_text())
+        return sections
+    return []
 
 
-def get_highlights_from_vimdoc(s: str) -> list[str]:
-    return []  # TODO
-
-
-def get_functions_from_vimdoc(s: str) -> list[str]:
-    sections = re.split("\n(?=[A-Z]{3,})", s)
+def get_highlights_from_vimdoc(sections: list[str]) -> list[str]:
     for section in sections:
-        if section.startswith("API"):
-            return section.splitlines()
+        if section.startswith(("HIGHLIGHT", "COLOR")):
+            return section.strip().splitlines()[1:]
+    return []
+
+
+def get_commands_from_vimdoc(sections: list[str]) -> list[str]:
+    for section in sections:
+        if section.startswith(("COMMAND")):
+            return section.strip().splitlines()[1:]
+    return []
+
+
+def get_functions_from_vimdoc(sections: list[str]) -> list[str]:
+    for section in sections:
+        if section.startswith(("API ", "LUA ")):
+            return section.strip().splitlines()[1:]
     return []
 
 
 def get_functions_from_init(s: str) -> list[str]:
-    return []  # TODO
+    result = re.search(r"\s+return\s+([^ \n]+?)\s+$", s)
+    if not result:
+        return []
+    modname = result.group(1)
+    pattern = re.compile(f"{modname}\\.([^ \n\\=\\(]+)[ =\\(]")
+    return pattern.findall(s)
 
 
 def search_plugin_directory(
@@ -62,13 +75,27 @@ def search_plugin_directory(
     print(vim_files)
     print(txt_files)
     print(md_files)
+    if not (lua_files or vim_files or txt_files or md_files):
+        print(f"Not a Lua or Vimscript plugin: {plugin_directory}.")
 
-    doc_file = get_doc_file(plugin_directory, plugin_require_name)
+    doc_sections = get_doc_file_sections(plugin_directory, plugin_require_name)
+    if doc_sections:
+        info.has_vimdoc = True
     init_file = get_init_file(plugin_directory, plugin_require_name)
-    # TODO
+    if init_file:
+        info.has_lua = True
+    info.lua_functions.update(get_functions_from_init(init_file))
+    info.lua_functions.update(get_functions_from_vimdoc(doc_sections))
+    info.commands.update(get_commands_from_vimdoc(doc_sections))
+    info.highlights.update(get_highlights_from_vimdoc(doc_sections))
+
+    def read_if_file(_p: Path) -> str:
+        if _p.is_file():
+            return _p.read_text(errors="ignore")
+        return ""
 
     for file in lua_files:
-        text = Path(file).read_text(errors="ignore")
+        text = read_if_file(file)
         info.commands.update(SearchPatterns.COMMAND_LUA.findall(text))
         info.lua_functions.update(
             SearchPatterns.LUA_FUNCTION_REQUIRED(plugin_require_name).findall(text)
@@ -78,12 +105,12 @@ def search_plugin_directory(
         info.keymaps.update(SearchPatterns.KEYBIND_LUA.findall(text))
         info.keymaps.update(SearchPatterns.KEYBIND_LUA_API.findall(text))
     for file in vim_files:
-        text = Path(file).read_text(errors="ignore")
+        text = read_if_file(file)
         info.commands.update(SearchPatterns.COMMAND_VIM.findall(text))
         info.highlights.update(SearchPatterns.HIGHLIGHT_GROUP_VIM.findall(text))
         info.keymaps.update(SearchPatterns.KEYBIND_VIM.findall(text))
     for file in txt_files + md_files:
-        text = Path(file).read_text(errors="ignore")
+        text = read_if_file(file)
         info.commands.update(SearchPatterns.COMMAND_DOCS.findall(text))
         info.lua_functions.update(
             SearchPatterns.LUA_FUNCTION_REQUIRED(plugin_require_name).findall(text)
