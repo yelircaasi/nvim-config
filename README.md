@@ -8,6 +8,17 @@ No nvim framework or distribution is used currently.
 
 ## Next Steps
 
+- collect all previous work from the following:
+  - XDG nvim configs
+  - nvim-config, notable testing and nvimtool -> extract nvimtool into own repo and pypi package
+  - playground
+  - neovims
+  - neovim-flake (new home for declarative config -> export snapshots for FHS, keep snapshot or at least script in git)
+
+- Look into what to compile it with: Python, WASM, NodeJS, Perl?
+- where to install treesitter parsers?
+
+
 - very next step: add external tool declaration, then py script to add them to flake.nix
 - https://github.com/OXY2DEV/helpview.nvim
 - https://github.com/numToStr/Navigator.nvim/ *********
