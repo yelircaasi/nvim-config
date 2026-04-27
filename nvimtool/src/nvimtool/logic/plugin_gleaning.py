@@ -62,6 +62,7 @@ def get_functions_from_init(s: str) -> list[str]:
 
 # --------- CONSTRUCTION SITE ------------------------------------------------------------------------------------------
 
+
 def glean_suite(info: SinglePluginInfo) -> SinglePluginInfo:
     return info
 
@@ -76,7 +77,6 @@ def glean_blink(info: SinglePluginInfo) -> SinglePluginInfo:
 
 def glean_mini(info: SinglePluginInfo) -> SinglePluginInfo:
     return info
-
 
 
 # ----------------------------------------------------------------------------------------------------------------------

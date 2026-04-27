@@ -7,6 +7,7 @@ requires-python = ">=3.14,<3.15"
 dependencies = [
     "adiumentum>=0.8.4",
     "pydantic>=2.12.5",
+    "typer>=0.25",
 ]
 
 [project.scripts]
@@ -33,6 +34,7 @@ test = [
 dev = [
     "pyrefly>=0.58.0",
     "ruff>=0.15.8",
+    "mypy >= 0.20",
     "structlint        >= 0.2   ",
     "ipython           >= 8.31  ",
     "deply             >= 0.5   ",

@@ -4,7 +4,7 @@ import re
 
 from adiumentum.io import write_json
 from adiumentum.path import glob_extension
-from nvimtool.logic import search_plugin_directory
+from nvimtool.logic import search_plugin_directory  # type: ignore
 
 
 oil = Path(

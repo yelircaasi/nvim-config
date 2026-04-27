@@ -272,9 +272,40 @@ class Config(BaseModelRW):
         return cls.model_validate(dict(paths=paths, g=ensure_globals()))
 
     @classmethod
-    def from_args(cls, args: argparse.Namespace) -> Self:
+    def from_args(
+        cls,
+        config_file: Path,
+        config_source: Path,
+        config_target: Path,
+        plugin_dir: Path,
+        plugins_jsonc: Path | None,
+        plugins_lockfile: Path | None,
+        verbose: bool,
+    ) -> Self:
+        _cfg = read_json(config_file)
+        if not isinstance(_cfg, dict):
+            raise TypeError
+        paths = Paths(
+            config_source=config_source
+            or cls._resolve_path(_cfg, "config-source")
+            or Globals.DEFAULT_CONFIG_SOURCE,
+            config_destination=config_target
+            or cls._resolve_path(_cfg, "config-target")
+            or Globals.DEFAULT_CONFIG_TARGET,
+            plugin_dir=plugin_dir
+            or cls._resolve_path(_cfg, "plugin-dir")
+            or Globals.DEFAULT_PLUGIN_DIR,
+            explicit_plugins_jsonc=plugins_jsonc,
+            explicit_plugins_lock=plugins_lockfile,
+        )
+        cfg = cls.model_validate(dict(paths=paths, g=ensure_globals()))
+        cfg.g.VERBOSE = verbose
+        return cfg
+
+    @classmethod
+    def from_args_old(cls, args: argparse.Namespace) -> Self:
         argdict = args.__dict__
-        _cfg = read_json(args.config_file) if "config_file" in args else {}
+        _cfg = read_json(args.config_file)
         if not isinstance(_cfg, dict):
             raise TypeError
         paths = Paths(
