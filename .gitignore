@@ -1,6 +1,7 @@
 .cache
 .venv
 _OLD/
+.ruff_cache
 
 # Compiled Lua sources
 luac.out
