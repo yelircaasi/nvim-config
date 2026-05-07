@@ -33,14 +33,15 @@ DISPATCHER: dict[tuple[str | None, str | None], Callable[[Config], None]] = {
     ("nix", None): nix.audit_nix,
     ("nix", "audit"): nix.audit_nix,
     ("nix", "write-flake"): nix.write_flake,
+    ("nix", "write-plugins"): nix.write_plugins,
     ("info", None): info.get_info_all,
     ("info", "nvim"): info.glean_nvim,
     ("info", "plugin-source"): info.glean_plugin_source,
-    ("nix", "all"): info.get_info_all,
-    ("nix", "startup"): info.get_info_startup,
-    ("nix", "colors"): info.get_info_colors,
-    ("nix", "commands"): info.get_info_commands,
-    ("nix", "rtp"): info.get_info_rtp,
+    ("info", "all"): info.get_info_all,
+    ("info", "startup"): info.get_info_startup,
+    ("info", "colors"): info.get_info_colors,
+    ("info", "commands"): info.get_info_commands,
+    ("info", "rtp"): info.get_info_rtp,
 }
 
 
@@ -202,6 +203,11 @@ def audit(ctx: typer.Context) -> None:
 @nix_app.command("write-flake")
 def write_flake(ctx: typer.Context) -> None:
     _run(ctx, "nix", "write-flake")
+
+
+@nix_app.command("write-plugins")
+def write_plugins(ctx: typer.Context) -> None:
+    _run(ctx, "nix", "write-plugins")
 
 
 @nix_app.callback(invoke_without_command=True)

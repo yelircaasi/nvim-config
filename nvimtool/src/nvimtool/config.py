@@ -79,6 +79,7 @@ class Paths(BaseModelRW):
     explicit_plugins_lock: Path | None = Field(default=None)
     explicit_snapshot_dir: Path | None = Field(default=None)
     explicit_flake: Path | None = Field(default=None)
+    explicit_plugin_set_nix: Path | None = Field(default=None)
     nvim_config_init: Path = Field(default=_NVIM_CONFIG_PATH)
     backup_dir: Path = Field(default=_BACKUP)
     explicit_scripts_dir: Path | None = Field(default=None)
@@ -115,6 +116,10 @@ class Paths(BaseModelRW):
     @property
     def flake(self) -> Path:
         return self.explicit_flake or (self.snapshot_dir / "flake.nix")
+
+    @property
+    def plugin_set_nix(self) -> Path:
+        return self.explicit_plugin_set_nix or (self.snapshot_dir / "plugin-set.nix")
 
     @property
     def scripts_dir(self) -> Path:
@@ -231,6 +236,9 @@ class Paths(BaseModelRW):
     external_tools_lock:        {self.rel(self.external_tools_lock)}
     plugins_lock:               {self.rel(self.plugins_lock)}
     updates:                    {self.rel(self.available_updates)}
+
+    flake:                      {self.rel(self.flake)}
+    plugin_set_nix:             {self.rel(self.plugin_set_nix)}
 
     cleanup_lua:                {self.rel(self.cleanup_lua)}
 )"""

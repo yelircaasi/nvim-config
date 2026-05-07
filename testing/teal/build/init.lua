@@ -22,7 +22,7 @@ local HAS_NIX = vim.fn.isdirectory("/nix/store") ~= 0
 local NVIM_DIR = (vim.fn.expand("<sfile>:p:h"))
 package.path = package.path .. ";" .. NVIM_DIR .. "/?.lua"
 local utils = require("lua.utils").setup({
-	verbose = false, safe = true,
+	verbose = true, safe = true,
 	prepend_safe = prepend_safe,
 	layers = { 0, 1 },
 	plugin_paths = dofile(NVIM_DIR .. "/meta/plugin_paths.lua"),
@@ -35,7 +35,7 @@ setup_plugin("plenary")
 setup_plugin("nio")
 setup_plugin("nvim-web-devicons")
 setup_plugin("bamboo", function(bamboo)
-	bamboo.setup({ style = "multiplex", colors = { bg0 = "#020802" }, })
+	bamboo.setup({ style = "multiplex", colors = { bg0 = "#020802" } })
 	bamboo.load(); utils.printbv("Set up bamboo") end)
 setup_plugin("zen-mode")
 setup_plugin("lualine")

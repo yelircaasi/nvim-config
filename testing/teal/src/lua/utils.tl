@@ -8,6 +8,16 @@ local function setup(config: UtilsConfig): Utils
 
 	local M: Utils = {}
 
+	local trivial = function(_: string): nil
+	   return nil
+	end
+
+	if VERBOSE then
+	    M.printv = print as function(msg: string): nil
+	else
+	    M.printv = trivial
+	end
+
 	M.PLUGINS_INCLUDED = {}
 	for _, layer in ipairs(LAYERS) do
 		M.printv("layer" .. layer)
@@ -23,16 +33,6 @@ local function setup(config: UtilsConfig): Utils
 			    table.insert(M.PLUGINS_INCLUDED, name)
 			end
 	    end
-	end
-
-	local trivial = function(_: string): nil
-	   return nil
-	end
-
-	if VERBOSE then
-	    M.printv = print as function(msg: string): nil
-	else
-	    M.printv = trivial
 	end
 
 	M.printb = function(msg: string): nil
@@ -87,13 +87,21 @@ local function setup(config: UtilsConfig): Utils
 	    return required
 	end
 
-	M.packadd = function(plugin_name: string, custom_func?: function())
+	local function packadd_default(plugin_name: string, custom_func?: function())
 	    if not M.is_included(plugin_name) then return end
 	    local path = PLUGIN_PATHS[plugin_name]
 	    prepend_safe(path)
 	    vim.cmd("packadd " .. plugin_name)
 	    if custom_func is nil then return end
 		custom_func()
+	end
+
+	local function packadd_safe(plugin_name: string, custom_func?: function())
+		local result, plugin = pcall(packadd_default, plugin_name, custom_func) as (boolean, Plugin)
+	    if not result then
+		   M.printv("ERROR: vimscript plugin require unsuccessful: " .. plugin_name)
+		   return
+	    end
 	end
 
 	local function setup_plugin_safe(plugin_name: string, config_or_function?: PluginConfig | function(Plugin)): nil
@@ -129,8 +137,10 @@ local function setup(config: UtilsConfig): Utils
 
 	if config.safe then
 	    M.setup_plugin = setup_plugin_safe
+		M.packadd = packadd_safe
 	else
 	    M.setup_plugin = setup_plugin_default
+	    M.packadd = packadd_default
 	end
 
 	M.map = function(mode: string | {string}, lhs: string, rhs: string | function(), opts?: vim.keymap.SetOpts): nil
