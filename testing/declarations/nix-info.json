@@ -5,8 +5,8 @@
         "id": "kkharji/sqlite.lua",
         "source": "gh",
         "attrset": "pkgs.vimPlugins",
-        "rev": "",
-        "hash": "",
+        "rev": "50092d60feb242602d7578398c6eb53b4a8ffe7b",
+        "hash": "157wz9nka7g66ywyrqrni64g3a45k60v49l18ym6ipk0g3xji8xv",
         "last_commit": "2025-03-14"
     },
     {
@@ -1136,8 +1136,8 @@
         "id": "max397574/better-escape.nvim",
         "source": "gh",
         "attrset": "pkgs.vimPlugins",
-        "rev": "",
-        "hash": "",
+        "rev": "19a38aab94961016430905ebec30d272a01e9742",
+        "hash": "107fjwza6570saz7p9kpdm3937x0a0g4ank60s228cbavx09jq1s",
         "last_commit": "2025-04-29"
     },
     {
@@ -1796,8 +1796,8 @@
         "id": "saadparwaiz1/cmp_luasnip",
         "source": "gh",
         "attrset": "pkgs.vimPlugins",
-        "rev": "",
-        "hash": "",
+        "rev": "98d9cb5c2c38532bd9bdb481067b20fea8f32e90",
+        "hash": "037sh4g1747wf07f9sqngiifp89hqww6m2rvizy5ra7jyd04magk",
         "last_commit": "2025-04-29"
     },
     {
@@ -1986,8 +1986,8 @@
         "id": "figsoda/nix-develop.nvim",
         "source": "gh",
         "attrset": "custom",
-        "rev": "",
-        "hash": "",
+        "rev": "bfba63d6c129d8b5073fe9eb965c9acee04becb0",
+        "hash": "sha256-JZ1QnbQlP/G4CahzvIZYWGhUe0jH4S9TF4xl6fJu2bA=",
         "last_commit": "2026-01-29"
     },
     {
@@ -2576,8 +2576,8 @@
         "id": "folke/neoconf.nvim",
         "source": "gh",
         "attrset": "pkgs.vimPlugins",
-        "rev": "",
-        "hash": "",
+        "rev": "c417fdeb58aede4097826b3aab9aae7fac7ee758",
+        "hash": "06vk3147plc0gqpn7vczzqhm24q5ir9f488pysxczba8q9r23k8v",
         "last_commit": "2026-03-20"
     },
     {
