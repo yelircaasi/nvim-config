@@ -1,0 +1,1162 @@
+{
+    "plenary": {
+        "location": "plenary",
+        "url": "https://github.com/nvim-lua/plenary.nvim",
+        "sha": "b9fd5226c2f76c951fc8ed5923d85e4de065e509",
+        "cloned_on": "2026-03-07",
+        "recency": "2025-07-26",
+        "version": null
+    },
+    "nio": {
+        "location": "nio",
+        "url": "https://github.com/nvim-neotest/nvim-nio",
+        "sha": "21f5324bfac14e22ba26553caf69ec76ae8a7662",
+        "cloned_on": "2026-03-07",
+        "recency": "2025-01-20",
+        "version": null
+    },
+    "nvim-web-devicons": {
+        "location": "nvim-web-devicons",
+        "url": "https://github.com/nvim-tree/nvim-web-devicons",
+        "sha": "737cf6c657898d0c697311d79d361288a1343d50",
+        "cloned_on": "2026-03-07",
+        "recency": "2026-02-26",
+        "version": null
+    },
+    "nui": {
+        "location": "nui",
+        "url": "https://github.com/MunifTanjim/nui.nvim",
+        "sha": "de740991c12411b663994b2860f1a4fd0937c130",
+        "cloned_on": "2026-03-07",
+        "recency": "2025-06-08",
+        "version": null
+    },
+    "bamboo": {
+        "location": "bamboo",
+        "url": "https://github.com/ribru17/bamboo.nvim",
+        "sha": "1309bc88bffcf1bedc3e84e7fa9004de93da774a",
+        "cloned_on": "2026-03-07",
+        "recency": "2025-11-24",
+        "version": null
+    },
+    "zen-mode": {
+        "location": "zen-mode",
+        "url": "https://github.com/folke/zen-mode.nvim",
+        "sha": "8564ce6d29ec7554eb9df578efa882d33b3c23a7",
+        "cloned_on": "2026-03-07",
+        "recency": "2025-10-28",
+        "version": null
+    },
+    "illuminate": {
+        "location": "illuminate",
+        "url": "https://github.com/RRethy/vim-illuminate",
+        "sha": "0d1e93684da00ab7c057410fecfc24f434698898",
+        "cloned_on": "2026-03-07",
+        "recency": "2025-05-24",
+        "version": null
+    },
+    "lualine": {
+        "location": "lualine",
+        "url": "https://github.com/nvim-lualine/lualine.nvim",
+        "sha": "47f91c416daef12db467145e16bed5bbfe00add8",
+        "cloned_on": "2026-03-07",
+        "recency": "2025-11-23",
+        "version": null
+    },
+    "nvim-navic": {
+        "location": "nvim-navic",
+        "url": "https://github.com/SmiteshP/nvim-navic",
+        "sha": "f5eba192f39b453675d115351808bd51276d9de5",
+        "cloned_on": "2026-03-07",
+        "recency": "2025-12-29",
+        "version": null
+    },
+    "bufferline": {
+        "location": "bufferline",
+        "url": "https://github.com/akinsho/bufferline.nvim",
+        "sha": "655133c3b4c3e5e05ec549b9f8cc2894ac6f51b3",
+        "cloned_on": "2026-03-07",
+        "recency": "2025-01-14",
+        "version": null
+    },
+    "statuscol": {
+        "location": "statuscol",
+        "url": "https://github.com/luukvbaal/statuscol.nvim",
+        "sha": "c46172d0911aa5d49ba5f39f4351d1bb7aa289cc",
+        "cloned_on": "2026-03-07",
+        "recency": "2025-06-02",
+        "version": null
+    },
+    "nvim-treesitter": {
+        "location": "nvim-treesitter",
+        "url": "https://github.com/nvim-treesitter/nvim-treesitter",
+        "sha": "544320a9cf5d6bf539ec1cc54d393064015670c4",
+        "cloned_on": "2026-03-07",
+        "recency": "2026-03-04",
+        "version": null
+    },
+    "treesitter-modules": {
+        "location": "treesitter-modules",
+        "url": "https://github.com/MeanderingProgrammer/treesitter-modules.nvim",
+        "sha": "0cc09da40061051b0186479203faa75052cddab6",
+        "cloned_on": "2026-03-07",
+        "recency": "2026-02-05",
+        "version": null
+    },
+    "dropbar": {
+        "location": "dropbar",
+        "url": "https://github.com/Bekaboo/dropbar.nvim",
+        "sha": "ce202248134e3949aac375fd66c28e5207785b10",
+        "cloned_on": "2026-03-07",
+        "recency": "2025-10-05",
+        "version": null
+    },
+    "nvim-navbuddy": {
+        "location": "NONEXISTENT",
+        "url": "https://github.com/SmiteshP/nvim-navbuddy",
+        "sha": "AAAAAAAAAAAAAAAA",
+        "cloned_on": "2026-03-07",
+        "recency": "1970-01-01",
+        "version": null
+    },
+    "aerial": {
+        "location": "aerial",
+        "url": "https://github.com/stevearc/aerial.nvim",
+        "sha": "645d108a5242ec7b378cbe643eb6d04d4223f034",
+        "cloned_on": "2026-03-07",
+        "recency": "2026-02-25",
+        "version": null
+    },
+    "oil": {
+        "location": "oil",
+        "url": "https://github.com/stevearc/oil.nvim",
+        "sha": "0fcc83805ad11cf714a949c98c605ed717e0b83e",
+        "cloned_on": "2026-03-07",
+        "recency": "2026-02-23",
+        "version": null
+    },
+    "yazi": {
+        "location": "yazi",
+        "url": "https://github.com/mikavilpas/yazi.nvim",
+        "sha": "30531c7283b16134cae28d5217b4341ac9486a06",
+        "cloned_on": "2026-03-07",
+        "recency": "2026-03-01",
+        "version": null
+    },
+    "neo-tree": {
+        "location": "neo-tree",
+        "url": "https://github.com/nvim-neo-tree/neo-tree.nvim",
+        "sha": "9d6826582a3e8c84787bd7355df22a2812a1ad59",
+        "cloned_on": "2026-03-07",
+        "recency": "2026-02-26",
+        "version": null
+    },
+    "nvim-tree": {
+        "location": "nvim-tree",
+        "url": "https://github.com/nvim-tree/nvim-tree.lua",
+        "sha": "4b30847c91d498446cb8440c03031359b045e050",
+        "cloned_on": "2026-03-07",
+        "recency": "2026-03-05",
+        "version": null
+    },
+    "pickme": {
+        "location": "pickme",
+        "url": "https://github.com/2KAbhishek/pickme.nvim",
+        "sha": "3bfd63fa0a1fa362afc9dfa86b83100e75903e6b",
+        "cloned_on": "2026-03-07",
+        "recency": "2025-12-24",
+        "version": null
+    },
+    "telescope": {
+        "location": "telescope",
+        "url": "https://github.com/nvim-telescope/telescope.nvim",
+        "sha": "5255aa27c422de944791318024167ad5d40aad20",
+        "cloned_on": "2026-03-07",
+        "recency": "2026-02-16",
+        "version": null
+    },
+    "telescope-fzf-native": {
+        "location": "telescope-fzf-native",
+        "url": "https://github.com/nvim-telescope/telescope-fzf-native.nvim",
+        "sha": "6fea601bd2b694c6f2ae08a6c6fab14930c60e2c",
+        "cloned_on": "2026-03-07",
+        "recency": "2025-11-07",
+        "version": null
+    },
+    "fzf-lua": {
+        "location": "fzf-lua",
+        "url": "https://github.com/ibhagwan/fzf-lua",
+        "sha": "1eba927866251bae1b61dffc5b673b8dbd0f3f48",
+        "cloned_on": "2026-03-07",
+        "recency": "2026-03-04",
+        "version": null
+    },
+    "deck": {
+        "location": "deck",
+        "url": "https://github.com/hrsh7th/nvim-deck",
+        "sha": "280a8d4c7816a7f8b5417b97430b1a8c3f2ea512",
+        "cloned_on": "2026-03-07",
+        "recency": "2026-02-24",
+        "version": null
+    },
+    "mini": {
+        "location": "mini",
+        "url": "https://github.com/nvim-mini/mini.nvim",
+        "sha": "cad365c212fb1e332cb93fa8f72697125799d00a",
+        "cloned_on": "2026-03-07",
+        "recency": "2026-03-03",
+        "version": null
+    },
+    "snacks": {
+        "location": "snacks",
+        "url": "https://github.com/folke/snacks.nvim",
+        "sha": "9912042fc8bca2209105526ac7534e9a0c2071b2",
+        "cloned_on": "2026-03-07",
+        "recency": "2026-03-01",
+        "version": null
+    },
+    "blink": {
+        "location": "blink",
+        "url": "https://github.com/saghen/blink.nvim",
+        "sha": "d1e7c7c45d45c6b6a25427bf62db4db73b03ff3d",
+        "cloned_on": "2026-03-07",
+        "recency": "2025-10-21",
+        "version": null
+    },
+    "hlslens": {
+        "location": "hlslens",
+        "url": "https://github.com/kevinhwang91/nvim-hlslens",
+        "sha": "be2d7b2be01860b5445a007ff2bc72b29896db6b",
+        "cloned_on": "2026-03-07",
+        "recency": "2026-01-11",
+        "version": null
+    },
+    "hlsearch": {
+        "location": "hlsearch",
+        "url": "https://github.com/nvimdev/hlsearch.nvim",
+        "sha": "fdeb60b890d15d9194e8600042e5232ef8c29b0e",
+        "cloned_on": "2026-03-07",
+        "recency": "2024-01-10",
+        "version": null
+    },
+    "grug-far": {
+        "location": "grug-far",
+        "url": "https://github.com/MagicDuck/grug-far.nvim",
+        "sha": "ac52ee2d87399dfd7b0d59d5b1d2bbaf2a4028f1",
+        "cloned_on": "2026-03-07",
+        "recency": "2026-03-02",
+        "version": null
+    },
+    "spectre": {
+        "location": "spectre",
+        "url": "https://github.com/nvim-pack/nvim-spectre",
+        "sha": "72f56f7585903cd7bf92c665351aa585e150af0f",
+        "cloned_on": "2026-03-07",
+        "recency": "2025-05-13",
+        "version": null
+    },
+    "nvim_winpick": {
+        "location": "nvim_winpick",
+        "url": "https://github.com/MarcusGrass/nvim_winpick",
+        "sha": "18037e9f5ce417bd75d16ebbf70787bcc478c249",
+        "cloned_on": "2026-03-07",
+        "recency": "2025-06-30",
+        "version": null
+    },
+    "flybuf": {
+        "location": "flybuf",
+        "url": "https://github.com/nvimdev/flybuf.nvim",
+        "sha": "fe1fbd9699f6988a1db3b2e2ffa599154784c6e1",
+        "cloned_on": "2026-03-07",
+        "recency": "2023-03-25",
+        "version": null
+    },
+    "stickybuf": {
+        "location": "stickybuf",
+        "url": "https://github.com/stevearc/stickybuf.nvim",
+        "sha": "0c1e5f1a3eb36eea2cea57083828269cc62c58e4",
+        "cloned_on": "2026-03-07",
+        "recency": "2025-03-04",
+        "version": null
+    },
+    "swm": {
+        "location": "swm",
+        "url": "https://github.com/hrsh7th/nvim-swm",
+        "sha": "4ccb2b137b117092f3efa426261ddbef25111454",
+        "cloned_on": "2026-03-07",
+        "recency": "2025-02-11",
+        "version": null
+    },
+    "smart-splits": {
+        "location": "smart-splits",
+        "url": "https://github.com/mrjones2014/smart-splits.nvim",
+        "sha": "f4e4908fe901444d05feff0ad1cca146ec0be73f",
+        "cloned_on": "2026-03-07",
+        "recency": "2026-02-27",
+        "version": null
+    },
+    "ufo": {
+        "location": "ufo",
+        "url": "https://github.com/kevinhwang91/nvim-ufo",
+        "sha": "ab3eb124062422d276fae49e0dd63b3ad1062cfc",
+        "cloned_on": "2026-03-07",
+        "recency": "2026-01-11",
+        "version": null
+    },
+    "NeoComposer": {
+        "location": "NeoComposer",
+        "url": "https://github.com/lvim-tech/NeoComposer.nvim",
+        "sha": "83f78b23c4f6826b0f484a91869415b85f74b24f",
+        "cloned_on": "2026-03-07",
+        "recency": "2025-05-17",
+        "version": null
+    },
+    "nvim-macros": {
+        "location": "nvim-macros",
+        "url": "https://github.com/kr40/nvim-macros",
+        "sha": "f29d08ee7844ed6c9552699206e8c977d6936ee4",
+        "cloned_on": "2026-03-07",
+        "recency": "2024-02-16",
+        "version": null
+    },
+    "recorder": {
+        "location": "recorder",
+        "url": "https://github.com/chrisgrieser/nvim-recorder",
+        "sha": "cf2e07d1d60f225943b2f2457ecd8e2b3e4ee2d5",
+        "cloned_on": "2026-03-07",
+        "recency": "2026-02-06",
+        "version": null
+    },
+    "vim-visual-multi": {
+        "location": "vim-visual-multi",
+        "url": "https://github.com/mg979/vim-visual-multi",
+        "sha": "a6975e7c1ee157615bbc80fc25e4392f71c344d4",
+        "cloned_on": "2026-03-07",
+        "recency": "2024-09-01",
+        "version": null
+    },
+    "leap": {
+        "location": "leap",
+        "url": "https://codeberg.org/andyg/leap.nvim",
+        "sha": "b81866399072af08195ebfbcfea9d3dcab970972",
+        "cloned_on": "2026-03-07",
+        "recency": "2026-02-23",
+        "version": null
+    },
+    "flash": {
+        "location": "flash",
+        "url": "https://github.com/folke/flash.nvim",
+        "sha": "fcea7ff883235d9024dc41e638f164a450c14ca2",
+        "cloned_on": "2026-03-07",
+        "recency": "2025-10-28",
+        "version": null
+    },
+    "hop": {
+        "location": "hop",
+        "url": "https://github.com/smoka7/hop.nvim",
+        "sha": "707049feaca9ae65abb3696eff9aefc7879e66aa",
+        "cloned_on": "2026-03-07",
+        "recency": "2025-08-22",
+        "version": null
+    },
+    "rainbow-delimiters": {
+        "location": "rainbow-delimiters",
+        "url": "https://github.com/HiPhish/rainbow-delimiters.nvim",
+        "sha": "01993eb20c6cdc1d33e7e98252368840309f99b9",
+        "cloned_on": "2026-03-07",
+        "recency": "2026-02-24",
+        "version": null
+    },
+    "nvim-autopairs": {
+        "location": "nvim-autopairs",
+        "url": "https://github.com/windwp/nvim-autopairs",
+        "sha": "59bce2eef357189c3305e25bc6dd2d138c1683f5",
+        "cloned_on": "2026-03-07",
+        "recency": "2026-01-30",
+        "version": null
+    },
+    "blink.pairs": {
+        "location": "blink.pairs",
+        "url": "https://github.com/saghen/blink.pairs",
+        "sha": "c7986efb702d995fa8d937c23a0bd03c9d3e92b3",
+        "cloned_on": "2026-03-07",
+        "recency": "2026-03-04",
+        "version": null
+    },
+    "vim-sandwich": {
+        "location": "vim-sandwich",
+        "url": "https://github.com/machakann/vim-sandwich",
+        "sha": "74cf93d58ccc567d8e2310a69860f1b93af19403",
+        "cloned_on": "2026-03-07",
+        "recency": "2024-03-20",
+        "version": null
+    },
+    "surround": {
+        "location": "surround",
+        "url": "https://github.com/kylechui/nvim-surround",
+        "sha": "9488883f58161c1e302ae6bfa5ecd79ac828b36e",
+        "cloned_on": "2026-03-07",
+        "recency": "2026-03-04",
+        "version": null
+    },
+    "vim-mundo": {
+        "location": "vim-mundo",
+        "url": "https://github.com/simnalamburt/vim-mundo",
+        "sha": "2ceda8c65f7b3f9066820729fc02003a09df91f9",
+        "cloned_on": "2026-03-07",
+        "recency": "2023-12-15",
+        "version": null
+    },
+    "mini.keymap": {
+        "location": "mini.keymap",
+        "url": "https://github.com/nvim-mini/mini.keymap",
+        "sha": "c6f362c835914188d499694743fb89014a815e2c",
+        "cloned_on": "2026-03-07",
+        "recency": "2026-02-21",
+        "version": null
+    },
+    "hydra": {
+        "location": "hydra",
+        "url": "https://github.com/nvimtools/hydra.nvim",
+        "sha": "8c4a9f621ec7cdc30411a1f3b6d5eebb12b469dc",
+        "cloned_on": "2026-03-07",
+        "recency": "2025-05-03",
+        "version": null
+    },
+    "nvim-insx": {
+        "location": "nvim-insx",
+        "url": "https://github.com/hrsh7th/nvim-insx",
+        "sha": "fbba86031f3927ecbc11556217b4976a149c29c6",
+        "cloned_on": "2026-03-07",
+        "recency": "2025-06-10",
+        "version": null
+    },
+    "which-key": {
+        "location": "which-key",
+        "url": "https://github.com/folke/which-key.nvim",
+        "sha": "3aab2147e74890957785941f0c1ad87d0a44c15a",
+        "cloned_on": "2026-03-07",
+        "recency": "2025-10-28",
+        "version": null
+    },
+    "indentmini": {
+        "location": "indentmini",
+        "url": "https://github.com/nvimdev/indentmini.nvim",
+        "sha": "38572ce5a7a064a5deb89d6d861b7c40fc929ab1",
+        "cloned_on": "2026-03-07",
+        "recency": "2026-01-04",
+        "version": null
+    },
+    "indent-blankline": {
+        "location": "indent-blankline",
+        "url": "https://github.com/lukas-reineke/indent-blankline.nvim",
+        "sha": "d28a3f70721c79e3c5f6693057ae929f3d9c0a03",
+        "cloned_on": "2026-03-07",
+        "recency": "2026-02-17",
+        "version": null
+    },
+    "nvim-anydent": {
+        "location": "nvim-anydent",
+        "url": "https://github.com/hrsh7th/nvim-anydent",
+        "sha": "b6151bd50d5935522a71709202a0495a50681156",
+        "cloned_on": "2026-03-07",
+        "recency": "2026-01-22",
+        "version": null
+    },
+    "mini.align": {
+        "location": "mini.align",
+        "url": "https://github.com/nvim-mini/mini.align",
+        "sha": "4d45e0e4f1fd8baefb6ae52a44659704fe7ebe8b",
+        "cloned_on": "2026-03-07",
+        "recency": "2026-02-21",
+        "version": null
+    },
+    "tabular": {
+        "location": "tabular",
+        "url": "https://github.com/godlygeek/tabular",
+        "sha": "12437cd1b53488e24936ec4b091c9324cafee311",
+        "cloned_on": "2026-03-07",
+        "recency": "2024-07-03",
+        "version": null
+    },
+    "nvim-treesitter-textobjects": {
+        "location": "nvim-treesitter-textobjects",
+        "url": "https://github.com/nvim-treesitter/nvim-treesitter-textobjects",
+        "sha": "0bc4ef0a34d80fd6e67b59bd71fcbb0ef9ef4756",
+        "cloned_on": "2026-03-07",
+        "recency": "2026-03-04",
+        "version": null
+    },
+    "nvim-various-textobjs": {
+        "location": "nvim-various-textobjs",
+        "url": "https://github.com/chrisgrieser/nvim-various-textobjs",
+        "sha": "34ca4f6b54cf167554c5792cacc69c930b654136",
+        "cloned_on": "2026-03-07",
+        "recency": "2026-02-10",
+        "version": null
+    },
+    "Comment": {
+        "location": "Comment",
+        "url": "https://github.com/numToStr/Comment.nvim",
+        "sha": "e30b7f2008e52442154b66f7c519bfd2f1e32acb",
+        "cloned_on": "2026-03-07",
+        "recency": "2024-06-09",
+        "version": null
+    },
+    "todo-comments": {
+        "location": "todo-comments",
+        "url": "https://github.com/folke/todo-comments.nvim",
+        "sha": "31e3c38ce9b29781e4422fc0322eb0a21f4e8668",
+        "cloned_on": "2026-03-07",
+        "recency": "2025-11-10",
+        "version": null
+    },
+    "vim-commentary": {
+        "location": "vim-commentary",
+        "url": "https://github.com/tpope/vim-commentary",
+        "sha": "64a654ef4a20db1727938338310209b6a63f60c9",
+        "cloned_on": "2026-03-07",
+        "recency": "2024-10-21",
+        "version": null
+    },
+    "treesj": {
+        "location": "treesj",
+        "url": "https://github.com/Wansmer/treesj",
+        "sha": "186084dee5e9c8eec40f6e39481c723dd567cb05",
+        "cloned_on": "2026-03-07",
+        "recency": "2025-12-08",
+        "version": null
+    },
+    "dial": {
+        "location": "dial",
+        "url": "https://github.com/monaqa/dial.nvim",
+        "sha": "f2634758455cfa52a8acea6f142dcd6271a1bf57",
+        "cloned_on": "2026-03-07",
+        "recency": "2025-12-21",
+        "version": null
+    },
+    "harpoon-core": {
+        "location": "harpoon-core",
+        "url": "https://github.com/MeanderingProgrammer/harpoon-core.nvim",
+        "sha": "61ccd5f77cb70fef6f96ddd00fe2bf7a9a3670fa",
+        "cloned_on": "2026-03-07",
+        "recency": "2025-08-29",
+        "version": null
+    },
+    "marks": {
+        "location": "marks",
+        "url": "https://github.com/chentoast/marks.nvim",
+        "sha": "f353e8c08c50f39e99a9ed474172df7eddd89b72",
+        "cloned_on": "2026-03-07",
+        "recency": "2025-05-13",
+        "version": null
+    },
+    "markit": {
+        "location": "markit",
+        "url": "https://github.com/2KAbhishek/markit.nvim",
+        "sha": "c716195d5b0b21ef03a20a1facc46d33ca9f7c49",
+        "cloned_on": "2026-03-07",
+        "recency": "2025-10-09",
+        "version": null
+    },
+    "nvim-pasta": {
+        "location": "nvim-pasta",
+        "url": "https://github.com/hrsh7th/nvim-pasta",
+        "sha": "7cc66bcf7101e40a6184b46a37eff0d5a43bde8d",
+        "cloned_on": "2026-03-07",
+        "recency": "2024-10-24",
+        "version": null
+    },
+    "beam": {
+        "location": "beam",
+        "url": "https://github.com/Piotr1215/beam.nvim",
+        "sha": "78c0cb21b2ad026768d2ff96f1570c4c2d5d8087",
+        "cloned_on": "2026-03-07",
+        "recency": "2026-01-29",
+        "version": null
+    },
+    "blink.cmp": {
+        "location": "blink.cmp",
+        "url": "https://github.com/Saghen/blink.cmp",
+        "sha": "e9556f9b981f395e22a6bfd69fd5f3008a2a6cd9",
+        "cloned_on": "2026-03-07",
+        "recency": "2026-03-05",
+        "version": null
+    },
+    "nvim-cmp": {
+        "location": "nvim-cmp",
+        "url": "https://github.com/hrsh7th/nvim-cmp",
+        "sha": "da88697d7f45d16852c6b2769dc52387d1ddc45f",
+        "cloned_on": "2026-03-07",
+        "recency": "2026-01-23",
+        "version": null
+    },
+    "friendly-snippets": {
+        "location": "friendly-snippets",
+        "url": "https://github.com/rafamadriz/friendly-snippets",
+        "sha": "6cd7280adead7f586db6fccbd15d2cac7e2188b9",
+        "cloned_on": "2026-03-07",
+        "recency": "2026-01-23",
+        "version": null
+    },
+    "ultisnips": {
+        "location": "ultisnips",
+        "url": "https://github.com/SirVer/ultisnips",
+        "sha": "b22a86f9dcc5257624bff3c72d8b902eac468aad",
+        "cloned_on": "2026-03-07",
+        "recency": "2025-06-05",
+        "version": null
+    },
+    "LuaSnip": {
+        "location": "LuaSnip",
+        "url": "https://github.com/L3MON4D3/LuaSnip",
+        "sha": "dae4f5aaa3574bd0c2b9dd20fb9542a02c10471c",
+        "cloned_on": "2026-03-07",
+        "recency": "2026-01-19",
+        "version": null
+    },
+    "cmp-nvim-lsp": {
+        "location": "cmp-nvim-lsp",
+        "url": "https://github.com/hrsh7th/cmp-nvim-lsp",
+        "sha": "cbc7b02bb99fae35cb42f514762b89b5126651ef",
+        "cloned_on": "2026-03-07",
+        "recency": "2025-11-13",
+        "version": null
+    },
+    "cmp-buffer": {
+        "location": "cmp-buffer",
+        "url": "https://github.com/hrsh7th/cmp-buffer",
+        "sha": "b74fab3656eea9de20a9b8116afa3cfc4ec09657",
+        "cloned_on": "2026-03-07",
+        "recency": "2025-04-01",
+        "version": null
+    },
+    "cmp-path": {
+        "location": "cmp-path",
+        "url": "https://github.com/hrsh7th/cmp-path",
+        "sha": "c642487086dbd9a93160e1679a1327be111cbc25",
+        "cloned_on": "2026-03-07",
+        "recency": "2025-07-30",
+        "version": null
+    },
+    "cmp-cmdline": {
+        "location": "cmp-cmdline",
+        "url": "https://github.com/hrsh7th/cmp-cmdline",
+        "sha": "d126061b624e0af6c3a556428712dd4d4194ec6d",
+        "cloned_on": "2026-03-07",
+        "recency": "2025-05-18",
+        "version": null
+    },
+    "lsp-format": {
+        "location": "lsp-format",
+        "url": "https://github.com/lukas-reineke/lsp-format.nvim",
+        "sha": "42d1d3e407c846d95f84ea3767e72ed6e08f7495",
+        "cloned_on": "2026-03-07",
+        "recency": "2025-05-08",
+        "version": null
+    },
+    "lspkind": {
+        "location": "lspkind",
+        "url": "https://github.com/onsails/lspkind.nvim",
+        "sha": "c7274c48137396526b59d86232eabcdc7fed8a32",
+        "cloned_on": "2026-03-07",
+        "recency": "2026-01-29",
+        "version": null
+    },
+    "efm": {
+        "location": "efm",
+        "url": "https://github.com/mattn/efm-langserver",
+        "sha": "011a299e9e73e9f837ad477a74f201debe27e061",
+        "cloned_on": "2026-03-07",
+        "recency": "2026-02-21",
+        "version": null
+    },
+    "lspsaga": {
+        "location": "lspsaga",
+        "url": "https://github.com/nvimdev/lspsaga.nvim",
+        "sha": "562d9724e3869ffd1801c572dd149cc9f8d0cc36",
+        "cloned_on": "2026-03-07",
+        "recency": "2026-03-03",
+        "version": null
+    },
+    "lazydev": {
+        "location": "lazydev",
+        "url": "https://github.com/folke/lazydev.nvim",
+        "sha": "5231c62aa83c2f8dc8e7ba957aa77098cda1257d",
+        "cloned_on": "2026-03-07",
+        "recency": "2025-11-06",
+        "version": null
+    },
+    "rustaceanvim": {
+        "location": "rustaceanvim",
+        "url": "https://github.com/mrcjkb/rustaceanvim",
+        "sha": "f2f0c1231a5b019dbc1fd6dafac1751c878925a3",
+        "cloned_on": "2026-03-07",
+        "recency": "2026-03-04",
+        "version": null
+    },
+    "crates": {
+        "location": "crates",
+        "url": "https://github.com/saecki/crates.nvim",
+        "sha": "ac9fa498a9edb96dc3056724ff69d5f40b898453",
+        "cloned_on": "2026-03-07",
+        "recency": "2025-08-23",
+        "version": null
+    },
+    "haskell-tools": {
+        "location": "haskell-tools",
+        "url": "https://github.com/mrcjkb/haskell-tools.nvim",
+        "sha": "6e2016272ad21fdbe5c8bf8eb7f0342df8061672",
+        "cloned_on": "2026-03-07",
+        "recency": "2026-03-01",
+        "version": null
+    },
+    "none-ls": {
+        "location": "none-ls",
+        "url": "https://github.com/nvimtools/none-ls.nvim",
+        "sha": "f61f46ded0ca9edce7a09b674f8e162d10921426",
+        "cloned_on": "2026-03-07",
+        "recency": "2026-02-16",
+        "version": null
+    },
+    "guard": {
+        "location": "guard",
+        "url": "https://github.com/nvimdev/guard.nvim",
+        "sha": "addb8d2f40662b8b62d60dd7d18f503beb2332e7",
+        "cloned_on": "2026-03-07",
+        "recency": "2026-01-31",
+        "version": null
+    },
+    "conform": {
+        "location": "conform",
+        "url": "https://github.com/stevearc/conform.nvim",
+        "sha": "40dcec5555f960b0a04340d76eabdf4efe78599d",
+        "cloned_on": "2026-03-07",
+        "recency": "2026-03-01",
+        "version": null
+    },
+    "overseer": {
+        "location": "overseer",
+        "url": "https://github.com/stevearc/overseer.nvim",
+        "sha": "2802c15182dae2de71f9c82e918d7ba850b90c22",
+        "cloned_on": "2026-03-07",
+        "recency": "2026-02-23",
+        "version": null
+    },
+    "asyncrun": {
+        "location": "asyncrun",
+        "url": "https://github.com/skywind3000/asyncrun.vim",
+        "sha": "98d3c0fdeb983f0ef62fe3a49da440f6d2c045ce",
+        "cloned_on": "2026-03-07",
+        "recency": "2025-11-21",
+        "version": null
+    },
+    "compiler": {
+        "location": "compiler",
+        "url": "https://github.com/Zeioth/compiler.nvim",
+        "sha": "c09ab4e795b92378727d7377c03b0d5c2453957c",
+        "cloned_on": "2026-03-07",
+        "recency": "2025-08-14",
+        "version": null
+    },
+    "code_runner": {
+        "location": "code_runner",
+        "url": "https://github.com/CRAG666/code_runner.nvim",
+        "sha": "3be33a8d4ce36e453fc09258c9093f9ecf452964",
+        "cloned_on": "2026-03-07",
+        "recency": "2026-02-13",
+        "version": null
+    },
+    "sniprun": {
+        "location": "sniprun",
+        "url": "https://github.com/michaelb/sniprun",
+        "sha": "973acfe83cff35d13b95369a5606c47565b824fb",
+        "cloned_on": "2026-03-07",
+        "recency": "2026-02-26",
+        "version": null
+    },
+    "yabs": {
+        "location": "yabs",
+        "url": "https://github.com/pianocomposer321/officer.nvim",
+        "sha": "29df3cd138bbc453ab71303f8f64ff04a599fc90",
+        "cloned_on": "2026-03-07",
+        "recency": "2025-09-09",
+        "version": null
+    },
+    "neotest-haskell": {
+        "location": "neotest-haskell",
+        "url": "https://github.com/MrcJkb/neotest-haskell",
+        "sha": "732a258dd480b9dd71d76185600f3fc4426e92eb",
+        "cloned_on": "2026-03-07",
+        "recency": "2026-03-01",
+        "version": null
+    },
+    "neotest-python": {
+        "location": "neotest-python",
+        "url": "https://github.com/nvim-neotest/neotest-python",
+        "sha": "b0d3a861bd85689d8ed73f0590c47963a7eb1bf9",
+        "cloned_on": "2026-03-07",
+        "recency": "2025-10-13",
+        "version": null
+    },
+    "neotest": {
+        "location": "neotest",
+        "url": "https://github.com/nvim-neotest/neotest",
+        "sha": "deadfb1af5ce458742671ad3a013acb9a6b41178",
+        "cloned_on": "2026-03-07",
+        "recency": "2025-11-08",
+        "version": null
+    },
+    "dap-python": {
+        "location": "dap-python",
+        "url": "https://codeberg.org/mfussenegger/nvim-dap-python",
+        "sha": "1808458eba2b18f178f990e01376941a42c7f93b",
+        "cloned_on": "2026-03-07",
+        "recency": "2025-12-20",
+        "version": null
+    },
+    "dapui": {
+        "location": "dapui",
+        "url": "https://github.com/rcarriga/nvim-dap-ui",
+        "sha": "cf91d5e2d07c72903d052f5207511bf7ecdb7122",
+        "cloned_on": "2026-03-07",
+        "recency": "2025-07-09",
+        "version": null
+    },
+    "nvim-dap-virtual-text": {
+        "location": "nvim-dap-virtual-text",
+        "url": "https://github.com/theHamsta/nvim-dap-virtual-text",
+        "sha": "fbdb48c2ed45f4a8293d0d483f7730d24467ccb6",
+        "cloned_on": "2026-03-07",
+        "recency": "2025-05-25",
+        "version": null
+    },
+    "dap": {
+        "location": "dap",
+        "url": "https://codeberg.org/mfussenegger/nvim-dap",
+        "sha": "b516f20b487b0ac6a281e376dfac1d16b5040041",
+        "cloned_on": "2026-03-07",
+        "recency": "2026-02-26",
+        "version": null
+    },
+    "mypy": {
+        "location": "mypy",
+        "url": "https://github.com/feakuru/mypy.nvim",
+        "sha": "43f9e095441bbe7c7281b9a888728dc2d87ffc4f",
+        "cloned_on": "2026-03-07",
+        "recency": "2025-08-26",
+        "version": null
+    },
+    "nvim-lint": {
+        "location": "nvim-lint",
+        "url": "https://github.com/mfussenegger/nvim-lint",
+        "sha": "606b823a57b027502a9ae00978ebf4f5d5158098",
+        "cloned_on": "2026-03-07",
+        "recency": "2026-02-23",
+        "version": null
+    },
+    "trouble.nvim": {
+        "location": "trouble.nvim",
+        "url": "https://github.com/folke/trouble.nvim",
+        "sha": "bd67efe408d4816e25e8491cc5ad4088e708a69a",
+        "cloned_on": "2026-03-07",
+        "recency": "2025-10-31",
+        "version": null
+    },
+    "quicker": {
+        "location": "quicker",
+        "url": "https://github.com/stevearc/quicker.nvim",
+        "sha": "2d3f3276eab9352c7b212821c218aca986929f62",
+        "cloned_on": "2026-03-07",
+        "recency": "2026-02-22",
+        "version": null
+    },
+    "nvim-bqf": {
+        "location": "nvim-bqf",
+        "url": "https://github.com/kevinhwang91/nvim-bqf",
+        "sha": "f65fba733268ffcf9c5b8ac381287eca7c223422",
+        "cloned_on": "2026-03-07",
+        "recency": "2026-02-02",
+        "version": null
+    },
+    "vim-floaterm": {
+        "location": "vim-floaterm",
+        "url": "https://github.com/voldikss/vim-floaterm",
+        "sha": "0ab5eb8135dc884bc543a819ac7033c15e72a76b",
+        "cloned_on": "2026-03-07",
+        "recency": "2026-02-10",
+        "version": null
+    },
+    "refactoring": {
+        "location": "refactoring",
+        "url": "https://github.com/ThePrimeagen/refactoring.nvim",
+        "sha": "6784b54587e6d8a6b9ea199318512170ffb9e418",
+        "cloned_on": "2026-03-07",
+        "recency": "2025-10-21",
+        "version": null
+    },
+    "project": {
+        "location": "project",
+        "url": "https://github.com/ahmedkhalf/project.nvim",
+        "sha": "8c6bad7d22eef1b71144b401c9f74ed01526a4fb",
+        "cloned_on": "2026-03-07",
+        "recency": "2023-04-03",
+        "version": null
+    },
+    "telescope-project": {
+        "location": "telescope-project",
+        "url": "https://github.com/nvim-telescope/telescope-project.nvim",
+        "sha": "8e11df94419e444601c09828dadf70890484e443",
+        "cloned_on": "2026-03-07",
+        "recency": "2025-04-23",
+        "version": null
+    },
+    "jj": {
+        "location": "jj",
+        "url": "https://github.com/NicolasGB/jj.nvim",
+        "sha": "bbba4051c862473637e98277f284d12b050588ca",
+        "cloned_on": "2026-03-07",
+        "recency": "2026-02-24",
+        "version": null
+    },
+    "jujutsu": {
+        "location": "jujutsu",
+        "url": "https://github.com/yannvanhalewyn/jujutsu.nvim",
+        "sha": "348a208a92f054d70bc24b73dde11261f3b765c7",
+        "cloned_on": "2026-03-07",
+        "recency": "2026-02-05",
+        "version": null
+    },
+    "lazygit": {
+        "location": "lazygit",
+        "url": "https://github.com/kdheepak/lazygit.nvim",
+        "sha": "a04ad0dbc725134edbee3a5eea29290976695357",
+        "cloned_on": "2026-03-07",
+        "recency": "2025-12-19",
+        "version": null
+    },
+    "git-conflict": {
+        "location": "git-conflict",
+        "url": "https://github.com/akinsho/git-conflict.nvim",
+        "sha": "a1badcd070d176172940eb55d9d59029dad1c5a6",
+        "cloned_on": "2026-03-07",
+        "recency": "2024-12-27",
+        "version": null
+    },
+    "neogit": {
+        "location": "neogit",
+        "url": "https://github.com/NeogitOrg/neogit",
+        "sha": "7073f3aafc9030d457838995106784a9d1873b3b",
+        "cloned_on": "2026-03-07",
+        "recency": "2026-03-05",
+        "version": null
+    },
+    "jiejie": {
+        "location": "jiejie",
+        "url": "https://github.com/jceb/jiejie.nvim",
+        "sha": "6adaa521f91ecfc16ac254ee7a0c5a79e0829a35",
+        "cloned_on": "2026-03-07",
+        "recency": "2026-03-05",
+        "version": null
+    },
+    "diffview": {
+        "location": "diffview",
+        "url": "https://github.com/sindrets/diffview.nvim",
+        "sha": "4516612fe98ff56ae0415a259ff6361a89419b0a",
+        "cloned_on": "2026-03-07",
+        "recency": "2024-06-13",
+        "version": null
+    },
+    "gitsigns": {
+        "location": "gitsigns",
+        "url": "https://github.com/lewis6991/gitsigns.nvim",
+        "sha": "9f3c6dd7868bcc116e9c1c1929ce063b978fa519",
+        "cloned_on": "2026-03-07",
+        "recency": "2026-02-13",
+        "version": null
+    },
+    "vim-fugitive": {
+        "location": "vim-fugitive",
+        "url": "https://github.com/tpope/vim-fugitive",
+        "sha": "61b51c09b7c9ce04e821f6cf76ea4f6f903e3cf4",
+        "cloned_on": "2026-03-07",
+        "recency": "2025-07-15",
+        "version": null
+    },
+    "octo": {
+        "location": "octo",
+        "url": "https://github.com/pwntester/octo.nvim",
+        "sha": "c14f5b6ee92f0b2717efd525211bcb6cebf03fa6",
+        "cloned_on": "2026-03-07",
+        "recency": "2026-03-04",
+        "version": null
+    },
+    "gitlab-nvim": {
+        "location": "gitlab-nvim",
+        "url": "https://github.com/harrisoncramer/gitlab.nvim",
+        "sha": "3d2828a9504b87fc36ee2aca1b0f36cf75003edd",
+        "cloned_on": "2026-03-07",
+        "recency": "2026-01-30",
+        "version": null
+    },
+    "gitlab": {
+        "location": "gitlab",
+        "url": "https://gitlab.com/gitlab-org/editor-extensions/gitlab.vim",
+        "sha": "191eecd7f8a2f563054c6574b0f1969970dadb7d",
+        "cloned_on": "2026-03-07",
+        "recency": "2026-03-05",
+        "version": null
+    },
+    "dashboard-nvim": {
+        "location": "dashboard-nvim",
+        "url": "https://github.com/nvimdev/dashboard-nvim",
+        "sha": "0775e567b6c0be96d01a61795f7b64c1758262f6",
+        "cloned_on": "2026-03-07",
+        "recency": "2025-08-31",
+        "version": null
+    },
+    "dashboard": {
+        "location": "dashboard",
+        "url": "https://github.com/MeanderingProgrammer/dashboard.nvim",
+        "sha": "ba80a1e57feb278872c6bb5c2b1048a80b58e921",
+        "cloned_on": "2026-03-07",
+        "recency": "2025-10-13",
+        "version": null
+    },
+    "noice": {
+        "location": "noice",
+        "url": "https://github.com/folke/noice.nvim",
+        "sha": "7bfd942445fb63089b59f97ca487d605e715f155",
+        "cloned_on": "2026-03-07",
+        "recency": "2025-11-03",
+        "version": null
+    },
+    "modes": {
+        "location": "modes",
+        "url": "https://github.com/mvllow/modes.nvim",
+        "sha": "0932ba4e0bdc3457ac89a8aeed4d56ca0b36977a",
+        "cloned_on": "2026-03-07",
+        "recency": "2025-09-13",
+        "version": null
+    },
+    "fidget": {
+        "location": "fidget",
+        "url": "https://github.com/j-hui/fidget.nvim",
+        "sha": "7fa433a83118a70fe24c1ce88d5f0bd3453c0970",
+        "cloned_on": "2026-03-07",
+        "recency": "2026-01-13",
+        "version": null
+    },
+    "nvim-notify": {
+        "location": "nvim-notify",
+        "url": "https://github.com/rcarriga/nvim-notify",
+        "sha": "8701bece920b38ea289b457f902e2ad184131a5d",
+        "cloned_on": "2026-03-07",
+        "recency": "2025-09-06",
+        "version": null
+    },
+    "headlines": {
+        "location": "headlines",
+        "url": "https://github.com/lukas-reineke/headlines.nvim",
+        "sha": "bf17c96a836ea27c0a7a2650ba385a7783ed322e",
+        "cloned_on": "2026-03-07",
+        "recency": "2024-09-13",
+        "version": null
+    },
+    "auto-session": {
+        "location": "auto-session",
+        "url": "https://github.com/rmagatti/auto-session",
+        "sha": "62437532b38495551410b3f377bcf4aaac574ebe",
+        "cloned_on": "2026-03-07",
+        "recency": "2026-02-15",
+        "version": null
+    },
+    "persistence": {
+        "location": "persistence",
+        "url": "https://github.com/folke/persistence.nvim",
+        "sha": "b20b2a7887bd39c1a356980b45e03250f3dce49c",
+        "cloned_on": "2026-03-07",
+        "recency": "2025-10-28",
+        "version": null
+    },
+    "vimtex": {
+        "location": "vimtex",
+        "url": "https://github.com/lervag/vimtex",
+        "sha": "82d2305ff71dfb3bd91602534cc9bb9a195bcb38",
+        "cloned_on": "2026-03-07",
+        "recency": "2026-03-04",
+        "version": null
+    },
+    "texmagic": {
+        "location": "texmagic",
+        "url": "https://github.com/jakewvincent/texmagic.nvim",
+        "sha": "8172d2d974b444dcc996d87a9e05723348676d5e",
+        "cloned_on": "2026-03-07",
+        "recency": "2026-03-02",
+        "version": null
+    },
+    "schemastore": {
+        "location": "schemastore",
+        "url": "https://github.com/b0o/SchemaStore.nvim",
+        "sha": "e75f2362624698864957a694d80ca0c116bd24d3",
+        "cloned_on": "2026-03-07",
+        "recency": "2026-03-04",
+        "version": null
+    },
+    "firenvim": {
+        "location": "firenvim",
+        "url": "https://github.com/glacambre/firenvim",
+        "sha": "a18ef908ac06b52ad9333b70e3e630b0a56ecb3d",
+        "cloned_on": "2026-03-07",
+        "recency": "2025-09-30",
+        "version": null
+    },
+    "render-markdown": {
+        "location": "render-markdown",
+        "url": "https://github.com/MeanderingProgrammer/render-markdown.nvim",
+        "sha": "907505549edc2f90c82fc429348af03ee8c3a825",
+        "cloned_on": "2026-03-07",
+        "recency": "2026-03-05",
+        "version": null
+    },
+    "jupytext": {
+        "location": "jupytext",
+        "url": "https://github.com/GCBallesteros/jupytext.nvim",
+        "sha": "c8baf3ad344c59b3abd461ecc17fc16ec44d0f7b",
+        "cloned_on": "2026-03-07",
+        "recency": "2024-04-05",
+        "version": null
+    },
+    "quarto": {
+        "location": "quarto",
+        "url": "https://github.com/quarto-dev/quarto-nvim",
+        "sha": "d923bb7cfc2bde41143e1c531c28190f0fade3a2",
+        "cloned_on": "2026-03-07",
+        "recency": "2026-01-29",
+        "version": null
+    },
+    "markdown-preview": {
+        "location": "markdown-preview",
+        "url": "https://github.com/iamcco/markdown-preview.nvim",
+        "sha": "a923f5fc5ba36a3b17e289dc35dc17f66d0548ee",
+        "cloned_on": "2026-03-07",
+        "recency": "2023-10-17",
+        "version": null
+    },
+    "structlog": {
+        "location": "structlog",
+        "url": "https://github.com/Tastyep/structlog.nvim",
+        "sha": "45b26a2b1036bb93c0e83f4225e85ab3cee8f476",
+        "cloned_on": "2026-03-07",
+        "recency": "2023-01-08",
+        "version": null
+    },
+    "neorepl": {
+        "location": "neorepl",
+        "url": "https://github.com/ii14/neorepl.nvim",
+        "sha": "15f4c4e523e1fbec74766e1967e1c2491df013c9",
+        "cloned_on": "2026-03-07",
+        "recency": "2024-06-02",
+        "version": null
+    }
+}
