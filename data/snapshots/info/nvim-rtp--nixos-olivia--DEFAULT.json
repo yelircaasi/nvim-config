@@ -1,0 +1,507 @@
+{
+    "default": [
+        "/home/isaac/.config/nvim",
+        "/etc/xdg/nvim",
+        "/home/isaac/.nix-profile/etc/xdg/nvim",
+        "/nix/profile/etc/xdg/nvim",
+        "/home/isaac/.local/state/nix/profile/etc/xdg/nvim",
+        "/etc/profiles/per-user/isaac/etc/xdg/nvim",
+        "/nix/var/nix/profiles/default/etc/xdg/nvim",
+        "/run/current-system/sw/etc/xdg/nvim",
+        "/home/isaac/.local/share/nvim/site",
+        "/nix/store/69wb0ahs612ij2xa6lsz9w3xl85cc748-nvimtool-dev-env/share/nvim/site",
+        "/nix/store/c3lchpxlwk89fd6qshz74hgzd8g5cc4h-graphviz-12.2.1/share/nvim/site",
+        "/nix/store/7yj5hbz5fbnk5x8gfyxfi46bs2867k4b-mdsf-0.11.1/share/nvim/site",
+        "/nix/store/ppfn03rv71z09cxqcpij106kj8ah72r1-treefmt-2.4.1/share/nvim/site",
+        "/nix/store/l5vs6dp8icnf785lwa141sz6k27qc0ra-shfmt-3.13.0/share/nvim/site",
+        "/nix/store/my7pfhqj179i1chrh1wbij8lvxrsjgg6-jujutsu-0.39.0/share/nvim/site",
+        "/nix/store/3bmahvqq27hi64jnj3yzxi468zjvr9s5-perf-tools-unstable-2017-12-19/share/nvim/site",
+        "/nix/store/922crn2k3v8yaqk7anps80hba919lnds-ripgrep-15.1.0/share/nvim/site",
+        "/nix/store/836lndidk1144z81npf27c7dcgmczid3-fd-10.4.2/share/nvim/site",
+        "/nix/store/1n63v53bzw0j9qkivrqcmgx53kng3l7z-bat-0.26.1/share/nvim/site",
+        "/nix/store/bh0mb740hx20n4x0zp234wk0r33a8pi7-uv-0.11.2/share/nvim/site",
+        "/nix/store/yasj96m1zc22cd9mi6i2wgbznksk0ycj-just-1.48.1/share/nvim/site",
+        "/nix/store/f893jf3x0qyxn7mcagb3hipvhxawbds7-lefthook-2.1.1/share/nvim/site",
+        "/nix/store/z5pbd6hs610nm795rxy0dak46gglhikx-python3.13-commitizen-4.13.9/share/nvim/site",
+        "/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/share/nvim/site",
+        "/nix/store/rbjffacpx1pvc79rsvl7l05c3230q06z-ruff-0.15.7/share/nvim/site",
+        "/nix/store/qr0wqh2damb6asnyz4jkx61id5yg3qh2-python3-3.14.3/share/nvim/site",
+        "/nix/store/scabdfpsplnbmiw6vmba9ib2ipbsdvfd-python3.13-bandit-1.9.4/share/nvim/site",
+        "/nix/store/qa76af0p0njks1sawp3gdk9pambkgays-git-minimal-2.53.0/share/nvim/site",
+        "/nix/store/nwnwcq0s7cdi90wp4x5nzin9zb1zrm3g-ty-0.0.26/share/nvim/site",
+        "/nix/store/sj3f6y3j8m1831l0gqm1bsk1f46jzkfd-patchelf-0.15.2/share/nvim/site",
+        "/nix/store/aggkq1hd7gvgqd052bl1py6gj6fqv8n4-nvimtool-dev-env/share/nvim/site",
+        "/nix/store/xc7y53y1la52bm3zr2waxqsyyinw3mfi-vscode-1.113.0/share/nvim/site",
+        "/nix/store/xsfc5fcy12nmcdsdwm3dx1xfffh7xv30-gsettings-desktop-schemas-49.1/share/gsettings-schemas/gsettings-desktop-schemas-49.1/nvim/site",
+        "/nix/store/yl5yl395iqx88kd1m7lx7p7b65n0jfx9-gtk+3-3.24.51/share/gsettings-schemas/gtk+3-3.24.51/nvim/site",
+        "/home/isaac/.nix-profile/share/nvim/site",
+        "/nix/profile/share/nvim/site",
+        "/home/isaac/.local/state/nix/profile/share/nvim/site",
+        "/etc/profiles/per-user/isaac/share/nvim/site",
+        "/nix/var/nix/profiles/default/share/nvim/site",
+        "/run/current-system/sw/share/nvim/site",
+        "/run/opengl-driver/share/nvim/site",
+        "/run/opengl-driver-32/share/nvim/site",
+        "/usr/local/share/nvim/site",
+        "/usr/share/nvim/site",
+        "/nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime",
+        "/nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/lib/nvim",
+        "/usr/share/nvim/site/after",
+        "/usr/local/share/nvim/site/after",
+        "/run/opengl-driver-32/share/nvim/site/after",
+        "/run/opengl-driver/share/nvim/site/after",
+        "/run/current-system/sw/share/nvim/site/after",
+        "/nix/var/nix/profiles/default/share/nvim/site/after",
+        "/etc/profiles/per-user/isaac/share/nvim/site/after",
+        "/home/isaac/.local/state/nix/profile/share/nvim/site/after",
+        "/nix/profile/share/nvim/site/after",
+        "/home/isaac/.nix-profile/share/nvim/site/after",
+        "/nix/store/yl5yl395iqx88kd1m7lx7p7b65n0jfx9-gtk+3-3.24.51/share/gsettings-schemas/gtk+3-3.24.51/nvim/site/after",
+        "/nix/store/xsfc5fcy12nmcdsdwm3dx1xfffh7xv30-gsettings-desktop-schemas-49.1/share/gsettings-schemas/gsettings-desktop-schemas-49.1/nvim/site/after",
+        "/nix/store/xc7y53y1la52bm3zr2waxqsyyinw3mfi-vscode-1.113.0/share/nvim/site/after",
+        "/nix/store/aggkq1hd7gvgqd052bl1py6gj6fqv8n4-nvimtool-dev-env/share/nvim/site/after",
+        "/nix/store/sj3f6y3j8m1831l0gqm1bsk1f46jzkfd-patchelf-0.15.2/share/nvim/site/after",
+        "/nix/store/nwnwcq0s7cdi90wp4x5nzin9zb1zrm3g-ty-0.0.26/share/nvim/site/after",
+        "/nix/store/qa76af0p0njks1sawp3gdk9pambkgays-git-minimal-2.53.0/share/nvim/site/after",
+        "/nix/store/scabdfpsplnbmiw6vmba9ib2ipbsdvfd-python3.13-bandit-1.9.4/share/nvim/site/after",
+        "/nix/store/qr0wqh2damb6asnyz4jkx61id5yg3qh2-python3-3.14.3/share/nvim/site/after",
+        "/nix/store/rbjffacpx1pvc79rsvl7l05c3230q06z-ruff-0.15.7/share/nvim/site/after",
+        "/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/share/nvim/site/after",
+        "/nix/store/z5pbd6hs610nm795rxy0dak46gglhikx-python3.13-commitizen-4.13.9/share/nvim/site/after",
+        "/nix/store/f893jf3x0qyxn7mcagb3hipvhxawbds7-lefthook-2.1.1/share/nvim/site/after",
+        "/nix/store/yasj96m1zc22cd9mi6i2wgbznksk0ycj-just-1.48.1/share/nvim/site/after",
+        "/nix/store/bh0mb740hx20n4x0zp234wk0r33a8pi7-uv-0.11.2/share/nvim/site/after",
+        "/nix/store/1n63v53bzw0j9qkivrqcmgx53kng3l7z-bat-0.26.1/share/nvim/site/after",
+        "/nix/store/836lndidk1144z81npf27c7dcgmczid3-fd-10.4.2/share/nvim/site/after",
+        "/nix/store/922crn2k3v8yaqk7anps80hba919lnds-ripgrep-15.1.0/share/nvim/site/after",
+        "/nix/store/3bmahvqq27hi64jnj3yzxi468zjvr9s5-perf-tools-unstable-2017-12-19/share/nvim/site/after",
+        "/nix/store/my7pfhqj179i1chrh1wbij8lvxrsjgg6-jujutsu-0.39.0/share/nvim/site/after",
+        "/nix/store/l5vs6dp8icnf785lwa141sz6k27qc0ra-shfmt-3.13.0/share/nvim/site/after",
+        "/nix/store/ppfn03rv71z09cxqcpij106kj8ah72r1-treefmt-2.4.1/share/nvim/site/after",
+        "/nix/store/7yj5hbz5fbnk5x8gfyxfi46bs2867k4b-mdsf-0.11.1/share/nvim/site/after",
+        "/nix/store/c3lchpxlwk89fd6qshz74hgzd8g5cc4h-graphviz-12.2.1/share/nvim/site/after",
+        "/nix/store/69wb0ahs612ij2xa6lsz9w3xl85cc748-nvimtool-dev-env/share/nvim/site/after",
+        "/home/isaac/.local/share/nvim/site/after",
+        "/run/current-system/sw/etc/xdg/nvim/after",
+        "/nix/var/nix/profiles/default/etc/xdg/nvim/after",
+        "/etc/profiles/per-user/isaac/etc/xdg/nvim/after",
+        "/home/isaac/.local/state/nix/profile/etc/xdg/nvim/after",
+        "/nix/profile/etc/xdg/nvim/after",
+        "/home/isaac/.nix-profile/etc/xdg/nvim/after",
+        "/etc/xdg/nvim/after",
+        "/home/isaac/.config/nvim/after"
+    ],
+    "value": [
+        "/home/isaac/.config/nvim",
+        "/etc/xdg/nvim",
+        "/home/isaac/.nix-profile/etc/xdg/nvim",
+        "/nix/profile/etc/xdg/nvim",
+        "/home/isaac/.local/state/nix/profile/etc/xdg/nvim",
+        "/etc/profiles/per-user/isaac/etc/xdg/nvim",
+        "/nix/var/nix/profiles/default/etc/xdg/nvim",
+        "/run/current-system/sw/etc/xdg/nvim",
+        "/home/isaac/.local/share/nvim/site",
+        "/nix/store/69wb0ahs612ij2xa6lsz9w3xl85cc748-nvimtool-dev-env/share/nvim/site",
+        "/nix/store/c3lchpxlwk89fd6qshz74hgzd8g5cc4h-graphviz-12.2.1/share/nvim/site",
+        "/nix/store/7yj5hbz5fbnk5x8gfyxfi46bs2867k4b-mdsf-0.11.1/share/nvim/site",
+        "/nix/store/ppfn03rv71z09cxqcpij106kj8ah72r1-treefmt-2.4.1/share/nvim/site",
+        "/nix/store/l5vs6dp8icnf785lwa141sz6k27qc0ra-shfmt-3.13.0/share/nvim/site",
+        "/nix/store/my7pfhqj179i1chrh1wbij8lvxrsjgg6-jujutsu-0.39.0/share/nvim/site",
+        "/nix/store/3bmahvqq27hi64jnj3yzxi468zjvr9s5-perf-tools-unstable-2017-12-19/share/nvim/site",
+        "/nix/store/922crn2k3v8yaqk7anps80hba919lnds-ripgrep-15.1.0/share/nvim/site",
+        "/nix/store/836lndidk1144z81npf27c7dcgmczid3-fd-10.4.2/share/nvim/site",
+        "/nix/store/1n63v53bzw0j9qkivrqcmgx53kng3l7z-bat-0.26.1/share/nvim/site",
+        "/nix/store/bh0mb740hx20n4x0zp234wk0r33a8pi7-uv-0.11.2/share/nvim/site",
+        "/nix/store/yasj96m1zc22cd9mi6i2wgbznksk0ycj-just-1.48.1/share/nvim/site",
+        "/nix/store/f893jf3x0qyxn7mcagb3hipvhxawbds7-lefthook-2.1.1/share/nvim/site",
+        "/nix/store/z5pbd6hs610nm795rxy0dak46gglhikx-python3.13-commitizen-4.13.9/share/nvim/site",
+        "/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/share/nvim/site",
+        "/nix/store/rbjffacpx1pvc79rsvl7l05c3230q06z-ruff-0.15.7/share/nvim/site",
+        "/nix/store/qr0wqh2damb6asnyz4jkx61id5yg3qh2-python3-3.14.3/share/nvim/site",
+        "/nix/store/scabdfpsplnbmiw6vmba9ib2ipbsdvfd-python3.13-bandit-1.9.4/share/nvim/site",
+        "/nix/store/qa76af0p0njks1sawp3gdk9pambkgays-git-minimal-2.53.0/share/nvim/site",
+        "/nix/store/nwnwcq0s7cdi90wp4x5nzin9zb1zrm3g-ty-0.0.26/share/nvim/site",
+        "/nix/store/sj3f6y3j8m1831l0gqm1bsk1f46jzkfd-patchelf-0.15.2/share/nvim/site",
+        "/nix/store/aggkq1hd7gvgqd052bl1py6gj6fqv8n4-nvimtool-dev-env/share/nvim/site",
+        "/nix/store/xc7y53y1la52bm3zr2waxqsyyinw3mfi-vscode-1.113.0/share/nvim/site",
+        "/nix/store/xsfc5fcy12nmcdsdwm3dx1xfffh7xv30-gsettings-desktop-schemas-49.1/share/gsettings-schemas/gsettings-desktop-schemas-49.1/nvim/site",
+        "/nix/store/yl5yl395iqx88kd1m7lx7p7b65n0jfx9-gtk+3-3.24.51/share/gsettings-schemas/gtk+3-3.24.51/nvim/site",
+        "/home/isaac/.nix-profile/share/nvim/site",
+        "/nix/profile/share/nvim/site",
+        "/home/isaac/.local/state/nix/profile/share/nvim/site",
+        "/etc/profiles/per-user/isaac/share/nvim/site",
+        "/nix/var/nix/profiles/default/share/nvim/site",
+        "/run/current-system/sw/share/nvim/site",
+        "/run/opengl-driver/share/nvim/site",
+        "/run/opengl-driver-32/share/nvim/site",
+        "/usr/local/share/nvim/site",
+        "/usr/share/nvim/site",
+        "/nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime",
+        "/nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/pack/dist/opt/netrw",
+        "/nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/pack/dist/opt/matchit",
+        "/nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/lib/nvim",
+        "/usr/share/nvim/site/after",
+        "/usr/local/share/nvim/site/after",
+        "/run/opengl-driver-32/share/nvim/site/after",
+        "/run/opengl-driver/share/nvim/site/after",
+        "/run/current-system/sw/share/nvim/site/after",
+        "/nix/var/nix/profiles/default/share/nvim/site/after",
+        "/etc/profiles/per-user/isaac/share/nvim/site/after",
+        "/home/isaac/.local/state/nix/profile/share/nvim/site/after",
+        "/nix/profile/share/nvim/site/after",
+        "/home/isaac/.nix-profile/share/nvim/site/after",
+        "/nix/store/yl5yl395iqx88kd1m7lx7p7b65n0jfx9-gtk+3-3.24.51/share/gsettings-schemas/gtk+3-3.24.51/nvim/site/after",
+        "/nix/store/xsfc5fcy12nmcdsdwm3dx1xfffh7xv30-gsettings-desktop-schemas-49.1/share/gsettings-schemas/gsettings-desktop-schemas-49.1/nvim/site/after",
+        "/nix/store/xc7y53y1la52bm3zr2waxqsyyinw3mfi-vscode-1.113.0/share/nvim/site/after",
+        "/nix/store/aggkq1hd7gvgqd052bl1py6gj6fqv8n4-nvimtool-dev-env/share/nvim/site/after",
+        "/nix/store/sj3f6y3j8m1831l0gqm1bsk1f46jzkfd-patchelf-0.15.2/share/nvim/site/after",
+        "/nix/store/nwnwcq0s7cdi90wp4x5nzin9zb1zrm3g-ty-0.0.26/share/nvim/site/after",
+        "/nix/store/qa76af0p0njks1sawp3gdk9pambkgays-git-minimal-2.53.0/share/nvim/site/after",
+        "/nix/store/scabdfpsplnbmiw6vmba9ib2ipbsdvfd-python3.13-bandit-1.9.4/share/nvim/site/after",
+        "/nix/store/qr0wqh2damb6asnyz4jkx61id5yg3qh2-python3-3.14.3/share/nvim/site/after",
+        "/nix/store/rbjffacpx1pvc79rsvl7l05c3230q06z-ruff-0.15.7/share/nvim/site/after",
+        "/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/share/nvim/site/after",
+        "/nix/store/z5pbd6hs610nm795rxy0dak46gglhikx-python3.13-commitizen-4.13.9/share/nvim/site/after",
+        "/nix/store/f893jf3x0qyxn7mcagb3hipvhxawbds7-lefthook-2.1.1/share/nvim/site/after",
+        "/nix/store/yasj96m1zc22cd9mi6i2wgbznksk0ycj-just-1.48.1/share/nvim/site/after",
+        "/nix/store/bh0mb740hx20n4x0zp234wk0r33a8pi7-uv-0.11.2/share/nvim/site/after",
+        "/nix/store/1n63v53bzw0j9qkivrqcmgx53kng3l7z-bat-0.26.1/share/nvim/site/after",
+        "/nix/store/836lndidk1144z81npf27c7dcgmczid3-fd-10.4.2/share/nvim/site/after",
+        "/nix/store/922crn2k3v8yaqk7anps80hba919lnds-ripgrep-15.1.0/share/nvim/site/after",
+        "/nix/store/3bmahvqq27hi64jnj3yzxi468zjvr9s5-perf-tools-unstable-2017-12-19/share/nvim/site/after",
+        "/nix/store/my7pfhqj179i1chrh1wbij8lvxrsjgg6-jujutsu-0.39.0/share/nvim/site/after",
+        "/nix/store/l5vs6dp8icnf785lwa141sz6k27qc0ra-shfmt-3.13.0/share/nvim/site/after",
+        "/nix/store/ppfn03rv71z09cxqcpij106kj8ah72r1-treefmt-2.4.1/share/nvim/site/after",
+        "/nix/store/7yj5hbz5fbnk5x8gfyxfi46bs2867k4b-mdsf-0.11.1/share/nvim/site/after",
+        "/nix/store/c3lchpxlwk89fd6qshz74hgzd8g5cc4h-graphviz-12.2.1/share/nvim/site/after",
+        "/nix/store/69wb0ahs612ij2xa6lsz9w3xl85cc748-nvimtool-dev-env/share/nvim/site/after",
+        "/home/isaac/.local/share/nvim/site/after",
+        "/run/current-system/sw/etc/xdg/nvim/after",
+        "/nix/var/nix/profiles/default/etc/xdg/nvim/after",
+        "/etc/profiles/per-user/isaac/etc/xdg/nvim/after",
+        "/home/isaac/.local/state/nix/profile/etc/xdg/nvim/after",
+        "/nix/profile/etc/xdg/nvim/after",
+        "/home/isaac/.nix-profile/etc/xdg/nvim/after",
+        "/etc/xdg/nvim/after",
+        "/home/isaac/.config/nvim/after"
+    ],
+    "contents": {
+        "/home/isaac/.config/nvim": [
+            "/home/isaac/.config/nvim/backups",
+            "/home/isaac/.config/nvim/init.lua",
+            "/home/isaac/.config/nvim/.tmp.py",
+            "/home/isaac/.config/nvim/lock.json",
+            "/home/isaac/.config/nvim/nix_plugins.lua",
+            "/home/isaac/.config/nvim/notes",
+            "/home/isaac/.config/nvim/nvim-pack-lock.json"
+        ],
+        "/etc/xdg/nvim": [
+            "NONEXISTENT"
+        ],
+        "/home/isaac/.nix-profile/etc/xdg/nvim": [
+            "NONEXISTENT"
+        ],
+        "/nix/profile/etc/xdg/nvim": [
+            "NONEXISTENT"
+        ],
+        "/home/isaac/.local/state/nix/profile/etc/xdg/nvim": [
+            "NONEXISTENT"
+        ],
+        "/etc/profiles/per-user/isaac/etc/xdg/nvim": [
+            "NONEXISTENT"
+        ],
+        "/nix/var/nix/profiles/default/etc/xdg/nvim": [
+            "NONEXISTENT"
+        ],
+        "/run/current-system/sw/etc/xdg/nvim": [
+            "NONEXISTENT"
+        ],
+        "/home/isaac/.local/share/nvim/site": [
+            "/home/isaac/.local/share/nvim/site/pack",
+            "/home/isaac/.local/share/nvim/site/parser",
+            "/home/isaac/.local/share/nvim/site/parser-info"
+        ],
+        "/nix/store/69wb0ahs612ij2xa6lsz9w3xl85cc748-nvimtool-dev-env/share/nvim/site": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/c3lchpxlwk89fd6qshz74hgzd8g5cc4h-graphviz-12.2.1/share/nvim/site": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/7yj5hbz5fbnk5x8gfyxfi46bs2867k4b-mdsf-0.11.1/share/nvim/site": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/ppfn03rv71z09cxqcpij106kj8ah72r1-treefmt-2.4.1/share/nvim/site": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/l5vs6dp8icnf785lwa141sz6k27qc0ra-shfmt-3.13.0/share/nvim/site": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/my7pfhqj179i1chrh1wbij8lvxrsjgg6-jujutsu-0.39.0/share/nvim/site": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/3bmahvqq27hi64jnj3yzxi468zjvr9s5-perf-tools-unstable-2017-12-19/share/nvim/site": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/922crn2k3v8yaqk7anps80hba919lnds-ripgrep-15.1.0/share/nvim/site": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/836lndidk1144z81npf27c7dcgmczid3-fd-10.4.2/share/nvim/site": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/1n63v53bzw0j9qkivrqcmgx53kng3l7z-bat-0.26.1/share/nvim/site": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/bh0mb740hx20n4x0zp234wk0r33a8pi7-uv-0.11.2/share/nvim/site": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/yasj96m1zc22cd9mi6i2wgbznksk0ycj-just-1.48.1/share/nvim/site": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/f893jf3x0qyxn7mcagb3hipvhxawbds7-lefthook-2.1.1/share/nvim/site": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/z5pbd6hs610nm795rxy0dak46gglhikx-python3.13-commitizen-4.13.9/share/nvim/site": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/share/nvim/site": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/rbjffacpx1pvc79rsvl7l05c3230q06z-ruff-0.15.7/share/nvim/site": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/qr0wqh2damb6asnyz4jkx61id5yg3qh2-python3-3.14.3/share/nvim/site": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/scabdfpsplnbmiw6vmba9ib2ipbsdvfd-python3.13-bandit-1.9.4/share/nvim/site": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/qa76af0p0njks1sawp3gdk9pambkgays-git-minimal-2.53.0/share/nvim/site": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/nwnwcq0s7cdi90wp4x5nzin9zb1zrm3g-ty-0.0.26/share/nvim/site": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/sj3f6y3j8m1831l0gqm1bsk1f46jzkfd-patchelf-0.15.2/share/nvim/site": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/aggkq1hd7gvgqd052bl1py6gj6fqv8n4-nvimtool-dev-env/share/nvim/site": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/xc7y53y1la52bm3zr2waxqsyyinw3mfi-vscode-1.113.0/share/nvim/site": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/xsfc5fcy12nmcdsdwm3dx1xfffh7xv30-gsettings-desktop-schemas-49.1/share/gsettings-schemas/gsettings-desktop-schemas-49.1/nvim/site": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/yl5yl395iqx88kd1m7lx7p7b65n0jfx9-gtk+3-3.24.51/share/gsettings-schemas/gtk+3-3.24.51/nvim/site": [
+            "NONEXISTENT"
+        ],
+        "/home/isaac/.nix-profile/share/nvim/site": [
+            "NONEXISTENT"
+        ],
+        "/nix/profile/share/nvim/site": [
+            "NONEXISTENT"
+        ],
+        "/home/isaac/.local/state/nix/profile/share/nvim/site": [
+            "NONEXISTENT"
+        ],
+        "/etc/profiles/per-user/isaac/share/nvim/site": [
+            "NONEXISTENT"
+        ],
+        "/nix/var/nix/profiles/default/share/nvim/site": [
+            "NONEXISTENT"
+        ],
+        "/run/current-system/sw/share/nvim/site": [
+            "NONEXISTENT"
+        ],
+        "/run/opengl-driver/share/nvim/site": [
+            "NONEXISTENT"
+        ],
+        "/run/opengl-driver-32/share/nvim/site": [
+            "NONEXISTENT"
+        ],
+        "/usr/local/share/nvim/site": [
+            "NONEXISTENT"
+        ],
+        "/usr/share/nvim/site": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime": [
+            "/nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/filetype.lua",
+            "/nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/compiler",
+            "/nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/scripts",
+            "/nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/queries",
+            "/nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/neovim.ico",
+            "/nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/doc",
+            "/nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/example_init.lua",
+            "/nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/delmenu.vim",
+            "/nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/spell",
+            "/nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/menu.vim",
+            "/nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/makemenu.vim",
+            "/nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/indoff.vim",
+            "/nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/syntax",
+            "/nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/synmenu.vim",
+            "/nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/colors",
+            "/nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/ftoff.vim",
+            "/nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/autoload",
+            "/nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/ftplugof.vim",
+            "/nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/pack",
+            "/nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/indent",
+            "/nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/ftplugin.vim",
+            "/nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/keymap",
+            "/nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/lua",
+            "/nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/plugin",
+            "/nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/indent.vim",
+            "/nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/tutor",
+            "/nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/ftplugin"
+        ],
+        "/nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/lib/nvim": [
+            "/nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/lib/nvim/parser"
+        ],
+        "/usr/share/nvim/site/after": [
+            "NONEXISTENT"
+        ],
+        "/usr/local/share/nvim/site/after": [
+            "NONEXISTENT"
+        ],
+        "/run/opengl-driver-32/share/nvim/site/after": [
+            "NONEXISTENT"
+        ],
+        "/run/opengl-driver/share/nvim/site/after": [
+            "NONEXISTENT"
+        ],
+        "/run/current-system/sw/share/nvim/site/after": [
+            "NONEXISTENT"
+        ],
+        "/nix/var/nix/profiles/default/share/nvim/site/after": [
+            "NONEXISTENT"
+        ],
+        "/etc/profiles/per-user/isaac/share/nvim/site/after": [
+            "NONEXISTENT"
+        ],
+        "/home/isaac/.local/state/nix/profile/share/nvim/site/after": [
+            "NONEXISTENT"
+        ],
+        "/nix/profile/share/nvim/site/after": [
+            "NONEXISTENT"
+        ],
+        "/home/isaac/.nix-profile/share/nvim/site/after": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/yl5yl395iqx88kd1m7lx7p7b65n0jfx9-gtk+3-3.24.51/share/gsettings-schemas/gtk+3-3.24.51/nvim/site/after": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/xsfc5fcy12nmcdsdwm3dx1xfffh7xv30-gsettings-desktop-schemas-49.1/share/gsettings-schemas/gsettings-desktop-schemas-49.1/nvim/site/after": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/xc7y53y1la52bm3zr2waxqsyyinw3mfi-vscode-1.113.0/share/nvim/site/after": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/aggkq1hd7gvgqd052bl1py6gj6fqv8n4-nvimtool-dev-env/share/nvim/site/after": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/sj3f6y3j8m1831l0gqm1bsk1f46jzkfd-patchelf-0.15.2/share/nvim/site/after": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/nwnwcq0s7cdi90wp4x5nzin9zb1zrm3g-ty-0.0.26/share/nvim/site/after": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/qa76af0p0njks1sawp3gdk9pambkgays-git-minimal-2.53.0/share/nvim/site/after": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/scabdfpsplnbmiw6vmba9ib2ipbsdvfd-python3.13-bandit-1.9.4/share/nvim/site/after": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/qr0wqh2damb6asnyz4jkx61id5yg3qh2-python3-3.14.3/share/nvim/site/after": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/rbjffacpx1pvc79rsvl7l05c3230q06z-ruff-0.15.7/share/nvim/site/after": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/share/nvim/site/after": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/z5pbd6hs610nm795rxy0dak46gglhikx-python3.13-commitizen-4.13.9/share/nvim/site/after": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/f893jf3x0qyxn7mcagb3hipvhxawbds7-lefthook-2.1.1/share/nvim/site/after": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/yasj96m1zc22cd9mi6i2wgbznksk0ycj-just-1.48.1/share/nvim/site/after": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/bh0mb740hx20n4x0zp234wk0r33a8pi7-uv-0.11.2/share/nvim/site/after": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/1n63v53bzw0j9qkivrqcmgx53kng3l7z-bat-0.26.1/share/nvim/site/after": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/836lndidk1144z81npf27c7dcgmczid3-fd-10.4.2/share/nvim/site/after": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/922crn2k3v8yaqk7anps80hba919lnds-ripgrep-15.1.0/share/nvim/site/after": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/3bmahvqq27hi64jnj3yzxi468zjvr9s5-perf-tools-unstable-2017-12-19/share/nvim/site/after": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/my7pfhqj179i1chrh1wbij8lvxrsjgg6-jujutsu-0.39.0/share/nvim/site/after": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/l5vs6dp8icnf785lwa141sz6k27qc0ra-shfmt-3.13.0/share/nvim/site/after": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/ppfn03rv71z09cxqcpij106kj8ah72r1-treefmt-2.4.1/share/nvim/site/after": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/7yj5hbz5fbnk5x8gfyxfi46bs2867k4b-mdsf-0.11.1/share/nvim/site/after": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/c3lchpxlwk89fd6qshz74hgzd8g5cc4h-graphviz-12.2.1/share/nvim/site/after": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/69wb0ahs612ij2xa6lsz9w3xl85cc748-nvimtool-dev-env/share/nvim/site/after": [
+            "NONEXISTENT"
+        ],
+        "/home/isaac/.local/share/nvim/site/after": [
+            "NONEXISTENT"
+        ],
+        "/run/current-system/sw/etc/xdg/nvim/after": [
+            "NONEXISTENT"
+        ],
+        "/nix/var/nix/profiles/default/etc/xdg/nvim/after": [
+            "NONEXISTENT"
+        ],
+        "/etc/profiles/per-user/isaac/etc/xdg/nvim/after": [
+            "NONEXISTENT"
+        ],
+        "/home/isaac/.local/state/nix/profile/etc/xdg/nvim/after": [
+            "NONEXISTENT"
+        ],
+        "/nix/profile/etc/xdg/nvim/after": [
+            "NONEXISTENT"
+        ],
+        "/home/isaac/.nix-profile/etc/xdg/nvim/after": [
+            "NONEXISTENT"
+        ],
+        "/etc/xdg/nvim/after": [
+            "NONEXISTENT"
+        ],
+        "/home/isaac/.config/nvim/after": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/pack/dist/opt/netrw": [
+            "/nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/pack/dist/opt/netrw/doc",
+            "/nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/pack/dist/opt/netrw/LICENSE.txt",
+            "/nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/pack/dist/opt/netrw/syntax",
+            "/nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/pack/dist/opt/netrw/README.md",
+            "/nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/pack/dist/opt/netrw/autoload",
+            "/nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/pack/dist/opt/netrw/plugin"
+        ],
+        "/nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/pack/dist/opt/matchit": [
+            "/nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/pack/dist/opt/matchit/doc",
+            "/nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/pack/dist/opt/matchit/autoload",
+            "/nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/pack/dist/opt/matchit/plugin"
+        ]
+    }
+}

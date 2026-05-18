@@ -8,6 +8,12 @@ No nvim framework or distribution is used currently.
 
 ## Next Steps
 
+- clean up laundry
+- organize all clothes
+- hour-by-hour plan
+
+- find small blue paper and add its notes to digital notes (mostly pictrix etc.)
+
 - collect all previous work from the following:
   - XDG nvim configs
   - nvim-config, notable testing and nvimtool -> extract nvimtool into own repo and pypi package

@@ -1,0 +1,610 @@
+{
+    "<Tab>": {
+        "mode": "s",
+        "keybind": "<Tab>",
+        "annotation": "*",
+        "definition": "<Lua 28: vim/_core/defaults.lua:0>",
+        "description": "vim.snippet.jump if active, otherwise <Tab>",
+        "origin": "Last set from Lua (run Nvim with -V1 for more details)"
+    },
+    "#": {
+        "mode": "x",
+        "keybind": "#",
+        "annotation": "*",
+        "definition": "<Lua 10: vim/_core/defaults.lua:0>",
+        "description": ":help v_#-default",
+        "origin": "Last set from Lua (run Nvim with -V1 for more details)"
+    },
+    "%": {
+        "mode": "n",
+        "keybind": "%",
+        "annotation": null,
+        "definition": "<Plug>(MatchitNormalForward)",
+        "description": null,
+        "origin": "Last set from /nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 70"
+    },
+    "&": {
+        "mode": "n",
+        "keybind": "&",
+        "annotation": "*",
+        "definition": ":&&<CR>",
+        "description": ":help &-default",
+        "origin": "Last set from Lua (run Nvim with -V1 for more details)"
+    },
+    "*": {
+        "mode": "x",
+        "keybind": "*",
+        "annotation": "*",
+        "definition": "<Lua 7: vim/_core/defaults.lua:0>",
+        "description": ":help v_star-default",
+        "origin": "Last set from Lua (run Nvim with -V1 for more details)"
+    },
+    "@": {
+        "mode": "x",
+        "keybind": "@",
+        "annotation": "*",
+        "definition": "mode() ==# 'V' ? ':normal! @'.getcharstr().'<CR>' : '@'",
+        "description": ":help v_@-default",
+        "origin": "Last set from Lua (run Nvim with -V1 for more details)"
+    },
+    "Q": {
+        "mode": "x",
+        "keybind": "Q",
+        "annotation": "*",
+        "definition": "mode() ==# 'V' ? ':normal! @<C-R>=reg_recorded()<CR><CR>' : 'Q'",
+        "description": ":help v_Q-default",
+        "origin": "Last set from Lua (run Nvim with -V1 for more details)"
+    },
+    "Y": {
+        "mode": "n",
+        "keybind": "Y",
+        "annotation": "*",
+        "definition": "y$",
+        "description": ":help Y-default",
+        "origin": "Last set from Lua (run Nvim with -V1 for more details)"
+    },
+    "[%": {
+        "mode": "n",
+        "keybind": "[%",
+        "annotation": null,
+        "definition": "<Plug>(MatchitNormalMultiBackward)",
+        "description": null,
+        "origin": "Last set from /nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 78"
+    },
+    "[n": {
+        "mode": "x",
+        "keybind": "[n",
+        "annotation": "*",
+        "definition": "<Lua 64: vim/_core/defaults.lua:0>",
+        "description": "Select previous node",
+        "origin": "Last set from Lua (run Nvim with -V1 for more details)"
+    },
+    "[<Space>": {
+        "mode": "n",
+        "keybind": "[<Space>",
+        "annotation": "*",
+        "definition": "<Lua 62: vim/_core/defaults.lua:0>",
+        "description": "Add empty line above cursor",
+        "origin": "Last set from Lua (run Nvim with -V1 for more details)"
+    },
+    "[B": {
+        "mode": "n",
+        "keybind": "[B",
+        "annotation": "*",
+        "definition": "<Lua 60: vim/_core/defaults.lua:0>",
+        "description": ":brewind",
+        "origin": "Last set from Lua (run Nvim with -V1 for more details)"
+    },
+    "[b": {
+        "mode": "n",
+        "keybind": "[b",
+        "annotation": "*",
+        "definition": "<Lua 58: vim/_core/defaults.lua:0>",
+        "description": ":bprevious",
+        "origin": "Last set from Lua (run Nvim with -V1 for more details)"
+    },
+    "[<C-T>": {
+        "mode": "n",
+        "keybind": "[<C-T>",
+        "annotation": "*",
+        "definition": "<Lua 56: vim/_core/defaults.lua:0>",
+        "description": ":ptprevious",
+        "origin": "Last set from Lua (run Nvim with -V1 for more details)"
+    },
+    "[T": {
+        "mode": "n",
+        "keybind": "[T",
+        "annotation": "*",
+        "definition": "<Lua 54: vim/_core/defaults.lua:0>",
+        "description": ":trewind",
+        "origin": "Last set from Lua (run Nvim with -V1 for more details)"
+    },
+    "[t": {
+        "mode": "n",
+        "keybind": "[t",
+        "annotation": "*",
+        "definition": "<Lua 52: vim/_core/defaults.lua:0>",
+        "description": ":tprevious",
+        "origin": "Last set from Lua (run Nvim with -V1 for more details)"
+    },
+    "[A": {
+        "mode": "n",
+        "keybind": "[A",
+        "annotation": "*",
+        "definition": "<Lua 50: vim/_core/defaults.lua:0>",
+        "description": ":rewind",
+        "origin": "Last set from Lua (run Nvim with -V1 for more details)"
+    },
+    "[a": {
+        "mode": "n",
+        "keybind": "[a",
+        "annotation": "*",
+        "definition": "<Lua 48: vim/_core/defaults.lua:0>",
+        "description": ":previous",
+        "origin": "Last set from Lua (run Nvim with -V1 for more details)"
+    },
+    "[<C-L>": {
+        "mode": "n",
+        "keybind": "[<C-L>",
+        "annotation": "*",
+        "definition": "<Lua 46: vim/_core/defaults.lua:0>",
+        "description": ":lpfile",
+        "origin": "Last set from Lua (run Nvim with -V1 for more details)"
+    },
+    "[L": {
+        "mode": "n",
+        "keybind": "[L",
+        "annotation": "*",
+        "definition": "<Lua 44: vim/_core/defaults.lua:0>",
+        "description": ":lrewind",
+        "origin": "Last set from Lua (run Nvim with -V1 for more details)"
+    },
+    "[l": {
+        "mode": "n",
+        "keybind": "[l",
+        "annotation": "*",
+        "definition": "<Lua 42: vim/_core/defaults.lua:0>",
+        "description": ":lprevious",
+        "origin": "Last set from Lua (run Nvim with -V1 for more details)"
+    },
+    "[<C-Q>": {
+        "mode": "n",
+        "keybind": "[<C-Q>",
+        "annotation": "*",
+        "definition": "<Lua 40: vim/_core/defaults.lua:0>",
+        "description": ":cpfile",
+        "origin": "Last set from Lua (run Nvim with -V1 for more details)"
+    },
+    "[Q": {
+        "mode": "n",
+        "keybind": "[Q",
+        "annotation": "*",
+        "definition": "<Lua 38: vim/_core/defaults.lua:0>",
+        "description": ":crewind",
+        "origin": "Last set from Lua (run Nvim with -V1 for more details)"
+    },
+    "[q": {
+        "mode": "n",
+        "keybind": "[q",
+        "annotation": "*",
+        "definition": "<Lua 36: vim/_core/defaults.lua:0>",
+        "description": ":cprevious",
+        "origin": "Last set from Lua (run Nvim with -V1 for more details)"
+    },
+    "[D": {
+        "mode": "n",
+        "keybind": "[D",
+        "annotation": "*",
+        "definition": "<Lua 34: vim/_core/defaults.lua:0>",
+        "description": "Jump to the first diagnostic in the current buffer",
+        "origin": "Last set from Lua (run Nvim with -V1 for more details)"
+    },
+    "[d": {
+        "mode": "n",
+        "keybind": "[d",
+        "annotation": "*",
+        "definition": "<Lua 32: vim/_core/defaults.lua:0>",
+        "description": "Jump to the previous diagnostic in the current buffer",
+        "origin": "Last set from Lua (run Nvim with -V1 for more details)"
+    },
+    "]%": {
+        "mode": "n",
+        "keybind": "]%",
+        "annotation": null,
+        "definition": "<Plug>(MatchitNormalMultiForward)",
+        "description": null,
+        "origin": "Last set from /nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 79"
+    },
+    "]n": {
+        "mode": "x",
+        "keybind": "]n",
+        "annotation": "*",
+        "definition": "<Lua 65: vim/_core/defaults.lua:0>",
+        "description": "Select next node",
+        "origin": "Last set from Lua (run Nvim with -V1 for more details)"
+    },
+    "]<Space>": {
+        "mode": "n",
+        "keybind": "]<Space>",
+        "annotation": "*",
+        "definition": "<Lua 63: vim/_core/defaults.lua:0>",
+        "description": "Add empty line below cursor",
+        "origin": "Last set from Lua (run Nvim with -V1 for more details)"
+    },
+    "]B": {
+        "mode": "n",
+        "keybind": "]B",
+        "annotation": "*",
+        "definition": "<Lua 61: vim/_core/defaults.lua:0>",
+        "description": ":blast",
+        "origin": "Last set from Lua (run Nvim with -V1 for more details)"
+    },
+    "]b": {
+        "mode": "n",
+        "keybind": "]b",
+        "annotation": "*",
+        "definition": "<Lua 59: vim/_core/defaults.lua:0>",
+        "description": ":bnext",
+        "origin": "Last set from Lua (run Nvim with -V1 for more details)"
+    },
+    "]<C-T>": {
+        "mode": "n",
+        "keybind": "]<C-T>",
+        "annotation": "*",
+        "definition": "<Lua 57: vim/_core/defaults.lua:0>",
+        "description": ":ptnext",
+        "origin": "Last set from Lua (run Nvim with -V1 for more details)"
+    },
+    "]T": {
+        "mode": "n",
+        "keybind": "]T",
+        "annotation": "*",
+        "definition": "<Lua 55: vim/_core/defaults.lua:0>",
+        "description": ":tlast",
+        "origin": "Last set from Lua (run Nvim with -V1 for more details)"
+    },
+    "]t": {
+        "mode": "n",
+        "keybind": "]t",
+        "annotation": "*",
+        "definition": "<Lua 53: vim/_core/defaults.lua:0>",
+        "description": ":tnext",
+        "origin": "Last set from Lua (run Nvim with -V1 for more details)"
+    },
+    "]A": {
+        "mode": "n",
+        "keybind": "]A",
+        "annotation": "*",
+        "definition": "<Lua 51: vim/_core/defaults.lua:0>",
+        "description": ":last",
+        "origin": "Last set from Lua (run Nvim with -V1 for more details)"
+    },
+    "]a": {
+        "mode": "n",
+        "keybind": "]a",
+        "annotation": "*",
+        "definition": "<Lua 49: vim/_core/defaults.lua:0>",
+        "description": ":next",
+        "origin": "Last set from Lua (run Nvim with -V1 for more details)"
+    },
+    "]<C-L>": {
+        "mode": "n",
+        "keybind": "]<C-L>",
+        "annotation": "*",
+        "definition": "<Lua 47: vim/_core/defaults.lua:0>",
+        "description": ":lnfile",
+        "origin": "Last set from Lua (run Nvim with -V1 for more details)"
+    },
+    "]L": {
+        "mode": "n",
+        "keybind": "]L",
+        "annotation": "*",
+        "definition": "<Lua 45: vim/_core/defaults.lua:0>",
+        "description": ":llast",
+        "origin": "Last set from Lua (run Nvim with -V1 for more details)"
+    },
+    "]l": {
+        "mode": "n",
+        "keybind": "]l",
+        "annotation": "*",
+        "definition": "<Lua 43: vim/_core/defaults.lua:0>",
+        "description": ":lnext",
+        "origin": "Last set from Lua (run Nvim with -V1 for more details)"
+    },
+    "]<C-Q>": {
+        "mode": "n",
+        "keybind": "]<C-Q>",
+        "annotation": "*",
+        "definition": "<Lua 41: vim/_core/defaults.lua:0>",
+        "description": ":cnfile",
+        "origin": "Last set from Lua (run Nvim with -V1 for more details)"
+    },
+    "]Q": {
+        "mode": "n",
+        "keybind": "]Q",
+        "annotation": "*",
+        "definition": "<Lua 39: vim/_core/defaults.lua:0>",
+        "description": ":clast",
+        "origin": "Last set from Lua (run Nvim with -V1 for more details)"
+    },
+    "]q": {
+        "mode": "n",
+        "keybind": "]q",
+        "annotation": "*",
+        "definition": "<Lua 37: vim/_core/defaults.lua:0>",
+        "description": ":cnext",
+        "origin": "Last set from Lua (run Nvim with -V1 for more details)"
+    },
+    "]D": {
+        "mode": "n",
+        "keybind": "]D",
+        "annotation": "*",
+        "definition": "<Lua 33: vim/_core/defaults.lua:0>",
+        "description": "Jump to the last diagnostic in the current buffer",
+        "origin": "Last set from Lua (run Nvim with -V1 for more details)"
+    },
+    "]d": {
+        "mode": "n",
+        "keybind": "]d",
+        "annotation": "*",
+        "definition": "<Lua 31: vim/_core/defaults.lua:0>",
+        "description": "Jump to the next diagnostic in the current buffer",
+        "origin": "Last set from Lua (run Nvim with -V1 for more details)"
+    },
+    "a%": {
+        "mode": "x",
+        "keybind": "a%",
+        "annotation": null,
+        "definition": "<Plug>(MatchitVisualTextObject)",
+        "description": null,
+        "origin": "Last set from /nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 86"
+    },
+    "an": {
+        "mode": "x",
+        "keybind": "an",
+        "annotation": "*",
+        "definition": "<Lua 66: vim/_core/defaults.lua:0>",
+        "description": "Select parent (outer) node",
+        "origin": "Last set from Lua (run Nvim with -V1 for more details)"
+    },
+    "g%": {
+        "mode": "n",
+        "keybind": "g%",
+        "annotation": null,
+        "definition": "<Plug>(MatchitNormalBackward)",
+        "description": null,
+        "origin": "Last set from /nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 71"
+    },
+    "gO": {
+        "mode": "n",
+        "keybind": "gO",
+        "annotation": "*",
+        "definition": "<Lua 24: vim/_core/defaults.lua:0>",
+        "description": "vim.lsp.buf.document_symbol()",
+        "origin": "Last set from Lua (run Nvim with -V1 for more details)"
+    },
+    "grt": {
+        "mode": "n",
+        "keybind": "grt",
+        "annotation": "*",
+        "definition": "<Lua 23: vim/_core/defaults.lua:0>",
+        "description": "vim.lsp.buf.type_definition()",
+        "origin": "Last set from Lua (run Nvim with -V1 for more details)"
+    },
+    "gri": {
+        "mode": "n",
+        "keybind": "gri",
+        "annotation": "*",
+        "definition": "<Lua 22: vim/_core/defaults.lua:0>",
+        "description": "vim.lsp.buf.implementation()",
+        "origin": "Last set from Lua (run Nvim with -V1 for more details)"
+    },
+    "grr": {
+        "mode": "n",
+        "keybind": "grr",
+        "annotation": "*",
+        "definition": "<Lua 21: vim/_core/defaults.lua:0>",
+        "description": "vim.lsp.buf.references()",
+        "origin": "Last set from Lua (run Nvim with -V1 for more details)"
+    },
+    "grx": {
+        "mode": "n",
+        "keybind": "grx",
+        "annotation": "*",
+        "definition": "<Lua 20: vim/_core/defaults.lua:0>",
+        "description": "vim.lsp.codelens.run()",
+        "origin": "Last set from Lua (run Nvim with -V1 for more details)"
+    },
+    "gra": {
+        "mode": "n",
+        "keybind": "gra",
+        "annotation": "*",
+        "definition": "<Lua 18: vim/_core/defaults.lua:0>",
+        "description": "vim.lsp.buf.code_action()",
+        "origin": "Last set from Lua (run Nvim with -V1 for more details)"
+    },
+    "grn": {
+        "mode": "n",
+        "keybind": "grn",
+        "annotation": "*",
+        "definition": "<Lua 17: vim/_core/defaults.lua:0>",
+        "description": "vim.lsp.buf.rename()",
+        "origin": "Last set from Lua (run Nvim with -V1 for more details)"
+    },
+    "gc": {
+        "mode": "n",
+        "keybind": "gc",
+        "annotation": "*",
+        "definition": "<Lua 13: vim/_core/defaults.lua:0>",
+        "description": "Toggle comment",
+        "origin": "Last set from Lua (run Nvim with -V1 for more details)"
+    },
+    "gcc": {
+        "mode": "n",
+        "keybind": "gcc",
+        "annotation": "*",
+        "definition": "<Lua 15: vim/_core/defaults.lua:0>",
+        "description": "Toggle comment line",
+        "origin": "Last set from Lua (run Nvim with -V1 for more details)"
+    },
+    "gx": {
+        "mode": "n",
+        "keybind": "gx",
+        "annotation": "*",
+        "definition": "<Lua 11: vim/_core/defaults.lua:0>",
+        "description": "Opens filepath or URI under cursor with the system handler (file explorer, web browser, \u2026)",
+        "origin": "Last set from Lua (run Nvim with -V1 for more details)"
+    },
+    "in": {
+        "mode": "x",
+        "keybind": "in",
+        "annotation": "*",
+        "definition": "<Lua 68: vim/_core/defaults.lua:0>",
+        "description": "Select child (inner) node",
+        "origin": "Last set from Lua (run Nvim with -V1 for more details)"
+    },
+    "<Plug>(MatchitVisualTextObject)": {
+        "mode": "x",
+        "keybind": "<Plug>(MatchitVisualTextObject)",
+        "annotation": null,
+        "definition": "<Plug>(MatchitVisualMultiBackward)o<Plug>(MatchitVisualMultiForward)",
+        "description": null,
+        "origin": "Last set from /nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 67"
+    },
+    "<Plug>(MatchitOperationMultiForward)": {
+        "mode": "o",
+        "keybind": "<Plug>(MatchitOperationMultiForward)",
+        "annotation": "*",
+        "definition": ":<C-U>call matchit#MultiMatch(\"W\",  \"o\")<CR>",
+        "description": null,
+        "origin": "Last set from /nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 64"
+    },
+    "<Plug>(MatchitOperationMultiBackward)": {
+        "mode": "o",
+        "keybind": "<Plug>(MatchitOperationMultiBackward)",
+        "annotation": "*",
+        "definition": ":<C-U>call matchit#MultiMatch(\"bW\", \"o\")<CR>",
+        "description": null,
+        "origin": "Last set from /nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 63"
+    },
+    "<Plug>(MatchitVisualMultiForward)": {
+        "mode": "x",
+        "keybind": "<Plug>(MatchitVisualMultiForward)",
+        "annotation": "*",
+        "definition": ":<C-U>call matchit#MultiMatch(\"W\",  \"n\")<CR>m'gv``",
+        "description": null,
+        "origin": "Last set from /nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 62"
+    },
+    "<Plug>(MatchitVisualMultiBackward)": {
+        "mode": "x",
+        "keybind": "<Plug>(MatchitVisualMultiBackward)",
+        "annotation": "*",
+        "definition": ":<C-U>call matchit#MultiMatch(\"bW\", \"n\")<CR>m'gv``",
+        "description": null,
+        "origin": "Last set from /nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 61"
+    },
+    "<Plug>(MatchitNormalMultiForward)": {
+        "mode": "n",
+        "keybind": "<Plug>(MatchitNormalMultiForward)",
+        "annotation": "*",
+        "definition": ":<C-U>call matchit#MultiMatch(\"W\",  \"n\")<CR>",
+        "description": null,
+        "origin": "Last set from /nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 60"
+    },
+    "<Plug>(MatchitNormalMultiBackward)": {
+        "mode": "n",
+        "keybind": "<Plug>(MatchitNormalMultiBackward)",
+        "annotation": "*",
+        "definition": ":<C-U>call matchit#MultiMatch(\"bW\", \"n\")<CR>",
+        "description": null,
+        "origin": "Last set from /nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 59"
+    },
+    "<Plug>(MatchitOperationBackward)": {
+        "mode": "o",
+        "keybind": "<Plug>(MatchitOperationBackward)",
+        "annotation": "*",
+        "definition": ":<C-U>call matchit#Match_wrapper('',0,'o')<CR>",
+        "description": null,
+        "origin": "Last set from /nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 56"
+    },
+    "<Plug>(MatchitOperationForward)": {
+        "mode": "o",
+        "keybind": "<Plug>(MatchitOperationForward)",
+        "annotation": "*",
+        "definition": ":<C-U>call matchit#Match_wrapper('',1,'o')<CR>",
+        "description": null,
+        "origin": "Last set from /nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 55"
+    },
+    "<Plug>(MatchitVisualBackward)": {
+        "mode": "x",
+        "keybind": "<Plug>(MatchitVisualBackward)",
+        "annotation": "*",
+        "definition": ":<C-U>call matchit#Match_wrapper('',0,'v')<CR>m'gv``",
+        "description": null,
+        "origin": "Last set from /nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 54"
+    },
+    "<Plug>(MatchitVisualForward)": {
+        "mode": "x",
+        "keybind": "<Plug>(MatchitVisualForward)",
+        "annotation": "*",
+        "definition": ":<C-U>call matchit#Match_wrapper('',1,'v')<CR>:if col(\"''\") != col(\"$\") | exe \":normal! m'\" | endif<CR>gv``",
+        "description": null,
+        "origin": "Last set from /nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 52"
+    },
+    "<Plug>(MatchitNormalBackward)": {
+        "mode": "n",
+        "keybind": "<Plug>(MatchitNormalBackward)",
+        "annotation": "*",
+        "definition": ":<C-U>call matchit#Match_wrapper('',0,'n')<CR>",
+        "description": null,
+        "origin": "Last set from /nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 51"
+    },
+    "<Plug>(MatchitNormalForward)": {
+        "mode": "n",
+        "keybind": "<Plug>(MatchitNormalForward)",
+        "annotation": "*",
+        "definition": ":<C-U>call matchit#Match_wrapper('',1,'n')<CR>",
+        "description": null,
+        "origin": "Last set from /nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 50"
+    },
+    "<C-W><C-D>": {
+        "mode": "n",
+        "keybind": "<C-W><C-D>",
+        "annotation": null,
+        "definition": "<C-W>d",
+        "description": "Show diagnostics under the cursor",
+        "origin": "Last set from Lua (run Nvim with -V1 for more details)"
+    },
+    "<C-W>d": {
+        "mode": "n",
+        "keybind": "<C-W>d",
+        "annotation": "*",
+        "definition": "<Lua 35: vim/_core/defaults.lua:0>",
+        "description": "Show diagnostics under the cursor",
+        "origin": "Last set from Lua (run Nvim with -V1 for more details)"
+    },
+    "<S-Tab>": {
+        "mode": "s",
+        "keybind": "<S-Tab>",
+        "annotation": "*",
+        "definition": "<Lua 30: vim/_core/defaults.lua:0>",
+        "description": "vim.snippet.jump if active, otherwise <S-Tab>",
+        "origin": "Last set from Lua (run Nvim with -V1 for more details)"
+    },
+    "<C-S>": {
+        "mode": "s",
+        "keybind": "<C-S>",
+        "annotation": "*",
+        "definition": "<Lua 26: vim/_core/defaults.lua:0>",
+        "description": "vim.lsp.buf.signature_help()",
+        "origin": "Last set from Lua (run Nvim with -V1 for more details)"
+    },
+    "<C-L>": {
+        "mode": "n",
+        "keybind": "<C-L>",
+        "annotation": "*",
+        "definition": "<Cmd>nohlsearch|diffupdate|normal! <C-L><CR>",
+        "description": ":help CTRL-L-default",
+        "origin": "Last set from Lua (run Nvim with -V1 for more details)"
+    }
+}
