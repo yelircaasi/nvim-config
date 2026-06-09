@@ -1,4 +1,4 @@
-from typing import Callable
+from typing import Annotated, Callable
 from pathlib import Path
 
 import typer
@@ -226,12 +226,35 @@ def nvim(ctx: typer.Context) -> None:
     _run(ctx, "info", "nvim")
 
 
+@info_app.command()
+def mappings(ctx: typer.Context) -> None:
+    _run(ctx, "info", "mappings")
+
+
+@info_app.command()
+def startup(ctx: typer.Context) -> None:
+    _run(ctx, "info", "startup")
+
+
+@info_app.command()
+def commands(ctx: typer.Context) -> None:
+    _run(ctx, "info", "commands")
+
+
+@info_app.command()
+def colors(ctx: typer.Context) -> None:
+    _run(ctx, "info", "colors")
+
+
 @info_app.command("plugin-source")
 def plugin_source(ctx: typer.Context) -> None:
     _run(ctx, "info", "plugin-source")
 
 
 @info_app.callback(invoke_without_command=True)
-def info_root(ctx: typer.Context) -> None:
+def info_root(
+    ctx: typer.Context,
+    # exec: Annotated[str, typer.Argument(default="nvim")],
+) -> None:
     if ctx.invoked_subcommand is None:
         _run(ctx, "info", None)

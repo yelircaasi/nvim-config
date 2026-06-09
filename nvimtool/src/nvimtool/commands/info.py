@@ -39,18 +39,14 @@ def glean_plugin_source(cfg: Config) -> None:
     info.write_json_file(cfg.paths.plugins_info)
 
 
-def get_info_all(cfg: Config) -> None:
-    print("Not yet implemented!")
-
-
 def get_info_startup(cfg: Config) -> None:
-    print("Not yet implemented!")
+    print("Not yet tested!")
     startup_txt = profile_startup(cfg)
     print(startup_txt)
 
 
 def get_info_colors(cfg: Config) -> None:
-    print("Not yet implemented!")
+    print("Not yet tested!")
     colors_txt = export_nvim_info("highlight", cfg)
     colors_json = change_extension(colors_txt, "json")
     colors_raw = colors_txt.read_text()
@@ -59,7 +55,7 @@ def get_info_colors(cfg: Config) -> None:
 
 
 def get_info_commands(cfg: Config) -> None:
-    print("Not yet implemented!")
+    print("Not yet tested!")
     commands_txt = export_nvim_info("command", cfg)
     commands_json = change_extension(commands_txt, "json")
     commands_raw = commands_txt.read_text()
@@ -68,7 +64,7 @@ def get_info_commands(cfg: Config) -> None:
 
 
 def get_info_rtp(cfg: Config) -> None:
-    print("Not yet implemented!")
+    print("Not yet tested!")
     rtp_txt = export_nvim_info("rtp", cfg)
     rtp_json = change_extension(rtp_txt, "json")
     rtp_raw = rtp_txt.read_text()
@@ -77,9 +73,18 @@ def get_info_rtp(cfg: Config) -> None:
 
 
 def get_info_mappings(cfg: Config) -> None:
-    print("Not yet implemented!")
+    print("Not yet tested!")
     mappings_txt = export_nvim_info("map", cfg)
     mappings_json = change_extension(mappings_txt, "json")
     mappings_raw = mappings_txt.read_text()
     mappings = parse_mappings(mappings_raw)
     mappings_json.write_text(json.dumps(mappings, indent=4))
+
+
+def get_info_all(cfg: Config) -> None:
+    # print("Not yet implemented!")
+    get_info_mappings(cfg)
+    get_info_rtp(cfg)
+    get_info_commands(cfg)
+    get_info_colors(cfg)
+    get_info_startup(cfg)

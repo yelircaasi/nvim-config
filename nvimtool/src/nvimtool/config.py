@@ -38,14 +38,21 @@ def _make_backup_dir() -> Path:
     return _backup_dir
 
 
+_HOME = Path.home()
+_BACKUP = _make_backup_dir()
+_NVIM_CONFIG_PATH = None  # Path(resolve_var(3, "NVIM_CONFIG_PATH", ""))
+
+
 class _Globals(BaseModel):
     DEFAULT_CONFIG_SOURCE: Path = Field(
-        default=resolve_path("XDG_CONFIG_HOME", "repos/nvim-config/testing")
+        default=resolve_path("XDG_CONFIG_HOME", "repos/nvim-config")
     )
     DEFAULT_CONFIG_TARGET: Path = Field(
         default=resolve_path("XDG_CONFIG_HOME", ".config/nvim")
     )
-    DEFAULT_PLUGIN_DIR: Path = Field(default=Path.home() / ".local/share/nvim-plugins")
+    DEFAULT_PLUGIN_DIR: Path = Field(
+        default=_HOME / "repos/neovim-flake/result/pack/bundle/opt"
+    )  # Path.home() / ".local/share/nvim-plugins")
     IS_NIX: bool = Field(default=Path("/nix/store").exists())
     TODAY: str = Field(default=str(date.today()))
     VERBOSE: bool = False
@@ -62,16 +69,24 @@ class _Globals(BaseModel):
     NVIM_COMMAND: str = Field(default=resolve_var(5, "NVIM_COMMAND", "nvim"))
 
 
-_HOME = Path.home()
-_BACKUP = _make_backup_dir()
-_NVIM_CONFIG_PATH = Path(resolve_var(3, "NVIM_CONFIG_PATH", ""))
+def ensure_globals(value: _Globals | dict[str, str] | None = None) -> _Globals:
+    if isinstance(value, _Globals):
+        return value
+    if isinstance(value, dict):
+        return _Globals.model_validate(value)
+    return _Globals()
+
+
+Globals = ensure_globals()
 
 
 class Paths(BaseModelRW):
     home: Path = Field(default=_HOME)
     config_source: Path
     config_destination: Path = Field(default=_HOME / ".config/nvim")
-    plugin_dir: Path = Field(default=_HOME / ".local/share/nvim-plugins")
+    plugin_dir: Path = Field(
+        default=Globals.DEFAULT_PLUGIN_DIR
+    )  # ".local/share/nvim-plugins")
     explicit_declarations_dir: Path | None = Field(default=None)
     explicit_info_dir: Path | None = Field(default=None)
     explicit_tl_dir: Path | None = Field(default=None)
@@ -80,7 +95,7 @@ class Paths(BaseModelRW):
     explicit_snapshot_dir: Path | None = Field(default=None)
     explicit_flake: Path | None = Field(default=None)
     explicit_plugin_set_nix: Path | None = Field(default=None)
-    nvim_config_init: Path = Field(default=_NVIM_CONFIG_PATH)
+    nvim_config_init: Path | None = Field(default=_NVIM_CONFIG_PATH)
     backup_dir: Path = Field(default=_BACKUP)
     explicit_scripts_dir: Path | None = Field(default=None)
 
@@ -95,9 +110,7 @@ class Paths(BaseModelRW):
             config_destination=Path(
                 d.get("config-target", "~/.config/nvim/trial")
             ).resolve(),
-            plugin_dir=Path(
-                d.get("plugin-dir", "~/local/share/nvim-plugins")
-            ).resolve(),
+            plugin_dir=Path(d.get("plugin-dir", _Globals.DEFAULT_PLUGIN_DIR)).resolve(),
         )
 
     # @classmethod
@@ -151,7 +164,7 @@ class Paths(BaseModelRW):
 
     @property
     def snapshot_dir(self) -> Path:
-        return self.explicit_snapshot_dir or (self.config_source / "snapshots")
+        return self.explicit_snapshot_dir or (self.config_source / "data/snapshots")
 
     @property
     def dependencies_tl(self) -> Path:
@@ -223,7 +236,7 @@ class Paths(BaseModelRW):
         return f"""Paths(
     config_source:              {self.rel(self.config_source)}
     config_destination:         {self.rel(self.config_destination)}
-    plugin_dir:                {self.rel(self.plugin_dir)}
+    plugin_dir:                 {self.rel(self.plugin_dir)}
     backup_dir:                 {self.rel(self.backup_dir)}
 
     external_tools_declaration: {self.rel(self.external_tools_declaration)}
@@ -250,17 +263,6 @@ class Paths(BaseModelRW):
         if not path.is_relative_to(self.home):
             return str(p)
         return f"~/{path.relative_to(self.home)}"
-
-
-def ensure_globals(value: _Globals | dict[str, str] | None = None) -> _Globals:
-    if isinstance(value, _Globals):
-        return value
-    if isinstance(value, dict):
-        return _Globals.model_validate(value)
-    return _Globals()
-
-
-Globals = ensure_globals()
 
 
 class Config(BaseModelRW):

@@ -18,13 +18,31 @@ def export_nvim_info(task: str, cfg: Config) -> Path:
     print(destination)
     # os.system(f'nvim --headless -c "set columns=1000" -c "redir! > {destination}"   -c "verbose {task}"  -c "redir END" -c "q" > /dev/null')
     main_command = (
-        "lua print(vim.inspect(vim.opt.rtp))" if task == "rtp" else f"verbose {task}"
+        "lua print(vim.inspect(vim.opt.rtp))"
+        if task == "rtp"
+        else f"verbose {task}"
     )
+    print(main_command)
     config = (
         ("-u", str(cfg.paths.nvim_config_init))
         if cfg.paths.nvim_config_init
         else tuple()
     )
+    # cmd = [
+    #     cfg.g.NVIM_COMMAND,
+    #     *config,
+    #     "--headless",
+    #     "-c",
+    #     "'set columns=1000'",
+    #     "-c",
+    #     f"'redir! > {destination}'",
+    #     "-c",
+    #     main_command,
+    #     "-c",
+    #     "'redir END'",
+    #     "-c",
+    #     "'qa!'",
+    # ]
     cmd = [
         cfg.g.NVIM_COMMAND,
         *config,
@@ -38,7 +56,7 @@ def export_nvim_info(task: str, cfg: Config) -> Path:
         "-c",
         "redir END",
         "-c",
-        "q",
+        "qa!",
     ]
     cmd = list(map(str, cmd))
     print(" ".join(cmd))

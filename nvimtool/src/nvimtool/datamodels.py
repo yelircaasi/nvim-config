@@ -290,6 +290,7 @@ class SinglePluginInfo(BaseModel):
     keymaps: set[tuple[str, str, str] | str] = Field(default_factory=set)
     has_vimdoc: bool = Field(default=False, alias="hasVimdoc")
     has_lua: bool = Field(default=False, alias="hasLua")
+    autocommands: set[str] = Field(default_factory=set)
 
 
 class PluginInfo(BaseDict[str, SinglePluginInfo]): ...

@@ -3,6 +3,8 @@ TODO: ad-hoc suites: blink, snacks, mini
 """
 
 import re
+from typing import Iterable
+from adiumentum.fp import smap
 from adiumentum.path import glob_extension
 
 from pathlib import Path
@@ -33,21 +35,21 @@ def get_doc_file_sections(dir_: Path, plugin_require_name: str) -> list[str]:
 def get_highlights_from_vimdoc(sections: list[str]) -> list[str]:
     for section in sections:
         if section.startswith(("HIGHLIGHT", "COLOR")):
-            return section.strip().splitlines()[1:]
+            return SearchPatterns.DOC_HIGHLIGHT.findall(section.strip())
     return []
 
 
 def get_commands_from_vimdoc(sections: list[str]) -> list[str]:
     for section in sections:
         if section.startswith(("COMMAND")):
-            return section.strip().splitlines()[1:]
+            return SearchPatterns.DOC_COMMAND.findall(section.strip())
     return []
 
 
 def get_functions_from_vimdoc(sections: list[str]) -> list[str]:
     for section in sections:
         if section.startswith(("API ", "LUA ")):
-            return section.strip().splitlines()[1:]
+            return SearchPatterns.DOC_FUNCTION.findall(section.strip())
     return []
 
 
@@ -56,8 +58,9 @@ def get_functions_from_init(s: str) -> list[str]:
     if not result:
         return []
     modname = result.group(1)
-    pattern = re.compile(f"{modname}\\.([^ \n\\=\\(]+)[ =\\(]")
-    return pattern.findall(s)
+    pattern_a = re.compile(f"{modname}\\.([^ \n\\=\\(\\)\\[\\],]+)[ =\\(]")
+    pattern_b = re.compile(f"function {modname}\\.([^ \n\\=\\(\\)\\[\\],]+)\\(")
+    return pattern_a.findall(s) + pattern_b.findall(s)
 
 
 # --------- CONSTRUCTION SITE ------------------------------------------------------------------------------------------
@@ -110,6 +113,7 @@ def search_plugin_directory(
     info.lua_functions.update(get_functions_from_vimdoc(doc_sections))
     info.commands.update(get_commands_from_vimdoc(doc_sections))
     info.highlights.update(get_highlights_from_vimdoc(doc_sections))
+    LUA_FUNCTION_REQUIRED = SearchPatterns.LUA_FUNCTION_REQUIRED(plugin_require_name)
 
     def read_if_file(_p: Path) -> str:
         if _p.is_file():
@@ -119,13 +123,13 @@ def search_plugin_directory(
     for file in lua_files:
         text = read_if_file(file)
         info.commands.update(SearchPatterns.COMMAND_LUA.findall(text))
-        info.lua_functions.update(
-            SearchPatterns.LUA_FUNCTION_REQUIRED(plugin_require_name).findall(text)
-        )
+        info.lua_functions.update(LUA_FUNCTION_REQUIRED.findall(text))
         info.lua_functions.update(SearchPatterns.LUA_FUNCTION.findall(text))
+        info.lua_functions.update(SearchPatterns.LUA_FUNCTION_ALT.findall(text))
         info.highlights.update(SearchPatterns.HIGHLIGHT_GROUP_LUA.findall(text))
         info.keymaps.update(SearchPatterns.KEYBIND_LUA.findall(text))
         info.keymaps.update(SearchPatterns.KEYBIND_LUA_API.findall(text))
+        info.autocommands.update(SearchPatterns.AUTOCOMMAND_LUA.findall(text))
     for file in vim_files:
         text = read_if_file(file)
         info.commands.update(SearchPatterns.COMMAND_VIM.findall(text))
@@ -134,11 +138,16 @@ def search_plugin_directory(
     for file in txt_files + md_files:
         text = read_if_file(file)
         info.commands.update(SearchPatterns.COMMAND_DOCS.findall(text))
-        info.lua_functions.update(
-            SearchPatterns.LUA_FUNCTION_REQUIRED(plugin_require_name).findall(text)
-        )
+        info.lua_functions.update(LUA_FUNCTION_REQUIRED.findall(text))
         info.highlights.update(SearchPatterns.HIGHLIGHT_GROUP_DOCS.findall(text))
         info.keymaps.update(SearchPatterns.KEYBIND_DOCS.findall(text))
+
+    def replace_double_quotes[T: tuple[str, str, str] | str](ss: T) -> T:
+        if isinstance(ss, str):
+            return ss.strip('"').strip("'").replace('"', "'")  # type: ignore
+        return tuple(elem.strip('"').strip("'").replace('"', "'") for elem in ss)  # type: ignore
+
+    info.keymaps = smap(replace_double_quotes, info.keymaps)
 
     return info
 

@@ -1,0 +1,2270 @@
+
+n  <Space>a    *@<Lua 918: ~/.config/nvim/lua/langs/rust.lua:83>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  K           *@<Lua 926: ~/.config/nvim/lua/langs/rust.lua:90>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+x  <Tab>       * :call UltiSnips#SaveLastVisualSelection()<CR>gvs
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/ultisnips/autoload/UltiSnips/map_keys.vim line 70
+s  <Tab>       * <Esc>:call UltiSnips#ExpandSnippet()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/ultisnips/autoload/UltiSnips/map_keys.vim line 68
+n  <Space>gg   * <Cmd>Neogit<CR>
+                 Open Neogit UI
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>tk   * <Lua 943: ~/.config/nvim/lua/task_runner.lua:276>
+                 Pick Taskfile task
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>xX   * <Lua 36: ~/.config/nvim/lua/debugging.lua:136>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>xx   * <Lua 35: ~/.config/nvim/lua/debugging.lua:132>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>e    * <Lua 30: /nix/store/5rnnqlp72zgq77y9507a4n6a7hyzwsgz-neovim-unwrapped-89623e5/share/nvim/runtime/lua/vim/diagnostic.lua:737>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>Q    * <Cmd>cclose<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>q    * <Cmd>copen<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>dx   * <Lua 874: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/dap/lua/dap.lua:860>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>dc   * <Lua 873: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/dap/lua/dap.lua:1139>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>dl   * <Lua 872: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/dap/lua/dap.lua:675>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>dr   * <Lua 871: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/dap/lua/dap/ui.lua:342>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>dB   * <Lua 870: ~/.config/nvim/lua/debugging.lua:98>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>db   * <Lua 869: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/dap/lua/dap.lua:1030>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>du   * <Lua 235: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/dapui/lua/dapui/init.lua:337>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+v  <Space>ds   * <Lua 860: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/dap-python/lua/dap-python.lua:575>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>df   * <Lua 308: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/dap-python/lua/dap-python.lua:504>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>dn   * <Lua 236: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/dap-python/lua/dap-python.lua:536>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>mc9  * :Markit bookmark delete 9<CR>
+                 Delete Group 9 Bookmarks
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>mq9  * :Markit bookmark list quickfix 9<CR>
+                 Group 9 Bookmarks → QuickFix
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>mg9  * :Markit bookmark list 9<CR>
+                 Group 9 Bookmarks
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>mn9  * :Markit bookmark next 9<CR>
+                 Next Group 9 Bookmark
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>mp9  * :Markit bookmark prev 9<CR>
+                 Previous Group 9 Bookmark
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>m9   * :Markit bookmark toggle 9<CR>
+                 Toggle Group 9 Bookmark
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>mc8  * :Markit bookmark delete 8<CR>
+                 Delete Group 8 Bookmarks
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>mq8  * :Markit bookmark list quickfix 8<CR>
+                 Group 8 Bookmarks → QuickFix
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>mg8  * :Markit bookmark list 8<CR>
+                 Group 8 Bookmarks
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>mn8  * :Markit bookmark next 8<CR>
+                 Next Group 8 Bookmark
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>mp8  * :Markit bookmark prev 8<CR>
+                 Previous Group 8 Bookmark
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>m8   * :Markit bookmark toggle 8<CR>
+                 Toggle Group 8 Bookmark
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>mc7  * :Markit bookmark delete 7<CR>
+                 Delete Group 7 Bookmarks
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>mq7  * :Markit bookmark list quickfix 7<CR>
+                 Group 7 Bookmarks → QuickFix
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>mg7  * :Markit bookmark list 7<CR>
+                 Group 7 Bookmarks
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>mn7  * :Markit bookmark next 7<CR>
+                 Next Group 7 Bookmark
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>mp7  * :Markit bookmark prev 7<CR>
+                 Previous Group 7 Bookmark
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>m7   * :Markit bookmark toggle 7<CR>
+                 Toggle Group 7 Bookmark
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>mc6  * :Markit bookmark delete 6<CR>
+                 Delete Group 6 Bookmarks
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>mq6  * :Markit bookmark list quickfix 6<CR>
+                 Group 6 Bookmarks → QuickFix
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>mg6  * :Markit bookmark list 6<CR>
+                 Group 6 Bookmarks
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>mn6  * :Markit bookmark next 6<CR>
+                 Next Group 6 Bookmark
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>mp6  * :Markit bookmark prev 6<CR>
+                 Previous Group 6 Bookmark
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>m6   * :Markit bookmark toggle 6<CR>
+                 Toggle Group 6 Bookmark
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>mc5  * :Markit bookmark delete 5<CR>
+                 Delete Group 5 Bookmarks
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>mq5  * :Markit bookmark list quickfix 5<CR>
+                 Group 5 Bookmarks → QuickFix
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>mg5  * :Markit bookmark list 5<CR>
+                 Group 5 Bookmarks
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>mn5  * :Markit bookmark next 5<CR>
+                 Next Group 5 Bookmark
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>mp5  * :Markit bookmark prev 5<CR>
+                 Previous Group 5 Bookmark
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>m5   * :Markit bookmark toggle 5<CR>
+                 Toggle Group 5 Bookmark
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>mc4  * :Markit bookmark delete 4<CR>
+                 Delete Group 4 Bookmarks
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>mq4  * :Markit bookmark list quickfix 4<CR>
+                 Group 4 Bookmarks → QuickFix
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>mg4  * :Markit bookmark list 4<CR>
+                 Group 4 Bookmarks
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>mn4  * :Markit bookmark next 4<CR>
+                 Next Group 4 Bookmark
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>mp4  * :Markit bookmark prev 4<CR>
+                 Previous Group 4 Bookmark
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>m4   * :Markit bookmark toggle 4<CR>
+                 Toggle Group 4 Bookmark
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>mc3  * :Markit bookmark delete 3<CR>
+                 Delete Group 3 Bookmarks
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>mq3  * :Markit bookmark list quickfix 3<CR>
+                 Group 3 Bookmarks → QuickFix
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>mg3  * :Markit bookmark list 3<CR>
+                 Group 3 Bookmarks
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>mn3  * :Markit bookmark next 3<CR>
+                 Next Group 3 Bookmark
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>mp3  * :Markit bookmark prev 3<CR>
+                 Previous Group 3 Bookmark
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>m3   * :Markit bookmark toggle 3<CR>
+                 Toggle Group 3 Bookmark
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>mc2  * :Markit bookmark delete 2<CR>
+                 Delete Group 2 Bookmarks
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>mq2  * :Markit bookmark list quickfix 2<CR>
+                 Group 2 Bookmarks → QuickFix
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>mg2  * :Markit bookmark list 2<CR>
+                 Group 2 Bookmarks
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>mn2  * :Markit bookmark next 2<CR>
+                 Next Group 2 Bookmark
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>mp2  * :Markit bookmark prev 2<CR>
+                 Previous Group 2 Bookmark
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>m2   * :Markit bookmark toggle 2<CR>
+                 Toggle Group 2 Bookmark
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>mc1  * :Markit bookmark delete 1<CR>
+                 Delete Group 1 Bookmarks
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>mq1  * :Markit bookmark list quickfix 1<CR>
+                 Group 1 Bookmarks → QuickFix
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>mg1  * :Markit bookmark list 1<CR>
+                 Group 1 Bookmarks
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>mn1  * :Markit bookmark next 1<CR>
+                 Next Group 1 Bookmark
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>mp1  * :Markit bookmark prev 1<CR>
+                 Previous Group 1 Bookmark
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>m1   * :Markit bookmark toggle 1<CR>
+                 Toggle Group 1 Bookmark
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>mc0  * :Markit bookmark delete 0<CR>
+                 Delete Group 0 Bookmarks
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>mq0  * :Markit bookmark list quickfix 0<CR>
+                 Group 0 Bookmarks → QuickFix
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>mg0  * :Markit bookmark list 0<CR>
+                 Group 0 Bookmarks
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>mn0  * :Markit bookmark next 0<CR>
+                 Next Group 0 Bookmark
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>mp0  * :Markit bookmark prev 0<CR>
+                 Previous Group 0 Bookmark
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>m0   * :Markit bookmark toggle 0<CR>
+                 Toggle Group 0 Bookmark
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>mv   * :Markit bookmark signs<CR>
+                 Toggle Signs
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>mh   * :Markit bookmark prev<CR>
+                 Previous Bookmark
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>ml   * :Markit bookmark next<CR>
+                 Next Bookmark
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>ma   * :Markit bookmark annotate<CR>
+                 Annotate Bookmark
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>mx   * :Markit bookmark delete<CR>
+                 Delete Bookmark at Cursor
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>mb   * :Markit bookmark list all<CR>
+                 All Bookmarks
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>mqg  * :Markit mark list quickfix all<CR>
+                 All Marks → QuickFix
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>mqM  * :Markit mark list quickfix buffer<CR>
+                 Buffer Marks → QuickFix
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>mqm  * :Markit mark list quickfix all<CR>
+                 All Marks → QuickFix
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>mX   * :Markit mark delete<CR>
+                 Delete Mark (Interactive)
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>mD   * :Markit mark delete buffer<CR>
+                 Delete Marks In Buffer
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>md   * :Markit mark delete line<CR>
+                 Delete Marks In Line
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>mP   * :Markit mark preview<CR>
+                 Preview Mark
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>mk   * :Markit mark prev<CR>
+                 Previous Mark
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>mj   * :Markit mark next<CR>
+                 Next Mark
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>mT   * :Markit mark toggle<CR>
+                 Toggle Mark (Interactive)
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>mt   * :Markit mark toggle<CR>
+                 Toggle Mark at Cursor
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>mS   * :Markit mark set<CR>
+                 Set Mark (Interactive)
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>ms   * :Markit mark set<CR>
+                 Set Next Available Mark
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>mM   * :Markit mark list buffer<CR>
+                 Buffer Marks
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>mm   * :Markit mark list all<CR>
+                 All Marks
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>mqb  * :Markit bookmark list quickfix all<CR>
+                 All Bookmarks → QuickFix
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>mlb  * MarksListBuf
+                 Marks: list buffer marks
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space><Space>l * <Lua 630: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/smart-splits/lua/smart-splits/lazy.lua:72>
+                 Swap buffer right
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space><Space>k * <Lua 629: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/smart-splits/lua/smart-splits/lazy.lua:72>
+                 Swap buffer up
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space><Space>j * <Lua 628: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/smart-splits/lua/smart-splits/lazy.lua:72>
+                 Swap buffer down
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space><Space>h * <Lua 627: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/smart-splits/lua/smart-splits/lazy.lua:72>
+                 Swap buffer left
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>bf   * FlyBuf
+                 FlyBuf: buffer list
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>ecL  * :lua require("pickme").pick("files", { cwd = vim.fn.stdpath("state"), title = "Log Files" })<CR>
+                 Neovim Logs
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>ecP  * :lua require("pickme").pick("files", { cwd = vim.fn.stdpath("data") .. "/lazy", title = "Plugin Files" })<CR>
+                 Neovim Plugins
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>ecc  * :lua require("pickme").pick("files", { cwd = vim.fn.stdpath("config"), title = "Neovim Configs" })<CR>
+                 Neovim Configs
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>ot   * :PickMe treesitter<CR>
+                 Treesitter Find
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>os   * :PickMe search_history<CR>
+                 Search History
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>oo   * :PickMe options<CR>
+                 Options
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>on   * :PickMe notifications<CR>
+                 Notifications
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>om   * :PickMe man<CR>
+                 Man Pages
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>ol   * :PickMe lazy<CR>
+                 Search for Plugin Spec
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>ok   * :PickMe keymaps<CR>
+                 Keymaps
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>oj   * :PickMe jumplist<CR>
+                 Jump List
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>oh   * :PickMe highlights<CR>
+                 Highlights
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>og   * :PickMe commands<CR>
+                 Commands
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>of   * :PickMe marks<CR>
+                 Marks
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>od   * :PickMe help<CR>
+                 Docs
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>oc   * :PickMe command_history<CR>
+                 Command History
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>oa   * :PickMe autocmds<CR>
+                 Autocmds
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>oC   * :PickMe colorschemes<CR>
+                 Colorschemes
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>lt   * :PickMe lsp_type_definitions<CR>
+                 Type Definitions
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>ls   * :PickMe lsp_document_symbols<CR>
+                 Document Symbols
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>ll   * :PickMe diagnostics_buffer<CR>
+                 Buffer Diagnostics
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>li   * :PickMe lsp_implementations<CR>
+                 LSP Implementations
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>ld   * :PickMe lsp_definitions<CR>
+                 LSP Definitions
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>lS   * :PickMe lsp_workspace_symbols<CR>
+                 Workspace Symbols
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>lL   * :PickMe diagnostics<CR>
+                 Diagnostics
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>lF   * :PickMe lsp_references<CR>
+                 References
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>lD   * :PickMe lsp_declarations<CR>
+                 LSP Declarations
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>iv   * :PickMe cliphist<CR>
+                 Clipboard
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>is   * :PickMe spell_suggest<CR>
+                 Spell Suggestions
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>ir   * :PickMe registers<CR>
+                 Registers
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>gs   * :PickMe git_branches<CR>
+                 Git Branches
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>gf   * <Lua 837: ~/.config/nvim/lua/telescope_etc.lua:23>
+                 Find Git Files
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>gc   * :PickMe git_commits<CR>
+                 Git Commits
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>gS   * :PickMe git_stash<CR>
+                 Git Stash
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>fz   * :PickMe zoxide<CR>
+                 Zoxide
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>fu   * :PickMe undo<CR>
+                 Undo History
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>ft   * :PickMe pickers<CR>
+                 All Pickers
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>fp   * :PickMe resume<CR>
+                 Previous Picker
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>fo   * :PickMe grep_buffers<CR>
+                 Grep Open Buffers
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>fm   * :PickMe git_status<CR>
+                 Modified Files
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>fl   * :PickMe loclist<CR>
+                 Location List
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>fa   * :PickMe files<CR>
+                 Find Files
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space><Space> * :PickMe files<CR>
+                 Files
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>:    * :PickMe command_history<CR>
+                 Command History
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>/    * :PickMe search_history<CR>
+                 Search History
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>,    * :PickMe buffers<CR>
+                 Buffers
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>sf   * <Lua 597: ~/.config/nvim/lua/search.lua:209>
+                 Spectre current file
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+v  <Space>sR   * <Lua 596: ~/.config/nvim/lua/search.lua:206>
+                 Spectre selection
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>sW   * <Lua 595: ~/.config/nvim/lua/search.lua:203>
+                 Spectre word under cursor
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>sR   * <Lua 590: ~/.config/nvim/lua/search.lua:200>
+                 Spectre toggle
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+v  <Space>sr   * <Lua 589: ~/.config/nvim/lua/search.lua:191>
+                 Search and replace selection
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>sw   * <Lua 588: ~/.config/nvim/lua/search.lua:188>
+                 Search and replace word under cursor
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>sr   * <Lua 586: ~/.config/nvim/lua/search.lua:185>
+                 Search and replace
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>gl   * :PickMe git_log_line<CR>
+                 Line Commits
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>gB   * <Lua 567: ~/.config/nvim/lua/search.lua:148>
+                 Git browse (open in browser)
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>bd   * <Lua 129: ~/.config/nvim/lua/search.lua:145>
+                 Delete buffer
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>n    * <Lua 553: ~/.config/nvim/lua/search.lua:142>
+                 Notification history
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>he   * <Cmd>Deck helpgrep<CR>
+                 Live grep all help tags
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>gi   * <Cmd>Deck git<CR>
+                 Open git launcher
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>gr   * <Cmd>Deck grep<CR>
+                 Start grep search
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>f.   * <Lua 550: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/fzf-lua/lua/fzf-lua/init.lua:349>
+                 Resume last picker
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>fq   * :PickMe quickfix<CR>
+                 Quickfix List
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>fc   * <Lua 548: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/fzf-lua/lua/fzf-lua/init.lua:349>
+                 Commands
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>fh   * <Lua 840: ~/.config/nvim/lua/telescope_etc.lua:32>
+                 Find Help Tags
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>fD   * <Lua 546: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/fzf-lua/lua/fzf-lua/init.lua:349>
+                 Workspace diagnostics
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>fd   * :PickMe projects<CR>
+                 Project Dirs
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>fS   * <Lua 544: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/fzf-lua/lua/fzf-lua/init.lua:349>
+                 Workspace symbols
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>fs   * :PickMe buffer_grep<CR>
+                 Buffer Lines
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>f/   * <Lua 542: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/fzf-lua/lua/fzf-lua/init.lua:349>
+                 Grep current buffer
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+v  <Space>fw   * <Lua 541: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/fzf-lua/lua/fzf-lua/init.lua:349>
+                 Grep selection
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>fw   * :PickMe grep_string<CR>
+                 Word Grep
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>fg   * <Lua 838: ~/.config/nvim/lua/telescope_etc.lua:26>
+                 Live Grep
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>fb   * <Lua 839: ~/.config/nvim/lua/telescope_etc.lua:29>
+                 Find Buffers
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>fr   * :PickMe oldfiles<CR>
+                 Recent Files
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>ff   * <Lua 811: ~/.config/nvim/lua/telescope_etc.lua:20>
+                 Find Files
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+v  <Space>a=   * :Tabularize /=<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>a=   * :Tabularize /=<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>u    * <Cmd>MundoToggle<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>pc     <Lua 310: ~/.config/nvim/lua/lsp_etc.lua:913>
+                 Debug print clean
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+x  <Space>pc     <Lua 309: ~/.config/nvim/lua/lsp_etc.lua:913>
+                 Debug print clean
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>pp   * <Lua 845: ~/.config/nvim/lua/debugging.lua:26>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>pP   * <Lua 307: ~/.config/nvim/lua/lsp_etc.lua:906>
+                 Debug print location
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>pEE  * <Lua 306: ~/.config/nvim/lua/lsp_etc.lua:902>
+                 Debug print exp above
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>pE   * <Lua 305: ~/.config/nvim/lua/lsp_etc.lua:898>
+                 Debug print exp above
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+x  <Space>pE   * <Lua 304: ~/.config/nvim/lua/lsp_etc.lua:898>
+                 Debug print exp above
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>pee  * <Lua 303: ~/.config/nvim/lua/lsp_etc.lua:894>
+                 Debug print exp below
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>pe   * <Lua 302: ~/.config/nvim/lua/lsp_etc.lua:890>
+                 Debug print exp below
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+x  <Space>pe   * <Lua 301: ~/.config/nvim/lua/lsp_etc.lua:890>
+                 Debug print exp below
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+x  <Space>pV   * <Lua 300: ~/.config/nvim/lua/lsp_etc.lua:886>
+                 Debug print var above
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>pV   * <Lua 299: ~/.config/nvim/lua/lsp_etc.lua:883>
+                 Debug print var above
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+x  <Space>pv   * <Lua 298: ~/.config/nvim/lua/lsp_etc.lua:878>
+                 Debug print var below
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>pv   * <Lua 297: ~/.config/nvim/lua/lsp_etc.lua:875>
+                 Debug print var below
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+x  <Space>rs   * <Lua 296: ~/.config/nvim/lua/lsp_etc.lua:870>
+                 Select refactor
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>rs   * <Lua 295: ~/.config/nvim/lua/lsp_etc.lua:870>
+                 Select refactor
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+x  <Space>rI   * <Lua 294: ~/.config/nvim/lua/lsp_etc.lua:866>
+                 Inline function
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>rI   * <Lua 293: ~/.config/nvim/lua/lsp_etc.lua:866>
+                 Inline function
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+x  <Space>ri   * <Lua 292: ~/.config/nvim/lua/lsp_etc.lua:863>
+                 Inline Variable
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>ri   * <Lua 291: ~/.config/nvim/lua/lsp_etc.lua:863>
+                 Inline Variable
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>rvv  * <Lua 290: ~/.config/nvim/lua/lsp_etc.lua:859>
+                 Extract Variable (line)
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+x  <Space>rv   * <Lua 289: ~/.config/nvim/lua/lsp_etc.lua:854>
+                 Extract Variable
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>rv   * <Lua 288: ~/.config/nvim/lua/lsp_etc.lua:854>
+                 Extract Variable
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+x  <Space>rE   * <Lua 287: ~/.config/nvim/lua/lsp_etc.lua:850>
+                 Extract Function To File
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>rE   * <Lua 286: ~/.config/nvim/lua/lsp_etc.lua:850>
+                 Extract Function To File
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>ree  * <Lua 285: ~/.config/nvim/lua/lsp_etc.lua:846>
+                 Extract Function (line)
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+x  <Space>re   * <Lua 284: ~/.config/nvim/lua/lsp_etc.lua:842>
+                 Extract Function
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>re   * <Lua 282: ~/.config/nvim/lua/lsp_etc.lua:842>
+                 Extract Function
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>dm   * <Lua 251: ~/.config/nvim/lua/lsp_etc.lua:217>
+                 Cycle LSP Diagnostic Modes
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>dt   * <Lua 248: ~/.config/nvim/lua/lsp_etc.lua:212>
+                 Toggle LSP Diagnostics
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>tS   * <Lua 243: ~/.config/nvim/lua/testing.lua:40>
+                 Toggle test summary
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>tO   * <Lua 242: ~/.config/nvim/lua/testing.lua:37>
+                 Toggle output panel
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>to   * <Lua 241: ~/.config/nvim/lua/testing.lua:34>
+                 Open test output
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>tt   * <Lua 862: ~/.config/nvim/lua/debugging.lua:23>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+v  <Space>cw   * <Cmd>Yazi cwd<CR>
+                 Open the file manager in nvim's working directory
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>cw   * <Cmd>Yazi cwd<CR>
+                 Open the file manager in nvim's working directory
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+v  <Space>-    * <Cmd>Yazi<CR>
+                 Open yazi at the current file
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>-    * <Cmd>Yazi<CR>
+                 Open yazi at the current file
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>o    * <Cmd>AerialToggle<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>nb   * <Lua 132: ~/.config/nvim/lua/ui.lua:78>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>;    * <Lua 536: ~/.config/nvim/lua/search.lua:112>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Space>ii   * :PickMe icons<CR>
+                 Icons
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ##          * <Lua 914: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/recorder/lua/recorder.lua:261>
+                  Insert Macro Breakpoint.
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  #           * #<Cmd>lua require('hlslens').start()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+x  #           * <Lua 9: vim/_core/defaults:104>
+                 :help v_#-default
+	Last set from Lua (run Nvim with -V1 for more details)
+n  &           * :&&<CR>
+                 :help &-default
+	Last set from Lua (run Nvim with -V1 for more details)
+n  *           * *<Cmd>lua require('hlslens').start()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+x  *           * <Lua 6: vim/_core/defaults:101>
+                 :help v_star-default
+	Last set from Lua (run Nvim with -V1 for more details)
+n  ,cab        * <Lua 793: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:148>
+                 Search & change around parentheses block
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,cib        * <Lua 792: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:139>
+                 Search & change inside parentheses block
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,dab        * <Lua 791: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:148>
+                 Search & delete around parentheses block
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,dib        * <Lua 790: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:139>
+                 Search & delete inside parentheses block
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,yab        * <Lua 789: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:148>
+                 Search & yank around parentheses block
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,yib        * <Lua 788: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:139>
+                 Search & yank inside parentheses block
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,vab        * <Lua 787: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:148>
+                 Search & select around parentheses block
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,vib        * <Lua 786: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:139>
+                 Search & select inside parentheses block
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,caW        * <Lua 785: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:148>
+                 Search & change around WORD
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,ciW        * <Lua 784: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:139>
+                 Search & change inside WORD
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,daW        * <Lua 783: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:148>
+                 Search & delete around WORD
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,diW        * <Lua 782: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:139>
+                 Search & delete inside WORD
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,yaW        * <Lua 781: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:148>
+                 Search & yank around WORD
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,yiW        * <Lua 780: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:139>
+                 Search & yank inside WORD
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,vaW        * <Lua 779: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:148>
+                 Search & select around WORD
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,viW        * <Lua 778: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:139>
+                 Search & select inside WORD
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,caw        * <Lua 777: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:148>
+                 Search & change around word
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,ciw        * <Lua 776: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:139>
+                 Search & change inside word
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,daw        * <Lua 775: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:148>
+                 Search & delete around word
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,diw        * <Lua 774: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:139>
+                 Search & delete inside word
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,yaw        * <Lua 773: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:148>
+                 Search & yank around word
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,yiw        * <Lua 772: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:139>
+                 Search & yank inside word
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,vaw        * <Lua 771: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:148>
+                 Search & select around word
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,viw        * <Lua 770: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:139>
+                 Search & select inside word
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,ca<        * <Lua 769: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:148>
+                 Search & change around angle brackets
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,ci<        * <Lua 768: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:139>
+                 Search & change inside angle brackets
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,da<        * <Lua 767: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:148>
+                 Search & delete around angle brackets
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,di<        * <Lua 766: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:139>
+                 Search & delete inside angle brackets
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,ya<        * <Lua 765: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:148>
+                 Search & yank around angle brackets
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,yi<        * <Lua 764: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:139>
+                 Search & yank inside angle brackets
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,va<        * <Lua 763: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:148>
+                 Search & select around angle brackets
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,vi<        * <Lua 762: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:139>
+                 Search & select inside angle brackets
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,ca(        * <Lua 761: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:148>
+                 Search & change around parentheses
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,ci(        * <Lua 760: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:139>
+                 Search & change inside parentheses
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,da(        * <Lua 759: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:148>
+                 Search & delete around parentheses
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,di(        * <Lua 758: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:139>
+                 Search & delete inside parentheses
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,ya(        * <Lua 757: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:148>
+                 Search & yank around parentheses
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,yi(        * <Lua 756: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:139>
+                 Search & yank inside parentheses
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,va(        * <Lua 755: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:148>
+                 Search & select around parentheses
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,vi(        * <Lua 754: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:139>
+                 Search & select inside parentheses
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,ca[        * <Lua 753: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:148>
+                 Search & change around square brackets
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,ci[        * <Lua 752: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:139>
+                 Search & change inside square brackets
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,da[        * <Lua 751: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:148>
+                 Search & delete around square brackets
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,di[        * <Lua 750: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:139>
+                 Search & delete inside square brackets
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,ya[        * <Lua 749: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:148>
+                 Search & yank around square brackets
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,yi[        * <Lua 748: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:139>
+                 Search & yank inside square brackets
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,va[        * <Lua 747: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:148>
+                 Search & select around square brackets
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,vi[        * <Lua 746: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:139>
+                 Search & select inside square brackets
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,ca>        * <Lua 745: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:148>
+                 Search & change around angle brackets
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,ci>        * <Lua 744: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:139>
+                 Search & change inside angle brackets
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,da>        * <Lua 743: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:148>
+                 Search & delete around angle brackets
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,di>        * <Lua 742: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:139>
+                 Search & delete inside angle brackets
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,ya>        * <Lua 741: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:148>
+                 Search & yank around angle brackets
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,yi>        * <Lua 740: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:139>
+                 Search & yank inside angle brackets
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,va>        * <Lua 739: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:148>
+                 Search & select around angle brackets
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,vi>        * <Lua 738: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:139>
+                 Search & select inside angle brackets
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,ca]        * <Lua 737: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:148>
+                 Search & change around square brackets
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,ci]        * <Lua 736: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:139>
+                 Search & change inside square brackets
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,da]        * <Lua 735: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:148>
+                 Search & delete around square brackets
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,di]        * <Lua 734: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:139>
+                 Search & delete inside square brackets
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,ya]        * <Lua 733: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:148>
+                 Search & yank around square brackets
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,yi]        * <Lua 732: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:139>
+                 Search & yank inside square brackets
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,va]        * <Lua 731: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:148>
+                 Search & select around square brackets
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,vi]        * <Lua 730: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:139>
+                 Search & select inside square brackets
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,ca"        * <Lua 729: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:148>
+                 Search & change around double quoted string
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,ci"        * <Lua 728: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:139>
+                 Search & change inside double quoted string
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,da"        * <Lua 727: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:148>
+                 Search & delete around double quoted string
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,di"        * <Lua 726: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:139>
+                 Search & delete inside double quoted string
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,ya"        * <Lua 725: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:148>
+                 Search & yank around double quoted string
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,yi"        * <Lua 724: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:139>
+                 Search & yank inside double quoted string
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,va"        * <Lua 723: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:148>
+                 Search & select around double quoted string
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,vi"        * <Lua 722: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:139>
+                 Search & select inside double quoted string
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,ca'        * <Lua 721: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:148>
+                 Search & change around single quoted string
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,ci'        * <Lua 720: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:139>
+                 Search & change inside single quoted string
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,da'        * <Lua 719: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:148>
+                 Search & delete around single quoted string
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,di'        * <Lua 718: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:139>
+                 Search & delete inside single quoted string
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,ya'        * <Lua 717: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:148>
+                 Search & yank around single quoted string
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,yi'        * <Lua 716: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:139>
+                 Search & yank inside single quoted string
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,va'        * <Lua 715: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:148>
+                 Search & select around single quoted string
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,vi'        * <Lua 714: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:139>
+                 Search & select inside single quoted string
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,ca}        * <Lua 713: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:148>
+                 Search & change around curly braces
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,ci}        * <Lua 712: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:139>
+                 Search & change inside curly braces
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,da}        * <Lua 711: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:148>
+                 Search & delete around curly braces
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,di}        * <Lua 710: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:139>
+                 Search & delete inside curly braces
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,ya}        * <Lua 709: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:148>
+                 Search & yank around curly braces
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,yi}        * <Lua 708: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:139>
+                 Search & yank inside curly braces
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,va}        * <Lua 707: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:148>
+                 Search & select around curly braces
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,vi}        * <Lua 706: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:139>
+                 Search & select inside curly braces
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,caB        * <Lua 705: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:148>
+                 Search & change around curly braces block
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,ciB        * <Lua 704: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:139>
+                 Search & change inside curly braces block
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,daB        * <Lua 703: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:148>
+                 Search & delete around curly braces block
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,diB        * <Lua 702: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:139>
+                 Search & delete inside curly braces block
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,yaB        * <Lua 701: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:148>
+                 Search & yank around curly braces block
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,yiB        * <Lua 700: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:139>
+                 Search & yank inside curly braces block
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,vaB        * <Lua 699: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:148>
+                 Search & select around curly braces block
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,viB        * <Lua 698: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:139>
+                 Search & select inside curly braces block
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,ca`        * <Lua 697: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:148>
+                 Search & change around backticks
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,ci`        * <Lua 696: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:139>
+                 Search & change inside backticks
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,da`        * <Lua 695: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:148>
+                 Search & delete around backticks
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,di`        * <Lua 694: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:139>
+                 Search & delete inside backticks
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,ya`        * <Lua 693: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:148>
+                 Search & yank around backticks
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,yi`        * <Lua 692: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:139>
+                 Search & yank inside backticks
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,va`        * <Lua 691: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:148>
+                 Search & select around backticks
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,vi`        * <Lua 690: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:139>
+                 Search & select inside backticks
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,cat        * <Lua 689: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:148>
+                 Search & change around tag block
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,cit        * <Lua 688: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:139>
+                 Search & change inside tag block
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,dat        * <Lua 687: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:148>
+                 Search & delete around tag block
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,dit        * <Lua 686: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:139>
+                 Search & delete inside tag block
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,yat        * <Lua 685: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:148>
+                 Search & yank around tag block
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,yit        * <Lua 684: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:139>
+                 Search & yank inside tag block
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,vat        * <Lua 683: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:148>
+                 Search & select around tag block
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,vit        * <Lua 682: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:139>
+                 Search & select inside tag block
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,ca)        * <Lua 681: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:148>
+                 Search & change around parentheses
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,ci)        * <Lua 680: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:139>
+                 Search & change inside parentheses
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,da)        * <Lua 679: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:148>
+                 Search & delete around parentheses
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,di)        * <Lua 678: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:139>
+                 Search & delete inside parentheses
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,ya)        * <Lua 677: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:148>
+                 Search & yank around parentheses
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,yi)        * <Lua 676: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:139>
+                 Search & yank inside parentheses
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,va)        * <Lua 675: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:148>
+                 Search & select around parentheses
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,vi)        * <Lua 674: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:139>
+                 Search & select inside parentheses
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,cas        * <Lua 673: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:148>
+                 Search & change around sentence
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,cis        * <Lua 672: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:139>
+                 Search & change inside sentence
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,das        * <Lua 671: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:148>
+                 Search & delete around sentence
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,dis        * <Lua 670: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:139>
+                 Search & delete inside sentence
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,yas        * <Lua 669: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:148>
+                 Search & yank around sentence
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,yis        * <Lua 668: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:139>
+                 Search & yank inside sentence
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,vas        * <Lua 667: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:148>
+                 Search & select around sentence
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,vis        * <Lua 666: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:139>
+                 Search & select inside sentence
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,cap        * <Lua 665: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:148>
+                 Search & change around paragraph
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,cip        * <Lua 664: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:139>
+                 Search & change inside paragraph
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,dap        * <Lua 663: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:148>
+                 Search & delete around paragraph
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,dip        * <Lua 662: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:139>
+                 Search & delete inside paragraph
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,yap        * <Lua 661: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:148>
+                 Search & yank around paragraph
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,yip        * <Lua 660: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:139>
+                 Search & yank inside paragraph
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,vap        * <Lua 659: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:148>
+                 Search & select around paragraph
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,vip        * <Lua 658: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:139>
+                 Search & select inside paragraph
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,ca{        * <Lua 657: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:148>
+                 Search & change around curly braces
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,ci{        * <Lua 656: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:139>
+                 Search & change inside curly braces
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,da{        * <Lua 655: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:148>
+                 Search & delete around curly braces
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,di{        * <Lua 654: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:139>
+                 Search & delete inside curly braces
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,ya{        * <Lua 653: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:148>
+                 Search & yank around curly braces
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,yi{        * <Lua 652: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:139>
+                 Search & yank inside curly braces
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,va{        * <Lua 651: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:148>
+                 Search & select around curly braces
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,vi{        * <Lua 650: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:139>
+                 Search & select inside curly braces
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,V          * <Lua 649: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:87>
+                 Search & select entire line
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,C          * <Lua 648: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:87>
+                 Search & change entire line
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,Y          * <Lua 647: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:87>
+                 Search & yank entire line
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,D          * <Lua 646: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:87>
+                 Search & delete entire line
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,cam        * <Lua 645: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:14>
+                 Search & change around markdown code block
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,cim        * <Lua 644: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:14>
+                 Search & change inside markdown code block
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,dam        * <Lua 643: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:14>
+                 Search & delete around markdown code block
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,dim        * <Lua 642: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:14>
+                 Search & delete inside markdown code block
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,yam        * <Lua 641: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:14>
+                 Search & yank around markdown code block
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,yim        * <Lua 640: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:14>
+                 Search & yank inside markdown code block
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,vam        * <Lua 639: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:14>
+                 Search & select around markdown code block
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,vim        * <Lua 638: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:14>
+                 Search & select inside markdown code block
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+o  ,           * <Lua 395: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/flash/lua/flash/plugins/char.lua:118>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+x  ,           * <Lua 394: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/flash/lua/flash/plugins/char.lua:118>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ,           * <Lua 393: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/flash/lua/flash/plugins/char.lua:118>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+o  ;           * <Lua 392: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/flash/lua/flash/plugins/char.lua:118>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+x  ;           * <Lua 391: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/flash/lua/flash/plugins/char.lua:118>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ;           * <Lua 390: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/flash/lua/flash/plugins/char.lua:118>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+x  @           * mode() ==# 'V' ? ':normal! @'.getcharstr().'<CR>' : '@'
+                 :help v_@-default
+	Last set from Lua (run Nvim with -V1 for more details)
+o  F           * <Lua 383: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/flash/lua/flash/plugins/char.lua:118>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+x  F           * <Lua 382: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/flash/lua/flash/plugins/char.lua:118>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  F           * <Lua 381: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/flash/lua/flash/plugins/char.lua:118>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  K           * <Cmd>Lspsaga hover_doc
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  N           * <Cmd>execute('normal! ' . v:count1 . 'N')<CR><Cmd>lua require('hlslens').start()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  Q           * <Lua 915: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/recorder/lua/recorder.lua:96>
+                  Play Macro
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+x  Q           * <Cmd>lua require('NeoComposer.macro').toggle_play_macro()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+x  R           * <Lua 407: ~/.config/nvim/lua/editing.lua:138>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+o  R           * <Lua 406: ~/.config/nvim/lua/editing.lua:138>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+o  S           * <Lua 404: ~/.config/nvim/lua/editing.lua:130>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+x  S           * <Plug>(nvim-surround-visual)
+                 Add a surrounding pair around a visual selection
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/nvim-surround/plugin/nvim-surround.lua (run Nvim with -V1 for more details)
+n  S           * <Lua 402: ~/.config/nvim/lua/editing.lua:130>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+o  T           * <Lua 389: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/flash/lua/flash/plugins/char.lua:118>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+x  T           * <Lua 388: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/flash/lua/flash/plugins/char.lua:118>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  T           * <Lua 387: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/flash/lua/flash/plugins/char.lua:118>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  Y           * y$
+                 :help Y-default
+	Last set from Lua (run Nvim with -V1 for more details)
+n  [[          * <Lua 570: ~/.config/nvim/lua/search.lua:157>
+                 Prev reference
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  [;          * <Lua 130: ~/.config/nvim/lua/ui.lua:61>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+x  [N          * <Lua 65: vim/_core/defaults:471>
+                 Select previous sibling node
+	Last set from Lua (run Nvim with -V1 for more details)
+x  [n          * <Lua 63: vim/_core/defaults:463>
+                 Select previous node
+	Last set from Lua (run Nvim with -V1 for more details)
+n  [<Space>    * <Lua 61: vim/_core/defaults:448>
+                 Add empty line above cursor
+	Last set from Lua (run Nvim with -V1 for more details)
+n  [B          * <Lua 59: vim/_core/defaults:431>
+                 :brewind
+	Last set from Lua (run Nvim with -V1 for more details)
+n  [b          * <Lua 57: vim/_core/defaults:423>
+                 :bprevious
+	Last set from Lua (run Nvim with -V1 for more details)
+n  [<C-T>      * <Lua 55: vim/_core/defaults:412>
+                 :ptprevious
+	Last set from Lua (run Nvim with -V1 for more details)
+n  [T          * <Lua 53: vim/_core/defaults:398>
+                 :trewind
+	Last set from Lua (run Nvim with -V1 for more details)
+n  [t          * <Lua 51: vim/_core/defaults:388>
+                 :tprevious
+	Last set from Lua (run Nvim with -V1 for more details)
+n  [A          * <Lua 49: vim/_core/defaults:371>
+                 :rewind
+	Last set from Lua (run Nvim with -V1 for more details)
+n  [a          * <Lua 47: vim/_core/defaults:362>
+                 :previous
+	Last set from Lua (run Nvim with -V1 for more details)
+n  [<C-L>      * <Lua 45: vim/_core/defaults:353>
+                 :lpfile
+	Last set from Lua (run Nvim with -V1 for more details)
+n  [L          * <Lua 43: vim/_core/defaults:345>
+                 :lrewind
+	Last set from Lua (run Nvim with -V1 for more details)
+n  [l          * <Cmd>lprev<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  [<C-Q>      * <Lua 39: vim/_core/defaults:328>
+                 :cpfile
+	Last set from Lua (run Nvim with -V1 for more details)
+n  [Q          * <Lua 37: vim/_core/defaults:320>
+                 :crewind
+	Last set from Lua (run Nvim with -V1 for more details)
+n  [q          * <Cmd>cprev<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  [D          * <Lua 33: vim/_core/defaults:284>
+                 Jump to the first diagnostic in the current buffer
+	Last set from Lua (run Nvim with -V1 for more details)
+n  [d          * <Lua 41: /nix/store/5rnnqlp72zgq77y9507a4n6a7hyzwsgz-neovim-unwrapped-89623e5/share/nvim/runtime/lua/vim/diagnostic.lua:543>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+x  \\c           <Plug>(VM-Visual-Cursors)
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-visual-multi/autoload/vm/maps.vim line 18
+n  \\gS          <Plug>(VM-Reselect-Last)
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-visual-multi/autoload/vm/maps.vim line 18
+n  \\/           <Plug>(VM-Start-Regex-Search)
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-visual-multi/autoload/vm/maps.vim line 18
+n  \\\           <Plug>(VM-Add-Cursor-At-Pos)
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-visual-multi/autoload/vm/maps.vim line 18
+x  \\a           <Plug>(VM-Visual-Add)
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-visual-multi/autoload/vm/maps.vim line 18
+x  \\f           <Plug>(VM-Visual-Find)
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-visual-multi/autoload/vm/maps.vim line 18
+x  \\/           <Plug>(VM-Visual-Regex)
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-visual-multi/autoload/vm/maps.vim line 18
+x  \\A           <Plug>(VM-Visual-All)
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-visual-multi/autoload/vm/maps.vim line 18
+n  \\A           <Plug>(VM-Select-All)
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-visual-multi/autoload/vm/maps.vim line 18
+n  ]]          * <Lua 569: ~/.config/nvim/lua/search.lua:154>
+                 Next reference
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ];          * <Lua 131: ~/.config/nvim/lua/ui.lua:65>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+x  ]N          * <Lua 66: vim/_core/defaults:475>
+                 Select next sibling node
+	Last set from Lua (run Nvim with -V1 for more details)
+x  ]n          * <Lua 64: vim/_core/defaults:467>
+                 Select next node
+	Last set from Lua (run Nvim with -V1 for more details)
+n  ]<Space>    * <Lua 62: vim/_core/defaults:454>
+                 Add empty line below cursor
+	Last set from Lua (run Nvim with -V1 for more details)
+n  ]B          * <Lua 60: vim/_core/defaults:439>
+                 :blast
+	Last set from Lua (run Nvim with -V1 for more details)
+n  ]b          * <Lua 58: vim/_core/defaults:427>
+                 :bnext
+	Last set from Lua (run Nvim with -V1 for more details)
+n  ]<C-T>      * <Lua 56: vim/_core/defaults:417>
+                 :ptnext
+	Last set from Lua (run Nvim with -V1 for more details)
+n  ]T          * <Lua 54: vim/_core/defaults:403>
+                 :tlast
+	Last set from Lua (run Nvim with -V1 for more details)
+n  ]t          * <Lua 52: vim/_core/defaults:393>
+                 :tnext
+	Last set from Lua (run Nvim with -V1 for more details)
+n  ]A          * <Lua 50: vim/_core/defaults:379>
+                 :last
+	Last set from Lua (run Nvim with -V1 for more details)
+n  ]a          * <Lua 48: vim/_core/defaults:366>
+                 :next
+	Last set from Lua (run Nvim with -V1 for more details)
+n  ]<C-L>      * <Lua 46: vim/_core/defaults:357>
+                 :lnfile
+	Last set from Lua (run Nvim with -V1 for more details)
+n  ]L          * <Lua 44: vim/_core/defaults:349>
+                 :llast
+	Last set from Lua (run Nvim with -V1 for more details)
+n  ]l          * <Cmd>lnext<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ]<C-Q>      * <Lua 40: vim/_core/defaults:332>
+                 :cnfile
+	Last set from Lua (run Nvim with -V1 for more details)
+n  ]Q          * <Lua 38: vim/_core/defaults:324>
+                 :clast
+	Last set from Lua (run Nvim with -V1 for more details)
+n  ]q          * <Cmd>cnext<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ]D          * <Lua 32: vim/_core/defaults:280>
+                 Jump to the last diagnostic in the current buffer
+	Last set from Lua (run Nvim with -V1 for more details)
+n  ]d          * <Lua 31: /nix/store/5rnnqlp72zgq77y9507a4n6a7hyzwsgz-neovim-unwrapped-89623e5/share/nvim/runtime/lua/vim/diagnostic.lua:636>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+x  am          * <Lua 637: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/text_objects.lua:43>
+                 markdown code block
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+o  am          * <Lua 635: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/text_objects.lua:35>
+                 markdown code block
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+x  as            <Plug>(textobj-sandwich-query-a)
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/sandwich.vim line 74
+o  as            <Plug>(textobj-sandwich-query-a)
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/sandwich.vim line 73
+x  ab            <Plug>(textobj-sandwich-auto-a)
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/sandwich.vim line 68
+o  ab            <Plug>(textobj-sandwich-auto-a)
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/sandwich.vim line 67
+o  an          * <Lua 68: vim/_core/defaults:479>
+                 Select parent (outer) node
+	Last set from Lua (run Nvim with -V1 for more details)
+x  an          * <Lua 67: vim/_core/defaults:479>
+                 Select parent (outer) node
+	Last set from Lua (run Nvim with -V1 for more details)
+n  cq          * <Lua 911: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/recorder/lua/recorder.lua:214>
+                  Edit Macro
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  cS          * <Plug>(nvim-surround-change-line)
+                 Change a surrounding pair, putting replacements on new lines
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/nvim-surround/plugin/nvim-surround.lua (run Nvim with -V1 for more details)
+n  cs          * <Plug>(nvim-surround-change)
+                 Change a surrounding pair
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/nvim-surround/plugin/nvim-surround.lua (run Nvim with -V1 for more details)
+n  dq          * <Lua 913: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/recorder/lua/recorder.lua:230>
+                  Delete All Macros
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  dm0         * <Lua 825: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/lua/marks/init.lua:121>
+                 marks: delete bookmark0
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  dm          * <Lua 823: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/lua/marks/init.lua:34>
+                 marks: delete
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  dm2         * <Lua 821: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/lua/marks/init.lua:121>
+                 marks: delete bookmark2
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  dm<Space>   * <Lua 818: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/lua/marks/init.lua:52>
+                 marks: delete buf
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  dm1         * <Lua 816: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/lua/marks/init.lua:121>
+                 marks: delete bookmark1
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  dm6         * <Lua 815: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/lua/marks/init.lua:121>
+                 marks: delete bookmark6
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  dm7         * <Lua 808: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/lua/marks/init.lua:121>
+                 marks: delete bookmark7
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  dm5         * <Lua 804: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/lua/marks/init.lua:121>
+                 marks: delete bookmark5
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  dm=         * <Lua 803: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/lua/marks/init.lua:126>
+                 marks: delete bookmark
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  dm4         * <Lua 799: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/lua/marks/init.lua:121>
+                 marks: delete bookmark4
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  dm8         * <Lua 798: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/lua/marks/init.lua:121>
+                 marks: delete bookmark8
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  dm-         * <Lua 796: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/lua/marks/init.lua:48>
+                 marks: delete line
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  dm9         * <Lua 795: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/lua/marks/init.lua:121>
+                 marks: delete bookmark9
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  dm3         * <Lua 794: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/lua/marks/init.lua:121>
+                 marks: delete bookmark3
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ds          * <Plug>(nvim-surround-delete)
+                 Delete a surrounding pair
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/nvim-surround/plugin/nvim-surround.lua (run Nvim with -V1 for more details)
+o  f           * <Lua 380: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/flash/lua/flash/plugins/char.lua:118>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+x  f           * <Lua 379: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/flash/lua/flash/plugins/char.lua:118>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  f           * <Lua 374: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/flash/lua/flash/plugins/char.lua:118>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  g#          * g#<Cmd>lua require('hlslens').start()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  g*          * g*<Cmd>lua require('hlslens').start()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+x  gA          * <Lua 517: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/mini.align/lua/mini/align.lua:1382>
+                 Align with preview
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  gA          * <Lua 516: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/mini.align/lua/mini/align.lua:1370>
+                 Align with preview
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+x  ga          * <Lua 515: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/mini.align/lua/mini/align.lua:1382>
+                 Align
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ga          * <Lua 514: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/mini.align/lua/mini/align.lua:1370>
+                 Align
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+x  gS          * <Plug>(nvim-surround-visual-line)
+                 Add a surrounding pair around a visual selection, on new lines
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/nvim-surround/plugin/nvim-surround.lua (run Nvim with -V1 for more details)
+n  gS          * <Lua 349: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/treesj/lua/treesj/init.lua:30>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  gcu           <Plug>Commentary<Plug>Commentary
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-commentary/plugin/commentary.vim line 117
+x  g<C-X>      * <Lua 318: ~/.config/nvim/lua/editing.lua:34>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+x  g<C-A>      * <Lua 317: ~/.config/nvim/lua/editing.lua:31>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  g<C-X>      * <Lua 314: ~/.config/nvim/lua/editing.lua:22>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  g<C-A>      * <Lua 313: ~/.config/nvim/lua/editing.lua:19>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  gO          * <Lua 23: vim/_core/defaults:237>
+                 vim.lsp.buf.document_symbol()
+	Last set from Lua (run Nvim with -V1 for more details)
+n  grt         * <Lua 22: vim/_core/defaults:233>
+                 vim.lsp.buf.type_definition()
+	Last set from Lua (run Nvim with -V1 for more details)
+n  gri         * <Lua 21: vim/_core/defaults:229>
+                 vim.lsp.buf.implementation()
+	Last set from Lua (run Nvim with -V1 for more details)
+n  grr         * <Lua 20: vim/_core/defaults:225>
+                 vim.lsp.buf.references()
+	Last set from Lua (run Nvim with -V1 for more details)
+n  grx         * <Lua 19: vim/_core/defaults:221>
+                 vim.lsp.codelens.run()
+	Last set from Lua (run Nvim with -V1 for more details)
+x  gra         * <Lua 18: vim/_core/defaults:217>
+                 vim.lsp.buf.code_action()
+	Last set from Lua (run Nvim with -V1 for more details)
+n  gra         * <Lua 17: vim/_core/defaults:217>
+                 vim.lsp.buf.code_action()
+	Last set from Lua (run Nvim with -V1 for more details)
+n  grn         * <Lua 16: vim/_core/defaults:213>
+                 vim.lsp.buf.rename()
+	Last set from Lua (run Nvim with -V1 for more details)
+o  gc            <Plug>Commentary
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-commentary/plugin/commentary.vim line 115
+n  gcc           <Plug>CommentaryLine
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-commentary/plugin/commentary.vim line 116
+x  gc            <Plug>Commentary
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-commentary/plugin/commentary.vim line 113
+n  gc            <Plug>Commentary
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-commentary/plugin/commentary.vim line 114
+x  gx          * <Lua 11: vim/_core/defaults:174>
+                 Opens filepath or URI under cursor with the system handler (file explorer, web browser, …)
+	Last set from Lua (run Nvim with -V1 for more details)
+n  gx          * <Lua 10: vim/_core/defaults:166>
+                 Opens filepath or URI under cursor with the system handler (file explorer, web browser, …)
+	Last set from Lua (run Nvim with -V1 for more details)
+x  im          * <Lua 636: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/text_objects.lua:39>
+                 markdown code block
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+o  im          * <Lua 631: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/beam/lua/beam/text_objects.lua:31>
+                 markdown code block
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+x  is            <Plug>(textobj-sandwich-query-i)
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/sandwich.vim line 72
+o  is            <Plug>(textobj-sandwich-query-i)
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/sandwich.vim line 71
+x  ib            <Plug>(textobj-sandwich-auto-i)
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/sandwich.vim line 66
+o  ib            <Plug>(textobj-sandwich-auto-i)
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/sandwich.vim line 65
+o  in          * <Lua 70: vim/_core/defaults:487>
+                 Select child (inner) node
+	Last set from Lua (run Nvim with -V1 for more details)
+x  in          * <Lua 69: vim/_core/defaults:487>
+                 Select child (inner) node
+	Last set from Lua (run Nvim with -V1 for more details)
+n  m]          * <Lua 824: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/lua/marks/init.lua:60>
+                 marks: next
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  m9          * <Lua 822: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/lua/marks/init.lua:119>
+                 marks: set bookmark9
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  m3          * <Lua 820: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/lua/marks/init.lua:119>
+                 marks: set bookmark3
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  m2          * <Lua 819: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/lua/marks/init.lua:119>
+                 marks: set bookmark2
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  m8          * <Lua 817: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/lua/marks/init.lua:119>
+                 marks: set bookmark8
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  m1          * <Lua 814: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/lua/marks/init.lua:119>
+                 marks: set bookmark1
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  m,          * <Lua 813: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/lua/marks/init.lua:22>
+                 marks: set next
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  m7          * <Lua 812: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/lua/marks/init.lua:119>
+                 marks: set bookmark7
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  m;          * Markit mark toggle<CR>
+                 Markit: toggle mark
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  m[          * <Lua 810: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/lua/marks/init.lua:64>
+                 marks: prev
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  m0          * <Lua 809: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/lua/marks/init.lua:119>
+                 marks: set bookmark0
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  m6          * <Lua 807: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/lua/marks/init.lua:119>
+                 marks: set bookmark6
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  m{          * <Lua 806: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/lua/marks/init.lua:134>
+                 marks: prev bookmark
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  m}          * <Lua 805: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/lua/marks/init.lua:130>
+                 marks: next bookmark
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  m5          * <Lua 802: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/lua/marks/init.lua:119>
+                 marks: set bookmark5
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  m4          * <Lua 801: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/lua/marks/init.lua:119>
+                 marks: set bookmark4
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  m           * <Lua 800: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/lua/marks/init.lua:6>
+                 marks: set
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  m:          * Markit mark list all<CR>
+                 Markit: list marks
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  n           * <Cmd>execute('normal! ' . v:count1 . 'n')<CR><Cmd>lua require('hlslens').start()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  q           * <Lua 905: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/recorder/lua/recorder.lua:58>
+                  Start/Stop Recording
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+o  r           * <Lua 405: ~/.config/nvim/lua/editing.lua:134>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+   s           * <Lua 408: ~/.config/nvim/lua/editing.lua:146>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  srb           <Plug>(sandwich-replace-auto)
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/sandwich.vim line 60
+x  sr            <Plug>(sandwich-replace)
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/sandwich.vim line 59
+n  sr            <Plug>(sandwich-replace)
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/sandwich.vim line 58
+n  sdb           <Plug>(sandwich-delete-auto)
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/sandwich.vim line 55
+x  sd            <Plug>(sandwich-delete)
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/sandwich.vim line 54
+n  sd            <Plug>(sandwich-delete)
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/sandwich.vim line 53
+o  sa            <Plug>(sandwich-add)
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/sandwich.vim line 50
+x  sa            <Plug>(sandwich-add)
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/sandwich.vim line 49
+n  sa            <Plug>(sandwich-add)
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/sandwich.vim line 48
+o  t           * <Lua 386: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/flash/lua/flash/plugins/char.lua:118>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+x  t           * <Lua 385: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/flash/lua/flash/plugins/char.lua:118>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  t           * <Lua 384: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/flash/lua/flash/plugins/char.lua:118>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  y<C-G>      & :<C-U>call setreg(v:register, fugitive#Object(@%))<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-fugitive/plugin/fugitive.vim line 749
+n  yq          * <Lua 912: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/recorder/lua/recorder.lua:238>
+                  Yank Macro
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  ySS         * <Plug>(nvim-surround-normal-cur-line)
+                 Add a surrounding pair around the current line, on new lines (normal mode)
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/nvim-surround/plugin/nvim-surround.lua (run Nvim with -V1 for more details)
+n  yS          * <Plug>(nvim-surround-normal-line)
+                 Add a surrounding pair around a motion, on new lines (normal mode)
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/nvim-surround/plugin/nvim-surround.lua (run Nvim with -V1 for more details)
+n  yss         * <Plug>(nvim-surround-normal-cur)
+                 Add a surrounding pair around the current line (normal mode)
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/nvim-surround/plugin/nvim-surround.lua (run Nvim with -V1 for more details)
+n  ys          * <Plug>(nvim-surround-normal)
+                 Add a surrounding pair around a motion (normal mode)
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/nvim-surround/plugin/nvim-surround.lua (run Nvim with -V1 for more details)
+n  zp          * <Lua 532: ~/.config/nvim/lua/folding.lua:30>
+                 Preview fold
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  za          * za
+                 Toggle fold
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  zM          * <Lua 531: ~/.config/nvim/lua/folding.lua:26>
+                 Close all folds
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  zR          * <Lua 518: ~/.config/nvim/lua/folding.lua:23>
+                 Open all folds
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  {           * <Cmd>AerialPrev<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  }           * <Cmd>AerialNext<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Plug>(fzf-normal) * <Nop>
+	Last set from /nix/store/59ndvaz0bwbaw3ylh8yzckksfs55xj7d-fzf-0.70.0/share/vim-plugins/fzf/plugin/fzf.vim line 861
+n  <Plug>(fzf-insert) * i
+	Last set from /nix/store/59ndvaz0bwbaw3ylh8yzckksfs55xj7d-fzf-0.70.0/share/vim-plugins/fzf/plugin/fzf.vim line 860
+n  <Plug>fugitive: & <Nop>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-fugitive/plugin/fugitive.vim line 724
+n  <Plug>fugitive:y<C-G> & :<C-U>call setreg(v:register, fugitive#Object(@%))<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-fugitive/plugin/fugitive.vim line 723
+n  <Plug>(git-conflict-prev-conflict) * <Cmd>GitConflictPrevConflict<CR>
+                 Git Conflict: Previous Conflict
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Plug>(git-conflict-next-conflict) * <Cmd>GitConflictNextConflict<CR>
+                 Git Conflict: Next Conflict
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+v  <Plug>(git-conflict-theirs) * <Cmd>GitConflictChooseTheirs<CR>
+                 Git Conflict: Choose Theirs
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Plug>(git-conflict-theirs) * <Cmd>GitConflictChooseTheirs<CR>
+                 Git Conflict: Choose Theirs
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+v  <Plug>(git-conflict-none) * <Cmd>GitConflictChooseNone<CR>
+                 Git Conflict: Choose None
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Plug>(git-conflict-none) * <Cmd>GitConflictChooseNone<CR>
+                 Git Conflict: Choose None
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+v  <Plug>(git-conflict-both) * <Cmd>GitConflictChooseBoth<CR>
+                 Git Conflict: Choose Both
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Plug>(git-conflict-both) * <Cmd>GitConflictChooseBoth<CR>
+                 Git Conflict: Choose Both
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+v  <Plug>(git-conflict-ours) * <Cmd>GitConflictChooseOurs<CR>
+                 Git Conflict: Choose Ours
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Plug>(git-conflict-ours) * <Cmd>GitConflictChooseOurs<CR>
+                 Git Conflict: Choose Ours
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <C-G>       * <Plug>(GitLabToggleCodeSuggestions)
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Plug>(GitLabToggleCodeSuggestions) * <Lua 946: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/gitlab/lua/gitlab/commands/code_suggestions.lua:299>
+                 Toggle Code Suggestions LSP client integration on/off.
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/gitlab/plugin/gitlab.lua (run Nvim with -V1 for more details)
+n  <C-Q>       * <Lua 910: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/recorder/lua/recorder.lua:197>
+                  Switch Macro Slot
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <M-q>       * <Cmd>lua require('NeoComposer.ui').toggle_macro_menu()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <C-P>       * <Cmd>lua require('NeoComposer.ui').cycle_prev()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <F12>       * <Lua 868: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/dap/lua/dap.lua:763>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <F11>       * <Lua 217: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/dap/lua/dap.lua:718>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <F10>       * <Lua 216: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/dap/lua/dap.lua:685>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <F5>        * <Lua 233: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/dap/lua/dap.lua:1139>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Plug>(Marks-prev-bookmark9) * <Cmd> lua require'marks'.prev_bookmark9()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/plugin/marks.vim line 43
+n  <Plug>(Marks-next-bookmark9) * <Cmd> lua require'marks'.next_bookmark9()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/plugin/marks.vim line 42
+n  <Plug>(Marks-toggle-bookmark9) * <Cmd> lua require'marks'.toggle_bookmark9()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/plugin/marks.vim line 41
+n  <Plug>(Marks-delete-bookmark9) * <Cmd> lua require'marks'.delete_bookmark9()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/plugin/marks.vim line 40
+n  <Plug>(Marks-set-bookmark9) * <Cmd> lua require'marks'.set_bookmark9()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/plugin/marks.vim line 39
+n  <Plug>(Marks-prev-bookmark8) * <Cmd> lua require'marks'.prev_bookmark8()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/plugin/marks.vim line 43
+n  <Plug>(Marks-next-bookmark8) * <Cmd> lua require'marks'.next_bookmark8()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/plugin/marks.vim line 42
+n  <Plug>(Marks-toggle-bookmark8) * <Cmd> lua require'marks'.toggle_bookmark8()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/plugin/marks.vim line 41
+n  <Plug>(Marks-delete-bookmark8) * <Cmd> lua require'marks'.delete_bookmark8()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/plugin/marks.vim line 40
+n  <Plug>(Marks-set-bookmark8) * <Cmd> lua require'marks'.set_bookmark8()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/plugin/marks.vim line 39
+n  <Plug>(Marks-prev-bookmark7) * <Cmd> lua require'marks'.prev_bookmark7()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/plugin/marks.vim line 43
+n  <Plug>(Marks-next-bookmark7) * <Cmd> lua require'marks'.next_bookmark7()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/plugin/marks.vim line 42
+n  <Plug>(Marks-toggle-bookmark7) * <Cmd> lua require'marks'.toggle_bookmark7()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/plugin/marks.vim line 41
+n  <Plug>(Marks-delete-bookmark7) * <Cmd> lua require'marks'.delete_bookmark7()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/plugin/marks.vim line 40
+n  <Plug>(Marks-set-bookmark7) * <Cmd> lua require'marks'.set_bookmark7()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/plugin/marks.vim line 39
+n  <Plug>(Marks-prev-bookmark6) * <Cmd> lua require'marks'.prev_bookmark6()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/plugin/marks.vim line 43
+n  <Plug>(Marks-next-bookmark6) * <Cmd> lua require'marks'.next_bookmark6()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/plugin/marks.vim line 42
+n  <Plug>(Marks-toggle-bookmark6) * <Cmd> lua require'marks'.toggle_bookmark6()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/plugin/marks.vim line 41
+n  <Plug>(Marks-delete-bookmark6) * <Cmd> lua require'marks'.delete_bookmark6()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/plugin/marks.vim line 40
+n  <Plug>(Marks-set-bookmark6) * <Cmd> lua require'marks'.set_bookmark6()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/plugin/marks.vim line 39
+n  <Plug>(Marks-prev-bookmark5) * <Cmd> lua require'marks'.prev_bookmark5()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/plugin/marks.vim line 43
+n  <Plug>(Marks-next-bookmark5) * <Cmd> lua require'marks'.next_bookmark5()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/plugin/marks.vim line 42
+n  <Plug>(Marks-toggle-bookmark5) * <Cmd> lua require'marks'.toggle_bookmark5()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/plugin/marks.vim line 41
+n  <Plug>(Marks-delete-bookmark5) * <Cmd> lua require'marks'.delete_bookmark5()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/plugin/marks.vim line 40
+n  <Plug>(Marks-set-bookmark5) * <Cmd> lua require'marks'.set_bookmark5()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/plugin/marks.vim line 39
+n  <Plug>(Marks-prev-bookmark4) * <Cmd> lua require'marks'.prev_bookmark4()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/plugin/marks.vim line 43
+n  <Plug>(Marks-next-bookmark4) * <Cmd> lua require'marks'.next_bookmark4()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/plugin/marks.vim line 42
+n  <Plug>(Marks-toggle-bookmark4) * <Cmd> lua require'marks'.toggle_bookmark4()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/plugin/marks.vim line 41
+n  <Plug>(Marks-delete-bookmark4) * <Cmd> lua require'marks'.delete_bookmark4()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/plugin/marks.vim line 40
+n  <Plug>(Marks-set-bookmark4) * <Cmd> lua require'marks'.set_bookmark4()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/plugin/marks.vim line 39
+n  <Plug>(Marks-prev-bookmark3) * <Cmd> lua require'marks'.prev_bookmark3()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/plugin/marks.vim line 43
+n  <Plug>(Marks-next-bookmark3) * <Cmd> lua require'marks'.next_bookmark3()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/plugin/marks.vim line 42
+n  <Plug>(Marks-toggle-bookmark3) * <Cmd> lua require'marks'.toggle_bookmark3()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/plugin/marks.vim line 41
+n  <Plug>(Marks-delete-bookmark3) * <Cmd> lua require'marks'.delete_bookmark3()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/plugin/marks.vim line 40
+n  <Plug>(Marks-set-bookmark3) * <Cmd> lua require'marks'.set_bookmark3()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/plugin/marks.vim line 39
+n  <Plug>(Marks-prev-bookmark2) * <Cmd> lua require'marks'.prev_bookmark2()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/plugin/marks.vim line 43
+n  <Plug>(Marks-next-bookmark2) * <Cmd> lua require'marks'.next_bookmark2()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/plugin/marks.vim line 42
+n  <Plug>(Marks-toggle-bookmark2) * <Cmd> lua require'marks'.toggle_bookmark2()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/plugin/marks.vim line 41
+n  <Plug>(Marks-delete-bookmark2) * <Cmd> lua require'marks'.delete_bookmark2()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/plugin/marks.vim line 40
+n  <Plug>(Marks-set-bookmark2) * <Cmd> lua require'marks'.set_bookmark2()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/plugin/marks.vim line 39
+n  <Plug>(Marks-prev-bookmark1) * <Cmd> lua require'marks'.prev_bookmark1()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/plugin/marks.vim line 43
+n  <Plug>(Marks-next-bookmark1) * <Cmd> lua require'marks'.next_bookmark1()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/plugin/marks.vim line 42
+n  <Plug>(Marks-toggle-bookmark1) * <Cmd> lua require'marks'.toggle_bookmark1()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/plugin/marks.vim line 41
+n  <Plug>(Marks-delete-bookmark1) * <Cmd> lua require'marks'.delete_bookmark1()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/plugin/marks.vim line 40
+n  <Plug>(Marks-set-bookmark1) * <Cmd> lua require'marks'.set_bookmark1()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/plugin/marks.vim line 39
+n  <Plug>(Marks-prev-bookmark0) * <Cmd> lua require'marks'.prev_bookmark0()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/plugin/marks.vim line 43
+n  <Plug>(Marks-next-bookmark0) * <Cmd> lua require'marks'.next_bookmark0()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/plugin/marks.vim line 42
+n  <Plug>(Marks-toggle-bookmark0) * <Cmd> lua require'marks'.toggle_bookmark0()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/plugin/marks.vim line 41
+n  <Plug>(Marks-delete-bookmark0) * <Cmd> lua require'marks'.delete_bookmark0()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/plugin/marks.vim line 40
+n  <Plug>(Marks-set-bookmark0) * <Cmd> lua require'marks'.set_bookmark0()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/plugin/marks.vim line 39
+n  <Plug>(Marks-prev-bookmark) * <Cmd> lua require'marks'.prev_bookmark()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/plugin/marks.vim line 36
+n  <Plug>(Marks-next-bookmark) * <Cmd> lua require'marks'.next_bookmark()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/plugin/marks.vim line 35
+n  <Plug>(Marks-delete-bookmark) * <Cmd> lua require'marks'.delete_bookmark()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/plugin/marks.vim line 34
+n  <Plug>(Marks-prev) * <Cmd> lua require'marks'.prev()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/plugin/marks.vim line 33
+n  <Plug>(Marks-next) * <Cmd> lua require'marks'.next()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/plugin/marks.vim line 32
+n  <Plug>(Marks-preview) * <Cmd> lua require'marks'.preview()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/plugin/marks.vim line 31
+n  <Plug>(Marks-deletebuf) * <Cmd> lua require'marks'.delete_buf()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/plugin/marks.vim line 30
+n  <Plug>(Marks-deleteline) * <Cmd> lua require'marks'.delete_line()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/plugin/marks.vim line 29
+n  <Plug>(Marks-delete) * <Cmd> lua require'marks'.delete()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/plugin/marks.vim line 28
+n  <Plug>(Marks-toggle) * <Cmd> lua require'marks'.toggle()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/plugin/marks.vim line 27
+n  <Plug>(Marks-setnext) * <Cmd> lua require'marks'.set_next()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/plugin/marks.vim line 26
+n  <Plug>(Marks-set) * <Cmd> lua require'marks'.set()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/marks/plugin/marks.vim line 25
+n  <M-l>       * <Lua 626: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/smart-splits/lua/smart-splits/lazy.lua:72>
+                 Resize window right
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <M-k>       * <Lua 625: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/smart-splits/lua/smart-splits/lazy.lua:72>
+                 Resize window up
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <M-j>       * <Lua 624: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/smart-splits/lua/smart-splits/lazy.lua:72>
+                 Resize window down
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <M-h>       * <Lua 608: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/smart-splits/lua/smart-splits/lazy.lua:72>
+                 Resize window left
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <C-K>       * <Lua 606: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/swm/lua/swm/init.lua:93>
+                 Window up
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <C-J>       * <Lua 605: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/swm/lua/swm/init.lua:75>
+                 Window down
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <C-H>       * <Lua 604: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/swm/lua/swm/init.lua:57>
+                 Window left
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <C-W>l      * <Lua 602: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/swm/lua/swm/init.lua:111>
+                 Window right
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <C-W>k      * <Lua 538: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/swm/lua/swm/init.lua:93>
+                 Window up
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <C-W>j      * <Lua 545: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/swm/lua/swm/init.lua:75>
+                 Window down
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <C-W>h      * <Lua 568: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/swm/lua/swm/init.lua:57>
+                 Window left
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <C-F>       * :PickMe files<CR>
+                 Files
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Plug>(nvim-surround-change-line) * <Lua 507: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/nvim-surround/plugin/nvim-surround.lua:150>
+                 Change a surrounding pair, putting replacements on new lines
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/nvim-surround/plugin/nvim-surround.lua (run Nvim with -V1 for more details)
+n  <Plug>(nvim-surround-change) * <Lua 506: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/nvim-surround/plugin/nvim-surround.lua:143>
+                 Change a surrounding pair
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/nvim-surround/plugin/nvim-surround.lua (run Nvim with -V1 for more details)
+n  <Plug>(nvim-surround-delete) * <Lua 505: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/nvim-surround/lua/nvim-surround/init.lua:171>
+                 Delete a surrounding pair
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/nvim-surround/plugin/nvim-surround.lua (run Nvim with -V1 for more details)
+x  <Plug>(nvim-surround-visual-line) * <Lua 504: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/nvim-surround/plugin/nvim-surround.lua:126>
+                 Add a surrounding pair around a visual selection, on new lines
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/nvim-surround/plugin/nvim-surround.lua (run Nvim with -V1 for more details)
+x  <Plug>(nvim-surround-visual) * <Lua 503: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/nvim-surround/plugin/nvim-surround.lua:113>
+                 Add a surrounding pair around a visual selection
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/nvim-surround/plugin/nvim-surround.lua (run Nvim with -V1 for more details)
+n  <Plug>(nvim-surround-normal-cur-line) * <Lua 502: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/nvim-surround/plugin/nvim-surround.lua:106>
+                 Add a surrounding pair around the current line, on new lines (normal mode)
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/nvim-surround/plugin/nvim-surround.lua (run Nvim with -V1 for more details)
+n  <Plug>(nvim-surround-normal-line) * <Lua 501: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/nvim-surround/plugin/nvim-surround.lua:99>
+                 Add a surrounding pair around a motion, on new lines (normal mode)
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/nvim-surround/plugin/nvim-surround.lua (run Nvim with -V1 for more details)
+n  <Plug>(nvim-surround-normal-cur) * <Lua 500: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/nvim-surround/plugin/nvim-surround.lua:92>
+                 Add a surrounding pair around the current line (normal mode)
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/nvim-surround/plugin/nvim-surround.lua (run Nvim with -V1 for more details)
+n  <Plug>(nvim-surround-normal) * <Lua 495: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/nvim-surround/plugin/nvim-surround.lua:85>
+                 Add a surrounding pair around a motion (normal mode)
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/nvim-surround/plugin/nvim-surround.lua (run Nvim with -V1 for more details)
+o  <Plug>(leap-backward-till) * <Plug>(leap-backward-next-to)
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/leap/plugin/init.lua (run Nvim with -V1 for more details)
+x  <Plug>(leap-backward-till) * <Plug>(leap-backward-next-to)
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/leap/plugin/init.lua (run Nvim with -V1 for more details)
+n  <Plug>(leap-backward-till) * <Plug>(leap-backward-next-to)
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/leap/plugin/init.lua (run Nvim with -V1 for more details)
+o  <Plug>(leap-forward-till) * <Plug>(leap-forward-next-to)
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/leap/plugin/init.lua (run Nvim with -V1 for more details)
+x  <Plug>(leap-forward-till) * <Plug>(leap-forward-next-to)
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/leap/plugin/init.lua (run Nvim with -V1 for more details)
+n  <Plug>(leap-forward-till) * <Plug>(leap-forward-next-to)
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/leap/plugin/init.lua (run Nvim with -V1 for more details)
+o  <Plug>(leap-till) * <Plug>(leap-next-to)
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/leap/plugin/init.lua (run Nvim with -V1 for more details)
+x  <Plug>(leap-till) * <Plug>(leap-next-to)
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/leap/plugin/init.lua (run Nvim with -V1 for more details)
+n  <Plug>(leap-till) * <Plug>(leap-next-to)
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/leap/plugin/init.lua (run Nvim with -V1 for more details)
+o  <Plug>(leap-remote-inner-text-object) * <Lua 372: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/leap/plugin/init.lua:59>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/leap/plugin/init.lua (run Nvim with -V1 for more details)
+x  <Plug>(leap-remote-inner-text-object) * <Lua 371: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/leap/plugin/init.lua:59>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/leap/plugin/init.lua (run Nvim with -V1 for more details)
+o  <Plug>(leap-remote-text-object) * <Lua 370: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/leap/plugin/init.lua:56>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/leap/plugin/init.lua (run Nvim with -V1 for more details)
+x  <Plug>(leap-remote-text-object) * <Lua 369: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/leap/plugin/init.lua:56>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/leap/plugin/init.lua (run Nvim with -V1 for more details)
+o  <Plug>(leap-remote-line) * <Lua 368: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/leap/plugin/init.lua:45>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/leap/plugin/init.lua (run Nvim with -V1 for more details)
+o  <Plug>(leap-remote-linewise) * <Lua 367: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/leap/plugin/init.lua:42>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/leap/plugin/init.lua (run Nvim with -V1 for more details)
+n  <Plug>(leap-remote-linewise) * <Lua 366: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/leap/plugin/init.lua:42>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/leap/plugin/init.lua (run Nvim with -V1 for more details)
+o  <Plug>(leap-remote) * <Lua 365: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/leap/plugin/init.lua:28>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/leap/plugin/init.lua (run Nvim with -V1 for more details)
+n  <Plug>(leap-remote) * <Lua 364: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/leap/plugin/init.lua:28>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/leap/plugin/init.lua (run Nvim with -V1 for more details)
+o  <Plug>(leap-anywhere) * <Lua 363: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/leap/plugin/init.lua:24>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/leap/plugin/init.lua (run Nvim with -V1 for more details)
+x  <Plug>(leap-anywhere) * <Lua 362: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/leap/plugin/init.lua:24>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/leap/plugin/init.lua (run Nvim with -V1 for more details)
+n  <Plug>(leap-anywhere) * <Lua 361: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/leap/plugin/init.lua:24>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/leap/plugin/init.lua (run Nvim with -V1 for more details)
+o  <Plug>(leap-from-window) * <Lua 360: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/leap/plugin/init.lua:21>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/leap/plugin/init.lua (run Nvim with -V1 for more details)
+x  <Plug>(leap-from-window) * <Lua 359: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/leap/plugin/init.lua:21>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/leap/plugin/init.lua (run Nvim with -V1 for more details)
+n  <Plug>(leap-from-window) * <Lua 358: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/leap/plugin/init.lua:21>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/leap/plugin/init.lua (run Nvim with -V1 for more details)
+o  <Plug>(leap-next-to) * <Lua 357: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/leap/plugin/init.lua:18>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/leap/plugin/init.lua (run Nvim with -V1 for more details)
+x  <Plug>(leap-next-to) * <Lua 356: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/leap/plugin/init.lua:18>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/leap/plugin/init.lua (run Nvim with -V1 for more details)
+n  <Plug>(leap-next-to) * <Lua 355: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/leap/plugin/init.lua:18>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/leap/plugin/init.lua (run Nvim with -V1 for more details)
+o  <Plug>(leap) * <Lua 354: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/leap/plugin/init.lua:15>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/leap/plugin/init.lua (run Nvim with -V1 for more details)
+x  <Plug>(leap) * <Lua 353: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/leap/plugin/init.lua:15>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/leap/plugin/init.lua (run Nvim with -V1 for more details)
+n  <Plug>(leap) * <Lua 322: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/leap/plugin/init.lua:15>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/leap/plugin/init.lua (run Nvim with -V1 for more details)
+o  <Plug>(leap-backward-next-to) * <Lua 13: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/leap/plugin/init.lua:12>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/leap/plugin/init.lua (run Nvim with -V1 for more details)
+x  <Plug>(leap-backward-next-to) * <Lua 15: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/leap/plugin/init.lua:12>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/leap/plugin/init.lua (run Nvim with -V1 for more details)
+n  <Plug>(leap-backward-next-to) * <Lua 12: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/leap/plugin/init.lua:12>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/leap/plugin/init.lua (run Nvim with -V1 for more details)
+o  <Plug>(leap-backward) * <Lua 344: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/leap/plugin/init.lua:9>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/leap/plugin/init.lua (run Nvim with -V1 for more details)
+x  <Plug>(leap-backward) * <Lua 343: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/leap/plugin/init.lua:9>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/leap/plugin/init.lua (run Nvim with -V1 for more details)
+n  <Plug>(leap-backward) * <Lua 342: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/leap/plugin/init.lua:9>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/leap/plugin/init.lua (run Nvim with -V1 for more details)
+o  <Plug>(leap-forward-next-to) * <Lua 341: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/leap/plugin/init.lua:6>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/leap/plugin/init.lua (run Nvim with -V1 for more details)
+x  <Plug>(leap-forward-next-to) * <Lua 345: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/leap/plugin/init.lua:6>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/leap/plugin/init.lua (run Nvim with -V1 for more details)
+n  <Plug>(leap-forward-next-to) * <Lua 346: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/leap/plugin/init.lua:6>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/leap/plugin/init.lua (run Nvim with -V1 for more details)
+o  <Plug>(leap-forward) * <Lua 347: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/leap/plugin/init.lua:3>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/leap/plugin/init.lua (run Nvim with -V1 for more details)
+x  <Plug>(leap-forward) * <Lua 348: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/leap/plugin/init.lua:3>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/leap/plugin/init.lua (run Nvim with -V1 for more details)
+n  <Plug>(leap-forward) * <Lua 508: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/leap/plugin/init.lua:3>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/leap/plugin/init.lua (run Nvim with -V1 for more details)
+n  <Plug>CommentaryUndo   :echoerr "Change your <Plug>CommentaryUndo map to <Plug>Commentary<Plug>Commentary"<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-commentary/plugin/commentary.vim line 120
+n  <Plug>ChangeCommentary * c:<C-U>call <SNR>33_textobject(1)<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-commentary/plugin/commentary.vim line 110
+o  <Plug>Commentary * :<C-U>call <SNR>33_textobject(get(v:, 'operator', '') ==# 'c')<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-commentary/plugin/commentary.vim line 109
+n  <Plug>CommentaryLine * <SNR>33_go() . '_'
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-commentary/plugin/commentary.vim line 108
+n  <Plug>Commentary * <SNR>33_go()
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-commentary/plugin/commentary.vim line 107
+x  <Plug>Commentary * <SNR>33_go()
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-commentary/plugin/commentary.vim line 106
+x  <Plug>(textobj-sandwich-literal-query-a) * textobj#sandwich#query('x', 'a', {}, [])
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/textobj/sandwich.vim line 33
+o  <Plug>(textobj-sandwich-literal-query-a) * textobj#sandwich#query('o', 'a', {}, [])
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/textobj/sandwich.vim line 32
+n  <Plug>(textobj-sandwich-literal-query-a) * textobj#sandwich#query('n', 'a', {}, [])
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/textobj/sandwich.vim line 31
+x  <Plug>(textobj-sandwich-literal-query-i) * textobj#sandwich#query('x', 'i', {}, [])
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/textobj/sandwich.vim line 30
+o  <Plug>(textobj-sandwich-literal-query-i) * textobj#sandwich#query('o', 'i', {}, [])
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/textobj/sandwich.vim line 29
+n  <Plug>(textobj-sandwich-literal-query-i) * textobj#sandwich#query('n', 'i', {}, [])
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/textobj/sandwich.vim line 28
+x  <Plug>(textobj-sandwich-query-a) * textobj#sandwich#query('x', 'a')
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/textobj/sandwich.vim line 26
+o  <Plug>(textobj-sandwich-query-a) * textobj#sandwich#query('o', 'a')
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/textobj/sandwich.vim line 25
+n  <Plug>(textobj-sandwich-query-a) * textobj#sandwich#query('n', 'a')
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/textobj/sandwich.vim line 24
+x  <Plug>(textobj-sandwich-query-i) * textobj#sandwich#query('x', 'i')
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/textobj/sandwich.vim line 23
+o  <Plug>(textobj-sandwich-query-i) * textobj#sandwich#query('o', 'i')
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/textobj/sandwich.vim line 22
+n  <Plug>(textobj-sandwich-query-i) * textobj#sandwich#query('n', 'i')
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/textobj/sandwich.vim line 21
+x  <Plug>(textobj-sandwich-auto-a) * textobj#sandwich#auto('x', 'a')
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/textobj/sandwich.vim line 19
+o  <Plug>(textobj-sandwich-auto-a) * textobj#sandwich#auto('o', 'a')
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/textobj/sandwich.vim line 18
+n  <Plug>(textobj-sandwich-auto-a) * textobj#sandwich#auto('n', 'a')
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/textobj/sandwich.vim line 17
+x  <Plug>(textobj-sandwich-auto-i) * textobj#sandwich#auto('x', 'i')
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/textobj/sandwich.vim line 16
+o  <Plug>(textobj-sandwich-auto-i) * textobj#sandwich#auto('o', 'i')
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/textobj/sandwich.vim line 15
+n  <Plug>(textobj-sandwich-auto-i) * textobj#sandwich#auto('n', 'i')
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/textobj/sandwich.vim line 14
+n  <Plug>(sandwich-replace-auto)   <Plug>(operator-sandwich-replace)<Plug>(operator-sandwich-release-count)<Plug>(textobj-sandwich-auto-a)
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/sandwich.vim line 40
+n  <Plug>(sandwich-delete-auto)   <Plug>(operator-sandwich-delete)<Plug>(operator-sandwich-release-count)<Plug>(textobj-sandwich-auto-a)
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/sandwich.vim line 39
+x  <Plug>(sandwich-replace)   <Plug>(operator-sandwich-replace)
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/sandwich.vim line 38
+n  <Plug>(sandwich-replace)   <Plug>(operator-sandwich-replace)<Plug>(operator-sandwich-release-count)<Plug>(textobj-sandwich-query-a)
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/sandwich.vim line 37
+x  <Plug>(sandwich-delete)   <Plug>(operator-sandwich-delete)
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/sandwich.vim line 36
+n  <Plug>(sandwich-delete)   <Plug>(operator-sandwich-delete)<Plug>(operator-sandwich-release-count)<Plug>(textobj-sandwich-query-a)
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/sandwich.vim line 35
+o  <Plug>(sandwich-add)   <Plug>(operator-sandwich-add)
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/sandwich.vim line 34
+x  <Plug>(sandwich-add)   <Plug>(operator-sandwich-add)
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/sandwich.vim line 33
+n  <Plug>(sandwich-add)   <Plug>(operator-sandwich-add)
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/sandwich.vim line 32
+x  <Plug>(textobj-sandwich-tag-a) * :<C-U>call sandwich#magicchar#t#at()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/sandwich.vim line 30
+x  <Plug>(textobj-sandwich-tag-i) * :<C-U>call sandwich#magicchar#t#it()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/sandwich.vim line 29
+o  <Plug>(textobj-sandwich-tag-a) * :<C-U>call sandwich#magicchar#t#at()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/sandwich.vim line 28
+o  <Plug>(textobj-sandwich-tag-i) * :<C-U>call sandwich#magicchar#t#it()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/sandwich.vim line 27
+x  <Plug>(textobj-sandwich-tagname-a) * :<C-U>call sandwich#magicchar#t#a()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/sandwich.vim line 26
+x  <Plug>(textobj-sandwich-tagname-i) * :<C-U>call sandwich#magicchar#t#i()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/sandwich.vim line 25
+o  <Plug>(textobj-sandwich-tagname-a) * :<C-U>call sandwich#magicchar#t#a()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/sandwich.vim line 24
+o  <Plug>(textobj-sandwich-tagname-i) * :<C-U>call sandwich#magicchar#t#i()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/sandwich.vim line 23
+x  <Plug>(textobj-sandwich-function-a) * :<C-U>call sandwich#magicchar#f#a('x')<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/sandwich.vim line 22
+x  <Plug>(textobj-sandwich-function-ap) * :<C-U>call sandwich#magicchar#f#ap('x')<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/sandwich.vim line 21
+o  <Plug>(textobj-sandwich-function-a) * :<C-U>call sandwich#magicchar#f#a('o')<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/sandwich.vim line 20
+o  <Plug>(textobj-sandwich-function-ap) * :<C-U>call sandwich#magicchar#f#ap('o')<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/sandwich.vim line 19
+x  <Plug>(textobj-sandwich-function-i) * :<C-U>call sandwich#magicchar#f#i('x')<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/sandwich.vim line 18
+x  <Plug>(textobj-sandwich-function-ip) * :<C-U>call sandwich#magicchar#f#ip('x')<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/sandwich.vim line 17
+o  <Plug>(textobj-sandwich-function-i) * :<C-U>call sandwich#magicchar#f#i('o')<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/sandwich.vim line 16
+o  <Plug>(textobj-sandwich-function-ip) * :<C-U>call sandwich#magicchar#f#ip('o')<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/sandwich.vim line 15
+n  <Plug>(operator-sandwich-gv) * gv
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/operator/sandwich.vim line 52
+   <Plug>(operator-sandwich-g@) * g@
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/operator/sandwich.vim line 50
+   <Plug>(operator-sandwich-replace-visualrepeat) * :<C-U>call operator#sandwich#visualrepeat('replace')<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/operator/sandwich.vim line 47
+   <Plug>(operator-sandwich-delete-visualrepeat) * :<C-U>call operator#sandwich#visualrepeat('delete')<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/operator/sandwich.vim line 46
+   <Plug>(operator-sandwich-add-visualrepeat) * :<C-U>call operator#sandwich#visualrepeat('add')<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/operator/sandwich.vim line 45
+n  <Plug>(operator-sandwich-dot) * operator#sandwich#dot()
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/operator/sandwich.vim line 42
+n  <Plug>(operator-sandwich-predot) * operator#sandwich#predot()
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/operator/sandwich.vim line 41
+o  <Plug>(operator-sandwich-squash-count) * operator#sandwich#squash_count()
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/operator/sandwich.vim line 40
+o  <Plug>(operator-sandwich-release-count) * operator#sandwich#release_count()
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/operator/sandwich.vim line 39
+o  <Plug>(operator-sandwich-synchro-count) * operator#sandwich#synchro_count()
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/operator/sandwich.vim line 38
+x  <Plug>(operator-sandwich-replace-query1st) * <Esc>:call operator#sandwich#query1st('replace', 'x')<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/operator/sandwich.vim line 35
+n  <Plug>(operator-sandwich-replace-query1st) * :<C-U>call operator#sandwich#query1st('replace', 'n')<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/operator/sandwich.vim line 34
+x  <Plug>(operator-sandwich-add-query1st) * <Esc>:call operator#sandwich#query1st('add', 'x')<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/operator/sandwich.vim line 33
+n  <Plug>(operator-sandwich-add-query1st) * :<C-U>call operator#sandwich#query1st('add', 'n')<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/operator/sandwich.vim line 32
+x  <Plug>(operator-sandwich-replace-pre) * <Esc>:call operator#sandwich#prerequisite('replace', 'x')<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/operator/sandwich.vim line 30
+n  <Plug>(operator-sandwich-replace-pre) * :<C-U>call operator#sandwich#prerequisite('replace', 'n')<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/operator/sandwich.vim line 29
+x  <Plug>(operator-sandwich-delete-pre) * <Esc>:call operator#sandwich#prerequisite('delete', 'x')<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/operator/sandwich.vim line 28
+n  <Plug>(operator-sandwich-delete-pre) * :<C-U>call operator#sandwich#prerequisite('delete', 'n')<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/operator/sandwich.vim line 27
+x  <Plug>(operator-sandwich-add-pre) * <Esc>:call operator#sandwich#prerequisite('add', 'x')<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/operator/sandwich.vim line 26
+n  <Plug>(operator-sandwich-add-pre) * :<C-U>call operator#sandwich#prerequisite('add', 'n')<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/operator/sandwich.vim line 25
+o  <Plug>(operator-sandwich-replace)   <Plug>(operator-sandwich-g@)
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/operator/sandwich.vim line 23
+x  <Plug>(operator-sandwich-replace)   <Plug>(operator-sandwich-replace-pre)<Plug>(operator-sandwich-gv)<Plug>(operator-sandwich-g@)
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/operator/sandwich.vim line 22
+n  <Plug>(operator-sandwich-replace)   <Plug>(operator-sandwich-replace-pre)<Plug>(operator-sandwich-g@)
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/operator/sandwich.vim line 21
+o  <Plug>(operator-sandwich-delete)   <Plug>(operator-sandwich-g@)
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/operator/sandwich.vim line 20
+x  <Plug>(operator-sandwich-delete)   <Plug>(operator-sandwich-delete-pre)<Plug>(operator-sandwich-gv)<Plug>(operator-sandwich-g@)
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/operator/sandwich.vim line 19
+n  <Plug>(operator-sandwich-delete)   <Plug>(operator-sandwich-delete-pre)<Plug>(operator-sandwich-g@)
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/operator/sandwich.vim line 18
+o  <Plug>(operator-sandwich-add)   <Plug>(operator-sandwich-g@)
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/operator/sandwich.vim line 17
+x  <Plug>(operator-sandwich-add)   <Plug>(operator-sandwich-add-pre)<Plug>(operator-sandwich-gv)<Plug>(operator-sandwich-g@)
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/operator/sandwich.vim line 16
+n  <Plug>(operator-sandwich-add)   <Plug>(operator-sandwich-add-pre)<Plug>(operator-sandwich-g@)
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-sandwich/plugin/operator/sandwich.vim line 15
+n  <C-Down>      <Plug>(VM-Add-Cursor-Down)
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-visual-multi/autoload/vm/maps.vim line 18
+x  <C-N>         <Plug>(VM-Find-Subword-Under)
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-visual-multi/autoload/vm/maps.vim line 18
+n  <S-Right>     <Plug>(VM-Select-l)
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-visual-multi/autoload/vm/maps.vim line 18
+n  <S-Left>      <Plug>(VM-Select-h)
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-visual-multi/autoload/vm/maps.vim line 18
+n  <C-N>       * <Cmd>lua require('NeoComposer.ui').cycle_next()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <Plug>(VM-Select-BBW) * :<C-U>call vm#commands#motion('BBW', v:count1, 1, 0)<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-visual-multi/autoload/vm/plugs.vim line 37
+n  <Plug>(VM-Select-gE) * :<C-U>call vm#commands#motion('gE', v:count1, 1, 0)<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-visual-multi/autoload/vm/plugs.vim line 37
+n  <Plug>(VM-Select-ge) * :<C-U>call vm#commands#motion('ge', v:count1, 1, 0)<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-visual-multi/autoload/vm/plugs.vim line 37
+n  <Plug>(VM-Select-E) * :<C-U>call vm#commands#motion('E', v:count1, 1, 0)<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-visual-multi/autoload/vm/plugs.vim line 37
+n  <Plug>(VM-Select-e) * :<C-U>call vm#commands#motion('e', v:count1, 1, 0)<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-visual-multi/autoload/vm/plugs.vim line 37
+n  <Plug>(VM-Select-B) * :<C-U>call vm#commands#motion('B', v:count1, 1, 0)<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-visual-multi/autoload/vm/plugs.vim line 37
+n  <Plug>(VM-Select-b) * :<C-U>call vm#commands#motion('b', v:count1, 1, 0)<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-visual-multi/autoload/vm/plugs.vim line 37
+n  <Plug>(VM-Select-W) * :<C-U>call vm#commands#motion('W', v:count1, 1, 0)<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-visual-multi/autoload/vm/plugs.vim line 37
+n  <Plug>(VM-Select-w) * :<C-U>call vm#commands#motion('w', v:count1, 1, 0)<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-visual-multi/autoload/vm/plugs.vim line 37
+n  <Plug>(VM-Select-l) * :<C-U>call vm#commands#motion('l', v:count1, 1, 0)<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-visual-multi/autoload/vm/plugs.vim line 37
+n  <Plug>(VM-Select-k) * :<C-U>call vm#commands#motion('k', v:count1, 1, 0)<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-visual-multi/autoload/vm/plugs.vim line 37
+n  <Plug>(VM-Select-j) * :<C-U>call vm#commands#motion('j', v:count1, 1, 0)<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-visual-multi/autoload/vm/plugs.vim line 37
+n  <Plug>(VM-Select-h) * :<C-U>call vm#commands#motion('h', v:count1, 1, 0)<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-visual-multi/autoload/vm/plugs.vim line 37
+n  <Plug>(VM-Mouse-Column) * :call vm#commands#mouse_column()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-visual-multi/autoload/vm/plugs.vim line 33
+n  <Plug>(VM-Mouse-Word)   <Plug>(VM-Left-Mouse)<Plug>(VM-Find-Under)
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-visual-multi/autoload/vm/plugs.vim line 32
+n  <Plug>(VM-Mouse-Cursor)   <Plug>(VM-Left-Mouse)<Plug>(VM-Add-Cursor-At-Pos)
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-visual-multi/autoload/vm/plugs.vim line 31
+n  <Plug>(VM-Left-Mouse) * <LeftMouse>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-visual-multi/autoload/vm/plugs.vim line 30
+x  <Plug>(VM-Visual-Regex) * :call vm#commands#find_by_regex(2)<CR>:call feedkeys('/', 'n')<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-visual-multi/autoload/vm/plugs.vim line 28
+n  <Plug>(VM-Slash-Search) * @=vm#commands#find_by_regex(3)<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-visual-multi/autoload/vm/plugs.vim line 27
+n  <Plug>(VM-Start-Regex-Search) * @=vm#commands#find_by_regex(1)<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-visual-multi/autoload/vm/plugs.vim line 26
+x  <Plug>(VM-Find-Subword-Under) * <SNR>24_Visual('under')
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-visual-multi/autoload/vm/plugs.vim line 24
+n  <Plug>(VM-Find-Under) * :<C-U>call vm#commands#ctrln(v:count1)<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-visual-multi/autoload/vm/plugs.vim line 23
+x  <Plug>(VM-Visual-Reduce) * :<C-U>call vm#visual#reduce()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-visual-multi/autoload/vm/plugs.vim line 21
+x  <Plug>(VM-Visual-Add) * <Esc>:call vm#commands#visual_add()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-visual-multi/autoload/vm/plugs.vim line 20
+x  <Plug>(VM-Visual-Cursors) * <Esc>:call vm#commands#visual_cursors()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-visual-multi/autoload/vm/plugs.vim line 19
+x  <Plug>(VM-Visual-All) * <SNR>24_Visual('all')
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-visual-multi/autoload/vm/plugs.vim line 18
+n  <Plug>(VM-Select-All) * :call vm#commands#find_all(0, 1)<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-visual-multi/autoload/vm/plugs.vim line 17
+n  <Plug>(VM-Reselect-Last) * :call vm#commands#reselect_last()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-visual-multi/autoload/vm/plugs.vim line 16
+n  <Plug>(VM-Select-Cursor-Up) * :<C-U>call vm#commands#add_cursor_up(1, v:count1)<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-visual-multi/autoload/vm/plugs.vim line 14
+n  <Plug>(VM-Select-Cursor-Down) * :<C-U>call vm#commands#add_cursor_down(1, v:count1)<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-visual-multi/autoload/vm/plugs.vim line 13
+n  <Plug>(VM-Add-Cursor-Up) * :<C-U>call vm#commands#add_cursor_up(0, v:count1)<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-visual-multi/autoload/vm/plugs.vim line 12
+n  <Plug>(VM-Add-Cursor-Down) * :<C-U>call vm#commands#add_cursor_down(0, v:count1)<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-visual-multi/autoload/vm/plugs.vim line 11
+n  <Plug>(VM-Add-Cursor-At-Word) * :call vm#commands#add_cursor_at_word(1, 1)<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-visual-multi/autoload/vm/plugs.vim line 10
+n  <Plug>(VM-Add-Cursor-At-Pos) * :call vm#commands#add_cursor_at_pos(0)<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-visual-multi/autoload/vm/plugs.vim line 9
+x  <Plug>(VM-Visual-Find)   vm#operators#find(1, 1)
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-visual-multi/autoload/vm/plugs.vim line 7
+x  <C-X>       * <Lua 316: ~/.config/nvim/lua/editing.lua:28>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+x  <C-A>       * <Lua 315: ~/.config/nvim/lua/editing.lua:25>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <C-X>       * <Lua 312: ~/.config/nvim/lua/editing.lua:16>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <C-A>       * <Lua 311: ~/.config/nvim/lua/editing.lua:13>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+v  <Plug>(dial-g-decrement) * <Cmd>lua require"dial.command".select_augend_gvisual()<CR><Cmd>let &opfunc="dial#operator#decrement_gvisual"<CR>g@gv
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/dial/plugin/dial.lua (run Nvim with -V1 for more details)
+v  <Plug>(dial-g-increment) * <Cmd>lua require"dial.command".select_augend_gvisual()<CR><Cmd>let &opfunc="dial#operator#increment_gvisual"<CR>g@gv
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/dial/plugin/dial.lua (run Nvim with -V1 for more details)
+v  <Plug>(dial-decrement) * <Cmd>lua require"dial.command".select_augend_visual()<CR><Cmd>let &opfunc="dial#operator#decrement_visual"<CR>g@gv
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/dial/plugin/dial.lua (run Nvim with -V1 for more details)
+v  <Plug>(dial-increment) * <Cmd>lua require"dial.command".select_augend_visual()<CR><Cmd>let &opfunc="dial#operator#increment_visual"<CR>g@gv
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/dial/plugin/dial.lua (run Nvim with -V1 for more details)
+n  <Plug>(dial-g-decrement) * <Cmd>lua require"dial.command".select_augend_gnormal()<CR><Cmd>let &opfunc="dial#operator#decrement_gnormal"<CR>g@<Cmd>lua require("dial.command").textobj()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/dial/plugin/dial.lua (run Nvim with -V1 for more details)
+n  <Plug>(dial-g-increment) * <Cmd>lua require"dial.command".select_augend_gnormal()<CR><Cmd>let &opfunc="dial#operator#increment_gnormal"<CR>g@<Cmd>lua require("dial.command").textobj()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/dial/plugin/dial.lua (run Nvim with -V1 for more details)
+n  <Plug>(dial-decrement) * <Cmd>lua require"dial.command".select_augend_normal()<CR><Cmd>let &opfunc="dial#operator#decrement_normal"<CR>g@<Cmd>lua require("dial.command").textobj()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/dial/plugin/dial.lua (run Nvim with -V1 for more details)
+n  <Plug>(dial-increment) * <Cmd>lua require"dial.command".select_augend_normal()<CR><Cmd>let &opfunc="dial#operator#increment_normal"<CR>g@<Cmd>lua require("dial.command").textobj()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/dial/plugin/dial.lua (run Nvim with -V1 for more details)
+n  <M-d>       * <Cmd>Lspsaga term_toggle
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+v  <C-Up>      * <Cmd>Yazi toggle<CR>
+                 Resume the last yazi session
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+n  <C-Up>        <Plug>(VM-Add-Cursor-Up)
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/vim-visual-multi/autoload/vm/maps.vim line 18
+s  <C-R>       * <C-G>"_c<C-R>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/ultisnips/autoload/UltiSnips/map_keys.vim line 79
+s  <C-H>       * <C-G>"_c
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/ultisnips/autoload/UltiSnips/map_keys.vim line 78
+s  <Del>       * <C-G>"_c
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/ultisnips/autoload/UltiSnips/map_keys.vim line 77
+s  <BS>        * <C-G>"_c
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/ultisnips/autoload/UltiSnips/map_keys.vim line 76
+s  <C-Tab>     * <Esc>:call UltiSnips#ListSnippets()<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/ultisnips/autoload/UltiSnips/map_keys.vim line 73
+s  <C-E>       * <Lua 189: ~/.config/nvim/lua/completion.lua:40>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+s  <C-J>       * <Lua 187: ~/.config/nvim/lua/completion.lua:36>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+s  <C-L>       * <Lua 185: ~/.config/nvim/lua/completion.lua:33>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)
+s  <Plug>luasnip-jump-prev * <Lua 173: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/luasnip/plugin/luasnip.lua:57>
+                 LuaSnip: Jump to the previous node
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/luasnip/plugin/luasnip.lua (run Nvim with -V1 for more details)
+s  <Plug>luasnip-jump-next * <Lua 172: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/luasnip/plugin/luasnip.lua:54>
+                 LuaSnip: Jump to the next node
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/luasnip/plugin/luasnip.lua (run Nvim with -V1 for more details)
+s  <Plug>luasnip-prev-choice * <Lua 171: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/luasnip/plugin/luasnip.lua:51>
+                 LuaSnip: Change to the previous choice from the choiceNode
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/luasnip/plugin/luasnip.lua (run Nvim with -V1 for more details)
+s  <Plug>luasnip-next-choice * <Lua 170: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/luasnip/plugin/luasnip.lua:48>
+                 LuaSnip: Change to the next choice from the choiceNode
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/luasnip/plugin/luasnip.lua (run Nvim with -V1 for more details)
+s  <Plug>luasnip-expand-snippet * <Lua 169: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/luasnip/plugin/luasnip.lua:45>
+                 LuaSnip: Expand the current snippet
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/luasnip/plugin/luasnip.lua (run Nvim with -V1 for more details)
+s  <Plug>luasnip-expand-or-jump * <Lua 168: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/luasnip/plugin/luasnip.lua:42>
+                 LuaSnip: Expand or jump in the current snippet
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/luasnip/plugin/luasnip.lua (run Nvim with -V1 for more details)
+   <Plug>luasnip-expand-repeat * <Lua 166: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/luasnip/plugin/luasnip.lua:35>
+                 LuaSnip: Repeat last node expansion
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/luasnip/plugin/luasnip.lua (run Nvim with -V1 for more details)
+n  <Plug>luasnip-delete-check * <Lua 164: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/luasnip/plugin/luasnip.lua:28>
+                 LuaSnip: Removes current snippet from jumplist
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/luasnip/plugin/luasnip.lua (run Nvim with -V1 for more details)
+n  <Plug>PlenaryTestFile * :lua require('plenary.test_harness').test_file(vim.fn.expand("%:p"))<CR>
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/plenary/plugin/plenary.vim line 9
+n  <C-W><C-D>    <C-W>d
+                 Show diagnostics under the cursor
+	Last set from Lua (run Nvim with -V1 for more details)
+n  <C-W>d      * <Lua 34: vim/_core/defaults:288>
+                 Show diagnostics under the cursor
+	Last set from Lua (run Nvim with -V1 for more details)
+s  <S-Tab>     * <Lua 29: vim/_core/defaults:250>
+                 vim.snippet.jump if active, otherwise <S-Tab>
+	Last set from Lua (run Nvim with -V1 for more details)
+s  <C-S>       * <Lua 25: vim/_core/defaults:241>
+                 vim.lsp.buf.signature_help()
+	Last set from Lua (run Nvim with -V1 for more details)
+n  <C-L>       * <Lua 607: /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/pack/bundle/opt/swm/lua/swm/init.lua:111>
+                 Window right
+	Last set from /nix/store/ll5jxyyfd0k13727qg2ygj5kiwvyphx8-pde/config/init.lua (run Nvim with -V1 for more details)

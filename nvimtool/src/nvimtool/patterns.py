@@ -86,13 +86,18 @@ class SearchPatterns:
     COMMAND_LUA = re.compile(r'vim\.api\.nvim_create_user_command\(\s*["\'](\w+)["\']')
     COMMAND_VIM = re.compile(r"^\s*command!?\s+(?:-\w+\s+)*(\w+)", re.MULTILINE)
     COMMAND_DOCS = re.compile(r"(?<![`\w]):([A-Z][a-zA-Z]\w*)", re.MULTILINE)
-    LUA_FUNCTION = re.compile(r"^function\s+M\.(\w+)\s*\(", re.MULTILINE)
+    LUA_FUNCTION = re.compile(r"function +M\.([a-zA-Z0-9_]+)\s*\(")
+    LUA_FUNCTION_ALT = re.compile(r"M\.([a-zA-Z0-9_]+) += +function\(")
+    DOC_COMMAND = re.compile(r" \*:([a-zA-Z_]+)\*")
+    DOC_FUNCTION = re.compile(r" \*[a-z0-9_-]+\.([a-zA-Z_]+)[\*\(]")
+    DOC_HIGHLIGHT = re.compile(r"[A-Z][a-z]+(?:[A-Z][a-z]*)+")
+    AUTOCOMMAND_LUA = re.compile(r"nvim_create_autocmd\(['\"]([^'\"]+)['\"]")
 
     @staticmethod
     def LUA_FUNCTION_REQUIRED(module_name: str) -> re.Pattern:
         """Match calls like require('module').func("""
         return re.compile(
-            r"require\(['\"]" + re.escape(module_name) + r"['\"]\)\.(\w+)\s*\("
+            r"require\(['\"]" + re.escape(module_name) + r"['\"]\)\.([a-zA-Z0-9_]+)\("
         )
 
     HIGHLIGHT_GROUP_LUA = re.compile(
@@ -102,14 +107,31 @@ class SearchPatterns:
         r"^\s*hi(?:ghlight)?\s+(?:default\s+)?([A-Z]\w+)", re.MULTILINE
     )
     HIGHLIGHT_GROUP_DOCS = re.compile(r"^(?!)$")  # TODO
+    # KEYBIND_LUA = re.compile(
+    #     r"(?:vim\.keymap\.set\|map)(\s*"
+    #     r'["\']([^"\']+)["\'],\s*'  #   group 1: mode
+    #     r'["\']([^"\']+)["\'],\s*'  #   group 2: lhs key sequence
+    #     r"(function\b"  #               group 3: inline function literal
+    #     r'|require\(["\'][\w./-]+["\']\)[\w.]*'  # require('mod').fn
+    #     r'|["\'][^"\']*["\']'  #        string command e.g. ":w<CR>"
+    #     r"|\w[\w.]*)"  #                variable or fn reference
+    # )
     KEYBIND_LUA = re.compile(
-        r"vim\.keymap\.set\(\s*"
-        r'["\']([^"\']+)["\'],\s*'  # group 1: mode
+        r"(?:vim\.keymap\.set|map)\s*\(\s*"
+        r"("  # group 1: mode — string or table
+        r'["\'][^"\']+["\']'  # "n"
+        r"|"
+        r'\{\s*["\'][^"\']+["\']'  # { "n"
+        r'(?:\s*,\s*["\'][^"\']+["\'])*'  #   , "v"  (repeated)
+        r"\s*\}"  # }
+        r"),\s*"
         r'["\']([^"\']+)["\'],\s*'  # group 2: lhs key sequence
-        r"(function\b"  # group 3: inline function literal
-        r'|require\(["\'][\w./-]+["\']\)[\w.]*'  #          require('mod').fn
-        r'|["\'][^"\']*["\']'  #          string command e.g. ":w<CR>"
-        r"|\w[\w.]*)"  #          variable or fn reference
+        r"("  # group 3: rhs
+        r"function\b"
+        r'|require\(["\'][\w./-]+["\']\)[\w.]*'
+        r'|["\'][^"\']*["\']'
+        r"|\w[\w.]*"
+        r")"
     )
     KEYBIND_LUA_API = re.compile(
         r"vim\.api\.nvim_set_keymap\(\s*"
