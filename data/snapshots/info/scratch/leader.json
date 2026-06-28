@@ -6,7 +6,7 @@
         "annotation": "*",
         "definition": ":'<,'>lua move_selection_to_new_file()<CR>",
         "description": "Move selection to new file (split)",
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "v::<Space>ms": {
         "mode": "v",
@@ -14,7 +14,7 @@
         "annotation": "*",
         "definition": "<Lua 1178: ~/.config/nvim/lua/mappings.lua:98>",
         "description": null,
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "n::<Space>hh": {
         "mode": "n",
@@ -22,7 +22,7 @@
         "annotation": "*",
         "definition": ":Pick help",
         "description": null,
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "n::<Space>lf": {
         "mode": "n",
@@ -30,7 +30,7 @@
         "annotation": "*",
         "definition": "<Lua 36: …-neovim-unwrapped-cd72e13/share/nvim/runtime/lua/vim/lsp/buf.lua:625>",
         "description": " ",
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "n::<Space>fp": {
         "mode": "n",
@@ -38,7 +38,7 @@
         "annotation": "*",
         "definition": ":Pick files<CR>",
         "description": null,
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "n::<Space>wq": {
         "mode": "n",
@@ -46,7 +46,7 @@
         "annotation": "*",
         "definition": ":wq<CR>",
         "description": null,
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "n::<Space>qq": {
         "mode": "n",
@@ -54,7 +54,7 @@
         "annotation": "*",
         "definition": ":quit<CR>",
         "description": null,
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "n::<Space>ww": {
         "mode": "n",
@@ -62,7 +62,7 @@
         "annotation": "*",
         "definition": ":write<CR>",
         "description": null,
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "n::<Space>ii": {
         "mode": "n",
@@ -70,7 +70,7 @@
         "annotation": "*",
         "definition": "<Cmd>Inspect<CR>",
         "description": null,
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "n::<Space>xX": {
         "mode": "n",
@@ -78,7 +78,7 @@
         "annotation": "*",
         "definition": "<Lua 35: …-neovim-unwrapped-cd72e13/share/nvim/runtime/lua/vim/diagnostic.lua:877>",
         "description": null,
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "n::<Space>xx": {
         "mode": "n",
@@ -86,7 +86,7 @@
         "annotation": "*",
         "definition": "<Lua 42: …-neovim-unwrapped-cd72e13/share/nvim/runtime/lua/vim/diagnostic.lua:910>",
         "description": null,
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "n::<Space>de": {
         "mode": "n",
@@ -94,7 +94,7 @@
         "annotation": "*",
         "definition": "<Lua 30: …-neovim-unwrapped-cd72e13/share/nvim/runtime/lua/vim/diagnostic.lua:742>",
         "description": null,
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "n::<Space>Q": {
         "mode": "n",
@@ -102,7 +102,7 @@
         "annotation": "*",
         "definition": "<Cmd>cclose<CR>",
         "description": null,
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "n::<Space>qf": {
         "mode": "n",
@@ -110,7 +110,7 @@
         "annotation": "*",
         "definition": "<Cmd>copen<CR>",
         "description": null,
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "n::<Space>dx": {
         "mode": "n",
@@ -118,7 +118,7 @@
         "annotation": "*",
         "definition": "<Lua 1176: …opt/dap/lua/dap.lua:860>",
         "description": null,
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "n::<Space>dc": {
         "mode": "n",
@@ -126,7 +126,7 @@
         "annotation": "*",
         "definition": "<Lua 1175: …opt/dap/lua/dap.lua:1139>",
         "description": null,
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "n::<Space>dl": {
         "mode": "n",
@@ -134,7 +134,7 @@
         "annotation": "*",
         "definition": "<Lua 1174: …opt/dap/lua/dap.lua:675>",
         "description": null,
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "n::<Space>dr": {
         "mode": "n",
@@ -142,7 +142,7 @@
         "annotation": "*",
         "definition": "<Lua 1173: …opt/dap/lua/dap/ui.lua:342>",
         "description": null,
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "n::<Space>dB": {
         "mode": "n",
@@ -150,7 +150,7 @@
         "annotation": "*",
         "definition": "<Lua 1172: ~/.config/nvim/lua/debugging.lua:76>",
         "description": null,
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "n::<Space>db": {
         "mode": "n",
@@ -158,7 +158,7 @@
         "annotation": "*",
         "definition": "<Lua 1171: …opt/dap/lua/dap.lua:1030>",
         "description": null,
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "n::<Space>du": {
         "mode": "n",
@@ -166,7 +166,7 @@
         "annotation": "*",
         "definition": "<Lua 1158: …opt/dapui/lua/dapui/init.lua:337>",
         "description": null,
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "n::<Space>fh": {
         "mode": "n",
@@ -174,7 +174,7 @@
         "annotation": "*",
         "definition": "<Lua 1141: ~/.config/nvim/lua/telescope_etc.lua:97>",
         "description": "Telescope: Find Help Tags",
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "n::<Space>fb": {
         "mode": "n",
@@ -182,7 +182,7 @@
         "annotation": "*",
         "definition": "<Lua 1140: ~/.config/nvim/lua/telescope_etc.lua:89>",
         "description": "Telescope: Find Buffers",
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "n::<Space>fg": {
         "mode": "n",
@@ -190,7 +190,7 @@
         "annotation": "*",
         "definition": "<Lua 1137: ~/.config/nvim/lua/telescope_etc.lua:81>",
         "description": "Telescope: Live Grep",
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "n::<Space>gf": {
         "mode": "n",
@@ -198,7 +198,7 @@
         "annotation": "*",
         "definition": "<Lua 1134: ~/.config/nvim/lua/telescope_etc.lua:73>",
         "description": "Telescope: Find Git Files",
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "n::<Space>ff": {
         "mode": "n",
@@ -206,7 +206,7 @@
         "annotation": "*",
         "definition": "<Lua 1138: ~/.config/nvim/lua/telescope_etc.lua:65>",
         "description": "Telescope: Find Files",
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "n::<Space>id": {
         "mode": "n",
@@ -214,7 +214,7 @@
         "annotation": "*",
         "definition": "<Lua 1132: ~/.config/nvim/lua/search.lua:48>",
         "description": null,
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "n::<Space>ee": {
         "mode": "n",
@@ -222,7 +222,7 @@
         "annotation": "*",
         "definition": ":Oil<CR>",
         "description": null,
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "v::<Space>cw": {
         "mode": "v",
@@ -230,7 +230,7 @@
         "annotation": "*",
         "definition": "<Cmd>Yazi cwd<CR>",
         "description": "Open the file manager in nvim's working directory",
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "n::<Space>cw": {
         "mode": "n",
@@ -238,7 +238,7 @@
         "annotation": "*",
         "definition": "<Cmd>Yazi cwd<CR>",
         "description": "Open the file manager in nvim's working directory",
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "v::<Space>-": {
         "mode": "v",
@@ -246,7 +246,7 @@
         "annotation": "*",
         "definition": "<Cmd>Yazi<CR>",
         "description": "Open yazi at the current file",
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "n::<Space>-": {
         "mode": "n",
@@ -254,7 +254,7 @@
         "annotation": "*",
         "definition": "<Cmd>Yazi<CR>",
         "description": "Open yazi at the current file",
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "n::<Space>Cw": {
         "mode": "n",
@@ -262,7 +262,7 @@
         "annotation": "*",
         "definition": ":lua require('lazyclip.ui').open_window()<CR>",
         "description": "Open Clipboard Manager",
-        "origin": "Last set from …opt/lazyclip/lua/lazyclip/init.lua line 22"
+        "origin": "Last set from …opt/lazyclip/lua/lazyclip/init.lua:22"
     },
     "v::<Space>d-": {
         "mode": "v",
@@ -270,7 +270,7 @@
         "annotation": "*",
         "definition": "\"_d",
         "description": "Delete to blackhole",
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "n::<Space>d-": {
         "mode": "n",
@@ -278,7 +278,7 @@
         "annotation": "*",
         "definition": "\"_d",
         "description": "Delete to blackhole",
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "x::<Space>dd": {
         "mode": "x",
@@ -286,7 +286,7 @@
         "annotation": "*",
         "definition": "+d<CR>",
         "description": "Delete and send to system clipboard",
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "s::<Space>dd": {
         "mode": "s",
@@ -294,7 +294,7 @@
         "annotation": "*",
         "definition": "+d<CR>",
         "description": "Delete and send to system clipboard",
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "n::<Space>dd": {
         "mode": "n",
@@ -302,7 +302,7 @@
         "annotation": "*",
         "definition": "+d<CR>",
         "description": "Delete and send to system clipboard",
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "x::<Space>y": {
         "mode": "x",
@@ -310,7 +310,7 @@
         "annotation": "*",
         "definition": "+y<CR>",
         "description": "Yank to system clipboard",
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "v::<Space>P": {
         "mode": "v",
@@ -318,7 +318,7 @@
         "annotation": "*",
         "definition": "\"+P",
         "description": "Put from system (unnamedplus) clipboard (before)",
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "n::<Space>P": {
         "mode": "n",
@@ -326,7 +326,7 @@
         "annotation": "*",
         "definition": "\"+P",
         "description": "Put from system (unnamedplus) clipboard (before)",
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "v::<Space>pp": {
         "mode": "v",
@@ -334,7 +334,7 @@
         "annotation": "*",
         "definition": "\"+p",
         "description": "Put from system (unnamedplus) clipboard",
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "n::<Space>pp": {
         "mode": "n",
@@ -342,7 +342,7 @@
         "annotation": "*",
         "definition": "\"+p",
         "description": "Put from system (unnamedplus) clipboard",
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "n::<Space>Y": {
         "mode": "n",
@@ -350,7 +350,7 @@
         "annotation": "*",
         "definition": "\"+Y",
         "description": "Yank line to clipboard",
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "s::<Space>y": {
         "mode": "s",
@@ -358,7 +358,7 @@
         "annotation": "*",
         "definition": "+y<CR>",
         "description": "Yank to system clipboard",
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "n::<Space>y": {
         "mode": "n",
@@ -366,7 +366,7 @@
         "annotation": "*",
         "definition": "+y<CR>",
         "description": "Yank to system clipboard",
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "n::<Space>zm": {
         "mode": "n",
@@ -374,7 +374,7 @@
         "annotation": "*",
         "definition": "<Lua 860: ~/.config/nvim/lua/ui.lua:1568>",
         "description": " ",
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "n::<Space>;": {
         "mode": "n",
@@ -382,7 +382,7 @@
         "annotation": "*",
         "definition": "<Lua 741: ~/.config/nvim/lua/ui.lua:531>",
         "description": null,
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "n::<Space>mc9": {
         "mode": "n",
@@ -390,7 +390,7 @@
         "annotation": "*",
         "definition": ":Markit bookmark delete 9<CR>",
         "description": "Delete Group 9 Bookmarks",
-        "origin": "Last set from …opt/markit/lua/markit/commands.lua line 512"
+        "origin": "Last set from …opt/markit/lua/markit/commands.lua:512"
     },
     "n::<Space>mq9": {
         "mode": "n",
@@ -398,7 +398,7 @@
         "annotation": "*",
         "definition": ":Markit bookmark list quickfix 9<CR>",
         "description": "Group 9 Bookmarks \u2192 QuickFix",
-        "origin": "Last set from …opt/markit/lua/markit/commands.lua line 512"
+        "origin": "Last set from …opt/markit/lua/markit/commands.lua:512"
     },
     "n::<Space>mg9": {
         "mode": "n",
@@ -406,7 +406,7 @@
         "annotation": "*",
         "definition": ":Markit bookmark list 9<CR>",
         "description": "Group 9 Bookmarks",
-        "origin": "Last set from …opt/markit/lua/markit/commands.lua line 512"
+        "origin": "Last set from …opt/markit/lua/markit/commands.lua:512"
     },
     "n::<Space>mn9": {
         "mode": "n",
@@ -414,7 +414,7 @@
         "annotation": "*",
         "definition": ":Markit bookmark next 9<CR>",
         "description": "Next Group 9 Bookmark",
-        "origin": "Last set from …opt/markit/lua/markit/commands.lua line 512"
+        "origin": "Last set from …opt/markit/lua/markit/commands.lua:512"
     },
     "n::<Space>mp9": {
         "mode": "n",
@@ -422,7 +422,7 @@
         "annotation": "*",
         "definition": ":Markit bookmark prev 9<CR>",
         "description": "Previous Group 9 Bookmark",
-        "origin": "Last set from …opt/markit/lua/markit/commands.lua line 512"
+        "origin": "Last set from …opt/markit/lua/markit/commands.lua:512"
     },
     "n::<Space>m9": {
         "mode": "n",
@@ -430,7 +430,7 @@
         "annotation": "*",
         "definition": ":Markit bookmark toggle 9<CR>",
         "description": "Toggle Group 9 Bookmark",
-        "origin": "Last set from …opt/markit/lua/markit/commands.lua line 512"
+        "origin": "Last set from …opt/markit/lua/markit/commands.lua:512"
     },
     "n::<Space>mc8": {
         "mode": "n",
@@ -438,7 +438,7 @@
         "annotation": "*",
         "definition": ":Markit bookmark delete 8<CR>",
         "description": "Delete Group 8 Bookmarks",
-        "origin": "Last set from …opt/markit/lua/markit/commands.lua line 512"
+        "origin": "Last set from …opt/markit/lua/markit/commands.lua:512"
     },
     "n::<Space>mq8": {
         "mode": "n",
@@ -446,7 +446,7 @@
         "annotation": "*",
         "definition": ":Markit bookmark list quickfix 8<CR>",
         "description": "Group 8 Bookmarks \u2192 QuickFix",
-        "origin": "Last set from …opt/markit/lua/markit/commands.lua line 512"
+        "origin": "Last set from …opt/markit/lua/markit/commands.lua:512"
     },
     "n::<Space>mg8": {
         "mode": "n",
@@ -454,7 +454,7 @@
         "annotation": "*",
         "definition": ":Markit bookmark list 8<CR>",
         "description": "Group 8 Bookmarks",
-        "origin": "Last set from …opt/markit/lua/markit/commands.lua line 512"
+        "origin": "Last set from …opt/markit/lua/markit/commands.lua:512"
     },
     "n::<Space>mn8": {
         "mode": "n",
@@ -462,7 +462,7 @@
         "annotation": "*",
         "definition": ":Markit bookmark next 8<CR>",
         "description": "Next Group 8 Bookmark",
-        "origin": "Last set from …opt/markit/lua/markit/commands.lua line 512"
+        "origin": "Last set from …opt/markit/lua/markit/commands.lua:512"
     },
     "n::<Space>mp8": {
         "mode": "n",
@@ -470,7 +470,7 @@
         "annotation": "*",
         "definition": ":Markit bookmark prev 8<CR>",
         "description": "Previous Group 8 Bookmark",
-        "origin": "Last set from …opt/markit/lua/markit/commands.lua line 512"
+        "origin": "Last set from …opt/markit/lua/markit/commands.lua:512"
     },
     "n::<Space>m8": {
         "mode": "n",
@@ -478,7 +478,7 @@
         "annotation": "*",
         "definition": ":Markit bookmark toggle 8<CR>",
         "description": "Toggle Group 8 Bookmark",
-        "origin": "Last set from …opt/markit/lua/markit/commands.lua line 512"
+        "origin": "Last set from …opt/markit/lua/markit/commands.lua:512"
     },
     "n::<Space>mc7": {
         "mode": "n",
@@ -486,7 +486,7 @@
         "annotation": "*",
         "definition": ":Markit bookmark delete 7<CR>",
         "description": "Delete Group 7 Bookmarks",
-        "origin": "Last set from …opt/markit/lua/markit/commands.lua line 512"
+        "origin": "Last set from …opt/markit/lua/markit/commands.lua:512"
     },
     "n::<Space>mq7": {
         "mode": "n",
@@ -494,7 +494,7 @@
         "annotation": "*",
         "definition": ":Markit bookmark list quickfix 7<CR>",
         "description": "Group 7 Bookmarks \u2192 QuickFix",
-        "origin": "Last set from …opt/markit/lua/markit/commands.lua line 512"
+        "origin": "Last set from …opt/markit/lua/markit/commands.lua:512"
     },
     "n::<Space>mg7": {
         "mode": "n",
@@ -502,7 +502,7 @@
         "annotation": "*",
         "definition": ":Markit bookmark list 7<CR>",
         "description": "Group 7 Bookmarks",
-        "origin": "Last set from …opt/markit/lua/markit/commands.lua line 512"
+        "origin": "Last set from …opt/markit/lua/markit/commands.lua:512"
     },
     "n::<Space>mn7": {
         "mode": "n",
@@ -510,7 +510,7 @@
         "annotation": "*",
         "definition": ":Markit bookmark next 7<CR>",
         "description": "Next Group 7 Bookmark",
-        "origin": "Last set from …opt/markit/lua/markit/commands.lua line 512"
+        "origin": "Last set from …opt/markit/lua/markit/commands.lua:512"
     },
     "n::<Space>mp7": {
         "mode": "n",
@@ -518,7 +518,7 @@
         "annotation": "*",
         "definition": ":Markit bookmark prev 7<CR>",
         "description": "Previous Group 7 Bookmark",
-        "origin": "Last set from …opt/markit/lua/markit/commands.lua line 512"
+        "origin": "Last set from …opt/markit/lua/markit/commands.lua:512"
     },
     "n::<Space>m7": {
         "mode": "n",
@@ -526,7 +526,7 @@
         "annotation": "*",
         "definition": ":Markit bookmark toggle 7<CR>",
         "description": "Toggle Group 7 Bookmark",
-        "origin": "Last set from …opt/markit/lua/markit/commands.lua line 512"
+        "origin": "Last set from …opt/markit/lua/markit/commands.lua:512"
     },
     "n::<Space>mc6": {
         "mode": "n",
@@ -534,7 +534,7 @@
         "annotation": "*",
         "definition": ":Markit bookmark delete 6<CR>",
         "description": "Delete Group 6 Bookmarks",
-        "origin": "Last set from …opt/markit/lua/markit/commands.lua line 512"
+        "origin": "Last set from …opt/markit/lua/markit/commands.lua:512"
     },
     "n::<Space>mq6": {
         "mode": "n",
@@ -542,7 +542,7 @@
         "annotation": "*",
         "definition": ":Markit bookmark list quickfix 6<CR>",
         "description": "Group 6 Bookmarks \u2192 QuickFix",
-        "origin": "Last set from …opt/markit/lua/markit/commands.lua line 512"
+        "origin": "Last set from …opt/markit/lua/markit/commands.lua:512"
     },
     "n::<Space>mg6": {
         "mode": "n",
@@ -550,7 +550,7 @@
         "annotation": "*",
         "definition": ":Markit bookmark list 6<CR>",
         "description": "Group 6 Bookmarks",
-        "origin": "Last set from …opt/markit/lua/markit/commands.lua line 512"
+        "origin": "Last set from …opt/markit/lua/markit/commands.lua:512"
     },
     "n::<Space>mn6": {
         "mode": "n",
@@ -558,7 +558,7 @@
         "annotation": "*",
         "definition": ":Markit bookmark next 6<CR>",
         "description": "Next Group 6 Bookmark",
-        "origin": "Last set from …opt/markit/lua/markit/commands.lua line 512"
+        "origin": "Last set from …opt/markit/lua/markit/commands.lua:512"
     },
     "n::<Space>mp6": {
         "mode": "n",
@@ -566,7 +566,7 @@
         "annotation": "*",
         "definition": ":Markit bookmark prev 6<CR>",
         "description": "Previous Group 6 Bookmark",
-        "origin": "Last set from …opt/markit/lua/markit/commands.lua line 512"
+        "origin": "Last set from …opt/markit/lua/markit/commands.lua:512"
     },
     "n::<Space>m6": {
         "mode": "n",
@@ -574,7 +574,7 @@
         "annotation": "*",
         "definition": ":Markit bookmark toggle 6<CR>",
         "description": "Toggle Group 6 Bookmark",
-        "origin": "Last set from …opt/markit/lua/markit/commands.lua line 512"
+        "origin": "Last set from …opt/markit/lua/markit/commands.lua:512"
     },
     "n::<Space>mc5": {
         "mode": "n",
@@ -582,7 +582,7 @@
         "annotation": "*",
         "definition": ":Markit bookmark delete 5<CR>",
         "description": "Delete Group 5 Bookmarks",
-        "origin": "Last set from …opt/markit/lua/markit/commands.lua line 512"
+        "origin": "Last set from …opt/markit/lua/markit/commands.lua:512"
     },
     "n::<Space>mq5": {
         "mode": "n",
@@ -590,7 +590,7 @@
         "annotation": "*",
         "definition": ":Markit bookmark list quickfix 5<CR>",
         "description": "Group 5 Bookmarks \u2192 QuickFix",
-        "origin": "Last set from …opt/markit/lua/markit/commands.lua line 512"
+        "origin": "Last set from …opt/markit/lua/markit/commands.lua:512"
     },
     "n::<Space>mg5": {
         "mode": "n",
@@ -598,7 +598,7 @@
         "annotation": "*",
         "definition": ":Markit bookmark list 5<CR>",
         "description": "Group 5 Bookmarks",
-        "origin": "Last set from …opt/markit/lua/markit/commands.lua line 512"
+        "origin": "Last set from …opt/markit/lua/markit/commands.lua:512"
     },
     "n::<Space>mn5": {
         "mode": "n",
@@ -606,7 +606,7 @@
         "annotation": "*",
         "definition": ":Markit bookmark next 5<CR>",
         "description": "Next Group 5 Bookmark",
-        "origin": "Last set from …opt/markit/lua/markit/commands.lua line 512"
+        "origin": "Last set from …opt/markit/lua/markit/commands.lua:512"
     },
     "n::<Space>mp5": {
         "mode": "n",
@@ -614,7 +614,7 @@
         "annotation": "*",
         "definition": ":Markit bookmark prev 5<CR>",
         "description": "Previous Group 5 Bookmark",
-        "origin": "Last set from …opt/markit/lua/markit/commands.lua line 512"
+        "origin": "Last set from …opt/markit/lua/markit/commands.lua:512"
     },
     "n::<Space>m5": {
         "mode": "n",
@@ -622,7 +622,7 @@
         "annotation": "*",
         "definition": ":Markit bookmark toggle 5<CR>",
         "description": "Toggle Group 5 Bookmark",
-        "origin": "Last set from …opt/markit/lua/markit/commands.lua line 512"
+        "origin": "Last set from …opt/markit/lua/markit/commands.lua:512"
     },
     "n::<Space>mc4": {
         "mode": "n",
@@ -630,7 +630,7 @@
         "annotation": "*",
         "definition": ":Markit bookmark delete 4<CR>",
         "description": "Delete Group 4 Bookmarks",
-        "origin": "Last set from …opt/markit/lua/markit/commands.lua line 512"
+        "origin": "Last set from …opt/markit/lua/markit/commands.lua:512"
     },
     "n::<Space>mq4": {
         "mode": "n",
@@ -638,7 +638,7 @@
         "annotation": "*",
         "definition": ":Markit bookmark list quickfix 4<CR>",
         "description": "Group 4 Bookmarks \u2192 QuickFix",
-        "origin": "Last set from …opt/markit/lua/markit/commands.lua line 512"
+        "origin": "Last set from …opt/markit/lua/markit/commands.lua:512"
     },
     "n::<Space>mg4": {
         "mode": "n",
@@ -646,7 +646,7 @@
         "annotation": "*",
         "definition": ":Markit bookmark list 4<CR>",
         "description": "Group 4 Bookmarks",
-        "origin": "Last set from …opt/markit/lua/markit/commands.lua line 512"
+        "origin": "Last set from …opt/markit/lua/markit/commands.lua:512"
     },
     "n::<Space>mn4": {
         "mode": "n",
@@ -654,7 +654,7 @@
         "annotation": "*",
         "definition": ":Markit bookmark next 4<CR>",
         "description": "Next Group 4 Bookmark",
-        "origin": "Last set from …opt/markit/lua/markit/commands.lua line 512"
+        "origin": "Last set from …opt/markit/lua/markit/commands.lua:512"
     },
     "n::<Space>mp4": {
         "mode": "n",
@@ -662,7 +662,7 @@
         "annotation": "*",
         "definition": ":Markit bookmark prev 4<CR>",
         "description": "Previous Group 4 Bookmark",
-        "origin": "Last set from …opt/markit/lua/markit/commands.lua line 512"
+        "origin": "Last set from …opt/markit/lua/markit/commands.lua:512"
     },
     "n::<Space>m4": {
         "mode": "n",
@@ -670,7 +670,7 @@
         "annotation": "*",
         "definition": ":Markit bookmark toggle 4<CR>",
         "description": "Toggle Group 4 Bookmark",
-        "origin": "Last set from …opt/markit/lua/markit/commands.lua line 512"
+        "origin": "Last set from …opt/markit/lua/markit/commands.lua:512"
     },
     "n::<Space>mc3": {
         "mode": "n",
@@ -678,7 +678,7 @@
         "annotation": "*",
         "definition": ":Markit bookmark delete 3<CR>",
         "description": "Delete Group 3 Bookmarks",
-        "origin": "Last set from …opt/markit/lua/markit/commands.lua line 512"
+        "origin": "Last set from …opt/markit/lua/markit/commands.lua:512"
     },
     "n::<Space>mq3": {
         "mode": "n",
@@ -686,7 +686,7 @@
         "annotation": "*",
         "definition": ":Markit bookmark list quickfix 3<CR>",
         "description": "Group 3 Bookmarks \u2192 QuickFix",
-        "origin": "Last set from …opt/markit/lua/markit/commands.lua line 512"
+        "origin": "Last set from …opt/markit/lua/markit/commands.lua:512"
     },
     "n::<Space>mg3": {
         "mode": "n",
@@ -694,7 +694,7 @@
         "annotation": "*",
         "definition": ":Markit bookmark list 3<CR>",
         "description": "Group 3 Bookmarks",
-        "origin": "Last set from …opt/markit/lua/markit/commands.lua line 512"
+        "origin": "Last set from …opt/markit/lua/markit/commands.lua:512"
     },
     "n::<Space>mn3": {
         "mode": "n",
@@ -702,7 +702,7 @@
         "annotation": "*",
         "definition": ":Markit bookmark next 3<CR>",
         "description": "Next Group 3 Bookmark",
-        "origin": "Last set from …opt/markit/lua/markit/commands.lua line 512"
+        "origin": "Last set from …opt/markit/lua/markit/commands.lua:512"
     },
     "n::<Space>mp3": {
         "mode": "n",
@@ -710,7 +710,7 @@
         "annotation": "*",
         "definition": ":Markit bookmark prev 3<CR>",
         "description": "Previous Group 3 Bookmark",
-        "origin": "Last set from …opt/markit/lua/markit/commands.lua line 512"
+        "origin": "Last set from …opt/markit/lua/markit/commands.lua:512"
     },
     "n::<Space>m3": {
         "mode": "n",
@@ -718,7 +718,7 @@
         "annotation": "*",
         "definition": ":Markit bookmark toggle 3<CR>",
         "description": "Toggle Group 3 Bookmark",
-        "origin": "Last set from …opt/markit/lua/markit/commands.lua line 512"
+        "origin": "Last set from …opt/markit/lua/markit/commands.lua:512"
     },
     "n::<Space>mc2": {
         "mode": "n",
@@ -726,7 +726,7 @@
         "annotation": "*",
         "definition": ":Markit bookmark delete 2<CR>",
         "description": "Delete Group 2 Bookmarks",
-        "origin": "Last set from …opt/markit/lua/markit/commands.lua line 512"
+        "origin": "Last set from …opt/markit/lua/markit/commands.lua:512"
     },
     "n::<Space>mq2": {
         "mode": "n",
@@ -734,7 +734,7 @@
         "annotation": "*",
         "definition": ":Markit bookmark list quickfix 2<CR>",
         "description": "Group 2 Bookmarks \u2192 QuickFix",
-        "origin": "Last set from …opt/markit/lua/markit/commands.lua line 512"
+        "origin": "Last set from …opt/markit/lua/markit/commands.lua:512"
     },
     "n::<Space>mg2": {
         "mode": "n",
@@ -742,7 +742,7 @@
         "annotation": "*",
         "definition": ":Markit bookmark list 2<CR>",
         "description": "Group 2 Bookmarks",
-        "origin": "Last set from …opt/markit/lua/markit/commands.lua line 512"
+        "origin": "Last set from …opt/markit/lua/markit/commands.lua:512"
     },
     "n::<Space>mn2": {
         "mode": "n",
@@ -750,7 +750,7 @@
         "annotation": "*",
         "definition": ":Markit bookmark next 2<CR>",
         "description": "Next Group 2 Bookmark",
-        "origin": "Last set from …opt/markit/lua/markit/commands.lua line 512"
+        "origin": "Last set from …opt/markit/lua/markit/commands.lua:512"
     },
     "n::<Space>mp2": {
         "mode": "n",
@@ -758,7 +758,7 @@
         "annotation": "*",
         "definition": ":Markit bookmark prev 2<CR>",
         "description": "Previous Group 2 Bookmark",
-        "origin": "Last set from …opt/markit/lua/markit/commands.lua line 512"
+        "origin": "Last set from …opt/markit/lua/markit/commands.lua:512"
     },
     "n::<Space>m2": {
         "mode": "n",
@@ -766,7 +766,7 @@
         "annotation": "*",
         "definition": ":Markit bookmark toggle 2<CR>",
         "description": "Toggle Group 2 Bookmark",
-        "origin": "Last set from …opt/markit/lua/markit/commands.lua line 512"
+        "origin": "Last set from …opt/markit/lua/markit/commands.lua:512"
     },
     "n::<Space>mc1": {
         "mode": "n",
@@ -774,7 +774,7 @@
         "annotation": "*",
         "definition": ":Markit bookmark delete 1<CR>",
         "description": "Delete Group 1 Bookmarks",
-        "origin": "Last set from …opt/markit/lua/markit/commands.lua line 512"
+        "origin": "Last set from …opt/markit/lua/markit/commands.lua:512"
     },
     "n::<Space>mq1": {
         "mode": "n",
@@ -782,7 +782,7 @@
         "annotation": "*",
         "definition": ":Markit bookmark list quickfix 1<CR>",
         "description": "Group 1 Bookmarks \u2192 QuickFix",
-        "origin": "Last set from …opt/markit/lua/markit/commands.lua line 512"
+        "origin": "Last set from …opt/markit/lua/markit/commands.lua:512"
     },
     "n::<Space>mg1": {
         "mode": "n",
@@ -790,7 +790,7 @@
         "annotation": "*",
         "definition": ":Markit bookmark list 1<CR>",
         "description": "Group 1 Bookmarks",
-        "origin": "Last set from …opt/markit/lua/markit/commands.lua line 512"
+        "origin": "Last set from …opt/markit/lua/markit/commands.lua:512"
     },
     "n::<Space>mn1": {
         "mode": "n",
@@ -798,7 +798,7 @@
         "annotation": "*",
         "definition": ":Markit bookmark next 1<CR>",
         "description": "Next Group 1 Bookmark",
-        "origin": "Last set from …opt/markit/lua/markit/commands.lua line 512"
+        "origin": "Last set from …opt/markit/lua/markit/commands.lua:512"
     },
     "n::<Space>mp1": {
         "mode": "n",
@@ -806,7 +806,7 @@
         "annotation": "*",
         "definition": ":Markit bookmark prev 1<CR>",
         "description": "Previous Group 1 Bookmark",
-        "origin": "Last set from …opt/markit/lua/markit/commands.lua line 512"
+        "origin": "Last set from …opt/markit/lua/markit/commands.lua:512"
     },
     "n::<Space>m1": {
         "mode": "n",
@@ -814,7 +814,7 @@
         "annotation": "*",
         "definition": ":Markit bookmark toggle 1<CR>",
         "description": "Toggle Group 1 Bookmark",
-        "origin": "Last set from …opt/markit/lua/markit/commands.lua line 512"
+        "origin": "Last set from …opt/markit/lua/markit/commands.lua:512"
     },
     "n::<Space>mc0": {
         "mode": "n",
@@ -822,7 +822,7 @@
         "annotation": "*",
         "definition": ":Markit bookmark delete 0<CR>",
         "description": "Delete Group 0 Bookmarks",
-        "origin": "Last set from …opt/markit/lua/markit/commands.lua line 512"
+        "origin": "Last set from …opt/markit/lua/markit/commands.lua:512"
     },
     "n::<Space>mq0": {
         "mode": "n",
@@ -830,7 +830,7 @@
         "annotation": "*",
         "definition": ":Markit bookmark list quickfix 0<CR>",
         "description": "Group 0 Bookmarks \u2192 QuickFix",
-        "origin": "Last set from …opt/markit/lua/markit/commands.lua line 512"
+        "origin": "Last set from …opt/markit/lua/markit/commands.lua:512"
     },
     "n::<Space>mg0": {
         "mode": "n",
@@ -838,7 +838,7 @@
         "annotation": "*",
         "definition": ":Markit bookmark list 0<CR>",
         "description": "Group 0 Bookmarks",
-        "origin": "Last set from …opt/markit/lua/markit/commands.lua line 512"
+        "origin": "Last set from …opt/markit/lua/markit/commands.lua:512"
     },
     "n::<Space>mn0": {
         "mode": "n",
@@ -846,7 +846,7 @@
         "annotation": "*",
         "definition": ":Markit bookmark next 0<CR>",
         "description": "Next Group 0 Bookmark",
-        "origin": "Last set from …opt/markit/lua/markit/commands.lua line 512"
+        "origin": "Last set from …opt/markit/lua/markit/commands.lua:512"
     },
     "n::<Space>mp0": {
         "mode": "n",
@@ -854,7 +854,7 @@
         "annotation": "*",
         "definition": ":Markit bookmark prev 0<CR>",
         "description": "Previous Group 0 Bookmark",
-        "origin": "Last set from …opt/markit/lua/markit/commands.lua line 512"
+        "origin": "Last set from …opt/markit/lua/markit/commands.lua:512"
     },
     "n::<Space>m0": {
         "mode": "n",
@@ -862,7 +862,7 @@
         "annotation": "*",
         "definition": ":Markit bookmark toggle 0<CR>",
         "description": "Toggle Group 0 Bookmark",
-        "origin": "Last set from …opt/markit/lua/markit/commands.lua line 512"
+        "origin": "Last set from …opt/markit/lua/markit/commands.lua:512"
     },
     "n::<Space>mv": {
         "mode": "n",
@@ -870,7 +870,7 @@
         "annotation": "*",
         "definition": ":Markit bookmark signs<CR>",
         "description": "Toggle Signs",
-        "origin": "Last set from …opt/markit/lua/markit/commands.lua line 512"
+        "origin": "Last set from …opt/markit/lua/markit/commands.lua:512"
     },
     "n::<Space>mh": {
         "mode": "n",
@@ -878,7 +878,7 @@
         "annotation": "*",
         "definition": ":Markit bookmark prev<CR>",
         "description": "Previous Bookmark",
-        "origin": "Last set from …opt/markit/lua/markit/commands.lua line 512"
+        "origin": "Last set from …opt/markit/lua/markit/commands.lua:512"
     },
     "n::<Space>ml": {
         "mode": "n",
@@ -886,7 +886,7 @@
         "annotation": "*",
         "definition": ":Markit bookmark next<CR>",
         "description": "Next Bookmark",
-        "origin": "Last set from …opt/markit/lua/markit/commands.lua line 512"
+        "origin": "Last set from …opt/markit/lua/markit/commands.lua:512"
     },
     "n::<Space>ma": {
         "mode": "n",
@@ -894,7 +894,7 @@
         "annotation": "*",
         "definition": ":Markit bookmark annotate<CR>",
         "description": "Annotate Bookmark",
-        "origin": "Last set from …opt/markit/lua/markit/commands.lua line 512"
+        "origin": "Last set from …opt/markit/lua/markit/commands.lua:512"
     },
     "n::<Space>mx": {
         "mode": "n",
@@ -902,7 +902,7 @@
         "annotation": "*",
         "definition": ":Markit bookmark delete<CR>",
         "description": "Delete Bookmark at Cursor",
-        "origin": "Last set from …opt/markit/lua/markit/commands.lua line 512"
+        "origin": "Last set from …opt/markit/lua/markit/commands.lua:512"
     },
     "n::<Space>mb": {
         "mode": "n",
@@ -910,7 +910,7 @@
         "annotation": "*",
         "definition": ":Markit bookmark list all<CR>",
         "description": "All Bookmarks",
-        "origin": "Last set from …opt/markit/lua/markit/commands.lua line 512"
+        "origin": "Last set from …opt/markit/lua/markit/commands.lua:512"
     },
     "n::<Space>mqg": {
         "mode": "n",
@@ -918,7 +918,7 @@
         "annotation": "*",
         "definition": ":Markit mark list quickfix all<CR>",
         "description": "All Marks \u2192 QuickFix",
-        "origin": "Last set from …opt/markit/lua/markit/commands.lua line 512"
+        "origin": "Last set from …opt/markit/lua/markit/commands.lua:512"
     },
     "n::<Space>mqM": {
         "mode": "n",
@@ -926,7 +926,7 @@
         "annotation": "*",
         "definition": ":Markit mark list quickfix buffer<CR>",
         "description": "Buffer Marks \u2192 QuickFix",
-        "origin": "Last set from …opt/markit/lua/markit/commands.lua line 512"
+        "origin": "Last set from …opt/markit/lua/markit/commands.lua:512"
     },
     "n::<Space>mqm": {
         "mode": "n",
@@ -934,7 +934,7 @@
         "annotation": "*",
         "definition": ":Markit mark list quickfix all<CR>",
         "description": "All Marks \u2192 QuickFix",
-        "origin": "Last set from …opt/markit/lua/markit/commands.lua line 512"
+        "origin": "Last set from …opt/markit/lua/markit/commands.lua:512"
     },
     "n::<Space>mX": {
         "mode": "n",
@@ -942,7 +942,7 @@
         "annotation": "*",
         "definition": ":Markit mark delete<CR>",
         "description": "Delete Mark (Interactive)",
-        "origin": "Last set from …opt/markit/lua/markit/commands.lua line 512"
+        "origin": "Last set from …opt/markit/lua/markit/commands.lua:512"
     },
     "n::<Space>mD": {
         "mode": "n",
@@ -950,7 +950,7 @@
         "annotation": "*",
         "definition": ":Markit mark delete buffer<CR>",
         "description": "Delete Marks In Buffer",
-        "origin": "Last set from …opt/markit/lua/markit/commands.lua line 512"
+        "origin": "Last set from …opt/markit/lua/markit/commands.lua:512"
     },
     "n::<Space>md": {
         "mode": "n",
@@ -958,7 +958,7 @@
         "annotation": "*",
         "definition": ":Markit mark delete line<CR>",
         "description": "Delete Marks In Line",
-        "origin": "Last set from …opt/markit/lua/markit/commands.lua line 512"
+        "origin": "Last set from …opt/markit/lua/markit/commands.lua:512"
     },
     "n::<Space>mP": {
         "mode": "n",
@@ -966,7 +966,7 @@
         "annotation": "*",
         "definition": ":Markit mark preview<CR>",
         "description": "Preview Mark",
-        "origin": "Last set from …opt/markit/lua/markit/commands.lua line 512"
+        "origin": "Last set from …opt/markit/lua/markit/commands.lua:512"
     },
     "n::<Space>mk": {
         "mode": "n",
@@ -974,7 +974,7 @@
         "annotation": "*",
         "definition": ":Markit mark prev<CR>",
         "description": "Previous Mark",
-        "origin": "Last set from …opt/markit/lua/markit/commands.lua line 512"
+        "origin": "Last set from …opt/markit/lua/markit/commands.lua:512"
     },
     "n::<Space>mj": {
         "mode": "n",
@@ -982,7 +982,7 @@
         "annotation": "*",
         "definition": ":Markit mark next<CR>",
         "description": "Next Mark",
-        "origin": "Last set from …opt/markit/lua/markit/commands.lua line 512"
+        "origin": "Last set from …opt/markit/lua/markit/commands.lua:512"
     },
     "n::<Space>mT": {
         "mode": "n",
@@ -990,7 +990,7 @@
         "annotation": "*",
         "definition": ":Markit mark toggle<CR>",
         "description": "Toggle Mark (Interactive)",
-        "origin": "Last set from …opt/markit/lua/markit/commands.lua line 512"
+        "origin": "Last set from …opt/markit/lua/markit/commands.lua:512"
     },
     "n::<Space>mt": {
         "mode": "n",
@@ -998,7 +998,7 @@
         "annotation": "*",
         "definition": ":Markit mark toggle<CR>",
         "description": "Toggle Mark at Cursor",
-        "origin": "Last set from …opt/markit/lua/markit/commands.lua line 512"
+        "origin": "Last set from …opt/markit/lua/markit/commands.lua:512"
     },
     "n::<Space>mS": {
         "mode": "n",
@@ -1006,7 +1006,7 @@
         "annotation": "*",
         "definition": ":Markit mark set<CR>",
         "description": "Set Mark (Interactive)",
-        "origin": "Last set from …opt/markit/lua/markit/commands.lua line 512"
+        "origin": "Last set from …opt/markit/lua/markit/commands.lua:512"
     },
     "n::<Space>ms": {
         "mode": "n",
@@ -1014,7 +1014,7 @@
         "annotation": "*",
         "definition": ":Markit mark set<CR>",
         "description": "Set Next Available Mark",
-        "origin": "Last set from …opt/markit/lua/markit/commands.lua line 512"
+        "origin": "Last set from …opt/markit/lua/markit/commands.lua:512"
     },
     "n::<Space>mM": {
         "mode": "n",
@@ -1022,7 +1022,7 @@
         "annotation": "*",
         "definition": ":Markit mark list buffer<CR>",
         "description": "Buffer Marks",
-        "origin": "Last set from …opt/markit/lua/markit/commands.lua line 512"
+        "origin": "Last set from …opt/markit/lua/markit/commands.lua:512"
     },
     "n::<Space>mm": {
         "mode": "n",
@@ -1030,7 +1030,7 @@
         "annotation": "*",
         "definition": ":Markit mark list all<CR>",
         "description": "All Marks",
-        "origin": "Last set from …opt/markit/lua/markit/commands.lua line 512"
+        "origin": "Last set from …opt/markit/lua/markit/commands.lua:512"
     },
     "n::<Space>mqb": {
         "mode": "n",
@@ -1038,7 +1038,7 @@
         "annotation": "*",
         "definition": ":Markit bookmark list quickfix all<CR>",
         "description": "All Bookmarks \u2192 QuickFix",
-        "origin": "Last set from …opt/markit/lua/markit/commands.lua line 512"
+        "origin": "Last set from …opt/markit/lua/markit/commands.lua:512"
     },
     "n::<Space>mlb": {
         "mode": "n",
@@ -1046,7 +1046,7 @@
         "annotation": "*",
         "definition": "MarksListBuf",
         "description": "Marks: list buffer marks",
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "n::<Space><BS>": {
         "mode": "n",
@@ -1054,7 +1054,7 @@
         "annotation": "*",
         "definition": "<Lua 399: …opt/retrospect/lua/retrospect/init.lua:22>",
         "description": "Load session",
-        "origin": "Last set from …opt/retrospect/lua/retrospect/init.lua line 58"
+        "origin": "Last set from …opt/retrospect/lua/retrospect/init.lua:58"
     },
     "n::<Space>\\": {
         "mode": "n",
@@ -1062,7 +1062,7 @@
         "annotation": "*",
         "definition": "<Lua 397: …opt/retrospect/lua/retrospect/init.lua:17>",
         "description": "Save current session",
-        "origin": "Last set from …opt/retrospect/lua/retrospect/init.lua line 51"
+        "origin": "Last set from …opt/retrospect/lua/retrospect/init.lua:51"
     },
     "n::<Space>bf": {
         "mode": "n",
@@ -1070,7 +1070,7 @@
         "annotation": "*",
         "definition": "FlyBuf",
         "description": "FlyBuf: buffer list",
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "n::<Space><Space>l": {
         "mode": "n",
@@ -1078,7 +1078,7 @@
         "annotation": "*",
         "definition": "<Lua 388: …opt/smart-splits/lua/smart-splits/lazy.lua:72>",
         "description": "Swap buffer right",
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "n::<Space><Space>k": {
         "mode": "n",
@@ -1086,7 +1086,7 @@
         "annotation": "*",
         "definition": "<Lua 387: …opt/smart-splits/lua/smart-splits/lazy.lua:72>",
         "description": "Swap buffer up",
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "n::<Space><Space>j": {
         "mode": "n",
@@ -1094,7 +1094,7 @@
         "annotation": "*",
         "definition": "<Lua 386: …opt/smart-splits/lua/smart-splits/lazy.lua:72>",
         "description": "Swap buffer down",
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "n::<Space><Space>h": {
         "mode": "n",
@@ -1102,7 +1102,7 @@
         "annotation": "*",
         "definition": "<Lua 385: …opt/smart-splits/lua/smart-splits/lazy.lua:72>",
         "description": "Swap buffer left",
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "n::<Space>u": {
         "mode": "n",
@@ -1110,7 +1110,7 @@
         "annotation": "*",
         "definition": "<Cmd>MundoToggle<CR>",
         "description": null,
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "v::<Space>t=": {
         "mode": "v",
@@ -1118,7 +1118,7 @@
         "annotation": "*",
         "definition": ":Tabularize /=<CR>",
         "description": null,
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "n::<Space>t=": {
         "mode": "n",
@@ -1126,7 +1126,7 @@
         "annotation": "*",
         "definition": ":Tabularize /=<CR>",
         "description": null,
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "n::<Space>dic": {
         "mode": "n",
@@ -1134,7 +1134,7 @@
         "annotation": "*",
         "definition": "<Cmd>InsertDateTime<CR>",
         "description": null,
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "n::<Space>dib": {
         "mode": "n",
@@ -1142,7 +1142,7 @@
         "annotation": "*",
         "definition": "<Cmd>InsertTime<CR>",
         "description": null,
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "n::<Space>dia": {
         "mode": "n",
@@ -1150,7 +1150,7 @@
         "annotation": "*",
         "definition": "<Cmd>InsertDate<CR>",
         "description": null,
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "n::<Space>dit": {
         "mode": "n",
@@ -1158,7 +1158,7 @@
         "annotation": "*",
         "definition": ":r! date \"+\\%H:\\%M:\\%S\" <CR>",
         "description": null,
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "n::<Space>did": {
         "mode": "n",
@@ -1166,7 +1166,7 @@
         "annotation": "*",
         "definition": ":r! date \"+\\%d-\\%m-\\%Y\" <CR>",
         "description": null,
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "n::<Space>ec": {
         "mode": "n",
@@ -1174,7 +1174,7 @@
         "annotation": "*",
         "definition": "<Lua 144: …opt/error-jump/lua/error-jump/init.lua:87>",
         "description": "[E]rror [C]ompile",
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "n::<Space>eN": {
         "mode": "n",
@@ -1182,7 +1182,7 @@
         "annotation": "*",
         "definition": "<Lua 143: …opt/error-jump/lua/error-jump/init.lua:78>",
         "description": "[E]rror [N]previous",
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "n::<Space>en": {
         "mode": "n",
@@ -1190,7 +1190,7 @@
         "annotation": "*",
         "definition": "<Lua 142: …opt/error-jump/lua/error-jump/init.lua:69>",
         "description": "[E]rror [N]ext",
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "n::<Space>es": {
         "mode": "n",
@@ -1198,7 +1198,7 @@
         "annotation": "*",
         "definition": "<Lua 141: …opt/error-jump/lua/error-jump/init.lua:30>",
         "description": "[E]rror [S]ource",
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "n::<Space>pc": {
         "mode": "n",
@@ -1206,7 +1206,7 @@
         "annotation": null,
         "definition": "<Lua 140: ~/.config/nvim/lua/lsp.lua:1023>",
         "description": "Debug print clean",
-        "origin": "Last set from ~/.config/nvim/lua/lsp.lua line 1023"
+        "origin": "Last set from ~/.config/nvim/lua/lsp.lua:1023"
     },
     "x::<Space>pc": {
         "mode": "x",
@@ -1214,7 +1214,7 @@
         "annotation": null,
         "definition": "<Lua 139: ~/.config/nvim/lua/lsp.lua:1023>",
         "description": "Debug print clean",
-        "origin": "Last set from ~/.config/nvim/lua/lsp.lua line 1023"
+        "origin": "Last set from ~/.config/nvim/lua/lsp.lua:1023"
     },
     "n::<Space>plb": {
         "mode": "n",
@@ -1222,7 +1222,7 @@
         "annotation": "*",
         "definition": "<Lua 138: ~/.config/nvim/lua/lsp.lua:1019>",
         "description": "Debug print location below",
-        "origin": "Last set from ~/.config/nvim/lua/lsp.lua line 1019"
+        "origin": "Last set from ~/.config/nvim/lua/lsp.lua:1019"
     },
     "n::<Space>pla": {
         "mode": "n",
@@ -1230,7 +1230,7 @@
         "annotation": "*",
         "definition": "<Lua 136: ~/.config/nvim/lua/lsp.lua:1016>",
         "description": "Debug print location above",
-        "origin": "Last set from ~/.config/nvim/lua/lsp.lua line 1016"
+        "origin": "Last set from ~/.config/nvim/lua/lsp.lua:1016"
     },
     "n::<Space>pea": {
         "mode": "n",
@@ -1238,7 +1238,7 @@
         "annotation": "*",
         "definition": "<Lua 135: ~/.config/nvim/lua/lsp.lua:1012>",
         "description": "Debug print exp above",
-        "origin": "Last set from ~/.config/nvim/lua/lsp.lua line 1012"
+        "origin": "Last set from ~/.config/nvim/lua/lsp.lua:1012"
     },
     "n::<Space>peb": {
         "mode": "n",
@@ -1246,7 +1246,7 @@
         "annotation": "*",
         "definition": "<Lua 134: ~/.config/nvim/lua/lsp.lua:1008>",
         "description": "Debug print exp above",
-        "origin": "Last set from ~/.config/nvim/lua/lsp.lua line 1008"
+        "origin": "Last set from ~/.config/nvim/lua/lsp.lua:1008"
     },
     "x::<Space>peb": {
         "mode": "x",
@@ -1254,7 +1254,7 @@
         "annotation": "*",
         "definition": "<Lua 137: ~/.config/nvim/lua/lsp.lua:1008>",
         "description": "Debug print exp above",
-        "origin": "Last set from ~/.config/nvim/lua/lsp.lua line 1008"
+        "origin": "Last set from ~/.config/nvim/lua/lsp.lua:1008"
     },
     "x::<Space>pva": {
         "mode": "x",
@@ -1262,7 +1262,7 @@
         "annotation": "*",
         "definition": "<Lua 133: ~/.config/nvim/lua/lsp.lua:996>",
         "description": "Debug print var above",
-        "origin": "Last set from ~/.config/nvim/lua/lsp.lua line 996"
+        "origin": "Last set from ~/.config/nvim/lua/lsp.lua:996"
     },
     "n::<Space>pva": {
         "mode": "n",
@@ -1270,7 +1270,7 @@
         "annotation": "*",
         "definition": "<Lua 132: ~/.config/nvim/lua/lsp.lua:993>",
         "description": "Debug print var above",
-        "origin": "Last set from ~/.config/nvim/lua/lsp.lua line 993"
+        "origin": "Last set from ~/.config/nvim/lua/lsp.lua:993"
     },
     "x::<Space>pvb": {
         "mode": "x",
@@ -1278,7 +1278,7 @@
         "annotation": "*",
         "definition": "<Lua 131: ~/.config/nvim/lua/lsp.lua:988>",
         "description": "Debug print var below",
-        "origin": "Last set from ~/.config/nvim/lua/lsp.lua line 988"
+        "origin": "Last set from ~/.config/nvim/lua/lsp.lua:988"
     },
     "n::<Space>pvb": {
         "mode": "n",
@@ -1286,7 +1286,7 @@
         "annotation": "*",
         "definition": "<Lua 130: ~/.config/nvim/lua/lsp.lua:985>",
         "description": "Debug print var below",
-        "origin": "Last set from ~/.config/nvim/lua/lsp.lua line 985"
+        "origin": "Last set from ~/.config/nvim/lua/lsp.lua:985"
     },
     "x::<Space>rs": {
         "mode": "x",
@@ -1294,7 +1294,7 @@
         "annotation": "*",
         "definition": "<Lua 129: ~/.config/nvim/lua/lsp.lua:980>",
         "description": "Select refactor",
-        "origin": "Last set from ~/.config/nvim/lua/lsp.lua line 980"
+        "origin": "Last set from ~/.config/nvim/lua/lsp.lua:980"
     },
     "n::<Space>rs": {
         "mode": "n",
@@ -1302,7 +1302,7 @@
         "annotation": "*",
         "definition": "<Lua 128: ~/.config/nvim/lua/lsp.lua:980>",
         "description": "Select refactor",
-        "origin": "Last set from ~/.config/nvim/lua/lsp.lua line 980"
+        "origin": "Last set from ~/.config/nvim/lua/lsp.lua:980"
     },
     "x::<Space>rI": {
         "mode": "x",
@@ -1310,7 +1310,7 @@
         "annotation": "*",
         "definition": "<Lua 127: ~/.config/nvim/lua/lsp.lua:976>",
         "description": "Inline function",
-        "origin": "Last set from ~/.config/nvim/lua/lsp.lua line 976"
+        "origin": "Last set from ~/.config/nvim/lua/lsp.lua:976"
     },
     "n::<Space>rI": {
         "mode": "n",
@@ -1318,7 +1318,7 @@
         "annotation": "*",
         "definition": "<Lua 126: ~/.config/nvim/lua/lsp.lua:976>",
         "description": "Inline function",
-        "origin": "Last set from ~/.config/nvim/lua/lsp.lua line 976"
+        "origin": "Last set from ~/.config/nvim/lua/lsp.lua:976"
     },
     "x::<Space>ri": {
         "mode": "x",
@@ -1326,7 +1326,7 @@
         "annotation": "*",
         "definition": "<Lua 125: ~/.config/nvim/lua/lsp.lua:973>",
         "description": "Inline Variable",
-        "origin": "Last set from ~/.config/nvim/lua/lsp.lua line 973"
+        "origin": "Last set from ~/.config/nvim/lua/lsp.lua:973"
     },
     "n::<Space>ri": {
         "mode": "n",
@@ -1334,7 +1334,7 @@
         "annotation": "*",
         "definition": "<Lua 124: ~/.config/nvim/lua/lsp.lua:973>",
         "description": "Inline Variable",
-        "origin": "Last set from ~/.config/nvim/lua/lsp.lua line 973"
+        "origin": "Last set from ~/.config/nvim/lua/lsp.lua:973"
     },
     "n::<Space>rvv": {
         "mode": "n",
@@ -1342,7 +1342,7 @@
         "annotation": "*",
         "definition": "<Lua 123: ~/.config/nvim/lua/lsp.lua:969>",
         "description": "Extract Variable (line)",
-        "origin": "Last set from ~/.config/nvim/lua/lsp.lua line 969"
+        "origin": "Last set from ~/.config/nvim/lua/lsp.lua:969"
     },
     "x::<Space>rv": {
         "mode": "x",
@@ -1350,7 +1350,7 @@
         "annotation": "*",
         "definition": "<Lua 122: ~/.config/nvim/lua/lsp.lua:964>",
         "description": "Extract Variable",
-        "origin": "Last set from ~/.config/nvim/lua/lsp.lua line 964"
+        "origin": "Last set from ~/.config/nvim/lua/lsp.lua:964"
     },
     "n::<Space>rv": {
         "mode": "n",
@@ -1358,7 +1358,7 @@
         "annotation": "*",
         "definition": "<Lua 121: ~/.config/nvim/lua/lsp.lua:964>",
         "description": "Extract Variable",
-        "origin": "Last set from ~/.config/nvim/lua/lsp.lua line 964"
+        "origin": "Last set from ~/.config/nvim/lua/lsp.lua:964"
     },
     "x::<Space>rE": {
         "mode": "x",
@@ -1366,7 +1366,7 @@
         "annotation": "*",
         "definition": "<Lua 120: ~/.config/nvim/lua/lsp.lua:960>",
         "description": "Extract Function To File",
-        "origin": "Last set from ~/.config/nvim/lua/lsp.lua line 960"
+        "origin": "Last set from ~/.config/nvim/lua/lsp.lua:960"
     },
     "n::<Space>rE": {
         "mode": "n",
@@ -1374,7 +1374,7 @@
         "annotation": "*",
         "definition": "<Lua 119: ~/.config/nvim/lua/lsp.lua:960>",
         "description": "Extract Function To File",
-        "origin": "Last set from ~/.config/nvim/lua/lsp.lua line 960"
+        "origin": "Last set from ~/.config/nvim/lua/lsp.lua:960"
     },
     "n::<Space>rel": {
         "mode": "n",
@@ -1382,7 +1382,7 @@
         "annotation": "*",
         "definition": "<Lua 118: ~/.config/nvim/lua/lsp.lua:956>",
         "description": "Extract Function (line)",
-        "origin": "Last set from ~/.config/nvim/lua/lsp.lua line 956"
+        "origin": "Last set from ~/.config/nvim/lua/lsp.lua:956"
     },
     "x::<Space>re": {
         "mode": "x",
@@ -1390,7 +1390,7 @@
         "annotation": "*",
         "definition": "<Lua 117: ~/.config/nvim/lua/lsp.lua:952>",
         "description": "Extract Function",
-        "origin": "Last set from ~/.config/nvim/lua/lsp.lua line 952"
+        "origin": "Last set from ~/.config/nvim/lua/lsp.lua:952"
     },
     "n::<Space>re": {
         "mode": "n",
@@ -1398,7 +1398,7 @@
         "annotation": "*",
         "definition": "<Lua 115: ~/.config/nvim/lua/lsp.lua:952>",
         "description": "Extract Function",
-        "origin": "Last set from ~/.config/nvim/lua/lsp.lua line 952"
+        "origin": "Last set from ~/.config/nvim/lua/lsp.lua:952"
     },
     "n::<Space>dm": {
         "mode": "n",
@@ -1406,7 +1406,7 @@
         "annotation": "*",
         "definition": "<Lua 92: ~/.config/nvim/lua/lsp.lua:324>",
         "description": "Cycle LSP Diagnostic Modes",
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "n::<Space>dt": {
         "mode": "n",
@@ -1414,7 +1414,7 @@
         "annotation": "*",
         "definition": "<Lua 84: ~/.config/nvim/lua/lsp.lua:315>",
         "description": "Toggle LSP Diagnostics",
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "n::<Space>ql": {
         "mode": "n",
@@ -1422,7 +1422,7 @@
         "annotation": "*",
         "definition": "<Lua 80: ~/.config/nvim/lua/lsp.lua:50>",
         "description": "Open Quickfix with diagnostics",
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "n::<Space>su": {
         "mode": "n",
@@ -1430,6 +1430,6 @@
         "annotation": "*",
         "definition": "<Lua 71: ~/.config/nvim/lua/colors.lua:30>",
         "description": null,
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     }
 }

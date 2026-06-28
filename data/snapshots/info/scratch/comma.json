@@ -5,7 +5,7 @@
         "annotation": "*",
         "definition": "<Lua 571: …opt/beam/lua/beam/mappings.lua:148>",
         "description": "Search & yank around single quoted string",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 148"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:148"
     },
     "n::,yi'": {
         "mode": "n",
@@ -13,7 +13,7 @@
         "annotation": "*",
         "definition": "<Lua 570: …opt/beam/lua/beam/mappings.lua:139>",
         "description": "Search & yank inside single quoted string",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 139"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:139"
     },
     "n::,va'": {
         "mode": "n",
@@ -21,7 +21,7 @@
         "annotation": "*",
         "definition": "<Lua 569: …opt/beam/lua/beam/mappings.lua:148>",
         "description": "Search & select around single quoted string",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 148"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:148"
     },
     "n::,vi'": {
         "mode": "n",
@@ -29,7 +29,7 @@
         "annotation": "*",
         "definition": "<Lua 568: …opt/beam/lua/beam/mappings.lua:139>",
         "description": "Search & select inside single quoted string",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 139"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:139"
     },
     "n::,ca'": {
         "mode": "n",
@@ -37,7 +37,7 @@
         "annotation": "*",
         "definition": "<Lua 567: …opt/beam/lua/beam/mappings.lua:148>",
         "description": "Search & change around single quoted string",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 148"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:148"
     },
     "n::,ci'": {
         "mode": "n",
@@ -45,7 +45,7 @@
         "annotation": "*",
         "definition": "<Lua 566: …opt/beam/lua/beam/mappings.lua:139>",
         "description": "Search & change inside single quoted string",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 139"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:139"
     },
     "n::,da'": {
         "mode": "n",
@@ -53,7 +53,7 @@
         "annotation": "*",
         "definition": "<Lua 565: …opt/beam/lua/beam/mappings.lua:148>",
         "description": "Search & delete around single quoted string",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 148"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:148"
     },
     "n::,di'": {
         "mode": "n",
@@ -61,7 +61,7 @@
         "annotation": "*",
         "definition": "<Lua 564: …opt/beam/lua/beam/mappings.lua:139>",
         "description": "Search & delete inside single quoted string",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 139"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:139"
     },
     "n::,yab": {
         "mode": "n",
@@ -69,7 +69,7 @@
         "annotation": "*",
         "definition": "<Lua 563: …opt/beam/lua/beam/mappings.lua:148>",
         "description": "Search & yank around parentheses block",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 148"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:148"
     },
     "n::,yib": {
         "mode": "n",
@@ -77,7 +77,7 @@
         "annotation": "*",
         "definition": "<Lua 562: …opt/beam/lua/beam/mappings.lua:139>",
         "description": "Search & yank inside parentheses block",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 139"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:139"
     },
     "n::,vab": {
         "mode": "n",
@@ -85,7 +85,7 @@
         "annotation": "*",
         "definition": "<Lua 561: …opt/beam/lua/beam/mappings.lua:148>",
         "description": "Search & select around parentheses block",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 148"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:148"
     },
     "n::,vib": {
         "mode": "n",
@@ -93,7 +93,7 @@
         "annotation": "*",
         "definition": "<Lua 560: …opt/beam/lua/beam/mappings.lua:139>",
         "description": "Search & select inside parentheses block",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 139"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:139"
     },
     "n::,cab": {
         "mode": "n",
@@ -101,7 +101,7 @@
         "annotation": "*",
         "definition": "<Lua 559: …opt/beam/lua/beam/mappings.lua:148>",
         "description": "Search & change around parentheses block",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 148"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:148"
     },
     "n::,cib": {
         "mode": "n",
@@ -109,7 +109,7 @@
         "annotation": "*",
         "definition": "<Lua 558: …opt/beam/lua/beam/mappings.lua:139>",
         "description": "Search & change inside parentheses block",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 139"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:139"
     },
     "n::,dab": {
         "mode": "n",
@@ -117,7 +117,7 @@
         "annotation": "*",
         "definition": "<Lua 557: …opt/beam/lua/beam/mappings.lua:148>",
         "description": "Search & delete around parentheses block",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 148"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:148"
     },
     "n::,dib": {
         "mode": "n",
@@ -125,7 +125,7 @@
         "annotation": "*",
         "definition": "<Lua 556: …opt/beam/lua/beam/mappings.lua:139>",
         "description": "Search & delete inside parentheses block",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 139"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:139"
     },
     "n::,ya>": {
         "mode": "n",
@@ -133,7 +133,7 @@
         "annotation": "*",
         "definition": "<Lua 555: …opt/beam/lua/beam/mappings.lua:148>",
         "description": "Search & yank around angle brackets",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 148"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:148"
     },
     "n::,yi>": {
         "mode": "n",
@@ -141,7 +141,7 @@
         "annotation": "*",
         "definition": "<Lua 554: …opt/beam/lua/beam/mappings.lua:139>",
         "description": "Search & yank inside angle brackets",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 139"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:139"
     },
     "n::,va>": {
         "mode": "n",
@@ -149,7 +149,7 @@
         "annotation": "*",
         "definition": "<Lua 553: …opt/beam/lua/beam/mappings.lua:148>",
         "description": "Search & select around angle brackets",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 148"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:148"
     },
     "n::,vi>": {
         "mode": "n",
@@ -157,7 +157,7 @@
         "annotation": "*",
         "definition": "<Lua 552: …opt/beam/lua/beam/mappings.lua:139>",
         "description": "Search & select inside angle brackets",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 139"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:139"
     },
     "n::,ca>": {
         "mode": "n",
@@ -165,7 +165,7 @@
         "annotation": "*",
         "definition": "<Lua 551: …opt/beam/lua/beam/mappings.lua:148>",
         "description": "Search & change around angle brackets",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 148"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:148"
     },
     "n::,ci>": {
         "mode": "n",
@@ -173,7 +173,7 @@
         "annotation": "*",
         "definition": "<Lua 550: …opt/beam/lua/beam/mappings.lua:139>",
         "description": "Search & change inside angle brackets",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 139"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:139"
     },
     "n::,da>": {
         "mode": "n",
@@ -181,7 +181,7 @@
         "annotation": "*",
         "definition": "<Lua 549: …opt/beam/lua/beam/mappings.lua:148>",
         "description": "Search & delete around angle brackets",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 148"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:148"
     },
     "n::,di>": {
         "mode": "n",
@@ -189,7 +189,7 @@
         "annotation": "*",
         "definition": "<Lua 548: …opt/beam/lua/beam/mappings.lua:139>",
         "description": "Search & delete inside angle brackets",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 139"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:139"
     },
     "n::,ya<": {
         "mode": "n",
@@ -197,7 +197,7 @@
         "annotation": "*",
         "definition": "<Lua 547: …opt/beam/lua/beam/mappings.lua:148>",
         "description": "Search & yank around angle brackets",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 148"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:148"
     },
     "n::,yi<": {
         "mode": "n",
@@ -205,7 +205,7 @@
         "annotation": "*",
         "definition": "<Lua 546: …opt/beam/lua/beam/mappings.lua:139>",
         "description": "Search & yank inside angle brackets",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 139"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:139"
     },
     "n::,va<": {
         "mode": "n",
@@ -213,7 +213,7 @@
         "annotation": "*",
         "definition": "<Lua 545: …opt/beam/lua/beam/mappings.lua:148>",
         "description": "Search & select around angle brackets",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 148"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:148"
     },
     "n::,vi<": {
         "mode": "n",
@@ -221,7 +221,7 @@
         "annotation": "*",
         "definition": "<Lua 544: …opt/beam/lua/beam/mappings.lua:139>",
         "description": "Search & select inside angle brackets",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 139"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:139"
     },
     "n::,ca<": {
         "mode": "n",
@@ -229,7 +229,7 @@
         "annotation": "*",
         "definition": "<Lua 543: …opt/beam/lua/beam/mappings.lua:148>",
         "description": "Search & change around angle brackets",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 148"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:148"
     },
     "n::,ci<": {
         "mode": "n",
@@ -237,7 +237,7 @@
         "annotation": "*",
         "definition": "<Lua 542: …opt/beam/lua/beam/mappings.lua:139>",
         "description": "Search & change inside angle brackets",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 139"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:139"
     },
     "n::,da<": {
         "mode": "n",
@@ -245,7 +245,7 @@
         "annotation": "*",
         "definition": "<Lua 541: …opt/beam/lua/beam/mappings.lua:148>",
         "description": "Search & delete around angle brackets",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 148"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:148"
     },
     "n::,di<": {
         "mode": "n",
@@ -253,7 +253,7 @@
         "annotation": "*",
         "definition": "<Lua 540: …opt/beam/lua/beam/mappings.lua:139>",
         "description": "Search & delete inside angle brackets",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 139"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:139"
     },
     "n::,ya(": {
         "mode": "n",
@@ -261,7 +261,7 @@
         "annotation": "*",
         "definition": "<Lua 539: …opt/beam/lua/beam/mappings.lua:148>",
         "description": "Search & yank around parentheses",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 148"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:148"
     },
     "n::,yi(": {
         "mode": "n",
@@ -269,7 +269,7 @@
         "annotation": "*",
         "definition": "<Lua 538: …opt/beam/lua/beam/mappings.lua:139>",
         "description": "Search & yank inside parentheses",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 139"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:139"
     },
     "n::,va(": {
         "mode": "n",
@@ -277,7 +277,7 @@
         "annotation": "*",
         "definition": "<Lua 537: …opt/beam/lua/beam/mappings.lua:148>",
         "description": "Search & select around parentheses",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 148"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:148"
     },
     "n::,vi(": {
         "mode": "n",
@@ -285,7 +285,7 @@
         "annotation": "*",
         "definition": "<Lua 536: …opt/beam/lua/beam/mappings.lua:139>",
         "description": "Search & select inside parentheses",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 139"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:139"
     },
     "n::,ca(": {
         "mode": "n",
@@ -293,7 +293,7 @@
         "annotation": "*",
         "definition": "<Lua 535: …opt/beam/lua/beam/mappings.lua:148>",
         "description": "Search & change around parentheses",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 148"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:148"
     },
     "n::,ci(": {
         "mode": "n",
@@ -301,7 +301,7 @@
         "annotation": "*",
         "definition": "<Lua 534: …opt/beam/lua/beam/mappings.lua:139>",
         "description": "Search & change inside parentheses",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 139"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:139"
     },
     "n::,da(": {
         "mode": "n",
@@ -309,7 +309,7 @@
         "annotation": "*",
         "definition": "<Lua 533: …opt/beam/lua/beam/mappings.lua:148>",
         "description": "Search & delete around parentheses",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 148"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:148"
     },
     "n::,di(": {
         "mode": "n",
@@ -317,7 +317,7 @@
         "annotation": "*",
         "definition": "<Lua 532: …opt/beam/lua/beam/mappings.lua:139>",
         "description": "Search & delete inside parentheses",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 139"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:139"
     },
     "n::,yaw": {
         "mode": "n",
@@ -325,7 +325,7 @@
         "annotation": "*",
         "definition": "<Lua 531: …opt/beam/lua/beam/mappings.lua:148>",
         "description": "Search & yank around word",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 148"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:148"
     },
     "n::,yiw": {
         "mode": "n",
@@ -333,7 +333,7 @@
         "annotation": "*",
         "definition": "<Lua 530: …opt/beam/lua/beam/mappings.lua:139>",
         "description": "Search & yank inside word",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 139"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:139"
     },
     "n::,vaw": {
         "mode": "n",
@@ -341,7 +341,7 @@
         "annotation": "*",
         "definition": "<Lua 529: …opt/beam/lua/beam/mappings.lua:148>",
         "description": "Search & select around word",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 148"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:148"
     },
     "n::,viw": {
         "mode": "n",
@@ -349,7 +349,7 @@
         "annotation": "*",
         "definition": "<Lua 528: …opt/beam/lua/beam/mappings.lua:139>",
         "description": "Search & select inside word",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 139"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:139"
     },
     "n::,caw": {
         "mode": "n",
@@ -357,7 +357,7 @@
         "annotation": "*",
         "definition": "<Lua 527: …opt/beam/lua/beam/mappings.lua:148>",
         "description": "Search & change around word",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 148"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:148"
     },
     "n::,ciw": {
         "mode": "n",
@@ -365,7 +365,7 @@
         "annotation": "*",
         "definition": "<Lua 526: …opt/beam/lua/beam/mappings.lua:139>",
         "description": "Search & change inside word",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 139"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:139"
     },
     "n::,daw": {
         "mode": "n",
@@ -373,7 +373,7 @@
         "annotation": "*",
         "definition": "<Lua 525: …opt/beam/lua/beam/mappings.lua:148>",
         "description": "Search & delete around word",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 148"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:148"
     },
     "n::,diw": {
         "mode": "n",
@@ -381,7 +381,7 @@
         "annotation": "*",
         "definition": "<Lua 524: …opt/beam/lua/beam/mappings.lua:139>",
         "description": "Search & delete inside word",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 139"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:139"
     },
     "n::,yas": {
         "mode": "n",
@@ -389,7 +389,7 @@
         "annotation": "*",
         "definition": "<Lua 523: …opt/beam/lua/beam/mappings.lua:148>",
         "description": "Search & yank around sentence",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 148"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:148"
     },
     "n::,yis": {
         "mode": "n",
@@ -397,7 +397,7 @@
         "annotation": "*",
         "definition": "<Lua 522: …opt/beam/lua/beam/mappings.lua:139>",
         "description": "Search & yank inside sentence",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 139"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:139"
     },
     "n::,vas": {
         "mode": "n",
@@ -405,7 +405,7 @@
         "annotation": "*",
         "definition": "<Lua 521: …opt/beam/lua/beam/mappings.lua:148>",
         "description": "Search & select around sentence",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 148"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:148"
     },
     "n::,vis": {
         "mode": "n",
@@ -413,7 +413,7 @@
         "annotation": "*",
         "definition": "<Lua 520: …opt/beam/lua/beam/mappings.lua:139>",
         "description": "Search & select inside sentence",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 139"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:139"
     },
     "n::,cas": {
         "mode": "n",
@@ -421,7 +421,7 @@
         "annotation": "*",
         "definition": "<Lua 519: …opt/beam/lua/beam/mappings.lua:148>",
         "description": "Search & change around sentence",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 148"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:148"
     },
     "n::,cis": {
         "mode": "n",
@@ -429,7 +429,7 @@
         "annotation": "*",
         "definition": "<Lua 518: …opt/beam/lua/beam/mappings.lua:139>",
         "description": "Search & change inside sentence",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 139"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:139"
     },
     "n::,das": {
         "mode": "n",
@@ -437,7 +437,7 @@
         "annotation": "*",
         "definition": "<Lua 517: …opt/beam/lua/beam/mappings.lua:148>",
         "description": "Search & delete around sentence",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 148"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:148"
     },
     "n::,dis": {
         "mode": "n",
@@ -445,7 +445,7 @@
         "annotation": "*",
         "definition": "<Lua 516: …opt/beam/lua/beam/mappings.lua:139>",
         "description": "Search & delete inside sentence",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 139"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:139"
     },
     "n::,ya`": {
         "mode": "n",
@@ -453,7 +453,7 @@
         "annotation": "*",
         "definition": "<Lua 515: …opt/beam/lua/beam/mappings.lua:148>",
         "description": "Search & yank around backticks",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 148"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:148"
     },
     "n::,yi`": {
         "mode": "n",
@@ -461,7 +461,7 @@
         "annotation": "*",
         "definition": "<Lua 514: …opt/beam/lua/beam/mappings.lua:139>",
         "description": "Search & yank inside backticks",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 139"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:139"
     },
     "n::,va`": {
         "mode": "n",
@@ -469,7 +469,7 @@
         "annotation": "*",
         "definition": "<Lua 513: …opt/beam/lua/beam/mappings.lua:148>",
         "description": "Search & select around backticks",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 148"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:148"
     },
     "n::,vi`": {
         "mode": "n",
@@ -477,7 +477,7 @@
         "annotation": "*",
         "definition": "<Lua 512: …opt/beam/lua/beam/mappings.lua:139>",
         "description": "Search & select inside backticks",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 139"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:139"
     },
     "n::,ca`": {
         "mode": "n",
@@ -485,7 +485,7 @@
         "annotation": "*",
         "definition": "<Lua 511: …opt/beam/lua/beam/mappings.lua:148>",
         "description": "Search & change around backticks",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 148"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:148"
     },
     "n::,ci`": {
         "mode": "n",
@@ -493,7 +493,7 @@
         "annotation": "*",
         "definition": "<Lua 510: …opt/beam/lua/beam/mappings.lua:139>",
         "description": "Search & change inside backticks",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 139"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:139"
     },
     "n::,da`": {
         "mode": "n",
@@ -501,7 +501,7 @@
         "annotation": "*",
         "definition": "<Lua 509: …opt/beam/lua/beam/mappings.lua:148>",
         "description": "Search & delete around backticks",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 148"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:148"
     },
     "n::,di`": {
         "mode": "n",
@@ -509,7 +509,7 @@
         "annotation": "*",
         "definition": "<Lua 508: …opt/beam/lua/beam/mappings.lua:139>",
         "description": "Search & delete inside backticks",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 139"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:139"
     },
     "n::,yaB": {
         "mode": "n",
@@ -517,7 +517,7 @@
         "annotation": "*",
         "definition": "<Lua 507: …opt/beam/lua/beam/mappings.lua:148>",
         "description": "Search & yank around curly braces block",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 148"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:148"
     },
     "n::,yiB": {
         "mode": "n",
@@ -525,7 +525,7 @@
         "annotation": "*",
         "definition": "<Lua 506: …opt/beam/lua/beam/mappings.lua:139>",
         "description": "Search & yank inside curly braces block",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 139"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:139"
     },
     "n::,vaB": {
         "mode": "n",
@@ -533,7 +533,7 @@
         "annotation": "*",
         "definition": "<Lua 505: …opt/beam/lua/beam/mappings.lua:148>",
         "description": "Search & select around curly braces block",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 148"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:148"
     },
     "n::,viB": {
         "mode": "n",
@@ -541,7 +541,7 @@
         "annotation": "*",
         "definition": "<Lua 504: …opt/beam/lua/beam/mappings.lua:139>",
         "description": "Search & select inside curly braces block",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 139"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:139"
     },
     "n::,caB": {
         "mode": "n",
@@ -549,7 +549,7 @@
         "annotation": "*",
         "definition": "<Lua 503: …opt/beam/lua/beam/mappings.lua:148>",
         "description": "Search & change around curly braces block",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 148"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:148"
     },
     "n::,ciB": {
         "mode": "n",
@@ -557,7 +557,7 @@
         "annotation": "*",
         "definition": "<Lua 502: …opt/beam/lua/beam/mappings.lua:139>",
         "description": "Search & change inside curly braces block",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 139"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:139"
     },
     "n::,daB": {
         "mode": "n",
@@ -565,7 +565,7 @@
         "annotation": "*",
         "definition": "<Lua 501: …opt/beam/lua/beam/mappings.lua:148>",
         "description": "Search & delete around curly braces block",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 148"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:148"
     },
     "n::,diB": {
         "mode": "n",
@@ -573,7 +573,7 @@
         "annotation": "*",
         "definition": "<Lua 500: …opt/beam/lua/beam/mappings.lua:139>",
         "description": "Search & delete inside curly braces block",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 139"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:139"
     },
     "n::,ya{": {
         "mode": "n",
@@ -581,7 +581,7 @@
         "annotation": "*",
         "definition": "<Lua 499: …opt/beam/lua/beam/mappings.lua:148>",
         "description": "Search & yank around curly braces",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 148"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:148"
     },
     "n::,yi{": {
         "mode": "n",
@@ -589,7 +589,7 @@
         "annotation": "*",
         "definition": "<Lua 498: …opt/beam/lua/beam/mappings.lua:139>",
         "description": "Search & yank inside curly braces",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 139"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:139"
     },
     "n::,va{": {
         "mode": "n",
@@ -597,7 +597,7 @@
         "annotation": "*",
         "definition": "<Lua 497: …opt/beam/lua/beam/mappings.lua:148>",
         "description": "Search & select around curly braces",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 148"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:148"
     },
     "n::,vi{": {
         "mode": "n",
@@ -605,7 +605,7 @@
         "annotation": "*",
         "definition": "<Lua 496: …opt/beam/lua/beam/mappings.lua:139>",
         "description": "Search & select inside curly braces",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 139"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:139"
     },
     "n::,ca{": {
         "mode": "n",
@@ -613,7 +613,7 @@
         "annotation": "*",
         "definition": "<Lua 495: …opt/beam/lua/beam/mappings.lua:148>",
         "description": "Search & change around curly braces",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 148"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:148"
     },
     "n::,ci{": {
         "mode": "n",
@@ -621,7 +621,7 @@
         "annotation": "*",
         "definition": "<Lua 494: …opt/beam/lua/beam/mappings.lua:139>",
         "description": "Search & change inside curly braces",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 139"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:139"
     },
     "n::,da{": {
         "mode": "n",
@@ -629,7 +629,7 @@
         "annotation": "*",
         "definition": "<Lua 493: …opt/beam/lua/beam/mappings.lua:148>",
         "description": "Search & delete around curly braces",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 148"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:148"
     },
     "n::,di{": {
         "mode": "n",
@@ -637,7 +637,7 @@
         "annotation": "*",
         "definition": "<Lua 492: …opt/beam/lua/beam/mappings.lua:139>",
         "description": "Search & delete inside curly braces",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 139"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:139"
     },
     "n::,yat": {
         "mode": "n",
@@ -645,7 +645,7 @@
         "annotation": "*",
         "definition": "<Lua 491: …opt/beam/lua/beam/mappings.lua:148>",
         "description": "Search & yank around tag block",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 148"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:148"
     },
     "n::,yit": {
         "mode": "n",
@@ -653,7 +653,7 @@
         "annotation": "*",
         "definition": "<Lua 490: …opt/beam/lua/beam/mappings.lua:139>",
         "description": "Search & yank inside tag block",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 139"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:139"
     },
     "n::,vat": {
         "mode": "n",
@@ -661,7 +661,7 @@
         "annotation": "*",
         "definition": "<Lua 489: …opt/beam/lua/beam/mappings.lua:148>",
         "description": "Search & select around tag block",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 148"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:148"
     },
     "n::,vit": {
         "mode": "n",
@@ -669,7 +669,7 @@
         "annotation": "*",
         "definition": "<Lua 488: …opt/beam/lua/beam/mappings.lua:139>",
         "description": "Search & select inside tag block",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 139"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:139"
     },
     "n::,cat": {
         "mode": "n",
@@ -677,7 +677,7 @@
         "annotation": "*",
         "definition": "<Lua 487: …opt/beam/lua/beam/mappings.lua:148>",
         "description": "Search & change around tag block",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 148"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:148"
     },
     "n::,cit": {
         "mode": "n",
@@ -685,7 +685,7 @@
         "annotation": "*",
         "definition": "<Lua 486: …opt/beam/lua/beam/mappings.lua:139>",
         "description": "Search & change inside tag block",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 139"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:139"
     },
     "n::,dat": {
         "mode": "n",
@@ -693,7 +693,7 @@
         "annotation": "*",
         "definition": "<Lua 485: …opt/beam/lua/beam/mappings.lua:148>",
         "description": "Search & delete around tag block",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 148"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:148"
     },
     "n::,dit": {
         "mode": "n",
@@ -701,7 +701,7 @@
         "annotation": "*",
         "definition": "<Lua 484: …opt/beam/lua/beam/mappings.lua:139>",
         "description": "Search & delete inside tag block",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 139"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:139"
     },
     "n::,ya}": {
         "mode": "n",
@@ -709,7 +709,7 @@
         "annotation": "*",
         "definition": "<Lua 483: …opt/beam/lua/beam/mappings.lua:148>",
         "description": "Search & yank around curly braces",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 148"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:148"
     },
     "n::,yi}": {
         "mode": "n",
@@ -717,7 +717,7 @@
         "annotation": "*",
         "definition": "<Lua 482: …opt/beam/lua/beam/mappings.lua:139>",
         "description": "Search & yank inside curly braces",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 139"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:139"
     },
     "n::,va}": {
         "mode": "n",
@@ -725,7 +725,7 @@
         "annotation": "*",
         "definition": "<Lua 481: …opt/beam/lua/beam/mappings.lua:148>",
         "description": "Search & select around curly braces",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 148"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:148"
     },
     "n::,vi}": {
         "mode": "n",
@@ -733,7 +733,7 @@
         "annotation": "*",
         "definition": "<Lua 480: …opt/beam/lua/beam/mappings.lua:139>",
         "description": "Search & select inside curly braces",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 139"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:139"
     },
     "n::,ca}": {
         "mode": "n",
@@ -741,7 +741,7 @@
         "annotation": "*",
         "definition": "<Lua 479: …opt/beam/lua/beam/mappings.lua:148>",
         "description": "Search & change around curly braces",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 148"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:148"
     },
     "n::,ci}": {
         "mode": "n",
@@ -749,7 +749,7 @@
         "annotation": "*",
         "definition": "<Lua 478: …opt/beam/lua/beam/mappings.lua:139>",
         "description": "Search & change inside curly braces",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 139"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:139"
     },
     "n::,da}": {
         "mode": "n",
@@ -757,7 +757,7 @@
         "annotation": "*",
         "definition": "<Lua 477: …opt/beam/lua/beam/mappings.lua:148>",
         "description": "Search & delete around curly braces",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 148"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:148"
     },
     "n::,di}": {
         "mode": "n",
@@ -765,7 +765,7 @@
         "annotation": "*",
         "definition": "<Lua 476: …opt/beam/lua/beam/mappings.lua:139>",
         "description": "Search & delete inside curly braces",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 139"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:139"
     },
     "n::,ya)": {
         "mode": "n",
@@ -773,7 +773,7 @@
         "annotation": "*",
         "definition": "<Lua 475: …opt/beam/lua/beam/mappings.lua:148>",
         "description": "Search & yank around parentheses",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 148"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:148"
     },
     "n::,yi)": {
         "mode": "n",
@@ -781,7 +781,7 @@
         "annotation": "*",
         "definition": "<Lua 474: …opt/beam/lua/beam/mappings.lua:139>",
         "description": "Search & yank inside parentheses",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 139"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:139"
     },
     "n::,va)": {
         "mode": "n",
@@ -789,7 +789,7 @@
         "annotation": "*",
         "definition": "<Lua 473: …opt/beam/lua/beam/mappings.lua:148>",
         "description": "Search & select around parentheses",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 148"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:148"
     },
     "n::,vi)": {
         "mode": "n",
@@ -797,7 +797,7 @@
         "annotation": "*",
         "definition": "<Lua 472: …opt/beam/lua/beam/mappings.lua:139>",
         "description": "Search & select inside parentheses",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 139"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:139"
     },
     "n::,ca)": {
         "mode": "n",
@@ -805,7 +805,7 @@
         "annotation": "*",
         "definition": "<Lua 471: …opt/beam/lua/beam/mappings.lua:148>",
         "description": "Search & change around parentheses",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 148"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:148"
     },
     "n::,ci)": {
         "mode": "n",
@@ -813,7 +813,7 @@
         "annotation": "*",
         "definition": "<Lua 470: …opt/beam/lua/beam/mappings.lua:139>",
         "description": "Search & change inside parentheses",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 139"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:139"
     },
     "n::,da)": {
         "mode": "n",
@@ -821,7 +821,7 @@
         "annotation": "*",
         "definition": "<Lua 469: …opt/beam/lua/beam/mappings.lua:148>",
         "description": "Search & delete around parentheses",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 148"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:148"
     },
     "n::,di)": {
         "mode": "n",
@@ -829,7 +829,7 @@
         "annotation": "*",
         "definition": "<Lua 468: …opt/beam/lua/beam/mappings.lua:139>",
         "description": "Search & delete inside parentheses",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 139"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:139"
     },
     "n::,yap": {
         "mode": "n",
@@ -837,7 +837,7 @@
         "annotation": "*",
         "definition": "<Lua 467: …opt/beam/lua/beam/mappings.lua:148>",
         "description": "Search & yank around paragraph",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 148"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:148"
     },
     "n::,yip": {
         "mode": "n",
@@ -845,7 +845,7 @@
         "annotation": "*",
         "definition": "<Lua 466: …opt/beam/lua/beam/mappings.lua:139>",
         "description": "Search & yank inside paragraph",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 139"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:139"
     },
     "n::,vap": {
         "mode": "n",
@@ -853,7 +853,7 @@
         "annotation": "*",
         "definition": "<Lua 465: …opt/beam/lua/beam/mappings.lua:148>",
         "description": "Search & select around paragraph",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 148"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:148"
     },
     "n::,vip": {
         "mode": "n",
@@ -861,7 +861,7 @@
         "annotation": "*",
         "definition": "<Lua 464: …opt/beam/lua/beam/mappings.lua:139>",
         "description": "Search & select inside paragraph",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 139"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:139"
     },
     "n::,cap": {
         "mode": "n",
@@ -869,7 +869,7 @@
         "annotation": "*",
         "definition": "<Lua 463: …opt/beam/lua/beam/mappings.lua:148>",
         "description": "Search & change around paragraph",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 148"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:148"
     },
     "n::,cip": {
         "mode": "n",
@@ -877,7 +877,7 @@
         "annotation": "*",
         "definition": "<Lua 462: …opt/beam/lua/beam/mappings.lua:139>",
         "description": "Search & change inside paragraph",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 139"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:139"
     },
     "n::,dap": {
         "mode": "n",
@@ -885,7 +885,7 @@
         "annotation": "*",
         "definition": "<Lua 461: …opt/beam/lua/beam/mappings.lua:148>",
         "description": "Search & delete around paragraph",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 148"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:148"
     },
     "n::,dip": {
         "mode": "n",
@@ -893,7 +893,7 @@
         "annotation": "*",
         "definition": "<Lua 460: …opt/beam/lua/beam/mappings.lua:139>",
         "description": "Search & delete inside paragraph",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 139"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:139"
     },
     "n::,yaW": {
         "mode": "n",
@@ -901,7 +901,7 @@
         "annotation": "*",
         "definition": "<Lua 459: …opt/beam/lua/beam/mappings.lua:148>",
         "description": "Search & yank around WORD",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 148"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:148"
     },
     "n::,yiW": {
         "mode": "n",
@@ -909,7 +909,7 @@
         "annotation": "*",
         "definition": "<Lua 458: …opt/beam/lua/beam/mappings.lua:139>",
         "description": "Search & yank inside WORD",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 139"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:139"
     },
     "n::,vaW": {
         "mode": "n",
@@ -917,7 +917,7 @@
         "annotation": "*",
         "definition": "<Lua 457: …opt/beam/lua/beam/mappings.lua:148>",
         "description": "Search & select around WORD",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 148"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:148"
     },
     "n::,viW": {
         "mode": "n",
@@ -925,7 +925,7 @@
         "annotation": "*",
         "definition": "<Lua 456: …opt/beam/lua/beam/mappings.lua:139>",
         "description": "Search & select inside WORD",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 139"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:139"
     },
     "n::,caW": {
         "mode": "n",
@@ -933,7 +933,7 @@
         "annotation": "*",
         "definition": "<Lua 455: …opt/beam/lua/beam/mappings.lua:148>",
         "description": "Search & change around WORD",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 148"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:148"
     },
     "n::,ciW": {
         "mode": "n",
@@ -941,7 +941,7 @@
         "annotation": "*",
         "definition": "<Lua 454: …opt/beam/lua/beam/mappings.lua:139>",
         "description": "Search & change inside WORD",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 139"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:139"
     },
     "n::,daW": {
         "mode": "n",
@@ -949,7 +949,7 @@
         "annotation": "*",
         "definition": "<Lua 453: …opt/beam/lua/beam/mappings.lua:148>",
         "description": "Search & delete around WORD",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 148"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:148"
     },
     "n::,diW": {
         "mode": "n",
@@ -957,7 +957,7 @@
         "annotation": "*",
         "definition": "<Lua 452: …opt/beam/lua/beam/mappings.lua:139>",
         "description": "Search & delete inside WORD",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 139"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:139"
     },
     "n::,ya[": {
         "mode": "n",
@@ -965,7 +965,7 @@
         "annotation": "*",
         "definition": "<Lua 451: …opt/beam/lua/beam/mappings.lua:148>",
         "description": "Search & yank around square brackets",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 148"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:148"
     },
     "n::,yi[": {
         "mode": "n",
@@ -973,7 +973,7 @@
         "annotation": "*",
         "definition": "<Lua 450: …opt/beam/lua/beam/mappings.lua:139>",
         "description": "Search & yank inside square brackets",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 139"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:139"
     },
     "n::,va[": {
         "mode": "n",
@@ -981,7 +981,7 @@
         "annotation": "*",
         "definition": "<Lua 449: …opt/beam/lua/beam/mappings.lua:148>",
         "description": "Search & select around square brackets",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 148"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:148"
     },
     "n::,vi[": {
         "mode": "n",
@@ -989,7 +989,7 @@
         "annotation": "*",
         "definition": "<Lua 448: …opt/beam/lua/beam/mappings.lua:139>",
         "description": "Search & select inside square brackets",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 139"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:139"
     },
     "n::,ca[": {
         "mode": "n",
@@ -997,7 +997,7 @@
         "annotation": "*",
         "definition": "<Lua 447: …opt/beam/lua/beam/mappings.lua:148>",
         "description": "Search & change around square brackets",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 148"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:148"
     },
     "n::,ci[": {
         "mode": "n",
@@ -1005,7 +1005,7 @@
         "annotation": "*",
         "definition": "<Lua 446: …opt/beam/lua/beam/mappings.lua:139>",
         "description": "Search & change inside square brackets",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 139"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:139"
     },
     "n::,da[": {
         "mode": "n",
@@ -1013,7 +1013,7 @@
         "annotation": "*",
         "definition": "<Lua 445: …opt/beam/lua/beam/mappings.lua:148>",
         "description": "Search & delete around square brackets",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 148"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:148"
     },
     "n::,di[": {
         "mode": "n",
@@ -1021,7 +1021,7 @@
         "annotation": "*",
         "definition": "<Lua 444: …opt/beam/lua/beam/mappings.lua:139>",
         "description": "Search & delete inside square brackets",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 139"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:139"
     },
     "n::,ya]": {
         "mode": "n",
@@ -1029,7 +1029,7 @@
         "annotation": "*",
         "definition": "<Lua 443: …opt/beam/lua/beam/mappings.lua:148>",
         "description": "Search & yank around square brackets",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 148"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:148"
     },
     "n::,yi]": {
         "mode": "n",
@@ -1037,7 +1037,7 @@
         "annotation": "*",
         "definition": "<Lua 442: …opt/beam/lua/beam/mappings.lua:139>",
         "description": "Search & yank inside square brackets",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 139"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:139"
     },
     "n::,va]": {
         "mode": "n",
@@ -1045,7 +1045,7 @@
         "annotation": "*",
         "definition": "<Lua 441: …opt/beam/lua/beam/mappings.lua:148>",
         "description": "Search & select around square brackets",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 148"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:148"
     },
     "n::,vi]": {
         "mode": "n",
@@ -1053,7 +1053,7 @@
         "annotation": "*",
         "definition": "<Lua 440: …opt/beam/lua/beam/mappings.lua:139>",
         "description": "Search & select inside square brackets",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 139"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:139"
     },
     "n::,ca]": {
         "mode": "n",
@@ -1061,7 +1061,7 @@
         "annotation": "*",
         "definition": "<Lua 439: …opt/beam/lua/beam/mappings.lua:148>",
         "description": "Search & change around square brackets",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 148"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:148"
     },
     "n::,ci]": {
         "mode": "n",
@@ -1069,7 +1069,7 @@
         "annotation": "*",
         "definition": "<Lua 438: …opt/beam/lua/beam/mappings.lua:139>",
         "description": "Search & change inside square brackets",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 139"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:139"
     },
     "n::,da]": {
         "mode": "n",
@@ -1077,7 +1077,7 @@
         "annotation": "*",
         "definition": "<Lua 437: …opt/beam/lua/beam/mappings.lua:148>",
         "description": "Search & delete around square brackets",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 148"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:148"
     },
     "n::,di]": {
         "mode": "n",
@@ -1085,7 +1085,7 @@
         "annotation": "*",
         "definition": "<Lua 436: …opt/beam/lua/beam/mappings.lua:139>",
         "description": "Search & delete inside square brackets",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 139"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:139"
     },
     "n::,ya\"": {
         "mode": "n",
@@ -1093,7 +1093,7 @@
         "annotation": "*",
         "definition": "<Lua 435: …opt/beam/lua/beam/mappings.lua:148>",
         "description": "Search & yank around double quoted string",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 148"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:148"
     },
     "n::,yi\"": {
         "mode": "n",
@@ -1101,7 +1101,7 @@
         "annotation": "*",
         "definition": "<Lua 434: …opt/beam/lua/beam/mappings.lua:139>",
         "description": "Search & yank inside double quoted string",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 139"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:139"
     },
     "n::,va\"": {
         "mode": "n",
@@ -1109,7 +1109,7 @@
         "annotation": "*",
         "definition": "<Lua 433: …opt/beam/lua/beam/mappings.lua:148>",
         "description": "Search & select around double quoted string",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 148"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:148"
     },
     "n::,vi\"": {
         "mode": "n",
@@ -1117,7 +1117,7 @@
         "annotation": "*",
         "definition": "<Lua 432: …opt/beam/lua/beam/mappings.lua:139>",
         "description": "Search & select inside double quoted string",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 139"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:139"
     },
     "n::,ca\"": {
         "mode": "n",
@@ -1125,7 +1125,7 @@
         "annotation": "*",
         "definition": "<Lua 431: …opt/beam/lua/beam/mappings.lua:148>",
         "description": "Search & change around double quoted string",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 148"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:148"
     },
     "n::,ci\"": {
         "mode": "n",
@@ -1133,7 +1133,7 @@
         "annotation": "*",
         "definition": "<Lua 430: …opt/beam/lua/beam/mappings.lua:139>",
         "description": "Search & change inside double quoted string",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 139"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:139"
     },
     "n::,da\"": {
         "mode": "n",
@@ -1141,7 +1141,7 @@
         "annotation": "*",
         "definition": "<Lua 429: …opt/beam/lua/beam/mappings.lua:148>",
         "description": "Search & delete around double quoted string",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 148"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:148"
     },
     "n::,di\"": {
         "mode": "n",
@@ -1149,7 +1149,7 @@
         "annotation": "*",
         "definition": "<Lua 428: …opt/beam/lua/beam/mappings.lua:139>",
         "description": "Search & delete inside double quoted string",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 139"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:139"
     },
     "n::,Y": {
         "mode": "n",
@@ -1157,7 +1157,7 @@
         "annotation": "*",
         "definition": "<Lua 427: …opt/beam/lua/beam/mappings.lua:87>",
         "description": "Search & yank entire line",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 87"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:87"
     },
     "n::,V": {
         "mode": "n",
@@ -1165,7 +1165,7 @@
         "annotation": "*",
         "definition": "<Lua 426: …opt/beam/lua/beam/mappings.lua:87>",
         "description": "Search & select entire line",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 87"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:87"
     },
     "n::,C": {
         "mode": "n",
@@ -1173,7 +1173,7 @@
         "annotation": "*",
         "definition": "<Lua 425: …opt/beam/lua/beam/mappings.lua:87>",
         "description": "Search & change entire line",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 87"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:87"
     },
     "n::,D": {
         "mode": "n",
@@ -1181,7 +1181,7 @@
         "annotation": "*",
         "definition": "<Lua 424: …opt/beam/lua/beam/mappings.lua:87>",
         "description": "Search & delete entire line",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 87"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:87"
     },
     "n::,yam": {
         "mode": "n",
@@ -1189,7 +1189,7 @@
         "annotation": "*",
         "definition": "<Lua 423: …opt/beam/lua/beam/mappings.lua:14>",
         "description": "Search & yank around markdown code block",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 14"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:14"
     },
     "n::,yim": {
         "mode": "n",
@@ -1197,7 +1197,7 @@
         "annotation": "*",
         "definition": "<Lua 422: …opt/beam/lua/beam/mappings.lua:14>",
         "description": "Search & yank inside markdown code block",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 14"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:14"
     },
     "n::,vam": {
         "mode": "n",
@@ -1205,7 +1205,7 @@
         "annotation": "*",
         "definition": "<Lua 421: …opt/beam/lua/beam/mappings.lua:14>",
         "description": "Search & select around markdown code block",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 14"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:14"
     },
     "n::,vim": {
         "mode": "n",
@@ -1213,7 +1213,7 @@
         "annotation": "*",
         "definition": "<Lua 420: …opt/beam/lua/beam/mappings.lua:14>",
         "description": "Search & select inside markdown code block",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 14"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:14"
     },
     "n::,cam": {
         "mode": "n",
@@ -1221,7 +1221,7 @@
         "annotation": "*",
         "definition": "<Lua 419: …opt/beam/lua/beam/mappings.lua:14>",
         "description": "Search & change around markdown code block",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 14"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:14"
     },
     "n::,cim": {
         "mode": "n",
@@ -1229,7 +1229,7 @@
         "annotation": "*",
         "definition": "<Lua 418: …opt/beam/lua/beam/mappings.lua:14>",
         "description": "Search & change inside markdown code block",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 14"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:14"
     },
     "n::,dam": {
         "mode": "n",
@@ -1237,7 +1237,7 @@
         "annotation": "*",
         "definition": "<Lua 417: …opt/beam/lua/beam/mappings.lua:14>",
         "description": "Search & delete around markdown code block",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 14"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:14"
     },
     "n::,dim": {
         "mode": "n",
@@ -1245,6 +1245,6 @@
         "annotation": "*",
         "definition": "<Lua 416: …opt/beam/lua/beam/mappings.lua:14>",
         "description": "Search & delete inside markdown code block",
-        "origin": "Last set from …opt/beam/lua/beam/mappings.lua line 14"
+        "origin": "Last set from …opt/beam/lua/beam/mappings.lua:14"
     }
 }

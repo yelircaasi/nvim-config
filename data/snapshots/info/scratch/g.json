@@ -13,7 +13,7 @@
         "annotation": "*",
         "definition": "<Lua 163: …opt/Comment/lua/Comment/init.lua:103>",
         "description": "Comment toggle current line",
-        "origin": "Last set from …opt/Comment/lua/Comment/init.lua line 103"
+        "origin": "Last set from …opt/Comment/lua/Comment/init.lua:103"
     },
     "x::gc": {
         "mode": "x",
@@ -21,7 +21,7 @@
         "annotation": "*",
         "definition": "<Plug>(comment_toggle_linewise_visual)",
         "description": "Comment toggle linewise (visual)",
-        "origin": "Last set from …opt/Comment/lua/Comment/init.lua line 113"
+        "origin": "Last set from …opt/Comment/lua/Comment/init.lua:113"
     },
     "n::gc": {
         "mode": "n",
@@ -29,7 +29,7 @@
         "annotation": "*",
         "definition": "<Plug>(comment_toggle_linewise)",
         "description": "Comment toggle linewise",
-        "origin": "Last set from …opt/Comment/lua/Comment/init.lua line 100"
+        "origin": "Last set from …opt/Comment/lua/Comment/init.lua:100"
     },
     "x::gP": {
         "mode": "x",
@@ -37,7 +37,7 @@
         "annotation": "*",
         "definition": "<Plug>(YankyGPutBefore)",
         "description": null,
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "n::gP": {
         "mode": "n",
@@ -45,7 +45,7 @@
         "annotation": "*",
         "definition": "<Plug>(YankyGPutBefore)",
         "description": null,
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "x::gp": {
         "mode": "x",
@@ -53,7 +53,7 @@
         "annotation": "*",
         "definition": "<Plug>(YankyGPutAfter)",
         "description": null,
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "n::gp": {
         "mode": "n",
@@ -61,7 +61,7 @@
         "annotation": "*",
         "definition": "<Plug>(YankyGPutAfter)",
         "description": null,
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "o::ge": {
         "mode": "o",
@@ -93,7 +93,7 @@
         "annotation": "*",
         "definition": "<Lua 356: …opt/mini.align/lua/mini/align.lua:1380>",
         "description": "Align with preview",
-        "origin": "Last set from …opt/mini.align/lua/mini/align.lua line 1961"
+        "origin": "Last set from …opt/mini.align/lua/mini/align.lua:1961"
     },
     "n::gA": {
         "mode": "n",
@@ -101,7 +101,7 @@
         "annotation": "*",
         "definition": "<Lua 355: …opt/mini.align/lua/mini/align.lua:1368>",
         "description": "Align with preview",
-        "origin": "Last set from …opt/mini.align/lua/mini/align.lua line 1961"
+        "origin": "Last set from …opt/mini.align/lua/mini/align.lua:1961"
     },
     "x::ga": {
         "mode": "x",
@@ -109,7 +109,7 @@
         "annotation": "*",
         "definition": "<Lua 354: …opt/mini.align/lua/mini/align.lua:1380>",
         "description": "Align",
-        "origin": "Last set from …opt/mini.align/lua/mini/align.lua line 1961"
+        "origin": "Last set from …opt/mini.align/lua/mini/align.lua:1961"
     },
     "n::ga": {
         "mode": "n",
@@ -117,7 +117,7 @@
         "annotation": "*",
         "definition": "<Lua 353: …opt/mini.align/lua/mini/align.lua:1368>",
         "description": "Align",
-        "origin": "Last set from …opt/mini.align/lua/mini/align.lua line 1961"
+        "origin": "Last set from …opt/mini.align/lua/mini/align.lua:1961"
     },
     "x::gS": {
         "mode": "x",
@@ -125,7 +125,7 @@
         "annotation": "*",
         "definition": "<Plug>(nvim-surround-visual-line)",
         "description": "Add a surrounding pair around a visual selection, on new lines",
-        "origin": "Last set from …opt/nvim-surround/plugin/nvim-surround.lua line 64"
+        "origin": "Last set from …opt/nvim-surround/plugin/nvim-surround.lua:64"
     },
     "n::gs": {
         "mode": "n",
@@ -349,7 +349,7 @@
         "annotation": "*",
         "definition": "<Lua 211: …opt/sort/lua/sort/mappings.lua:71>",
         "description": "Sort current line",
-        "origin": "Last set from …opt/sort/lua/sort/mappings.lua line 71"
+        "origin": "Last set from …opt/sort/lua/sort/mappings.lua:71"
     },
     "x::go": {
         "mode": "x",
@@ -357,7 +357,7 @@
         "annotation": "*",
         "definition": "<Lua 212: …opt/sort/lua/sort/mappings.lua:25>",
         "description": "Sort selection",
-        "origin": "Last set from …opt/sort/lua/sort/mappings.lua line 25"
+        "origin": "Last set from …opt/sort/lua/sort/mappings.lua:25"
     },
     "n::go": {
         "mode": "n",
@@ -365,7 +365,7 @@
         "annotation": "*",
         "definition": "<Lua 213: …opt/sort/lua/sort/mappings.lua:14>",
         "description": "Sort operator",
-        "origin": "Last set from …opt/sort/lua/sort/mappings.lua line 14"
+        "origin": "Last set from …opt/sort/lua/sort/mappings.lua:14"
     },
     "n::gS": {
         "mode": "n",
@@ -373,7 +373,7 @@
         "annotation": "*",
         "definition": "<Lua 217: …opt/treesj/lua/treesj/init.lua:30>",
         "description": null,
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "n::gcA": {
         "mode": "n",
@@ -381,7 +381,7 @@
         "annotation": "*",
         "definition": "<Lua 167: …opt/Comment/lua/Comment/api.lua:218>",
         "description": "Comment insert end of line",
-        "origin": "Last set from …opt/Comment/lua/Comment/init.lua line 131"
+        "origin": "Last set from …opt/Comment/lua/Comment/init.lua:131"
     },
     "n::gcO": {
         "mode": "n",
@@ -389,7 +389,7 @@
         "annotation": "*",
         "definition": "<Lua 166: …opt/Comment/lua/Comment/api.lua:179>",
         "description": "Comment insert above",
-        "origin": "Last set from …opt/Comment/lua/Comment/init.lua line 130"
+        "origin": "Last set from …opt/Comment/lua/Comment/init.lua:130"
     },
     "n::gco": {
         "mode": "n",
@@ -397,7 +397,7 @@
         "annotation": "*",
         "definition": "<Lua 165: …opt/Comment/lua/Comment/api.lua:182>",
         "description": "Comment insert below",
-        "origin": "Last set from …opt/Comment/lua/Comment/init.lua line 129"
+        "origin": "Last set from …opt/Comment/lua/Comment/init.lua:129"
     },
     "x::gb": {
         "mode": "x",
@@ -405,7 +405,7 @@
         "annotation": "*",
         "definition": "<Plug>(comment_toggle_blockwise_visual)",
         "description": "Comment toggle blockwise (visual)",
-        "origin": "Last set from …opt/Comment/lua/Comment/init.lua line 119"
+        "origin": "Last set from …opt/Comment/lua/Comment/init.lua:119"
     },
     "n::gbc": {
         "mode": "n",
@@ -413,7 +413,7 @@
         "annotation": "*",
         "definition": "<Lua 164: …opt/Comment/lua/Comment/init.lua:107>",
         "description": "Comment toggle current block",
-        "origin": "Last set from …opt/Comment/lua/Comment/init.lua line 107"
+        "origin": "Last set from …opt/Comment/lua/Comment/init.lua:107"
     },
     "n::gb": {
         "mode": "n",
@@ -421,7 +421,7 @@
         "annotation": "*",
         "definition": "<Plug>(comment_toggle_blockwise)",
         "description": "Comment toggle blockwise",
-        "origin": "Last set from …opt/Comment/lua/Comment/init.lua line 101"
+        "origin": "Last set from …opt/Comment/lua/Comment/init.lua:101"
     },
     "n::gcu": {
         "mode": "n",

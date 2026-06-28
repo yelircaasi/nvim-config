@@ -5,7 +5,7 @@
         "annotation": "*",
         "definition": "<Lua 1131: ~/.config/nvim/lua/folding.lua:48>",
         "description": "Preview fold",
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "n::za": {
         "mode": "n",
@@ -13,7 +13,7 @@
         "annotation": "*",
         "definition": "za",
         "description": "Toggle fold",
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "n::zM": {
         "mode": "n",
@@ -21,7 +21,7 @@
         "annotation": "*",
         "definition": "<Lua 1130: ~/.config/nvim/lua/folding.lua:34>",
         "description": "Close all folds",
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "n::zR": {
         "mode": "n",
@@ -29,6 +29,6 @@
         "annotation": "*",
         "definition": "<Lua 1127: ~/.config/nvim/lua/folding.lua:26>",
         "description": "Open all folds",
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     }
 }

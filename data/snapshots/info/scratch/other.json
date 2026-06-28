@@ -5,7 +5,7 @@
         "annotation": "*",
         "definition": "<Lua 698: …opt/flash/lua/flash/plugins/char.lua:118>",
         "description": null,
-        "origin": "Last set from …opt/flash/lua/flash/plugins/char.lua line 118"
+        "origin": "Last set from …opt/flash/lua/flash/plugins/char.lua:118"
     },
     "x::;": {
         "mode": "x",
@@ -13,7 +13,7 @@
         "annotation": "*",
         "definition": "<Lua 697: …opt/flash/lua/flash/plugins/char.lua:118>",
         "description": null,
-        "origin": "Last set from …opt/flash/lua/flash/plugins/char.lua line 118"
+        "origin": "Last set from …opt/flash/lua/flash/plugins/char.lua:118"
     },
     "n::;": {
         "mode": "n",
@@ -21,7 +21,7 @@
         "annotation": "*",
         "definition": "<Lua 843: …opt/arrow/lua/arrow/ui.lua:410>",
         "description": "Arrow File Mappings",
-        "origin": "Last set from …opt/arrow/lua/arrow/init.lua line 94"
+        "origin": "Last set from …opt/arrow/lua/arrow/init.lua:94"
     },
     "n::<P": {
         "mode": "n",
@@ -29,7 +29,7 @@
         "annotation": "*",
         "definition": "<Plug>(YankyPutIndentBeforeShiftLeft)",
         "description": null,
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "n::<p": {
         "mode": "n",
@@ -37,7 +37,7 @@
         "annotation": "*",
         "definition": "<Plug>(YankyPutIndentAfterShiftLeft)",
         "description": null,
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "n::=P": {
         "mode": "n",
@@ -45,7 +45,7 @@
         "annotation": "*",
         "definition": "<Plug>(YankyPutBeforeFilter)",
         "description": null,
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "n::=p": {
         "mode": "n",
@@ -53,7 +53,7 @@
         "annotation": "*",
         "definition": "<Plug>(YankyPutAfterFilter)",
         "description": null,
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "n::>P": {
         "mode": "n",
@@ -61,7 +61,7 @@
         "annotation": "*",
         "definition": "<Plug>(YankyPutIndentBeforeShiftRight)",
         "description": null,
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "n::>p": {
         "mode": "n",
@@ -69,7 +69,7 @@
         "annotation": "*",
         "definition": "<Plug>(YankyPutIndentAfterShiftRight)",
         "description": null,
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "o::F": {
         "mode": "o",
@@ -77,7 +77,7 @@
         "annotation": "*",
         "definition": "<Lua 689: …opt/flash/lua/flash/plugins/char.lua:118>",
         "description": null,
-        "origin": "Last set from …opt/flash/lua/flash/plugins/char.lua line 118"
+        "origin": "Last set from …opt/flash/lua/flash/plugins/char.lua:118"
     },
     "x::F": {
         "mode": "x",
@@ -85,7 +85,7 @@
         "annotation": "*",
         "definition": "<Lua 688: …opt/flash/lua/flash/plugins/char.lua:118>",
         "description": null,
-        "origin": "Last set from …opt/flash/lua/flash/plugins/char.lua line 118"
+        "origin": "Last set from …opt/flash/lua/flash/plugins/char.lua:118"
     },
     "n::F": {
         "mode": "n",
@@ -93,7 +93,7 @@
         "annotation": "*",
         "definition": "<Lua 687: …opt/flash/lua/flash/plugins/char.lua:118>",
         "description": null,
-        "origin": "Last set from …opt/flash/lua/flash/plugins/char.lua line 118"
+        "origin": "Last set from …opt/flash/lua/flash/plugins/char.lua:118"
     },
     "s::F": {
         "mode": "s",
@@ -101,7 +101,7 @@
         "annotation": null,
         "definition": "<Lua 627: ~/.config/nvim/lua/navigation.lua:1075>",
         "description": null,
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "x::P": {
         "mode": "x",
@@ -109,7 +109,7 @@
         "annotation": "*",
         "definition": "<Lua 1079: …opt/pasta/lua/pasta/mapping.lua:7>",
         "description": null,
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "n::P": {
         "mode": "n",
@@ -117,7 +117,7 @@
         "annotation": "*",
         "definition": "<Lua 1078: …opt/pasta/lua/pasta/mapping.lua:7>",
         "description": null,
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "x::R": {
         "mode": "x",
@@ -125,7 +125,7 @@
         "annotation": "*",
         "definition": "<Lua 710: ~/.config/nvim/lua/navigation.lua:1526>",
         "description": null,
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "o::R": {
         "mode": "o",
@@ -133,7 +133,7 @@
         "annotation": "*",
         "definition": "<Lua 709: ~/.config/nvim/lua/navigation.lua:1526>",
         "description": null,
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "o::S": {
         "mode": "o",
@@ -141,7 +141,7 @@
         "annotation": "*",
         "definition": "<Lua 707: …opt/flash/lua/flash/commands.lua:14>",
         "description": null,
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "n::S": {
         "mode": "n",
@@ -149,7 +149,7 @@
         "annotation": "*",
         "definition": "<Lua 705: …opt/flash/lua/flash/commands.lua:14>",
         "description": null,
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "x::S": {
         "mode": "x",
@@ -157,7 +157,7 @@
         "annotation": "*",
         "definition": "<Plug>(nvim-surround-visual)",
         "description": "Add a surrounding pair around a visual selection",
-        "origin": "Last set from …opt/nvim-surround/plugin/nvim-surround.lua line 61"
+        "origin": "Last set from …opt/nvim-surround/plugin/nvim-surround.lua:61"
     },
     "o::T": {
         "mode": "o",
@@ -165,7 +165,7 @@
         "annotation": "*",
         "definition": "<Lua 695: …opt/flash/lua/flash/plugins/char.lua:118>",
         "description": null,
-        "origin": "Last set from …opt/flash/lua/flash/plugins/char.lua line 118"
+        "origin": "Last set from …opt/flash/lua/flash/plugins/char.lua:118"
     },
     "x::T": {
         "mode": "x",
@@ -173,7 +173,7 @@
         "annotation": "*",
         "definition": "<Lua 694: …opt/flash/lua/flash/plugins/char.lua:118>",
         "description": null,
-        "origin": "Last set from …opt/flash/lua/flash/plugins/char.lua line 118"
+        "origin": "Last set from …opt/flash/lua/flash/plugins/char.lua:118"
     },
     "n::T": {
         "mode": "n",
@@ -181,7 +181,7 @@
         "annotation": "*",
         "definition": "<Lua 693: …opt/flash/lua/flash/plugins/char.lua:118>",
         "description": null,
-        "origin": "Last set from …opt/flash/lua/flash/plugins/char.lua line 118"
+        "origin": "Last set from …opt/flash/lua/flash/plugins/char.lua:118"
     },
     "s::T": {
         "mode": "s",
@@ -189,7 +189,7 @@
         "annotation": null,
         "definition": "<Lua 629: ~/.config/nvim/lua/navigation.lua:1091>",
         "description": null,
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "o::b": {
         "mode": "o",
@@ -245,7 +245,7 @@
         "annotation": "*",
         "definition": "<Lua 686: …opt/flash/lua/flash/plugins/char.lua:118>",
         "description": null,
-        "origin": "Last set from …opt/flash/lua/flash/plugins/char.lua line 118"
+        "origin": "Last set from …opt/flash/lua/flash/plugins/char.lua:118"
     },
     "x::f": {
         "mode": "x",
@@ -253,7 +253,7 @@
         "annotation": "*",
         "definition": "<Lua 685: …opt/flash/lua/flash/plugins/char.lua:118>",
         "description": null,
-        "origin": "Last set from …opt/flash/lua/flash/plugins/char.lua line 118"
+        "origin": "Last set from …opt/flash/lua/flash/plugins/char.lua:118"
     },
     "n::f": {
         "mode": "n",
@@ -261,7 +261,7 @@
         "annotation": "*",
         "definition": "<Lua 680: …opt/flash/lua/flash/plugins/char.lua:118>",
         "description": null,
-        "origin": "Last set from …opt/flash/lua/flash/plugins/char.lua line 118"
+        "origin": "Last set from …opt/flash/lua/flash/plugins/char.lua:118"
     },
     "s::f": {
         "mode": "s",
@@ -269,7 +269,7 @@
         "annotation": null,
         "definition": "<Lua 572: ~/.config/nvim/lua/navigation.lua:1067>",
         "description": null,
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "x::p": {
         "mode": "x",
@@ -277,7 +277,7 @@
         "annotation": "*",
         "definition": "<Lua 1077: …opt/pasta/lua/pasta/mapping.lua:3>",
         "description": null,
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "n::p": {
         "mode": "n",
@@ -285,7 +285,7 @@
         "annotation": "*",
         "definition": "<Lua 1073: …opt/pasta/lua/pasta/mapping.lua:3>",
         "description": null,
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "o::r": {
         "mode": "o",
@@ -293,7 +293,7 @@
         "annotation": "*",
         "definition": "<Lua 708: …opt/flash/lua/flash/commands.lua:24>",
         "description": null,
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "o::t": {
         "mode": "o",
@@ -301,7 +301,7 @@
         "annotation": "*",
         "definition": "<Lua 692: …opt/flash/lua/flash/plugins/char.lua:118>",
         "description": null,
-        "origin": "Last set from …opt/flash/lua/flash/plugins/char.lua line 118"
+        "origin": "Last set from …opt/flash/lua/flash/plugins/char.lua:118"
     },
     "x::t": {
         "mode": "x",
@@ -309,7 +309,7 @@
         "annotation": "*",
         "definition": "<Lua 691: …opt/flash/lua/flash/plugins/char.lua:118>",
         "description": null,
-        "origin": "Last set from …opt/flash/lua/flash/plugins/char.lua line 118"
+        "origin": "Last set from …opt/flash/lua/flash/plugins/char.lua:118"
     },
     "n::t": {
         "mode": "n",
@@ -317,7 +317,7 @@
         "annotation": "*",
         "definition": "<Lua 690: …opt/flash/lua/flash/plugins/char.lua:118>",
         "description": null,
-        "origin": "Last set from …opt/flash/lua/flash/plugins/char.lua line 118"
+        "origin": "Last set from …opt/flash/lua/flash/plugins/char.lua:118"
     },
     "s::t": {
         "mode": "s",
@@ -325,7 +325,7 @@
         "annotation": null,
         "definition": "<Lua 628: ~/.config/nvim/lua/navigation.lua:1083>",
         "description": null,
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "o::w": {
         "mode": "o",
@@ -357,7 +357,7 @@
         "annotation": "*",
         "definition": "<Lua 1170: …opt/dap/lua/dap.lua:763>",
         "description": null,
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "n::<F11>": {
         "mode": "n",
@@ -365,7 +365,7 @@
         "annotation": "*",
         "definition": "<Lua 1159: …opt/dap/lua/dap.lua:718>",
         "description": null,
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "n::<F10>": {
         "mode": "n",
@@ -373,7 +373,7 @@
         "annotation": "*",
         "definition": "<Lua 1160: …opt/dap/lua/dap.lua:685>",
         "description": null,
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "n::<F5>": {
         "mode": "n",
@@ -381,7 +381,7 @@
         "annotation": "*",
         "definition": "<Lua 1163: …opt/dap/lua/dap.lua:1139>",
         "description": null,
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "x::<BS>": {
         "mode": "x",
@@ -389,7 +389,7 @@
         "annotation": "*",
         "definition": ":lua require'wildfire'.node_decremental()<CR>",
         "description": "Shrink selection to previous named node",
-        "origin": "Last set from …opt/wildfire/lua/wildfire/init.lua line 269"
+        "origin": "Last set from …opt/wildfire/lua/wildfire/init.lua:269"
     },
     "n::<S-Right>": {
         "mode": "n",

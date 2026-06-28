@@ -5,7 +5,7 @@
         "annotation": "*",
         "definition": "<Lua 826: …opt/marks/lua/marks/init.lua:119>",
         "description": "marks: set bookmark5",
-        "origin": "Last set from …opt/marks/lua/marks/init.lua line 170"
+        "origin": "Last set from …opt/marks/lua/marks/init.lua:170"
     },
     "n::m2": {
         "mode": "n",
@@ -13,7 +13,7 @@
         "annotation": "*",
         "definition": "<Lua 828: …opt/marks/lua/marks/init.lua:119>",
         "description": "marks: set bookmark2",
-        "origin": "Last set from …opt/marks/lua/marks/init.lua line 170"
+        "origin": "Last set from …opt/marks/lua/marks/init.lua:170"
     },
     "n::m,": {
         "mode": "n",
@@ -21,7 +21,7 @@
         "annotation": "*",
         "definition": "<Lua 831: …opt/marks/lua/marks/init.lua:22>",
         "description": "marks: set next",
-        "origin": "Last set from …opt/marks/lua/marks/init.lua line 170"
+        "origin": "Last set from …opt/marks/lua/marks/init.lua:170"
     },
     "n::m4": {
         "mode": "n",
@@ -29,7 +29,7 @@
         "annotation": "*",
         "definition": "<Lua 832: …opt/marks/lua/marks/init.lua:119>",
         "description": "marks: set bookmark4",
-        "origin": "Last set from …opt/marks/lua/marks/init.lua line 170"
+        "origin": "Last set from …opt/marks/lua/marks/init.lua:170"
     },
     "n::m[": {
         "mode": "n",
@@ -37,7 +37,7 @@
         "annotation": "*",
         "definition": "<Lua 834: …opt/marks/lua/marks/init.lua:64>",
         "description": "marks: prev",
-        "origin": "Last set from …opt/marks/lua/marks/init.lua line 170"
+        "origin": "Last set from …opt/marks/lua/marks/init.lua:170"
     },
     "n::m3": {
         "mode": "n",
@@ -45,7 +45,7 @@
         "annotation": "*",
         "definition": "<Lua 836: …opt/marks/lua/marks/init.lua:119>",
         "description": "marks: set bookmark3",
-        "origin": "Last set from …opt/marks/lua/marks/init.lua line 170"
+        "origin": "Last set from …opt/marks/lua/marks/init.lua:170"
     },
     "n::m{": {
         "mode": "n",
@@ -53,7 +53,7 @@
         "annotation": "*",
         "definition": "<Lua 837: …opt/marks/lua/marks/init.lua:134>",
         "description": "marks: prev bookmark",
-        "origin": "Last set from …opt/marks/lua/marks/init.lua line 170"
+        "origin": "Last set from …opt/marks/lua/marks/init.lua:170"
     },
     "n::m;": {
         "mode": "n",
@@ -61,7 +61,7 @@
         "annotation": "*",
         "definition": "Markit mark toggle<CR>",
         "description": "Markit: toggle mark",
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "n::m}": {
         "mode": "n",
@@ -69,7 +69,7 @@
         "annotation": "*",
         "definition": "<Lua 839: …opt/marks/lua/marks/init.lua:130>",
         "description": "marks: next bookmark",
-        "origin": "Last set from …opt/marks/lua/marks/init.lua line 170"
+        "origin": "Last set from …opt/marks/lua/marks/init.lua:170"
     },
     "n::m": {
         "mode": "n",
@@ -77,7 +77,7 @@
         "annotation": "*",
         "definition": "<Lua 840: …opt/marks/lua/marks/init.lua:6>",
         "description": "marks: set",
-        "origin": "Last set from …opt/marks/lua/marks/init.lua line 170"
+        "origin": "Last set from …opt/marks/lua/marks/init.lua:170"
     },
     "n::m:": {
         "mode": "n",
@@ -85,7 +85,7 @@
         "annotation": "*",
         "definition": "Markit mark list all<CR>",
         "description": "Markit: list marks",
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "n::m]": {
         "mode": "n",
@@ -93,7 +93,7 @@
         "annotation": "*",
         "definition": "<Lua 845: …opt/marks/lua/marks/init.lua:60>",
         "description": "marks: next",
-        "origin": "Last set from …opt/marks/lua/marks/init.lua line 170"
+        "origin": "Last set from …opt/marks/lua/marks/init.lua:170"
     },
     "n::m1": {
         "mode": "n",
@@ -101,7 +101,7 @@
         "annotation": "*",
         "definition": "<Lua 846: …opt/marks/lua/marks/init.lua:119>",
         "description": "marks: set bookmark1",
-        "origin": "Last set from …opt/marks/lua/marks/init.lua line 170"
+        "origin": "Last set from …opt/marks/lua/marks/init.lua:170"
     },
     "n::m7": {
         "mode": "n",
@@ -109,7 +109,7 @@
         "annotation": "*",
         "definition": "<Lua 848: …opt/marks/lua/marks/init.lua:119>",
         "description": "marks: set bookmark7",
-        "origin": "Last set from …opt/marks/lua/marks/init.lua line 170"
+        "origin": "Last set from …opt/marks/lua/marks/init.lua:170"
     },
     "n::m8": {
         "mode": "n",
@@ -117,7 +117,7 @@
         "annotation": "*",
         "definition": "<Lua 850: …opt/marks/lua/marks/init.lua:119>",
         "description": "marks: set bookmark8",
-        "origin": "Last set from …opt/marks/lua/marks/init.lua line 170"
+        "origin": "Last set from …opt/marks/lua/marks/init.lua:170"
     },
     "n::m0": {
         "mode": "n",
@@ -125,7 +125,7 @@
         "annotation": "*",
         "definition": "<Lua 851: …opt/marks/lua/marks/init.lua:119>",
         "description": "marks: set bookmark0",
-        "origin": "Last set from …opt/marks/lua/marks/init.lua line 170"
+        "origin": "Last set from …opt/marks/lua/marks/init.lua:170"
     },
     "n::m6": {
         "mode": "n",
@@ -133,7 +133,7 @@
         "annotation": "*",
         "definition": "<Lua 853: …opt/marks/lua/marks/init.lua:119>",
         "description": "marks: set bookmark6",
-        "origin": "Last set from …opt/marks/lua/marks/init.lua line 170"
+        "origin": "Last set from …opt/marks/lua/marks/init.lua:170"
     },
     "n::m9": {
         "mode": "n",
@@ -141,6 +141,6 @@
         "annotation": "*",
         "definition": "<Lua 854: …opt/marks/lua/marks/init.lua:119>",
         "description": "marks: set bookmark9",
-        "origin": "Last set from …opt/marks/lua/marks/init.lua line 170"
+        "origin": "Last set from …opt/marks/lua/marks/init.lua:170"
     }
 }

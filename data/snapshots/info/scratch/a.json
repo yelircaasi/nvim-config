@@ -5,7 +5,7 @@
         "annotation": "*",
         "definition": "<Lua 795: ~/.config/nvim/lua/treesitter.lua:137>",
         "description": null,
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "x::ac": {
         "mode": "x",
@@ -13,7 +13,7 @@
         "annotation": "*",
         "definition": "<Lua 400: ~/.config/nvim/lua/treesitter.lua:137>",
         "description": null,
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "o::aw": {
         "mode": "o",
@@ -37,7 +37,7 @@
         "annotation": "*",
         "definition": "<Lua 801: ~/.config/nvim/lua/treesitter.lua:123>",
         "description": null,
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "o::am": {
         "mode": "o",
@@ -45,7 +45,7 @@
         "annotation": "*",
         "definition": "<Lua 415: ~/.config/nvim/lua/treesitter.lua:123>",
         "description": null,
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "x::as": {
         "mode": "x",
@@ -53,7 +53,7 @@
         "annotation": "*",
         "definition": "<Lua 792: ~/.config/nvim/lua/treesitter.lua:152>",
         "description": null,
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "o::as": {
         "mode": "o",
@@ -61,7 +61,7 @@
         "annotation": "*",
         "definition": "<Lua 791: ~/.config/nvim/lua/treesitter.lua:152>",
         "description": null,
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "x::ab": {
         "mode": "x",
@@ -85,7 +85,7 @@
         "annotation": "*",
         "definition": "<Lua 207: …opt/sort/lua/sort/textobjects.lua:152>",
         "description": "Around sortable region",
-        "origin": "Last set from …opt/sort/lua/sort/mappings.lua line 94"
+        "origin": "Last set from …opt/sort/lua/sort/mappings.lua:94"
     },
     "o::ao": {
         "mode": "o",
@@ -93,6 +93,6 @@
         "annotation": "*",
         "definition": "<Lua 209: …opt/sort/lua/sort/textobjects.lua:152>",
         "description": "Around sortable region",
-        "origin": "Last set from …opt/sort/lua/sort/mappings.lua line 94"
+        "origin": "Last set from …opt/sort/lua/sort/mappings.lua:94"
     }
 }

@@ -5,7 +5,7 @@
         "annotation": "*",
         "definition": "<Lua 1061: …opt/yanky/lua/yanky.lua:400>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 400"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:400"
     },
     "n::<Plug>(YankyGPutAfterFilterJoined)": {
         "mode": "n",
@@ -13,7 +13,7 @@
         "annotation": "*",
         "definition": "<Lua 1060: …opt/yanky/lua/yanky.lua:392>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 392"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:392"
     },
     "x::<Plug>(YankyGPutAfterFilter)": {
         "mode": "x",
@@ -21,7 +21,7 @@
         "annotation": "*",
         "definition": "<Lua 1059: …opt/yanky/lua/yanky.lua:388>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 388"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:388"
     },
     "n::<Plug>(YankyGPutAfterFilter)": {
         "mode": "n",
@@ -29,7 +29,7 @@
         "annotation": "*",
         "definition": "<Lua 1058: …opt/yanky/lua/yanky.lua:384>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 384"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:384"
     },
     "x::<Plug>(YankyGPutAfterShiftLeftJoined)": {
         "mode": "x",
@@ -37,7 +37,7 @@
         "annotation": "*",
         "definition": "<Lua 1057: …opt/yanky/lua/yanky.lua:400>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 400"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:400"
     },
     "n::<Plug>(YankyGPutAfterShiftLeftJoined)": {
         "mode": "n",
@@ -45,7 +45,7 @@
         "annotation": "*",
         "definition": "<Lua 1056: …opt/yanky/lua/yanky.lua:392>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 392"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:392"
     },
     "x::<Plug>(YankyGPutAfterShiftLeft)": {
         "mode": "x",
@@ -53,7 +53,7 @@
         "annotation": "*",
         "definition": "<Lua 1055: …opt/yanky/lua/yanky.lua:388>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 388"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:388"
     },
     "n::<Plug>(YankyGPutAfterShiftLeft)": {
         "mode": "n",
@@ -61,7 +61,7 @@
         "annotation": "*",
         "definition": "<Lua 1054: …opt/yanky/lua/yanky.lua:384>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 384"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:384"
     },
     "x::<Plug>(YankyGPutAfterShiftRightJoined)": {
         "mode": "x",
@@ -69,7 +69,7 @@
         "annotation": "*",
         "definition": "<Lua 1053: …opt/yanky/lua/yanky.lua:400>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 400"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:400"
     },
     "n::<Plug>(YankyGPutAfterShiftRightJoined)": {
         "mode": "n",
@@ -77,7 +77,7 @@
         "annotation": "*",
         "definition": "<Lua 1052: …opt/yanky/lua/yanky.lua:392>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 392"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:392"
     },
     "x::<Plug>(YankyGPutAfterShiftRight)": {
         "mode": "x",
@@ -85,7 +85,7 @@
         "annotation": "*",
         "definition": "<Lua 1051: …opt/yanky/lua/yanky.lua:388>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 388"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:388"
     },
     "n::<Plug>(YankyGPutAfterShiftRight)": {
         "mode": "n",
@@ -93,7 +93,7 @@
         "annotation": "*",
         "definition": "<Lua 1050: …opt/yanky/lua/yanky.lua:384>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 384"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:384"
     },
     "x::<Plug>(YankyGPutAfterBlockwiseJoined)": {
         "mode": "x",
@@ -101,7 +101,7 @@
         "annotation": "*",
         "definition": "<Lua 1049: …opt/yanky/lua/yanky.lua:379>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 379"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:379"
     },
     "n::<Plug>(YankyGPutAfterBlockwiseJoined)": {
         "mode": "n",
@@ -109,7 +109,7 @@
         "annotation": "*",
         "definition": "<Lua 1048: …opt/yanky/lua/yanky.lua:375>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 375"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:375"
     },
     "x::<Plug>(YankyGPutAfterBlockwise)": {
         "mode": "x",
@@ -117,7 +117,7 @@
         "annotation": "*",
         "definition": "<Lua 1047: …opt/yanky/lua/yanky.lua:371>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 371"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:371"
     },
     "n::<Plug>(YankyGPutAfterBlockwise)": {
         "mode": "n",
@@ -125,7 +125,7 @@
         "annotation": "*",
         "definition": "<Lua 1046: …opt/yanky/lua/yanky.lua:367>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 367"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:367"
     },
     "x::<Plug>(YankyGPutAfterCharwiseJoined)": {
         "mode": "x",
@@ -133,7 +133,7 @@
         "annotation": "*",
         "definition": "<Lua 1045: …opt/yanky/lua/yanky.lua:363>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 363"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:363"
     },
     "n::<Plug>(YankyGPutAfterCharwiseJoined)": {
         "mode": "n",
@@ -141,7 +141,7 @@
         "annotation": "*",
         "definition": "<Lua 1044: …opt/yanky/lua/yanky.lua:359>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 359"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:359"
     },
     "x::<Plug>(YankyGPutAfterCharwise)": {
         "mode": "x",
@@ -149,7 +149,7 @@
         "annotation": "*",
         "definition": "<Lua 1043: …opt/yanky/lua/yanky.lua:355>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 355"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:355"
     },
     "n::<Plug>(YankyGPutAfterCharwise)": {
         "mode": "n",
@@ -157,7 +157,7 @@
         "annotation": "*",
         "definition": "<Lua 1042: …opt/yanky/lua/yanky.lua:351>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 351"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:351"
     },
     "x::<Plug>(YankyGPutAfterLinewiseJoined)": {
         "mode": "x",
@@ -165,7 +165,7 @@
         "annotation": "*",
         "definition": "<Lua 1041: …opt/yanky/lua/yanky.lua:347>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 347"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:347"
     },
     "n::<Plug>(YankyGPutAfterLinewiseJoined)": {
         "mode": "n",
@@ -173,7 +173,7 @@
         "annotation": "*",
         "definition": "<Lua 1040: …opt/yanky/lua/yanky.lua:343>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 343"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:343"
     },
     "x::<Plug>(YankyGPutAfterLinewise)": {
         "mode": "x",
@@ -181,7 +181,7 @@
         "annotation": "*",
         "definition": "<Lua 1039: …opt/yanky/lua/yanky.lua:339>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 339"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:339"
     },
     "n::<Plug>(YankyGPutAfterLinewise)": {
         "mode": "n",
@@ -189,7 +189,7 @@
         "annotation": "*",
         "definition": "<Lua 1038: …opt/yanky/lua/yanky.lua:335>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 335"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:335"
     },
     "x::<Plug>(YankyGPutAfterJoined)": {
         "mode": "x",
@@ -197,7 +197,7 @@
         "annotation": "*",
         "definition": "<Lua 1037: …opt/yanky/lua/yanky.lua:331>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 331"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:331"
     },
     "n::<Plug>(YankyGPutAfterJoined)": {
         "mode": "n",
@@ -205,7 +205,7 @@
         "annotation": "*",
         "definition": "<Lua 1036: …opt/yanky/lua/yanky.lua:327>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 327"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:327"
     },
     "x::<Plug>(YankyGPutAfter)": {
         "mode": "x",
@@ -213,7 +213,7 @@
         "annotation": "*",
         "definition": "<Lua 1035: …opt/yanky/lua/yanky.lua:323>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 323"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:323"
     },
     "n::<Plug>(YankyGPutAfter)": {
         "mode": "n",
@@ -221,7 +221,7 @@
         "annotation": "*",
         "definition": "<Lua 1034: …opt/yanky/lua/yanky.lua:319>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 319"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:319"
     },
     "x::<Plug>(YankyGPutBeforeFilterJoined)": {
         "mode": "x",
@@ -229,7 +229,7 @@
         "annotation": "*",
         "definition": "<Lua 1033: …opt/yanky/lua/yanky.lua:400>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 400"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:400"
     },
     "n::<Plug>(YankyGPutBeforeFilterJoined)": {
         "mode": "n",
@@ -237,7 +237,7 @@
         "annotation": "*",
         "definition": "<Lua 1032: …opt/yanky/lua/yanky.lua:392>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 392"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:392"
     },
     "x::<Plug>(YankyGPutBeforeFilter)": {
         "mode": "x",
@@ -245,7 +245,7 @@
         "annotation": "*",
         "definition": "<Lua 1031: …opt/yanky/lua/yanky.lua:388>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 388"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:388"
     },
     "n::<Plug>(YankyGPutBeforeFilter)": {
         "mode": "n",
@@ -253,7 +253,7 @@
         "annotation": "*",
         "definition": "<Lua 1030: …opt/yanky/lua/yanky.lua:384>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 384"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:384"
     },
     "x::<Plug>(YankyGPutBeforeShiftLeftJoined)": {
         "mode": "x",
@@ -261,7 +261,7 @@
         "annotation": "*",
         "definition": "<Lua 1029: …opt/yanky/lua/yanky.lua:400>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 400"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:400"
     },
     "n::<Plug>(YankyGPutBeforeShiftLeftJoined)": {
         "mode": "n",
@@ -269,7 +269,7 @@
         "annotation": "*",
         "definition": "<Lua 1028: …opt/yanky/lua/yanky.lua:392>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 392"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:392"
     },
     "x::<Plug>(YankyGPutBeforeShiftLeft)": {
         "mode": "x",
@@ -277,7 +277,7 @@
         "annotation": "*",
         "definition": "<Lua 1027: …opt/yanky/lua/yanky.lua:388>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 388"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:388"
     },
     "n::<Plug>(YankyGPutBeforeShiftLeft)": {
         "mode": "n",
@@ -285,7 +285,7 @@
         "annotation": "*",
         "definition": "<Lua 1026: …opt/yanky/lua/yanky.lua:384>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 384"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:384"
     },
     "x::<Plug>(YankyGPutBeforeShiftRightJoined)": {
         "mode": "x",
@@ -293,7 +293,7 @@
         "annotation": "*",
         "definition": "<Lua 1025: …opt/yanky/lua/yanky.lua:400>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 400"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:400"
     },
     "n::<Plug>(YankyGPutBeforeShiftRightJoined)": {
         "mode": "n",
@@ -301,7 +301,7 @@
         "annotation": "*",
         "definition": "<Lua 1024: …opt/yanky/lua/yanky.lua:392>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 392"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:392"
     },
     "x::<Plug>(YankyGPutBeforeShiftRight)": {
         "mode": "x",
@@ -309,7 +309,7 @@
         "annotation": "*",
         "definition": "<Lua 1023: …opt/yanky/lua/yanky.lua:388>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 388"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:388"
     },
     "n::<Plug>(YankyGPutBeforeShiftRight)": {
         "mode": "n",
@@ -317,7 +317,7 @@
         "annotation": "*",
         "definition": "<Lua 1022: …opt/yanky/lua/yanky.lua:384>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 384"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:384"
     },
     "x::<Plug>(YankyGPutBeforeBlockwiseJoined)": {
         "mode": "x",
@@ -325,7 +325,7 @@
         "annotation": "*",
         "definition": "<Lua 1021: …opt/yanky/lua/yanky.lua:379>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 379"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:379"
     },
     "n::<Plug>(YankyGPutBeforeBlockwiseJoined)": {
         "mode": "n",
@@ -333,7 +333,7 @@
         "annotation": "*",
         "definition": "<Lua 1020: …opt/yanky/lua/yanky.lua:375>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 375"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:375"
     },
     "x::<Plug>(YankyGPutBeforeBlockwise)": {
         "mode": "x",
@@ -341,7 +341,7 @@
         "annotation": "*",
         "definition": "<Lua 1019: …opt/yanky/lua/yanky.lua:371>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 371"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:371"
     },
     "n::<Plug>(YankyGPutBeforeBlockwise)": {
         "mode": "n",
@@ -349,7 +349,7 @@
         "annotation": "*",
         "definition": "<Lua 1018: …opt/yanky/lua/yanky.lua:367>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 367"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:367"
     },
     "x::<Plug>(YankyGPutBeforeCharwiseJoined)": {
         "mode": "x",
@@ -357,7 +357,7 @@
         "annotation": "*",
         "definition": "<Lua 1017: …opt/yanky/lua/yanky.lua:363>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 363"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:363"
     },
     "n::<Plug>(YankyGPutBeforeCharwiseJoined)": {
         "mode": "n",
@@ -365,7 +365,7 @@
         "annotation": "*",
         "definition": "<Lua 1016: …opt/yanky/lua/yanky.lua:359>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 359"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:359"
     },
     "x::<Plug>(YankyGPutBeforeCharwise)": {
         "mode": "x",
@@ -373,7 +373,7 @@
         "annotation": "*",
         "definition": "<Lua 1015: …opt/yanky/lua/yanky.lua:355>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 355"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:355"
     },
     "n::<Plug>(YankyGPutBeforeCharwise)": {
         "mode": "n",
@@ -381,7 +381,7 @@
         "annotation": "*",
         "definition": "<Lua 1014: …opt/yanky/lua/yanky.lua:351>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 351"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:351"
     },
     "x::<Plug>(YankyGPutBeforeLinewiseJoined)": {
         "mode": "x",
@@ -389,7 +389,7 @@
         "annotation": "*",
         "definition": "<Lua 1013: …opt/yanky/lua/yanky.lua:347>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 347"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:347"
     },
     "n::<Plug>(YankyGPutBeforeLinewiseJoined)": {
         "mode": "n",
@@ -397,7 +397,7 @@
         "annotation": "*",
         "definition": "<Lua 1012: …opt/yanky/lua/yanky.lua:343>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 343"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:343"
     },
     "x::<Plug>(YankyGPutBeforeLinewise)": {
         "mode": "x",
@@ -405,7 +405,7 @@
         "annotation": "*",
         "definition": "<Lua 1011: …opt/yanky/lua/yanky.lua:339>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 339"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:339"
     },
     "n::<Plug>(YankyGPutBeforeLinewise)": {
         "mode": "n",
@@ -413,7 +413,7 @@
         "annotation": "*",
         "definition": "<Lua 1010: …opt/yanky/lua/yanky.lua:335>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 335"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:335"
     },
     "x::<Plug>(YankyGPutBeforeJoined)": {
         "mode": "x",
@@ -421,7 +421,7 @@
         "annotation": "*",
         "definition": "<Lua 1009: …opt/yanky/lua/yanky.lua:331>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 331"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:331"
     },
     "n::<Plug>(YankyGPutBeforeJoined)": {
         "mode": "n",
@@ -429,7 +429,7 @@
         "annotation": "*",
         "definition": "<Lua 1008: …opt/yanky/lua/yanky.lua:327>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 327"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:327"
     },
     "x::<Plug>(YankyGPutBefore)": {
         "mode": "x",
@@ -437,7 +437,7 @@
         "annotation": "*",
         "definition": "<Lua 1007: …opt/yanky/lua/yanky.lua:323>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 323"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:323"
     },
     "n::<Plug>(YankyGPutBefore)": {
         "mode": "n",
@@ -445,7 +445,7 @@
         "annotation": "*",
         "definition": "<Lua 1006: …opt/yanky/lua/yanky.lua:319>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 319"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:319"
     },
     "x::<Plug>(YankyPutIndentAfterFilterJoined)": {
         "mode": "x",
@@ -453,7 +453,7 @@
         "annotation": "*",
         "definition": "<Lua 1005: …opt/yanky/lua/yanky.lua:400>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 400"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:400"
     },
     "n::<Plug>(YankyPutIndentAfterFilterJoined)": {
         "mode": "n",
@@ -461,7 +461,7 @@
         "annotation": "*",
         "definition": "<Lua 1004: …opt/yanky/lua/yanky.lua:392>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 392"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:392"
     },
     "x::<Plug>(YankyPutIndentAfterFilter)": {
         "mode": "x",
@@ -469,7 +469,7 @@
         "annotation": "*",
         "definition": "<Lua 1003: …opt/yanky/lua/yanky.lua:388>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 388"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:388"
     },
     "n::<Plug>(YankyPutIndentAfterFilter)": {
         "mode": "n",
@@ -477,7 +477,7 @@
         "annotation": "*",
         "definition": "<Lua 1002: …opt/yanky/lua/yanky.lua:384>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 384"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:384"
     },
     "x::<Plug>(YankyPutIndentAfterShiftLeftJoined)": {
         "mode": "x",
@@ -485,7 +485,7 @@
         "annotation": "*",
         "definition": "<Lua 1001: …opt/yanky/lua/yanky.lua:400>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 400"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:400"
     },
     "n::<Plug>(YankyPutIndentAfterShiftLeftJoined)": {
         "mode": "n",
@@ -493,7 +493,7 @@
         "annotation": "*",
         "definition": "<Lua 1000: …opt/yanky/lua/yanky.lua:392>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 392"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:392"
     },
     "x::<Plug>(YankyPutIndentAfterShiftLeft)": {
         "mode": "x",
@@ -501,7 +501,7 @@
         "annotation": "*",
         "definition": "<Lua 999: …opt/yanky/lua/yanky.lua:388>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 388"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:388"
     },
     "n::<Plug>(YankyPutIndentAfterShiftLeft)": {
         "mode": "n",
@@ -509,7 +509,7 @@
         "annotation": "*",
         "definition": "<Lua 998: …opt/yanky/lua/yanky.lua:384>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 384"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:384"
     },
     "x::<Plug>(YankyPutIndentAfterShiftRightJoined)": {
         "mode": "x",
@@ -517,7 +517,7 @@
         "annotation": "*",
         "definition": "<Lua 997: …opt/yanky/lua/yanky.lua:400>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 400"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:400"
     },
     "n::<Plug>(YankyPutIndentAfterShiftRightJoined)": {
         "mode": "n",
@@ -525,7 +525,7 @@
         "annotation": "*",
         "definition": "<Lua 996: …opt/yanky/lua/yanky.lua:392>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 392"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:392"
     },
     "x::<Plug>(YankyPutIndentAfterShiftRight)": {
         "mode": "x",
@@ -533,7 +533,7 @@
         "annotation": "*",
         "definition": "<Lua 995: …opt/yanky/lua/yanky.lua:388>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 388"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:388"
     },
     "n::<Plug>(YankyPutIndentAfterShiftRight)": {
         "mode": "n",
@@ -541,7 +541,7 @@
         "annotation": "*",
         "definition": "<Lua 994: …opt/yanky/lua/yanky.lua:384>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 384"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:384"
     },
     "x::<Plug>(YankyPutIndentAfterBlockwiseJoined)": {
         "mode": "x",
@@ -549,7 +549,7 @@
         "annotation": "*",
         "definition": "<Lua 993: …opt/yanky/lua/yanky.lua:379>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 379"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:379"
     },
     "n::<Plug>(YankyPutIndentAfterBlockwiseJoined)": {
         "mode": "n",
@@ -557,7 +557,7 @@
         "annotation": "*",
         "definition": "<Lua 992: …opt/yanky/lua/yanky.lua:375>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 375"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:375"
     },
     "x::<Plug>(YankyPutIndentAfterBlockwise)": {
         "mode": "x",
@@ -565,7 +565,7 @@
         "annotation": "*",
         "definition": "<Lua 991: …opt/yanky/lua/yanky.lua:371>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 371"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:371"
     },
     "n::<Plug>(YankyPutIndentAfterBlockwise)": {
         "mode": "n",
@@ -573,7 +573,7 @@
         "annotation": "*",
         "definition": "<Lua 990: …opt/yanky/lua/yanky.lua:367>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 367"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:367"
     },
     "x::<Plug>(YankyPutIndentAfterCharwiseJoined)": {
         "mode": "x",
@@ -581,7 +581,7 @@
         "annotation": "*",
         "definition": "<Lua 989: …opt/yanky/lua/yanky.lua:363>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 363"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:363"
     },
     "n::<Plug>(YankyPutIndentAfterCharwiseJoined)": {
         "mode": "n",
@@ -589,7 +589,7 @@
         "annotation": "*",
         "definition": "<Lua 988: …opt/yanky/lua/yanky.lua:359>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 359"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:359"
     },
     "x::<Plug>(YankyPutIndentAfterCharwise)": {
         "mode": "x",
@@ -597,7 +597,7 @@
         "annotation": "*",
         "definition": "<Lua 987: …opt/yanky/lua/yanky.lua:355>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 355"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:355"
     },
     "n::<Plug>(YankyPutIndentAfterCharwise)": {
         "mode": "n",
@@ -605,7 +605,7 @@
         "annotation": "*",
         "definition": "<Lua 986: …opt/yanky/lua/yanky.lua:351>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 351"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:351"
     },
     "x::<Plug>(YankyPutIndentAfterLinewiseJoined)": {
         "mode": "x",
@@ -613,7 +613,7 @@
         "annotation": "*",
         "definition": "<Lua 985: …opt/yanky/lua/yanky.lua:347>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 347"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:347"
     },
     "n::<Plug>(YankyPutIndentAfterLinewiseJoined)": {
         "mode": "n",
@@ -621,7 +621,7 @@
         "annotation": "*",
         "definition": "<Lua 984: …opt/yanky/lua/yanky.lua:343>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 343"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:343"
     },
     "x::<Plug>(YankyPutIndentAfterLinewise)": {
         "mode": "x",
@@ -629,7 +629,7 @@
         "annotation": "*",
         "definition": "<Lua 983: …opt/yanky/lua/yanky.lua:339>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 339"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:339"
     },
     "n::<Plug>(YankyPutIndentAfterLinewise)": {
         "mode": "n",
@@ -637,7 +637,7 @@
         "annotation": "*",
         "definition": "<Lua 982: …opt/yanky/lua/yanky.lua:335>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 335"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:335"
     },
     "x::<Plug>(YankyPutIndentAfterJoined)": {
         "mode": "x",
@@ -645,7 +645,7 @@
         "annotation": "*",
         "definition": "<Lua 981: …opt/yanky/lua/yanky.lua:331>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 331"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:331"
     },
     "n::<Plug>(YankyPutIndentAfterJoined)": {
         "mode": "n",
@@ -653,7 +653,7 @@
         "annotation": "*",
         "definition": "<Lua 980: …opt/yanky/lua/yanky.lua:327>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 327"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:327"
     },
     "x::<Plug>(YankyPutIndentAfter)": {
         "mode": "x",
@@ -661,7 +661,7 @@
         "annotation": "*",
         "definition": "<Lua 979: …opt/yanky/lua/yanky.lua:323>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 323"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:323"
     },
     "n::<Plug>(YankyPutIndentAfter)": {
         "mode": "n",
@@ -669,7 +669,7 @@
         "annotation": "*",
         "definition": "<Lua 978: …opt/yanky/lua/yanky.lua:319>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 319"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:319"
     },
     "x::<Plug>(YankyPutAfterFilterJoined)": {
         "mode": "x",
@@ -677,7 +677,7 @@
         "annotation": "*",
         "definition": "<Lua 977: …opt/yanky/lua/yanky.lua:400>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 400"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:400"
     },
     "n::<Plug>(YankyPutAfterFilterJoined)": {
         "mode": "n",
@@ -685,7 +685,7 @@
         "annotation": "*",
         "definition": "<Lua 976: …opt/yanky/lua/yanky.lua:392>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 392"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:392"
     },
     "x::<Plug>(YankyPutAfterFilter)": {
         "mode": "x",
@@ -693,7 +693,7 @@
         "annotation": "*",
         "definition": "<Lua 975: …opt/yanky/lua/yanky.lua:388>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 388"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:388"
     },
     "n::<Plug>(YankyPutAfterFilter)": {
         "mode": "n",
@@ -701,7 +701,7 @@
         "annotation": "*",
         "definition": "<Lua 974: …opt/yanky/lua/yanky.lua:384>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 384"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:384"
     },
     "x::<Plug>(YankyPutAfterShiftLeftJoined)": {
         "mode": "x",
@@ -709,7 +709,7 @@
         "annotation": "*",
         "definition": "<Lua 973: …opt/yanky/lua/yanky.lua:400>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 400"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:400"
     },
     "n::<Plug>(YankyPutAfterShiftLeftJoined)": {
         "mode": "n",
@@ -717,7 +717,7 @@
         "annotation": "*",
         "definition": "<Lua 972: …opt/yanky/lua/yanky.lua:392>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 392"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:392"
     },
     "x::<Plug>(YankyPutAfterShiftLeft)": {
         "mode": "x",
@@ -725,7 +725,7 @@
         "annotation": "*",
         "definition": "<Lua 971: …opt/yanky/lua/yanky.lua:388>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 388"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:388"
     },
     "n::<Plug>(YankyPutAfterShiftLeft)": {
         "mode": "n",
@@ -733,7 +733,7 @@
         "annotation": "*",
         "definition": "<Lua 970: …opt/yanky/lua/yanky.lua:384>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 384"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:384"
     },
     "x::<Plug>(YankyPutAfterShiftRightJoined)": {
         "mode": "x",
@@ -741,7 +741,7 @@
         "annotation": "*",
         "definition": "<Lua 969: …opt/yanky/lua/yanky.lua:400>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 400"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:400"
     },
     "n::<Plug>(YankyPutAfterShiftRightJoined)": {
         "mode": "n",
@@ -749,7 +749,7 @@
         "annotation": "*",
         "definition": "<Lua 968: …opt/yanky/lua/yanky.lua:392>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 392"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:392"
     },
     "x::<Plug>(YankyPutAfterShiftRight)": {
         "mode": "x",
@@ -757,7 +757,7 @@
         "annotation": "*",
         "definition": "<Lua 967: …opt/yanky/lua/yanky.lua:388>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 388"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:388"
     },
     "n::<Plug>(YankyPutAfterShiftRight)": {
         "mode": "n",
@@ -765,7 +765,7 @@
         "annotation": "*",
         "definition": "<Lua 966: …opt/yanky/lua/yanky.lua:384>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 384"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:384"
     },
     "x::<Plug>(YankyPutAfterBlockwiseJoined)": {
         "mode": "x",
@@ -773,7 +773,7 @@
         "annotation": "*",
         "definition": "<Lua 965: …opt/yanky/lua/yanky.lua:379>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 379"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:379"
     },
     "n::<Plug>(YankyPutAfterBlockwiseJoined)": {
         "mode": "n",
@@ -781,7 +781,7 @@
         "annotation": "*",
         "definition": "<Lua 964: …opt/yanky/lua/yanky.lua:375>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 375"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:375"
     },
     "x::<Plug>(YankyPutAfterBlockwise)": {
         "mode": "x",
@@ -789,7 +789,7 @@
         "annotation": "*",
         "definition": "<Lua 963: …opt/yanky/lua/yanky.lua:371>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 371"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:371"
     },
     "n::<Plug>(YankyPutAfterBlockwise)": {
         "mode": "n",
@@ -797,7 +797,7 @@
         "annotation": "*",
         "definition": "<Lua 962: …opt/yanky/lua/yanky.lua:367>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 367"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:367"
     },
     "x::<Plug>(YankyPutAfterCharwiseJoined)": {
         "mode": "x",
@@ -805,7 +805,7 @@
         "annotation": "*",
         "definition": "<Lua 961: …opt/yanky/lua/yanky.lua:363>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 363"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:363"
     },
     "n::<Plug>(YankyPutAfterCharwiseJoined)": {
         "mode": "n",
@@ -813,7 +813,7 @@
         "annotation": "*",
         "definition": "<Lua 960: …opt/yanky/lua/yanky.lua:359>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 359"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:359"
     },
     "x::<Plug>(YankyPutAfterCharwise)": {
         "mode": "x",
@@ -821,7 +821,7 @@
         "annotation": "*",
         "definition": "<Lua 959: …opt/yanky/lua/yanky.lua:355>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 355"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:355"
     },
     "n::<Plug>(YankyPutAfterCharwise)": {
         "mode": "n",
@@ -829,7 +829,7 @@
         "annotation": "*",
         "definition": "<Lua 958: …opt/yanky/lua/yanky.lua:351>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 351"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:351"
     },
     "x::<Plug>(YankyPutAfterLinewiseJoined)": {
         "mode": "x",
@@ -837,7 +837,7 @@
         "annotation": "*",
         "definition": "<Lua 957: …opt/yanky/lua/yanky.lua:347>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 347"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:347"
     },
     "n::<Plug>(YankyPutAfterLinewiseJoined)": {
         "mode": "n",
@@ -845,7 +845,7 @@
         "annotation": "*",
         "definition": "<Lua 956: …opt/yanky/lua/yanky.lua:343>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 343"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:343"
     },
     "x::<Plug>(YankyPutAfterLinewise)": {
         "mode": "x",
@@ -853,7 +853,7 @@
         "annotation": "*",
         "definition": "<Lua 955: …opt/yanky/lua/yanky.lua:339>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 339"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:339"
     },
     "n::<Plug>(YankyPutAfterLinewise)": {
         "mode": "n",
@@ -861,7 +861,7 @@
         "annotation": "*",
         "definition": "<Lua 954: …opt/yanky/lua/yanky.lua:335>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 335"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:335"
     },
     "x::<Plug>(YankyPutAfterJoined)": {
         "mode": "x",
@@ -869,7 +869,7 @@
         "annotation": "*",
         "definition": "<Lua 953: …opt/yanky/lua/yanky.lua:331>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 331"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:331"
     },
     "n::<Plug>(YankyPutAfterJoined)": {
         "mode": "n",
@@ -877,7 +877,7 @@
         "annotation": "*",
         "definition": "<Lua 952: …opt/yanky/lua/yanky.lua:327>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 327"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:327"
     },
     "x::<Plug>(YankyPutAfter)": {
         "mode": "x",
@@ -885,7 +885,7 @@
         "annotation": "*",
         "definition": "<Lua 951: …opt/yanky/lua/yanky.lua:323>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 323"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:323"
     },
     "n::<Plug>(YankyPutAfter)": {
         "mode": "n",
@@ -893,7 +893,7 @@
         "annotation": "*",
         "definition": "<Lua 950: …opt/yanky/lua/yanky.lua:319>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 319"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:319"
     },
     "x::<Plug>(YankyPutIndentBeforeFilterJoined)": {
         "mode": "x",
@@ -901,7 +901,7 @@
         "annotation": "*",
         "definition": "<Lua 949: …opt/yanky/lua/yanky.lua:400>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 400"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:400"
     },
     "n::<Plug>(YankyPutIndentBeforeFilterJoined)": {
         "mode": "n",
@@ -909,7 +909,7 @@
         "annotation": "*",
         "definition": "<Lua 948: …opt/yanky/lua/yanky.lua:392>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 392"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:392"
     },
     "x::<Plug>(YankyPutIndentBeforeFilter)": {
         "mode": "x",
@@ -917,7 +917,7 @@
         "annotation": "*",
         "definition": "<Lua 947: …opt/yanky/lua/yanky.lua:388>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 388"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:388"
     },
     "n::<Plug>(YankyPutIndentBeforeFilter)": {
         "mode": "n",
@@ -925,7 +925,7 @@
         "annotation": "*",
         "definition": "<Lua 946: …opt/yanky/lua/yanky.lua:384>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 384"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:384"
     },
     "x::<Plug>(YankyPutIndentBeforeShiftLeftJoined)": {
         "mode": "x",
@@ -933,7 +933,7 @@
         "annotation": "*",
         "definition": "<Lua 945: …opt/yanky/lua/yanky.lua:400>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 400"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:400"
     },
     "n::<Plug>(YankyPutIndentBeforeShiftLeftJoined)": {
         "mode": "n",
@@ -941,7 +941,7 @@
         "annotation": "*",
         "definition": "<Lua 944: …opt/yanky/lua/yanky.lua:392>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 392"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:392"
     },
     "x::<Plug>(YankyPutIndentBeforeShiftLeft)": {
         "mode": "x",
@@ -949,7 +949,7 @@
         "annotation": "*",
         "definition": "<Lua 943: …opt/yanky/lua/yanky.lua:388>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 388"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:388"
     },
     "n::<Plug>(YankyPutIndentBeforeShiftLeft)": {
         "mode": "n",
@@ -957,7 +957,7 @@
         "annotation": "*",
         "definition": "<Lua 942: …opt/yanky/lua/yanky.lua:384>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 384"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:384"
     },
     "x::<Plug>(YankyPutIndentBeforeShiftRightJoined)": {
         "mode": "x",
@@ -965,7 +965,7 @@
         "annotation": "*",
         "definition": "<Lua 941: …opt/yanky/lua/yanky.lua:400>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 400"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:400"
     },
     "n::<Plug>(YankyPutIndentBeforeShiftRightJoined)": {
         "mode": "n",
@@ -973,7 +973,7 @@
         "annotation": "*",
         "definition": "<Lua 940: …opt/yanky/lua/yanky.lua:392>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 392"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:392"
     },
     "x::<Plug>(YankyPutIndentBeforeShiftRight)": {
         "mode": "x",
@@ -981,7 +981,7 @@
         "annotation": "*",
         "definition": "<Lua 939: …opt/yanky/lua/yanky.lua:388>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 388"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:388"
     },
     "n::<Plug>(YankyPutIndentBeforeShiftRight)": {
         "mode": "n",
@@ -989,7 +989,7 @@
         "annotation": "*",
         "definition": "<Lua 938: …opt/yanky/lua/yanky.lua:384>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 384"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:384"
     },
     "x::<Plug>(YankyPutIndentBeforeBlockwiseJoined)": {
         "mode": "x",
@@ -997,7 +997,7 @@
         "annotation": "*",
         "definition": "<Lua 937: …opt/yanky/lua/yanky.lua:379>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 379"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:379"
     },
     "n::<Plug>(YankyPutIndentBeforeBlockwiseJoined)": {
         "mode": "n",
@@ -1005,7 +1005,7 @@
         "annotation": "*",
         "definition": "<Lua 936: …opt/yanky/lua/yanky.lua:375>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 375"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:375"
     },
     "x::<Plug>(YankyPutIndentBeforeBlockwise)": {
         "mode": "x",
@@ -1013,7 +1013,7 @@
         "annotation": "*",
         "definition": "<Lua 935: …opt/yanky/lua/yanky.lua:371>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 371"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:371"
     },
     "n::<Plug>(YankyPutIndentBeforeBlockwise)": {
         "mode": "n",
@@ -1021,7 +1021,7 @@
         "annotation": "*",
         "definition": "<Lua 934: …opt/yanky/lua/yanky.lua:367>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 367"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:367"
     },
     "x::<Plug>(YankyPutIndentBeforeCharwiseJoined)": {
         "mode": "x",
@@ -1029,7 +1029,7 @@
         "annotation": "*",
         "definition": "<Lua 933: …opt/yanky/lua/yanky.lua:363>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 363"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:363"
     },
     "n::<Plug>(YankyPutIndentBeforeCharwiseJoined)": {
         "mode": "n",
@@ -1037,7 +1037,7 @@
         "annotation": "*",
         "definition": "<Lua 932: …opt/yanky/lua/yanky.lua:359>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 359"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:359"
     },
     "x::<Plug>(YankyPutIndentBeforeCharwise)": {
         "mode": "x",
@@ -1045,7 +1045,7 @@
         "annotation": "*",
         "definition": "<Lua 931: …opt/yanky/lua/yanky.lua:355>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 355"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:355"
     },
     "n::<Plug>(YankyPutIndentBeforeCharwise)": {
         "mode": "n",
@@ -1053,7 +1053,7 @@
         "annotation": "*",
         "definition": "<Lua 930: …opt/yanky/lua/yanky.lua:351>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 351"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:351"
     },
     "x::<Plug>(YankyPutIndentBeforeLinewiseJoined)": {
         "mode": "x",
@@ -1061,7 +1061,7 @@
         "annotation": "*",
         "definition": "<Lua 929: …opt/yanky/lua/yanky.lua:347>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 347"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:347"
     },
     "n::<Plug>(YankyPutIndentBeforeLinewiseJoined)": {
         "mode": "n",
@@ -1069,7 +1069,7 @@
         "annotation": "*",
         "definition": "<Lua 928: …opt/yanky/lua/yanky.lua:343>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 343"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:343"
     },
     "x::<Plug>(YankyPutIndentBeforeLinewise)": {
         "mode": "x",
@@ -1077,7 +1077,7 @@
         "annotation": "*",
         "definition": "<Lua 927: …opt/yanky/lua/yanky.lua:339>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 339"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:339"
     },
     "n::<Plug>(YankyPutIndentBeforeLinewise)": {
         "mode": "n",
@@ -1085,7 +1085,7 @@
         "annotation": "*",
         "definition": "<Lua 926: …opt/yanky/lua/yanky.lua:335>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 335"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:335"
     },
     "x::<Plug>(YankyPutIndentBeforeJoined)": {
         "mode": "x",
@@ -1093,7 +1093,7 @@
         "annotation": "*",
         "definition": "<Lua 925: …opt/yanky/lua/yanky.lua:331>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 331"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:331"
     },
     "n::<Plug>(YankyPutIndentBeforeJoined)": {
         "mode": "n",
@@ -1101,7 +1101,7 @@
         "annotation": "*",
         "definition": "<Lua 924: …opt/yanky/lua/yanky.lua:327>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 327"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:327"
     },
     "x::<Plug>(YankyPutIndentBefore)": {
         "mode": "x",
@@ -1109,7 +1109,7 @@
         "annotation": "*",
         "definition": "<Lua 923: …opt/yanky/lua/yanky.lua:323>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 323"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:323"
     },
     "n::<Plug>(YankyPutIndentBefore)": {
         "mode": "n",
@@ -1117,7 +1117,7 @@
         "annotation": "*",
         "definition": "<Lua 922: …opt/yanky/lua/yanky.lua:319>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 319"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:319"
     },
     "x::<Plug>(YankyPutBeforeFilterJoined)": {
         "mode": "x",
@@ -1125,7 +1125,7 @@
         "annotation": "*",
         "definition": "<Lua 921: …opt/yanky/lua/yanky.lua:400>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 400"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:400"
     },
     "n::<Plug>(YankyPutBeforeFilterJoined)": {
         "mode": "n",
@@ -1133,7 +1133,7 @@
         "annotation": "*",
         "definition": "<Lua 920: …opt/yanky/lua/yanky.lua:392>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 392"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:392"
     },
     "x::<Plug>(YankyPutBeforeFilter)": {
         "mode": "x",
@@ -1141,7 +1141,7 @@
         "annotation": "*",
         "definition": "<Lua 919: …opt/yanky/lua/yanky.lua:388>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 388"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:388"
     },
     "n::<Plug>(YankyPutBeforeFilter)": {
         "mode": "n",
@@ -1149,7 +1149,7 @@
         "annotation": "*",
         "definition": "<Lua 918: …opt/yanky/lua/yanky.lua:384>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 384"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:384"
     },
     "x::<Plug>(YankyPutBeforeShiftLeftJoined)": {
         "mode": "x",
@@ -1157,7 +1157,7 @@
         "annotation": "*",
         "definition": "<Lua 917: …opt/yanky/lua/yanky.lua:400>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 400"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:400"
     },
     "n::<Plug>(YankyPutBeforeShiftLeftJoined)": {
         "mode": "n",
@@ -1165,7 +1165,7 @@
         "annotation": "*",
         "definition": "<Lua 916: …opt/yanky/lua/yanky.lua:392>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 392"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:392"
     },
     "x::<Plug>(YankyPutBeforeShiftLeft)": {
         "mode": "x",
@@ -1173,7 +1173,7 @@
         "annotation": "*",
         "definition": "<Lua 915: …opt/yanky/lua/yanky.lua:388>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 388"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:388"
     },
     "n::<Plug>(YankyPutBeforeShiftLeft)": {
         "mode": "n",
@@ -1181,7 +1181,7 @@
         "annotation": "*",
         "definition": "<Lua 914: …opt/yanky/lua/yanky.lua:384>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 384"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:384"
     },
     "x::<Plug>(YankyPutBeforeShiftRightJoined)": {
         "mode": "x",
@@ -1189,7 +1189,7 @@
         "annotation": "*",
         "definition": "<Lua 913: …opt/yanky/lua/yanky.lua:400>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 400"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:400"
     },
     "n::<Plug>(YankyPutBeforeShiftRightJoined)": {
         "mode": "n",
@@ -1197,7 +1197,7 @@
         "annotation": "*",
         "definition": "<Lua 912: …opt/yanky/lua/yanky.lua:392>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 392"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:392"
     },
     "x::<Plug>(YankyPutBeforeShiftRight)": {
         "mode": "x",
@@ -1205,7 +1205,7 @@
         "annotation": "*",
         "definition": "<Lua 911: …opt/yanky/lua/yanky.lua:388>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 388"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:388"
     },
     "n::<Plug>(YankyPutBeforeShiftRight)": {
         "mode": "n",
@@ -1213,7 +1213,7 @@
         "annotation": "*",
         "definition": "<Lua 910: …opt/yanky/lua/yanky.lua:384>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 384"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:384"
     },
     "x::<Plug>(YankyPutBeforeBlockwiseJoined)": {
         "mode": "x",
@@ -1221,7 +1221,7 @@
         "annotation": "*",
         "definition": "<Lua 909: …opt/yanky/lua/yanky.lua:379>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 379"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:379"
     },
     "n::<Plug>(YankyPutBeforeBlockwiseJoined)": {
         "mode": "n",
@@ -1229,7 +1229,7 @@
         "annotation": "*",
         "definition": "<Lua 908: …opt/yanky/lua/yanky.lua:375>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 375"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:375"
     },
     "x::<Plug>(YankyPutBeforeBlockwise)": {
         "mode": "x",
@@ -1237,7 +1237,7 @@
         "annotation": "*",
         "definition": "<Lua 907: …opt/yanky/lua/yanky.lua:371>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 371"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:371"
     },
     "n::<Plug>(YankyPutBeforeBlockwise)": {
         "mode": "n",
@@ -1245,7 +1245,7 @@
         "annotation": "*",
         "definition": "<Lua 906: …opt/yanky/lua/yanky.lua:367>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 367"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:367"
     },
     "x::<Plug>(YankyPutBeforeCharwiseJoined)": {
         "mode": "x",
@@ -1253,7 +1253,7 @@
         "annotation": "*",
         "definition": "<Lua 905: …opt/yanky/lua/yanky.lua:363>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 363"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:363"
     },
     "n::<Plug>(YankyPutBeforeCharwiseJoined)": {
         "mode": "n",
@@ -1261,7 +1261,7 @@
         "annotation": "*",
         "definition": "<Lua 904: …opt/yanky/lua/yanky.lua:359>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 359"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:359"
     },
     "x::<Plug>(YankyPutBeforeCharwise)": {
         "mode": "x",
@@ -1269,7 +1269,7 @@
         "annotation": "*",
         "definition": "<Lua 903: …opt/yanky/lua/yanky.lua:355>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 355"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:355"
     },
     "n::<Plug>(YankyPutBeforeCharwise)": {
         "mode": "n",
@@ -1277,7 +1277,7 @@
         "annotation": "*",
         "definition": "<Lua 902: …opt/yanky/lua/yanky.lua:351>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 351"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:351"
     },
     "x::<Plug>(YankyPutBeforeLinewiseJoined)": {
         "mode": "x",
@@ -1285,7 +1285,7 @@
         "annotation": "*",
         "definition": "<Lua 901: …opt/yanky/lua/yanky.lua:347>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 347"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:347"
     },
     "n::<Plug>(YankyPutBeforeLinewiseJoined)": {
         "mode": "n",
@@ -1293,7 +1293,7 @@
         "annotation": "*",
         "definition": "<Lua 900: …opt/yanky/lua/yanky.lua:343>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 343"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:343"
     },
     "x::<Plug>(YankyPutBeforeLinewise)": {
         "mode": "x",
@@ -1301,7 +1301,7 @@
         "annotation": "*",
         "definition": "<Lua 899: …opt/yanky/lua/yanky.lua:339>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 339"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:339"
     },
     "n::<Plug>(YankyPutBeforeLinewise)": {
         "mode": "n",
@@ -1309,7 +1309,7 @@
         "annotation": "*",
         "definition": "<Lua 898: …opt/yanky/lua/yanky.lua:335>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 335"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:335"
     },
     "x::<Plug>(YankyPutBeforeJoined)": {
         "mode": "x",
@@ -1317,7 +1317,7 @@
         "annotation": "*",
         "definition": "<Lua 897: …opt/yanky/lua/yanky.lua:331>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 331"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:331"
     },
     "n::<Plug>(YankyPutBeforeJoined)": {
         "mode": "n",
@@ -1325,7 +1325,7 @@
         "annotation": "*",
         "definition": "<Lua 896: …opt/yanky/lua/yanky.lua:327>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 327"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:327"
     },
     "x::<Plug>(YankyPutBefore)": {
         "mode": "x",
@@ -1333,7 +1333,7 @@
         "annotation": "*",
         "definition": "<Lua 895: …opt/yanky/lua/yanky.lua:323>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 323"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:323"
     },
     "n::<Plug>(YankyPutBefore)": {
         "mode": "n",
@@ -1341,7 +1341,7 @@
         "annotation": "*",
         "definition": "<Lua 894: …opt/yanky/lua/yanky.lua:319>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 319"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:319"
     },
     "x::<Plug>(YankyYank)": {
         "mode": "x",
@@ -1349,7 +1349,7 @@
         "annotation": "*",
         "definition": "<Lua 893: …opt/yanky/lua/yanky.lua:279>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 309"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:309"
     },
     "n::<Plug>(YankyYank)": {
         "mode": "n",
@@ -1357,7 +1357,7 @@
         "annotation": "*",
         "definition": "<Lua 892: …opt/yanky/lua/yanky.lua:279>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 309"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:309"
     },
     "n::<Plug>(YankyNextEntry)": {
         "mode": "n",
@@ -1365,7 +1365,7 @@
         "annotation": "*",
         "definition": "<Lua 891: …opt/yanky/lua/yanky.lua:305>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 305"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:305"
     },
     "n::<Plug>(YankyPreviousEntry)": {
         "mode": "n",
@@ -1373,7 +1373,7 @@
         "annotation": "*",
         "definition": "<Lua 890: …opt/yanky/lua/yanky.lua:301>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 301"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:301"
     },
     "n::<Plug>(YankyCycleBackward)": {
         "mode": "n",
@@ -1381,7 +1381,7 @@
         "annotation": "*",
         "definition": "<Lua 887: …opt/yanky/lua/yanky.lua:297>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 297"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:297"
     },
     "n::<Plug>(YankyCycleForward)": {
         "mode": "n",
@@ -1389,7 +1389,7 @@
         "annotation": "*",
         "definition": "<Lua 1122: …opt/yanky/lua/yanky.lua:293>",
         "description": null,
-        "origin": "Last set from …opt/yanky/lua/yanky.lua line 293"
+        "origin": "Last set from …opt/yanky/lua/yanky.lua:293"
     },
     "n::<Plug>(Marks-prev-bookmark9)": {
         "mode": "n",
@@ -1893,7 +1893,7 @@
         "annotation": "*",
         "definition": "<Plug>(leap-backward-next-to)",
         "description": null,
-        "origin": "Last set from …opt/leap/plugin/init.lua line 65"
+        "origin": "Last set from …opt/leap/plugin/init.lua:65"
     },
     "x::<Plug>(leap-backward-till)": {
         "mode": "x",
@@ -1901,7 +1901,7 @@
         "annotation": "*",
         "definition": "<Plug>(leap-backward-next-to)",
         "description": null,
-        "origin": "Last set from …opt/leap/plugin/init.lua line 65"
+        "origin": "Last set from …opt/leap/plugin/init.lua:65"
     },
     "n::<Plug>(leap-backward-till)": {
         "mode": "n",
@@ -1909,7 +1909,7 @@
         "annotation": "*",
         "definition": "<Plug>(leap-backward-next-to)",
         "description": null,
-        "origin": "Last set from …opt/leap/plugin/init.lua line 65"
+        "origin": "Last set from …opt/leap/plugin/init.lua:65"
     },
     "o::<Plug>(leap-forward-till)": {
         "mode": "o",
@@ -1917,7 +1917,7 @@
         "annotation": "*",
         "definition": "<Plug>(leap-forward-next-to)",
         "description": null,
-        "origin": "Last set from …opt/leap/plugin/init.lua line 64"
+        "origin": "Last set from …opt/leap/plugin/init.lua:64"
     },
     "x::<Plug>(leap-forward-till)": {
         "mode": "x",
@@ -1925,7 +1925,7 @@
         "annotation": "*",
         "definition": "<Plug>(leap-forward-next-to)",
         "description": null,
-        "origin": "Last set from …opt/leap/plugin/init.lua line 64"
+        "origin": "Last set from …opt/leap/plugin/init.lua:64"
     },
     "n::<Plug>(leap-forward-till)": {
         "mode": "n",
@@ -1933,7 +1933,7 @@
         "annotation": "*",
         "definition": "<Plug>(leap-forward-next-to)",
         "description": null,
-        "origin": "Last set from …opt/leap/plugin/init.lua line 64"
+        "origin": "Last set from …opt/leap/plugin/init.lua:64"
     },
     "o::<Plug>(leap-till)": {
         "mode": "o",
@@ -1941,7 +1941,7 @@
         "annotation": "*",
         "definition": "<Plug>(leap-next-to)",
         "description": null,
-        "origin": "Last set from …opt/leap/plugin/init.lua line 63"
+        "origin": "Last set from …opt/leap/plugin/init.lua:63"
     },
     "x::<Plug>(leap-till)": {
         "mode": "x",
@@ -1949,7 +1949,7 @@
         "annotation": "*",
         "definition": "<Plug>(leap-next-to)",
         "description": null,
-        "origin": "Last set from …opt/leap/plugin/init.lua line 63"
+        "origin": "Last set from …opt/leap/plugin/init.lua:63"
     },
     "n::<Plug>(leap-till)": {
         "mode": "n",
@@ -1957,7 +1957,7 @@
         "annotation": "*",
         "definition": "<Plug>(leap-next-to)",
         "description": null,
-        "origin": "Last set from …opt/leap/plugin/init.lua line 63"
+        "origin": "Last set from …opt/leap/plugin/init.lua:63"
     },
     "o::<Plug>(leap-remote-inner-text-object)": {
         "mode": "o",
@@ -1965,7 +1965,7 @@
         "annotation": "*",
         "definition": "<Lua 678: …opt/leap/plugin/init.lua:59>",
         "description": null,
-        "origin": "Last set from …opt/leap/plugin/init.lua line 59"
+        "origin": "Last set from …opt/leap/plugin/init.lua:59"
     },
     "x::<Plug>(leap-remote-inner-text-object)": {
         "mode": "x",
@@ -1973,7 +1973,7 @@
         "annotation": "*",
         "definition": "<Lua 677: …opt/leap/plugin/init.lua:59>",
         "description": null,
-        "origin": "Last set from …opt/leap/plugin/init.lua line 59"
+        "origin": "Last set from …opt/leap/plugin/init.lua:59"
     },
     "o::<Plug>(leap-remote-text-object)": {
         "mode": "o",
@@ -1981,7 +1981,7 @@
         "annotation": "*",
         "definition": "<Lua 676: …opt/leap/plugin/init.lua:56>",
         "description": null,
-        "origin": "Last set from …opt/leap/plugin/init.lua line 56"
+        "origin": "Last set from …opt/leap/plugin/init.lua:56"
     },
     "x::<Plug>(leap-remote-text-object)": {
         "mode": "x",
@@ -1989,7 +1989,7 @@
         "annotation": "*",
         "definition": "<Lua 675: …opt/leap/plugin/init.lua:56>",
         "description": null,
-        "origin": "Last set from …opt/leap/plugin/init.lua line 56"
+        "origin": "Last set from …opt/leap/plugin/init.lua:56"
     },
     "o::<Plug>(leap-remote-line)": {
         "mode": "o",
@@ -1997,7 +1997,7 @@
         "annotation": "*",
         "definition": "<Lua 674: …opt/leap/plugin/init.lua:45>",
         "description": null,
-        "origin": "Last set from …opt/leap/plugin/init.lua line 45"
+        "origin": "Last set from …opt/leap/plugin/init.lua:45"
     },
     "o::<Plug>(leap-remote-linewise)": {
         "mode": "o",
@@ -2005,7 +2005,7 @@
         "annotation": "*",
         "definition": "<Lua 673: …opt/leap/plugin/init.lua:42>",
         "description": null,
-        "origin": "Last set from …opt/leap/plugin/init.lua line 42"
+        "origin": "Last set from …opt/leap/plugin/init.lua:42"
     },
     "n::<Plug>(leap-remote-linewise)": {
         "mode": "n",
@@ -2013,7 +2013,7 @@
         "annotation": "*",
         "definition": "<Lua 672: …opt/leap/plugin/init.lua:42>",
         "description": null,
-        "origin": "Last set from …opt/leap/plugin/init.lua line 42"
+        "origin": "Last set from …opt/leap/plugin/init.lua:42"
     },
     "o::<Plug>(leap-remote)": {
         "mode": "o",
@@ -2021,7 +2021,7 @@
         "annotation": "*",
         "definition": "<Lua 671: …opt/leap/plugin/init.lua:28>",
         "description": null,
-        "origin": "Last set from …opt/leap/plugin/init.lua line 28"
+        "origin": "Last set from …opt/leap/plugin/init.lua:28"
     },
     "n::<Plug>(leap-remote)": {
         "mode": "n",
@@ -2029,7 +2029,7 @@
         "annotation": "*",
         "definition": "<Lua 670: …opt/leap/plugin/init.lua:28>",
         "description": null,
-        "origin": "Last set from …opt/leap/plugin/init.lua line 28"
+        "origin": "Last set from …opt/leap/plugin/init.lua:28"
     },
     "o::<Plug>(leap-anywhere)": {
         "mode": "o",
@@ -2037,7 +2037,7 @@
         "annotation": "*",
         "definition": "<Lua 669: …opt/leap/plugin/init.lua:24>",
         "description": null,
-        "origin": "Last set from …opt/leap/plugin/init.lua line 24"
+        "origin": "Last set from …opt/leap/plugin/init.lua:24"
     },
     "x::<Plug>(leap-anywhere)": {
         "mode": "x",
@@ -2045,7 +2045,7 @@
         "annotation": "*",
         "definition": "<Lua 668: …opt/leap/plugin/init.lua:24>",
         "description": null,
-        "origin": "Last set from …opt/leap/plugin/init.lua line 24"
+        "origin": "Last set from …opt/leap/plugin/init.lua:24"
     },
     "n::<Plug>(leap-anywhere)": {
         "mode": "n",
@@ -2053,7 +2053,7 @@
         "annotation": "*",
         "definition": "<Lua 667: …opt/leap/plugin/init.lua:24>",
         "description": null,
-        "origin": "Last set from …opt/leap/plugin/init.lua line 24"
+        "origin": "Last set from …opt/leap/plugin/init.lua:24"
     },
     "o::<Plug>(leap-from-window)": {
         "mode": "o",
@@ -2061,7 +2061,7 @@
         "annotation": "*",
         "definition": "<Lua 666: …opt/leap/plugin/init.lua:21>",
         "description": null,
-        "origin": "Last set from …opt/leap/plugin/init.lua line 21"
+        "origin": "Last set from …opt/leap/plugin/init.lua:21"
     },
     "x::<Plug>(leap-from-window)": {
         "mode": "x",
@@ -2069,7 +2069,7 @@
         "annotation": "*",
         "definition": "<Lua 665: …opt/leap/plugin/init.lua:21>",
         "description": null,
-        "origin": "Last set from …opt/leap/plugin/init.lua line 21"
+        "origin": "Last set from …opt/leap/plugin/init.lua:21"
     },
     "n::<Plug>(leap-from-window)": {
         "mode": "n",
@@ -2077,7 +2077,7 @@
         "annotation": "*",
         "definition": "<Lua 664: …opt/leap/plugin/init.lua:21>",
         "description": null,
-        "origin": "Last set from …opt/leap/plugin/init.lua line 21"
+        "origin": "Last set from …opt/leap/plugin/init.lua:21"
     },
     "o::<Plug>(leap-next-to)": {
         "mode": "o",
@@ -2085,7 +2085,7 @@
         "annotation": "*",
         "definition": "<Lua 663: …opt/leap/plugin/init.lua:18>",
         "description": null,
-        "origin": "Last set from …opt/leap/plugin/init.lua line 18"
+        "origin": "Last set from …opt/leap/plugin/init.lua:18"
     },
     "x::<Plug>(leap-next-to)": {
         "mode": "x",
@@ -2093,7 +2093,7 @@
         "annotation": "*",
         "definition": "<Lua 662: …opt/leap/plugin/init.lua:18>",
         "description": null,
-        "origin": "Last set from …opt/leap/plugin/init.lua line 18"
+        "origin": "Last set from …opt/leap/plugin/init.lua:18"
     },
     "n::<Plug>(leap-next-to)": {
         "mode": "n",
@@ -2101,7 +2101,7 @@
         "annotation": "*",
         "definition": "<Lua 661: …opt/leap/plugin/init.lua:18>",
         "description": null,
-        "origin": "Last set from …opt/leap/plugin/init.lua line 18"
+        "origin": "Last set from …opt/leap/plugin/init.lua:18"
     },
     "o::<Plug>(leap)": {
         "mode": "o",
@@ -2109,7 +2109,7 @@
         "annotation": "*",
         "definition": "<Lua 660: …opt/leap/plugin/init.lua:15>",
         "description": null,
-        "origin": "Last set from …opt/leap/plugin/init.lua line 15"
+        "origin": "Last set from …opt/leap/plugin/init.lua:15"
     },
     "x::<Plug>(leap)": {
         "mode": "x",
@@ -2117,7 +2117,7 @@
         "annotation": "*",
         "definition": "<Lua 659: …opt/leap/plugin/init.lua:15>",
         "description": null,
-        "origin": "Last set from …opt/leap/plugin/init.lua line 15"
+        "origin": "Last set from …opt/leap/plugin/init.lua:15"
     },
     "n::<Plug>(leap)": {
         "mode": "n",
@@ -2125,7 +2125,7 @@
         "annotation": "*",
         "definition": "<Lua 658: …opt/leap/plugin/init.lua:15>",
         "description": null,
-        "origin": "Last set from …opt/leap/plugin/init.lua line 15"
+        "origin": "Last set from …opt/leap/plugin/init.lua:15"
     },
     "o::<Plug>(leap-backward-next-to)": {
         "mode": "o",
@@ -2133,7 +2133,7 @@
         "annotation": "*",
         "definition": "<Lua 657: …opt/leap/plugin/init.lua:12>",
         "description": null,
-        "origin": "Last set from …opt/leap/plugin/init.lua line 12"
+        "origin": "Last set from …opt/leap/plugin/init.lua:12"
     },
     "x::<Plug>(leap-backward-next-to)": {
         "mode": "x",
@@ -2141,7 +2141,7 @@
         "annotation": "*",
         "definition": "<Lua 656: …opt/leap/plugin/init.lua:12>",
         "description": null,
-        "origin": "Last set from …opt/leap/plugin/init.lua line 12"
+        "origin": "Last set from …opt/leap/plugin/init.lua:12"
     },
     "n::<Plug>(leap-backward-next-to)": {
         "mode": "n",
@@ -2149,7 +2149,7 @@
         "annotation": "*",
         "definition": "<Lua 655: …opt/leap/plugin/init.lua:12>",
         "description": null,
-        "origin": "Last set from …opt/leap/plugin/init.lua line 12"
+        "origin": "Last set from …opt/leap/plugin/init.lua:12"
     },
     "o::<Plug>(leap-backward)": {
         "mode": "o",
@@ -2157,7 +2157,7 @@
         "annotation": "*",
         "definition": "<Lua 654: …opt/leap/plugin/init.lua:9>",
         "description": null,
-        "origin": "Last set from …opt/leap/plugin/init.lua line 9"
+        "origin": "Last set from …opt/leap/plugin/init.lua:9"
     },
     "x::<Plug>(leap-backward)": {
         "mode": "x",
@@ -2165,7 +2165,7 @@
         "annotation": "*",
         "definition": "<Lua 653: …opt/leap/plugin/init.lua:9>",
         "description": null,
-        "origin": "Last set from …opt/leap/plugin/init.lua line 9"
+        "origin": "Last set from …opt/leap/plugin/init.lua:9"
     },
     "n::<Plug>(leap-backward)": {
         "mode": "n",
@@ -2173,7 +2173,7 @@
         "annotation": "*",
         "definition": "<Lua 652: …opt/leap/plugin/init.lua:9>",
         "description": null,
-        "origin": "Last set from …opt/leap/plugin/init.lua line 9"
+        "origin": "Last set from …opt/leap/plugin/init.lua:9"
     },
     "o::<Plug>(leap-forward-next-to)": {
         "mode": "o",
@@ -2181,7 +2181,7 @@
         "annotation": "*",
         "definition": "<Lua 651: …opt/leap/plugin/init.lua:6>",
         "description": null,
-        "origin": "Last set from …opt/leap/plugin/init.lua line 6"
+        "origin": "Last set from …opt/leap/plugin/init.lua:6"
     },
     "x::<Plug>(leap-forward-next-to)": {
         "mode": "x",
@@ -2189,7 +2189,7 @@
         "annotation": "*",
         "definition": "<Lua 650: …opt/leap/plugin/init.lua:6>",
         "description": null,
-        "origin": "Last set from …opt/leap/plugin/init.lua line 6"
+        "origin": "Last set from …opt/leap/plugin/init.lua:6"
     },
     "n::<Plug>(leap-forward-next-to)": {
         "mode": "n",
@@ -2197,7 +2197,7 @@
         "annotation": "*",
         "definition": "<Lua 649: …opt/leap/plugin/init.lua:6>",
         "description": null,
-        "origin": "Last set from …opt/leap/plugin/init.lua line 6"
+        "origin": "Last set from …opt/leap/plugin/init.lua:6"
     },
     "o::<Plug>(leap-forward)": {
         "mode": "o",
@@ -2205,7 +2205,7 @@
         "annotation": "*",
         "definition": "<Lua 648: …opt/leap/plugin/init.lua:3>",
         "description": null,
-        "origin": "Last set from …opt/leap/plugin/init.lua line 3"
+        "origin": "Last set from …opt/leap/plugin/init.lua:3"
     },
     "x::<Plug>(leap-forward)": {
         "mode": "x",
@@ -2213,7 +2213,7 @@
         "annotation": "*",
         "definition": "<Lua 647: …opt/leap/plugin/init.lua:3>",
         "description": null,
-        "origin": "Last set from …opt/leap/plugin/init.lua line 3"
+        "origin": "Last set from …opt/leap/plugin/init.lua:3"
     },
     "n::<Plug>(leap-forward)": {
         "mode": "n",
@@ -2221,7 +2221,7 @@
         "annotation": "*",
         "definition": "<Lua 765: …opt/leap/plugin/init.lua:3>",
         "description": null,
-        "origin": "Last set from …opt/leap/plugin/init.lua line 3"
+        "origin": "Last set from …opt/leap/plugin/init.lua:3"
     },
     "o::<Plug>WordMotion_iw": {
         "mode": "o",
@@ -2357,7 +2357,7 @@
         "annotation": "*",
         "definition": "<Lua 327: …opt/nvim-surround/plugin/nvim-surround.lua:150>",
         "description": "Change a surrounding pair, putting replacements on new lines",
-        "origin": "Last set from …opt/nvim-surround/plugin/nvim-surround.lua line 150"
+        "origin": "Last set from …opt/nvim-surround/plugin/nvim-surround.lua:150"
     },
     "n::<Plug>(nvim-surround-change)": {
         "mode": "n",
@@ -2365,7 +2365,7 @@
         "annotation": "*",
         "definition": "<Lua 326: …opt/nvim-surround/plugin/nvim-surround.lua:143>",
         "description": "Change a surrounding pair",
-        "origin": "Last set from …opt/nvim-surround/plugin/nvim-surround.lua line 143"
+        "origin": "Last set from …opt/nvim-surround/plugin/nvim-surround.lua:143"
     },
     "n::<Plug>(nvim-surround-delete)": {
         "mode": "n",
@@ -2373,7 +2373,7 @@
         "annotation": "*",
         "definition": "<Lua 325: …opt/nvim-surround/lua/nvim-surround/init.lua:171>",
         "description": "Delete a surrounding pair",
-        "origin": "Last set from …opt/nvim-surround/plugin/nvim-surround.lua line 138"
+        "origin": "Last set from …opt/nvim-surround/plugin/nvim-surround.lua:138"
     },
     "x::<Plug>(nvim-surround-visual-line)": {
         "mode": "x",
@@ -2381,7 +2381,7 @@
         "annotation": "*",
         "definition": "<Lua 324: …opt/nvim-surround/plugin/nvim-surround.lua:126>",
         "description": "Add a surrounding pair around a visual selection, on new lines",
-        "origin": "Last set from …opt/nvim-surround/plugin/nvim-surround.lua line 126"
+        "origin": "Last set from …opt/nvim-surround/plugin/nvim-surround.lua:126"
     },
     "x::<Plug>(nvim-surround-visual)": {
         "mode": "x",
@@ -2389,7 +2389,7 @@
         "annotation": "*",
         "definition": "<Lua 323: …opt/nvim-surround/plugin/nvim-surround.lua:113>",
         "description": "Add a surrounding pair around a visual selection",
-        "origin": "Last set from …opt/nvim-surround/plugin/nvim-surround.lua line 113"
+        "origin": "Last set from …opt/nvim-surround/plugin/nvim-surround.lua:113"
     },
     "n::<Plug>(nvim-surround-normal-cur-line)": {
         "mode": "n",
@@ -2397,7 +2397,7 @@
         "annotation": "*",
         "definition": "<Lua 322: …opt/nvim-surround/plugin/nvim-surround.lua:106>",
         "description": "Add a surrounding pair around the current line, on new lines (normal mode)",
-        "origin": "Last set from …opt/nvim-surround/plugin/nvim-surround.lua line 106"
+        "origin": "Last set from …opt/nvim-surround/plugin/nvim-surround.lua:106"
     },
     "n::<Plug>(nvim-surround-normal-line)": {
         "mode": "n",
@@ -2405,7 +2405,7 @@
         "annotation": "*",
         "definition": "<Lua 321: …opt/nvim-surround/plugin/nvim-surround.lua:99>",
         "description": "Add a surrounding pair around a motion, on new lines (normal mode)",
-        "origin": "Last set from …opt/nvim-surround/plugin/nvim-surround.lua line 99"
+        "origin": "Last set from …opt/nvim-surround/plugin/nvim-surround.lua:99"
     },
     "n::<Plug>(nvim-surround-normal-cur)": {
         "mode": "n",
@@ -2413,7 +2413,7 @@
         "annotation": "*",
         "definition": "<Lua 320: …opt/nvim-surround/plugin/nvim-surround.lua:92>",
         "description": "Add a surrounding pair around the current line (normal mode)",
-        "origin": "Last set from …opt/nvim-surround/plugin/nvim-surround.lua line 92"
+        "origin": "Last set from …opt/nvim-surround/plugin/nvim-surround.lua:92"
     },
     "n::<Plug>(nvim-surround-normal)": {
         "mode": "n",
@@ -2421,7 +2421,7 @@
         "annotation": "*",
         "definition": "<Lua 319: …opt/nvim-surround/plugin/nvim-surround.lua:85>",
         "description": "Add a surrounding pair around a motion (normal mode)",
-        "origin": "Last set from …opt/nvim-surround/plugin/nvim-surround.lua line 85"
+        "origin": "Last set from …opt/nvim-surround/plugin/nvim-surround.lua:85"
     },
     "x::<Plug>(textobj-sandwich-literal-query-a)": {
         "mode": "x",
@@ -3013,7 +3013,7 @@
         "annotation": "*",
         "definition": "<Lua 226: …opt/wrapping/lua/wrapping/init.lua:402>",
         "description": "Toggle wrap mode",
-        "origin": "Last set from …opt/wrapping/lua/wrapping/init.lua line 402"
+        "origin": "Last set from …opt/wrapping/lua/wrapping/init.lua:402"
     },
     "n::<Plug>(wrapping-hard-wrap-mode)": {
         "mode": "n",
@@ -3021,7 +3021,7 @@
         "annotation": "*",
         "definition": "<Lua 225: …opt/wrapping/lua/wrapping/init.lua:399>",
         "description": "Hard wrap mode",
-        "origin": "Last set from …opt/wrapping/lua/wrapping/init.lua line 399"
+        "origin": "Last set from …opt/wrapping/lua/wrapping/init.lua:399"
     },
     "n::<Plug>(wrapping-soft-wrap-mode)": {
         "mode": "n",
@@ -3029,7 +3029,7 @@
         "annotation": "*",
         "definition": "<Lua 219: …opt/wrapping/lua/wrapping/init.lua:396>",
         "description": "Soft wrap mode",
-        "origin": "Last set from …opt/wrapping/lua/wrapping/init.lua line 396"
+        "origin": "Last set from …opt/wrapping/lua/wrapping/init.lua:396"
     },
     "x::<Plug>CaserVDotCase": {
         "mode": "x",
@@ -3477,7 +3477,7 @@
         "annotation": "*",
         "definition": "<Esc><Cmd>lua require(\"Comment.api\").locked(\"toggle.blockwise\")(vim.fn.visualmode())<CR>",
         "description": "Comment toggle blockwise (visual)",
-        "origin": "Last set from …opt/Comment/plugin/Comment.lua line 137"
+        "origin": "Last set from …opt/Comment/plugin/Comment.lua:137"
     },
     "x::<Plug>(comment_toggle_linewise_visual)": {
         "mode": "x",
@@ -3485,7 +3485,7 @@
         "annotation": "*",
         "definition": "<Esc><Cmd>lua require(\"Comment.api\").locked(\"toggle.linewise\")(vim.fn.visualmode())<CR>",
         "description": "Comment toggle linewise (visual)",
-        "origin": "Last set from …opt/Comment/plugin/Comment.lua line 131"
+        "origin": "Last set from …opt/Comment/plugin/Comment.lua:131"
     },
     "n::<Plug>(comment_toggle_blockwise_count)": {
         "mode": "n",
@@ -3493,7 +3493,7 @@
         "annotation": "*",
         "definition": "<Lua 156: …opt/Comment/lua/Comment/api.lua:246>",
         "description": "Comment toggle blockwise with count",
-        "origin": "Last set from …opt/Comment/plugin/Comment.lua line 123"
+        "origin": "Last set from …opt/Comment/plugin/Comment.lua:123"
     },
     "n::<Plug>(comment_toggle_linewise_count)": {
         "mode": "n",
@@ -3501,7 +3501,7 @@
         "annotation": "*",
         "definition": "<Lua 13: …opt/Comment/lua/Comment/api.lua:246>",
         "description": "Comment toggle linewise with count",
-        "origin": "Last set from …opt/Comment/plugin/Comment.lua line 117"
+        "origin": "Last set from …opt/Comment/plugin/Comment.lua:117"
     },
     "n::<Plug>(comment_toggle_blockwise_current)": {
         "mode": "n",
@@ -3509,7 +3509,7 @@
         "annotation": "*",
         "definition": "<Lua 12: …opt/Comment/lua/Comment/api.lua:246>",
         "description": "Comment toggle current block",
-        "origin": "Last set from …opt/Comment/plugin/Comment.lua line 109"
+        "origin": "Last set from …opt/Comment/plugin/Comment.lua:109"
     },
     "n::<Plug>(comment_toggle_linewise_current)": {
         "mode": "n",
@@ -3517,7 +3517,7 @@
         "annotation": "*",
         "definition": "<Lua 15: …opt/Comment/lua/Comment/api.lua:246>",
         "description": "Comment toggle current line",
-        "origin": "Last set from …opt/Comment/plugin/Comment.lua line 103"
+        "origin": "Last set from …opt/Comment/plugin/Comment.lua:103"
     },
     "n::<Plug>(comment_toggle_blockwise)": {
         "mode": "n",
@@ -3525,7 +3525,7 @@
         "annotation": "*",
         "definition": "<Lua 14: …opt/Comment/lua/Comment/api.lua:246>",
         "description": "Comment toggle blockwise",
-        "origin": "Last set from …opt/Comment/plugin/Comment.lua line 95"
+        "origin": "Last set from …opt/Comment/plugin/Comment.lua:95"
     },
     "n::<Plug>(comment_toggle_linewise)": {
         "mode": "n",
@@ -3533,7 +3533,7 @@
         "annotation": "*",
         "definition": "<Lua 249: …opt/Comment/lua/Comment/api.lua:246>",
         "description": "Comment toggle linewise",
-        "origin": "Last set from …opt/Comment/plugin/Comment.lua line 89"
+        "origin": "Last set from …opt/Comment/plugin/Comment.lua:89"
     },
     "n::<Plug>CommentaryUndo": {
         "mode": "n",

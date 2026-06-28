@@ -5,7 +5,7 @@
         "annotation": "*",
         "definition": "<Plug>(nvim-surround-change-line)",
         "description": "Change a surrounding pair, putting replacements on new lines",
-        "origin": "Last set from …opt/nvim-surround/plugin/nvim-surround.lua line 56"
+        "origin": "Last set from …opt/nvim-surround/plugin/nvim-surround.lua:56"
     },
     "n::cs": {
         "mode": "n",
@@ -13,7 +13,7 @@
         "annotation": "*",
         "definition": "<Plug>(nvim-surround-change)",
         "description": "Change a surrounding pair",
-        "origin": "Last set from …opt/nvim-surround/plugin/nvim-surround.lua line 53"
+        "origin": "Last set from …opt/nvim-surround/plugin/nvim-surround.lua:53"
     },
     "n::cr": {
         "mode": "n",

@@ -5,7 +5,7 @@
         "annotation": "*",
         "definition": "<Lua 824: …opt/marks/lua/marks/init.lua:121>",
         "description": "marks: delete bookmark5",
-        "origin": "Last set from …opt/marks/lua/marks/init.lua line 170"
+        "origin": "Last set from …opt/marks/lua/marks/init.lua:170"
     },
     "n::dm<Space>": {
         "mode": "n",
@@ -13,7 +13,7 @@
         "annotation": "*",
         "definition": "<Lua 825: …opt/marks/lua/marks/init.lua:52>",
         "description": "marks: delete buf",
-        "origin": "Last set from …opt/marks/lua/marks/init.lua line 170"
+        "origin": "Last set from …opt/marks/lua/marks/init.lua:170"
     },
     "n::dm-": {
         "mode": "n",
@@ -21,7 +21,7 @@
         "annotation": "*",
         "definition": "<Lua 827: …opt/marks/lua/marks/init.lua:48>",
         "description": "marks: delete line",
-        "origin": "Last set from …opt/marks/lua/marks/init.lua line 170"
+        "origin": "Last set from …opt/marks/lua/marks/init.lua:170"
     },
     "n::dm4": {
         "mode": "n",
@@ -29,7 +29,7 @@
         "annotation": "*",
         "definition": "<Lua 829: …opt/marks/lua/marks/init.lua:121>",
         "description": "marks: delete bookmark4",
-        "origin": "Last set from …opt/marks/lua/marks/init.lua line 170"
+        "origin": "Last set from …opt/marks/lua/marks/init.lua:170"
     },
     "n::dm3": {
         "mode": "n",
@@ -37,7 +37,7 @@
         "annotation": "*",
         "definition": "<Lua 830: …opt/marks/lua/marks/init.lua:121>",
         "description": "marks: delete bookmark3",
-        "origin": "Last set from …opt/marks/lua/marks/init.lua line 170"
+        "origin": "Last set from …opt/marks/lua/marks/init.lua:170"
     },
     "n::dm2": {
         "mode": "n",
@@ -45,7 +45,7 @@
         "annotation": "*",
         "definition": "<Lua 833: …opt/marks/lua/marks/init.lua:121>",
         "description": "marks: delete bookmark2",
-        "origin": "Last set from …opt/marks/lua/marks/init.lua line 170"
+        "origin": "Last set from …opt/marks/lua/marks/init.lua:170"
     },
     "n::dm": {
         "mode": "n",
@@ -53,7 +53,7 @@
         "annotation": "*",
         "definition": "<Lua 835: …opt/marks/lua/marks/init.lua:34>",
         "description": "marks: delete",
-        "origin": "Last set from …opt/marks/lua/marks/init.lua line 170"
+        "origin": "Last set from …opt/marks/lua/marks/init.lua:170"
     },
     "n::dm=": {
         "mode": "n",
@@ -61,7 +61,7 @@
         "annotation": "*",
         "definition": "<Lua 841: …opt/marks/lua/marks/init.lua:126>",
         "description": "marks: delete bookmark",
-        "origin": "Last set from …opt/marks/lua/marks/init.lua line 170"
+        "origin": "Last set from …opt/marks/lua/marks/init.lua:170"
     },
     "n::dm6": {
         "mode": "n",
@@ -69,7 +69,7 @@
         "annotation": "*",
         "definition": "<Lua 842: …opt/marks/lua/marks/init.lua:121>",
         "description": "marks: delete bookmark6",
-        "origin": "Last set from …opt/marks/lua/marks/init.lua line 170"
+        "origin": "Last set from …opt/marks/lua/marks/init.lua:170"
     },
     "n::dm1": {
         "mode": "n",
@@ -77,7 +77,7 @@
         "annotation": "*",
         "definition": "<Lua 844: …opt/marks/lua/marks/init.lua:121>",
         "description": "marks: delete bookmark1",
-        "origin": "Last set from …opt/marks/lua/marks/init.lua line 170"
+        "origin": "Last set from …opt/marks/lua/marks/init.lua:170"
     },
     "n::dm7": {
         "mode": "n",
@@ -85,7 +85,7 @@
         "annotation": "*",
         "definition": "<Lua 847: …opt/marks/lua/marks/init.lua:121>",
         "description": "marks: delete bookmark7",
-        "origin": "Last set from …opt/marks/lua/marks/init.lua line 170"
+        "origin": "Last set from …opt/marks/lua/marks/init.lua:170"
     },
     "n::dm0": {
         "mode": "n",
@@ -93,7 +93,7 @@
         "annotation": "*",
         "definition": "<Lua 849: …opt/marks/lua/marks/init.lua:121>",
         "description": "marks: delete bookmark0",
-        "origin": "Last set from …opt/marks/lua/marks/init.lua line 170"
+        "origin": "Last set from …opt/marks/lua/marks/init.lua:170"
     },
     "n::dm8": {
         "mode": "n",
@@ -101,7 +101,7 @@
         "annotation": "*",
         "definition": "<Lua 852: …opt/marks/lua/marks/init.lua:121>",
         "description": "marks: delete bookmark8",
-        "origin": "Last set from …opt/marks/lua/marks/init.lua line 170"
+        "origin": "Last set from …opt/marks/lua/marks/init.lua:170"
     },
     "n::dm9": {
         "mode": "n",
@@ -109,7 +109,7 @@
         "annotation": "*",
         "definition": "<Lua 819: …opt/marks/lua/marks/init.lua:121>",
         "description": "marks: delete bookmark9",
-        "origin": "Last set from …opt/marks/lua/marks/init.lua line 170"
+        "origin": "Last set from …opt/marks/lua/marks/init.lua:170"
     },
     "n::ds": {
         "mode": "n",
@@ -117,6 +117,6 @@
         "annotation": "*",
         "definition": "<Plug>(nvim-surround-delete)",
         "description": "Delete a surrounding pair",
-        "origin": "Last set from …opt/nvim-surround/plugin/nvim-surround.lua line 50"
+        "origin": "Last set from …opt/nvim-surround/plugin/nvim-surround.lua:50"
     }
 }

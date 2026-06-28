@@ -5,7 +5,7 @@
         "annotation": "*",
         "definition": "<Plug>(YankyPutIndentAfterLinewise)",
         "description": null,
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "n::]p": {
         "mode": "n",
@@ -13,7 +13,7 @@
         "annotation": "*",
         "definition": "<Plug>(YankyPutIndentAfterLinewise)",
         "description": null,
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "n::];": {
         "mode": "n",
@@ -21,7 +21,7 @@
         "annotation": "*",
         "definition": "<Lua 739: ~/.config/nvim/lua/ui.lua:547>",
         "description": null,
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "n::]u": {
         "mode": "n",
@@ -29,7 +29,7 @@
         "annotation": "*",
         "definition": "<Lua 802: …opt/urlview/lua/urlview/jump.lua:153>",
         "description": "Next URL",
-        "origin": "Last set from …opt/urlview/lua/urlview/jump.lua line 153"
+        "origin": "Last set from …opt/urlview/lua/urlview/jump.lua:153"
     },
     "n::]ow": {
         "mode": "n",
@@ -37,7 +37,7 @@
         "annotation": "*",
         "definition": "<Plug>(wrapping-hard-wrap-mode)",
         "description": "Hard wrap mode",
-        "origin": "Last set from …opt/wrapping/lua/wrapping/init.lua line 484"
+        "origin": "Last set from …opt/wrapping/lua/wrapping/init.lua:484"
     },
     "o::]o": {
         "mode": "o",
@@ -45,7 +45,7 @@
         "annotation": "*",
         "definition": "<Lua 203: …opt/sort/lua/sort/motions.lua:68>",
         "description": "Next delimiter",
-        "origin": "Last set from …opt/sort/lua/sort/mappings.lua line 106"
+        "origin": "Last set from …opt/sort/lua/sort/mappings.lua:106"
     },
     "x::]o": {
         "mode": "x",
@@ -53,7 +53,7 @@
         "annotation": "*",
         "definition": "<Lua 202: …opt/sort/lua/sort/motions.lua:68>",
         "description": "Next delimiter",
-        "origin": "Last set from …opt/sort/lua/sort/mappings.lua line 106"
+        "origin": "Last set from …opt/sort/lua/sort/mappings.lua:106"
     },
     "n::]o": {
         "mode": "n",
@@ -61,7 +61,7 @@
         "annotation": "*",
         "definition": "<Lua 206: …opt/sort/lua/sort/motions.lua:68>",
         "description": "Next delimiter",
-        "origin": "Last set from …opt/sort/lua/sort/mappings.lua line 106"
+        "origin": "Last set from …opt/sort/lua/sort/mappings.lua:106"
     },
     "n::]l": {
         "mode": "n",
@@ -69,7 +69,7 @@
         "annotation": "*",
         "definition": "<Cmd>lnext<CR>",
         "description": null,
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "n::]q": {
         "mode": "n",
@@ -77,7 +77,7 @@
         "annotation": "*",
         "definition": "<Cmd>cnext<CR>",
         "description": null,
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "n::]d": {
         "mode": "n",
@@ -85,7 +85,7 @@
         "annotation": "*",
         "definition": "<Lua 31: …-neovim-unwrapped-cd72e13/share/nvim/runtime/lua/vim/diagnostic.lua:641>",
         "description": null,
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "x::]N": {
         "mode": "x",

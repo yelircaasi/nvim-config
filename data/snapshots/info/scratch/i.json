@@ -5,7 +5,7 @@
         "annotation": "*",
         "definition": "<Lua 793: ~/.config/nvim/lua/treesitter.lua:144>",
         "description": null,
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "x::ic": {
         "mode": "x",
@@ -13,7 +13,7 @@
         "annotation": "*",
         "definition": "<Lua 794: ~/.config/nvim/lua/treesitter.lua:144>",
         "description": null,
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "o::iw": {
         "mode": "o",
@@ -37,7 +37,7 @@
         "annotation": "*",
         "definition": "<Lua 413: ~/.config/nvim/lua/treesitter.lua:130>",
         "description": null,
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "o::im": {
         "mode": "o",
@@ -45,7 +45,7 @@
         "annotation": "*",
         "definition": "<Lua 414: ~/.config/nvim/lua/treesitter.lua:130>",
         "description": null,
-        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+        "origin": "Last set from …-pde/config/lua/utils.lua:184"
     },
     "x::is": {
         "mode": "x",
@@ -85,7 +85,7 @@
         "annotation": "*",
         "definition": "<Lua 208: …opt/sort/lua/sort/textobjects.lua:135>",
         "description": "Inner sortable region",
-        "origin": "Last set from …opt/sort/lua/sort/mappings.lua line 88"
+        "origin": "Last set from …opt/sort/lua/sort/mappings.lua:88"
     },
     "o::io": {
         "mode": "o",
@@ -93,7 +93,7 @@
         "annotation": "*",
         "definition": "<Lua 210: …opt/sort/lua/sort/textobjects.lua:135>",
         "description": "Inner sortable region",
-        "origin": "Last set from …opt/sort/lua/sort/mappings.lua line 88"
+        "origin": "Last set from …opt/sort/lua/sort/mappings.lua:88"
     },
     "o::in": {
         "mode": "o",
