@@ -1,0 +1,210 @@
+{
+    "n::]P": {
+        "mode": "n",
+        "keybind": "]P",
+        "annotation": "*",
+        "definition": "<Plug>(YankyPutIndentAfterLinewise)",
+        "description": null,
+        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+    },
+    "n::]p": {
+        "mode": "n",
+        "keybind": "]p",
+        "annotation": "*",
+        "definition": "<Plug>(YankyPutIndentAfterLinewise)",
+        "description": null,
+        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+    },
+    "n::];": {
+        "mode": "n",
+        "keybind": "];",
+        "annotation": "*",
+        "definition": "<Lua 739: ~/.config/nvim/lua/ui.lua:547>",
+        "description": null,
+        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+    },
+    "n::]u": {
+        "mode": "n",
+        "keybind": "]u",
+        "annotation": "*",
+        "definition": "<Lua 802: …opt/urlview/lua/urlview/jump.lua:153>",
+        "description": "Next URL",
+        "origin": "Last set from …opt/urlview/lua/urlview/jump.lua line 153"
+    },
+    "n::]ow": {
+        "mode": "n",
+        "keybind": "]ow",
+        "annotation": "*",
+        "definition": "<Plug>(wrapping-hard-wrap-mode)",
+        "description": "Hard wrap mode",
+        "origin": "Last set from …opt/wrapping/lua/wrapping/init.lua line 484"
+    },
+    "o::]o": {
+        "mode": "o",
+        "keybind": "]o",
+        "annotation": "*",
+        "definition": "<Lua 203: …opt/sort/lua/sort/motions.lua:68>",
+        "description": "Next delimiter",
+        "origin": "Last set from …opt/sort/lua/sort/mappings.lua line 106"
+    },
+    "x::]o": {
+        "mode": "x",
+        "keybind": "]o",
+        "annotation": "*",
+        "definition": "<Lua 202: …opt/sort/lua/sort/motions.lua:68>",
+        "description": "Next delimiter",
+        "origin": "Last set from …opt/sort/lua/sort/mappings.lua line 106"
+    },
+    "n::]o": {
+        "mode": "n",
+        "keybind": "]o",
+        "annotation": "*",
+        "definition": "<Lua 206: …opt/sort/lua/sort/motions.lua:68>",
+        "description": "Next delimiter",
+        "origin": "Last set from …opt/sort/lua/sort/mappings.lua line 106"
+    },
+    "n::]l": {
+        "mode": "n",
+        "keybind": "]l",
+        "annotation": "*",
+        "definition": "<Cmd>lnext<CR>",
+        "description": null,
+        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+    },
+    "n::]q": {
+        "mode": "n",
+        "keybind": "]q",
+        "annotation": "*",
+        "definition": "<Cmd>cnext<CR>",
+        "description": null,
+        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+    },
+    "n::]d": {
+        "mode": "n",
+        "keybind": "]d",
+        "annotation": "*",
+        "definition": "<Lua 31: …-neovim-unwrapped-cd72e13/share/nvim/runtime/lua/vim/diagnostic.lua:641>",
+        "description": null,
+        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+    },
+    "x::]N": {
+        "mode": "x",
+        "keybind": "]N",
+        "annotation": "*",
+        "definition": "<Lua 66: vim/_core/defaults:475>",
+        "description": "Select next sibling node",
+        "origin": "Last set from vim/_core/defaults line 475"
+    },
+    "x::]n": {
+        "mode": "x",
+        "keybind": "]n",
+        "annotation": "*",
+        "definition": "<Lua 64: vim/_core/defaults:467>",
+        "description": "Select next node",
+        "origin": "Last set from vim/_core/defaults line 467"
+    },
+    "n::]<Space>": {
+        "mode": "n",
+        "keybind": "]<Space>",
+        "annotation": "*",
+        "definition": "<Lua 62: vim/_core/defaults:454>",
+        "description": "Add empty line below cursor",
+        "origin": "Last set from vim/_core/defaults line 454"
+    },
+    "n::]B": {
+        "mode": "n",
+        "keybind": "]B",
+        "annotation": "*",
+        "definition": "<Lua 60: vim/_core/defaults:439>",
+        "description": ":blast",
+        "origin": "Last set from vim/_core/defaults line 439"
+    },
+    "n::]b": {
+        "mode": "n",
+        "keybind": "]b",
+        "annotation": "*",
+        "definition": "<Lua 58: vim/_core/defaults:427>",
+        "description": ":bnext",
+        "origin": "Last set from vim/_core/defaults line 427"
+    },
+    "n::]<C-T>": {
+        "mode": "n",
+        "keybind": "]<C-T>",
+        "annotation": "*",
+        "definition": "<Lua 56: vim/_core/defaults:417>",
+        "description": ":ptnext",
+        "origin": "Last set from vim/_core/defaults line 417"
+    },
+    "n::]T": {
+        "mode": "n",
+        "keybind": "]T",
+        "annotation": "*",
+        "definition": "<Lua 54: vim/_core/defaults:403>",
+        "description": ":tlast",
+        "origin": "Last set from vim/_core/defaults line 403"
+    },
+    "n::]t": {
+        "mode": "n",
+        "keybind": "]t",
+        "annotation": "*",
+        "definition": "<Lua 52: vim/_core/defaults:393>",
+        "description": ":tnext",
+        "origin": "Last set from vim/_core/defaults line 393"
+    },
+    "n::]A": {
+        "mode": "n",
+        "keybind": "]A",
+        "annotation": "*",
+        "definition": "<Lua 50: vim/_core/defaults:379>",
+        "description": ":last",
+        "origin": "Last set from vim/_core/defaults line 379"
+    },
+    "n::]a": {
+        "mode": "n",
+        "keybind": "]a",
+        "annotation": "*",
+        "definition": "<Lua 48: vim/_core/defaults:366>",
+        "description": ":next",
+        "origin": "Last set from vim/_core/defaults line 366"
+    },
+    "n::]<C-L>": {
+        "mode": "n",
+        "keybind": "]<C-L>",
+        "annotation": "*",
+        "definition": "<Lua 46: vim/_core/defaults:357>",
+        "description": ":lnfile",
+        "origin": "Last set from vim/_core/defaults line 357"
+    },
+    "n::]L": {
+        "mode": "n",
+        "keybind": "]L",
+        "annotation": "*",
+        "definition": "<Lua 44: vim/_core/defaults:349>",
+        "description": ":llast",
+        "origin": "Last set from vim/_core/defaults line 349"
+    },
+    "n::]<C-Q>": {
+        "mode": "n",
+        "keybind": "]<C-Q>",
+        "annotation": "*",
+        "definition": "<Lua 40: vim/_core/defaults:332>",
+        "description": ":cnfile",
+        "origin": "Last set from vim/_core/defaults line 332"
+    },
+    "n::]Q": {
+        "mode": "n",
+        "keybind": "]Q",
+        "annotation": "*",
+        "definition": "<Lua 38: vim/_core/defaults:324>",
+        "description": ":clast",
+        "origin": "Last set from vim/_core/defaults line 324"
+    },
+    "n::]D": {
+        "mode": "n",
+        "keybind": "]D",
+        "annotation": "*",
+        "definition": "<Lua 32: vim/_core/defaults:280>",
+        "description": "Jump to the last diagnostic in the current buffer",
+        "origin": "Last set from vim/_core/defaults line 280"
+    }
+}

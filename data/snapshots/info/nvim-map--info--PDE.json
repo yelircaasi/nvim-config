@@ -5,7 +5,7 @@
         "annotation": "*",
         "definition": "<Lua 27: vim/_core/defaults:250>",
         "description": "vim.snippet.jump if active, otherwise <Tab>",
-        "origin": "Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 250"
+        "origin": "Last set from vim/_core/defaults line 250"
     },
     "x::<CR>": {
         "mode": "x",
@@ -1461,7 +1461,7 @@
         "annotation": "*",
         "definition": "<Lua 9: vim/_core/defaults:104>",
         "description": ":help v_#-default",
-        "origin": "Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 104"
+        "origin": "Last set from vim/_core/defaults line 104"
     },
     "n::&": {
         "mode": "n",
@@ -1469,7 +1469,7 @@
         "annotation": "*",
         "definition": ":&&<CR>",
         "description": ":help &-default",
-        "origin": "Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 130"
+        "origin": "Last set from vim/_core/defaults line 130"
     },
     "x::*": {
         "mode": "x",
@@ -1477,7 +1477,7 @@
         "annotation": "*",
         "definition": "<Lua 6: vim/_core/defaults:101>",
         "description": ":help v_star-default",
-        "origin": "Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 101"
+        "origin": "Last set from vim/_core/defaults line 101"
     },
     "n::,ya'": {
         "mode": "n",
@@ -2805,7 +2805,7 @@
         "annotation": "*",
         "definition": "mode() ==# 'V' ? ':normal! @'.getcharstr().'<CR>' : '@'",
         "description": ":help v_@-default",
-        "origin": "Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 142"
+        "origin": "Last set from vim/_core/defaults line 142"
     },
     "o::F": {
         "mode": "o",
@@ -2861,7 +2861,7 @@
         "annotation": "*",
         "definition": "mode() ==# 'V' ? ':normal! @<C-R>=reg_recorded()<CR><CR>' : 'Q'",
         "description": ":help v_Q-default",
-        "origin": "Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 136"
+        "origin": "Last set from vim/_core/defaults line 136"
     },
     "x::R": {
         "mode": "x",
@@ -2941,7 +2941,7 @@
         "annotation": "*",
         "definition": "y$",
         "description": ":help Y-default",
-        "origin": "Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 110"
+        "origin": "Last set from vim/_core/defaults line 110"
     },
     "n::[P": {
         "mode": "n",
@@ -3013,7 +3013,7 @@
         "annotation": "*",
         "definition": "<Lua 65: vim/_core/defaults:471>",
         "description": "Select previous sibling node",
-        "origin": "Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 471"
+        "origin": "Last set from vim/_core/defaults line 471"
     },
     "x::[n": {
         "mode": "x",
@@ -3021,7 +3021,7 @@
         "annotation": "*",
         "definition": "<Lua 63: vim/_core/defaults:463>",
         "description": "Select previous node",
-        "origin": "Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 463"
+        "origin": "Last set from vim/_core/defaults line 463"
     },
     "n::[<Space>": {
         "mode": "n",
@@ -3029,7 +3029,7 @@
         "annotation": "*",
         "definition": "<Lua 61: vim/_core/defaults:448>",
         "description": "Add empty line above cursor",
-        "origin": "Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 448"
+        "origin": "Last set from vim/_core/defaults line 448"
     },
     "n::[B": {
         "mode": "n",
@@ -3037,7 +3037,7 @@
         "annotation": "*",
         "definition": "<Lua 59: vim/_core/defaults:431>",
         "description": ":brewind",
-        "origin": "Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 431"
+        "origin": "Last set from vim/_core/defaults line 431"
     },
     "n::[b": {
         "mode": "n",
@@ -3045,7 +3045,7 @@
         "annotation": "*",
         "definition": "<Lua 57: vim/_core/defaults:423>",
         "description": ":bprevious",
-        "origin": "Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 423"
+        "origin": "Last set from vim/_core/defaults line 423"
     },
     "n::[<C-T>": {
         "mode": "n",
@@ -3053,7 +3053,7 @@
         "annotation": "*",
         "definition": "<Lua 55: vim/_core/defaults:412>",
         "description": ":ptprevious",
-        "origin": "Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 412"
+        "origin": "Last set from vim/_core/defaults line 412"
     },
     "n::[T": {
         "mode": "n",
@@ -3061,7 +3061,7 @@
         "annotation": "*",
         "definition": "<Lua 53: vim/_core/defaults:398>",
         "description": ":trewind",
-        "origin": "Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 398"
+        "origin": "Last set from vim/_core/defaults line 398"
     },
     "n::[t": {
         "mode": "n",
@@ -3069,7 +3069,7 @@
         "annotation": "*",
         "definition": "<Lua 51: vim/_core/defaults:388>",
         "description": ":tprevious",
-        "origin": "Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 388"
+        "origin": "Last set from vim/_core/defaults line 388"
     },
     "n::[A": {
         "mode": "n",
@@ -3077,7 +3077,7 @@
         "annotation": "*",
         "definition": "<Lua 49: vim/_core/defaults:371>",
         "description": ":rewind",
-        "origin": "Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 371"
+        "origin": "Last set from vim/_core/defaults line 371"
     },
     "n::[a": {
         "mode": "n",
@@ -3085,7 +3085,7 @@
         "annotation": "*",
         "definition": "<Lua 47: vim/_core/defaults:362>",
         "description": ":previous",
-        "origin": "Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 362"
+        "origin": "Last set from vim/_core/defaults line 362"
     },
     "n::[<C-L>": {
         "mode": "n",
@@ -3093,7 +3093,7 @@
         "annotation": "*",
         "definition": "<Lua 45: vim/_core/defaults:353>",
         "description": ":lpfile",
-        "origin": "Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 353"
+        "origin": "Last set from vim/_core/defaults line 353"
     },
     "n::[L": {
         "mode": "n",
@@ -3101,7 +3101,7 @@
         "annotation": "*",
         "definition": "<Lua 43: vim/_core/defaults:345>",
         "description": ":lrewind",
-        "origin": "Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 345"
+        "origin": "Last set from vim/_core/defaults line 345"
     },
     "n::[l": {
         "mode": "n",
@@ -3117,7 +3117,7 @@
         "annotation": "*",
         "definition": "<Lua 39: vim/_core/defaults:328>",
         "description": ":cpfile",
-        "origin": "Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 328"
+        "origin": "Last set from vim/_core/defaults line 328"
     },
     "n::[Q": {
         "mode": "n",
@@ -3125,7 +3125,7 @@
         "annotation": "*",
         "definition": "<Lua 37: vim/_core/defaults:320>",
         "description": ":crewind",
-        "origin": "Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 320"
+        "origin": "Last set from vim/_core/defaults line 320"
     },
     "n::[q": {
         "mode": "n",
@@ -3141,7 +3141,7 @@
         "annotation": "*",
         "definition": "<Lua 33: vim/_core/defaults:284>",
         "description": "Jump to the first diagnostic in the current buffer",
-        "origin": "Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 284"
+        "origin": "Last set from vim/_core/defaults line 284"
     },
     "n::[d": {
         "mode": "n",
@@ -3293,7 +3293,7 @@
         "annotation": "*",
         "definition": "<Lua 66: vim/_core/defaults:475>",
         "description": "Select next sibling node",
-        "origin": "Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 475"
+        "origin": "Last set from vim/_core/defaults line 475"
     },
     "x::]n": {
         "mode": "x",
@@ -3301,7 +3301,7 @@
         "annotation": "*",
         "definition": "<Lua 64: vim/_core/defaults:467>",
         "description": "Select next node",
-        "origin": "Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 467"
+        "origin": "Last set from vim/_core/defaults line 467"
     },
     "n::]<Space>": {
         "mode": "n",
@@ -3309,7 +3309,7 @@
         "annotation": "*",
         "definition": "<Lua 62: vim/_core/defaults:454>",
         "description": "Add empty line below cursor",
-        "origin": "Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 454"
+        "origin": "Last set from vim/_core/defaults line 454"
     },
     "n::]B": {
         "mode": "n",
@@ -3317,7 +3317,7 @@
         "annotation": "*",
         "definition": "<Lua 60: vim/_core/defaults:439>",
         "description": ":blast",
-        "origin": "Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 439"
+        "origin": "Last set from vim/_core/defaults line 439"
     },
     "n::]b": {
         "mode": "n",
@@ -3325,7 +3325,7 @@
         "annotation": "*",
         "definition": "<Lua 58: vim/_core/defaults:427>",
         "description": ":bnext",
-        "origin": "Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 427"
+        "origin": "Last set from vim/_core/defaults line 427"
     },
     "n::]<C-T>": {
         "mode": "n",
@@ -3333,7 +3333,7 @@
         "annotation": "*",
         "definition": "<Lua 56: vim/_core/defaults:417>",
         "description": ":ptnext",
-        "origin": "Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 417"
+        "origin": "Last set from vim/_core/defaults line 417"
     },
     "n::]T": {
         "mode": "n",
@@ -3341,7 +3341,7 @@
         "annotation": "*",
         "definition": "<Lua 54: vim/_core/defaults:403>",
         "description": ":tlast",
-        "origin": "Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 403"
+        "origin": "Last set from vim/_core/defaults line 403"
     },
     "n::]t": {
         "mode": "n",
@@ -3349,7 +3349,7 @@
         "annotation": "*",
         "definition": "<Lua 52: vim/_core/defaults:393>",
         "description": ":tnext",
-        "origin": "Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 393"
+        "origin": "Last set from vim/_core/defaults line 393"
     },
     "n::]A": {
         "mode": "n",
@@ -3357,7 +3357,7 @@
         "annotation": "*",
         "definition": "<Lua 50: vim/_core/defaults:379>",
         "description": ":last",
-        "origin": "Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 379"
+        "origin": "Last set from vim/_core/defaults line 379"
     },
     "n::]a": {
         "mode": "n",
@@ -3365,7 +3365,7 @@
         "annotation": "*",
         "definition": "<Lua 48: vim/_core/defaults:366>",
         "description": ":next",
-        "origin": "Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 366"
+        "origin": "Last set from vim/_core/defaults line 366"
     },
     "n::]<C-L>": {
         "mode": "n",
@@ -3373,7 +3373,7 @@
         "annotation": "*",
         "definition": "<Lua 46: vim/_core/defaults:357>",
         "description": ":lnfile",
-        "origin": "Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 357"
+        "origin": "Last set from vim/_core/defaults line 357"
     },
     "n::]L": {
         "mode": "n",
@@ -3381,7 +3381,7 @@
         "annotation": "*",
         "definition": "<Lua 44: vim/_core/defaults:349>",
         "description": ":llast",
-        "origin": "Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 349"
+        "origin": "Last set from vim/_core/defaults line 349"
     },
     "n::]l": {
         "mode": "n",
@@ -3397,7 +3397,7 @@
         "annotation": "*",
         "definition": "<Lua 40: vim/_core/defaults:332>",
         "description": ":cnfile",
-        "origin": "Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 332"
+        "origin": "Last set from vim/_core/defaults line 332"
     },
     "n::]Q": {
         "mode": "n",
@@ -3405,7 +3405,7 @@
         "annotation": "*",
         "definition": "<Lua 38: vim/_core/defaults:324>",
         "description": ":clast",
-        "origin": "Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 324"
+        "origin": "Last set from vim/_core/defaults line 324"
     },
     "n::]q": {
         "mode": "n",
@@ -3421,7 +3421,7 @@
         "annotation": "*",
         "definition": "<Lua 32: vim/_core/defaults:280>",
         "description": "Jump to the last diagnostic in the current buffer",
-        "origin": "Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 280"
+        "origin": "Last set from vim/_core/defaults line 280"
     },
     "n::]d": {
         "mode": "n",
@@ -3533,7 +3533,7 @@
         "annotation": "*",
         "definition": "<Lua 68: vim/_core/defaults:479>",
         "description": "Select parent (outer) node",
-        "origin": "Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 479"
+        "origin": "Last set from vim/_core/defaults line 479"
     },
     "x::an": {
         "mode": "x",
@@ -3541,7 +3541,7 @@
         "annotation": "*",
         "definition": "<Lua 67: vim/_core/defaults:479>",
         "description": "Select parent (outer) node",
-        "origin": "Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 479"
+        "origin": "Last set from vim/_core/defaults line 479"
     },
     "o::b": {
         "mode": "o",
@@ -4173,7 +4173,7 @@
         "annotation": "*",
         "definition": "<Lua 23: vim/_core/defaults:237>",
         "description": "vim.lsp.buf.document_symbol()",
-        "origin": "Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 237"
+        "origin": "Last set from vim/_core/defaults line 237"
     },
     "n::grt": {
         "mode": "n",
@@ -4181,7 +4181,7 @@
         "annotation": "*",
         "definition": "<Lua 22: vim/_core/defaults:233>",
         "description": "vim.lsp.buf.type_definition()",
-        "origin": "Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 233"
+        "origin": "Last set from vim/_core/defaults line 233"
     },
     "n::gri": {
         "mode": "n",
@@ -4189,7 +4189,7 @@
         "annotation": "*",
         "definition": "<Lua 21: vim/_core/defaults:229>",
         "description": "vim.lsp.buf.implementation()",
-        "origin": "Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 229"
+        "origin": "Last set from vim/_core/defaults line 229"
     },
     "n::grr": {
         "mode": "n",
@@ -4197,7 +4197,7 @@
         "annotation": "*",
         "definition": "<Lua 20: vim/_core/defaults:225>",
         "description": "vim.lsp.buf.references()",
-        "origin": "Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 225"
+        "origin": "Last set from vim/_core/defaults line 225"
     },
     "n::grx": {
         "mode": "n",
@@ -4205,7 +4205,7 @@
         "annotation": "*",
         "definition": "<Lua 19: vim/_core/defaults:221>",
         "description": "vim.lsp.codelens.run()",
-        "origin": "Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 221"
+        "origin": "Last set from vim/_core/defaults line 221"
     },
     "x::gra": {
         "mode": "x",
@@ -4213,7 +4213,7 @@
         "annotation": "*",
         "definition": "<Lua 18: vim/_core/defaults:217>",
         "description": "vim.lsp.buf.code_action()",
-        "origin": "Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 217"
+        "origin": "Last set from vim/_core/defaults line 217"
     },
     "n::gra": {
         "mode": "n",
@@ -4221,7 +4221,7 @@
         "annotation": "*",
         "definition": "<Lua 17: vim/_core/defaults:217>",
         "description": "vim.lsp.buf.code_action()",
-        "origin": "Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 217"
+        "origin": "Last set from vim/_core/defaults line 217"
     },
     "n::grn": {
         "mode": "n",
@@ -4229,7 +4229,7 @@
         "annotation": "*",
         "definition": "<Lua 16: vim/_core/defaults:213>",
         "description": "vim.lsp.buf.rename()",
-        "origin": "Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 213"
+        "origin": "Last set from vim/_core/defaults line 213"
     },
     "o::gc": {
         "mode": "o",
@@ -4269,7 +4269,7 @@
         "annotation": "*",
         "definition": "<Lua 11: vim/_core/defaults:174>",
         "description": "Opens filepath or URI under cursor with the system handler (file explorer, web browser, \u2026)",
-        "origin": "Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 174"
+        "origin": "Last set from vim/_core/defaults line 174"
     },
     "n::gx": {
         "mode": "n",
@@ -4277,7 +4277,7 @@
         "annotation": "*",
         "definition": "<Lua 10: vim/_core/defaults:166>",
         "description": "Opens filepath or URI under cursor with the system handler (file explorer, web browser, \u2026)",
-        "origin": "Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 166"
+        "origin": "Last set from vim/_core/defaults line 166"
     },
     "o::ic": {
         "mode": "o",
@@ -4381,7 +4381,7 @@
         "annotation": "*",
         "definition": "<Lua 70: vim/_core/defaults:487>",
         "description": "Select child (inner) node",
-        "origin": "Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 487"
+        "origin": "Last set from vim/_core/defaults line 487"
     },
     "x::in": {
         "mode": "x",
@@ -4389,7 +4389,7 @@
         "annotation": "*",
         "definition": "<Lua 69: vim/_core/defaults:487>",
         "description": "Select child (inner) node",
-        "origin": "Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 487"
+        "origin": "Last set from vim/_core/defaults line 487"
     },
     "n::m5": {
         "mode": "n",
@@ -8661,7 +8661,7 @@
         "annotation": null,
         "definition": "<C-W>d",
         "description": "Show diagnostics under the cursor",
-        "origin": "Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 292"
+        "origin": "Last set from vim/_core/defaults line 292"
     },
     "n::<C-W>d": {
         "mode": "n",
@@ -8669,7 +8669,7 @@
         "annotation": "*",
         "definition": "<Lua 34: vim/_core/defaults:288>",
         "description": "Show diagnostics under the cursor",
-        "origin": "Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 288"
+        "origin": "Last set from vim/_core/defaults line 288"
     },
     "s::<S-Tab>": {
         "mode": "s",
@@ -8677,7 +8677,7 @@
         "annotation": "*",
         "definition": "<Lua 29: vim/_core/defaults:250>",
         "description": "vim.snippet.jump if active, otherwise <S-Tab>",
-        "origin": "Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 250"
+        "origin": "Last set from vim/_core/defaults line 250"
     },
     "s::<C-S>": {
         "mode": "s",
@@ -8685,7 +8685,7 @@
         "annotation": "*",
         "definition": "<Lua 25: vim/_core/defaults:241>",
         "description": "vim.lsp.buf.signature_help()",
-        "origin": "Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 241"
+        "origin": "Last set from vim/_core/defaults line 241"
     },
     "n::<C-L>": {
         "mode": "n",

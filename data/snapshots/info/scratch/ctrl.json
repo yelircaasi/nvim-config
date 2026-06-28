@@ -1,0 +1,170 @@
+{
+    "v::<C-Up>": {
+        "mode": "v",
+        "keybind": "<C-Up>",
+        "annotation": "*",
+        "definition": "<Cmd>Yazi toggle<CR>",
+        "description": "Resume the last yazi session",
+        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+    },
+    "n::<C-P>": {
+        "mode": "n",
+        "keybind": "<C-P>",
+        "annotation": "*",
+        "definition": "<Plug>(YankyPreviousEntry)",
+        "description": null,
+        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+    },
+    "n::<C-K>": {
+        "mode": "n",
+        "keybind": "<C-K>",
+        "annotation": "*",
+        "definition": "<Lua 395: …opt/swm/lua/swm/init.lua:93>",
+        "description": "Window up",
+        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+    },
+    "n::<C-J>": {
+        "mode": "n",
+        "keybind": "<C-J>",
+        "annotation": "*",
+        "definition": "<Lua 394: …opt/swm/lua/swm/init.lua:75>",
+        "description": "Window down",
+        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+    },
+    "n::<C-H>": {
+        "mode": "n",
+        "keybind": "<C-H>",
+        "annotation": "*",
+        "definition": "<Lua 393: …opt/swm/lua/swm/init.lua:57>",
+        "description": "Window left",
+        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+    },
+    "n::<C-W>l": {
+        "mode": "n",
+        "keybind": "<C-W>l",
+        "annotation": "*",
+        "definition": "<Lua 392: …opt/swm/lua/swm/init.lua:111>",
+        "description": "Window right",
+        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+    },
+    "n::<C-W>k": {
+        "mode": "n",
+        "keybind": "<C-W>k",
+        "annotation": "*",
+        "definition": "<Lua 391: …opt/swm/lua/swm/init.lua:93>",
+        "description": "Window up",
+        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+    },
+    "n::<C-W>j": {
+        "mode": "n",
+        "keybind": "<C-W>j",
+        "annotation": "*",
+        "definition": "<Lua 390: …opt/swm/lua/swm/init.lua:75>",
+        "description": "Window down",
+        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+    },
+    "n::<C-W>h": {
+        "mode": "n",
+        "keybind": "<C-W>h",
+        "annotation": "*",
+        "definition": "<Lua 389: …opt/swm/lua/swm/init.lua:57>",
+        "description": "Window left",
+        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+    },
+    "n::<C-Down>": {
+        "mode": "n",
+        "keybind": "<C-Down>",
+        "annotation": null,
+        "definition": "<Plug>(VM-Add-Cursor-Down)",
+        "description": null,
+        "origin": "Last set from …opt/vim-visual-multi/autoload/vm/maps.vim line 18"
+    },
+    "x::<C-N>": {
+        "mode": "x",
+        "keybind": "<C-N>",
+        "annotation": null,
+        "definition": "<Plug>(VM-Find-Subword-Under)",
+        "description": null,
+        "origin": "Last set from …opt/vim-visual-multi/autoload/vm/maps.vim line 18"
+    },
+    "n::<C-Up>": {
+        "mode": "n",
+        "keybind": "<C-Up>",
+        "annotation": "*",
+        "definition": "<Cmd>Yazi toggle<CR>",
+        "description": "Resume the last yazi session",
+        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+    },
+    "n::<C-N>": {
+        "mode": "n",
+        "keybind": "<C-N>",
+        "annotation": "*",
+        "definition": "<Plug>(YankyNextEntry)",
+        "description": null,
+        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+    },
+    "n::<Cmd>Lspsaga<Space>hover_doc": {
+        "mode": "n",
+        "keybind": "<Cmd>Lspsaga<Space>hover_doc",
+        "annotation": "*",
+        "definition": "K",
+        "description": null,
+        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+    },
+    "n::<Cmd>Lspsaga<Space>term_toggle": {
+        "mode": "n",
+        "keybind": "<Cmd>Lspsaga<Space>term_toggle",
+        "annotation": "*",
+        "definition": "<M-d>",
+        "description": null,
+        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+    },
+    "n::<C-L>": {
+        "mode": "n",
+        "keybind": "<C-L>",
+        "annotation": "*",
+        "definition": "<Lua 396: …opt/swm/lua/swm/init.lua:111>",
+        "description": "Window right",
+        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+    },
+    "x::<CR>": {
+        "mode": "x",
+        "keybind": "<CR>",
+        "annotation": "*",
+        "definition": ":lua require'wildfire'.node_incremental()<CR>",
+        "description": "Increment selection to named node",
+        "origin": "Last set from …opt/wildfire/lua/wildfire/init.lua line 269"
+    },
+    "n::<CR>": {
+        "mode": "n",
+        "keybind": "<CR>",
+        "annotation": "*",
+        "definition": "<Lua 241: …opt/wildfire/lua/wildfire/init.lua:118>",
+        "description": "Start selecting nodes with nvim-treesitter",
+        "origin": "Last set from …opt/wildfire/lua/wildfire/init.lua line 269"
+    },
+    "n::<C-W><C-D>": {
+        "mode": "n",
+        "keybind": "<C-W><C-D>",
+        "annotation": null,
+        "definition": "<C-W>d",
+        "description": "Show diagnostics under the cursor",
+        "origin": "Last set from vim/_core/defaults line 292"
+    },
+    "n::<C-W>d": {
+        "mode": "n",
+        "keybind": "<C-W>d",
+        "annotation": "*",
+        "definition": "<Lua 34: vim/_core/defaults:288>",
+        "description": "Show diagnostics under the cursor",
+        "origin": "Last set from vim/_core/defaults line 288"
+    },
+    "s::<C-S>": {
+        "mode": "s",
+        "keybind": "<C-S>",
+        "annotation": "*",
+        "definition": "<Lua 25: vim/_core/defaults:241>",
+        "description": "vim.lsp.buf.signature_help()",
+        "origin": "Last set from vim/_core/defaults line 241"
+    }
+}

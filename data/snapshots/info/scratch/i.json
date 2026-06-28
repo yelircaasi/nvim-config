@@ -1,0 +1,114 @@
+{
+    "o::ic": {
+        "mode": "o",
+        "keybind": "ic",
+        "annotation": "*",
+        "definition": "<Lua 793: ~/.config/nvim/lua/treesitter.lua:144>",
+        "description": null,
+        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+    },
+    "x::ic": {
+        "mode": "x",
+        "keybind": "ic",
+        "annotation": "*",
+        "definition": "<Lua 794: ~/.config/nvim/lua/treesitter.lua:144>",
+        "description": null,
+        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+    },
+    "o::iw": {
+        "mode": "o",
+        "keybind": "iw",
+        "annotation": null,
+        "definition": "<Plug>WordMotion_iw",
+        "description": null,
+        "origin": "Last set from …opt/vim-wordmotion/plugin/wordmotion.vim line 92"
+    },
+    "x::iw": {
+        "mode": "x",
+        "keybind": "iw",
+        "annotation": null,
+        "definition": "<Plug>WordMotion_iw",
+        "description": null,
+        "origin": "Last set from …opt/vim-wordmotion/plugin/wordmotion.vim line 92"
+    },
+    "x::im": {
+        "mode": "x",
+        "keybind": "im",
+        "annotation": "*",
+        "definition": "<Lua 413: ~/.config/nvim/lua/treesitter.lua:130>",
+        "description": null,
+        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+    },
+    "o::im": {
+        "mode": "o",
+        "keybind": "im",
+        "annotation": "*",
+        "definition": "<Lua 414: ~/.config/nvim/lua/treesitter.lua:130>",
+        "description": null,
+        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+    },
+    "x::is": {
+        "mode": "x",
+        "keybind": "is",
+        "annotation": null,
+        "definition": "<Plug>(textobj-sandwich-query-i)",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/sandwich.vim line 72"
+    },
+    "o::is": {
+        "mode": "o",
+        "keybind": "is",
+        "annotation": null,
+        "definition": "<Plug>(textobj-sandwich-query-i)",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/sandwich.vim line 71"
+    },
+    "x::ib": {
+        "mode": "x",
+        "keybind": "ib",
+        "annotation": null,
+        "definition": "<Plug>(textobj-sandwich-auto-i)",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/sandwich.vim line 66"
+    },
+    "o::ib": {
+        "mode": "o",
+        "keybind": "ib",
+        "annotation": null,
+        "definition": "<Plug>(textobj-sandwich-auto-i)",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/sandwich.vim line 65"
+    },
+    "x::io": {
+        "mode": "x",
+        "keybind": "io",
+        "annotation": "*",
+        "definition": "<Lua 208: …opt/sort/lua/sort/textobjects.lua:135>",
+        "description": "Inner sortable region",
+        "origin": "Last set from …opt/sort/lua/sort/mappings.lua line 88"
+    },
+    "o::io": {
+        "mode": "o",
+        "keybind": "io",
+        "annotation": "*",
+        "definition": "<Lua 210: …opt/sort/lua/sort/textobjects.lua:135>",
+        "description": "Inner sortable region",
+        "origin": "Last set from …opt/sort/lua/sort/mappings.lua line 88"
+    },
+    "o::in": {
+        "mode": "o",
+        "keybind": "in",
+        "annotation": "*",
+        "definition": "<Lua 70: vim/_core/defaults:487>",
+        "description": "Select child (inner) node",
+        "origin": "Last set from vim/_core/defaults line 487"
+    },
+    "x::in": {
+        "mode": "x",
+        "keybind": "in",
+        "annotation": "*",
+        "definition": "<Lua 69: vim/_core/defaults:487>",
+        "description": "Select child (inner) node",
+        "origin": "Last set from vim/_core/defaults line 487"
+    }
+}

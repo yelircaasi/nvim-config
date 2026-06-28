@@ -1,0 +1,3610 @@
+{
+    "x::<Plug>(YankyGPutAfterFilterJoined)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyGPutAfterFilterJoined)",
+        "annotation": "*",
+        "definition": "<Lua 1061: …opt/yanky/lua/yanky.lua:400>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 400"
+    },
+    "n::<Plug>(YankyGPutAfterFilterJoined)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyGPutAfterFilterJoined)",
+        "annotation": "*",
+        "definition": "<Lua 1060: …opt/yanky/lua/yanky.lua:392>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 392"
+    },
+    "x::<Plug>(YankyGPutAfterFilter)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyGPutAfterFilter)",
+        "annotation": "*",
+        "definition": "<Lua 1059: …opt/yanky/lua/yanky.lua:388>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 388"
+    },
+    "n::<Plug>(YankyGPutAfterFilter)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyGPutAfterFilter)",
+        "annotation": "*",
+        "definition": "<Lua 1058: …opt/yanky/lua/yanky.lua:384>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 384"
+    },
+    "x::<Plug>(YankyGPutAfterShiftLeftJoined)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyGPutAfterShiftLeftJoined)",
+        "annotation": "*",
+        "definition": "<Lua 1057: …opt/yanky/lua/yanky.lua:400>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 400"
+    },
+    "n::<Plug>(YankyGPutAfterShiftLeftJoined)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyGPutAfterShiftLeftJoined)",
+        "annotation": "*",
+        "definition": "<Lua 1056: …opt/yanky/lua/yanky.lua:392>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 392"
+    },
+    "x::<Plug>(YankyGPutAfterShiftLeft)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyGPutAfterShiftLeft)",
+        "annotation": "*",
+        "definition": "<Lua 1055: …opt/yanky/lua/yanky.lua:388>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 388"
+    },
+    "n::<Plug>(YankyGPutAfterShiftLeft)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyGPutAfterShiftLeft)",
+        "annotation": "*",
+        "definition": "<Lua 1054: …opt/yanky/lua/yanky.lua:384>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 384"
+    },
+    "x::<Plug>(YankyGPutAfterShiftRightJoined)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyGPutAfterShiftRightJoined)",
+        "annotation": "*",
+        "definition": "<Lua 1053: …opt/yanky/lua/yanky.lua:400>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 400"
+    },
+    "n::<Plug>(YankyGPutAfterShiftRightJoined)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyGPutAfterShiftRightJoined)",
+        "annotation": "*",
+        "definition": "<Lua 1052: …opt/yanky/lua/yanky.lua:392>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 392"
+    },
+    "x::<Plug>(YankyGPutAfterShiftRight)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyGPutAfterShiftRight)",
+        "annotation": "*",
+        "definition": "<Lua 1051: …opt/yanky/lua/yanky.lua:388>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 388"
+    },
+    "n::<Plug>(YankyGPutAfterShiftRight)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyGPutAfterShiftRight)",
+        "annotation": "*",
+        "definition": "<Lua 1050: …opt/yanky/lua/yanky.lua:384>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 384"
+    },
+    "x::<Plug>(YankyGPutAfterBlockwiseJoined)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyGPutAfterBlockwiseJoined)",
+        "annotation": "*",
+        "definition": "<Lua 1049: …opt/yanky/lua/yanky.lua:379>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 379"
+    },
+    "n::<Plug>(YankyGPutAfterBlockwiseJoined)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyGPutAfterBlockwiseJoined)",
+        "annotation": "*",
+        "definition": "<Lua 1048: …opt/yanky/lua/yanky.lua:375>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 375"
+    },
+    "x::<Plug>(YankyGPutAfterBlockwise)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyGPutAfterBlockwise)",
+        "annotation": "*",
+        "definition": "<Lua 1047: …opt/yanky/lua/yanky.lua:371>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 371"
+    },
+    "n::<Plug>(YankyGPutAfterBlockwise)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyGPutAfterBlockwise)",
+        "annotation": "*",
+        "definition": "<Lua 1046: …opt/yanky/lua/yanky.lua:367>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 367"
+    },
+    "x::<Plug>(YankyGPutAfterCharwiseJoined)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyGPutAfterCharwiseJoined)",
+        "annotation": "*",
+        "definition": "<Lua 1045: …opt/yanky/lua/yanky.lua:363>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 363"
+    },
+    "n::<Plug>(YankyGPutAfterCharwiseJoined)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyGPutAfterCharwiseJoined)",
+        "annotation": "*",
+        "definition": "<Lua 1044: …opt/yanky/lua/yanky.lua:359>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 359"
+    },
+    "x::<Plug>(YankyGPutAfterCharwise)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyGPutAfterCharwise)",
+        "annotation": "*",
+        "definition": "<Lua 1043: …opt/yanky/lua/yanky.lua:355>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 355"
+    },
+    "n::<Plug>(YankyGPutAfterCharwise)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyGPutAfterCharwise)",
+        "annotation": "*",
+        "definition": "<Lua 1042: …opt/yanky/lua/yanky.lua:351>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 351"
+    },
+    "x::<Plug>(YankyGPutAfterLinewiseJoined)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyGPutAfterLinewiseJoined)",
+        "annotation": "*",
+        "definition": "<Lua 1041: …opt/yanky/lua/yanky.lua:347>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 347"
+    },
+    "n::<Plug>(YankyGPutAfterLinewiseJoined)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyGPutAfterLinewiseJoined)",
+        "annotation": "*",
+        "definition": "<Lua 1040: …opt/yanky/lua/yanky.lua:343>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 343"
+    },
+    "x::<Plug>(YankyGPutAfterLinewise)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyGPutAfterLinewise)",
+        "annotation": "*",
+        "definition": "<Lua 1039: …opt/yanky/lua/yanky.lua:339>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 339"
+    },
+    "n::<Plug>(YankyGPutAfterLinewise)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyGPutAfterLinewise)",
+        "annotation": "*",
+        "definition": "<Lua 1038: …opt/yanky/lua/yanky.lua:335>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 335"
+    },
+    "x::<Plug>(YankyGPutAfterJoined)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyGPutAfterJoined)",
+        "annotation": "*",
+        "definition": "<Lua 1037: …opt/yanky/lua/yanky.lua:331>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 331"
+    },
+    "n::<Plug>(YankyGPutAfterJoined)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyGPutAfterJoined)",
+        "annotation": "*",
+        "definition": "<Lua 1036: …opt/yanky/lua/yanky.lua:327>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 327"
+    },
+    "x::<Plug>(YankyGPutAfter)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyGPutAfter)",
+        "annotation": "*",
+        "definition": "<Lua 1035: …opt/yanky/lua/yanky.lua:323>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 323"
+    },
+    "n::<Plug>(YankyGPutAfter)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyGPutAfter)",
+        "annotation": "*",
+        "definition": "<Lua 1034: …opt/yanky/lua/yanky.lua:319>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 319"
+    },
+    "x::<Plug>(YankyGPutBeforeFilterJoined)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyGPutBeforeFilterJoined)",
+        "annotation": "*",
+        "definition": "<Lua 1033: …opt/yanky/lua/yanky.lua:400>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 400"
+    },
+    "n::<Plug>(YankyGPutBeforeFilterJoined)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyGPutBeforeFilterJoined)",
+        "annotation": "*",
+        "definition": "<Lua 1032: …opt/yanky/lua/yanky.lua:392>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 392"
+    },
+    "x::<Plug>(YankyGPutBeforeFilter)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyGPutBeforeFilter)",
+        "annotation": "*",
+        "definition": "<Lua 1031: …opt/yanky/lua/yanky.lua:388>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 388"
+    },
+    "n::<Plug>(YankyGPutBeforeFilter)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyGPutBeforeFilter)",
+        "annotation": "*",
+        "definition": "<Lua 1030: …opt/yanky/lua/yanky.lua:384>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 384"
+    },
+    "x::<Plug>(YankyGPutBeforeShiftLeftJoined)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyGPutBeforeShiftLeftJoined)",
+        "annotation": "*",
+        "definition": "<Lua 1029: …opt/yanky/lua/yanky.lua:400>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 400"
+    },
+    "n::<Plug>(YankyGPutBeforeShiftLeftJoined)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyGPutBeforeShiftLeftJoined)",
+        "annotation": "*",
+        "definition": "<Lua 1028: …opt/yanky/lua/yanky.lua:392>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 392"
+    },
+    "x::<Plug>(YankyGPutBeforeShiftLeft)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyGPutBeforeShiftLeft)",
+        "annotation": "*",
+        "definition": "<Lua 1027: …opt/yanky/lua/yanky.lua:388>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 388"
+    },
+    "n::<Plug>(YankyGPutBeforeShiftLeft)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyGPutBeforeShiftLeft)",
+        "annotation": "*",
+        "definition": "<Lua 1026: …opt/yanky/lua/yanky.lua:384>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 384"
+    },
+    "x::<Plug>(YankyGPutBeforeShiftRightJoined)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyGPutBeforeShiftRightJoined)",
+        "annotation": "*",
+        "definition": "<Lua 1025: …opt/yanky/lua/yanky.lua:400>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 400"
+    },
+    "n::<Plug>(YankyGPutBeforeShiftRightJoined)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyGPutBeforeShiftRightJoined)",
+        "annotation": "*",
+        "definition": "<Lua 1024: …opt/yanky/lua/yanky.lua:392>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 392"
+    },
+    "x::<Plug>(YankyGPutBeforeShiftRight)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyGPutBeforeShiftRight)",
+        "annotation": "*",
+        "definition": "<Lua 1023: …opt/yanky/lua/yanky.lua:388>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 388"
+    },
+    "n::<Plug>(YankyGPutBeforeShiftRight)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyGPutBeforeShiftRight)",
+        "annotation": "*",
+        "definition": "<Lua 1022: …opt/yanky/lua/yanky.lua:384>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 384"
+    },
+    "x::<Plug>(YankyGPutBeforeBlockwiseJoined)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyGPutBeforeBlockwiseJoined)",
+        "annotation": "*",
+        "definition": "<Lua 1021: …opt/yanky/lua/yanky.lua:379>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 379"
+    },
+    "n::<Plug>(YankyGPutBeforeBlockwiseJoined)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyGPutBeforeBlockwiseJoined)",
+        "annotation": "*",
+        "definition": "<Lua 1020: …opt/yanky/lua/yanky.lua:375>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 375"
+    },
+    "x::<Plug>(YankyGPutBeforeBlockwise)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyGPutBeforeBlockwise)",
+        "annotation": "*",
+        "definition": "<Lua 1019: …opt/yanky/lua/yanky.lua:371>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 371"
+    },
+    "n::<Plug>(YankyGPutBeforeBlockwise)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyGPutBeforeBlockwise)",
+        "annotation": "*",
+        "definition": "<Lua 1018: …opt/yanky/lua/yanky.lua:367>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 367"
+    },
+    "x::<Plug>(YankyGPutBeforeCharwiseJoined)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyGPutBeforeCharwiseJoined)",
+        "annotation": "*",
+        "definition": "<Lua 1017: …opt/yanky/lua/yanky.lua:363>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 363"
+    },
+    "n::<Plug>(YankyGPutBeforeCharwiseJoined)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyGPutBeforeCharwiseJoined)",
+        "annotation": "*",
+        "definition": "<Lua 1016: …opt/yanky/lua/yanky.lua:359>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 359"
+    },
+    "x::<Plug>(YankyGPutBeforeCharwise)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyGPutBeforeCharwise)",
+        "annotation": "*",
+        "definition": "<Lua 1015: …opt/yanky/lua/yanky.lua:355>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 355"
+    },
+    "n::<Plug>(YankyGPutBeforeCharwise)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyGPutBeforeCharwise)",
+        "annotation": "*",
+        "definition": "<Lua 1014: …opt/yanky/lua/yanky.lua:351>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 351"
+    },
+    "x::<Plug>(YankyGPutBeforeLinewiseJoined)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyGPutBeforeLinewiseJoined)",
+        "annotation": "*",
+        "definition": "<Lua 1013: …opt/yanky/lua/yanky.lua:347>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 347"
+    },
+    "n::<Plug>(YankyGPutBeforeLinewiseJoined)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyGPutBeforeLinewiseJoined)",
+        "annotation": "*",
+        "definition": "<Lua 1012: …opt/yanky/lua/yanky.lua:343>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 343"
+    },
+    "x::<Plug>(YankyGPutBeforeLinewise)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyGPutBeforeLinewise)",
+        "annotation": "*",
+        "definition": "<Lua 1011: …opt/yanky/lua/yanky.lua:339>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 339"
+    },
+    "n::<Plug>(YankyGPutBeforeLinewise)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyGPutBeforeLinewise)",
+        "annotation": "*",
+        "definition": "<Lua 1010: …opt/yanky/lua/yanky.lua:335>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 335"
+    },
+    "x::<Plug>(YankyGPutBeforeJoined)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyGPutBeforeJoined)",
+        "annotation": "*",
+        "definition": "<Lua 1009: …opt/yanky/lua/yanky.lua:331>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 331"
+    },
+    "n::<Plug>(YankyGPutBeforeJoined)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyGPutBeforeJoined)",
+        "annotation": "*",
+        "definition": "<Lua 1008: …opt/yanky/lua/yanky.lua:327>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 327"
+    },
+    "x::<Plug>(YankyGPutBefore)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyGPutBefore)",
+        "annotation": "*",
+        "definition": "<Lua 1007: …opt/yanky/lua/yanky.lua:323>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 323"
+    },
+    "n::<Plug>(YankyGPutBefore)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyGPutBefore)",
+        "annotation": "*",
+        "definition": "<Lua 1006: …opt/yanky/lua/yanky.lua:319>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 319"
+    },
+    "x::<Plug>(YankyPutIndentAfterFilterJoined)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyPutIndentAfterFilterJoined)",
+        "annotation": "*",
+        "definition": "<Lua 1005: …opt/yanky/lua/yanky.lua:400>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 400"
+    },
+    "n::<Plug>(YankyPutIndentAfterFilterJoined)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyPutIndentAfterFilterJoined)",
+        "annotation": "*",
+        "definition": "<Lua 1004: …opt/yanky/lua/yanky.lua:392>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 392"
+    },
+    "x::<Plug>(YankyPutIndentAfterFilter)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyPutIndentAfterFilter)",
+        "annotation": "*",
+        "definition": "<Lua 1003: …opt/yanky/lua/yanky.lua:388>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 388"
+    },
+    "n::<Plug>(YankyPutIndentAfterFilter)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyPutIndentAfterFilter)",
+        "annotation": "*",
+        "definition": "<Lua 1002: …opt/yanky/lua/yanky.lua:384>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 384"
+    },
+    "x::<Plug>(YankyPutIndentAfterShiftLeftJoined)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyPutIndentAfterShiftLeftJoined)",
+        "annotation": "*",
+        "definition": "<Lua 1001: …opt/yanky/lua/yanky.lua:400>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 400"
+    },
+    "n::<Plug>(YankyPutIndentAfterShiftLeftJoined)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyPutIndentAfterShiftLeftJoined)",
+        "annotation": "*",
+        "definition": "<Lua 1000: …opt/yanky/lua/yanky.lua:392>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 392"
+    },
+    "x::<Plug>(YankyPutIndentAfterShiftLeft)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyPutIndentAfterShiftLeft)",
+        "annotation": "*",
+        "definition": "<Lua 999: …opt/yanky/lua/yanky.lua:388>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 388"
+    },
+    "n::<Plug>(YankyPutIndentAfterShiftLeft)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyPutIndentAfterShiftLeft)",
+        "annotation": "*",
+        "definition": "<Lua 998: …opt/yanky/lua/yanky.lua:384>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 384"
+    },
+    "x::<Plug>(YankyPutIndentAfterShiftRightJoined)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyPutIndentAfterShiftRightJoined)",
+        "annotation": "*",
+        "definition": "<Lua 997: …opt/yanky/lua/yanky.lua:400>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 400"
+    },
+    "n::<Plug>(YankyPutIndentAfterShiftRightJoined)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyPutIndentAfterShiftRightJoined)",
+        "annotation": "*",
+        "definition": "<Lua 996: …opt/yanky/lua/yanky.lua:392>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 392"
+    },
+    "x::<Plug>(YankyPutIndentAfterShiftRight)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyPutIndentAfterShiftRight)",
+        "annotation": "*",
+        "definition": "<Lua 995: …opt/yanky/lua/yanky.lua:388>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 388"
+    },
+    "n::<Plug>(YankyPutIndentAfterShiftRight)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyPutIndentAfterShiftRight)",
+        "annotation": "*",
+        "definition": "<Lua 994: …opt/yanky/lua/yanky.lua:384>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 384"
+    },
+    "x::<Plug>(YankyPutIndentAfterBlockwiseJoined)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyPutIndentAfterBlockwiseJoined)",
+        "annotation": "*",
+        "definition": "<Lua 993: …opt/yanky/lua/yanky.lua:379>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 379"
+    },
+    "n::<Plug>(YankyPutIndentAfterBlockwiseJoined)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyPutIndentAfterBlockwiseJoined)",
+        "annotation": "*",
+        "definition": "<Lua 992: …opt/yanky/lua/yanky.lua:375>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 375"
+    },
+    "x::<Plug>(YankyPutIndentAfterBlockwise)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyPutIndentAfterBlockwise)",
+        "annotation": "*",
+        "definition": "<Lua 991: …opt/yanky/lua/yanky.lua:371>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 371"
+    },
+    "n::<Plug>(YankyPutIndentAfterBlockwise)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyPutIndentAfterBlockwise)",
+        "annotation": "*",
+        "definition": "<Lua 990: …opt/yanky/lua/yanky.lua:367>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 367"
+    },
+    "x::<Plug>(YankyPutIndentAfterCharwiseJoined)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyPutIndentAfterCharwiseJoined)",
+        "annotation": "*",
+        "definition": "<Lua 989: …opt/yanky/lua/yanky.lua:363>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 363"
+    },
+    "n::<Plug>(YankyPutIndentAfterCharwiseJoined)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyPutIndentAfterCharwiseJoined)",
+        "annotation": "*",
+        "definition": "<Lua 988: …opt/yanky/lua/yanky.lua:359>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 359"
+    },
+    "x::<Plug>(YankyPutIndentAfterCharwise)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyPutIndentAfterCharwise)",
+        "annotation": "*",
+        "definition": "<Lua 987: …opt/yanky/lua/yanky.lua:355>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 355"
+    },
+    "n::<Plug>(YankyPutIndentAfterCharwise)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyPutIndentAfterCharwise)",
+        "annotation": "*",
+        "definition": "<Lua 986: …opt/yanky/lua/yanky.lua:351>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 351"
+    },
+    "x::<Plug>(YankyPutIndentAfterLinewiseJoined)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyPutIndentAfterLinewiseJoined)",
+        "annotation": "*",
+        "definition": "<Lua 985: …opt/yanky/lua/yanky.lua:347>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 347"
+    },
+    "n::<Plug>(YankyPutIndentAfterLinewiseJoined)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyPutIndentAfterLinewiseJoined)",
+        "annotation": "*",
+        "definition": "<Lua 984: …opt/yanky/lua/yanky.lua:343>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 343"
+    },
+    "x::<Plug>(YankyPutIndentAfterLinewise)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyPutIndentAfterLinewise)",
+        "annotation": "*",
+        "definition": "<Lua 983: …opt/yanky/lua/yanky.lua:339>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 339"
+    },
+    "n::<Plug>(YankyPutIndentAfterLinewise)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyPutIndentAfterLinewise)",
+        "annotation": "*",
+        "definition": "<Lua 982: …opt/yanky/lua/yanky.lua:335>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 335"
+    },
+    "x::<Plug>(YankyPutIndentAfterJoined)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyPutIndentAfterJoined)",
+        "annotation": "*",
+        "definition": "<Lua 981: …opt/yanky/lua/yanky.lua:331>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 331"
+    },
+    "n::<Plug>(YankyPutIndentAfterJoined)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyPutIndentAfterJoined)",
+        "annotation": "*",
+        "definition": "<Lua 980: …opt/yanky/lua/yanky.lua:327>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 327"
+    },
+    "x::<Plug>(YankyPutIndentAfter)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyPutIndentAfter)",
+        "annotation": "*",
+        "definition": "<Lua 979: …opt/yanky/lua/yanky.lua:323>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 323"
+    },
+    "n::<Plug>(YankyPutIndentAfter)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyPutIndentAfter)",
+        "annotation": "*",
+        "definition": "<Lua 978: …opt/yanky/lua/yanky.lua:319>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 319"
+    },
+    "x::<Plug>(YankyPutAfterFilterJoined)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyPutAfterFilterJoined)",
+        "annotation": "*",
+        "definition": "<Lua 977: …opt/yanky/lua/yanky.lua:400>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 400"
+    },
+    "n::<Plug>(YankyPutAfterFilterJoined)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyPutAfterFilterJoined)",
+        "annotation": "*",
+        "definition": "<Lua 976: …opt/yanky/lua/yanky.lua:392>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 392"
+    },
+    "x::<Plug>(YankyPutAfterFilter)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyPutAfterFilter)",
+        "annotation": "*",
+        "definition": "<Lua 975: …opt/yanky/lua/yanky.lua:388>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 388"
+    },
+    "n::<Plug>(YankyPutAfterFilter)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyPutAfterFilter)",
+        "annotation": "*",
+        "definition": "<Lua 974: …opt/yanky/lua/yanky.lua:384>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 384"
+    },
+    "x::<Plug>(YankyPutAfterShiftLeftJoined)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyPutAfterShiftLeftJoined)",
+        "annotation": "*",
+        "definition": "<Lua 973: …opt/yanky/lua/yanky.lua:400>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 400"
+    },
+    "n::<Plug>(YankyPutAfterShiftLeftJoined)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyPutAfterShiftLeftJoined)",
+        "annotation": "*",
+        "definition": "<Lua 972: …opt/yanky/lua/yanky.lua:392>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 392"
+    },
+    "x::<Plug>(YankyPutAfterShiftLeft)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyPutAfterShiftLeft)",
+        "annotation": "*",
+        "definition": "<Lua 971: …opt/yanky/lua/yanky.lua:388>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 388"
+    },
+    "n::<Plug>(YankyPutAfterShiftLeft)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyPutAfterShiftLeft)",
+        "annotation": "*",
+        "definition": "<Lua 970: …opt/yanky/lua/yanky.lua:384>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 384"
+    },
+    "x::<Plug>(YankyPutAfterShiftRightJoined)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyPutAfterShiftRightJoined)",
+        "annotation": "*",
+        "definition": "<Lua 969: …opt/yanky/lua/yanky.lua:400>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 400"
+    },
+    "n::<Plug>(YankyPutAfterShiftRightJoined)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyPutAfterShiftRightJoined)",
+        "annotation": "*",
+        "definition": "<Lua 968: …opt/yanky/lua/yanky.lua:392>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 392"
+    },
+    "x::<Plug>(YankyPutAfterShiftRight)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyPutAfterShiftRight)",
+        "annotation": "*",
+        "definition": "<Lua 967: …opt/yanky/lua/yanky.lua:388>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 388"
+    },
+    "n::<Plug>(YankyPutAfterShiftRight)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyPutAfterShiftRight)",
+        "annotation": "*",
+        "definition": "<Lua 966: …opt/yanky/lua/yanky.lua:384>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 384"
+    },
+    "x::<Plug>(YankyPutAfterBlockwiseJoined)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyPutAfterBlockwiseJoined)",
+        "annotation": "*",
+        "definition": "<Lua 965: …opt/yanky/lua/yanky.lua:379>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 379"
+    },
+    "n::<Plug>(YankyPutAfterBlockwiseJoined)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyPutAfterBlockwiseJoined)",
+        "annotation": "*",
+        "definition": "<Lua 964: …opt/yanky/lua/yanky.lua:375>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 375"
+    },
+    "x::<Plug>(YankyPutAfterBlockwise)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyPutAfterBlockwise)",
+        "annotation": "*",
+        "definition": "<Lua 963: …opt/yanky/lua/yanky.lua:371>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 371"
+    },
+    "n::<Plug>(YankyPutAfterBlockwise)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyPutAfterBlockwise)",
+        "annotation": "*",
+        "definition": "<Lua 962: …opt/yanky/lua/yanky.lua:367>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 367"
+    },
+    "x::<Plug>(YankyPutAfterCharwiseJoined)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyPutAfterCharwiseJoined)",
+        "annotation": "*",
+        "definition": "<Lua 961: …opt/yanky/lua/yanky.lua:363>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 363"
+    },
+    "n::<Plug>(YankyPutAfterCharwiseJoined)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyPutAfterCharwiseJoined)",
+        "annotation": "*",
+        "definition": "<Lua 960: …opt/yanky/lua/yanky.lua:359>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 359"
+    },
+    "x::<Plug>(YankyPutAfterCharwise)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyPutAfterCharwise)",
+        "annotation": "*",
+        "definition": "<Lua 959: …opt/yanky/lua/yanky.lua:355>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 355"
+    },
+    "n::<Plug>(YankyPutAfterCharwise)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyPutAfterCharwise)",
+        "annotation": "*",
+        "definition": "<Lua 958: …opt/yanky/lua/yanky.lua:351>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 351"
+    },
+    "x::<Plug>(YankyPutAfterLinewiseJoined)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyPutAfterLinewiseJoined)",
+        "annotation": "*",
+        "definition": "<Lua 957: …opt/yanky/lua/yanky.lua:347>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 347"
+    },
+    "n::<Plug>(YankyPutAfterLinewiseJoined)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyPutAfterLinewiseJoined)",
+        "annotation": "*",
+        "definition": "<Lua 956: …opt/yanky/lua/yanky.lua:343>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 343"
+    },
+    "x::<Plug>(YankyPutAfterLinewise)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyPutAfterLinewise)",
+        "annotation": "*",
+        "definition": "<Lua 955: …opt/yanky/lua/yanky.lua:339>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 339"
+    },
+    "n::<Plug>(YankyPutAfterLinewise)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyPutAfterLinewise)",
+        "annotation": "*",
+        "definition": "<Lua 954: …opt/yanky/lua/yanky.lua:335>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 335"
+    },
+    "x::<Plug>(YankyPutAfterJoined)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyPutAfterJoined)",
+        "annotation": "*",
+        "definition": "<Lua 953: …opt/yanky/lua/yanky.lua:331>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 331"
+    },
+    "n::<Plug>(YankyPutAfterJoined)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyPutAfterJoined)",
+        "annotation": "*",
+        "definition": "<Lua 952: …opt/yanky/lua/yanky.lua:327>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 327"
+    },
+    "x::<Plug>(YankyPutAfter)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyPutAfter)",
+        "annotation": "*",
+        "definition": "<Lua 951: …opt/yanky/lua/yanky.lua:323>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 323"
+    },
+    "n::<Plug>(YankyPutAfter)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyPutAfter)",
+        "annotation": "*",
+        "definition": "<Lua 950: …opt/yanky/lua/yanky.lua:319>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 319"
+    },
+    "x::<Plug>(YankyPutIndentBeforeFilterJoined)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyPutIndentBeforeFilterJoined)",
+        "annotation": "*",
+        "definition": "<Lua 949: …opt/yanky/lua/yanky.lua:400>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 400"
+    },
+    "n::<Plug>(YankyPutIndentBeforeFilterJoined)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyPutIndentBeforeFilterJoined)",
+        "annotation": "*",
+        "definition": "<Lua 948: …opt/yanky/lua/yanky.lua:392>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 392"
+    },
+    "x::<Plug>(YankyPutIndentBeforeFilter)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyPutIndentBeforeFilter)",
+        "annotation": "*",
+        "definition": "<Lua 947: …opt/yanky/lua/yanky.lua:388>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 388"
+    },
+    "n::<Plug>(YankyPutIndentBeforeFilter)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyPutIndentBeforeFilter)",
+        "annotation": "*",
+        "definition": "<Lua 946: …opt/yanky/lua/yanky.lua:384>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 384"
+    },
+    "x::<Plug>(YankyPutIndentBeforeShiftLeftJoined)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyPutIndentBeforeShiftLeftJoined)",
+        "annotation": "*",
+        "definition": "<Lua 945: …opt/yanky/lua/yanky.lua:400>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 400"
+    },
+    "n::<Plug>(YankyPutIndentBeforeShiftLeftJoined)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyPutIndentBeforeShiftLeftJoined)",
+        "annotation": "*",
+        "definition": "<Lua 944: …opt/yanky/lua/yanky.lua:392>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 392"
+    },
+    "x::<Plug>(YankyPutIndentBeforeShiftLeft)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyPutIndentBeforeShiftLeft)",
+        "annotation": "*",
+        "definition": "<Lua 943: …opt/yanky/lua/yanky.lua:388>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 388"
+    },
+    "n::<Plug>(YankyPutIndentBeforeShiftLeft)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyPutIndentBeforeShiftLeft)",
+        "annotation": "*",
+        "definition": "<Lua 942: …opt/yanky/lua/yanky.lua:384>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 384"
+    },
+    "x::<Plug>(YankyPutIndentBeforeShiftRightJoined)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyPutIndentBeforeShiftRightJoined)",
+        "annotation": "*",
+        "definition": "<Lua 941: …opt/yanky/lua/yanky.lua:400>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 400"
+    },
+    "n::<Plug>(YankyPutIndentBeforeShiftRightJoined)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyPutIndentBeforeShiftRightJoined)",
+        "annotation": "*",
+        "definition": "<Lua 940: …opt/yanky/lua/yanky.lua:392>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 392"
+    },
+    "x::<Plug>(YankyPutIndentBeforeShiftRight)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyPutIndentBeforeShiftRight)",
+        "annotation": "*",
+        "definition": "<Lua 939: …opt/yanky/lua/yanky.lua:388>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 388"
+    },
+    "n::<Plug>(YankyPutIndentBeforeShiftRight)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyPutIndentBeforeShiftRight)",
+        "annotation": "*",
+        "definition": "<Lua 938: …opt/yanky/lua/yanky.lua:384>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 384"
+    },
+    "x::<Plug>(YankyPutIndentBeforeBlockwiseJoined)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyPutIndentBeforeBlockwiseJoined)",
+        "annotation": "*",
+        "definition": "<Lua 937: …opt/yanky/lua/yanky.lua:379>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 379"
+    },
+    "n::<Plug>(YankyPutIndentBeforeBlockwiseJoined)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyPutIndentBeforeBlockwiseJoined)",
+        "annotation": "*",
+        "definition": "<Lua 936: …opt/yanky/lua/yanky.lua:375>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 375"
+    },
+    "x::<Plug>(YankyPutIndentBeforeBlockwise)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyPutIndentBeforeBlockwise)",
+        "annotation": "*",
+        "definition": "<Lua 935: …opt/yanky/lua/yanky.lua:371>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 371"
+    },
+    "n::<Plug>(YankyPutIndentBeforeBlockwise)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyPutIndentBeforeBlockwise)",
+        "annotation": "*",
+        "definition": "<Lua 934: …opt/yanky/lua/yanky.lua:367>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 367"
+    },
+    "x::<Plug>(YankyPutIndentBeforeCharwiseJoined)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyPutIndentBeforeCharwiseJoined)",
+        "annotation": "*",
+        "definition": "<Lua 933: …opt/yanky/lua/yanky.lua:363>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 363"
+    },
+    "n::<Plug>(YankyPutIndentBeforeCharwiseJoined)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyPutIndentBeforeCharwiseJoined)",
+        "annotation": "*",
+        "definition": "<Lua 932: …opt/yanky/lua/yanky.lua:359>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 359"
+    },
+    "x::<Plug>(YankyPutIndentBeforeCharwise)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyPutIndentBeforeCharwise)",
+        "annotation": "*",
+        "definition": "<Lua 931: …opt/yanky/lua/yanky.lua:355>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 355"
+    },
+    "n::<Plug>(YankyPutIndentBeforeCharwise)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyPutIndentBeforeCharwise)",
+        "annotation": "*",
+        "definition": "<Lua 930: …opt/yanky/lua/yanky.lua:351>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 351"
+    },
+    "x::<Plug>(YankyPutIndentBeforeLinewiseJoined)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyPutIndentBeforeLinewiseJoined)",
+        "annotation": "*",
+        "definition": "<Lua 929: …opt/yanky/lua/yanky.lua:347>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 347"
+    },
+    "n::<Plug>(YankyPutIndentBeforeLinewiseJoined)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyPutIndentBeforeLinewiseJoined)",
+        "annotation": "*",
+        "definition": "<Lua 928: …opt/yanky/lua/yanky.lua:343>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 343"
+    },
+    "x::<Plug>(YankyPutIndentBeforeLinewise)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyPutIndentBeforeLinewise)",
+        "annotation": "*",
+        "definition": "<Lua 927: …opt/yanky/lua/yanky.lua:339>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 339"
+    },
+    "n::<Plug>(YankyPutIndentBeforeLinewise)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyPutIndentBeforeLinewise)",
+        "annotation": "*",
+        "definition": "<Lua 926: …opt/yanky/lua/yanky.lua:335>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 335"
+    },
+    "x::<Plug>(YankyPutIndentBeforeJoined)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyPutIndentBeforeJoined)",
+        "annotation": "*",
+        "definition": "<Lua 925: …opt/yanky/lua/yanky.lua:331>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 331"
+    },
+    "n::<Plug>(YankyPutIndentBeforeJoined)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyPutIndentBeforeJoined)",
+        "annotation": "*",
+        "definition": "<Lua 924: …opt/yanky/lua/yanky.lua:327>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 327"
+    },
+    "x::<Plug>(YankyPutIndentBefore)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyPutIndentBefore)",
+        "annotation": "*",
+        "definition": "<Lua 923: …opt/yanky/lua/yanky.lua:323>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 323"
+    },
+    "n::<Plug>(YankyPutIndentBefore)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyPutIndentBefore)",
+        "annotation": "*",
+        "definition": "<Lua 922: …opt/yanky/lua/yanky.lua:319>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 319"
+    },
+    "x::<Plug>(YankyPutBeforeFilterJoined)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyPutBeforeFilterJoined)",
+        "annotation": "*",
+        "definition": "<Lua 921: …opt/yanky/lua/yanky.lua:400>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 400"
+    },
+    "n::<Plug>(YankyPutBeforeFilterJoined)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyPutBeforeFilterJoined)",
+        "annotation": "*",
+        "definition": "<Lua 920: …opt/yanky/lua/yanky.lua:392>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 392"
+    },
+    "x::<Plug>(YankyPutBeforeFilter)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyPutBeforeFilter)",
+        "annotation": "*",
+        "definition": "<Lua 919: …opt/yanky/lua/yanky.lua:388>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 388"
+    },
+    "n::<Plug>(YankyPutBeforeFilter)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyPutBeforeFilter)",
+        "annotation": "*",
+        "definition": "<Lua 918: …opt/yanky/lua/yanky.lua:384>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 384"
+    },
+    "x::<Plug>(YankyPutBeforeShiftLeftJoined)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyPutBeforeShiftLeftJoined)",
+        "annotation": "*",
+        "definition": "<Lua 917: …opt/yanky/lua/yanky.lua:400>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 400"
+    },
+    "n::<Plug>(YankyPutBeforeShiftLeftJoined)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyPutBeforeShiftLeftJoined)",
+        "annotation": "*",
+        "definition": "<Lua 916: …opt/yanky/lua/yanky.lua:392>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 392"
+    },
+    "x::<Plug>(YankyPutBeforeShiftLeft)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyPutBeforeShiftLeft)",
+        "annotation": "*",
+        "definition": "<Lua 915: …opt/yanky/lua/yanky.lua:388>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 388"
+    },
+    "n::<Plug>(YankyPutBeforeShiftLeft)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyPutBeforeShiftLeft)",
+        "annotation": "*",
+        "definition": "<Lua 914: …opt/yanky/lua/yanky.lua:384>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 384"
+    },
+    "x::<Plug>(YankyPutBeforeShiftRightJoined)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyPutBeforeShiftRightJoined)",
+        "annotation": "*",
+        "definition": "<Lua 913: …opt/yanky/lua/yanky.lua:400>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 400"
+    },
+    "n::<Plug>(YankyPutBeforeShiftRightJoined)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyPutBeforeShiftRightJoined)",
+        "annotation": "*",
+        "definition": "<Lua 912: …opt/yanky/lua/yanky.lua:392>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 392"
+    },
+    "x::<Plug>(YankyPutBeforeShiftRight)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyPutBeforeShiftRight)",
+        "annotation": "*",
+        "definition": "<Lua 911: …opt/yanky/lua/yanky.lua:388>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 388"
+    },
+    "n::<Plug>(YankyPutBeforeShiftRight)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyPutBeforeShiftRight)",
+        "annotation": "*",
+        "definition": "<Lua 910: …opt/yanky/lua/yanky.lua:384>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 384"
+    },
+    "x::<Plug>(YankyPutBeforeBlockwiseJoined)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyPutBeforeBlockwiseJoined)",
+        "annotation": "*",
+        "definition": "<Lua 909: …opt/yanky/lua/yanky.lua:379>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 379"
+    },
+    "n::<Plug>(YankyPutBeforeBlockwiseJoined)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyPutBeforeBlockwiseJoined)",
+        "annotation": "*",
+        "definition": "<Lua 908: …opt/yanky/lua/yanky.lua:375>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 375"
+    },
+    "x::<Plug>(YankyPutBeforeBlockwise)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyPutBeforeBlockwise)",
+        "annotation": "*",
+        "definition": "<Lua 907: …opt/yanky/lua/yanky.lua:371>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 371"
+    },
+    "n::<Plug>(YankyPutBeforeBlockwise)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyPutBeforeBlockwise)",
+        "annotation": "*",
+        "definition": "<Lua 906: …opt/yanky/lua/yanky.lua:367>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 367"
+    },
+    "x::<Plug>(YankyPutBeforeCharwiseJoined)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyPutBeforeCharwiseJoined)",
+        "annotation": "*",
+        "definition": "<Lua 905: …opt/yanky/lua/yanky.lua:363>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 363"
+    },
+    "n::<Plug>(YankyPutBeforeCharwiseJoined)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyPutBeforeCharwiseJoined)",
+        "annotation": "*",
+        "definition": "<Lua 904: …opt/yanky/lua/yanky.lua:359>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 359"
+    },
+    "x::<Plug>(YankyPutBeforeCharwise)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyPutBeforeCharwise)",
+        "annotation": "*",
+        "definition": "<Lua 903: …opt/yanky/lua/yanky.lua:355>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 355"
+    },
+    "n::<Plug>(YankyPutBeforeCharwise)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyPutBeforeCharwise)",
+        "annotation": "*",
+        "definition": "<Lua 902: …opt/yanky/lua/yanky.lua:351>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 351"
+    },
+    "x::<Plug>(YankyPutBeforeLinewiseJoined)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyPutBeforeLinewiseJoined)",
+        "annotation": "*",
+        "definition": "<Lua 901: …opt/yanky/lua/yanky.lua:347>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 347"
+    },
+    "n::<Plug>(YankyPutBeforeLinewiseJoined)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyPutBeforeLinewiseJoined)",
+        "annotation": "*",
+        "definition": "<Lua 900: …opt/yanky/lua/yanky.lua:343>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 343"
+    },
+    "x::<Plug>(YankyPutBeforeLinewise)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyPutBeforeLinewise)",
+        "annotation": "*",
+        "definition": "<Lua 899: …opt/yanky/lua/yanky.lua:339>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 339"
+    },
+    "n::<Plug>(YankyPutBeforeLinewise)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyPutBeforeLinewise)",
+        "annotation": "*",
+        "definition": "<Lua 898: …opt/yanky/lua/yanky.lua:335>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 335"
+    },
+    "x::<Plug>(YankyPutBeforeJoined)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyPutBeforeJoined)",
+        "annotation": "*",
+        "definition": "<Lua 897: …opt/yanky/lua/yanky.lua:331>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 331"
+    },
+    "n::<Plug>(YankyPutBeforeJoined)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyPutBeforeJoined)",
+        "annotation": "*",
+        "definition": "<Lua 896: …opt/yanky/lua/yanky.lua:327>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 327"
+    },
+    "x::<Plug>(YankyPutBefore)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyPutBefore)",
+        "annotation": "*",
+        "definition": "<Lua 895: …opt/yanky/lua/yanky.lua:323>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 323"
+    },
+    "n::<Plug>(YankyPutBefore)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyPutBefore)",
+        "annotation": "*",
+        "definition": "<Lua 894: …opt/yanky/lua/yanky.lua:319>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 319"
+    },
+    "x::<Plug>(YankyYank)": {
+        "mode": "x",
+        "keybind": "<Plug>(YankyYank)",
+        "annotation": "*",
+        "definition": "<Lua 893: …opt/yanky/lua/yanky.lua:279>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 309"
+    },
+    "n::<Plug>(YankyYank)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyYank)",
+        "annotation": "*",
+        "definition": "<Lua 892: …opt/yanky/lua/yanky.lua:279>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 309"
+    },
+    "n::<Plug>(YankyNextEntry)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyNextEntry)",
+        "annotation": "*",
+        "definition": "<Lua 891: …opt/yanky/lua/yanky.lua:305>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 305"
+    },
+    "n::<Plug>(YankyPreviousEntry)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyPreviousEntry)",
+        "annotation": "*",
+        "definition": "<Lua 890: …opt/yanky/lua/yanky.lua:301>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 301"
+    },
+    "n::<Plug>(YankyCycleBackward)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyCycleBackward)",
+        "annotation": "*",
+        "definition": "<Lua 887: …opt/yanky/lua/yanky.lua:297>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 297"
+    },
+    "n::<Plug>(YankyCycleForward)": {
+        "mode": "n",
+        "keybind": "<Plug>(YankyCycleForward)",
+        "annotation": "*",
+        "definition": "<Lua 1122: …opt/yanky/lua/yanky.lua:293>",
+        "description": null,
+        "origin": "Last set from …opt/yanky/lua/yanky.lua line 293"
+    },
+    "n::<Plug>(Marks-prev-bookmark9)": {
+        "mode": "n",
+        "keybind": "<Plug>(Marks-prev-bookmark9)",
+        "annotation": "*",
+        "definition": "<Cmd> lua require'marks'.prev_bookmark9()<CR>",
+        "description": null,
+        "origin": "Last set from …opt/marks/plugin/marks.vim line 43"
+    },
+    "n::<Plug>(Marks-next-bookmark9)": {
+        "mode": "n",
+        "keybind": "<Plug>(Marks-next-bookmark9)",
+        "annotation": "*",
+        "definition": "<Cmd> lua require'marks'.next_bookmark9()<CR>",
+        "description": null,
+        "origin": "Last set from …opt/marks/plugin/marks.vim line 42"
+    },
+    "n::<Plug>(Marks-toggle-bookmark9)": {
+        "mode": "n",
+        "keybind": "<Plug>(Marks-toggle-bookmark9)",
+        "annotation": "*",
+        "definition": "<Cmd> lua require'marks'.toggle_bookmark9()<CR>",
+        "description": null,
+        "origin": "Last set from …opt/marks/plugin/marks.vim line 41"
+    },
+    "n::<Plug>(Marks-delete-bookmark9)": {
+        "mode": "n",
+        "keybind": "<Plug>(Marks-delete-bookmark9)",
+        "annotation": "*",
+        "definition": "<Cmd> lua require'marks'.delete_bookmark9()<CR>",
+        "description": null,
+        "origin": "Last set from …opt/marks/plugin/marks.vim line 40"
+    },
+    "n::<Plug>(Marks-set-bookmark9)": {
+        "mode": "n",
+        "keybind": "<Plug>(Marks-set-bookmark9)",
+        "annotation": "*",
+        "definition": "<Cmd> lua require'marks'.set_bookmark9()<CR>",
+        "description": null,
+        "origin": "Last set from …opt/marks/plugin/marks.vim line 39"
+    },
+    "n::<Plug>(Marks-prev-bookmark8)": {
+        "mode": "n",
+        "keybind": "<Plug>(Marks-prev-bookmark8)",
+        "annotation": "*",
+        "definition": "<Cmd> lua require'marks'.prev_bookmark8()<CR>",
+        "description": null,
+        "origin": "Last set from …opt/marks/plugin/marks.vim line 43"
+    },
+    "n::<Plug>(Marks-next-bookmark8)": {
+        "mode": "n",
+        "keybind": "<Plug>(Marks-next-bookmark8)",
+        "annotation": "*",
+        "definition": "<Cmd> lua require'marks'.next_bookmark8()<CR>",
+        "description": null,
+        "origin": "Last set from …opt/marks/plugin/marks.vim line 42"
+    },
+    "n::<Plug>(Marks-toggle-bookmark8)": {
+        "mode": "n",
+        "keybind": "<Plug>(Marks-toggle-bookmark8)",
+        "annotation": "*",
+        "definition": "<Cmd> lua require'marks'.toggle_bookmark8()<CR>",
+        "description": null,
+        "origin": "Last set from …opt/marks/plugin/marks.vim line 41"
+    },
+    "n::<Plug>(Marks-delete-bookmark8)": {
+        "mode": "n",
+        "keybind": "<Plug>(Marks-delete-bookmark8)",
+        "annotation": "*",
+        "definition": "<Cmd> lua require'marks'.delete_bookmark8()<CR>",
+        "description": null,
+        "origin": "Last set from …opt/marks/plugin/marks.vim line 40"
+    },
+    "n::<Plug>(Marks-set-bookmark8)": {
+        "mode": "n",
+        "keybind": "<Plug>(Marks-set-bookmark8)",
+        "annotation": "*",
+        "definition": "<Cmd> lua require'marks'.set_bookmark8()<CR>",
+        "description": null,
+        "origin": "Last set from …opt/marks/plugin/marks.vim line 39"
+    },
+    "n::<Plug>(Marks-prev-bookmark7)": {
+        "mode": "n",
+        "keybind": "<Plug>(Marks-prev-bookmark7)",
+        "annotation": "*",
+        "definition": "<Cmd> lua require'marks'.prev_bookmark7()<CR>",
+        "description": null,
+        "origin": "Last set from …opt/marks/plugin/marks.vim line 43"
+    },
+    "n::<Plug>(Marks-next-bookmark7)": {
+        "mode": "n",
+        "keybind": "<Plug>(Marks-next-bookmark7)",
+        "annotation": "*",
+        "definition": "<Cmd> lua require'marks'.next_bookmark7()<CR>",
+        "description": null,
+        "origin": "Last set from …opt/marks/plugin/marks.vim line 42"
+    },
+    "n::<Plug>(Marks-toggle-bookmark7)": {
+        "mode": "n",
+        "keybind": "<Plug>(Marks-toggle-bookmark7)",
+        "annotation": "*",
+        "definition": "<Cmd> lua require'marks'.toggle_bookmark7()<CR>",
+        "description": null,
+        "origin": "Last set from …opt/marks/plugin/marks.vim line 41"
+    },
+    "n::<Plug>(Marks-delete-bookmark7)": {
+        "mode": "n",
+        "keybind": "<Plug>(Marks-delete-bookmark7)",
+        "annotation": "*",
+        "definition": "<Cmd> lua require'marks'.delete_bookmark7()<CR>",
+        "description": null,
+        "origin": "Last set from …opt/marks/plugin/marks.vim line 40"
+    },
+    "n::<Plug>(Marks-set-bookmark7)": {
+        "mode": "n",
+        "keybind": "<Plug>(Marks-set-bookmark7)",
+        "annotation": "*",
+        "definition": "<Cmd> lua require'marks'.set_bookmark7()<CR>",
+        "description": null,
+        "origin": "Last set from …opt/marks/plugin/marks.vim line 39"
+    },
+    "n::<Plug>(Marks-prev-bookmark6)": {
+        "mode": "n",
+        "keybind": "<Plug>(Marks-prev-bookmark6)",
+        "annotation": "*",
+        "definition": "<Cmd> lua require'marks'.prev_bookmark6()<CR>",
+        "description": null,
+        "origin": "Last set from …opt/marks/plugin/marks.vim line 43"
+    },
+    "n::<Plug>(Marks-next-bookmark6)": {
+        "mode": "n",
+        "keybind": "<Plug>(Marks-next-bookmark6)",
+        "annotation": "*",
+        "definition": "<Cmd> lua require'marks'.next_bookmark6()<CR>",
+        "description": null,
+        "origin": "Last set from …opt/marks/plugin/marks.vim line 42"
+    },
+    "n::<Plug>(Marks-toggle-bookmark6)": {
+        "mode": "n",
+        "keybind": "<Plug>(Marks-toggle-bookmark6)",
+        "annotation": "*",
+        "definition": "<Cmd> lua require'marks'.toggle_bookmark6()<CR>",
+        "description": null,
+        "origin": "Last set from …opt/marks/plugin/marks.vim line 41"
+    },
+    "n::<Plug>(Marks-delete-bookmark6)": {
+        "mode": "n",
+        "keybind": "<Plug>(Marks-delete-bookmark6)",
+        "annotation": "*",
+        "definition": "<Cmd> lua require'marks'.delete_bookmark6()<CR>",
+        "description": null,
+        "origin": "Last set from …opt/marks/plugin/marks.vim line 40"
+    },
+    "n::<Plug>(Marks-set-bookmark6)": {
+        "mode": "n",
+        "keybind": "<Plug>(Marks-set-bookmark6)",
+        "annotation": "*",
+        "definition": "<Cmd> lua require'marks'.set_bookmark6()<CR>",
+        "description": null,
+        "origin": "Last set from …opt/marks/plugin/marks.vim line 39"
+    },
+    "n::<Plug>(Marks-prev-bookmark5)": {
+        "mode": "n",
+        "keybind": "<Plug>(Marks-prev-bookmark5)",
+        "annotation": "*",
+        "definition": "<Cmd> lua require'marks'.prev_bookmark5()<CR>",
+        "description": null,
+        "origin": "Last set from …opt/marks/plugin/marks.vim line 43"
+    },
+    "n::<Plug>(Marks-next-bookmark5)": {
+        "mode": "n",
+        "keybind": "<Plug>(Marks-next-bookmark5)",
+        "annotation": "*",
+        "definition": "<Cmd> lua require'marks'.next_bookmark5()<CR>",
+        "description": null,
+        "origin": "Last set from …opt/marks/plugin/marks.vim line 42"
+    },
+    "n::<Plug>(Marks-toggle-bookmark5)": {
+        "mode": "n",
+        "keybind": "<Plug>(Marks-toggle-bookmark5)",
+        "annotation": "*",
+        "definition": "<Cmd> lua require'marks'.toggle_bookmark5()<CR>",
+        "description": null,
+        "origin": "Last set from …opt/marks/plugin/marks.vim line 41"
+    },
+    "n::<Plug>(Marks-delete-bookmark5)": {
+        "mode": "n",
+        "keybind": "<Plug>(Marks-delete-bookmark5)",
+        "annotation": "*",
+        "definition": "<Cmd> lua require'marks'.delete_bookmark5()<CR>",
+        "description": null,
+        "origin": "Last set from …opt/marks/plugin/marks.vim line 40"
+    },
+    "n::<Plug>(Marks-set-bookmark5)": {
+        "mode": "n",
+        "keybind": "<Plug>(Marks-set-bookmark5)",
+        "annotation": "*",
+        "definition": "<Cmd> lua require'marks'.set_bookmark5()<CR>",
+        "description": null,
+        "origin": "Last set from …opt/marks/plugin/marks.vim line 39"
+    },
+    "n::<Plug>(Marks-prev-bookmark4)": {
+        "mode": "n",
+        "keybind": "<Plug>(Marks-prev-bookmark4)",
+        "annotation": "*",
+        "definition": "<Cmd> lua require'marks'.prev_bookmark4()<CR>",
+        "description": null,
+        "origin": "Last set from …opt/marks/plugin/marks.vim line 43"
+    },
+    "n::<Plug>(Marks-next-bookmark4)": {
+        "mode": "n",
+        "keybind": "<Plug>(Marks-next-bookmark4)",
+        "annotation": "*",
+        "definition": "<Cmd> lua require'marks'.next_bookmark4()<CR>",
+        "description": null,
+        "origin": "Last set from …opt/marks/plugin/marks.vim line 42"
+    },
+    "n::<Plug>(Marks-toggle-bookmark4)": {
+        "mode": "n",
+        "keybind": "<Plug>(Marks-toggle-bookmark4)",
+        "annotation": "*",
+        "definition": "<Cmd> lua require'marks'.toggle_bookmark4()<CR>",
+        "description": null,
+        "origin": "Last set from …opt/marks/plugin/marks.vim line 41"
+    },
+    "n::<Plug>(Marks-delete-bookmark4)": {
+        "mode": "n",
+        "keybind": "<Plug>(Marks-delete-bookmark4)",
+        "annotation": "*",
+        "definition": "<Cmd> lua require'marks'.delete_bookmark4()<CR>",
+        "description": null,
+        "origin": "Last set from …opt/marks/plugin/marks.vim line 40"
+    },
+    "n::<Plug>(Marks-set-bookmark4)": {
+        "mode": "n",
+        "keybind": "<Plug>(Marks-set-bookmark4)",
+        "annotation": "*",
+        "definition": "<Cmd> lua require'marks'.set_bookmark4()<CR>",
+        "description": null,
+        "origin": "Last set from …opt/marks/plugin/marks.vim line 39"
+    },
+    "n::<Plug>(Marks-prev-bookmark3)": {
+        "mode": "n",
+        "keybind": "<Plug>(Marks-prev-bookmark3)",
+        "annotation": "*",
+        "definition": "<Cmd> lua require'marks'.prev_bookmark3()<CR>",
+        "description": null,
+        "origin": "Last set from …opt/marks/plugin/marks.vim line 43"
+    },
+    "n::<Plug>(Marks-next-bookmark3)": {
+        "mode": "n",
+        "keybind": "<Plug>(Marks-next-bookmark3)",
+        "annotation": "*",
+        "definition": "<Cmd> lua require'marks'.next_bookmark3()<CR>",
+        "description": null,
+        "origin": "Last set from …opt/marks/plugin/marks.vim line 42"
+    },
+    "n::<Plug>(Marks-toggle-bookmark3)": {
+        "mode": "n",
+        "keybind": "<Plug>(Marks-toggle-bookmark3)",
+        "annotation": "*",
+        "definition": "<Cmd> lua require'marks'.toggle_bookmark3()<CR>",
+        "description": null,
+        "origin": "Last set from …opt/marks/plugin/marks.vim line 41"
+    },
+    "n::<Plug>(Marks-delete-bookmark3)": {
+        "mode": "n",
+        "keybind": "<Plug>(Marks-delete-bookmark3)",
+        "annotation": "*",
+        "definition": "<Cmd> lua require'marks'.delete_bookmark3()<CR>",
+        "description": null,
+        "origin": "Last set from …opt/marks/plugin/marks.vim line 40"
+    },
+    "n::<Plug>(Marks-set-bookmark3)": {
+        "mode": "n",
+        "keybind": "<Plug>(Marks-set-bookmark3)",
+        "annotation": "*",
+        "definition": "<Cmd> lua require'marks'.set_bookmark3()<CR>",
+        "description": null,
+        "origin": "Last set from …opt/marks/plugin/marks.vim line 39"
+    },
+    "n::<Plug>(Marks-prev-bookmark2)": {
+        "mode": "n",
+        "keybind": "<Plug>(Marks-prev-bookmark2)",
+        "annotation": "*",
+        "definition": "<Cmd> lua require'marks'.prev_bookmark2()<CR>",
+        "description": null,
+        "origin": "Last set from …opt/marks/plugin/marks.vim line 43"
+    },
+    "n::<Plug>(Marks-next-bookmark2)": {
+        "mode": "n",
+        "keybind": "<Plug>(Marks-next-bookmark2)",
+        "annotation": "*",
+        "definition": "<Cmd> lua require'marks'.next_bookmark2()<CR>",
+        "description": null,
+        "origin": "Last set from …opt/marks/plugin/marks.vim line 42"
+    },
+    "n::<Plug>(Marks-toggle-bookmark2)": {
+        "mode": "n",
+        "keybind": "<Plug>(Marks-toggle-bookmark2)",
+        "annotation": "*",
+        "definition": "<Cmd> lua require'marks'.toggle_bookmark2()<CR>",
+        "description": null,
+        "origin": "Last set from …opt/marks/plugin/marks.vim line 41"
+    },
+    "n::<Plug>(Marks-delete-bookmark2)": {
+        "mode": "n",
+        "keybind": "<Plug>(Marks-delete-bookmark2)",
+        "annotation": "*",
+        "definition": "<Cmd> lua require'marks'.delete_bookmark2()<CR>",
+        "description": null,
+        "origin": "Last set from …opt/marks/plugin/marks.vim line 40"
+    },
+    "n::<Plug>(Marks-set-bookmark2)": {
+        "mode": "n",
+        "keybind": "<Plug>(Marks-set-bookmark2)",
+        "annotation": "*",
+        "definition": "<Cmd> lua require'marks'.set_bookmark2()<CR>",
+        "description": null,
+        "origin": "Last set from …opt/marks/plugin/marks.vim line 39"
+    },
+    "n::<Plug>(Marks-prev-bookmark1)": {
+        "mode": "n",
+        "keybind": "<Plug>(Marks-prev-bookmark1)",
+        "annotation": "*",
+        "definition": "<Cmd> lua require'marks'.prev_bookmark1()<CR>",
+        "description": null,
+        "origin": "Last set from …opt/marks/plugin/marks.vim line 43"
+    },
+    "n::<Plug>(Marks-next-bookmark1)": {
+        "mode": "n",
+        "keybind": "<Plug>(Marks-next-bookmark1)",
+        "annotation": "*",
+        "definition": "<Cmd> lua require'marks'.next_bookmark1()<CR>",
+        "description": null,
+        "origin": "Last set from …opt/marks/plugin/marks.vim line 42"
+    },
+    "n::<Plug>(Marks-toggle-bookmark1)": {
+        "mode": "n",
+        "keybind": "<Plug>(Marks-toggle-bookmark1)",
+        "annotation": "*",
+        "definition": "<Cmd> lua require'marks'.toggle_bookmark1()<CR>",
+        "description": null,
+        "origin": "Last set from …opt/marks/plugin/marks.vim line 41"
+    },
+    "n::<Plug>(Marks-delete-bookmark1)": {
+        "mode": "n",
+        "keybind": "<Plug>(Marks-delete-bookmark1)",
+        "annotation": "*",
+        "definition": "<Cmd> lua require'marks'.delete_bookmark1()<CR>",
+        "description": null,
+        "origin": "Last set from …opt/marks/plugin/marks.vim line 40"
+    },
+    "n::<Plug>(Marks-set-bookmark1)": {
+        "mode": "n",
+        "keybind": "<Plug>(Marks-set-bookmark1)",
+        "annotation": "*",
+        "definition": "<Cmd> lua require'marks'.set_bookmark1()<CR>",
+        "description": null,
+        "origin": "Last set from …opt/marks/plugin/marks.vim line 39"
+    },
+    "n::<Plug>(Marks-prev-bookmark0)": {
+        "mode": "n",
+        "keybind": "<Plug>(Marks-prev-bookmark0)",
+        "annotation": "*",
+        "definition": "<Cmd> lua require'marks'.prev_bookmark0()<CR>",
+        "description": null,
+        "origin": "Last set from …opt/marks/plugin/marks.vim line 43"
+    },
+    "n::<Plug>(Marks-next-bookmark0)": {
+        "mode": "n",
+        "keybind": "<Plug>(Marks-next-bookmark0)",
+        "annotation": "*",
+        "definition": "<Cmd> lua require'marks'.next_bookmark0()<CR>",
+        "description": null,
+        "origin": "Last set from …opt/marks/plugin/marks.vim line 42"
+    },
+    "n::<Plug>(Marks-toggle-bookmark0)": {
+        "mode": "n",
+        "keybind": "<Plug>(Marks-toggle-bookmark0)",
+        "annotation": "*",
+        "definition": "<Cmd> lua require'marks'.toggle_bookmark0()<CR>",
+        "description": null,
+        "origin": "Last set from …opt/marks/plugin/marks.vim line 41"
+    },
+    "n::<Plug>(Marks-delete-bookmark0)": {
+        "mode": "n",
+        "keybind": "<Plug>(Marks-delete-bookmark0)",
+        "annotation": "*",
+        "definition": "<Cmd> lua require'marks'.delete_bookmark0()<CR>",
+        "description": null,
+        "origin": "Last set from …opt/marks/plugin/marks.vim line 40"
+    },
+    "n::<Plug>(Marks-set-bookmark0)": {
+        "mode": "n",
+        "keybind": "<Plug>(Marks-set-bookmark0)",
+        "annotation": "*",
+        "definition": "<Cmd> lua require'marks'.set_bookmark0()<CR>",
+        "description": null,
+        "origin": "Last set from …opt/marks/plugin/marks.vim line 39"
+    },
+    "n::<Plug>(Marks-prev-bookmark)": {
+        "mode": "n",
+        "keybind": "<Plug>(Marks-prev-bookmark)",
+        "annotation": "*",
+        "definition": "<Cmd> lua require'marks'.prev_bookmark()<CR>",
+        "description": null,
+        "origin": "Last set from …opt/marks/plugin/marks.vim line 36"
+    },
+    "n::<Plug>(Marks-next-bookmark)": {
+        "mode": "n",
+        "keybind": "<Plug>(Marks-next-bookmark)",
+        "annotation": "*",
+        "definition": "<Cmd> lua require'marks'.next_bookmark()<CR>",
+        "description": null,
+        "origin": "Last set from …opt/marks/plugin/marks.vim line 35"
+    },
+    "n::<Plug>(Marks-delete-bookmark)": {
+        "mode": "n",
+        "keybind": "<Plug>(Marks-delete-bookmark)",
+        "annotation": "*",
+        "definition": "<Cmd> lua require'marks'.delete_bookmark()<CR>",
+        "description": null,
+        "origin": "Last set from …opt/marks/plugin/marks.vim line 34"
+    },
+    "n::<Plug>(Marks-prev)": {
+        "mode": "n",
+        "keybind": "<Plug>(Marks-prev)",
+        "annotation": "*",
+        "definition": "<Cmd> lua require'marks'.prev()<CR>",
+        "description": null,
+        "origin": "Last set from …opt/marks/plugin/marks.vim line 33"
+    },
+    "n::<Plug>(Marks-next)": {
+        "mode": "n",
+        "keybind": "<Plug>(Marks-next)",
+        "annotation": "*",
+        "definition": "<Cmd> lua require'marks'.next()<CR>",
+        "description": null,
+        "origin": "Last set from …opt/marks/plugin/marks.vim line 32"
+    },
+    "n::<Plug>(Marks-preview)": {
+        "mode": "n",
+        "keybind": "<Plug>(Marks-preview)",
+        "annotation": "*",
+        "definition": "<Cmd> lua require'marks'.preview()<CR>",
+        "description": null,
+        "origin": "Last set from …opt/marks/plugin/marks.vim line 31"
+    },
+    "n::<Plug>(Marks-deletebuf)": {
+        "mode": "n",
+        "keybind": "<Plug>(Marks-deletebuf)",
+        "annotation": "*",
+        "definition": "<Cmd> lua require'marks'.delete_buf()<CR>",
+        "description": null,
+        "origin": "Last set from …opt/marks/plugin/marks.vim line 30"
+    },
+    "n::<Plug>(Marks-deleteline)": {
+        "mode": "n",
+        "keybind": "<Plug>(Marks-deleteline)",
+        "annotation": "*",
+        "definition": "<Cmd> lua require'marks'.delete_line()<CR>",
+        "description": null,
+        "origin": "Last set from …opt/marks/plugin/marks.vim line 29"
+    },
+    "n::<Plug>(Marks-delete)": {
+        "mode": "n",
+        "keybind": "<Plug>(Marks-delete)",
+        "annotation": "*",
+        "definition": "<Cmd> lua require'marks'.delete()<CR>",
+        "description": null,
+        "origin": "Last set from …opt/marks/plugin/marks.vim line 28"
+    },
+    "n::<Plug>(Marks-toggle)": {
+        "mode": "n",
+        "keybind": "<Plug>(Marks-toggle)",
+        "annotation": "*",
+        "definition": "<Cmd> lua require'marks'.toggle()<CR>",
+        "description": null,
+        "origin": "Last set from …opt/marks/plugin/marks.vim line 27"
+    },
+    "n::<Plug>(Marks-setnext)": {
+        "mode": "n",
+        "keybind": "<Plug>(Marks-setnext)",
+        "annotation": "*",
+        "definition": "<Cmd> lua require'marks'.set_next()<CR>",
+        "description": null,
+        "origin": "Last set from …opt/marks/plugin/marks.vim line 26"
+    },
+    "n::<Plug>(Marks-set)": {
+        "mode": "n",
+        "keybind": "<Plug>(Marks-set)",
+        "annotation": "*",
+        "definition": "<Cmd> lua require'marks'.set()<CR>",
+        "description": null,
+        "origin": "Last set from …opt/marks/plugin/marks.vim line 25"
+    },
+    "o::<Plug>(leap-backward-till)": {
+        "mode": "o",
+        "keybind": "<Plug>(leap-backward-till)",
+        "annotation": "*",
+        "definition": "<Plug>(leap-backward-next-to)",
+        "description": null,
+        "origin": "Last set from …opt/leap/plugin/init.lua line 65"
+    },
+    "x::<Plug>(leap-backward-till)": {
+        "mode": "x",
+        "keybind": "<Plug>(leap-backward-till)",
+        "annotation": "*",
+        "definition": "<Plug>(leap-backward-next-to)",
+        "description": null,
+        "origin": "Last set from …opt/leap/plugin/init.lua line 65"
+    },
+    "n::<Plug>(leap-backward-till)": {
+        "mode": "n",
+        "keybind": "<Plug>(leap-backward-till)",
+        "annotation": "*",
+        "definition": "<Plug>(leap-backward-next-to)",
+        "description": null,
+        "origin": "Last set from …opt/leap/plugin/init.lua line 65"
+    },
+    "o::<Plug>(leap-forward-till)": {
+        "mode": "o",
+        "keybind": "<Plug>(leap-forward-till)",
+        "annotation": "*",
+        "definition": "<Plug>(leap-forward-next-to)",
+        "description": null,
+        "origin": "Last set from …opt/leap/plugin/init.lua line 64"
+    },
+    "x::<Plug>(leap-forward-till)": {
+        "mode": "x",
+        "keybind": "<Plug>(leap-forward-till)",
+        "annotation": "*",
+        "definition": "<Plug>(leap-forward-next-to)",
+        "description": null,
+        "origin": "Last set from …opt/leap/plugin/init.lua line 64"
+    },
+    "n::<Plug>(leap-forward-till)": {
+        "mode": "n",
+        "keybind": "<Plug>(leap-forward-till)",
+        "annotation": "*",
+        "definition": "<Plug>(leap-forward-next-to)",
+        "description": null,
+        "origin": "Last set from …opt/leap/plugin/init.lua line 64"
+    },
+    "o::<Plug>(leap-till)": {
+        "mode": "o",
+        "keybind": "<Plug>(leap-till)",
+        "annotation": "*",
+        "definition": "<Plug>(leap-next-to)",
+        "description": null,
+        "origin": "Last set from …opt/leap/plugin/init.lua line 63"
+    },
+    "x::<Plug>(leap-till)": {
+        "mode": "x",
+        "keybind": "<Plug>(leap-till)",
+        "annotation": "*",
+        "definition": "<Plug>(leap-next-to)",
+        "description": null,
+        "origin": "Last set from …opt/leap/plugin/init.lua line 63"
+    },
+    "n::<Plug>(leap-till)": {
+        "mode": "n",
+        "keybind": "<Plug>(leap-till)",
+        "annotation": "*",
+        "definition": "<Plug>(leap-next-to)",
+        "description": null,
+        "origin": "Last set from …opt/leap/plugin/init.lua line 63"
+    },
+    "o::<Plug>(leap-remote-inner-text-object)": {
+        "mode": "o",
+        "keybind": "<Plug>(leap-remote-inner-text-object)",
+        "annotation": "*",
+        "definition": "<Lua 678: …opt/leap/plugin/init.lua:59>",
+        "description": null,
+        "origin": "Last set from …opt/leap/plugin/init.lua line 59"
+    },
+    "x::<Plug>(leap-remote-inner-text-object)": {
+        "mode": "x",
+        "keybind": "<Plug>(leap-remote-inner-text-object)",
+        "annotation": "*",
+        "definition": "<Lua 677: …opt/leap/plugin/init.lua:59>",
+        "description": null,
+        "origin": "Last set from …opt/leap/plugin/init.lua line 59"
+    },
+    "o::<Plug>(leap-remote-text-object)": {
+        "mode": "o",
+        "keybind": "<Plug>(leap-remote-text-object)",
+        "annotation": "*",
+        "definition": "<Lua 676: …opt/leap/plugin/init.lua:56>",
+        "description": null,
+        "origin": "Last set from …opt/leap/plugin/init.lua line 56"
+    },
+    "x::<Plug>(leap-remote-text-object)": {
+        "mode": "x",
+        "keybind": "<Plug>(leap-remote-text-object)",
+        "annotation": "*",
+        "definition": "<Lua 675: …opt/leap/plugin/init.lua:56>",
+        "description": null,
+        "origin": "Last set from …opt/leap/plugin/init.lua line 56"
+    },
+    "o::<Plug>(leap-remote-line)": {
+        "mode": "o",
+        "keybind": "<Plug>(leap-remote-line)",
+        "annotation": "*",
+        "definition": "<Lua 674: …opt/leap/plugin/init.lua:45>",
+        "description": null,
+        "origin": "Last set from …opt/leap/plugin/init.lua line 45"
+    },
+    "o::<Plug>(leap-remote-linewise)": {
+        "mode": "o",
+        "keybind": "<Plug>(leap-remote-linewise)",
+        "annotation": "*",
+        "definition": "<Lua 673: …opt/leap/plugin/init.lua:42>",
+        "description": null,
+        "origin": "Last set from …opt/leap/plugin/init.lua line 42"
+    },
+    "n::<Plug>(leap-remote-linewise)": {
+        "mode": "n",
+        "keybind": "<Plug>(leap-remote-linewise)",
+        "annotation": "*",
+        "definition": "<Lua 672: …opt/leap/plugin/init.lua:42>",
+        "description": null,
+        "origin": "Last set from …opt/leap/plugin/init.lua line 42"
+    },
+    "o::<Plug>(leap-remote)": {
+        "mode": "o",
+        "keybind": "<Plug>(leap-remote)",
+        "annotation": "*",
+        "definition": "<Lua 671: …opt/leap/plugin/init.lua:28>",
+        "description": null,
+        "origin": "Last set from …opt/leap/plugin/init.lua line 28"
+    },
+    "n::<Plug>(leap-remote)": {
+        "mode": "n",
+        "keybind": "<Plug>(leap-remote)",
+        "annotation": "*",
+        "definition": "<Lua 670: …opt/leap/plugin/init.lua:28>",
+        "description": null,
+        "origin": "Last set from …opt/leap/plugin/init.lua line 28"
+    },
+    "o::<Plug>(leap-anywhere)": {
+        "mode": "o",
+        "keybind": "<Plug>(leap-anywhere)",
+        "annotation": "*",
+        "definition": "<Lua 669: …opt/leap/plugin/init.lua:24>",
+        "description": null,
+        "origin": "Last set from …opt/leap/plugin/init.lua line 24"
+    },
+    "x::<Plug>(leap-anywhere)": {
+        "mode": "x",
+        "keybind": "<Plug>(leap-anywhere)",
+        "annotation": "*",
+        "definition": "<Lua 668: …opt/leap/plugin/init.lua:24>",
+        "description": null,
+        "origin": "Last set from …opt/leap/plugin/init.lua line 24"
+    },
+    "n::<Plug>(leap-anywhere)": {
+        "mode": "n",
+        "keybind": "<Plug>(leap-anywhere)",
+        "annotation": "*",
+        "definition": "<Lua 667: …opt/leap/plugin/init.lua:24>",
+        "description": null,
+        "origin": "Last set from …opt/leap/plugin/init.lua line 24"
+    },
+    "o::<Plug>(leap-from-window)": {
+        "mode": "o",
+        "keybind": "<Plug>(leap-from-window)",
+        "annotation": "*",
+        "definition": "<Lua 666: …opt/leap/plugin/init.lua:21>",
+        "description": null,
+        "origin": "Last set from …opt/leap/plugin/init.lua line 21"
+    },
+    "x::<Plug>(leap-from-window)": {
+        "mode": "x",
+        "keybind": "<Plug>(leap-from-window)",
+        "annotation": "*",
+        "definition": "<Lua 665: …opt/leap/plugin/init.lua:21>",
+        "description": null,
+        "origin": "Last set from …opt/leap/plugin/init.lua line 21"
+    },
+    "n::<Plug>(leap-from-window)": {
+        "mode": "n",
+        "keybind": "<Plug>(leap-from-window)",
+        "annotation": "*",
+        "definition": "<Lua 664: …opt/leap/plugin/init.lua:21>",
+        "description": null,
+        "origin": "Last set from …opt/leap/plugin/init.lua line 21"
+    },
+    "o::<Plug>(leap-next-to)": {
+        "mode": "o",
+        "keybind": "<Plug>(leap-next-to)",
+        "annotation": "*",
+        "definition": "<Lua 663: …opt/leap/plugin/init.lua:18>",
+        "description": null,
+        "origin": "Last set from …opt/leap/plugin/init.lua line 18"
+    },
+    "x::<Plug>(leap-next-to)": {
+        "mode": "x",
+        "keybind": "<Plug>(leap-next-to)",
+        "annotation": "*",
+        "definition": "<Lua 662: …opt/leap/plugin/init.lua:18>",
+        "description": null,
+        "origin": "Last set from …opt/leap/plugin/init.lua line 18"
+    },
+    "n::<Plug>(leap-next-to)": {
+        "mode": "n",
+        "keybind": "<Plug>(leap-next-to)",
+        "annotation": "*",
+        "definition": "<Lua 661: …opt/leap/plugin/init.lua:18>",
+        "description": null,
+        "origin": "Last set from …opt/leap/plugin/init.lua line 18"
+    },
+    "o::<Plug>(leap)": {
+        "mode": "o",
+        "keybind": "<Plug>(leap)",
+        "annotation": "*",
+        "definition": "<Lua 660: …opt/leap/plugin/init.lua:15>",
+        "description": null,
+        "origin": "Last set from …opt/leap/plugin/init.lua line 15"
+    },
+    "x::<Plug>(leap)": {
+        "mode": "x",
+        "keybind": "<Plug>(leap)",
+        "annotation": "*",
+        "definition": "<Lua 659: …opt/leap/plugin/init.lua:15>",
+        "description": null,
+        "origin": "Last set from …opt/leap/plugin/init.lua line 15"
+    },
+    "n::<Plug>(leap)": {
+        "mode": "n",
+        "keybind": "<Plug>(leap)",
+        "annotation": "*",
+        "definition": "<Lua 658: …opt/leap/plugin/init.lua:15>",
+        "description": null,
+        "origin": "Last set from …opt/leap/plugin/init.lua line 15"
+    },
+    "o::<Plug>(leap-backward-next-to)": {
+        "mode": "o",
+        "keybind": "<Plug>(leap-backward-next-to)",
+        "annotation": "*",
+        "definition": "<Lua 657: …opt/leap/plugin/init.lua:12>",
+        "description": null,
+        "origin": "Last set from …opt/leap/plugin/init.lua line 12"
+    },
+    "x::<Plug>(leap-backward-next-to)": {
+        "mode": "x",
+        "keybind": "<Plug>(leap-backward-next-to)",
+        "annotation": "*",
+        "definition": "<Lua 656: …opt/leap/plugin/init.lua:12>",
+        "description": null,
+        "origin": "Last set from …opt/leap/plugin/init.lua line 12"
+    },
+    "n::<Plug>(leap-backward-next-to)": {
+        "mode": "n",
+        "keybind": "<Plug>(leap-backward-next-to)",
+        "annotation": "*",
+        "definition": "<Lua 655: …opt/leap/plugin/init.lua:12>",
+        "description": null,
+        "origin": "Last set from …opt/leap/plugin/init.lua line 12"
+    },
+    "o::<Plug>(leap-backward)": {
+        "mode": "o",
+        "keybind": "<Plug>(leap-backward)",
+        "annotation": "*",
+        "definition": "<Lua 654: …opt/leap/plugin/init.lua:9>",
+        "description": null,
+        "origin": "Last set from …opt/leap/plugin/init.lua line 9"
+    },
+    "x::<Plug>(leap-backward)": {
+        "mode": "x",
+        "keybind": "<Plug>(leap-backward)",
+        "annotation": "*",
+        "definition": "<Lua 653: …opt/leap/plugin/init.lua:9>",
+        "description": null,
+        "origin": "Last set from …opt/leap/plugin/init.lua line 9"
+    },
+    "n::<Plug>(leap-backward)": {
+        "mode": "n",
+        "keybind": "<Plug>(leap-backward)",
+        "annotation": "*",
+        "definition": "<Lua 652: …opt/leap/plugin/init.lua:9>",
+        "description": null,
+        "origin": "Last set from …opt/leap/plugin/init.lua line 9"
+    },
+    "o::<Plug>(leap-forward-next-to)": {
+        "mode": "o",
+        "keybind": "<Plug>(leap-forward-next-to)",
+        "annotation": "*",
+        "definition": "<Lua 651: …opt/leap/plugin/init.lua:6>",
+        "description": null,
+        "origin": "Last set from …opt/leap/plugin/init.lua line 6"
+    },
+    "x::<Plug>(leap-forward-next-to)": {
+        "mode": "x",
+        "keybind": "<Plug>(leap-forward-next-to)",
+        "annotation": "*",
+        "definition": "<Lua 650: …opt/leap/plugin/init.lua:6>",
+        "description": null,
+        "origin": "Last set from …opt/leap/plugin/init.lua line 6"
+    },
+    "n::<Plug>(leap-forward-next-to)": {
+        "mode": "n",
+        "keybind": "<Plug>(leap-forward-next-to)",
+        "annotation": "*",
+        "definition": "<Lua 649: …opt/leap/plugin/init.lua:6>",
+        "description": null,
+        "origin": "Last set from …opt/leap/plugin/init.lua line 6"
+    },
+    "o::<Plug>(leap-forward)": {
+        "mode": "o",
+        "keybind": "<Plug>(leap-forward)",
+        "annotation": "*",
+        "definition": "<Lua 648: …opt/leap/plugin/init.lua:3>",
+        "description": null,
+        "origin": "Last set from …opt/leap/plugin/init.lua line 3"
+    },
+    "x::<Plug>(leap-forward)": {
+        "mode": "x",
+        "keybind": "<Plug>(leap-forward)",
+        "annotation": "*",
+        "definition": "<Lua 647: …opt/leap/plugin/init.lua:3>",
+        "description": null,
+        "origin": "Last set from …opt/leap/plugin/init.lua line 3"
+    },
+    "n::<Plug>(leap-forward)": {
+        "mode": "n",
+        "keybind": "<Plug>(leap-forward)",
+        "annotation": "*",
+        "definition": "<Lua 765: …opt/leap/plugin/init.lua:3>",
+        "description": null,
+        "origin": "Last set from …opt/leap/plugin/init.lua line 3"
+    },
+    "o::<Plug>WordMotion_iw": {
+        "mode": "o",
+        "keybind": "<Plug>WordMotion_iw",
+        "annotation": "*",
+        "definition": ":<C-U>call wordmotion#object(v:count1, 'o', 1, 0)<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-wordmotion/plugin/wordmotion.vim line 84"
+    },
+    "x::<Plug>WordMotion_iw": {
+        "mode": "x",
+        "keybind": "<Plug>WordMotion_iw",
+        "annotation": "*",
+        "definition": ":<C-U>call wordmotion#object(v:count1, 'x', 1, 0)<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-wordmotion/plugin/wordmotion.vim line 84"
+    },
+    "o::<Plug>WordMotion_aw": {
+        "mode": "o",
+        "keybind": "<Plug>WordMotion_aw",
+        "annotation": "*",
+        "definition": ":<C-U>call wordmotion#object(v:count1, 'o', 0, 0)<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-wordmotion/plugin/wordmotion.vim line 84"
+    },
+    "x::<Plug>WordMotion_aw": {
+        "mode": "x",
+        "keybind": "<Plug>WordMotion_aw",
+        "annotation": "*",
+        "definition": ":<C-U>call wordmotion#object(v:count1, 'x', 0, 0)<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-wordmotion/plugin/wordmotion.vim line 84"
+    },
+    "o::<Plug>WordMotion_ge": {
+        "mode": "o",
+        "keybind": "<Plug>WordMotion_ge",
+        "annotation": "*",
+        "definition": ":<C-U>call wordmotion#motion(v:count1, 'o', 'be', 0, [])<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-wordmotion/plugin/wordmotion.vim line 56"
+    },
+    "x::<Plug>WordMotion_ge": {
+        "mode": "x",
+        "keybind": "<Plug>WordMotion_ge",
+        "annotation": "*",
+        "definition": ":<C-U>call wordmotion#motion(v:count1, 'x', 'be', 0, [])<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-wordmotion/plugin/wordmotion.vim line 56"
+    },
+    "n::<Plug>WordMotion_ge": {
+        "mode": "n",
+        "keybind": "<Plug>WordMotion_ge",
+        "annotation": "*",
+        "definition": ":<C-U>call wordmotion#motion(v:count1, 'n', 'be', 0, [])<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-wordmotion/plugin/wordmotion.vim line 56"
+    },
+    "o::<Plug>WordMotion_b": {
+        "mode": "o",
+        "keybind": "<Plug>WordMotion_b",
+        "annotation": "*",
+        "definition": ":<C-U>call wordmotion#motion(v:count1, 'o', 'b', 0, [])<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-wordmotion/plugin/wordmotion.vim line 56"
+    },
+    "x::<Plug>WordMotion_b": {
+        "mode": "x",
+        "keybind": "<Plug>WordMotion_b",
+        "annotation": "*",
+        "definition": ":<C-U>call wordmotion#motion(v:count1, 'x', 'b', 0, [])<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-wordmotion/plugin/wordmotion.vim line 56"
+    },
+    "n::<Plug>WordMotion_b": {
+        "mode": "n",
+        "keybind": "<Plug>WordMotion_b",
+        "annotation": "*",
+        "definition": ":<C-U>call wordmotion#motion(v:count1, 'n', 'b', 0, [])<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-wordmotion/plugin/wordmotion.vim line 56"
+    },
+    "o::<Plug>WordMotion_e": {
+        "mode": "o",
+        "keybind": "<Plug>WordMotion_e",
+        "annotation": "*",
+        "definition": ":<C-U>call wordmotion#motion(v:count1, 'o', 'e', 0, [])<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-wordmotion/plugin/wordmotion.vim line 56"
+    },
+    "x::<Plug>WordMotion_e": {
+        "mode": "x",
+        "keybind": "<Plug>WordMotion_e",
+        "annotation": "*",
+        "definition": ":<C-U>call wordmotion#motion(v:count1, 'x', 'e', 0, [])<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-wordmotion/plugin/wordmotion.vim line 56"
+    },
+    "n::<Plug>WordMotion_e": {
+        "mode": "n",
+        "keybind": "<Plug>WordMotion_e",
+        "annotation": "*",
+        "definition": ":<C-U>call wordmotion#motion(v:count1, 'n', 'e', 0, [])<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-wordmotion/plugin/wordmotion.vim line 56"
+    },
+    "o::<Plug>WordMotion_w": {
+        "mode": "o",
+        "keybind": "<Plug>WordMotion_w",
+        "annotation": "*",
+        "definition": ":<C-U>call wordmotion#motion(v:count1, 'o', '', 0, [])<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-wordmotion/plugin/wordmotion.vim line 56"
+    },
+    "x::<Plug>WordMotion_w": {
+        "mode": "x",
+        "keybind": "<Plug>WordMotion_w",
+        "annotation": "*",
+        "definition": ":<C-U>call wordmotion#motion(v:count1, 'x', '', 0, [])<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-wordmotion/plugin/wordmotion.vim line 56"
+    },
+    "n::<Plug>WordMotion_w": {
+        "mode": "n",
+        "keybind": "<Plug>WordMotion_w",
+        "annotation": "*",
+        "definition": ":<C-U>call wordmotion#motion(v:count1, 'n', '', 0, [])<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-wordmotion/plugin/wordmotion.vim line 56"
+    },
+    "n::<Plug>(nvim-surround-change-line)": {
+        "mode": "n",
+        "keybind": "<Plug>(nvim-surround-change-line)",
+        "annotation": "*",
+        "definition": "<Lua 327: …opt/nvim-surround/plugin/nvim-surround.lua:150>",
+        "description": "Change a surrounding pair, putting replacements on new lines",
+        "origin": "Last set from …opt/nvim-surround/plugin/nvim-surround.lua line 150"
+    },
+    "n::<Plug>(nvim-surround-change)": {
+        "mode": "n",
+        "keybind": "<Plug>(nvim-surround-change)",
+        "annotation": "*",
+        "definition": "<Lua 326: …opt/nvim-surround/plugin/nvim-surround.lua:143>",
+        "description": "Change a surrounding pair",
+        "origin": "Last set from …opt/nvim-surround/plugin/nvim-surround.lua line 143"
+    },
+    "n::<Plug>(nvim-surround-delete)": {
+        "mode": "n",
+        "keybind": "<Plug>(nvim-surround-delete)",
+        "annotation": "*",
+        "definition": "<Lua 325: …opt/nvim-surround/lua/nvim-surround/init.lua:171>",
+        "description": "Delete a surrounding pair",
+        "origin": "Last set from …opt/nvim-surround/plugin/nvim-surround.lua line 138"
+    },
+    "x::<Plug>(nvim-surround-visual-line)": {
+        "mode": "x",
+        "keybind": "<Plug>(nvim-surround-visual-line)",
+        "annotation": "*",
+        "definition": "<Lua 324: …opt/nvim-surround/plugin/nvim-surround.lua:126>",
+        "description": "Add a surrounding pair around a visual selection, on new lines",
+        "origin": "Last set from …opt/nvim-surround/plugin/nvim-surround.lua line 126"
+    },
+    "x::<Plug>(nvim-surround-visual)": {
+        "mode": "x",
+        "keybind": "<Plug>(nvim-surround-visual)",
+        "annotation": "*",
+        "definition": "<Lua 323: …opt/nvim-surround/plugin/nvim-surround.lua:113>",
+        "description": "Add a surrounding pair around a visual selection",
+        "origin": "Last set from …opt/nvim-surround/plugin/nvim-surround.lua line 113"
+    },
+    "n::<Plug>(nvim-surround-normal-cur-line)": {
+        "mode": "n",
+        "keybind": "<Plug>(nvim-surround-normal-cur-line)",
+        "annotation": "*",
+        "definition": "<Lua 322: …opt/nvim-surround/plugin/nvim-surround.lua:106>",
+        "description": "Add a surrounding pair around the current line, on new lines (normal mode)",
+        "origin": "Last set from …opt/nvim-surround/plugin/nvim-surround.lua line 106"
+    },
+    "n::<Plug>(nvim-surround-normal-line)": {
+        "mode": "n",
+        "keybind": "<Plug>(nvim-surround-normal-line)",
+        "annotation": "*",
+        "definition": "<Lua 321: …opt/nvim-surround/plugin/nvim-surround.lua:99>",
+        "description": "Add a surrounding pair around a motion, on new lines (normal mode)",
+        "origin": "Last set from …opt/nvim-surround/plugin/nvim-surround.lua line 99"
+    },
+    "n::<Plug>(nvim-surround-normal-cur)": {
+        "mode": "n",
+        "keybind": "<Plug>(nvim-surround-normal-cur)",
+        "annotation": "*",
+        "definition": "<Lua 320: …opt/nvim-surround/plugin/nvim-surround.lua:92>",
+        "description": "Add a surrounding pair around the current line (normal mode)",
+        "origin": "Last set from …opt/nvim-surround/plugin/nvim-surround.lua line 92"
+    },
+    "n::<Plug>(nvim-surround-normal)": {
+        "mode": "n",
+        "keybind": "<Plug>(nvim-surround-normal)",
+        "annotation": "*",
+        "definition": "<Lua 319: …opt/nvim-surround/plugin/nvim-surround.lua:85>",
+        "description": "Add a surrounding pair around a motion (normal mode)",
+        "origin": "Last set from …opt/nvim-surround/plugin/nvim-surround.lua line 85"
+    },
+    "x::<Plug>(textobj-sandwich-literal-query-a)": {
+        "mode": "x",
+        "keybind": "<Plug>(textobj-sandwich-literal-query-a)",
+        "annotation": "*",
+        "definition": "textobj#sandwich#query('x', 'a', {}, [])",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/textobj/sandwich.vim line 33"
+    },
+    "o::<Plug>(textobj-sandwich-literal-query-a)": {
+        "mode": "o",
+        "keybind": "<Plug>(textobj-sandwich-literal-query-a)",
+        "annotation": "*",
+        "definition": "textobj#sandwich#query('o', 'a', {}, [])",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/textobj/sandwich.vim line 32"
+    },
+    "n::<Plug>(textobj-sandwich-literal-query-a)": {
+        "mode": "n",
+        "keybind": "<Plug>(textobj-sandwich-literal-query-a)",
+        "annotation": "*",
+        "definition": "textobj#sandwich#query('n', 'a', {}, [])",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/textobj/sandwich.vim line 31"
+    },
+    "x::<Plug>(textobj-sandwich-literal-query-i)": {
+        "mode": "x",
+        "keybind": "<Plug>(textobj-sandwich-literal-query-i)",
+        "annotation": "*",
+        "definition": "textobj#sandwich#query('x', 'i', {}, [])",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/textobj/sandwich.vim line 30"
+    },
+    "o::<Plug>(textobj-sandwich-literal-query-i)": {
+        "mode": "o",
+        "keybind": "<Plug>(textobj-sandwich-literal-query-i)",
+        "annotation": "*",
+        "definition": "textobj#sandwich#query('o', 'i', {}, [])",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/textobj/sandwich.vim line 29"
+    },
+    "n::<Plug>(textobj-sandwich-literal-query-i)": {
+        "mode": "n",
+        "keybind": "<Plug>(textobj-sandwich-literal-query-i)",
+        "annotation": "*",
+        "definition": "textobj#sandwich#query('n', 'i', {}, [])",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/textobj/sandwich.vim line 28"
+    },
+    "x::<Plug>(textobj-sandwich-query-a)": {
+        "mode": "x",
+        "keybind": "<Plug>(textobj-sandwich-query-a)",
+        "annotation": "*",
+        "definition": "textobj#sandwich#query('x', 'a')",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/textobj/sandwich.vim line 26"
+    },
+    "o::<Plug>(textobj-sandwich-query-a)": {
+        "mode": "o",
+        "keybind": "<Plug>(textobj-sandwich-query-a)",
+        "annotation": "*",
+        "definition": "textobj#sandwich#query('o', 'a')",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/textobj/sandwich.vim line 25"
+    },
+    "n::<Plug>(textobj-sandwich-query-a)": {
+        "mode": "n",
+        "keybind": "<Plug>(textobj-sandwich-query-a)",
+        "annotation": "*",
+        "definition": "textobj#sandwich#query('n', 'a')",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/textobj/sandwich.vim line 24"
+    },
+    "x::<Plug>(textobj-sandwich-query-i)": {
+        "mode": "x",
+        "keybind": "<Plug>(textobj-sandwich-query-i)",
+        "annotation": "*",
+        "definition": "textobj#sandwich#query('x', 'i')",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/textobj/sandwich.vim line 23"
+    },
+    "o::<Plug>(textobj-sandwich-query-i)": {
+        "mode": "o",
+        "keybind": "<Plug>(textobj-sandwich-query-i)",
+        "annotation": "*",
+        "definition": "textobj#sandwich#query('o', 'i')",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/textobj/sandwich.vim line 22"
+    },
+    "n::<Plug>(textobj-sandwich-query-i)": {
+        "mode": "n",
+        "keybind": "<Plug>(textobj-sandwich-query-i)",
+        "annotation": "*",
+        "definition": "textobj#sandwich#query('n', 'i')",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/textobj/sandwich.vim line 21"
+    },
+    "x::<Plug>(textobj-sandwich-auto-a)": {
+        "mode": "x",
+        "keybind": "<Plug>(textobj-sandwich-auto-a)",
+        "annotation": "*",
+        "definition": "textobj#sandwich#auto('x', 'a')",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/textobj/sandwich.vim line 19"
+    },
+    "o::<Plug>(textobj-sandwich-auto-a)": {
+        "mode": "o",
+        "keybind": "<Plug>(textobj-sandwich-auto-a)",
+        "annotation": "*",
+        "definition": "textobj#sandwich#auto('o', 'a')",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/textobj/sandwich.vim line 18"
+    },
+    "n::<Plug>(textobj-sandwich-auto-a)": {
+        "mode": "n",
+        "keybind": "<Plug>(textobj-sandwich-auto-a)",
+        "annotation": "*",
+        "definition": "textobj#sandwich#auto('n', 'a')",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/textobj/sandwich.vim line 17"
+    },
+    "x::<Plug>(textobj-sandwich-auto-i)": {
+        "mode": "x",
+        "keybind": "<Plug>(textobj-sandwich-auto-i)",
+        "annotation": "*",
+        "definition": "textobj#sandwich#auto('x', 'i')",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/textobj/sandwich.vim line 16"
+    },
+    "o::<Plug>(textobj-sandwich-auto-i)": {
+        "mode": "o",
+        "keybind": "<Plug>(textobj-sandwich-auto-i)",
+        "annotation": "*",
+        "definition": "textobj#sandwich#auto('o', 'i')",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/textobj/sandwich.vim line 15"
+    },
+    "n::<Plug>(textobj-sandwich-auto-i)": {
+        "mode": "n",
+        "keybind": "<Plug>(textobj-sandwich-auto-i)",
+        "annotation": "*",
+        "definition": "textobj#sandwich#auto('n', 'i')",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/textobj/sandwich.vim line 14"
+    },
+    "n::<Plug>(sandwich-replace-auto)": {
+        "mode": "n",
+        "keybind": "<Plug>(sandwich-replace-auto)",
+        "annotation": null,
+        "definition": "<Plug>(operator-sandwich-replace)<Plug>(operator-sandwich-release-count)<Plug>(textobj-sandwich-auto-a)",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/sandwich.vim line 40"
+    },
+    "n::<Plug>(sandwich-delete-auto)": {
+        "mode": "n",
+        "keybind": "<Plug>(sandwich-delete-auto)",
+        "annotation": null,
+        "definition": "<Plug>(operator-sandwich-delete)<Plug>(operator-sandwich-release-count)<Plug>(textobj-sandwich-auto-a)",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/sandwich.vim line 39"
+    },
+    "x::<Plug>(sandwich-replace)": {
+        "mode": "x",
+        "keybind": "<Plug>(sandwich-replace)",
+        "annotation": null,
+        "definition": "<Plug>(operator-sandwich-replace)",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/sandwich.vim line 38"
+    },
+    "n::<Plug>(sandwich-replace)": {
+        "mode": "n",
+        "keybind": "<Plug>(sandwich-replace)",
+        "annotation": null,
+        "definition": "<Plug>(operator-sandwich-replace)<Plug>(operator-sandwich-release-count)<Plug>(textobj-sandwich-query-a)",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/sandwich.vim line 37"
+    },
+    "x::<Plug>(sandwich-delete)": {
+        "mode": "x",
+        "keybind": "<Plug>(sandwich-delete)",
+        "annotation": null,
+        "definition": "<Plug>(operator-sandwich-delete)",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/sandwich.vim line 36"
+    },
+    "n::<Plug>(sandwich-delete)": {
+        "mode": "n",
+        "keybind": "<Plug>(sandwich-delete)",
+        "annotation": null,
+        "definition": "<Plug>(operator-sandwich-delete)<Plug>(operator-sandwich-release-count)<Plug>(textobj-sandwich-query-a)",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/sandwich.vim line 35"
+    },
+    "o::<Plug>(sandwich-add)": {
+        "mode": "o",
+        "keybind": "<Plug>(sandwich-add)",
+        "annotation": null,
+        "definition": "<Plug>(operator-sandwich-add)",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/sandwich.vim line 34"
+    },
+    "x::<Plug>(sandwich-add)": {
+        "mode": "x",
+        "keybind": "<Plug>(sandwich-add)",
+        "annotation": null,
+        "definition": "<Plug>(operator-sandwich-add)",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/sandwich.vim line 33"
+    },
+    "n::<Plug>(sandwich-add)": {
+        "mode": "n",
+        "keybind": "<Plug>(sandwich-add)",
+        "annotation": null,
+        "definition": "<Plug>(operator-sandwich-add)",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/sandwich.vim line 32"
+    },
+    "x::<Plug>(textobj-sandwich-tag-a)": {
+        "mode": "x",
+        "keybind": "<Plug>(textobj-sandwich-tag-a)",
+        "annotation": "*",
+        "definition": ":<C-U>call sandwich#magicchar#t#at()<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/sandwich.vim line 30"
+    },
+    "x::<Plug>(textobj-sandwich-tag-i)": {
+        "mode": "x",
+        "keybind": "<Plug>(textobj-sandwich-tag-i)",
+        "annotation": "*",
+        "definition": ":<C-U>call sandwich#magicchar#t#it()<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/sandwich.vim line 29"
+    },
+    "o::<Plug>(textobj-sandwich-tag-a)": {
+        "mode": "o",
+        "keybind": "<Plug>(textobj-sandwich-tag-a)",
+        "annotation": "*",
+        "definition": ":<C-U>call sandwich#magicchar#t#at()<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/sandwich.vim line 28"
+    },
+    "o::<Plug>(textobj-sandwich-tag-i)": {
+        "mode": "o",
+        "keybind": "<Plug>(textobj-sandwich-tag-i)",
+        "annotation": "*",
+        "definition": ":<C-U>call sandwich#magicchar#t#it()<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/sandwich.vim line 27"
+    },
+    "x::<Plug>(textobj-sandwich-tagname-a)": {
+        "mode": "x",
+        "keybind": "<Plug>(textobj-sandwich-tagname-a)",
+        "annotation": "*",
+        "definition": ":<C-U>call sandwich#magicchar#t#a()<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/sandwich.vim line 26"
+    },
+    "x::<Plug>(textobj-sandwich-tagname-i)": {
+        "mode": "x",
+        "keybind": "<Plug>(textobj-sandwich-tagname-i)",
+        "annotation": "*",
+        "definition": ":<C-U>call sandwich#magicchar#t#i()<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/sandwich.vim line 25"
+    },
+    "o::<Plug>(textobj-sandwich-tagname-a)": {
+        "mode": "o",
+        "keybind": "<Plug>(textobj-sandwich-tagname-a)",
+        "annotation": "*",
+        "definition": ":<C-U>call sandwich#magicchar#t#a()<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/sandwich.vim line 24"
+    },
+    "o::<Plug>(textobj-sandwich-tagname-i)": {
+        "mode": "o",
+        "keybind": "<Plug>(textobj-sandwich-tagname-i)",
+        "annotation": "*",
+        "definition": ":<C-U>call sandwich#magicchar#t#i()<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/sandwich.vim line 23"
+    },
+    "x::<Plug>(textobj-sandwich-function-a)": {
+        "mode": "x",
+        "keybind": "<Plug>(textobj-sandwich-function-a)",
+        "annotation": "*",
+        "definition": ":<C-U>call sandwich#magicchar#f#a('x')<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/sandwich.vim line 22"
+    },
+    "x::<Plug>(textobj-sandwich-function-ap)": {
+        "mode": "x",
+        "keybind": "<Plug>(textobj-sandwich-function-ap)",
+        "annotation": "*",
+        "definition": ":<C-U>call sandwich#magicchar#f#ap('x')<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/sandwich.vim line 21"
+    },
+    "o::<Plug>(textobj-sandwich-function-a)": {
+        "mode": "o",
+        "keybind": "<Plug>(textobj-sandwich-function-a)",
+        "annotation": "*",
+        "definition": ":<C-U>call sandwich#magicchar#f#a('o')<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/sandwich.vim line 20"
+    },
+    "o::<Plug>(textobj-sandwich-function-ap)": {
+        "mode": "o",
+        "keybind": "<Plug>(textobj-sandwich-function-ap)",
+        "annotation": "*",
+        "definition": ":<C-U>call sandwich#magicchar#f#ap('o')<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/sandwich.vim line 19"
+    },
+    "x::<Plug>(textobj-sandwich-function-i)": {
+        "mode": "x",
+        "keybind": "<Plug>(textobj-sandwich-function-i)",
+        "annotation": "*",
+        "definition": ":<C-U>call sandwich#magicchar#f#i('x')<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/sandwich.vim line 18"
+    },
+    "x::<Plug>(textobj-sandwich-function-ip)": {
+        "mode": "x",
+        "keybind": "<Plug>(textobj-sandwich-function-ip)",
+        "annotation": "*",
+        "definition": ":<C-U>call sandwich#magicchar#f#ip('x')<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/sandwich.vim line 17"
+    },
+    "o::<Plug>(textobj-sandwich-function-i)": {
+        "mode": "o",
+        "keybind": "<Plug>(textobj-sandwich-function-i)",
+        "annotation": "*",
+        "definition": ":<C-U>call sandwich#magicchar#f#i('o')<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/sandwich.vim line 16"
+    },
+    "o::<Plug>(textobj-sandwich-function-ip)": {
+        "mode": "o",
+        "keybind": "<Plug>(textobj-sandwich-function-ip)",
+        "annotation": "*",
+        "definition": ":<C-U>call sandwich#magicchar#f#ip('o')<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/sandwich.vim line 15"
+    },
+    "n::<Plug>(operator-sandwich-gv)": {
+        "mode": "n",
+        "keybind": "<Plug>(operator-sandwich-gv)",
+        "annotation": "*",
+        "definition": "gv",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/operator/sandwich.vim line 52"
+    },
+    "n::<Plug>(operator-sandwich-dot)": {
+        "mode": "n",
+        "keybind": "<Plug>(operator-sandwich-dot)",
+        "annotation": "*",
+        "definition": "operator#sandwich#dot()",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/operator/sandwich.vim line 42"
+    },
+    "n::<Plug>(operator-sandwich-predot)": {
+        "mode": "n",
+        "keybind": "<Plug>(operator-sandwich-predot)",
+        "annotation": "*",
+        "definition": "operator#sandwich#predot()",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/operator/sandwich.vim line 41"
+    },
+    "o::<Plug>(operator-sandwich-squash-count)": {
+        "mode": "o",
+        "keybind": "<Plug>(operator-sandwich-squash-count)",
+        "annotation": "*",
+        "definition": "operator#sandwich#squash_count()",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/operator/sandwich.vim line 40"
+    },
+    "o::<Plug>(operator-sandwich-release-count)": {
+        "mode": "o",
+        "keybind": "<Plug>(operator-sandwich-release-count)",
+        "annotation": "*",
+        "definition": "operator#sandwich#release_count()",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/operator/sandwich.vim line 39"
+    },
+    "o::<Plug>(operator-sandwich-synchro-count)": {
+        "mode": "o",
+        "keybind": "<Plug>(operator-sandwich-synchro-count)",
+        "annotation": "*",
+        "definition": "operator#sandwich#synchro_count()",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/operator/sandwich.vim line 38"
+    },
+    "x::<Plug>(operator-sandwich-replace-query1st)": {
+        "mode": "x",
+        "keybind": "<Plug>(operator-sandwich-replace-query1st)",
+        "annotation": "*",
+        "definition": "<Esc>:call operator#sandwich#query1st('replace', 'x')<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/operator/sandwich.vim line 35"
+    },
+    "n::<Plug>(operator-sandwich-replace-query1st)": {
+        "mode": "n",
+        "keybind": "<Plug>(operator-sandwich-replace-query1st)",
+        "annotation": "*",
+        "definition": ":<C-U>call operator#sandwich#query1st('replace', 'n')<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/operator/sandwich.vim line 34"
+    },
+    "x::<Plug>(operator-sandwich-add-query1st)": {
+        "mode": "x",
+        "keybind": "<Plug>(operator-sandwich-add-query1st)",
+        "annotation": "*",
+        "definition": "<Esc>:call operator#sandwich#query1st('add', 'x')<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/operator/sandwich.vim line 33"
+    },
+    "n::<Plug>(operator-sandwich-add-query1st)": {
+        "mode": "n",
+        "keybind": "<Plug>(operator-sandwich-add-query1st)",
+        "annotation": "*",
+        "definition": ":<C-U>call operator#sandwich#query1st('add', 'n')<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/operator/sandwich.vim line 32"
+    },
+    "x::<Plug>(operator-sandwich-replace-pre)": {
+        "mode": "x",
+        "keybind": "<Plug>(operator-sandwich-replace-pre)",
+        "annotation": "*",
+        "definition": "<Esc>:call operator#sandwich#prerequisite('replace', 'x')<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/operator/sandwich.vim line 30"
+    },
+    "n::<Plug>(operator-sandwich-replace-pre)": {
+        "mode": "n",
+        "keybind": "<Plug>(operator-sandwich-replace-pre)",
+        "annotation": "*",
+        "definition": ":<C-U>call operator#sandwich#prerequisite('replace', 'n')<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/operator/sandwich.vim line 29"
+    },
+    "x::<Plug>(operator-sandwich-delete-pre)": {
+        "mode": "x",
+        "keybind": "<Plug>(operator-sandwich-delete-pre)",
+        "annotation": "*",
+        "definition": "<Esc>:call operator#sandwich#prerequisite('delete', 'x')<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/operator/sandwich.vim line 28"
+    },
+    "n::<Plug>(operator-sandwich-delete-pre)": {
+        "mode": "n",
+        "keybind": "<Plug>(operator-sandwich-delete-pre)",
+        "annotation": "*",
+        "definition": ":<C-U>call operator#sandwich#prerequisite('delete', 'n')<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/operator/sandwich.vim line 27"
+    },
+    "x::<Plug>(operator-sandwich-add-pre)": {
+        "mode": "x",
+        "keybind": "<Plug>(operator-sandwich-add-pre)",
+        "annotation": "*",
+        "definition": "<Esc>:call operator#sandwich#prerequisite('add', 'x')<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/operator/sandwich.vim line 26"
+    },
+    "n::<Plug>(operator-sandwich-add-pre)": {
+        "mode": "n",
+        "keybind": "<Plug>(operator-sandwich-add-pre)",
+        "annotation": "*",
+        "definition": ":<C-U>call operator#sandwich#prerequisite('add', 'n')<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/operator/sandwich.vim line 25"
+    },
+    "o::<Plug>(operator-sandwich-replace)": {
+        "mode": "o",
+        "keybind": "<Plug>(operator-sandwich-replace)",
+        "annotation": null,
+        "definition": "<Plug>(operator-sandwich-g@)",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/operator/sandwich.vim line 23"
+    },
+    "x::<Plug>(operator-sandwich-replace)": {
+        "mode": "x",
+        "keybind": "<Plug>(operator-sandwich-replace)",
+        "annotation": null,
+        "definition": "<Plug>(operator-sandwich-replace-pre)<Plug>(operator-sandwich-gv)<Plug>(operator-sandwich-g@)",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/operator/sandwich.vim line 22"
+    },
+    "n::<Plug>(operator-sandwich-replace)": {
+        "mode": "n",
+        "keybind": "<Plug>(operator-sandwich-replace)",
+        "annotation": null,
+        "definition": "<Plug>(operator-sandwich-replace-pre)<Plug>(operator-sandwich-g@)",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/operator/sandwich.vim line 21"
+    },
+    "o::<Plug>(operator-sandwich-delete)": {
+        "mode": "o",
+        "keybind": "<Plug>(operator-sandwich-delete)",
+        "annotation": null,
+        "definition": "<Plug>(operator-sandwich-g@)",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/operator/sandwich.vim line 20"
+    },
+    "x::<Plug>(operator-sandwich-delete)": {
+        "mode": "x",
+        "keybind": "<Plug>(operator-sandwich-delete)",
+        "annotation": null,
+        "definition": "<Plug>(operator-sandwich-delete-pre)<Plug>(operator-sandwich-gv)<Plug>(operator-sandwich-g@)",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/operator/sandwich.vim line 19"
+    },
+    "n::<Plug>(operator-sandwich-delete)": {
+        "mode": "n",
+        "keybind": "<Plug>(operator-sandwich-delete)",
+        "annotation": null,
+        "definition": "<Plug>(operator-sandwich-delete-pre)<Plug>(operator-sandwich-g@)",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/operator/sandwich.vim line 18"
+    },
+    "o::<Plug>(operator-sandwich-add)": {
+        "mode": "o",
+        "keybind": "<Plug>(operator-sandwich-add)",
+        "annotation": null,
+        "definition": "<Plug>(operator-sandwich-g@)",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/operator/sandwich.vim line 17"
+    },
+    "x::<Plug>(operator-sandwich-add)": {
+        "mode": "x",
+        "keybind": "<Plug>(operator-sandwich-add)",
+        "annotation": null,
+        "definition": "<Plug>(operator-sandwich-add-pre)<Plug>(operator-sandwich-gv)<Plug>(operator-sandwich-g@)",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/operator/sandwich.vim line 16"
+    },
+    "n::<Plug>(operator-sandwich-add)": {
+        "mode": "n",
+        "keybind": "<Plug>(operator-sandwich-add)",
+        "annotation": null,
+        "definition": "<Plug>(operator-sandwich-add-pre)<Plug>(operator-sandwich-g@)",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/operator/sandwich.vim line 15"
+    },
+    "n::<Plug>(SwitchReverse)": {
+        "mode": "n",
+        "keybind": "<Plug>(SwitchReverse)",
+        "annotation": "*",
+        "definition": "execute(\"set opfunc=switch#OpfuncReverse\").'g@l'",
+        "description": null,
+        "origin": "Last set from …opt/switch.vim/plugin/switch.vim line 301"
+    },
+    "n::<Plug>(Switch)": {
+        "mode": "n",
+        "keybind": "<Plug>(Switch)",
+        "annotation": "*",
+        "definition": "execute(\"set opfunc=switch#OpfuncForward\").'g@l'",
+        "description": null,
+        "origin": "Last set from …opt/switch.vim/plugin/switch.vim line 300"
+    },
+    "n::<Plug>(abolish-coerce-word)": {
+        "mode": "n",
+        "keybind": "<Plug>(abolish-coerce-word)",
+        "annotation": "*",
+        "definition": "<SNR>61_coerce(nr2char(getchar())).'iw'",
+        "description": null,
+        "origin": "Last set from …opt/vim-abolish/plugin/abolish.vim line 617"
+    },
+    "v::<Plug>(abolish-coerce)": {
+        "mode": "v",
+        "keybind": "<Plug>(abolish-coerce)",
+        "annotation": "*",
+        "definition": "<SNR>61_coerce(nr2char(getchar()))",
+        "description": null,
+        "origin": "Last set from …opt/vim-abolish/plugin/abolish.vim line 616"
+    },
+    "n::<Plug>(abolish-coerce)": {
+        "mode": "n",
+        "keybind": "<Plug>(abolish-coerce)",
+        "annotation": "*",
+        "definition": "<SNR>61_coerce(nr2char(getchar()))",
+        "description": null,
+        "origin": "Last set from …opt/vim-abolish/plugin/abolish.vim line 615"
+    },
+    "n::<Plug>(wrapping-toggle-wrap-mode)": {
+        "mode": "n",
+        "keybind": "<Plug>(wrapping-toggle-wrap-mode)",
+        "annotation": "*",
+        "definition": "<Lua 226: …opt/wrapping/lua/wrapping/init.lua:402>",
+        "description": "Toggle wrap mode",
+        "origin": "Last set from …opt/wrapping/lua/wrapping/init.lua line 402"
+    },
+    "n::<Plug>(wrapping-hard-wrap-mode)": {
+        "mode": "n",
+        "keybind": "<Plug>(wrapping-hard-wrap-mode)",
+        "annotation": "*",
+        "definition": "<Lua 225: …opt/wrapping/lua/wrapping/init.lua:399>",
+        "description": "Hard wrap mode",
+        "origin": "Last set from …opt/wrapping/lua/wrapping/init.lua line 399"
+    },
+    "n::<Plug>(wrapping-soft-wrap-mode)": {
+        "mode": "n",
+        "keybind": "<Plug>(wrapping-soft-wrap-mode)",
+        "annotation": "*",
+        "definition": "<Lua 219: …opt/wrapping/lua/wrapping/init.lua:396>",
+        "description": "Soft wrap mode",
+        "origin": "Last set from …opt/wrapping/lua/wrapping/init.lua line 396"
+    },
+    "x::<Plug>CaserVDotCase": {
+        "mode": "x",
+        "keybind": "<Plug>CaserVDotCase",
+        "annotation": "*",
+        "definition": ":<C-U>call caser#DoAction(\"DotCase\",visualmode())<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-caser/autoload/caser.vim line 123"
+    },
+    "n::<Plug>CaserDotCase": {
+        "mode": "n",
+        "keybind": "<Plug>CaserDotCase",
+        "annotation": "*",
+        "definition": ":<C-U>call caser#ActionSetup(\"DotCase\")<CR>g@",
+        "description": null,
+        "origin": "Last set from …opt/vim-caser/autoload/caser.vim line 122"
+    },
+    "x::<Plug>CaserVTitleKebabCase": {
+        "mode": "x",
+        "keybind": "<Plug>CaserVTitleKebabCase",
+        "annotation": "*",
+        "definition": ":<C-U>call caser#DoAction(\"TitleKebabCase\",visualmode())<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-caser/autoload/caser.vim line 123"
+    },
+    "n::<Plug>CaserTitleKebabCase": {
+        "mode": "n",
+        "keybind": "<Plug>CaserTitleKebabCase",
+        "annotation": "*",
+        "definition": ":<C-U>call caser#ActionSetup(\"TitleKebabCase\")<CR>g@",
+        "description": null,
+        "origin": "Last set from …opt/vim-caser/autoload/caser.vim line 122"
+    },
+    "x::<Plug>CaserVKebabCase": {
+        "mode": "x",
+        "keybind": "<Plug>CaserVKebabCase",
+        "annotation": "*",
+        "definition": ":<C-U>call caser#DoAction(\"KebabCase\",visualmode())<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-caser/autoload/caser.vim line 123"
+    },
+    "n::<Plug>CaserKebabCase": {
+        "mode": "n",
+        "keybind": "<Plug>CaserKebabCase",
+        "annotation": "*",
+        "definition": ":<C-U>call caser#ActionSetup(\"KebabCase\")<CR>g@",
+        "description": null,
+        "origin": "Last set from …opt/vim-caser/autoload/caser.vim line 122"
+    },
+    "x::<Plug>CaserVSpaceCase": {
+        "mode": "x",
+        "keybind": "<Plug>CaserVSpaceCase",
+        "annotation": "*",
+        "definition": ":<C-U>call caser#DoAction(\"SpaceCase\",visualmode())<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-caser/autoload/caser.vim line 123"
+    },
+    "n::<Plug>CaserSpaceCase": {
+        "mode": "n",
+        "keybind": "<Plug>CaserSpaceCase",
+        "annotation": "*",
+        "definition": ":<C-U>call caser#ActionSetup(\"SpaceCase\")<CR>g@",
+        "description": null,
+        "origin": "Last set from …opt/vim-caser/autoload/caser.vim line 122"
+    },
+    "x::<Plug>CaserVSentenceCase": {
+        "mode": "x",
+        "keybind": "<Plug>CaserVSentenceCase",
+        "annotation": "*",
+        "definition": ":<C-U>call caser#DoAction(\"SentenceCase\",visualmode())<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-caser/autoload/caser.vim line 123"
+    },
+    "n::<Plug>CaserSentenceCase": {
+        "mode": "n",
+        "keybind": "<Plug>CaserSentenceCase",
+        "annotation": "*",
+        "definition": ":<C-U>call caser#ActionSetup(\"SentenceCase\")<CR>g@",
+        "description": null,
+        "origin": "Last set from …opt/vim-caser/autoload/caser.vim line 122"
+    },
+    "x::<Plug>CaserVTitleCase": {
+        "mode": "x",
+        "keybind": "<Plug>CaserVTitleCase",
+        "annotation": "*",
+        "definition": ":<C-U>call caser#DoAction(\"TitleCase\",visualmode())<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-caser/autoload/caser.vim line 123"
+    },
+    "n::<Plug>CaserTitleCase": {
+        "mode": "n",
+        "keybind": "<Plug>CaserTitleCase",
+        "annotation": "*",
+        "definition": ":<C-U>call caser#ActionSetup(\"TitleCase\")<CR>g@",
+        "description": null,
+        "origin": "Last set from …opt/vim-caser/autoload/caser.vim line 122"
+    },
+    "x::<Plug>CaserVUpperCase": {
+        "mode": "x",
+        "keybind": "<Plug>CaserVUpperCase",
+        "annotation": "*",
+        "definition": ":<C-U>call caser#DoAction(\"UpperCase\",visualmode())<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-caser/autoload/caser.vim line 123"
+    },
+    "n::<Plug>CaserUpperCase": {
+        "mode": "n",
+        "keybind": "<Plug>CaserUpperCase",
+        "annotation": "*",
+        "definition": ":<C-U>call caser#ActionSetup(\"UpperCase\")<CR>g@",
+        "description": null,
+        "origin": "Last set from …opt/vim-caser/autoload/caser.vim line 122"
+    },
+    "x::<Plug>CaserVSnakeCase": {
+        "mode": "x",
+        "keybind": "<Plug>CaserVSnakeCase",
+        "annotation": "*",
+        "definition": ":<C-U>call caser#DoAction(\"SnakeCase\",visualmode())<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-caser/autoload/caser.vim line 123"
+    },
+    "n::<Plug>CaserSnakeCase": {
+        "mode": "n",
+        "keybind": "<Plug>CaserSnakeCase",
+        "annotation": "*",
+        "definition": ":<C-U>call caser#ActionSetup(\"SnakeCase\")<CR>g@",
+        "description": null,
+        "origin": "Last set from …opt/vim-caser/autoload/caser.vim line 122"
+    },
+    "x::<Plug>CaserVCamelCase": {
+        "mode": "x",
+        "keybind": "<Plug>CaserVCamelCase",
+        "annotation": "*",
+        "definition": ":<C-U>call caser#DoAction(\"CamelCase\",visualmode())<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-caser/autoload/caser.vim line 123"
+    },
+    "n::<Plug>CaserCamelCase": {
+        "mode": "n",
+        "keybind": "<Plug>CaserCamelCase",
+        "annotation": "*",
+        "definition": ":<C-U>call caser#ActionSetup(\"CamelCase\")<CR>g@",
+        "description": null,
+        "origin": "Last set from …opt/vim-caser/autoload/caser.vim line 122"
+    },
+    "x::<Plug>CaserVMixedCase": {
+        "mode": "x",
+        "keybind": "<Plug>CaserVMixedCase",
+        "annotation": "*",
+        "definition": ":<C-U>call caser#DoAction(\"MixedCase\",visualmode())<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-caser/autoload/caser.vim line 123"
+    },
+    "n::<Plug>CaserMixedCase": {
+        "mode": "n",
+        "keybind": "<Plug>CaserMixedCase",
+        "annotation": "*",
+        "definition": ":<C-U>call caser#ActionSetup(\"MixedCase\")<CR>g@",
+        "description": null,
+        "origin": "Last set from …opt/vim-caser/autoload/caser.vim line 122"
+    },
+    "n::<Plug>(VM-Select-BBW)": {
+        "mode": "n",
+        "keybind": "<Plug>(VM-Select-BBW)",
+        "annotation": "*",
+        "definition": ":<C-U>call vm#commands#motion('BBW', v:count1, 1, 0)<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-visual-multi/autoload/vm/plugs.vim line 37"
+    },
+    "n::<Plug>(VM-Select-gE)": {
+        "mode": "n",
+        "keybind": "<Plug>(VM-Select-gE)",
+        "annotation": "*",
+        "definition": ":<C-U>call vm#commands#motion('gE', v:count1, 1, 0)<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-visual-multi/autoload/vm/plugs.vim line 37"
+    },
+    "n::<Plug>(VM-Select-ge)": {
+        "mode": "n",
+        "keybind": "<Plug>(VM-Select-ge)",
+        "annotation": "*",
+        "definition": ":<C-U>call vm#commands#motion('ge', v:count1, 1, 0)<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-visual-multi/autoload/vm/plugs.vim line 37"
+    },
+    "n::<Plug>(VM-Select-E)": {
+        "mode": "n",
+        "keybind": "<Plug>(VM-Select-E)",
+        "annotation": "*",
+        "definition": ":<C-U>call vm#commands#motion('E', v:count1, 1, 0)<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-visual-multi/autoload/vm/plugs.vim line 37"
+    },
+    "n::<Plug>(VM-Select-e)": {
+        "mode": "n",
+        "keybind": "<Plug>(VM-Select-e)",
+        "annotation": "*",
+        "definition": ":<C-U>call vm#commands#motion('e', v:count1, 1, 0)<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-visual-multi/autoload/vm/plugs.vim line 37"
+    },
+    "n::<Plug>(VM-Select-B)": {
+        "mode": "n",
+        "keybind": "<Plug>(VM-Select-B)",
+        "annotation": "*",
+        "definition": ":<C-U>call vm#commands#motion('B', v:count1, 1, 0)<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-visual-multi/autoload/vm/plugs.vim line 37"
+    },
+    "n::<Plug>(VM-Select-b)": {
+        "mode": "n",
+        "keybind": "<Plug>(VM-Select-b)",
+        "annotation": "*",
+        "definition": ":<C-U>call vm#commands#motion('b', v:count1, 1, 0)<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-visual-multi/autoload/vm/plugs.vim line 37"
+    },
+    "n::<Plug>(VM-Select-W)": {
+        "mode": "n",
+        "keybind": "<Plug>(VM-Select-W)",
+        "annotation": "*",
+        "definition": ":<C-U>call vm#commands#motion('W', v:count1, 1, 0)<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-visual-multi/autoload/vm/plugs.vim line 37"
+    },
+    "n::<Plug>(VM-Select-w)": {
+        "mode": "n",
+        "keybind": "<Plug>(VM-Select-w)",
+        "annotation": "*",
+        "definition": ":<C-U>call vm#commands#motion('w', v:count1, 1, 0)<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-visual-multi/autoload/vm/plugs.vim line 37"
+    },
+    "n::<Plug>(VM-Select-l)": {
+        "mode": "n",
+        "keybind": "<Plug>(VM-Select-l)",
+        "annotation": "*",
+        "definition": ":<C-U>call vm#commands#motion('l', v:count1, 1, 0)<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-visual-multi/autoload/vm/plugs.vim line 37"
+    },
+    "n::<Plug>(VM-Select-k)": {
+        "mode": "n",
+        "keybind": "<Plug>(VM-Select-k)",
+        "annotation": "*",
+        "definition": ":<C-U>call vm#commands#motion('k', v:count1, 1, 0)<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-visual-multi/autoload/vm/plugs.vim line 37"
+    },
+    "n::<Plug>(VM-Select-j)": {
+        "mode": "n",
+        "keybind": "<Plug>(VM-Select-j)",
+        "annotation": "*",
+        "definition": ":<C-U>call vm#commands#motion('j', v:count1, 1, 0)<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-visual-multi/autoload/vm/plugs.vim line 37"
+    },
+    "n::<Plug>(VM-Select-h)": {
+        "mode": "n",
+        "keybind": "<Plug>(VM-Select-h)",
+        "annotation": "*",
+        "definition": ":<C-U>call vm#commands#motion('h', v:count1, 1, 0)<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-visual-multi/autoload/vm/plugs.vim line 37"
+    },
+    "n::<Plug>(VM-Mouse-Column)": {
+        "mode": "n",
+        "keybind": "<Plug>(VM-Mouse-Column)",
+        "annotation": "*",
+        "definition": ":call vm#commands#mouse_column()<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-visual-multi/autoload/vm/plugs.vim line 33"
+    },
+    "n::<Plug>(VM-Mouse-Word)": {
+        "mode": "n",
+        "keybind": "<Plug>(VM-Mouse-Word)",
+        "annotation": null,
+        "definition": "<Plug>(VM-Left-Mouse)<Plug>(VM-Find-Under)",
+        "description": null,
+        "origin": "Last set from …opt/vim-visual-multi/autoload/vm/plugs.vim line 32"
+    },
+    "n::<Plug>(VM-Mouse-Cursor)": {
+        "mode": "n",
+        "keybind": "<Plug>(VM-Mouse-Cursor)",
+        "annotation": null,
+        "definition": "<Plug>(VM-Left-Mouse)<Plug>(VM-Add-Cursor-At-Pos)",
+        "description": null,
+        "origin": "Last set from …opt/vim-visual-multi/autoload/vm/plugs.vim line 31"
+    },
+    "n::<Plug>(VM-Left-Mouse)": {
+        "mode": "n",
+        "keybind": "<Plug>(VM-Left-Mouse)",
+        "annotation": "*",
+        "definition": "<LeftMouse>",
+        "description": null,
+        "origin": "Last set from …opt/vim-visual-multi/autoload/vm/plugs.vim line 30"
+    },
+    "x::<Plug>(VM-Visual-Regex)": {
+        "mode": "x",
+        "keybind": "<Plug>(VM-Visual-Regex)",
+        "annotation": "*",
+        "definition": ":call vm#commands#find_by_regex(2)<CR>:call feedkeys('/', 'n')<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-visual-multi/autoload/vm/plugs.vim line 28"
+    },
+    "n::<Plug>(VM-Slash-Search)": {
+        "mode": "n",
+        "keybind": "<Plug>(VM-Slash-Search)",
+        "annotation": "*",
+        "definition": "@=vm#commands#find_by_regex(3)<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-visual-multi/autoload/vm/plugs.vim line 27"
+    },
+    "n::<Plug>(VM-Start-Regex-Search)": {
+        "mode": "n",
+        "keybind": "<Plug>(VM-Start-Regex-Search)",
+        "annotation": "*",
+        "definition": "@=vm#commands#find_by_regex(1)<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-visual-multi/autoload/vm/plugs.vim line 26"
+    },
+    "x::<Plug>(VM-Find-Subword-Under)": {
+        "mode": "x",
+        "keybind": "<Plug>(VM-Find-Subword-Under)",
+        "annotation": "*",
+        "definition": "<SNR>47_Visual('under')",
+        "description": null,
+        "origin": "Last set from …opt/vim-visual-multi/autoload/vm/plugs.vim line 24"
+    },
+    "n::<Plug>(VM-Find-Under)": {
+        "mode": "n",
+        "keybind": "<Plug>(VM-Find-Under)",
+        "annotation": "*",
+        "definition": ":<C-U>call vm#commands#ctrln(v:count1)<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-visual-multi/autoload/vm/plugs.vim line 23"
+    },
+    "x::<Plug>(VM-Visual-Reduce)": {
+        "mode": "x",
+        "keybind": "<Plug>(VM-Visual-Reduce)",
+        "annotation": "*",
+        "definition": ":<C-U>call vm#visual#reduce()<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-visual-multi/autoload/vm/plugs.vim line 21"
+    },
+    "x::<Plug>(VM-Visual-Add)": {
+        "mode": "x",
+        "keybind": "<Plug>(VM-Visual-Add)",
+        "annotation": "*",
+        "definition": "<Esc>:call vm#commands#visual_add()<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-visual-multi/autoload/vm/plugs.vim line 20"
+    },
+    "x::<Plug>(VM-Visual-Cursors)": {
+        "mode": "x",
+        "keybind": "<Plug>(VM-Visual-Cursors)",
+        "annotation": "*",
+        "definition": "<Esc>:call vm#commands#visual_cursors()<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-visual-multi/autoload/vm/plugs.vim line 19"
+    },
+    "x::<Plug>(VM-Visual-All)": {
+        "mode": "x",
+        "keybind": "<Plug>(VM-Visual-All)",
+        "annotation": "*",
+        "definition": "<SNR>47_Visual('all')",
+        "description": null,
+        "origin": "Last set from …opt/vim-visual-multi/autoload/vm/plugs.vim line 18"
+    },
+    "n::<Plug>(VM-Select-All)": {
+        "mode": "n",
+        "keybind": "<Plug>(VM-Select-All)",
+        "annotation": "*",
+        "definition": ":call vm#commands#find_all(0, 1)<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-visual-multi/autoload/vm/plugs.vim line 17"
+    },
+    "n::<Plug>(VM-Reselect-Last)": {
+        "mode": "n",
+        "keybind": "<Plug>(VM-Reselect-Last)",
+        "annotation": "*",
+        "definition": ":call vm#commands#reselect_last()<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-visual-multi/autoload/vm/plugs.vim line 16"
+    },
+    "n::<Plug>(VM-Select-Cursor-Up)": {
+        "mode": "n",
+        "keybind": "<Plug>(VM-Select-Cursor-Up)",
+        "annotation": "*",
+        "definition": ":<C-U>call vm#commands#add_cursor_up(1, v:count1)<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-visual-multi/autoload/vm/plugs.vim line 14"
+    },
+    "n::<Plug>(VM-Select-Cursor-Down)": {
+        "mode": "n",
+        "keybind": "<Plug>(VM-Select-Cursor-Down)",
+        "annotation": "*",
+        "definition": ":<C-U>call vm#commands#add_cursor_down(1, v:count1)<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-visual-multi/autoload/vm/plugs.vim line 13"
+    },
+    "n::<Plug>(VM-Add-Cursor-Up)": {
+        "mode": "n",
+        "keybind": "<Plug>(VM-Add-Cursor-Up)",
+        "annotation": "*",
+        "definition": ":<C-U>call vm#commands#add_cursor_up(0, v:count1)<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-visual-multi/autoload/vm/plugs.vim line 12"
+    },
+    "n::<Plug>(VM-Add-Cursor-Down)": {
+        "mode": "n",
+        "keybind": "<Plug>(VM-Add-Cursor-Down)",
+        "annotation": "*",
+        "definition": ":<C-U>call vm#commands#add_cursor_down(0, v:count1)<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-visual-multi/autoload/vm/plugs.vim line 11"
+    },
+    "n::<Plug>(VM-Add-Cursor-At-Word)": {
+        "mode": "n",
+        "keybind": "<Plug>(VM-Add-Cursor-At-Word)",
+        "annotation": "*",
+        "definition": ":call vm#commands#add_cursor_at_word(1, 1)<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-visual-multi/autoload/vm/plugs.vim line 10"
+    },
+    "n::<Plug>(VM-Add-Cursor-At-Pos)": {
+        "mode": "n",
+        "keybind": "<Plug>(VM-Add-Cursor-At-Pos)",
+        "annotation": "*",
+        "definition": ":call vm#commands#add_cursor_at_pos(0)<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-visual-multi/autoload/vm/plugs.vim line 9"
+    },
+    "x::<Plug>(VM-Visual-Find)": {
+        "mode": "x",
+        "keybind": "<Plug>(VM-Visual-Find)",
+        "annotation": null,
+        "definition": "vm#operators#find(1, 1)",
+        "description": null,
+        "origin": "Last set from …opt/vim-visual-multi/autoload/vm/plugs.vim line 7"
+    },
+    "x::<Plug>(comment_toggle_blockwise_visual)": {
+        "mode": "x",
+        "keybind": "<Plug>(comment_toggle_blockwise_visual)",
+        "annotation": "*",
+        "definition": "<Esc><Cmd>lua require(\"Comment.api\").locked(\"toggle.blockwise\")(vim.fn.visualmode())<CR>",
+        "description": "Comment toggle blockwise (visual)",
+        "origin": "Last set from …opt/Comment/plugin/Comment.lua line 137"
+    },
+    "x::<Plug>(comment_toggle_linewise_visual)": {
+        "mode": "x",
+        "keybind": "<Plug>(comment_toggle_linewise_visual)",
+        "annotation": "*",
+        "definition": "<Esc><Cmd>lua require(\"Comment.api\").locked(\"toggle.linewise\")(vim.fn.visualmode())<CR>",
+        "description": "Comment toggle linewise (visual)",
+        "origin": "Last set from …opt/Comment/plugin/Comment.lua line 131"
+    },
+    "n::<Plug>(comment_toggle_blockwise_count)": {
+        "mode": "n",
+        "keybind": "<Plug>(comment_toggle_blockwise_count)",
+        "annotation": "*",
+        "definition": "<Lua 156: …opt/Comment/lua/Comment/api.lua:246>",
+        "description": "Comment toggle blockwise with count",
+        "origin": "Last set from …opt/Comment/plugin/Comment.lua line 123"
+    },
+    "n::<Plug>(comment_toggle_linewise_count)": {
+        "mode": "n",
+        "keybind": "<Plug>(comment_toggle_linewise_count)",
+        "annotation": "*",
+        "definition": "<Lua 13: …opt/Comment/lua/Comment/api.lua:246>",
+        "description": "Comment toggle linewise with count",
+        "origin": "Last set from …opt/Comment/plugin/Comment.lua line 117"
+    },
+    "n::<Plug>(comment_toggle_blockwise_current)": {
+        "mode": "n",
+        "keybind": "<Plug>(comment_toggle_blockwise_current)",
+        "annotation": "*",
+        "definition": "<Lua 12: …opt/Comment/lua/Comment/api.lua:246>",
+        "description": "Comment toggle current block",
+        "origin": "Last set from …opt/Comment/plugin/Comment.lua line 109"
+    },
+    "n::<Plug>(comment_toggle_linewise_current)": {
+        "mode": "n",
+        "keybind": "<Plug>(comment_toggle_linewise_current)",
+        "annotation": "*",
+        "definition": "<Lua 15: …opt/Comment/lua/Comment/api.lua:246>",
+        "description": "Comment toggle current line",
+        "origin": "Last set from …opt/Comment/plugin/Comment.lua line 103"
+    },
+    "n::<Plug>(comment_toggle_blockwise)": {
+        "mode": "n",
+        "keybind": "<Plug>(comment_toggle_blockwise)",
+        "annotation": "*",
+        "definition": "<Lua 14: …opt/Comment/lua/Comment/api.lua:246>",
+        "description": "Comment toggle blockwise",
+        "origin": "Last set from …opt/Comment/plugin/Comment.lua line 95"
+    },
+    "n::<Plug>(comment_toggle_linewise)": {
+        "mode": "n",
+        "keybind": "<Plug>(comment_toggle_linewise)",
+        "annotation": "*",
+        "definition": "<Lua 249: …opt/Comment/lua/Comment/api.lua:246>",
+        "description": "Comment toggle linewise",
+        "origin": "Last set from …opt/Comment/plugin/Comment.lua line 89"
+    },
+    "n::<Plug>CommentaryUndo": {
+        "mode": "n",
+        "keybind": "<Plug>CommentaryUndo",
+        "annotation": null,
+        "definition": ":echoerr \"Change your <Plug>CommentaryUndo map to <Plug>Commentary<Plug>Commentary\"<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-commentary/plugin/commentary.vim line 120"
+    },
+    "n::<Plug>ChangeCommentary": {
+        "mode": "n",
+        "keybind": "<Plug>ChangeCommentary",
+        "annotation": "*",
+        "definition": "c:<C-U>call <SNR>39_textobject(1)<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-commentary/plugin/commentary.vim line 110"
+    },
+    "o::<Plug>Commentary": {
+        "mode": "o",
+        "keybind": "<Plug>Commentary",
+        "annotation": "*",
+        "definition": ":<C-U>call <SNR>39_textobject(get(v:, 'operator', '') ==# 'c')<CR>",
+        "description": null,
+        "origin": "Last set from …opt/vim-commentary/plugin/commentary.vim line 109"
+    },
+    "n::<Plug>CommentaryLine": {
+        "mode": "n",
+        "keybind": "<Plug>CommentaryLine",
+        "annotation": "*",
+        "definition": "<SNR>39_go() . '_'",
+        "description": null,
+        "origin": "Last set from …opt/vim-commentary/plugin/commentary.vim line 108"
+    },
+    "n::<Plug>Commentary": {
+        "mode": "n",
+        "keybind": "<Plug>Commentary",
+        "annotation": "*",
+        "definition": "<SNR>39_go()",
+        "description": null,
+        "origin": "Last set from …opt/vim-commentary/plugin/commentary.vim line 107"
+    },
+    "x::<Plug>Commentary": {
+        "mode": "x",
+        "keybind": "<Plug>Commentary",
+        "annotation": "*",
+        "definition": "<SNR>39_go()",
+        "description": null,
+        "origin": "Last set from …opt/vim-commentary/plugin/commentary.vim line 106"
+    },
+    "n::<Plug>(fzf-normal)": {
+        "mode": "n",
+        "keybind": "<Plug>(fzf-normal)",
+        "annotation": "*",
+        "definition": "<Nop>",
+        "description": null,
+        "origin": "Last set from …-fzf-0.73.1/share/vim-plugins/fzf/plugin/fzf.vim line 861"
+    },
+    "n::<Plug>(fzf-insert)": {
+        "mode": "n",
+        "keybind": "<Plug>(fzf-insert)",
+        "annotation": "*",
+        "definition": "i",
+        "description": null,
+        "origin": "Last set from …-fzf-0.73.1/share/vim-plugins/fzf/plugin/fzf.vim line 860"
+    },
+    "n::<Plug>PlenaryTestFile": {
+        "mode": "n",
+        "keybind": "<Plug>PlenaryTestFile",
+        "annotation": "*",
+        "definition": ":lua require('plenary.test_harness').test_file(vim.fn.expand(\"%:p\"))<CR>",
+        "description": null,
+        "origin": "Last set from …opt/plenary/plugin/plenary.vim line 9"
+    }
+}

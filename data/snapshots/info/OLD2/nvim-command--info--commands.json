@@ -465,7 +465,7 @@
         "address": null,
         "complete": "<Lua function>",
         "definition": "<Lua 7: vim/_core/defaults:28>",
-        "description": "Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 28"
+        "description": "Last set from vim/_core/defaults line 28"
     },
     "FZF": {
         "annotation": "!",
@@ -1401,7 +1401,7 @@
         "address": null,
         "complete": null,
         "definition": "<Lua 4: vim/_core/defaults:7>",
-        "description": "Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 7"
+        "description": "Last set from vim/_core/defaults line 7"
     },
     "InspectTree": {
         "annotation": "_",
@@ -1410,7 +1410,7 @@
         "address": "0c ?",
         "complete": null,
         "definition": "<Lua 5: vim/_core/defaults:15>",
-        "description": "Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 15"
+        "description": "Last set from vim/_core/defaults line 15"
     },
     "KeySeer": {
         "annotation": "_",
@@ -1635,7 +1635,7 @@
         "address": null,
         "complete": "file",
         "definition": "<Lua 8: vim/_core/defaults:38>",
-        "description": "Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 38"
+        "description": "Last set from vim/_core/defaults line 38"
     },
     "PinBuffer": {
         "annotation": "!|",

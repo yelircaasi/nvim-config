@@ -1,0 +1,42 @@
+{
+    "n::ySS": {
+        "mode": "n",
+        "keybind": "ySS",
+        "annotation": "*",
+        "definition": "<Plug>(nvim-surround-normal-cur-line)",
+        "description": "Add a surrounding pair around the current line, on new lines (normal mode)",
+        "origin": "Last set from …opt/nvim-surround/plugin/nvim-surround.lua line 47"
+    },
+    "n::yS": {
+        "mode": "n",
+        "keybind": "yS",
+        "annotation": "*",
+        "definition": "<Plug>(nvim-surround-normal-line)",
+        "description": "Add a surrounding pair around a motion, on new lines (normal mode)",
+        "origin": "Last set from …opt/nvim-surround/plugin/nvim-surround.lua line 44"
+    },
+    "n::yss": {
+        "mode": "n",
+        "keybind": "yss",
+        "annotation": "*",
+        "definition": "<Plug>(nvim-surround-normal-cur)",
+        "description": "Add a surrounding pair around the current line (normal mode)",
+        "origin": "Last set from …opt/nvim-surround/plugin/nvim-surround.lua line 41"
+    },
+    "n::ys": {
+        "mode": "n",
+        "keybind": "ys",
+        "annotation": "*",
+        "definition": "<Plug>(nvim-surround-normal)",
+        "description": "Add a surrounding pair around a motion (normal mode)",
+        "origin": "Last set from …opt/nvim-surround/plugin/nvim-surround.lua line 38"
+    },
+    "n::yow": {
+        "mode": "n",
+        "keybind": "yow",
+        "annotation": "*",
+        "definition": "<Plug>(wrapping-toggle-wrap-mode)",
+        "description": "Toggle wrap mode",
+        "origin": "Last set from …opt/wrapping/lua/wrapping/init.lua line 490"
+    }
+}

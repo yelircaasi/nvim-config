@@ -1,0 +1,83 @@
+{
+    "n::<M-l>": {
+        "mode": "n",
+        "keybind": "<M-l>",
+        "annotation": "*",
+        "definition": "<Lua 236: …opt/smart-splits/lua/smart-splits/lazy.lua:72>",
+        "description": "Resize window right",
+        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+    },
+    "n::<M-h>": {
+        "mode": "n",
+        "keybind": "<M-h>",
+        "annotation": "*",
+        "definition": "<Lua 362: …opt/smart-splits/lua/smart-splits/lazy.lua:72>",
+        "description": "Resize window left",
+        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+    },
+    "v::<M-j>": {
+        "mode": "v",
+        "keybind": "<M-j>",
+        "annotation": "*",
+        "definition": "<Lua 240>",
+        "description": null,
+        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+    },
+    "v::<M-k>": {
+        "mode": "v",
+        "keybind": "<M-k>",
+        "annotation": "*",
+        "definition": "<Lua 239>",
+        "description": null,
+        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+    },
+    "n::<M-j>": {
+        "mode": "n",
+        "keybind": "<M-j>",
+        "annotation": "*",
+        "definition": "<Lua 384: …opt/smart-splits/lua/smart-splits/lazy.lua:72>",
+        "description": "Resize window down",
+        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+    },
+    "n::<M-k>": {
+        "mode": "n",
+        "keybind": "<M-k>",
+        "annotation": "*",
+        "definition": "<Lua 238: …opt/smart-splits/lua/smart-splits/lazy.lua:72>",
+        "description": "Resize window up",
+        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+    },
+
+    "x::<M-i>": {
+        "mode": "x",
+        "keybind": "<M-i>",
+        "annotation": "*",
+        "definition": "<Lua 201: …opt/illuminate/lua/illuminate.lua:301>",
+        "description": null,
+        "origin": "Last set from …-pde/config/lua/utils.lua line 112"
+    },
+    "o::<M-i>": {
+        "mode": "o",
+        "keybind": "<M-i>",
+        "annotation": "*",
+        "definition": "<Lua 200: …opt/illuminate/lua/illuminate.lua:301>",
+        "description": null,
+        "origin": "Last set from …-pde/config/lua/utils.lua line 112"
+    },
+    "n::<M-p>": {
+        "mode": "n",
+        "keybind": "<M-p>",
+        "annotation": "*",
+        "definition": "<Lua 199: …opt/illuminate/lua/illuminate.lua:294>",
+        "description": "Move to previous reference",
+        "origin": "Last set from …-pde/config/lua/utils.lua line 112"
+    },
+    "n::<M-n>": {
+        "mode": "n",
+        "keybind": "<M-n>",
+        "annotation": "*",
+        "definition": "<Lua 181: …opt/illuminate/lua/illuminate.lua:287>",
+        "description": "Move to next reference",
+        "origin": "Last set from …-pde/config/lua/utils.lua line 112"
+    }
+}

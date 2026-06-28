@@ -1,0 +1,474 @@
+{
+    "o::;": {
+        "mode": "o",
+        "keybind": ";",
+        "annotation": "*",
+        "definition": "<Lua 698: …opt/flash/lua/flash/plugins/char.lua:118>",
+        "description": null,
+        "origin": "Last set from …opt/flash/lua/flash/plugins/char.lua line 118"
+    },
+    "x::;": {
+        "mode": "x",
+        "keybind": ";",
+        "annotation": "*",
+        "definition": "<Lua 697: …opt/flash/lua/flash/plugins/char.lua:118>",
+        "description": null,
+        "origin": "Last set from …opt/flash/lua/flash/plugins/char.lua line 118"
+    },
+    "n::;": {
+        "mode": "n",
+        "keybind": ";",
+        "annotation": "*",
+        "definition": "<Lua 843: …opt/arrow/lua/arrow/ui.lua:410>",
+        "description": "Arrow File Mappings",
+        "origin": "Last set from …opt/arrow/lua/arrow/init.lua line 94"
+    },
+    "n::<P": {
+        "mode": "n",
+        "keybind": "<P",
+        "annotation": "*",
+        "definition": "<Plug>(YankyPutIndentBeforeShiftLeft)",
+        "description": null,
+        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+    },
+    "n::<p": {
+        "mode": "n",
+        "keybind": "<p",
+        "annotation": "*",
+        "definition": "<Plug>(YankyPutIndentAfterShiftLeft)",
+        "description": null,
+        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+    },
+    "n::=P": {
+        "mode": "n",
+        "keybind": "=P",
+        "annotation": "*",
+        "definition": "<Plug>(YankyPutBeforeFilter)",
+        "description": null,
+        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+    },
+    "n::=p": {
+        "mode": "n",
+        "keybind": "=p",
+        "annotation": "*",
+        "definition": "<Plug>(YankyPutAfterFilter)",
+        "description": null,
+        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+    },
+    "n::>P": {
+        "mode": "n",
+        "keybind": ">P",
+        "annotation": "*",
+        "definition": "<Plug>(YankyPutIndentBeforeShiftRight)",
+        "description": null,
+        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+    },
+    "n::>p": {
+        "mode": "n",
+        "keybind": ">p",
+        "annotation": "*",
+        "definition": "<Plug>(YankyPutIndentAfterShiftRight)",
+        "description": null,
+        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+    },
+    "o::F": {
+        "mode": "o",
+        "keybind": "F",
+        "annotation": "*",
+        "definition": "<Lua 689: …opt/flash/lua/flash/plugins/char.lua:118>",
+        "description": null,
+        "origin": "Last set from …opt/flash/lua/flash/plugins/char.lua line 118"
+    },
+    "x::F": {
+        "mode": "x",
+        "keybind": "F",
+        "annotation": "*",
+        "definition": "<Lua 688: …opt/flash/lua/flash/plugins/char.lua:118>",
+        "description": null,
+        "origin": "Last set from …opt/flash/lua/flash/plugins/char.lua line 118"
+    },
+    "n::F": {
+        "mode": "n",
+        "keybind": "F",
+        "annotation": "*",
+        "definition": "<Lua 687: …opt/flash/lua/flash/plugins/char.lua:118>",
+        "description": null,
+        "origin": "Last set from …opt/flash/lua/flash/plugins/char.lua line 118"
+    },
+    "s::F": {
+        "mode": "s",
+        "keybind": "F",
+        "annotation": null,
+        "definition": "<Lua 627: ~/.config/nvim/lua/navigation.lua:1075>",
+        "description": null,
+        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+    },
+    "x::P": {
+        "mode": "x",
+        "keybind": "P",
+        "annotation": "*",
+        "definition": "<Lua 1079: …opt/pasta/lua/pasta/mapping.lua:7>",
+        "description": null,
+        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+    },
+    "n::P": {
+        "mode": "n",
+        "keybind": "P",
+        "annotation": "*",
+        "definition": "<Lua 1078: …opt/pasta/lua/pasta/mapping.lua:7>",
+        "description": null,
+        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+    },
+    "x::R": {
+        "mode": "x",
+        "keybind": "R",
+        "annotation": "*",
+        "definition": "<Lua 710: ~/.config/nvim/lua/navigation.lua:1526>",
+        "description": null,
+        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+    },
+    "o::R": {
+        "mode": "o",
+        "keybind": "R",
+        "annotation": "*",
+        "definition": "<Lua 709: ~/.config/nvim/lua/navigation.lua:1526>",
+        "description": null,
+        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+    },
+    "o::S": {
+        "mode": "o",
+        "keybind": "S",
+        "annotation": "*",
+        "definition": "<Lua 707: …opt/flash/lua/flash/commands.lua:14>",
+        "description": null,
+        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+    },
+    "n::S": {
+        "mode": "n",
+        "keybind": "S",
+        "annotation": "*",
+        "definition": "<Lua 705: …opt/flash/lua/flash/commands.lua:14>",
+        "description": null,
+        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+    },
+    "x::S": {
+        "mode": "x",
+        "keybind": "S",
+        "annotation": "*",
+        "definition": "<Plug>(nvim-surround-visual)",
+        "description": "Add a surrounding pair around a visual selection",
+        "origin": "Last set from …opt/nvim-surround/plugin/nvim-surround.lua line 61"
+    },
+    "o::T": {
+        "mode": "o",
+        "keybind": "T",
+        "annotation": "*",
+        "definition": "<Lua 695: …opt/flash/lua/flash/plugins/char.lua:118>",
+        "description": null,
+        "origin": "Last set from …opt/flash/lua/flash/plugins/char.lua line 118"
+    },
+    "x::T": {
+        "mode": "x",
+        "keybind": "T",
+        "annotation": "*",
+        "definition": "<Lua 694: …opt/flash/lua/flash/plugins/char.lua:118>",
+        "description": null,
+        "origin": "Last set from …opt/flash/lua/flash/plugins/char.lua line 118"
+    },
+    "n::T": {
+        "mode": "n",
+        "keybind": "T",
+        "annotation": "*",
+        "definition": "<Lua 693: …opt/flash/lua/flash/plugins/char.lua:118>",
+        "description": null,
+        "origin": "Last set from …opt/flash/lua/flash/plugins/char.lua line 118"
+    },
+    "s::T": {
+        "mode": "s",
+        "keybind": "T",
+        "annotation": null,
+        "definition": "<Lua 629: ~/.config/nvim/lua/navigation.lua:1091>",
+        "description": null,
+        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+    },
+    "o::b": {
+        "mode": "o",
+        "keybind": "b",
+        "annotation": null,
+        "definition": "<Plug>WordMotion_b",
+        "description": null,
+        "origin": "Last set from …opt/vim-wordmotion/plugin/wordmotion.vim line 63"
+    },
+    "x::b": {
+        "mode": "x",
+        "keybind": "b",
+        "annotation": null,
+        "definition": "<Plug>WordMotion_b",
+        "description": null,
+        "origin": "Last set from …opt/vim-wordmotion/plugin/wordmotion.vim line 63"
+    },
+    "n::b": {
+        "mode": "n",
+        "keybind": "b",
+        "annotation": null,
+        "definition": "<Plug>WordMotion_b",
+        "description": null,
+        "origin": "Last set from …opt/vim-wordmotion/plugin/wordmotion.vim line 63"
+    },
+    "o::e": {
+        "mode": "o",
+        "keybind": "e",
+        "annotation": null,
+        "definition": "<Plug>WordMotion_e",
+        "description": null,
+        "origin": "Last set from …opt/vim-wordmotion/plugin/wordmotion.vim line 63"
+    },
+    "x::e": {
+        "mode": "x",
+        "keybind": "e",
+        "annotation": null,
+        "definition": "<Plug>WordMotion_e",
+        "description": null,
+        "origin": "Last set from …opt/vim-wordmotion/plugin/wordmotion.vim line 63"
+    },
+    "n::e": {
+        "mode": "n",
+        "keybind": "e",
+        "annotation": null,
+        "definition": "<Plug>WordMotion_e",
+        "description": null,
+        "origin": "Last set from …opt/vim-wordmotion/plugin/wordmotion.vim line 63"
+    },
+    "o::f": {
+        "mode": "o",
+        "keybind": "f",
+        "annotation": "*",
+        "definition": "<Lua 686: …opt/flash/lua/flash/plugins/char.lua:118>",
+        "description": null,
+        "origin": "Last set from …opt/flash/lua/flash/plugins/char.lua line 118"
+    },
+    "x::f": {
+        "mode": "x",
+        "keybind": "f",
+        "annotation": "*",
+        "definition": "<Lua 685: …opt/flash/lua/flash/plugins/char.lua:118>",
+        "description": null,
+        "origin": "Last set from …opt/flash/lua/flash/plugins/char.lua line 118"
+    },
+    "n::f": {
+        "mode": "n",
+        "keybind": "f",
+        "annotation": "*",
+        "definition": "<Lua 680: …opt/flash/lua/flash/plugins/char.lua:118>",
+        "description": null,
+        "origin": "Last set from …opt/flash/lua/flash/plugins/char.lua line 118"
+    },
+    "s::f": {
+        "mode": "s",
+        "keybind": "f",
+        "annotation": null,
+        "definition": "<Lua 572: ~/.config/nvim/lua/navigation.lua:1067>",
+        "description": null,
+        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+    },
+    "x::p": {
+        "mode": "x",
+        "keybind": "p",
+        "annotation": "*",
+        "definition": "<Lua 1077: …opt/pasta/lua/pasta/mapping.lua:3>",
+        "description": null,
+        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+    },
+    "n::p": {
+        "mode": "n",
+        "keybind": "p",
+        "annotation": "*",
+        "definition": "<Lua 1073: …opt/pasta/lua/pasta/mapping.lua:3>",
+        "description": null,
+        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+    },
+    "o::r": {
+        "mode": "o",
+        "keybind": "r",
+        "annotation": "*",
+        "definition": "<Lua 708: …opt/flash/lua/flash/commands.lua:24>",
+        "description": null,
+        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+    },
+    "o::t": {
+        "mode": "o",
+        "keybind": "t",
+        "annotation": "*",
+        "definition": "<Lua 692: …opt/flash/lua/flash/plugins/char.lua:118>",
+        "description": null,
+        "origin": "Last set from …opt/flash/lua/flash/plugins/char.lua line 118"
+    },
+    "x::t": {
+        "mode": "x",
+        "keybind": "t",
+        "annotation": "*",
+        "definition": "<Lua 691: …opt/flash/lua/flash/plugins/char.lua:118>",
+        "description": null,
+        "origin": "Last set from …opt/flash/lua/flash/plugins/char.lua line 118"
+    },
+    "n::t": {
+        "mode": "n",
+        "keybind": "t",
+        "annotation": "*",
+        "definition": "<Lua 690: …opt/flash/lua/flash/plugins/char.lua:118>",
+        "description": null,
+        "origin": "Last set from …opt/flash/lua/flash/plugins/char.lua line 118"
+    },
+    "s::t": {
+        "mode": "s",
+        "keybind": "t",
+        "annotation": null,
+        "definition": "<Lua 628: ~/.config/nvim/lua/navigation.lua:1083>",
+        "description": null,
+        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+    },
+    "o::w": {
+        "mode": "o",
+        "keybind": "w",
+        "annotation": null,
+        "definition": "<Plug>WordMotion_w",
+        "description": null,
+        "origin": "Last set from …opt/vim-wordmotion/plugin/wordmotion.vim line 63"
+    },
+    "x::w": {
+        "mode": "x",
+        "keybind": "w",
+        "annotation": null,
+        "definition": "<Plug>WordMotion_w",
+        "description": null,
+        "origin": "Last set from …opt/vim-wordmotion/plugin/wordmotion.vim line 63"
+    },
+    "n::w": {
+        "mode": "n",
+        "keybind": "w",
+        "annotation": null,
+        "definition": "<Plug>WordMotion_w",
+        "description": null,
+        "origin": "Last set from …opt/vim-wordmotion/plugin/wordmotion.vim line 63"
+    },
+    "n::<F12>": {
+        "mode": "n",
+        "keybind": "<F12>",
+        "annotation": "*",
+        "definition": "<Lua 1170: …opt/dap/lua/dap.lua:763>",
+        "description": null,
+        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+    },
+    "n::<F11>": {
+        "mode": "n",
+        "keybind": "<F11>",
+        "annotation": "*",
+        "definition": "<Lua 1159: …opt/dap/lua/dap.lua:718>",
+        "description": null,
+        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+    },
+    "n::<F10>": {
+        "mode": "n",
+        "keybind": "<F10>",
+        "annotation": "*",
+        "definition": "<Lua 1160: …opt/dap/lua/dap.lua:685>",
+        "description": null,
+        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+    },
+    "n::<F5>": {
+        "mode": "n",
+        "keybind": "<F5>",
+        "annotation": "*",
+        "definition": "<Lua 1163: …opt/dap/lua/dap.lua:1139>",
+        "description": null,
+        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+    },
+    "x::<BS>": {
+        "mode": "x",
+        "keybind": "<BS>",
+        "annotation": "*",
+        "definition": ":lua require'wildfire'.node_decremental()<CR>",
+        "description": "Shrink selection to previous named node",
+        "origin": "Last set from …opt/wildfire/lua/wildfire/init.lua line 269"
+    },
+    "n::<S-Right>": {
+        "mode": "n",
+        "keybind": "<S-Right>",
+        "annotation": null,
+        "definition": "<Plug>(VM-Select-l)",
+        "description": null,
+        "origin": "Last set from …opt/vim-visual-multi/autoload/vm/maps.vim line 18"
+    },
+    "n::<S-Left>": {
+        "mode": "n",
+        "keybind": "<S-Left>",
+        "annotation": null,
+        "definition": "<Plug>(VM-Select-h)",
+        "description": null,
+        "origin": "Last set from …opt/vim-visual-multi/autoload/vm/maps.vim line 18"
+    },
+    "s::<Tab>": {
+        "mode": "s",
+        "keybind": "<Tab>",
+        "annotation": "*",
+        "definition": "<Lua 27: vim/_core/defaults:250>",
+        "description": "vim.snippet.jump if active, otherwise <Tab>",
+        "origin": "Last set from vim/_core/defaults line 250"
+    },
+    "x::#": {
+        "mode": "x",
+        "keybind": "#",
+        "annotation": "*",
+        "definition": "<Lua 9: vim/_core/defaults:104>",
+        "description": ":help v_#-default",
+        "origin": "Last set from vim/_core/defaults line 104"
+    },
+    "n::&": {
+        "mode": "n",
+        "keybind": "&",
+        "annotation": "*",
+        "definition": ":&&<CR>",
+        "description": ":help &-default",
+        "origin": "Last set from vim/_core/defaults line 130"
+    },
+    "x::*": {
+        "mode": "x",
+        "keybind": "*",
+        "annotation": "*",
+        "definition": "<Lua 6: vim/_core/defaults:101>",
+        "description": ":help v_star-default",
+        "origin": "Last set from vim/_core/defaults line 101"
+    },
+    "x::@": {
+        "mode": "x",
+        "keybind": "@",
+        "annotation": "*",
+        "definition": "mode() ==# 'V' ? ':normal! @'.getcharstr().'<CR>' : '@'",
+        "description": ":help v_@-default",
+        "origin": "Last set from vim/_core/defaults line 142"
+    },
+    "x::Q": {
+        "mode": "x",
+        "keybind": "Q",
+        "annotation": "*",
+        "definition": "mode() ==# 'V' ? ':normal! @<C-R>=reg_recorded()<CR><CR>' : 'Q'",
+        "description": ":help v_Q-default",
+        "origin": "Last set from vim/_core/defaults line 136"
+    },
+    "n::Y": {
+        "mode": "n",
+        "keybind": "Y",
+        "annotation": "*",
+        "definition": "y$",
+        "description": ":help Y-default",
+        "origin": "Last set from vim/_core/defaults line 110"
+    },
+    "s::<S-Tab>": {
+        "mode": "s",
+        "keybind": "<S-Tab>",
+        "annotation": "*",
+        "definition": "<Lua 29: vim/_core/defaults:250>",
+        "description": "vim.snippet.jump if active, otherwise <S-Tab>",
+        "origin": "Last set from vim/_core/defaults line 250"
+    }
+}

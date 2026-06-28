@@ -1,0 +1,98 @@
+{
+    "o::ac": {
+        "mode": "o",
+        "keybind": "ac",
+        "annotation": "*",
+        "definition": "<Lua 795: ~/.config/nvim/lua/treesitter.lua:137>",
+        "description": null,
+        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+    },
+    "x::ac": {
+        "mode": "x",
+        "keybind": "ac",
+        "annotation": "*",
+        "definition": "<Lua 400: ~/.config/nvim/lua/treesitter.lua:137>",
+        "description": null,
+        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+    },
+    "o::aw": {
+        "mode": "o",
+        "keybind": "aw",
+        "annotation": null,
+        "definition": "<Plug>WordMotion_aw",
+        "description": null,
+        "origin": "Last set from …opt/vim-wordmotion/plugin/wordmotion.vim line 92"
+    },
+    "x::aw": {
+        "mode": "x",
+        "keybind": "aw",
+        "annotation": null,
+        "definition": "<Plug>WordMotion_aw",
+        "description": null,
+        "origin": "Last set from …opt/vim-wordmotion/plugin/wordmotion.vim line 92"
+    },
+    "x::am": {
+        "mode": "x",
+        "keybind": "am",
+        "annotation": "*",
+        "definition": "<Lua 801: ~/.config/nvim/lua/treesitter.lua:123>",
+        "description": null,
+        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+    },
+    "o::am": {
+        "mode": "o",
+        "keybind": "am",
+        "annotation": "*",
+        "definition": "<Lua 415: ~/.config/nvim/lua/treesitter.lua:123>",
+        "description": null,
+        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+    },
+    "x::as": {
+        "mode": "x",
+        "keybind": "as",
+        "annotation": "*",
+        "definition": "<Lua 792: ~/.config/nvim/lua/treesitter.lua:152>",
+        "description": null,
+        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+    },
+    "o::as": {
+        "mode": "o",
+        "keybind": "as",
+        "annotation": "*",
+        "definition": "<Lua 791: ~/.config/nvim/lua/treesitter.lua:152>",
+        "description": null,
+        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+    },
+    "x::ab": {
+        "mode": "x",
+        "keybind": "ab",
+        "annotation": null,
+        "definition": "<Plug>(textobj-sandwich-auto-a)",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/sandwich.vim line 68"
+    },
+    "o::ab": {
+        "mode": "o",
+        "keybind": "ab",
+        "annotation": null,
+        "definition": "<Plug>(textobj-sandwich-auto-a)",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/sandwich.vim line 67"
+    },
+    "x::ao": {
+        "mode": "x",
+        "keybind": "ao",
+        "annotation": "*",
+        "definition": "<Lua 207: …opt/sort/lua/sort/textobjects.lua:152>",
+        "description": "Around sortable region",
+        "origin": "Last set from …opt/sort/lua/sort/mappings.lua line 94"
+    },
+    "o::ao": {
+        "mode": "o",
+        "keybind": "ao",
+        "annotation": "*",
+        "definition": "<Lua 209: …opt/sort/lua/sort/textobjects.lua:152>",
+        "description": "Around sortable region",
+        "origin": "Last set from …opt/sort/lua/sort/mappings.lua line 94"
+    }
+}

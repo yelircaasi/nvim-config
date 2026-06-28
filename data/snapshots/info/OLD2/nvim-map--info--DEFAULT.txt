@@ -1,7 +1,7 @@
 
 s  <Tab>       * <Lua 27: vim/_core/defaults:250>
                  vim.snippet.jump if active, otherwise <Tab>
-	Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 250
+	Last set from vim/_core/defaults line 250
 x  <CR>        * :lua require'wildfire'.node_incremental()<CR>
                  Increment selection to named node
 	Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/wildfire/lua/wildfire/init.lua line 269
@@ -516,13 +516,13 @@ n  <Space>su   * <Lua 71: ~/.config/nvim/lua/colors.lua:30>
 	Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/config/lua/utils.lua line 184
 x  #           * <Lua 9: vim/_core/defaults:104>
                  :help v_#-default
-	Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 104
+	Last set from vim/_core/defaults line 104
 n  &           * :&&<CR>
                  :help &-default
-	Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 130
+	Last set from vim/_core/defaults line 130
 x  *           * <Lua 6: vim/_core/defaults:101>
                  :help v_star-default
-	Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 101
+	Last set from vim/_core/defaults line 101
 n  ,ca)        * <Lua 571: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/beam/lua/beam/mappings.lua:148>
                  Search & change around parentheses
 	Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/beam/lua/beam/mappings.lua line 148
@@ -1012,7 +1012,7 @@ n  >p          * <Plug>(YankyPutIndentAfterShiftRight)
 	Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/config/lua/utils.lua line 184
 x  @           * mode() ==# 'V' ? ':normal! @'.getcharstr().'<CR>' : '@'
                  :help v_@-default
-	Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 142
+	Last set from vim/_core/defaults line 142
 o  F           * <Lua 689: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/flash/lua/flash/plugins/char.lua:118>
 	Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/flash/lua/flash/plugins/char.lua line 118
 x  F           * <Lua 688: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/flash/lua/flash/plugins/char.lua:118>
@@ -1027,7 +1027,7 @@ n  P           * <Lua 1079: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack
 	Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/config/lua/utils.lua line 184
 x  Q           * mode() ==# 'V' ? ':normal! @<C-R>=reg_recorded()<CR><CR>' : 'Q'
                  :help v_Q-default
-	Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 136
+	Last set from vim/_core/defaults line 136
 x  R           * <Lua 710: ~/.config/nvim/lua/navigation.lua:1526>
 	Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/config/lua/utils.lua line 184
 o  R           * <Lua 709: ~/.config/nvim/lua/navigation.lua:1526>
@@ -1049,7 +1049,7 @@ s  T             <Lua 629: ~/.config/nvim/lua/navigation.lua:1091>
 	Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/config/lua/utils.lua line 184
 n  Y           * y$
                  :help Y-default
-	Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 110
+	Last set from vim/_core/defaults line 110
 n  [P          * <Plug>(YankyPutIndentBeforeLinewise)
 	Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/config/lua/utils.lua line 184
 n  [p          * <Plug>(YankyPutIndentBeforeLinewise)
@@ -1073,53 +1073,53 @@ n  [o          * <Lua 204: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/
 	Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/sort/lua/sort/mappings.lua line 118
 x  [N          * <Lua 65: vim/_core/defaults:471>
                  Select previous sibling node
-	Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 471
+	Last set from vim/_core/defaults line 471
 x  [n          * <Lua 63: vim/_core/defaults:463>
                  Select previous node
-	Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 463
+	Last set from vim/_core/defaults line 463
 n  [<Space>    * <Lua 61: vim/_core/defaults:448>
                  Add empty line above cursor
-	Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 448
+	Last set from vim/_core/defaults line 448
 n  [B          * <Lua 59: vim/_core/defaults:431>
                  :brewind
-	Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 431
+	Last set from vim/_core/defaults line 431
 n  [b          * <Lua 57: vim/_core/defaults:423>
                  :bprevious
-	Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 423
+	Last set from vim/_core/defaults line 423
 n  [<C-T>      * <Lua 55: vim/_core/defaults:412>
                  :ptprevious
-	Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 412
+	Last set from vim/_core/defaults line 412
 n  [T          * <Lua 53: vim/_core/defaults:398>
                  :trewind
-	Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 398
+	Last set from vim/_core/defaults line 398
 n  [t          * <Lua 51: vim/_core/defaults:388>
                  :tprevious
-	Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 388
+	Last set from vim/_core/defaults line 388
 n  [A          * <Lua 49: vim/_core/defaults:371>
                  :rewind
-	Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 371
+	Last set from vim/_core/defaults line 371
 n  [a          * <Lua 47: vim/_core/defaults:362>
                  :previous
-	Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 362
+	Last set from vim/_core/defaults line 362
 n  [<C-L>      * <Lua 45: vim/_core/defaults:353>
                  :lpfile
-	Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 353
+	Last set from vim/_core/defaults line 353
 n  [L          * <Lua 43: vim/_core/defaults:345>
                  :lrewind
-	Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 345
+	Last set from vim/_core/defaults line 345
 n  [l          * <Cmd>lprev<CR>
 	Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/config/lua/utils.lua line 184
 n  [<C-Q>      * <Lua 39: vim/_core/defaults:328>
                  :cpfile
-	Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 328
+	Last set from vim/_core/defaults line 328
 n  [Q          * <Lua 37: vim/_core/defaults:320>
                  :crewind
-	Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 320
+	Last set from vim/_core/defaults line 320
 n  [q          * <Cmd>cprev<CR>
 	Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/config/lua/utils.lua line 184
 n  [D          * <Lua 33: vim/_core/defaults:284>
                  Jump to the first diagnostic in the current buffer
-	Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 284
+	Last set from vim/_core/defaults line 284
 n  [d          * <Lua 41: /nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/lua/vim/diagnostic.lua:548>
 	Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/config/lua/utils.lua line 184
 x  \\c           <Plug>(VM-Visual-Cursors)
@@ -1163,53 +1163,53 @@ n  ]o          * <Lua 208: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/
 	Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/sort/lua/sort/mappings.lua line 106
 x  ]N          * <Lua 66: vim/_core/defaults:475>
                  Select next sibling node
-	Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 475
+	Last set from vim/_core/defaults line 475
 x  ]n          * <Lua 64: vim/_core/defaults:467>
                  Select next node
-	Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 467
+	Last set from vim/_core/defaults line 467
 n  ]<Space>    * <Lua 62: vim/_core/defaults:454>
                  Add empty line below cursor
-	Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 454
+	Last set from vim/_core/defaults line 454
 n  ]B          * <Lua 60: vim/_core/defaults:439>
                  :blast
-	Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 439
+	Last set from vim/_core/defaults line 439
 n  ]b          * <Lua 58: vim/_core/defaults:427>
                  :bnext
-	Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 427
+	Last set from vim/_core/defaults line 427
 n  ]<C-T>      * <Lua 56: vim/_core/defaults:417>
                  :ptnext
-	Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 417
+	Last set from vim/_core/defaults line 417
 n  ]T          * <Lua 54: vim/_core/defaults:403>
                  :tlast
-	Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 403
+	Last set from vim/_core/defaults line 403
 n  ]t          * <Lua 52: vim/_core/defaults:393>
                  :tnext
-	Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 393
+	Last set from vim/_core/defaults line 393
 n  ]A          * <Lua 50: vim/_core/defaults:379>
                  :last
-	Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 379
+	Last set from vim/_core/defaults line 379
 n  ]a          * <Lua 48: vim/_core/defaults:366>
                  :next
-	Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 366
+	Last set from vim/_core/defaults line 366
 n  ]<C-L>      * <Lua 46: vim/_core/defaults:357>
                  :lnfile
-	Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 357
+	Last set from vim/_core/defaults line 357
 n  ]L          * <Lua 44: vim/_core/defaults:349>
                  :llast
-	Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 349
+	Last set from vim/_core/defaults line 349
 n  ]l          * <Cmd>lnext<CR>
 	Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/config/lua/utils.lua line 184
 n  ]<C-Q>      * <Lua 40: vim/_core/defaults:332>
                  :cnfile
-	Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 332
+	Last set from vim/_core/defaults line 332
 n  ]Q          * <Lua 38: vim/_core/defaults:324>
                  :clast
-	Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 324
+	Last set from vim/_core/defaults line 324
 n  ]q          * <Cmd>cnext<CR>
 	Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/config/lua/utils.lua line 184
 n  ]D          * <Lua 32: vim/_core/defaults:280>
                  Jump to the last diagnostic in the current buffer
-	Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 280
+	Last set from vim/_core/defaults line 280
 n  ]d          * <Lua 31: /nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/lua/vim/diagnostic.lua:641>
 	Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/config/lua/utils.lua line 184
 o  ac          * <Lua 795: ~/.config/nvim/lua/treesitter.lua:137>
@@ -1240,10 +1240,10 @@ o  ao          * <Lua 207: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/
 	Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/sort/lua/sort/mappings.lua line 94
 o  an          * <Lua 68: vim/_core/defaults:479>
                  Select parent (outer) node
-	Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 479
+	Last set from vim/_core/defaults line 479
 x  an          * <Lua 67: vim/_core/defaults:479>
                  Select parent (outer) node
-	Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 479
+	Last set from vim/_core/defaults line 479
 o  b             <Plug>WordMotion_b
 	Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-wordmotion/plugin/wordmotion.vim line 63
 x  b             <Plug>WordMotion_b
@@ -1433,28 +1433,28 @@ n  gcu           <Plug>Commentary<Plug>Commentary
 	Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-commentary/plugin/commentary.vim line 117
 n  gO          * <Lua 23: vim/_core/defaults:237>
                  vim.lsp.buf.document_symbol()
-	Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 237
+	Last set from vim/_core/defaults line 237
 n  grt         * <Lua 22: vim/_core/defaults:233>
                  vim.lsp.buf.type_definition()
-	Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 233
+	Last set from vim/_core/defaults line 233
 n  gri         * <Lua 21: vim/_core/defaults:229>
                  vim.lsp.buf.implementation()
-	Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 229
+	Last set from vim/_core/defaults line 229
 n  grr         * <Lua 20: vim/_core/defaults:225>
                  vim.lsp.buf.references()
-	Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 225
+	Last set from vim/_core/defaults line 225
 n  grx         * <Lua 19: vim/_core/defaults:221>
                  vim.lsp.codelens.run()
-	Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 221
+	Last set from vim/_core/defaults line 221
 x  gra         * <Lua 18: vim/_core/defaults:217>
                  vim.lsp.buf.code_action()
-	Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 217
+	Last set from vim/_core/defaults line 217
 n  gra         * <Lua 17: vim/_core/defaults:217>
                  vim.lsp.buf.code_action()
-	Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 217
+	Last set from vim/_core/defaults line 217
 n  grn         * <Lua 16: vim/_core/defaults:213>
                  vim.lsp.buf.rename()
-	Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 213
+	Last set from vim/_core/defaults line 213
 o  gc            <Plug>Commentary
 	Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-commentary/plugin/commentary.vim line 115
 n  gcc         * <Lua 163: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/Comment/lua/Comment/init.lua:103>
@@ -1468,10 +1468,10 @@ n  gc          * <Plug>(comment_toggle_linewise)
 	Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/Comment/lua/Comment/init.lua line 100
 x  gx          * <Lua 11: vim/_core/defaults:174>
                  Opens filepath or URI under cursor with the system handler (file explorer, web browser, …)
-	Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 174
+	Last set from vim/_core/defaults line 174
 n  gx          * <Lua 10: vim/_core/defaults:166>
                  Opens filepath or URI under cursor with the system handler (file explorer, web browser, …)
-	Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 166
+	Last set from vim/_core/defaults line 166
 o  ic          * <Lua 793: ~/.config/nvim/lua/treesitter.lua:144>
 	Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/config/lua/utils.lua line 184
 x  ic          * <Lua 794: ~/.config/nvim/lua/treesitter.lua:144>
@@ -1500,10 +1500,10 @@ o  io          * <Lua 210: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/
 	Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/sort/lua/sort/mappings.lua line 88
 o  in          * <Lua 70: vim/_core/defaults:487>
                  Select child (inner) node
-	Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 487
+	Last set from vim/_core/defaults line 487
 x  in          * <Lua 69: vim/_core/defaults:487>
                  Select child (inner) node
-	Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 487
+	Last set from vim/_core/defaults line 487
 n  m{          * <Lua 824: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/marks/lua/marks/init.lua:134>
                  marks: prev bookmark
 	Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/marks/lua/marks/init.lua line 170
@@ -2661,16 +2661,16 @@ n  <Cmd>Lspsaga<Space>term_toggle * <M-d>
 	Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/config/lua/utils.lua line 184
 n  <C-W><C-D>    <C-W>d
                  Show diagnostics under the cursor
-	Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 292
+	Last set from vim/_core/defaults line 292
 n  <C-W>d      * <Lua 34: vim/_core/defaults:288>
                  Show diagnostics under the cursor
-	Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 288
+	Last set from vim/_core/defaults line 288
 s  <S-Tab>     * <Lua 29: vim/_core/defaults:250>
                  vim.snippet.jump if active, otherwise <S-Tab>
-	Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 250
+	Last set from vim/_core/defaults line 250
 s  <C-S>       * <Lua 25: vim/_core/defaults:241>
                  vim.lsp.buf.signature_help()
-	Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 241
+	Last set from vim/_core/defaults line 241
 n  <C-L>       * <Lua 396: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/swm/lua/swm/init.lua:111>
                  Window right
 	Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/config/lua/utils.lua line 184

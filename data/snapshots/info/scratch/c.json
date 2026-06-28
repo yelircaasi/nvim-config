@@ -1,0 +1,26 @@
+{
+    "n::cS": {
+        "mode": "n",
+        "keybind": "cS",
+        "annotation": "*",
+        "definition": "<Plug>(nvim-surround-change-line)",
+        "description": "Change a surrounding pair, putting replacements on new lines",
+        "origin": "Last set from …opt/nvim-surround/plugin/nvim-surround.lua line 56"
+    },
+    "n::cs": {
+        "mode": "n",
+        "keybind": "cs",
+        "annotation": "*",
+        "definition": "<Plug>(nvim-surround-change)",
+        "description": "Change a surrounding pair",
+        "origin": "Last set from …opt/nvim-surround/plugin/nvim-surround.lua line 53"
+    },
+    "n::cr": {
+        "mode": "n",
+        "keybind": "cr",
+        "annotation": null,
+        "definition": "<Plug>(abolish-coerce-word)",
+        "description": null,
+        "origin": "Last set from …opt/vim-abolish/plugin/abolish.vim line 622"
+    }
+}

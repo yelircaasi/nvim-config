@@ -1,0 +1,74 @@
+{
+    "x::\\\\c": {
+        "mode": "x",
+        "keybind": "\\\\c",
+        "annotation": null,
+        "definition": "<Plug>(VM-Visual-Cursors)",
+        "description": null,
+        "origin": "Last set from …opt/vim-visual-multi/autoload/vm/maps.vim line 18"
+    },
+    "n::\\\\gS": {
+        "mode": "n",
+        "keybind": "\\\\gS",
+        "annotation": null,
+        "definition": "<Plug>(VM-Reselect-Last)",
+        "description": null,
+        "origin": "Last set from …opt/vim-visual-multi/autoload/vm/maps.vim line 18"
+    },
+    "n::\\\\/": {
+        "mode": "n",
+        "keybind": "\\\\/",
+        "annotation": null,
+        "definition": "<Plug>(VM-Start-Regex-Search)",
+        "description": null,
+        "origin": "Last set from …opt/vim-visual-multi/autoload/vm/maps.vim line 18"
+    },
+    "n::\\\\\\": {
+        "mode": "n",
+        "keybind": "\\\\\\",
+        "annotation": null,
+        "definition": "<Plug>(VM-Add-Cursor-At-Pos)",
+        "description": null,
+        "origin": "Last set from …opt/vim-visual-multi/autoload/vm/maps.vim line 18"
+    },
+    "x::\\\\a": {
+        "mode": "x",
+        "keybind": "\\\\a",
+        "annotation": null,
+        "definition": "<Plug>(VM-Visual-Add)",
+        "description": null,
+        "origin": "Last set from …opt/vim-visual-multi/autoload/vm/maps.vim line 18"
+    },
+    "x::\\\\f": {
+        "mode": "x",
+        "keybind": "\\\\f",
+        "annotation": null,
+        "definition": "<Plug>(VM-Visual-Find)",
+        "description": null,
+        "origin": "Last set from …opt/vim-visual-multi/autoload/vm/maps.vim line 18"
+    },
+    "x::\\\\/": {
+        "mode": "x",
+        "keybind": "\\\\/",
+        "annotation": null,
+        "definition": "<Plug>(VM-Visual-Regex)",
+        "description": null,
+        "origin": "Last set from …opt/vim-visual-multi/autoload/vm/maps.vim line 18"
+    },
+    "x::\\\\A": {
+        "mode": "x",
+        "keybind": "\\\\A",
+        "annotation": null,
+        "definition": "<Plug>(VM-Visual-All)",
+        "description": null,
+        "origin": "Last set from …opt/vim-visual-multi/autoload/vm/maps.vim line 18"
+    },
+    "n::\\\\A": {
+        "mode": "n",
+        "keybind": "\\\\A",
+        "annotation": null,
+        "definition": "<Plug>(VM-Select-All)",
+        "description": null,
+        "origin": "Last set from …opt/vim-visual-multi/autoload/vm/maps.vim line 18"
+    }
+}

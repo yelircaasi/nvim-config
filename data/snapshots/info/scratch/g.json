@@ -1,0 +1,530 @@
+{
+    "o::gc": {
+        "mode": "o",
+        "keybind": "gc",
+        "annotation": null,
+        "definition": "<Plug>Commentary",
+        "description": null,
+        "origin": "Last set from …opt/vim-commentary/plugin/commentary.vim line 115"
+    },
+    "n::gcc": {
+        "mode": "n",
+        "keybind": "gcc",
+        "annotation": "*",
+        "definition": "<Lua 163: …opt/Comment/lua/Comment/init.lua:103>",
+        "description": "Comment toggle current line",
+        "origin": "Last set from …opt/Comment/lua/Comment/init.lua line 103"
+    },
+    "x::gc": {
+        "mode": "x",
+        "keybind": "gc",
+        "annotation": "*",
+        "definition": "<Plug>(comment_toggle_linewise_visual)",
+        "description": "Comment toggle linewise (visual)",
+        "origin": "Last set from …opt/Comment/lua/Comment/init.lua line 113"
+    },
+    "n::gc": {
+        "mode": "n",
+        "keybind": "gc",
+        "annotation": "*",
+        "definition": "<Plug>(comment_toggle_linewise)",
+        "description": "Comment toggle linewise",
+        "origin": "Last set from …opt/Comment/lua/Comment/init.lua line 100"
+    },
+    "x::gP": {
+        "mode": "x",
+        "keybind": "gP",
+        "annotation": "*",
+        "definition": "<Plug>(YankyGPutBefore)",
+        "description": null,
+        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+    },
+    "n::gP": {
+        "mode": "n",
+        "keybind": "gP",
+        "annotation": "*",
+        "definition": "<Plug>(YankyGPutBefore)",
+        "description": null,
+        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+    },
+    "x::gp": {
+        "mode": "x",
+        "keybind": "gp",
+        "annotation": "*",
+        "definition": "<Plug>(YankyGPutAfter)",
+        "description": null,
+        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+    },
+    "n::gp": {
+        "mode": "n",
+        "keybind": "gp",
+        "annotation": "*",
+        "definition": "<Plug>(YankyGPutAfter)",
+        "description": null,
+        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+    },
+    "o::ge": {
+        "mode": "o",
+        "keybind": "ge",
+        "annotation": null,
+        "definition": "<Plug>WordMotion_ge",
+        "description": null,
+        "origin": "Last set from …opt/vim-wordmotion/plugin/wordmotion.vim line 63"
+    },
+    "x::ge": {
+        "mode": "x",
+        "keybind": "ge",
+        "annotation": null,
+        "definition": "<Plug>WordMotion_ge",
+        "description": null,
+        "origin": "Last set from …opt/vim-wordmotion/plugin/wordmotion.vim line 63"
+    },
+    "n::ge": {
+        "mode": "n",
+        "keybind": "ge",
+        "annotation": null,
+        "definition": "<Plug>WordMotion_ge",
+        "description": null,
+        "origin": "Last set from …opt/vim-wordmotion/plugin/wordmotion.vim line 63"
+    },
+    "x::gA": {
+        "mode": "x",
+        "keybind": "gA",
+        "annotation": "*",
+        "definition": "<Lua 356: …opt/mini.align/lua/mini/align.lua:1380>",
+        "description": "Align with preview",
+        "origin": "Last set from …opt/mini.align/lua/mini/align.lua line 1961"
+    },
+    "n::gA": {
+        "mode": "n",
+        "keybind": "gA",
+        "annotation": "*",
+        "definition": "<Lua 355: …opt/mini.align/lua/mini/align.lua:1368>",
+        "description": "Align with preview",
+        "origin": "Last set from …opt/mini.align/lua/mini/align.lua line 1961"
+    },
+    "x::ga": {
+        "mode": "x",
+        "keybind": "ga",
+        "annotation": "*",
+        "definition": "<Lua 354: …opt/mini.align/lua/mini/align.lua:1380>",
+        "description": "Align",
+        "origin": "Last set from …opt/mini.align/lua/mini/align.lua line 1961"
+    },
+    "n::ga": {
+        "mode": "n",
+        "keybind": "ga",
+        "annotation": "*",
+        "definition": "<Lua 353: …opt/mini.align/lua/mini/align.lua:1368>",
+        "description": "Align",
+        "origin": "Last set from …opt/mini.align/lua/mini/align.lua line 1961"
+    },
+    "x::gS": {
+        "mode": "x",
+        "keybind": "gS",
+        "annotation": "*",
+        "definition": "<Plug>(nvim-surround-visual-line)",
+        "description": "Add a surrounding pair around a visual selection, on new lines",
+        "origin": "Last set from …opt/nvim-surround/plugin/nvim-surround.lua line 64"
+    },
+    "n::gs": {
+        "mode": "n",
+        "keybind": "gs",
+        "annotation": null,
+        "definition": "<Plug>(Switch)",
+        "description": null,
+        "origin": "Last set from …opt/switch.vim/plugin/switch.vim line 327"
+    },
+    "x::gs.": {
+        "mode": "x",
+        "keybind": "gs.",
+        "annotation": null,
+        "definition": "<Plug>CaserVDotCase",
+        "description": null,
+        "origin": "Last set from …opt/vim-caser/autoload/caser.vim line 128"
+    },
+    "n::gs.": {
+        "mode": "n",
+        "keybind": "gs.",
+        "annotation": null,
+        "definition": "<Plug>CaserDotCase",
+        "description": null,
+        "origin": "Last set from …opt/vim-caser/autoload/caser.vim line 127"
+    },
+    "x::gsK": {
+        "mode": "x",
+        "keybind": "gsK",
+        "annotation": null,
+        "definition": "<Plug>CaserVTitleKebabCase",
+        "description": null,
+        "origin": "Last set from …opt/vim-caser/autoload/caser.vim line 128"
+    },
+    "n::gsK": {
+        "mode": "n",
+        "keybind": "gsK",
+        "annotation": null,
+        "definition": "<Plug>CaserTitleKebabCase",
+        "description": null,
+        "origin": "Last set from …opt/vim-caser/autoload/caser.vim line 127"
+    },
+    "x::gs-": {
+        "mode": "x",
+        "keybind": "gs-",
+        "annotation": null,
+        "definition": "<Plug>CaserVKebabCase",
+        "description": null,
+        "origin": "Last set from …opt/vim-caser/autoload/caser.vim line 128"
+    },
+    "n::gs-": {
+        "mode": "n",
+        "keybind": "gs-",
+        "annotation": null,
+        "definition": "<Plug>CaserKebabCase",
+        "description": null,
+        "origin": "Last set from …opt/vim-caser/autoload/caser.vim line 127"
+    },
+    "x::gsk": {
+        "mode": "x",
+        "keybind": "gsk",
+        "annotation": null,
+        "definition": "<Plug>CaserVKebabCase",
+        "description": null,
+        "origin": "Last set from …opt/vim-caser/autoload/caser.vim line 128"
+    },
+    "n::gsk": {
+        "mode": "n",
+        "keybind": "gsk",
+        "annotation": null,
+        "definition": "<Plug>CaserKebabCase",
+        "description": null,
+        "origin": "Last set from …opt/vim-caser/autoload/caser.vim line 127"
+    },
+    "x::gs<Space>": {
+        "mode": "x",
+        "keybind": "gs<Space>",
+        "annotation": null,
+        "definition": "<Plug>CaserVSpaceCase",
+        "description": null,
+        "origin": "Last set from …opt/vim-caser/autoload/caser.vim line 128"
+    },
+    "n::gs<Space>": {
+        "mode": "n",
+        "keybind": "gs<Space>",
+        "annotation": null,
+        "definition": "<Plug>CaserSpaceCase",
+        "description": null,
+        "origin": "Last set from …opt/vim-caser/autoload/caser.vim line 127"
+    },
+    "x::gss": {
+        "mode": "x",
+        "keybind": "gss",
+        "annotation": null,
+        "definition": "<Plug>CaserVSentenceCase",
+        "description": null,
+        "origin": "Last set from …opt/vim-caser/autoload/caser.vim line 128"
+    },
+    "n::gss": {
+        "mode": "n",
+        "keybind": "gss",
+        "annotation": null,
+        "definition": "<Plug>CaserSentenceCase",
+        "description": null,
+        "origin": "Last set from …opt/vim-caser/autoload/caser.vim line 127"
+    },
+    "x::gst": {
+        "mode": "x",
+        "keybind": "gst",
+        "annotation": null,
+        "definition": "<Plug>CaserVTitleCase",
+        "description": null,
+        "origin": "Last set from …opt/vim-caser/autoload/caser.vim line 128"
+    },
+    "n::gst": {
+        "mode": "n",
+        "keybind": "gst",
+        "annotation": null,
+        "definition": "<Plug>CaserTitleCase",
+        "description": null,
+        "origin": "Last set from …opt/vim-caser/autoload/caser.vim line 127"
+    },
+    "x::gsU": {
+        "mode": "x",
+        "keybind": "gsU",
+        "annotation": null,
+        "definition": "<Plug>CaserVUpperCase",
+        "description": null,
+        "origin": "Last set from …opt/vim-caser/autoload/caser.vim line 128"
+    },
+    "n::gsU": {
+        "mode": "n",
+        "keybind": "gsU",
+        "annotation": null,
+        "definition": "<Plug>CaserUpperCase",
+        "description": null,
+        "origin": "Last set from …opt/vim-caser/autoload/caser.vim line 127"
+    },
+    "x::gsu": {
+        "mode": "x",
+        "keybind": "gsu",
+        "annotation": null,
+        "definition": "<Plug>CaserVUpperCase",
+        "description": null,
+        "origin": "Last set from …opt/vim-caser/autoload/caser.vim line 128"
+    },
+    "n::gsu": {
+        "mode": "n",
+        "keybind": "gsu",
+        "annotation": null,
+        "definition": "<Plug>CaserUpperCase",
+        "description": null,
+        "origin": "Last set from …opt/vim-caser/autoload/caser.vim line 127"
+    },
+    "x::gs_": {
+        "mode": "x",
+        "keybind": "gs_",
+        "annotation": null,
+        "definition": "<Plug>CaserVSnakeCase",
+        "description": null,
+        "origin": "Last set from …opt/vim-caser/autoload/caser.vim line 128"
+    },
+    "n::gs_": {
+        "mode": "n",
+        "keybind": "gs_",
+        "annotation": null,
+        "definition": "<Plug>CaserSnakeCase",
+        "description": null,
+        "origin": "Last set from …opt/vim-caser/autoload/caser.vim line 127"
+    },
+    "x::gsc": {
+        "mode": "x",
+        "keybind": "gsc",
+        "annotation": null,
+        "definition": "<Plug>CaserVCamelCase",
+        "description": null,
+        "origin": "Last set from …opt/vim-caser/autoload/caser.vim line 128"
+    },
+    "n::gsc": {
+        "mode": "n",
+        "keybind": "gsc",
+        "annotation": null,
+        "definition": "<Plug>CaserCamelCase",
+        "description": null,
+        "origin": "Last set from …opt/vim-caser/autoload/caser.vim line 127"
+    },
+    "x::gsp": {
+        "mode": "x",
+        "keybind": "gsp",
+        "annotation": null,
+        "definition": "<Plug>CaserVMixedCase",
+        "description": null,
+        "origin": "Last set from …opt/vim-caser/autoload/caser.vim line 128"
+    },
+    "n::gsp": {
+        "mode": "n",
+        "keybind": "gsp",
+        "annotation": null,
+        "definition": "<Plug>CaserMixedCase",
+        "description": null,
+        "origin": "Last set from …opt/vim-caser/autoload/caser.vim line 127"
+    },
+    "x::gsm": {
+        "mode": "x",
+        "keybind": "gsm",
+        "annotation": null,
+        "definition": "<Plug>CaserVMixedCase",
+        "description": null,
+        "origin": "Last set from …opt/vim-caser/autoload/caser.vim line 128"
+    },
+    "n::gsm": {
+        "mode": "n",
+        "keybind": "gsm",
+        "annotation": null,
+        "definition": "<Plug>CaserMixedCase",
+        "description": null,
+        "origin": "Last set from …opt/vim-caser/autoload/caser.vim line 127"
+    },
+    "n::gogo": {
+        "mode": "n",
+        "keybind": "gogo",
+        "annotation": "*",
+        "definition": "<Lua 211: …opt/sort/lua/sort/mappings.lua:71>",
+        "description": "Sort current line",
+        "origin": "Last set from …opt/sort/lua/sort/mappings.lua line 71"
+    },
+    "x::go": {
+        "mode": "x",
+        "keybind": "go",
+        "annotation": "*",
+        "definition": "<Lua 212: …opt/sort/lua/sort/mappings.lua:25>",
+        "description": "Sort selection",
+        "origin": "Last set from …opt/sort/lua/sort/mappings.lua line 25"
+    },
+    "n::go": {
+        "mode": "n",
+        "keybind": "go",
+        "annotation": "*",
+        "definition": "<Lua 213: …opt/sort/lua/sort/mappings.lua:14>",
+        "description": "Sort operator",
+        "origin": "Last set from …opt/sort/lua/sort/mappings.lua line 14"
+    },
+    "n::gS": {
+        "mode": "n",
+        "keybind": "gS",
+        "annotation": "*",
+        "definition": "<Lua 217: …opt/treesj/lua/treesj/init.lua:30>",
+        "description": null,
+        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+    },
+    "n::gcA": {
+        "mode": "n",
+        "keybind": "gcA",
+        "annotation": "*",
+        "definition": "<Lua 167: …opt/Comment/lua/Comment/api.lua:218>",
+        "description": "Comment insert end of line",
+        "origin": "Last set from …opt/Comment/lua/Comment/init.lua line 131"
+    },
+    "n::gcO": {
+        "mode": "n",
+        "keybind": "gcO",
+        "annotation": "*",
+        "definition": "<Lua 166: …opt/Comment/lua/Comment/api.lua:179>",
+        "description": "Comment insert above",
+        "origin": "Last set from …opt/Comment/lua/Comment/init.lua line 130"
+    },
+    "n::gco": {
+        "mode": "n",
+        "keybind": "gco",
+        "annotation": "*",
+        "definition": "<Lua 165: …opt/Comment/lua/Comment/api.lua:182>",
+        "description": "Comment insert below",
+        "origin": "Last set from …opt/Comment/lua/Comment/init.lua line 129"
+    },
+    "x::gb": {
+        "mode": "x",
+        "keybind": "gb",
+        "annotation": "*",
+        "definition": "<Plug>(comment_toggle_blockwise_visual)",
+        "description": "Comment toggle blockwise (visual)",
+        "origin": "Last set from …opt/Comment/lua/Comment/init.lua line 119"
+    },
+    "n::gbc": {
+        "mode": "n",
+        "keybind": "gbc",
+        "annotation": "*",
+        "definition": "<Lua 164: …opt/Comment/lua/Comment/init.lua:107>",
+        "description": "Comment toggle current block",
+        "origin": "Last set from …opt/Comment/lua/Comment/init.lua line 107"
+    },
+    "n::gb": {
+        "mode": "n",
+        "keybind": "gb",
+        "annotation": "*",
+        "definition": "<Plug>(comment_toggle_blockwise)",
+        "description": "Comment toggle blockwise",
+        "origin": "Last set from …opt/Comment/lua/Comment/init.lua line 101"
+    },
+    "n::gcu": {
+        "mode": "n",
+        "keybind": "gcu",
+        "annotation": null,
+        "definition": "<Plug>Commentary<Plug>Commentary",
+        "description": null,
+        "origin": "Last set from …opt/vim-commentary/plugin/commentary.vim line 117"
+    },
+    "x::gx": {
+        "mode": "x",
+        "keybind": "gx",
+        "annotation": "*",
+        "definition": "<Lua 11: vim/_core/defaults:174>",
+        "description": "Opens filepath or URI under cursor with the system handler (file explorer, web browser, \u2026)",
+        "origin": "Last set from vim/_core/defaults line 174"
+    },
+    "n::gx": {
+        "mode": "n",
+        "keybind": "gx",
+        "annotation": "*",
+        "definition": "<Lua 10: vim/_core/defaults:166>",
+        "description": "Opens filepath or URI under cursor with the system handler (file explorer, web browser, \u2026)",
+        "origin": "Last set from vim/_core/defaults line 166"
+    },
+    "n::gO": {
+        "mode": "n",
+        "keybind": "gO",
+        "annotation": "*",
+        "definition": "<Lua 23: vim/_core/defaults:237>",
+        "description": "vim.lsp.buf.document_symbol()",
+        "origin": "Last set from vim/_core/defaults line 237"
+    },
+    "n::grt": {
+        "mode": "n",
+        "keybind": "grt",
+        "annotation": "*",
+        "definition": "<Lua 22: vim/_core/defaults:233>",
+        "description": "vim.lsp.buf.type_definition()",
+        "origin": "Last set from vim/_core/defaults line 233"
+    },
+    "n::gri": {
+        "mode": "n",
+        "keybind": "gri",
+        "annotation": "*",
+        "definition": "<Lua 21: vim/_core/defaults:229>",
+        "description": "vim.lsp.buf.implementation()",
+        "origin": "Last set from vim/_core/defaults line 229"
+    },
+    "n::grr": {
+        "mode": "n",
+        "keybind": "grr",
+        "annotation": "*",
+        "definition": "<Lua 20: vim/_core/defaults:225>",
+        "description": "vim.lsp.buf.references()",
+        "origin": "Last set from vim/_core/defaults line 225"
+    },
+    "n::grx": {
+        "mode": "n",
+        "keybind": "grx",
+        "annotation": "*",
+        "definition": "<Lua 19: vim/_core/defaults:221>",
+        "description": "vim.lsp.codelens.run()",
+        "origin": "Last set from vim/_core/defaults line 221"
+    },
+    "x::gra": {
+        "mode": "x",
+        "keybind": "gra",
+        "annotation": "*",
+        "definition": "<Lua 18: vim/_core/defaults:217>",
+        "description": "vim.lsp.buf.code_action()",
+        "origin": "Last set from vim/_core/defaults line 217"
+    },
+    "n::gra": {
+        "mode": "n",
+        "keybind": "gra",
+        "annotation": "*",
+        "definition": "<Lua 17: vim/_core/defaults:217>",
+        "description": "vim.lsp.buf.code_action()",
+        "origin": "Last set from vim/_core/defaults line 217"
+    },
+    "n::grn": {
+        "mode": "n",
+        "keybind": "grn",
+        "annotation": "*",
+        "definition": "<Lua 16: vim/_core/defaults:213>",
+        "description": "vim.lsp.buf.rename()",
+        "origin": "Last set from vim/_core/defaults line 213"
+    },
+    "o::an": {
+        "mode": "o",
+        "keybind": "an",
+        "annotation": "*",
+        "definition": "<Lua 68: vim/_core/defaults:479>",
+        "description": "Select parent (outer) node",
+        "origin": "Last set from vim/_core/defaults line 479"
+    },
+    "x::an": {
+        "mode": "x",
+        "keybind": "an",
+        "annotation": "*",
+        "definition": "<Lua 67: vim/_core/defaults:479>",
+        "description": "Select parent (outer) node",
+        "origin": "Last set from vim/_core/defaults line 479"
+    }
+}

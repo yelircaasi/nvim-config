@@ -1,0 +1,106 @@
+{
+    "o::s": {
+        "mode": "o",
+        "keybind": "s",
+        "annotation": "*",
+        "definition": "<Lua 704: …opt/flash/lua/flash/commands.lua:7>",
+        "description": null,
+        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+    },
+    "x::s": {
+        "mode": "x",
+        "keybind": "s",
+        "annotation": "*",
+        "definition": "<Lua 703: …opt/flash/lua/flash/commands.lua:7>",
+        "description": null,
+        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+    },
+    "n::s": {
+        "mode": "n",
+        "keybind": "s",
+        "annotation": "*",
+        "definition": "<Lua 699: …opt/flash/lua/flash/commands.lua:7>",
+        "description": null,
+        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+    },
+    "s::s": {
+        "mode": "s",
+        "keybind": "s",
+        "annotation": "*",
+        "definition": "<Lua 630: ~/.config/nvim/lua/navigation.lua:1134>",
+        "description": null,
+        "origin": "Last set from …-pde/config/lua/utils.lua line 184"
+    },
+    "n::srb": {
+        "mode": "n",
+        "keybind": "srb",
+        "annotation": null,
+        "definition": "<Plug>(sandwich-replace-auto)",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/sandwich.vim line 60"
+    },
+    "x::sr": {
+        "mode": "x",
+        "keybind": "sr",
+        "annotation": null,
+        "definition": "<Plug>(sandwich-replace)",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/sandwich.vim line 59"
+    },
+    "n::sr": {
+        "mode": "n",
+        "keybind": "sr",
+        "annotation": null,
+        "definition": "<Plug>(sandwich-replace)",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/sandwich.vim line 58"
+    },
+    "n::sdb": {
+        "mode": "n",
+        "keybind": "sdb",
+        "annotation": null,
+        "definition": "<Plug>(sandwich-delete-auto)",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/sandwich.vim line 55"
+    },
+    "x::sd": {
+        "mode": "x",
+        "keybind": "sd",
+        "annotation": null,
+        "definition": "<Plug>(sandwich-delete)",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/sandwich.vim line 54"
+    },
+    "n::sd": {
+        "mode": "n",
+        "keybind": "sd",
+        "annotation": null,
+        "definition": "<Plug>(sandwich-delete)",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/sandwich.vim line 53"
+    },
+    "o::sa": {
+        "mode": "o",
+        "keybind": "sa",
+        "annotation": null,
+        "definition": "<Plug>(sandwich-add)",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/sandwich.vim line 50"
+    },
+    "x::sa": {
+        "mode": "x",
+        "keybind": "sa",
+        "annotation": null,
+        "definition": "<Plug>(sandwich-add)",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/sandwich.vim line 49"
+    },
+    "n::sa": {
+        "mode": "n",
+        "keybind": "sa",
+        "annotation": null,
+        "definition": "<Plug>(sandwich-add)",
+        "description": null,
+        "origin": "Last set from …opt/vim-sandwich/plugin/sandwich.vim line 48"
+    }
+}

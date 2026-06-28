@@ -120,7 +120,7 @@
     DiagflowToggle    0                        lua require('diagflow').toggle()
 	Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/diagflow/plugin/diagflow.vim line 1
     EditQuery         ?            <Lua function> <Lua 7: vim/_core/defaults:28>
-	Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 28
+	Last set from vim/_core/defaults line 28
 !   FZF               *            dir         call s:cmd(<bang>0, <f-args>)
 	Last set from /nix/store/pmddi2yfyf2ldrngm9yr4qa2q8mssa59-fzf-0.73.1/share/vim-plugins/fzf/plugin/fzf.vim line 1154
     Fidget            +            <Lua function> <Lua 888: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/fidget/lua/fidget/commands.lua:177>
@@ -330,9 +330,9 @@
     InsertTime        *                        <Lua 234: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/date-time-inserter/lua/date-time-inserter/controller.lua:37>
 	Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/date-time-inserter/lua/date-time-inserter/controller.lua line 37
 !   Inspect           0                        <Lua 4: vim/_core/defaults:7>
-	Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 7
+	Last set from vim/_core/defaults line 7
     InspectTree       ?    0c ?                <Lua 5: vim/_core/defaults:15>
-	Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 15
+	Last set from vim/_core/defaults line 15
     KeySeer           ?                        <Lua 1198: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/keyseer/plugin/keyseer.lua:8>
 	Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/keyseer/plugin/keyseer.lua line 8
     LazyClip          0                        lua require('lazyclip.ui').open_
@@ -394,7 +394,7 @@
     Oil               *    0c ?    dir         <Lua 1087: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/oil/lua/oil/init.lua:1138>
 	Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/oil/lua/oil/init.lua line 1196
     Open              ?            file        <Lua 8: vim/_core/defaults:38>
-	Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 38
+	Last set from vim/_core/defaults line 38
 !|  PinBuffer         0                        <Lua 406: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/stickybuf/lua/stickybuf.lua:147>
 	Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/stickybuf/lua/stickybuf.lua line 249
 !|  PinBuftype        0                        <Lua 407: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/stickybuf/lua/stickybuf.lua:160>
