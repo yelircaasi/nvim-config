@@ -1,5 +1,6 @@
 from pathlib import Path
 
+from random import randint
 import re
 import subprocess
 
@@ -76,7 +77,14 @@ def parse_mappings(raw: str) -> dict[str, dict[str, str]]:
         result = re.search(Patterns.MAPPING_PATTERN, block)
         if result:
             gd = result.groupdict()
-            m.update({gd["keybind"]: {key: gd[key] for key in Patterns.MAPPING_KEYS}})
+            mode = gd["mode"]
+            keybind_modified = mode + "::" + gd["keybind"]
+            
+            if keybind_modified in m:
+                if m[keybind_modified]:
+                    suffix = gd["description"] or randint(0, 1000)
+                    keybind_modified = f"{keybind_modified}__{suffix}"
+            m.update({keybind_modified: {key: gd[key] for key in Patterns.MAPPING_KEYS}})
         else:
             print(block)
 

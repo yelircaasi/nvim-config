@@ -32,7 +32,7 @@
         "args": "?",
         "address": ".",
         "complete": "<Lua function>",
-        "definition": "<Lua 1139: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/advanced_git_search/lua/advanced_git_search/utils/setup.lua:4>",
+        "definition": "<Lua 1141: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/advanced_git_search/lua/advanced_git_search/utils/setup.lua:4>",
         "description": "Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/advanced_git_search/lua/advanced_git_search/utils/setup.lua line 4"
     },
     "Arrow": {
@@ -59,7 +59,7 @@
         "args": "*",
         "address": null,
         "complete": null,
-        "definition": "<Lua 679: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/ax/lua/ax/init.lua:306>",
+        "definition": "<Lua 1206: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/ax/lua/ax/init.lua:306>",
         "description": "Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/ax/lua/ax/init.lua line 306"
     },
     "AxAudit": {
@@ -365,7 +365,7 @@
         "args": "0",
         "address": null,
         "complete": null,
-        "definition": "<Lua 1148: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dap/plugin/dap.lua:22>",
+        "definition": "<Lua 1149: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dap/plugin/dap.lua:22>",
         "description": "Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dap/plugin/dap.lua line 22"
     },
     "DapContinue": {
@@ -374,7 +374,7 @@
         "args": "0",
         "address": null,
         "complete": null,
-        "definition": "<Lua 1144: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dap/plugin/dap.lua:20>",
+        "definition": "<Lua 1145: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dap/plugin/dap.lua:20>",
         "description": "Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dap/plugin/dap.lua line 20"
     },
     "DapDisconnect": {
@@ -383,7 +383,7 @@
         "args": "0",
         "address": null,
         "complete": null,
-        "definition": "<Lua 1155: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dap/plugin/dap.lua:29>",
+        "definition": "<Lua 1156: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dap/plugin/dap.lua:29>",
         "description": "Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dap/plugin/dap.lua line 29"
     },
     "DapEval": {
@@ -392,7 +392,7 @@
         "args": "0",
         "address": "%",
         "complete": null,
-        "definition": "<Lua 1169: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dap/plugin/dap.lua:43>",
+        "definition": "<Lua 1170: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dap/plugin/dap.lua:43>",
         "description": "Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dap/plugin/dap.lua line 43"
     },
     "DapNew": {
@@ -401,7 +401,7 @@
         "args": "*",
         "address": null,
         "complete": "<Lua function>",
-        "definition": "<Lua 1170: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dap/plugin/dap.lua:32>",
+        "definition": "<Lua 1171: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dap/plugin/dap.lua:32>",
         "description": "Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dap/plugin/dap.lua line 35"
     },
     "DapPause": {
@@ -410,7 +410,7 @@
         "args": "0",
         "address": null,
         "complete": null,
-        "definition": "<Lua 1153: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dap/plugin/dap.lua:27>",
+        "definition": "<Lua 1154: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dap/plugin/dap.lua:27>",
         "description": "Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dap/plugin/dap.lua line 27"
     },
     "DapRestartFrame": {
@@ -419,7 +419,7 @@
         "args": "0",
         "address": null,
         "complete": null,
-        "definition": "<Lua 1156: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dap/plugin/dap.lua:30>",
+        "definition": "<Lua 1157: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dap/plugin/dap.lua:30>",
         "description": "Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dap/plugin/dap.lua line 30"
     },
     "DapSetLogLevel": {
@@ -428,7 +428,7 @@
         "args": "1",
         "address": null,
         "complete": "<Lua function>",
-        "definition": "<Lua 1198: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dap/plugin/dap.lua:9>",
+        "definition": "<Lua 1199: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dap/plugin/dap.lua:9>",
         "description": "Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dap/plugin/dap.lua line 7"
     },
     "DapShowLog": {
@@ -437,7 +437,7 @@
         "args": "0",
         "address": null,
         "complete": null,
-        "definition": "<Lua 1168: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dap/plugin/dap.lua:19>",
+        "definition": "<Lua 1169: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dap/plugin/dap.lua:19>",
         "description": "Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dap/plugin/dap.lua line 19"
     },
     "DapStepInto": {
@@ -446,7 +446,7 @@
         "args": "0",
         "address": null,
         "complete": null,
-        "definition": "<Lua 1151: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dap/plugin/dap.lua:25>",
+        "definition": "<Lua 1152: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dap/plugin/dap.lua:25>",
         "description": "Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dap/plugin/dap.lua line 25"
     },
     "DapStepOut": {
@@ -455,7 +455,7 @@
         "args": "0",
         "address": null,
         "complete": null,
-        "definition": "<Lua 1152: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dap/plugin/dap.lua:26>",
+        "definition": "<Lua 1153: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dap/plugin/dap.lua:26>",
         "description": "Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dap/plugin/dap.lua line 26"
     },
     "DapStepOver": {
@@ -464,7 +464,7 @@
         "args": "0",
         "address": null,
         "complete": null,
-        "definition": "<Lua 1150: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dap/plugin/dap.lua:24>",
+        "definition": "<Lua 1151: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dap/plugin/dap.lua:24>",
         "description": "Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dap/plugin/dap.lua line 24"
     },
     "DapTerminate": {
@@ -473,7 +473,7 @@
         "args": "0",
         "address": null,
         "complete": null,
-        "definition": "<Lua 1154: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dap/plugin/dap.lua:28>",
+        "definition": "<Lua 1155: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dap/plugin/dap.lua:28>",
         "description": "Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dap/plugin/dap.lua line 28"
     },
     "DapToggleBreakpoint": {
@@ -482,7 +482,7 @@
         "args": "0",
         "address": null,
         "complete": null,
-        "definition": "<Lua 1147: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dap/plugin/dap.lua:21>",
+        "definition": "<Lua 1148: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dap/plugin/dap.lua:21>",
         "description": "Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dap/plugin/dap.lua line 21"
     },
     "DapToggleRepl": {
@@ -491,7 +491,7 @@
         "args": "0",
         "address": null,
         "complete": null,
-        "definition": "<Lua 1149: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dap/plugin/dap.lua:23>",
+        "definition": "<Lua 1150: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dap/plugin/dap.lua:23>",
         "description": "Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dap/plugin/dap.lua line 23"
     },
     "DapVirtualTextDisable": {
@@ -680,7 +680,7 @@
         "args": "0",
         "address": null,
         "complete": null,
-        "definition": "<Lua 1183: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/homerows/lua/homerows/commands.lua:103>",
+        "definition": "<Lua 1184: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/homerows/lua/homerows/commands.lua:103>",
         "description": "Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/homerows/lua/homerows/commands.lua line 108"
     },
     "HomerowsTo": {
@@ -689,7 +689,7 @@
         "args": "*",
         "address": null,
         "complete": "<Lua function>",
-        "definition": "<Lua 1185: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/homerows/lua/homerows/commands.lua:113>",
+        "definition": "<Lua 1186: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/homerows/lua/homerows/commands.lua:113>",
         "description": "Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/homerows/lua/homerows/commands.lua line 113"
     },
     "HopAnywhere": {
@@ -761,7 +761,7 @@
         "args": "0",
         "address": null,
         "complete": null,
-        "definition": "<Lua 585: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/lua/hop/init.lua:395>",
+        "definition": "<Lua 713: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/lua/hop/init.lua:395>",
         "description": "Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/plugin/hop.lua line 21"
     },
     "HopCamelCaseAC": {
@@ -770,7 +770,7 @@
         "args": "0",
         "address": null,
         "complete": null,
-        "definition": "<Lua 601: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/plugin/hop.lua:27>",
+        "definition": "<Lua 608: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/plugin/hop.lua:27>",
         "description": "Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/plugin/hop.lua line 27"
     },
     "HopCamelCaseBC": {
@@ -779,7 +779,7 @@
         "args": "0",
         "address": null,
         "complete": null,
-        "definition": "<Lua 600: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/plugin/hop.lua:23>",
+        "definition": "<Lua 607: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/plugin/hop.lua:23>",
         "description": "Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/plugin/hop.lua line 23"
     },
     "HopCamelCaseCurrentLine": {
@@ -788,7 +788,7 @@
         "args": "0",
         "address": null,
         "complete": null,
-        "definition": "<Lua 602: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/plugin/hop.lua:31>",
+        "definition": "<Lua 609: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/plugin/hop.lua:31>",
         "description": "Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/plugin/hop.lua line 31"
     },
     "HopCamelCaseCurrentLineAC": {
@@ -797,7 +797,7 @@
         "args": "0",
         "address": null,
         "complete": null,
-        "definition": "<Lua 604: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/plugin/hop.lua:39>",
+        "definition": "<Lua 611: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/plugin/hop.lua:39>",
         "description": "Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/plugin/hop.lua line 39"
     },
     "HopCamelCaseCurrentLineBC": {
@@ -806,7 +806,7 @@
         "args": "0",
         "address": null,
         "complete": null,
-        "definition": "<Lua 603: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/plugin/hop.lua:35>",
+        "definition": "<Lua 610: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/plugin/hop.lua:35>",
         "description": "Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/plugin/hop.lua line 35"
     },
     "HopCamelCaseMW": {
@@ -815,7 +815,7 @@
         "args": "0",
         "address": null,
         "complete": null,
-        "definition": "<Lua 605: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/plugin/hop.lua:43>",
+        "definition": "<Lua 612: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/plugin/hop.lua:43>",
         "description": "Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/plugin/hop.lua line 43"
     },
     "HopChar1": {
@@ -824,7 +824,7 @@
         "args": "0",
         "address": null,
         "complete": null,
-        "definition": "<Lua 606: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/lua/hop/init.lua:438>",
+        "definition": "<Lua 613: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/lua/hop/init.lua:438>",
         "description": "Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/plugin/hop.lua line 21"
     },
     "HopChar1AC": {
@@ -887,7 +887,7 @@
         "args": "0",
         "address": null,
         "complete": null,
-        "definition": "<Lua 713: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/lua/hop/init.lua:451>",
+        "definition": "<Lua 592: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/lua/hop/init.lua:451>",
         "description": "Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/plugin/hop.lua line 21"
     },
     "HopChar2AC": {
@@ -950,7 +950,7 @@
         "args": "0",
         "address": null,
         "complete": null,
-        "definition": "<Lua 625: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/lua/hop/init.lua:464>",
+        "definition": "<Lua 621: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/lua/hop/init.lua:464>",
         "description": "Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/plugin/hop.lua line 55"
     },
     "HopLineAC": {
@@ -986,7 +986,7 @@
         "args": "0",
         "address": null,
         "complete": null,
-        "definition": "<Lua 592: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/lua/hop/init.lua:480>",
+        "definition": "<Lua 585: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/lua/hop/init.lua:480>",
         "description": "Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/plugin/hop.lua line 55"
     },
     "HopLineStartAC": {
@@ -995,7 +995,7 @@
         "args": "0",
         "address": null,
         "complete": null,
-        "definition": "<Lua 623: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/plugin/hop.lua:61>",
+        "definition": "<Lua 619: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/plugin/hop.lua:61>",
         "description": "Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/plugin/hop.lua line 61"
     },
     "HopLineStartBC": {
@@ -1004,7 +1004,7 @@
         "args": "0",
         "address": null,
         "complete": null,
-        "definition": "<Lua 622: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/plugin/hop.lua:57>",
+        "definition": "<Lua 618: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/plugin/hop.lua:57>",
         "description": "Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/plugin/hop.lua line 57"
     },
     "HopLineStartMW": {
@@ -1013,7 +1013,7 @@
         "args": "0",
         "address": null,
         "complete": null,
-        "definition": "<Lua 624: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/plugin/hop.lua:65>",
+        "definition": "<Lua 620: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/plugin/hop.lua:65>",
         "description": "Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/plugin/hop.lua line 65"
     },
     "HopNodes": {
@@ -1031,7 +1031,7 @@
         "args": "0",
         "address": null,
         "complete": null,
-        "definition": "<Lua 632: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/lua/hop-yank/init.lua:52>",
+        "definition": "<Lua 639: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/lua/hop-yank/init.lua:52>",
         "description": "Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/lua/hop-yank/init.lua line 93"
     },
     "HopPasteChar1AC": {
@@ -1040,7 +1040,7 @@
         "args": "0",
         "address": null,
         "complete": null,
-        "definition": "<Lua 634: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/lua/hop-yank/init.lua:99>",
+        "definition": "<Lua 641: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/lua/hop-yank/init.lua:99>",
         "description": "Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/lua/hop-yank/init.lua line 99"
     },
     "HopPasteChar1BC": {
@@ -1049,7 +1049,7 @@
         "args": "0",
         "address": null,
         "complete": null,
-        "definition": "<Lua 633: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/lua/hop-yank/init.lua:95>",
+        "definition": "<Lua 640: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/lua/hop-yank/init.lua:95>",
         "description": "Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/lua/hop-yank/init.lua line 95"
     },
     "HopPasteChar1CurrentLine": {
@@ -1058,7 +1058,7 @@
         "args": "0",
         "address": null,
         "complete": null,
-        "definition": "<Lua 635: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/lua/hop-yank/init.lua:103>",
+        "definition": "<Lua 642: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/lua/hop-yank/init.lua:103>",
         "description": "Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/lua/hop-yank/init.lua line 103"
     },
     "HopPasteChar1CurrentLineAC": {
@@ -1067,7 +1067,7 @@
         "args": "0",
         "address": null,
         "complete": null,
-        "definition": "<Lua 637: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/lua/hop-yank/init.lua:111>",
+        "definition": "<Lua 644: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/lua/hop-yank/init.lua:111>",
         "description": "Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/lua/hop-yank/init.lua line 111"
     },
     "HopPasteChar1CurrentLineBC": {
@@ -1076,7 +1076,7 @@
         "args": "0",
         "address": null,
         "complete": null,
-        "definition": "<Lua 636: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/lua/hop-yank/init.lua:107>",
+        "definition": "<Lua 643: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/lua/hop-yank/init.lua:107>",
         "description": "Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/lua/hop-yank/init.lua line 107"
     },
     "HopPasteChar1MW": {
@@ -1085,7 +1085,7 @@
         "args": "0",
         "address": null,
         "complete": null,
-        "definition": "<Lua 638: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/lua/hop-yank/init.lua:115>",
+        "definition": "<Lua 645: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/lua/hop-yank/init.lua:115>",
         "description": "Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/lua/hop-yank/init.lua line 115"
     },
     "HopPattern": {
@@ -1094,7 +1094,7 @@
         "args": "0",
         "address": null,
         "complete": null,
-        "definition": "<Lua 613: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/lua/hop/init.lua:404>",
+        "definition": "<Lua 606: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/lua/hop/init.lua:404>",
         "description": "Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/plugin/hop.lua line 21"
     },
     "HopPatternAC": {
@@ -1166,7 +1166,7 @@
         "args": "0",
         "address": null,
         "complete": null,
-        "definition": "<Lua 619: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/plugin/hop.lua:61>",
+        "definition": "<Lua 623: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/plugin/hop.lua:61>",
         "description": "Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/plugin/hop.lua line 61"
     },
     "HopVerticalBC": {
@@ -1175,7 +1175,7 @@
         "args": "0",
         "address": null,
         "complete": null,
-        "definition": "<Lua 618: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/plugin/hop.lua:57>",
+        "definition": "<Lua 622: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/plugin/hop.lua:57>",
         "description": "Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/plugin/hop.lua line 57"
     },
     "HopVerticalMW": {
@@ -1184,7 +1184,7 @@
         "args": "0",
         "address": null,
         "complete": null,
-        "definition": "<Lua 620: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/plugin/hop.lua:65>",
+        "definition": "<Lua 624: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/plugin/hop.lua:65>",
         "description": "Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/plugin/hop.lua line 65"
     },
     "HopWord": {
@@ -1202,7 +1202,7 @@
         "args": "0",
         "address": null,
         "complete": null,
-        "definition": "<Lua 608: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/plugin/hop.lua:27>",
+        "definition": "<Lua 601: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/plugin/hop.lua:27>",
         "description": "Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/plugin/hop.lua line 27"
     },
     "HopWordBC": {
@@ -1211,7 +1211,7 @@
         "args": "0",
         "address": null,
         "complete": null,
-        "definition": "<Lua 607: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/plugin/hop.lua:23>",
+        "definition": "<Lua 600: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/plugin/hop.lua:23>",
         "description": "Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/plugin/hop.lua line 23"
     },
     "HopWordCurrentLine": {
@@ -1220,7 +1220,7 @@
         "args": "0",
         "address": null,
         "complete": null,
-        "definition": "<Lua 609: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/plugin/hop.lua:31>",
+        "definition": "<Lua 602: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/plugin/hop.lua:31>",
         "description": "Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/plugin/hop.lua line 31"
     },
     "HopWordCurrentLineAC": {
@@ -1229,7 +1229,7 @@
         "args": "0",
         "address": null,
         "complete": null,
-        "definition": "<Lua 611: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/plugin/hop.lua:39>",
+        "definition": "<Lua 604: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/plugin/hop.lua:39>",
         "description": "Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/plugin/hop.lua line 39"
     },
     "HopWordCurrentLineBC": {
@@ -1238,7 +1238,7 @@
         "args": "0",
         "address": null,
         "complete": null,
-        "definition": "<Lua 610: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/plugin/hop.lua:35>",
+        "definition": "<Lua 603: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/plugin/hop.lua:35>",
         "description": "Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/plugin/hop.lua line 35"
     },
     "HopWordMW": {
@@ -1247,7 +1247,7 @@
         "args": "0",
         "address": null,
         "complete": null,
-        "definition": "<Lua 612: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/plugin/hop.lua:43>",
+        "definition": "<Lua 605: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/plugin/hop.lua:43>",
         "description": "Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/plugin/hop.lua line 43"
     },
     "HopYankChar1": {
@@ -1256,7 +1256,7 @@
         "args": "0",
         "address": null,
         "complete": null,
-        "definition": "<Lua 639: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/lua/hop-yank/init.lua:9>",
+        "definition": "<Lua 632: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/lua/hop-yank/init.lua:9>",
         "description": "Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/lua/hop-yank/init.lua line 93"
     },
     "HopYankChar1AC": {
@@ -1265,7 +1265,7 @@
         "args": "0",
         "address": null,
         "complete": null,
-        "definition": "<Lua 641: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/lua/hop-yank/init.lua:99>",
+        "definition": "<Lua 634: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/lua/hop-yank/init.lua:99>",
         "description": "Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/lua/hop-yank/init.lua line 99"
     },
     "HopYankChar1BC": {
@@ -1274,7 +1274,7 @@
         "args": "0",
         "address": null,
         "complete": null,
-        "definition": "<Lua 640: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/lua/hop-yank/init.lua:95>",
+        "definition": "<Lua 633: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/lua/hop-yank/init.lua:95>",
         "description": "Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/lua/hop-yank/init.lua line 95"
     },
     "HopYankChar1CurrentLine": {
@@ -1283,7 +1283,7 @@
         "args": "0",
         "address": null,
         "complete": null,
-        "definition": "<Lua 642: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/lua/hop-yank/init.lua:103>",
+        "definition": "<Lua 635: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/lua/hop-yank/init.lua:103>",
         "description": "Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/lua/hop-yank/init.lua line 103"
     },
     "HopYankChar1CurrentLineAC": {
@@ -1292,7 +1292,7 @@
         "args": "0",
         "address": null,
         "complete": null,
-        "definition": "<Lua 644: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/lua/hop-yank/init.lua:111>",
+        "definition": "<Lua 637: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/lua/hop-yank/init.lua:111>",
         "description": "Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/lua/hop-yank/init.lua line 111"
     },
     "HopYankChar1CurrentLineBC": {
@@ -1301,7 +1301,7 @@
         "args": "0",
         "address": null,
         "complete": null,
-        "definition": "<Lua 643: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/lua/hop-yank/init.lua:107>",
+        "definition": "<Lua 636: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/lua/hop-yank/init.lua:107>",
         "description": "Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/lua/hop-yank/init.lua line 107"
     },
     "HopYankChar1MW": {
@@ -1310,7 +1310,7 @@
         "args": "0",
         "address": null,
         "complete": null,
-        "definition": "<Lua 645: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/lua/hop-yank/init.lua:115>",
+        "definition": "<Lua 638: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/lua/hop-yank/init.lua:115>",
         "description": "Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/lua/hop-yank/init.lua line 115"
     },
     "IBLDisable": {
@@ -1319,7 +1319,7 @@
         "args": "0",
         "address": null,
         "complete": null,
-        "definition": "<Lua 1239: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/indent-blankline/after/plugin/commands.lua:11>",
+        "definition": "<Lua 1240: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/indent-blankline/after/plugin/commands.lua:11>",
         "description": "Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/indent-blankline/after/plugin/commands.lua line 11"
     },
     "IBLDisableScope": {
@@ -1328,7 +1328,7 @@
         "args": "0",
         "address": null,
         "complete": null,
-        "definition": "<Lua 1242: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/indent-blankline/after/plugin/commands.lua:36>",
+        "definition": "<Lua 1243: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/indent-blankline/after/plugin/commands.lua:36>",
         "description": "Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/indent-blankline/after/plugin/commands.lua line 36"
     },
     "IBLEnable": {
@@ -1337,7 +1337,7 @@
         "args": "0",
         "address": null,
         "complete": null,
-        "definition": "<Lua 1238: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/indent-blankline/after/plugin/commands.lua:4>",
+        "definition": "<Lua 1239: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/indent-blankline/after/plugin/commands.lua:4>",
         "description": "Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/indent-blankline/after/plugin/commands.lua line 4"
     },
     "IBLEnableScope": {
@@ -1346,7 +1346,7 @@
         "args": "0",
         "address": null,
         "complete": null,
-        "definition": "<Lua 1241: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/indent-blankline/after/plugin/commands.lua:29>",
+        "definition": "<Lua 1242: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/indent-blankline/after/plugin/commands.lua:29>",
         "description": "Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/indent-blankline/after/plugin/commands.lua line 29"
     },
     "IBLToggle": {
@@ -1355,7 +1355,7 @@
         "args": "0",
         "address": null,
         "complete": null,
-        "definition": "<Lua 1240: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/indent-blankline/after/plugin/commands.lua:18>",
+        "definition": "<Lua 1241: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/indent-blankline/after/plugin/commands.lua:18>",
         "description": "Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/indent-blankline/after/plugin/commands.lua line 18"
     },
     "IBLToggleScope": {
@@ -1364,7 +1364,7 @@
         "args": "0",
         "address": null,
         "complete": null,
-        "definition": "<Lua 1243: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/indent-blankline/after/plugin/commands.lua:43>",
+        "definition": "<Lua 1244: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/indent-blankline/after/plugin/commands.lua:43>",
         "description": "Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/indent-blankline/after/plugin/commands.lua line 43"
     },
     "IlluminateDebug": {
@@ -1454,7 +1454,7 @@
         "args": "0",
         "address": null,
         "complete": null,
-        "definition": "<Lua 1205: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/indentmini/plugin/indentmini.lua:3>",
+        "definition": "<Lua 1207: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/indentmini/plugin/indentmini.lua:3>",
         "description": "Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/indentmini/plugin/indentmini.lua line 1"
     },
     "InsertDate": {
@@ -1508,7 +1508,7 @@
         "args": "?",
         "address": null,
         "complete": null,
-        "definition": "<Lua 1197: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/keyseer/plugin/keyseer.lua:8>",
+        "definition": "<Lua 1198: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/keyseer/plugin/keyseer.lua:8>",
         "description": "Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/keyseer/plugin/keyseer.lua line 8"
     },
     "LazyClip": {
@@ -1535,7 +1535,7 @@
         "args": "*",
         "address": ".  ?",
         "complete": "<Lua function>",
-        "definition": "<Lua 1217: /nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/plugin/man.lua:6>",
+        "definition": "<Lua 1218: /nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/plugin/man.lua:6>",
         "description": "Last set from /nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/plugin/man.lua line 6"
     },
     "Markit": {
@@ -1643,7 +1643,7 @@
         "args": "*",
         "address": null,
         "complete": "custom",
-        "definition": "<Lua 1106: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/neo-tree/plugin/neo-tree.lua:6>",
+        "definition": "<Lua 1107: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/neo-tree/plugin/neo-tree.lua:6>",
         "description": "Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/neo-tree/plugin/neo-tree.lua line 6"
     },
     "NvimTreeClipboard": {
@@ -1724,7 +1724,7 @@
         "args": "?",
         "address": null,
         "complete": "dir",
-        "definition": "<Lua 1145: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-tree/lua/nvim-tree/commands.lua:12>",
+        "definition": "<Lua 1146: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-tree/lua/nvim-tree/commands.lua:12>",
         "description": "Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-tree/lua/nvim-tree/commands.lua line 159"
     },
     "NvimTreeRefresh": {
@@ -1832,7 +1832,7 @@
         "args": "*",
         "address": "%",
         "complete": "<Lua function>",
-        "definition": "<Lua 1206: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/refactoring/lua/refactoring/command.lua:10>",
+        "definition": "<Lua 1208: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/refactoring/lua/refactoring/command.lua:10>",
         "description": "Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/refactoring/lua/refactoring/command.lua line 112"
     },
     "S": {
@@ -1931,7 +1931,7 @@
         "args": "*",
         "address": null,
         "complete": null,
-        "definition": "<Lua 621: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/smart-splits/lua/smart-splits/commands.lua:4>",
+        "definition": "<Lua 625: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/smart-splits/lua/smart-splits/commands.lua:4>",
         "description": "Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/smart-splits/plugin/smart-splits.lua line 4"
     },
     "SmartResizeRight": {
@@ -2165,7 +2165,7 @@
         "args": "*",
         "address": null,
         "complete": "<Lua function>",
-        "definition": "<Lua 1135: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/telescope/plugin/telescope.lua:107>",
+        "definition": "<Lua 1137: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/telescope/plugin/telescope.lua:107>",
         "description": "Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/telescope/plugin/telescope.lua line 107"
     },
     "ToggleWrapMode": {
@@ -2318,7 +2318,7 @@
         "args": "*",
         "address": null,
         "complete": null,
-        "definition": "<Lua 1189: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/which-key/lua/which-key/config.lua:306>",
+        "definition": "<Lua 1190: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/which-key/lua/which-key/config.lua:306>",
         "description": "Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/which-key/lua/which-key/config.lua line 306"
     },
     "WrappingOpenLog": {
@@ -2354,7 +2354,7 @@
         "args": "*",
         "address": null,
         "complete": "<Lua function>",
-        "definition": "<Lua 1146: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/yazi/lua/yazi/commands.lua:24>",
+        "definition": "<Lua 1147: /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/yazi/lua/yazi/commands.lua:24>",
         "description": "Last set from /nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/yazi/lua/yazi/commands.lua line 55"
     },
     "ZenMode": {

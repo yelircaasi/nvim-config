@@ -1,4 +1,6 @@
 import json
+from pathlib import Path
+import re
 
 
 from ..config import Config
@@ -78,7 +80,12 @@ def get_info_mappings(cfg: Config) -> None:
     mappings_json = change_extension(mappings_txt, "json")
     mappings_raw = mappings_txt.read_text()
     mappings = parse_mappings(mappings_raw)
-    mappings_json.write_text(json.dumps(mappings, indent=4))
+    raw = json.dumps(mappings, indent=4)
+    raw = re.sub(r"/nix/store/[^- ]+", "…", raw)
+    home = re.escape(str(Path.home()))
+    raw = re.sub(home, "~", raw)
+    raw = re.sub("…-pde/pack/bundle/opt", "…opt", raw)
+    mappings_json.write_text(raw)
 
 
 def get_info_all(cfg: Config) -> None:
