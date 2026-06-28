@@ -1,0 +1,73 @@
+Extra options: []
+Measured: 10 times
+
+Total Average: 17.009500 msec
+Total Max:     20.037000 msec
+Total Min:     14.912000 msec
+
+ AVERAGE      MAX      MIN
+---------------------------
+2.517900 2.992000 2.081000: sourcing vimrc file(s)
+2.401400 2.921000 2.056000: loading rtp plugins
+2.036400 3.585000 1.597000: reading ShaDa
+1.788600 2.656000 1.352000: /nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/plugin/netrwPlugin.vim
+1.744600 2.151000 1.427000: /nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/plugin/matchit.vim
+1.016800 1.169000 0.835000: require('vim._core.defaults')
+1.012800 1.419000 0.840000: loading packages
+0.413200 0.550000 0.318000: /nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/plugin/autoread.lua
+0.391100 0.513000 0.322000: init lua interpreter
+0.389000 0.551000 0.290000: inits 1
+0.379900 0.568000 0.300000: /home/isaac/.nix-profile/share/nvim/site/plugin/fzf.vim
+0.344500 0.438000 0.278000: require('nvim.autoread')
+0.302600 0.470000 0.236000: opening buffers
+0.282600 0.346000 0.227000: require('vim._init_packages')
+0.238900 0.431000 0.183000: /nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/plugin/matchparen.lua
+0.227800 0.287000 0.179000: init highlight
+0.197100 0.347000 0.154000: require('nvim.matchparen')
+0.185200 0.247000 0.146000: /nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/syntax/syntax.vim
+0.181300 0.223000 0.142000: /nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/plugin/rplugin.vim
+0.176300 0.209000 0.147000: require('vim._watch')
+0.160100 0.248000 0.115000: event init
+0.158300 0.190000 0.128000: require('vim._core.editor')
+0.149800 0.277000 0.105000: /nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/pack/dist/opt/netrw/plugin/netrwPlugin.vim
+0.137800 0.183000 0.113000: /nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/plugin/gzip.vim
+0.132700 0.186000 0.104000: /nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/filetype.lua
+0.121100 0.166000 0.094000: /nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim
+0.103700 0.135000 0.078000: nvim_exec2()
+0.102800 0.162000 0.078000: /nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/plugin/net.lua
+0.093800 0.141000 0.068000: /nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/plugin/shada.lua
+0.091300 0.106000 0.081000: /nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/plugin/zipPlugin.vim
+0.088200 0.120000 0.067000: early init
+0.080100 0.105000 0.058000: --cmd commands
+0.076800 0.168000 0.051000: /nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/plugin/osc52.lua
+0.066100 0.092000 0.053000: require('vim._core.util')
+0.064500 0.075000 0.052000: /nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/plugin/tarPlugin.vim
+0.064300 0.087000 0.047000: locale set
+0.054700 0.067000 0.045000: require('vim._core.options')
+0.054100 0.076000 0.044000: /nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/syntax/synload.vim
+0.052200 0.068000 0.041000: init first window
+0.048600 0.060000 0.038000: /nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/plugin/man.lua
+0.047200 0.066000 0.038000: require('vim._core.shared')
+0.045400 0.065000 0.035000: nvim_exec2() called at /nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/filetype.lua:0
+0.045100 0.053000 0.033000: expanding arguments
+0.043800 0.052000 0.036000: require('vim._core.system')
+0.042500 0.050000 0.036000: /nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/plugin/editorconfig.lua
+0.041900 0.050000 0.035000: require('vim.inspect')
+0.038500 0.059000 0.021000: BufEnter autocommands
+0.035100 0.052000 0.027000: /nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/ftplugin.vim
+0.027100 0.042000 0.020000: /nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/plugin/spellfile.lua
+0.022000 0.030000 0.016000: clear screen
+0.019600 0.035000 0.013000: inits 2
+0.016900 0.030000 0.013000: /nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/indent.vim
+0.012700 0.021000 0.009000: window checked
+0.011200 0.013000 0.009000: /nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/plugin/tutor.vim
+0.010900 0.021000 0.007000: inits 3
+0.010900 0.017000 0.009000: --- NVIM STARTED ---
+0.008900 0.017000 0.006000: require('vim.keymap')
+0.004600 0.005000 0.004000: require('string.buffer')
+0.003800 0.006000 0.002000: require('vim._core.log')
+0.003300 0.005000 0.002000: init default mappings & autocommands
+0.003200 0.004000 0.003000: parsing arguments
+0.002600 0.007000 0.002000: --- NVIM STARTING ---
+0.002300 0.004000 0.001000: loading after plugins
+0.002300 0.004000 0.002000: editing files in windows

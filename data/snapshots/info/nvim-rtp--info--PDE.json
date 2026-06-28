@@ -1,0 +1,1910 @@
+{
+    "default": [
+        "/home/isaac/.config/nvim",
+        "/etc/xdg/nvim",
+        "/home/isaac/.nix-profile/etc/xdg/nvim",
+        "/nix/profile/etc/xdg/nvim",
+        "/home/isaac/.local/state/nix/profile/etc/xdg/nvim",
+        "/etc/profiles/per-user/isaac/etc/xdg/nvim",
+        "/nix/var/nix/profiles/default/etc/xdg/nvim",
+        "/run/current-system/sw/etc/xdg/nvim",
+        "/home/isaac/.local/share/nvim/site",
+        "/nix/store/76mqsnjqr3n9zmvag7zv0nm33iaz3ka6-nvimtool-dev-env/share/nvim/site",
+        "/nix/store/n53l4av70vny3279bpiw4k2n98pvdvhc-lua-5.1.5/share/nvim/site",
+        "/nix/store/5j1ri0hqglad0r3dadd5n4f9173c5mxn-lua5.1-tl-0.24.8-1/share/nvim/site",
+        "/nix/store/wmr7xvg0fi4kbmp3q9yviixsdihlkb3y-lua5.1-argparse-0.7.1-1/share/nvim/site",
+        "/nix/store/s7iyzna3c3fdbb49q9ig8skhca07fxib-lua5.1-compat53-0.14.4-1/share/nvim/site",
+        "/nix/store/j1f50hmwhb49y22fbfrjxl69iv1ch1dd-lua5.1-cyan-0.4.1-1/share/nvim/site",
+        "/nix/store/nynn8drm3adzif03cbc8hg4m9layqsm1-lua5.1-luasystem-0.7.0-1/share/nvim/site",
+        "/nix/store/c3lchpxlwk89fd6qshz74hgzd8g5cc4h-graphviz-12.2.1/share/nvim/site",
+        "/nix/store/7yj5hbz5fbnk5x8gfyxfi46bs2867k4b-mdsf-0.11.1/share/nvim/site",
+        "/nix/store/ppfn03rv71z09cxqcpij106kj8ah72r1-treefmt-2.4.1/share/nvim/site",
+        "/nix/store/l5vs6dp8icnf785lwa141sz6k27qc0ra-shfmt-3.13.0/share/nvim/site",
+        "/nix/store/my7pfhqj179i1chrh1wbij8lvxrsjgg6-jujutsu-0.39.0/share/nvim/site",
+        "/nix/store/3bmahvqq27hi64jnj3yzxi468zjvr9s5-perf-tools-unstable-2017-12-19/share/nvim/site",
+        "/nix/store/922crn2k3v8yaqk7anps80hba919lnds-ripgrep-15.1.0/share/nvim/site",
+        "/nix/store/836lndidk1144z81npf27c7dcgmczid3-fd-10.4.2/share/nvim/site",
+        "/nix/store/1n63v53bzw0j9qkivrqcmgx53kng3l7z-bat-0.26.1/share/nvim/site",
+        "/nix/store/bh0mb740hx20n4x0zp234wk0r33a8pi7-uv-0.11.2/share/nvim/site",
+        "/nix/store/yasj96m1zc22cd9mi6i2wgbznksk0ycj-just-1.48.1/share/nvim/site",
+        "/nix/store/f893jf3x0qyxn7mcagb3hipvhxawbds7-lefthook-2.1.1/share/nvim/site",
+        "/nix/store/z5pbd6hs610nm795rxy0dak46gglhikx-python3.13-commitizen-4.13.9/share/nvim/site",
+        "/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/share/nvim/site",
+        "/nix/store/rbjffacpx1pvc79rsvl7l05c3230q06z-ruff-0.15.7/share/nvim/site",
+        "/nix/store/qr0wqh2damb6asnyz4jkx61id5yg3qh2-python3-3.14.3/share/nvim/site",
+        "/nix/store/scabdfpsplnbmiw6vmba9ib2ipbsdvfd-python3.13-bandit-1.9.4/share/nvim/site",
+        "/nix/store/qa76af0p0njks1sawp3gdk9pambkgays-git-minimal-2.53.0/share/nvim/site",
+        "/nix/store/nwnwcq0s7cdi90wp4x5nzin9zb1zrm3g-ty-0.0.26/share/nvim/site",
+        "/nix/store/sj3f6y3j8m1831l0gqm1bsk1f46jzkfd-patchelf-0.15.2/share/nvim/site",
+        "/home/isaac/.nix-profile/share/nvim/site",
+        "/nix/profile/share/nvim/site",
+        "/home/isaac/.local/state/nix/profile/share/nvim/site",
+        "/etc/profiles/per-user/isaac/share/nvim/site",
+        "/nix/var/nix/profiles/default/share/nvim/site",
+        "/run/current-system/sw/share/nvim/site",
+        "/nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime",
+        "/nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/lib/nvim",
+        "/run/current-system/sw/share/nvim/site/after",
+        "/nix/var/nix/profiles/default/share/nvim/site/after",
+        "/etc/profiles/per-user/isaac/share/nvim/site/after",
+        "/home/isaac/.local/state/nix/profile/share/nvim/site/after",
+        "/nix/profile/share/nvim/site/after",
+        "/home/isaac/.nix-profile/share/nvim/site/after",
+        "/nix/store/sj3f6y3j8m1831l0gqm1bsk1f46jzkfd-patchelf-0.15.2/share/nvim/site/after",
+        "/nix/store/nwnwcq0s7cdi90wp4x5nzin9zb1zrm3g-ty-0.0.26/share/nvim/site/after",
+        "/nix/store/qa76af0p0njks1sawp3gdk9pambkgays-git-minimal-2.53.0/share/nvim/site/after",
+        "/nix/store/scabdfpsplnbmiw6vmba9ib2ipbsdvfd-python3.13-bandit-1.9.4/share/nvim/site/after",
+        "/nix/store/qr0wqh2damb6asnyz4jkx61id5yg3qh2-python3-3.14.3/share/nvim/site/after",
+        "/nix/store/rbjffacpx1pvc79rsvl7l05c3230q06z-ruff-0.15.7/share/nvim/site/after",
+        "/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/share/nvim/site/after",
+        "/nix/store/z5pbd6hs610nm795rxy0dak46gglhikx-python3.13-commitizen-4.13.9/share/nvim/site/after",
+        "/nix/store/f893jf3x0qyxn7mcagb3hipvhxawbds7-lefthook-2.1.1/share/nvim/site/after",
+        "/nix/store/yasj96m1zc22cd9mi6i2wgbznksk0ycj-just-1.48.1/share/nvim/site/after",
+        "/nix/store/bh0mb740hx20n4x0zp234wk0r33a8pi7-uv-0.11.2/share/nvim/site/after",
+        "/nix/store/1n63v53bzw0j9qkivrqcmgx53kng3l7z-bat-0.26.1/share/nvim/site/after",
+        "/nix/store/836lndidk1144z81npf27c7dcgmczid3-fd-10.4.2/share/nvim/site/after",
+        "/nix/store/922crn2k3v8yaqk7anps80hba919lnds-ripgrep-15.1.0/share/nvim/site/after",
+        "/nix/store/3bmahvqq27hi64jnj3yzxi468zjvr9s5-perf-tools-unstable-2017-12-19/share/nvim/site/after",
+        "/nix/store/my7pfhqj179i1chrh1wbij8lvxrsjgg6-jujutsu-0.39.0/share/nvim/site/after",
+        "/nix/store/l5vs6dp8icnf785lwa141sz6k27qc0ra-shfmt-3.13.0/share/nvim/site/after",
+        "/nix/store/ppfn03rv71z09cxqcpij106kj8ah72r1-treefmt-2.4.1/share/nvim/site/after",
+        "/nix/store/7yj5hbz5fbnk5x8gfyxfi46bs2867k4b-mdsf-0.11.1/share/nvim/site/after",
+        "/nix/store/c3lchpxlwk89fd6qshz74hgzd8g5cc4h-graphviz-12.2.1/share/nvim/site/after",
+        "/nix/store/nynn8drm3adzif03cbc8hg4m9layqsm1-lua5.1-luasystem-0.7.0-1/share/nvim/site/after",
+        "/nix/store/j1f50hmwhb49y22fbfrjxl69iv1ch1dd-lua5.1-cyan-0.4.1-1/share/nvim/site/after",
+        "/nix/store/s7iyzna3c3fdbb49q9ig8skhca07fxib-lua5.1-compat53-0.14.4-1/share/nvim/site/after",
+        "/nix/store/wmr7xvg0fi4kbmp3q9yviixsdihlkb3y-lua5.1-argparse-0.7.1-1/share/nvim/site/after",
+        "/nix/store/5j1ri0hqglad0r3dadd5n4f9173c5mxn-lua5.1-tl-0.24.8-1/share/nvim/site/after",
+        "/nix/store/n53l4av70vny3279bpiw4k2n98pvdvhc-lua-5.1.5/share/nvim/site/after",
+        "/nix/store/76mqsnjqr3n9zmvag7zv0nm33iaz3ka6-nvimtool-dev-env/share/nvim/site/after",
+        "/home/isaac/.local/share/nvim/site/after",
+        "/run/current-system/sw/etc/xdg/nvim/after",
+        "/nix/var/nix/profiles/default/etc/xdg/nvim/after",
+        "/etc/profiles/per-user/isaac/etc/xdg/nvim/after",
+        "/home/isaac/.local/state/nix/profile/etc/xdg/nvim/after",
+        "/nix/profile/etc/xdg/nvim/after",
+        "/home/isaac/.nix-profile/etc/xdg/nvim/after",
+        "/etc/xdg/nvim/after",
+        "/home/isaac/.config/nvim/after"
+    ],
+    "value": [
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/parser",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/unimpaired-which-key",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hydra",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/mini.keymap",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/which-key",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/homerows",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/keyseer",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-dap-virtual-text",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dapui",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dap",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/telescope",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/advanced_git_search",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/telescope-project",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/telescope-fzf-native",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/ido",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-tree",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/neo-tree",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/oil",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/plenary",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/yazi",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/wastebin",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/pasta",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/lazyclip",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/yanky",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/fidget",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/modes",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/modicator",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/zen-mode",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/bufferline",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/lualine",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dropbar",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/symbols",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-web-devicons",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-treesitter-textobjects",
+        "~/repos/nvim-colors/odenwald.nvim",
+        "/home/isaac/.config/nvim",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/urlview",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/arrow",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/markit",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/snacks",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/pickme",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/marks",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/whaler",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-edgemotion",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/treemonkey",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/flash",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/leap",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/neowords",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/clever-f.vim",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-wordmotion",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/beam",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/stickybuf",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/retrospect",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/flybuf",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/bafa",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/swm",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/smart-splits",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/spear",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-various-textobjs",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-mundo",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/mini.align",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/anydent",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/indentmini",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/tabular",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/indent-blankline",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-surround",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-autopairs",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/rainbow-delimiters",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/blink.pairs",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-sandwich",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/wildfire",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/moveline",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/switch.vim",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/date-time-inserter",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-abolish",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/wrapping-paper",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/wrapping",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-caser",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/ax",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/sort",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/treesj",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/illuminate",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-visual-multi",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/zpragmatic",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-auto-save",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/savior",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/Comment",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-commentary",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/lsp_signature",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/inlayhint-filler",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dmap",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/glance",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/corn",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/lint",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vale",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/error-jump",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/refactoring",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/async",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/bqf",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/quicker",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/lspsaga",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/lspkind",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/lsp-format",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/conform",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/diagflow",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/headlines",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde",
+        "/etc/xdg/nvim",
+        "/home/isaac/.nix-profile/etc/xdg/nvim",
+        "/nix/profile/etc/xdg/nvim",
+        "/home/isaac/.local/state/nix/profile/etc/xdg/nvim",
+        "/etc/profiles/per-user/isaac/etc/xdg/nvim",
+        "/nix/var/nix/profiles/default/etc/xdg/nvim",
+        "/run/current-system/sw/etc/xdg/nvim",
+        "/home/isaac/.local/share/nvim/site",
+        "/nix/store/76mqsnjqr3n9zmvag7zv0nm33iaz3ka6-nvimtool-dev-env/share/nvim/site",
+        "/nix/store/n53l4av70vny3279bpiw4k2n98pvdvhc-lua-5.1.5/share/nvim/site",
+        "/nix/store/5j1ri0hqglad0r3dadd5n4f9173c5mxn-lua5.1-tl-0.24.8-1/share/nvim/site",
+        "/nix/store/wmr7xvg0fi4kbmp3q9yviixsdihlkb3y-lua5.1-argparse-0.7.1-1/share/nvim/site",
+        "/nix/store/s7iyzna3c3fdbb49q9ig8skhca07fxib-lua5.1-compat53-0.14.4-1/share/nvim/site",
+        "/nix/store/j1f50hmwhb49y22fbfrjxl69iv1ch1dd-lua5.1-cyan-0.4.1-1/share/nvim/site",
+        "/nix/store/nynn8drm3adzif03cbc8hg4m9layqsm1-lua5.1-luasystem-0.7.0-1/share/nvim/site",
+        "/nix/store/c3lchpxlwk89fd6qshz74hgzd8g5cc4h-graphviz-12.2.1/share/nvim/site",
+        "/nix/store/7yj5hbz5fbnk5x8gfyxfi46bs2867k4b-mdsf-0.11.1/share/nvim/site",
+        "/nix/store/ppfn03rv71z09cxqcpij106kj8ah72r1-treefmt-2.4.1/share/nvim/site",
+        "/nix/store/l5vs6dp8icnf785lwa141sz6k27qc0ra-shfmt-3.13.0/share/nvim/site",
+        "/nix/store/my7pfhqj179i1chrh1wbij8lvxrsjgg6-jujutsu-0.39.0/share/nvim/site",
+        "/nix/store/3bmahvqq27hi64jnj3yzxi468zjvr9s5-perf-tools-unstable-2017-12-19/share/nvim/site",
+        "/nix/store/922crn2k3v8yaqk7anps80hba919lnds-ripgrep-15.1.0/share/nvim/site",
+        "/nix/store/836lndidk1144z81npf27c7dcgmczid3-fd-10.4.2/share/nvim/site",
+        "/nix/store/1n63v53bzw0j9qkivrqcmgx53kng3l7z-bat-0.26.1/share/nvim/site",
+        "/nix/store/bh0mb740hx20n4x0zp234wk0r33a8pi7-uv-0.11.2/share/nvim/site",
+        "/nix/store/yasj96m1zc22cd9mi6i2wgbznksk0ycj-just-1.48.1/share/nvim/site",
+        "/nix/store/f893jf3x0qyxn7mcagb3hipvhxawbds7-lefthook-2.1.1/share/nvim/site",
+        "/nix/store/z5pbd6hs610nm795rxy0dak46gglhikx-python3.13-commitizen-4.13.9/share/nvim/site",
+        "/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/share/nvim/site",
+        "/nix/store/rbjffacpx1pvc79rsvl7l05c3230q06z-ruff-0.15.7/share/nvim/site",
+        "/nix/store/qr0wqh2damb6asnyz4jkx61id5yg3qh2-python3-3.14.3/share/nvim/site",
+        "/nix/store/scabdfpsplnbmiw6vmba9ib2ipbsdvfd-python3.13-bandit-1.9.4/share/nvim/site",
+        "/nix/store/qa76af0p0njks1sawp3gdk9pambkgays-git-minimal-2.53.0/share/nvim/site",
+        "/nix/store/nwnwcq0s7cdi90wp4x5nzin9zb1zrm3g-ty-0.0.26/share/nvim/site",
+        "/nix/store/sj3f6y3j8m1831l0gqm1bsk1f46jzkfd-patchelf-0.15.2/share/nvim/site",
+        "/home/isaac/.nix-profile/share/nvim/site",
+        "/nix/profile/share/nvim/site",
+        "/home/isaac/.local/state/nix/profile/share/nvim/site",
+        "/etc/profiles/per-user/isaac/share/nvim/site",
+        "/nix/var/nix/profiles/default/share/nvim/site",
+        "/run/current-system/sw/share/nvim/site",
+        "/nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime",
+        "/nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/lib/nvim",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/tabular/after",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/indent-blankline/after",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-sandwich/after",
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/bqf/after",
+        "/run/current-system/sw/share/nvim/site/after",
+        "/nix/var/nix/profiles/default/share/nvim/site/after",
+        "/etc/profiles/per-user/isaac/share/nvim/site/after",
+        "/home/isaac/.local/state/nix/profile/share/nvim/site/after",
+        "/nix/profile/share/nvim/site/after",
+        "/home/isaac/.nix-profile/share/nvim/site/after",
+        "/nix/store/sj3f6y3j8m1831l0gqm1bsk1f46jzkfd-patchelf-0.15.2/share/nvim/site/after",
+        "/nix/store/nwnwcq0s7cdi90wp4x5nzin9zb1zrm3g-ty-0.0.26/share/nvim/site/after",
+        "/nix/store/qa76af0p0njks1sawp3gdk9pambkgays-git-minimal-2.53.0/share/nvim/site/after",
+        "/nix/store/scabdfpsplnbmiw6vmba9ib2ipbsdvfd-python3.13-bandit-1.9.4/share/nvim/site/after",
+        "/nix/store/qr0wqh2damb6asnyz4jkx61id5yg3qh2-python3-3.14.3/share/nvim/site/after",
+        "/nix/store/rbjffacpx1pvc79rsvl7l05c3230q06z-ruff-0.15.7/share/nvim/site/after",
+        "/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/share/nvim/site/after",
+        "/nix/store/z5pbd6hs610nm795rxy0dak46gglhikx-python3.13-commitizen-4.13.9/share/nvim/site/after",
+        "/nix/store/f893jf3x0qyxn7mcagb3hipvhxawbds7-lefthook-2.1.1/share/nvim/site/after",
+        "/nix/store/yasj96m1zc22cd9mi6i2wgbznksk0ycj-just-1.48.1/share/nvim/site/after",
+        "/nix/store/bh0mb740hx20n4x0zp234wk0r33a8pi7-uv-0.11.2/share/nvim/site/after",
+        "/nix/store/1n63v53bzw0j9qkivrqcmgx53kng3l7z-bat-0.26.1/share/nvim/site/after",
+        "/nix/store/836lndidk1144z81npf27c7dcgmczid3-fd-10.4.2/share/nvim/site/after",
+        "/nix/store/922crn2k3v8yaqk7anps80hba919lnds-ripgrep-15.1.0/share/nvim/site/after",
+        "/nix/store/3bmahvqq27hi64jnj3yzxi468zjvr9s5-perf-tools-unstable-2017-12-19/share/nvim/site/after",
+        "/nix/store/my7pfhqj179i1chrh1wbij8lvxrsjgg6-jujutsu-0.39.0/share/nvim/site/after",
+        "/nix/store/l5vs6dp8icnf785lwa141sz6k27qc0ra-shfmt-3.13.0/share/nvim/site/after",
+        "/nix/store/ppfn03rv71z09cxqcpij106kj8ah72r1-treefmt-2.4.1/share/nvim/site/after",
+        "/nix/store/7yj5hbz5fbnk5x8gfyxfi46bs2867k4b-mdsf-0.11.1/share/nvim/site/after",
+        "/nix/store/c3lchpxlwk89fd6qshz74hgzd8g5cc4h-graphviz-12.2.1/share/nvim/site/after",
+        "/nix/store/nynn8drm3adzif03cbc8hg4m9layqsm1-lua5.1-luasystem-0.7.0-1/share/nvim/site/after",
+        "/nix/store/j1f50hmwhb49y22fbfrjxl69iv1ch1dd-lua5.1-cyan-0.4.1-1/share/nvim/site/after",
+        "/nix/store/s7iyzna3c3fdbb49q9ig8skhca07fxib-lua5.1-compat53-0.14.4-1/share/nvim/site/after",
+        "/nix/store/wmr7xvg0fi4kbmp3q9yviixsdihlkb3y-lua5.1-argparse-0.7.1-1/share/nvim/site/after",
+        "/nix/store/5j1ri0hqglad0r3dadd5n4f9173c5mxn-lua5.1-tl-0.24.8-1/share/nvim/site/after",
+        "/nix/store/n53l4av70vny3279bpiw4k2n98pvdvhc-lua-5.1.5/share/nvim/site/after",
+        "/nix/store/76mqsnjqr3n9zmvag7zv0nm33iaz3ka6-nvimtool-dev-env/share/nvim/site/after",
+        "/home/isaac/.local/share/nvim/site/after",
+        "/run/current-system/sw/etc/xdg/nvim/after",
+        "/nix/var/nix/profiles/default/etc/xdg/nvim/after",
+        "/etc/profiles/per-user/isaac/etc/xdg/nvim/after",
+        "/home/isaac/.local/state/nix/profile/etc/xdg/nvim/after",
+        "/nix/profile/etc/xdg/nvim/after",
+        "/home/isaac/.nix-profile/etc/xdg/nvim/after",
+        "/etc/xdg/nvim/after",
+        "/home/isaac/.config/nvim/after"
+    ],
+    "contents": {
+        "/home/isaac/.config/nvim": [
+            "/home/isaac/.config/nvim/.git",
+            "/home/isaac/.config/nvim/before_init.lua",
+            "/home/isaac/.config/nvim/scratch",
+            "/home/isaac/.config/nvim/lua",
+            "/home/isaac/.config/nvim/after_init.lua"
+        ],
+        "/etc/xdg/nvim": [
+            "NONEXISTENT"
+        ],
+        "/home/isaac/.nix-profile/etc/xdg/nvim": [
+            "NONEXISTENT"
+        ],
+        "/nix/profile/etc/xdg/nvim": [
+            "NONEXISTENT"
+        ],
+        "/home/isaac/.local/state/nix/profile/etc/xdg/nvim": [
+            "NONEXISTENT"
+        ],
+        "/etc/profiles/per-user/isaac/etc/xdg/nvim": [
+            "NONEXISTENT"
+        ],
+        "/nix/var/nix/profiles/default/etc/xdg/nvim": [
+            "NONEXISTENT"
+        ],
+        "/run/current-system/sw/etc/xdg/nvim": [
+            "NONEXISTENT"
+        ],
+        "/home/isaac/.local/share/nvim/site": [
+            "/home/isaac/.local/share/nvim/site/pack",
+            "/home/isaac/.local/share/nvim/site/parser",
+            "/home/isaac/.local/share/nvim/site/parser-info"
+        ],
+        "/nix/store/76mqsnjqr3n9zmvag7zv0nm33iaz3ka6-nvimtool-dev-env/share/nvim/site": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/n53l4av70vny3279bpiw4k2n98pvdvhc-lua-5.1.5/share/nvim/site": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/5j1ri0hqglad0r3dadd5n4f9173c5mxn-lua5.1-tl-0.24.8-1/share/nvim/site": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/wmr7xvg0fi4kbmp3q9yviixsdihlkb3y-lua5.1-argparse-0.7.1-1/share/nvim/site": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/s7iyzna3c3fdbb49q9ig8skhca07fxib-lua5.1-compat53-0.14.4-1/share/nvim/site": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/j1f50hmwhb49y22fbfrjxl69iv1ch1dd-lua5.1-cyan-0.4.1-1/share/nvim/site": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/nynn8drm3adzif03cbc8hg4m9layqsm1-lua5.1-luasystem-0.7.0-1/share/nvim/site": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/c3lchpxlwk89fd6qshz74hgzd8g5cc4h-graphviz-12.2.1/share/nvim/site": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/7yj5hbz5fbnk5x8gfyxfi46bs2867k4b-mdsf-0.11.1/share/nvim/site": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/ppfn03rv71z09cxqcpij106kj8ah72r1-treefmt-2.4.1/share/nvim/site": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/l5vs6dp8icnf785lwa141sz6k27qc0ra-shfmt-3.13.0/share/nvim/site": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/my7pfhqj179i1chrh1wbij8lvxrsjgg6-jujutsu-0.39.0/share/nvim/site": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/3bmahvqq27hi64jnj3yzxi468zjvr9s5-perf-tools-unstable-2017-12-19/share/nvim/site": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/922crn2k3v8yaqk7anps80hba919lnds-ripgrep-15.1.0/share/nvim/site": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/836lndidk1144z81npf27c7dcgmczid3-fd-10.4.2/share/nvim/site": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/1n63v53bzw0j9qkivrqcmgx53kng3l7z-bat-0.26.1/share/nvim/site": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/bh0mb740hx20n4x0zp234wk0r33a8pi7-uv-0.11.2/share/nvim/site": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/yasj96m1zc22cd9mi6i2wgbznksk0ycj-just-1.48.1/share/nvim/site": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/f893jf3x0qyxn7mcagb3hipvhxawbds7-lefthook-2.1.1/share/nvim/site": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/z5pbd6hs610nm795rxy0dak46gglhikx-python3.13-commitizen-4.13.9/share/nvim/site": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/share/nvim/site": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/rbjffacpx1pvc79rsvl7l05c3230q06z-ruff-0.15.7/share/nvim/site": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/qr0wqh2damb6asnyz4jkx61id5yg3qh2-python3-3.14.3/share/nvim/site": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/scabdfpsplnbmiw6vmba9ib2ipbsdvfd-python3.13-bandit-1.9.4/share/nvim/site": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/qa76af0p0njks1sawp3gdk9pambkgays-git-minimal-2.53.0/share/nvim/site": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/nwnwcq0s7cdi90wp4x5nzin9zb1zrm3g-ty-0.0.26/share/nvim/site": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/sj3f6y3j8m1831l0gqm1bsk1f46jzkfd-patchelf-0.15.2/share/nvim/site": [
+            "NONEXISTENT"
+        ],
+        "/home/isaac/.nix-profile/share/nvim/site": [
+            "/home/isaac/.nix-profile/share/nvim/site/plugin"
+        ],
+        "/nix/profile/share/nvim/site": [
+            "NONEXISTENT"
+        ],
+        "/home/isaac/.local/state/nix/profile/share/nvim/site": [
+            "NONEXISTENT"
+        ],
+        "/etc/profiles/per-user/isaac/share/nvim/site": [
+            "NONEXISTENT"
+        ],
+        "/nix/var/nix/profiles/default/share/nvim/site": [
+            "NONEXISTENT"
+        ],
+        "/run/current-system/sw/share/nvim/site": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime": [
+            "/nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/filetype.lua",
+            "/nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/compiler",
+            "/nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/scripts",
+            "/nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/queries",
+            "/nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/neovim.ico",
+            "/nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/doc",
+            "/nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/example_init.lua",
+            "/nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/delmenu.vim",
+            "/nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/spell",
+            "/nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/menu.vim",
+            "/nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/makemenu.vim",
+            "/nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/indoff.vim",
+            "/nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/syntax",
+            "/nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/synmenu.vim",
+            "/nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/colors",
+            "/nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/ftoff.vim",
+            "/nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/autoload",
+            "/nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/ftplugof.vim",
+            "/nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/pack",
+            "/nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/indent",
+            "/nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/ftplugin.vim",
+            "/nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/keymap",
+            "/nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/lua",
+            "/nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/plugin",
+            "/nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/indent.vim",
+            "/nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/tutor",
+            "/nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/ftplugin"
+        ],
+        "/nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/lib/nvim": [
+            "/nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/lib/nvim/parser"
+        ],
+        "/run/current-system/sw/share/nvim/site/after": [
+            "NONEXISTENT"
+        ],
+        "/nix/var/nix/profiles/default/share/nvim/site/after": [
+            "NONEXISTENT"
+        ],
+        "/etc/profiles/per-user/isaac/share/nvim/site/after": [
+            "NONEXISTENT"
+        ],
+        "/home/isaac/.local/state/nix/profile/share/nvim/site/after": [
+            "NONEXISTENT"
+        ],
+        "/nix/profile/share/nvim/site/after": [
+            "NONEXISTENT"
+        ],
+        "/home/isaac/.nix-profile/share/nvim/site/after": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/sj3f6y3j8m1831l0gqm1bsk1f46jzkfd-patchelf-0.15.2/share/nvim/site/after": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/nwnwcq0s7cdi90wp4x5nzin9zb1zrm3g-ty-0.0.26/share/nvim/site/after": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/qa76af0p0njks1sawp3gdk9pambkgays-git-minimal-2.53.0/share/nvim/site/after": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/scabdfpsplnbmiw6vmba9ib2ipbsdvfd-python3.13-bandit-1.9.4/share/nvim/site/after": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/qr0wqh2damb6asnyz4jkx61id5yg3qh2-python3-3.14.3/share/nvim/site/after": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/rbjffacpx1pvc79rsvl7l05c3230q06z-ruff-0.15.7/share/nvim/site/after": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/share/nvim/site/after": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/z5pbd6hs610nm795rxy0dak46gglhikx-python3.13-commitizen-4.13.9/share/nvim/site/after": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/f893jf3x0qyxn7mcagb3hipvhxawbds7-lefthook-2.1.1/share/nvim/site/after": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/yasj96m1zc22cd9mi6i2wgbznksk0ycj-just-1.48.1/share/nvim/site/after": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/bh0mb740hx20n4x0zp234wk0r33a8pi7-uv-0.11.2/share/nvim/site/after": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/1n63v53bzw0j9qkivrqcmgx53kng3l7z-bat-0.26.1/share/nvim/site/after": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/836lndidk1144z81npf27c7dcgmczid3-fd-10.4.2/share/nvim/site/after": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/922crn2k3v8yaqk7anps80hba919lnds-ripgrep-15.1.0/share/nvim/site/after": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/3bmahvqq27hi64jnj3yzxi468zjvr9s5-perf-tools-unstable-2017-12-19/share/nvim/site/after": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/my7pfhqj179i1chrh1wbij8lvxrsjgg6-jujutsu-0.39.0/share/nvim/site/after": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/l5vs6dp8icnf785lwa141sz6k27qc0ra-shfmt-3.13.0/share/nvim/site/after": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/ppfn03rv71z09cxqcpij106kj8ah72r1-treefmt-2.4.1/share/nvim/site/after": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/7yj5hbz5fbnk5x8gfyxfi46bs2867k4b-mdsf-0.11.1/share/nvim/site/after": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/c3lchpxlwk89fd6qshz74hgzd8g5cc4h-graphviz-12.2.1/share/nvim/site/after": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/nynn8drm3adzif03cbc8hg4m9layqsm1-lua5.1-luasystem-0.7.0-1/share/nvim/site/after": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/j1f50hmwhb49y22fbfrjxl69iv1ch1dd-lua5.1-cyan-0.4.1-1/share/nvim/site/after": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/s7iyzna3c3fdbb49q9ig8skhca07fxib-lua5.1-compat53-0.14.4-1/share/nvim/site/after": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/wmr7xvg0fi4kbmp3q9yviixsdihlkb3y-lua5.1-argparse-0.7.1-1/share/nvim/site/after": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/5j1ri0hqglad0r3dadd5n4f9173c5mxn-lua5.1-tl-0.24.8-1/share/nvim/site/after": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/n53l4av70vny3279bpiw4k2n98pvdvhc-lua-5.1.5/share/nvim/site/after": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/76mqsnjqr3n9zmvag7zv0nm33iaz3ka6-nvimtool-dev-env/share/nvim/site/after": [
+            "NONEXISTENT"
+        ],
+        "/home/isaac/.local/share/nvim/site/after": [
+            "NONEXISTENT"
+        ],
+        "/run/current-system/sw/etc/xdg/nvim/after": [
+            "NONEXISTENT"
+        ],
+        "/nix/var/nix/profiles/default/etc/xdg/nvim/after": [
+            "NONEXISTENT"
+        ],
+        "/etc/profiles/per-user/isaac/etc/xdg/nvim/after": [
+            "NONEXISTENT"
+        ],
+        "/home/isaac/.local/state/nix/profile/etc/xdg/nvim/after": [
+            "NONEXISTENT"
+        ],
+        "/nix/profile/etc/xdg/nvim/after": [
+            "NONEXISTENT"
+        ],
+        "/home/isaac/.nix-profile/etc/xdg/nvim/after": [
+            "NONEXISTENT"
+        ],
+        "/etc/xdg/nvim/after": [
+            "NONEXISTENT"
+        ],
+        "/home/isaac/.config/nvim/after": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/parser": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/parser/toml.so",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/parser/typescript.so",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/parser/markdown.so",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/parser/python.so",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/parser/yaml.so",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/parser/lua.so",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/parser/just.so",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/parser/haskell.so",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/parser/json.so",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/parser/zig.so",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/parser/nix.so",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/parser/xit.so",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/parser/rust.so",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/parser/javascript.so",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/parser/go.so",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/parser/org.so"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/unimpaired-which-key": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/unimpaired-which-key/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/unimpaired-which-key/lua"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hydra": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hydra/LICENSE",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hydra/CHANGELOG.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hydra/doc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hydra/.editorconfig",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hydra/.github",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hydra/syntax",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hydra/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hydra/.gitignore",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hydra/lua",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hydra/plugin",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hydra/CONTRIBUTING.md"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/mini.keymap": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/mini.keymap/LICENSE",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/mini.keymap/doc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/mini.keymap/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/mini.keymap/lua"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/which-key": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/which-key/scripts",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/which-key/NEWS.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/which-key/LICENSE",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/which-key/CHANGELOG.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/which-key/.markdownlint-cli2.yaml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/which-key/doc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/which-key/.editorconfig",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/which-key/.github",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/which-key/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/which-key/tests",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/which-key/selene.toml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/which-key/.gitignore",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/which-key/TODO.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/which-key/.neoconf.json",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/which-key/lua",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/which-key/plugin",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/which-key/.lua-format",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/which-key/vim.yml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/which-key/stylua.toml"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/homerows": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/homerows/staggered_layout.svg",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/homerows/LICENSE",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/homerows/columnar_layout.svg",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/homerows/logo.svg",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/homerows/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/homerows/CODE_OF_CONDUCT.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/homerows/.gitignore",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/homerows/lua",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/homerows/CODEOWNERS",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/homerows/.DS_Store",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/homerows/column_layout.svg"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/keyseer": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/keyseer/scripts",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/keyseer/LICENSE",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/keyseer/CHANGELOG.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/keyseer/doc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/keyseer/DESIGN.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/keyseer/.github",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/keyseer/.luacheckrc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/keyseer/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/keyseer/tests",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/keyseer/.gitignore",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/keyseer/Makefile",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/keyseer/.neoconf.json",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/keyseer/lua",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/keyseer/plugin",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/keyseer/.pre-commit-config.yaml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/keyseer/stylua.toml"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-dap-virtual-text": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-dap-virtual-text/.stylua.toml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-dap-virtual-text/scripts",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-dap-virtual-text/LICENSE.txt",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-dap-virtual-text/.github",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-dap-virtual-text/.luacheckrc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-dap-virtual-text/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-dap-virtual-text/.gitignore",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-dap-virtual-text/lua",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-dap-virtual-text/test_cases"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dapui": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dapui/scripts",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dapui/doc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dapui/.editorconfig",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dapui/.github",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dapui/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dapui/tests",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dapui/.gitignore",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dapui/Dockerfile",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dapui/lua",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dapui/.releaserc.json",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dapui/LICENCE.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dapui/stylua.toml"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dap": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dap/nvim-dap-scm-1.rockspec",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dap/doc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dap/.editorconfig",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dap/LICENSE.txt",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dap/.busted",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dap/.luarc.json",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dap/.github",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dap/.luacheckrc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dap/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dap/.gitignore",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dap/.woodpecker.yaml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dap/lua",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dap/plugin",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dap/spec"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/telescope": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/telescope/scripts",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/telescope/doc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/telescope/rock_manifest",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/telescope/telescope.nvim-scm-1.rockspec",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/telescope/data",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/telescope/nix-support",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/telescope/lua",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/telescope/plugin",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/telescope/ftplugin",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/telescope/telescope.nvim-scm-1-unstable-scm-1-rocks"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/advanced_git_search": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/advanced_git_search/.stylua.toml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/advanced_git_search/LICENSE",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/advanced_git_search/.github",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/advanced_git_search/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/advanced_git_search/.gitignore",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/advanced_git_search/Makefile",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/advanced_git_search/lua"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/telescope-project": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/telescope-project/demo.gif",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/telescope-project/LICENSE",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/telescope-project/.luacheckrc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/telescope-project/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/telescope-project/Makefile",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/telescope-project/lua"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/telescope-fzf-native": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/telescope-fzf-native/.stylua.toml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/telescope-fzf-native/.clang-format",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/telescope-fzf-native/LICENSE",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/telescope-fzf-native/build",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/telescope-fzf-native/CMakeLists.txt",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/telescope-fzf-native/.github",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/telescope-fzf-native/.luacheckrc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/telescope-fzf-native/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/telescope-fzf-native/test",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/telescope-fzf-native/CMakePresets.json",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/telescope-fzf-native/.gitignore",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/telescope-fzf-native/Makefile",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/telescope-fzf-native/lua",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/telescope-fzf-native/src"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/ido": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/ido/LICENSE",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/ido/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/ido/.gitignore",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/ido/lua",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/ido/ido.png",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/ido/plugin"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-tree": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-tree/scripts",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-tree/release-please-config.json",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-tree/.hooks",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-tree/LICENSE",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-tree/CHANGELOG.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-tree/doc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-tree/.editorconfig",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-tree/.luarc.json",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-tree/.github",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-tree/.luacheckrc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-tree/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-tree/.release-please-manifest.json",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-tree/.gitignore",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-tree/Makefile",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-tree/lua",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-tree/plugin",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-tree/CONTRIBUTING.md"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/neo-tree": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/neo-tree/.stylua.toml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/neo-tree/mise.toml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/neo-tree/.lazy.lua",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/neo-tree/LICENSE",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/neo-tree/doc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/neo-tree/release.sh",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/neo-tree/.luarc.json",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/neo-tree/.github",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/neo-tree/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/neo-tree/tests",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/neo-tree/.codecov.yml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/neo-tree/.gitignore",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/neo-tree/Dockerfile",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/neo-tree/.styluaignore",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/neo-tree/lua",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/neo-tree/plugin",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/neo-tree/.luacov",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/neo-tree/CONTRIBUTING.md"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/oil": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/oil/doc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/oil/rock_manifest",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/oil/oil.nvim-2.16.0-1-unstable-2.16.0-1-rocks",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/oil/syntax",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/oil/nix-support",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/oil/lua",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/oil/oil.nvim-2.16.0-1.rockspec"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/plenary": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/plenary/rock_manifest",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/plenary/data",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/plenary/nix-support",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/plenary/lua",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/plenary/plenary.nvim-scm-1-unstable-scm-1-rocks",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/plenary/plugin",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/plenary/plenary.nvim-scm-1.rockspec"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/yazi": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/yazi/.stylua.toml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/yazi/lazy.lua",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/yazi/release-please-config.json",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/yazi/mise.toml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/yazi/yazi.nvim-scm-1.rockspec",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/yazi/LICENSE",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/yazi/CHANGELOG.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/yazi/pnpm-lock.yaml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/yazi/.prettierignore",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/yazi/renovate.json",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/yazi/.busted",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/yazi/commitlint.config.ts",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/yazi/pnpm-workspace.yaml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/yazi/.luarc.json",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/yazi/.github",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/yazi/demo",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/yazi/.rumdl.toml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/yazi/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/yazi/lychee.toml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/yazi/.release-please-manifest.json",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/yazi/.npmrc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/yazi/documentation",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/yazi/selene.toml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/yazi/.gitignore",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/yazi/vim.toml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/yazi/knip.json",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/yazi/package.json",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/yazi/repro.lua",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/yazi/lua",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/yazi/plugin",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/yazi/COMMUNITY.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/yazi/spec",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/yazi/integration-tests",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/yazi/.nvmrc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/yazi/.prettierrc.yaml"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/wastebin": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/wastebin/.stylua.toml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/wastebin/LICENSE",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/wastebin/doc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/wastebin/.luarc.json",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/wastebin/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/wastebin/lua",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/wastebin/plugin"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/pasta": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/pasta/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/pasta/Makefile",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/pasta/lua",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/pasta/plugin"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/lazyclip": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/lazyclip/LICENSE",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/lazyclip/doc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/lazyclip/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/lazyclip/lua",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/lazyclip/plugin"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/yanky": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/yanky/doc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/yanky/LICENCE",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/yanky/.github",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/yanky/.luacheckrc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/yanky/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/yanky/CODE_OF_CONDUCT.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/yanky/.gitignore",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/yanky/Makefile",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/yanky/lua",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/yanky/plugin",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/yanky/spec",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/yanky/stylua.toml"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/fidget": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/fidget/doc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/fidget/fidget.nvim-1.6.0-1-unstable-1.6.0-1-rocks",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/fidget/rock_manifest",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/fidget/nix-support",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/fidget/lua",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/fidget/fidget.nvim-1.6.0-1.rockspec"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/modes": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/modes/.stylua.toml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/modes/scripts",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/modes/LICENSE",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/modes/doc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/modes/.editorconfig",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/modes/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/modes/tests",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/modes/.gitignore",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/modes/Makefile",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/modes/lua"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/modicator": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/modicator/doc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/modicator/LICENSE.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/modicator/.github",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/modicator/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/modicator/tests",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/modicator/.gitignore",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/modicator/lua",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/modicator/makefile"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/zen-mode": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/zen-mode/LICENSE",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/zen-mode/CHANGELOG.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/zen-mode/.markdownlint-cli2.yaml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/zen-mode/doc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/zen-mode/.editorconfig",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/zen-mode/.github",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/zen-mode/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/zen-mode/selene.toml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/zen-mode/.gitignore",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/zen-mode/lua",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/zen-mode/plugin",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/zen-mode/vim.yml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/zen-mode/stylua.toml"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/bufferline": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/bufferline/LICENSE",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/bufferline/CHANGELOG.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/bufferline/doc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/bufferline/.luarc.json",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/bufferline/.github",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/bufferline/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/bufferline/tests",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/bufferline/.gitignore",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/bufferline/lua",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/bufferline/stylua.toml"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/lualine": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/lualine/lualine.nvim-scm-5.rockspec",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/lualine/doc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/lualine/rock_manifest",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/lualine/lualine.nvim-scm-5-unstable-scm-5-rocks",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/lualine/nix-support",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/lualine/lua"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dropbar": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dropbar/.stylua.toml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dropbar/scripts",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dropbar/.projections.json",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dropbar/LICENSE",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dropbar/CHANGELOG.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dropbar/doc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dropbar/.editorconfig",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dropbar/.luarc.json",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dropbar/.github",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dropbar/.luacheckrc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dropbar/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dropbar/tests",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dropbar/.gitignore",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dropbar/Makefile",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dropbar/lua",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dropbar/plugin"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/symbols": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/symbols/scripts",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/symbols/LICENSE",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/symbols/doc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/symbols/.luarc.json",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/symbols/.github",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/symbols/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/symbols/tests",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/symbols/.gitignore",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/symbols/Makefile",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/symbols/lua"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-web-devicons": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-web-devicons/nvim-web-devicons-0.100-1-unstable-0.100-1-rocks",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-web-devicons/rock_manifest",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-web-devicons/nvim-web-devicons-0.100-1.rockspec",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-web-devicons/nix-support",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-web-devicons/lua",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-web-devicons/plugin"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-treesitter-textobjects": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-treesitter-textobjects/.stylua.toml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-treesitter-textobjects/scripts",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-treesitter-textobjects/queries",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-treesitter-textobjects/LICENSE",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-treesitter-textobjects/BUILTIN_TEXTOBJECTS.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-treesitter-textobjects/doc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-treesitter-textobjects/.editorconfig",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-treesitter-textobjects/.luarc.json",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-treesitter-textobjects/.github",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-treesitter-textobjects/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-treesitter-textobjects/.tsqueryrc.json",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-treesitter-textobjects/tests",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-treesitter-textobjects/.gitignore",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-treesitter-textobjects/Makefile",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-treesitter-textobjects/lua",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-treesitter-textobjects/CONTRIBUTING.md"
+        ],
+        "~/repos/nvim-colors/odenwald.nvim": [
+            "NONEXISTENT"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/urlview": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/urlview/LICENSE",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/urlview/doc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/urlview/.github",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/urlview/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/urlview/tests",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/urlview/selene.toml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/urlview/.gitignore",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/urlview/Makefile",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/urlview/vim.toml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/urlview/lua",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/urlview/stylua.toml"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/arrow": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/arrow/LICENSE",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/arrow/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/arrow/lua"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/markit": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/markit/.stylua.toml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/markit/LICENSE",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/markit/doc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/markit/images",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/markit/.github",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/markit/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/markit/tests",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/markit/.gitignore",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/markit/Makefile",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/markit/lua"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/snacks": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/snacks/scripts",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/snacks/queries",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/snacks/LICENSE",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/snacks/CHANGELOG.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/snacks/.markdownlint-cli2.yaml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/snacks/doc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/snacks/docs",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/snacks/.editorconfig",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/snacks/.github",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/snacks/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/snacks/tests",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/snacks/selene.toml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/snacks/.gitignore",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/snacks/lua",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/snacks/plugin",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/snacks/vim.yml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/snacks/stylua.toml"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/pickme": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/pickme/.stylua.toml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/pickme/LICENSE",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/pickme/doc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/pickme/.github",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/pickme/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/pickme/tests",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/pickme/.gitignore",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/pickme/Makefile",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/pickme/lua"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/marks": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/marks/LICENSE",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/marks/doc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/marks/.github",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/marks/.luacheckrc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/marks/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/marks/lua",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/marks/plugin"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/whaler": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/whaler/.stylua.toml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/whaler/scripts",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/whaler/LICENSE",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/whaler/whaler-logo.png",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/whaler/doc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/whaler/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/whaler/whaler-example.gif",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/whaler/tests",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/whaler/.gitignore",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/whaler/Makefile",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/whaler/lua",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/whaler/plugin"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-edgemotion": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-edgemotion/scripts",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-edgemotion/LICENSE",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-edgemotion/.coveragerc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-edgemotion/doc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-edgemotion/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-edgemotion/autoload",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-edgemotion/test",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-edgemotion/.codecov.yml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-edgemotion/.travis.yml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-edgemotion/plugin"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/treemonkey": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/treemonkey/LICENSE",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/treemonkey/doc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/treemonkey/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/treemonkey/lua"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/flash": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/flash/scripts",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/flash/LICENSE",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/flash/CHANGELOG.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/flash/.markdownlint-cli2.yaml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/flash/doc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/flash/.editorconfig",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/flash/.github",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/flash/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/flash/tests",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/flash/selene.toml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/flash/.gitignore",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/flash/.neoconf.json",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/flash/lua",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/flash/vim.yml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/flash/stylua.toml"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/leap": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/leap/doc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/leap/.mailmap",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/leap/.editorconfig",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/leap/LICENSE.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/leap/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/leap/.gitignore",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/leap/lua",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/leap/plugin"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/neowords": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/neowords/LICENSE",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/neowords/doc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/neowords/.editorconfig",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/neowords/.luarc.json",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/neowords/.github",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/neowords/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/neowords/tests",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/neowords/selene.toml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/neowords/vim.yaml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/neowords/.neoconf.json",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/neowords/lua",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/neowords/stylua.toml"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/LICENSE",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/examples",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/doc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/.github",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/tests",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/.gitignore",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/Makefile",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/rfcs",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/lua",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/plugin",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/CONTRIBUTING.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/hop/stylua.toml"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/clever-f.vim": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/clever-f.vim/doc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/clever-f.vim/.github",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/clever-f.vim/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/clever-f.vim/autoload",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/clever-f.vim/test",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/clever-f.vim/.codecov.yml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/clever-f.vim/.gitignore",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/clever-f.vim/plugin"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-wordmotion": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-wordmotion/doc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-wordmotion/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-wordmotion/autoload",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-wordmotion/tests",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-wordmotion/.gitignore",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-wordmotion/plugin"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/beam": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/beam/.stylua.toml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/beam/scripts",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/beam/LICENSE",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/beam/examples",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/beam/doc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/beam/static",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/beam/.busted",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/beam/.luarc.json",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/beam/.github",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/beam/.luacheckrc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/beam/.githooks",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/beam/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/beam/test",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/beam/.gitignore",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/beam/Makefile",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/beam/lua",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/beam/plugin"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/stickybuf": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/stickybuf/.stylua.toml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/stickybuf/scripts",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/stickybuf/LICENSE",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/stickybuf/CHANGELOG.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/stickybuf/doc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/stickybuf/.luarc.json",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/stickybuf/.github",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/stickybuf/.luacheckrc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/stickybuf/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/stickybuf/tests",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/stickybuf/.gitignore",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/stickybuf/Makefile",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/stickybuf/lua",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/stickybuf/run_tests.sh"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/retrospect": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/retrospect/LICENSE",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/retrospect/.github",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/retrospect/SECURITY.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/retrospect/screenshot.png",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/retrospect/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/retrospect/CODE_OF_CONDUCT.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/retrospect/lua",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/retrospect/CONTRIBUTING.md"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/flybuf": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/flybuf/.stylua.toml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/flybuf/LICENSE",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/flybuf/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/flybuf/lua",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/flybuf/plugin"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/bafa": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/bafa/scripts",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/bafa/.yamllint.yaml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/bafa/LICENSE",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/bafa/.editorconfig",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/bafa/.luarc.json",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/bafa/.github",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/bafa/.luacheckrc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/bafa/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/bafa/test",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/bafa/.gitignore",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/bafa/lua",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/bafa/web",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/bafa/assets",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/bafa/stylua.toml"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/swm": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/swm/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/swm/lua"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/smart-splits": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/smart-splits/flake.lock",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/smart-splits/LICENSE",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/smart-splits/.envrc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/smart-splits/doc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/smart-splits/.busted",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/smart-splits/.github",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/smart-splits/vimdoc-gen.lua",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/smart-splits/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/smart-splits/autoload",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/smart-splits/smart-splits.tmux",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/smart-splits/tests",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/smart-splits/selene.toml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/smart-splits/vim.yaml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/smart-splits/.gitignore",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/smart-splits/lua",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/smart-splits/plugin",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/smart-splits/flake.nix",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/smart-splits/kitty",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/smart-splits/justfile",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/smart-splits/stylua.toml"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/spear": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/spear/logo.svg",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/spear/LICENSE.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/spear/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/spear/CODE_OF_CONDUCT.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/spear/lua",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/spear/CODEOWNERS",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/spear/.DS_Store"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-various-textobjs": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-various-textobjs/.stylua.toml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-various-textobjs/.emmyrc.json",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-various-textobjs/.typos.toml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-various-textobjs/LICENSE",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-various-textobjs/doc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-various-textobjs/.editorconfig",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-various-textobjs/.harper-dictionary.txt",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-various-textobjs/.github",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-various-textobjs/.rumdl.toml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-various-textobjs/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-various-textobjs/.gitignore",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-various-textobjs/lua",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-various-textobjs/.luarc.jsonc"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-mundo": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-mundo/LICENSE",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-mundo/requirements.txt",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-mundo/doc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-mundo/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-mundo/autoload",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-mundo/tests",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-mundo/.gitignore",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-mundo/plugin",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-mundo/COPYRIGHT"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/mini.align": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/mini.align/LICENSE",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/mini.align/doc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/mini.align/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/mini.align/lua"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/anydent": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/anydent/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/anydent/lua",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/anydent/plugin"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/indentmini": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/indentmini/.stylua.toml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/indentmini/LICENSE",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/indentmini/.github",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/indentmini/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/indentmini/test",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/indentmini/.gitignore",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/indentmini/lua",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/indentmini/plugin",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/indentmini/bench"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/tabular": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/tabular/after",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/tabular/doc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/tabular/LICENSE.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/tabular/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/tabular/autoload",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/tabular/.gitignore",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/tabular/plugin"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/indent-blankline": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/indent-blankline/after",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/indent-blankline/specs",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/indent-blankline/.luarc.stable.json",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/indent-blankline/.luarc.nightly.json",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/indent-blankline/doc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/indent-blankline/LICENSE.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/indent-blankline/.cbfmt.toml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/indent-blankline/.github",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/indent-blankline/.luacheckrc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/indent-blankline/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/indent-blankline/.gitignore",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/indent-blankline/Makefile",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/indent-blankline/.styluaignore",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/indent-blankline/lua",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/indent-blankline/stylua.toml"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-surround": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-surround/queries",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-surround/LICENSE",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-surround/CHANGELOG.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-surround/doc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-surround/.github",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-surround/.luacheckrc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-surround/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-surround/tests",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-surround/selene.toml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-surround/.gitignore",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-surround/lua",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-surround/plugin",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-surround/CONTRIBUTING.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-surround/vim.yml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-surround/stylua.toml"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-autopairs": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-autopairs/.stylua.toml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-autopairs/LICENSE",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-autopairs/doc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-autopairs/.editorconfig",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-autopairs/.luarc.json",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-autopairs/.github",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-autopairs/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-autopairs/tests",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-autopairs/.gitignore",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-autopairs/Makefile",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-autopairs/.styluaignore",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/nvim-autopairs/lua"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/rainbow-delimiters": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/rainbow-delimiters/.nvimrc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/rainbow-delimiters/queries",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/rainbow-delimiters/LICENSE",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/rainbow-delimiters/TODO.rst",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/rainbow-delimiters/README.rst",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/rainbow-delimiters/doc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/rainbow-delimiters/CHANGELOG.rst",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/rainbow-delimiters/.editorconfig",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/rainbow-delimiters/.busted",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/rainbow-delimiters/.luarc.json",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/rainbow-delimiters/.github",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/rainbow-delimiters/autoload",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/rainbow-delimiters/test",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/rainbow-delimiters/.luals",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/rainbow-delimiters/.gitignore",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/rainbow-delimiters/LICENSES",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/rainbow-delimiters/.gitlab",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/rainbow-delimiters/.gitmodules",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/rainbow-delimiters/lua",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/rainbow-delimiters/plugin",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/rainbow-delimiters/CONTRIBUTING.rst",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/rainbow-delimiters/makefile",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/rainbow-delimiters/HACKING.rst"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/blink.pairs": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/blink.pairs/.stylua.toml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/blink.pairs/queries",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/blink.pairs/flake.lock",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/blink.pairs/rust-toolchain.toml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/blink.pairs/Cargo.lock",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/blink.pairs/LICENSE",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/blink.pairs/CHANGELOG.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/blink.pairs/Cargo.toml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/blink.pairs/Cross.toml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/blink.pairs/matcher",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/blink.pairs/target",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/blink.pairs/build.rs",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/blink.pairs/.github",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/blink.pairs/.cargo",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/blink.pairs/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/blink.pairs/benches",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/blink.pairs/.gitignore",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/blink.pairs/cliff.toml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/blink.pairs/repro.lua",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/blink.pairs/lua",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/blink.pairs/.gitattributes",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/blink.pairs/plugin",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/blink.pairs/flake.nix",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/blink.pairs/src"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-sandwich": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-sandwich/after",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-sandwich/doc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-sandwich/macros",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-sandwich/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-sandwich/autoload",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-sandwich/test",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-sandwich/.gitignore",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-sandwich/.travis.yml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-sandwich/plugin"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/wildfire": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/wildfire/.stylua.toml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/wildfire/README.qmd",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/wildfire/.github",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/wildfire/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/wildfire/.gitignore",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/wildfire/lua",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/wildfire/assets"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/moveline": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/moveline/LICENSE",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/moveline/Cargo.toml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/moveline/build.rs",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/moveline/.github",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/moveline/.cargo",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/moveline/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/moveline/.gitignore",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/moveline/Makefile",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/moveline/lua",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/moveline/src"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/switch.vim": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/switch.vim/Rakefile",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/switch.vim/LICENSE",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/switch.vim/Gemfile",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/switch.vim/examples",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/switch.vim/doc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/switch.vim/.rspec",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/switch.vim/.github",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/switch.vim/_project.vim",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/switch.vim/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/switch.vim/autoload",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/switch.vim/CODE_OF_CONDUCT.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/switch.vim/.gitignore",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/switch.vim/.gitmodules",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/switch.vim/.travis.yml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/switch.vim/plugin",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/switch.vim/Gemfile.lock",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/switch.vim/ftplugin",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/switch.vim/CONTRIBUTING.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/switch.vim/spec"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/date-time-inserter": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/date-time-inserter/doc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/date-time-inserter/LICENSE.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/date-time-inserter/.github",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/date-time-inserter/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/date-time-inserter/tests",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/date-time-inserter/.gitignore",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/date-time-inserter/Makefile",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/date-time-inserter/lua",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/date-time-inserter/plugin",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/date-time-inserter/assets",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/date-time-inserter/stylua.toml"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-abolish": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-abolish/README.markdown",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-abolish/doc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-abolish/CONTRIBUTING.markdown",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-abolish/.github",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-abolish/.gitignore",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-abolish/plugin"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/wrapping-paper": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/wrapping-paper/.stylua.toml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/wrapping-paper/wrapping-paper-nvim-scm-1.rockspec",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/wrapping-paper/LICENSE",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/wrapping-paper/CHANGELOG.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/wrapping-paper/.github",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/wrapping-paper/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/wrapping-paper/lua"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/wrapping": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/wrapping/.stylua.toml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/wrapping/lazy.lua",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/wrapping/LICENSE",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/wrapping/CHANGELOG.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/wrapping/doc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/wrapping/.markdownlintrc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/wrapping/.editorconfig",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/wrapping/.github",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/wrapping/demo",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/wrapping/.luacheckrc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/wrapping/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/wrapping/tests",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/wrapping/selene.toml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/wrapping/.gitignore",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/wrapping/Makefile",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/wrapping/vim.toml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/wrapping/lua",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/wrapping/.gitlint",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/wrapping/.pre-commit-config.yaml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/wrapping/.luarc.jsonc"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-caser": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-caser/LICENSE",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-caser/doc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-caser/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-caser/autoload",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-caser/plugin"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/ax": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/ax/doc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/ax/LICENSE.txt",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/ax/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/ax/test",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/ax/.gitignore",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/ax/Makefile",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/ax/lua",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/ax/plugin"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/sort": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/sort/scripts",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/sort/LICENSE",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/sort/CHANGELOG.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/sort/RELEASE.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/sort/CLAUDE.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/sort/.editorconfig",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/sort/.busted",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/sort/.luarc.json",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/sort/.github",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/sort/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/sort/tests",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/sort/selene.toml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/sort/.gitignore",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/sort/vim.toml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/sort/lua",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/sort/plugin",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/sort/CONTRIBUTING.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/sort/.pre-commit-config.yaml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/sort/stylua.toml"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/treesj": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/treesj/LICENSE",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/treesj/doc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/treesj/.github",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/treesj/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/treesj/tests",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/treesj/.gitignore",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/treesj/Makefile",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/treesj/lua",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/treesj/stylua.toml"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/illuminate": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/illuminate/foo.txt",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/illuminate/LICENSE",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/illuminate/doc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/illuminate/.editorconfig",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/illuminate/.github",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/illuminate/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/illuminate/autoload",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/illuminate/.gitignore",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/illuminate/lua",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/illuminate/plugin"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-visual-multi": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-visual-multi/LICENSE",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-visual-multi/doc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-visual-multi/tutorialrc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-visual-multi/.github",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-visual-multi/python",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-visual-multi/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-visual-multi/autoload",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-visual-multi/test",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-visual-multi/run_tests",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-visual-multi/.gitignore",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-visual-multi/.travis.yml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-visual-multi/plugin"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/zpragmatic": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/zpragmatic/LICENSE",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/zpragmatic/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/zpragmatic/.gitignore",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/zpragmatic/lua"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-auto-save": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-auto-save/doc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-auto-save/LICENSE.txt",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-auto-save/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-auto-save/.gitignore",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-auto-save/update_doc_from_readme.sh",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-auto-save/create_packaged_version.sh",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-auto-save/plugin"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/savior": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/savior/LICENSE",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/savior/CHANGELOG.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/savior/doc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/savior/.github",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/savior/.luacheckrc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/savior/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/savior/selene.toml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/savior/lua",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/savior/neovim.yml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/savior/stylua.toml"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/Comment": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/Comment/LICENSE",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/Comment/doc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/Comment/.github",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/Comment/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/Comment/.gitignore",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/Comment/lua",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/Comment/plugin",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/Comment/stylua.toml"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-commentary": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-commentary/README.markdown",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-commentary/doc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-commentary/CONTRIBUTING.markdown",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-commentary/.github",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-commentary/.gitignore",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-commentary/plugin"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/lsp_signature": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/lsp_signature/doc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/lsp_signature/LICENSE.txt",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/lsp_signature/.github",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/lsp_signature/.luacheckrc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/lsp_signature/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/lsp_signature/tests",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/lsp_signature/selene.toml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/lsp_signature/.gitignore",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/lsp_signature/Makefile",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/lsp_signature/lua",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/lsp_signature/vim.yml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/lsp_signature/stylua.toml"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/inlayhint-filler": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/inlayhint-filler/LICENSE",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/inlayhint-filler/images",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/inlayhint-filler/.github",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/inlayhint-filler/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/inlayhint-filler/lua",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/inlayhint-filler/stylua.toml"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dmap": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dmap/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dmap/lua",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/dmap/stylua.toml"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/glance": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/glance/.stylua.toml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/glance/LICENSE",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/glance/doc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/glance/.github",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/glance/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/glance/.gitignore",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/glance/lua",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/glance/plugin"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/corn": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/corn/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/corn/lua"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/lint": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/lint/.projections.json",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/lint/doc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/lint/.editorconfig",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/lint/LICENSE.txt",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/lint/.busted",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/lint/.luarc.json",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/lint/.github",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/lint/.luacheckrc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/lint/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/lint/.gitignore",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/lint/.woodpecker.yaml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/lint/nvim-lint-scm-1.rockspec",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/lint/lua",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/lint/spec"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vale": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vale/static",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vale/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vale/lua",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vale/plugin"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/error-jump": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/error-jump/LICENSE",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/error-jump/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/error-jump/lua",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/error-jump/plugin"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/refactoring": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/refactoring/.stylua.toml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/refactoring/scripts",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/refactoring/queries",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/refactoring/LICENSE",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/refactoring/.ignore",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/refactoring/doc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/refactoring/.github",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/refactoring/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/refactoring/.tsqueryrc.json",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/refactoring/tests",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/refactoring/.gitignore",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/refactoring/Makefile",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/refactoring/.styluaignore",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/refactoring/lua",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/refactoring/plugin",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/refactoring/CONTRIBUTING.md"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/async": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/async/.stylua.toml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/async/scripts",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/async/.emmyrc.json",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/async/meta",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/async/CONCURRENCY_MODEL.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/async/LICENSE",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/async/AGENTS.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/async/doc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/async/docgen.lua",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/async/.github",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/async/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/async/test",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/async/luafmt.toml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/async/.gitignore",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/async/Makefile",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/async/ASYNC_COMPARISONS.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/async/.emmyrc.vendor.json",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/async/lua",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/async/CONTRIBUTING.md"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/bqf": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/bqf/after",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/bqf/LICENSE",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/bqf/CHANGELOG.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/bqf/doc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/bqf/.editorconfig",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/bqf/.github",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/bqf/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/bqf/.gitignore",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/bqf/Makefile",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/bqf/lua",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/bqf/plugin",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/bqf/.luarc.jsonc"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/quicker": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/quicker/.stylua.toml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/quicker/scripts",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/quicker/LICENSE",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/quicker/CHANGELOG.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/quicker/.envrc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/quicker/doc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/quicker/.luarc.json",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/quicker/.github",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/quicker/syntax",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/quicker/.luacheckrc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/quicker/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/quicker/tests",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/quicker/.gitignore",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/quicker/Makefile",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/quicker/lua",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/quicker/run_tests.sh"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/lspsaga": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/lspsaga/.stylua.toml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/lspsaga/LICENSE",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/lspsaga/doc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/lspsaga/.github",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/lspsaga/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/lspsaga/test",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/lspsaga/lua",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/lspsaga/plugin"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/lspkind": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/lspkind/.stylua.toml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/lspkind/LICENSE",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/lspkind/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/lspkind/lua"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/lsp-format": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/lsp-format/specs",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/lsp-format/.luarc.stable.json",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/lsp-format/.luarc.nightly.json",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/lsp-format/doc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/lsp-format/.cbfmt.toml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/lsp-format/.github",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/lsp-format/.luacheckrc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/lsp-format/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/lsp-format/.gitignore",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/lsp-format/Makefile",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/lsp-format/.styluaignore",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/lsp-format/lua",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/lsp-format/stylua.toml"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/conform": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/conform/.stylua.toml",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/conform/scripts",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/conform/LICENSE",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/conform/CHANGELOG.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/conform/.envrc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/conform/doc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/conform/.luarc.json",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/conform/.github",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/conform/.luacheckrc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/conform/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/conform/tests",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/conform/.gitignore",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/conform/Makefile",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/conform/.gitmodules",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/conform/lua",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/conform/plugin",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/conform/run_tests.sh"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/diagflow": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/diagflow/readme.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/diagflow/.gitignore",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/diagflow/lua",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/diagflow/plugin"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/headlines": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/headlines/doc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/headlines/LICENSE.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/headlines/.github",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/headlines/.luacheckrc",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/headlines/README.md",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/headlines/lua",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/headlines/stylua.toml"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/meta",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/queries",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/share",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/lib",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/parser",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/nix-support",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/bin",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/config"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/tabular/after": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/tabular/after/plugin"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/indent-blankline/after": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/indent-blankline/after/plugin",
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/indent-blankline/after/ftplugin"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-sandwich/after": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/vim-sandwich/after/ftplugin"
+        ],
+        "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/bqf/after": [
+            "/nix/store/3xcwikmnfahsswvyg0nnqvwqgdhddl4d-pde/pack/bundle/opt/bqf/after/ftplugin"
+        ]
+    }
+}

@@ -100,7 +100,7 @@ class Paths(BaseModelRW):
     explicit_scripts_dir: Path | None = Field(default=None)
 
     @classmethod
-    def from_dict(cls, d: Paths | dict[str, str]) -> Paths:
+    def from_dict(cls, d: Path | dict[str, str]) -> Path:
         if isinstance(d, Paths):
             return d
         return cls(

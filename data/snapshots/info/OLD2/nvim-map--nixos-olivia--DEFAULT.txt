@@ -1,20 +1,20 @@
 
-s  <Tab>       * <Lua 28: vim/_core/defaults.lua:0>
+s  <Tab>       * <Lua 27: vim/_core/defaults:250>
                  vim.snippet.jump if active, otherwise <Tab>
 	Last set from Lua (run Nvim with -V1 for more details)
-x  #           * <Lua 10: vim/_core/defaults.lua:0>
+x  #           * <Lua 9: vim/_core/defaults:104>
                  :help v_#-default
 	Last set from Lua (run Nvim with -V1 for more details)
 o  %             <Plug>(MatchitOperationForward)
-	Last set from /nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 74
+	Last set from /nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 74
 x  %             <Plug>(MatchitVisualForward)
-	Last set from /nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 72
+	Last set from /nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 72
 n  %             <Plug>(MatchitNormalForward)
-	Last set from /nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 70
+	Last set from /nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 70
 n  &           * :&&<CR>
                  :help &-default
 	Last set from Lua (run Nvim with -V1 for more details)
-x  *           * <Lua 7: vim/_core/defaults.lua:0>
+x  *           * <Lua 6: vim/_core/defaults:101>
                  :help v_star-default
 	Last set from Lua (run Nvim with -V1 for more details)
 x  @           * mode() ==# 'V' ? ':normal! @'.getcharstr().'<CR>' : '@'
@@ -27,217 +27,227 @@ n  Y           * y$
                  :help Y-default
 	Last set from Lua (run Nvim with -V1 for more details)
 o  [%            <Plug>(MatchitOperationMultiBackward)
-	Last set from /nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 82
+	Last set from /nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 82
 x  [%            <Plug>(MatchitVisualMultiBackward)
-	Last set from /nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 80
+	Last set from /nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 80
 n  [%            <Plug>(MatchitNormalMultiBackward)
-	Last set from /nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 78
-x  [n          * <Lua 64: vim/_core/defaults.lua:0>
+	Last set from /nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 78
+x  [N          * <Lua 65: vim/_core/defaults:471>
+                 Select previous sibling node
+	Last set from Lua (run Nvim with -V1 for more details)
+x  [n          * <Lua 63: vim/_core/defaults:463>
                  Select previous node
 	Last set from Lua (run Nvim with -V1 for more details)
-n  [<Space>    * <Lua 62: vim/_core/defaults.lua:0>
+n  [<Space>    * <Lua 61: vim/_core/defaults:448>
                  Add empty line above cursor
 	Last set from Lua (run Nvim with -V1 for more details)
-n  [B          * <Lua 60: vim/_core/defaults.lua:0>
+n  [B          * <Lua 59: vim/_core/defaults:431>
                  :brewind
 	Last set from Lua (run Nvim with -V1 for more details)
-n  [b          * <Lua 58: vim/_core/defaults.lua:0>
+n  [b          * <Lua 57: vim/_core/defaults:423>
                  :bprevious
 	Last set from Lua (run Nvim with -V1 for more details)
-n  [<C-T>      * <Lua 56: vim/_core/defaults.lua:0>
+n  [<C-T>      * <Lua 55: vim/_core/defaults:412>
                  :ptprevious
 	Last set from Lua (run Nvim with -V1 for more details)
-n  [T          * <Lua 54: vim/_core/defaults.lua:0>
+n  [T          * <Lua 53: vim/_core/defaults:398>
                  :trewind
 	Last set from Lua (run Nvim with -V1 for more details)
-n  [t          * <Lua 52: vim/_core/defaults.lua:0>
+n  [t          * <Lua 51: vim/_core/defaults:388>
                  :tprevious
 	Last set from Lua (run Nvim with -V1 for more details)
-n  [A          * <Lua 50: vim/_core/defaults.lua:0>
+n  [A          * <Lua 49: vim/_core/defaults:371>
                  :rewind
 	Last set from Lua (run Nvim with -V1 for more details)
-n  [a          * <Lua 48: vim/_core/defaults.lua:0>
+n  [a          * <Lua 47: vim/_core/defaults:362>
                  :previous
 	Last set from Lua (run Nvim with -V1 for more details)
-n  [<C-L>      * <Lua 46: vim/_core/defaults.lua:0>
+n  [<C-L>      * <Lua 45: vim/_core/defaults:353>
                  :lpfile
 	Last set from Lua (run Nvim with -V1 for more details)
-n  [L          * <Lua 44: vim/_core/defaults.lua:0>
+n  [L          * <Lua 43: vim/_core/defaults:345>
                  :lrewind
 	Last set from Lua (run Nvim with -V1 for more details)
-n  [l          * <Lua 42: vim/_core/defaults.lua:0>
+n  [l          * <Lua 41: vim/_core/defaults:337>
                  :lprevious
 	Last set from Lua (run Nvim with -V1 for more details)
-n  [<C-Q>      * <Lua 40: vim/_core/defaults.lua:0>
+n  [<C-Q>      * <Lua 39: vim/_core/defaults:328>
                  :cpfile
 	Last set from Lua (run Nvim with -V1 for more details)
-n  [Q          * <Lua 38: vim/_core/defaults.lua:0>
+n  [Q          * <Lua 37: vim/_core/defaults:320>
                  :crewind
 	Last set from Lua (run Nvim with -V1 for more details)
-n  [q          * <Lua 36: vim/_core/defaults.lua:0>
+n  [q          * <Lua 35: vim/_core/defaults:312>
                  :cprevious
 	Last set from Lua (run Nvim with -V1 for more details)
-n  [D          * <Lua 34: vim/_core/defaults.lua:0>
+n  [D          * <Lua 33: vim/_core/defaults:284>
                  Jump to the first diagnostic in the current buffer
 	Last set from Lua (run Nvim with -V1 for more details)
-n  [d          * <Lua 32: vim/_core/defaults.lua:0>
+n  [d          * <Lua 31: vim/_core/defaults:276>
                  Jump to the previous diagnostic in the current buffer
 	Last set from Lua (run Nvim with -V1 for more details)
 o  ]%            <Plug>(MatchitOperationMultiForward)
-	Last set from /nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 83
+	Last set from /nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 83
 x  ]%            <Plug>(MatchitVisualMultiForward)
-	Last set from /nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 81
+	Last set from /nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 81
 n  ]%            <Plug>(MatchitNormalMultiForward)
-	Last set from /nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 79
-x  ]n          * <Lua 65: vim/_core/defaults.lua:0>
+	Last set from /nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 79
+x  ]N          * <Lua 66: vim/_core/defaults:475>
+                 Select next sibling node
+	Last set from Lua (run Nvim with -V1 for more details)
+x  ]n          * <Lua 64: vim/_core/defaults:467>
                  Select next node
 	Last set from Lua (run Nvim with -V1 for more details)
-n  ]<Space>    * <Lua 63: vim/_core/defaults.lua:0>
+n  ]<Space>    * <Lua 62: vim/_core/defaults:454>
                  Add empty line below cursor
 	Last set from Lua (run Nvim with -V1 for more details)
-n  ]B          * <Lua 61: vim/_core/defaults.lua:0>
+n  ]B          * <Lua 60: vim/_core/defaults:439>
                  :blast
 	Last set from Lua (run Nvim with -V1 for more details)
-n  ]b          * <Lua 59: vim/_core/defaults.lua:0>
+n  ]b          * <Lua 58: vim/_core/defaults:427>
                  :bnext
 	Last set from Lua (run Nvim with -V1 for more details)
-n  ]<C-T>      * <Lua 57: vim/_core/defaults.lua:0>
+n  ]<C-T>      * <Lua 56: vim/_core/defaults:417>
                  :ptnext
 	Last set from Lua (run Nvim with -V1 for more details)
-n  ]T          * <Lua 55: vim/_core/defaults.lua:0>
+n  ]T          * <Lua 54: vim/_core/defaults:403>
                  :tlast
 	Last set from Lua (run Nvim with -V1 for more details)
-n  ]t          * <Lua 53: vim/_core/defaults.lua:0>
+n  ]t          * <Lua 52: vim/_core/defaults:393>
                  :tnext
 	Last set from Lua (run Nvim with -V1 for more details)
-n  ]A          * <Lua 51: vim/_core/defaults.lua:0>
+n  ]A          * <Lua 50: vim/_core/defaults:379>
                  :last
 	Last set from Lua (run Nvim with -V1 for more details)
-n  ]a          * <Lua 49: vim/_core/defaults.lua:0>
+n  ]a          * <Lua 48: vim/_core/defaults:366>
                  :next
 	Last set from Lua (run Nvim with -V1 for more details)
-n  ]<C-L>      * <Lua 47: vim/_core/defaults.lua:0>
+n  ]<C-L>      * <Lua 46: vim/_core/defaults:357>
                  :lnfile
 	Last set from Lua (run Nvim with -V1 for more details)
-n  ]L          * <Lua 45: vim/_core/defaults.lua:0>
+n  ]L          * <Lua 44: vim/_core/defaults:349>
                  :llast
 	Last set from Lua (run Nvim with -V1 for more details)
-n  ]l          * <Lua 43: vim/_core/defaults.lua:0>
+n  ]l          * <Lua 42: vim/_core/defaults:341>
                  :lnext
 	Last set from Lua (run Nvim with -V1 for more details)
-n  ]<C-Q>      * <Lua 41: vim/_core/defaults.lua:0>
+n  ]<C-Q>      * <Lua 40: vim/_core/defaults:332>
                  :cnfile
 	Last set from Lua (run Nvim with -V1 for more details)
-n  ]Q          * <Lua 39: vim/_core/defaults.lua:0>
+n  ]Q          * <Lua 38: vim/_core/defaults:324>
                  :clast
 	Last set from Lua (run Nvim with -V1 for more details)
-n  ]q          * <Lua 37: vim/_core/defaults.lua:0>
+n  ]q          * <Lua 36: vim/_core/defaults:316>
                  :cnext
 	Last set from Lua (run Nvim with -V1 for more details)
-n  ]D          * <Lua 33: vim/_core/defaults.lua:0>
+n  ]D          * <Lua 32: vim/_core/defaults:280>
                  Jump to the last diagnostic in the current buffer
 	Last set from Lua (run Nvim with -V1 for more details)
-n  ]d          * <Lua 31: vim/_core/defaults.lua:0>
+n  ]d          * <Lua 30: vim/_core/defaults:272>
                  Jump to the next diagnostic in the current buffer
 	Last set from Lua (run Nvim with -V1 for more details)
 x  a%            <Plug>(MatchitVisualTextObject)
-	Last set from /nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 86
-o  an          * <Lua 67: vim/_core/defaults.lua:0>
+	Last set from /nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 86
+o  an          * <Lua 68: vim/_core/defaults:479>
                  Select parent (outer) node
 	Last set from Lua (run Nvim with -V1 for more details)
-x  an          * <Lua 66: vim/_core/defaults.lua:0>
+x  an          * <Lua 67: vim/_core/defaults:479>
                  Select parent (outer) node
 	Last set from Lua (run Nvim with -V1 for more details)
 o  g%            <Plug>(MatchitOperationBackward)
-	Last set from /nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 75
+	Last set from /nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 75
 x  g%            <Plug>(MatchitVisualBackward)
-	Last set from /nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 73
+	Last set from /nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 73
 n  g%            <Plug>(MatchitNormalBackward)
-	Last set from /nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 71
-n  gO          * <Lua 24: vim/_core/defaults.lua:0>
+	Last set from /nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 71
+n  gO          * <Lua 23: vim/_core/defaults:237>
                  vim.lsp.buf.document_symbol()
 	Last set from Lua (run Nvim with -V1 for more details)
-n  grt         * <Lua 23: vim/_core/defaults.lua:0>
+n  grt         * <Lua 22: vim/_core/defaults:233>
                  vim.lsp.buf.type_definition()
 	Last set from Lua (run Nvim with -V1 for more details)
-n  gri         * <Lua 22: vim/_core/defaults.lua:0>
+n  gri         * <Lua 21: vim/_core/defaults:229>
                  vim.lsp.buf.implementation()
 	Last set from Lua (run Nvim with -V1 for more details)
-n  grr         * <Lua 21: vim/_core/defaults.lua:0>
+n  grr         * <Lua 20: vim/_core/defaults:225>
                  vim.lsp.buf.references()
 	Last set from Lua (run Nvim with -V1 for more details)
-n  grx         * <Lua 20: vim/_core/defaults.lua:0>
+n  grx         * <Lua 19: vim/_core/defaults:221>
                  vim.lsp.codelens.run()
 	Last set from Lua (run Nvim with -V1 for more details)
-x  gra         * <Lua 19: vim/_core/defaults.lua:0>
+x  gra         * <Lua 18: vim/_core/defaults:217>
                  vim.lsp.buf.code_action()
 	Last set from Lua (run Nvim with -V1 for more details)
-n  gra         * <Lua 18: vim/_core/defaults.lua:0>
+n  gra         * <Lua 17: vim/_core/defaults:217>
                  vim.lsp.buf.code_action()
 	Last set from Lua (run Nvim with -V1 for more details)
-n  grn         * <Lua 17: vim/_core/defaults.lua:0>
+n  grn         * <Lua 16: vim/_core/defaults:213>
                  vim.lsp.buf.rename()
 	Last set from Lua (run Nvim with -V1 for more details)
-o  gc          * <Lua 16: vim/_core/defaults.lua:0>
+o  gc          * <Lua 15: vim/_core/defaults:199>
                  Comment textobject
 	Last set from Lua (run Nvim with -V1 for more details)
-n  gcc         * <Lua 15: vim/_core/defaults.lua:0>
+n  gcc         * <Lua 14: vim/_core/defaults:194>
                  Toggle comment line
 	Last set from Lua (run Nvim with -V1 for more details)
-x  gc          * <Lua 14: vim/_core/defaults.lua:0>
+x  gc          * <Lua 13: vim/_core/defaults:189>
                  Toggle comment
 	Last set from Lua (run Nvim with -V1 for more details)
-n  gc          * <Lua 13: vim/_core/defaults.lua:0>
+n  gc          * <Lua 12: vim/_core/defaults:189>
                  Toggle comment
 	Last set from Lua (run Nvim with -V1 for more details)
-x  gx          * <Lua 12: vim/_core/defaults.lua:0>
+x  gx          * <Lua 11: vim/_core/defaults:174>
                  Opens filepath or URI under cursor with the system handler (file explorer, web browser, …)
 	Last set from Lua (run Nvim with -V1 for more details)
-n  gx          * <Lua 11: vim/_core/defaults.lua:0>
+n  gx          * <Lua 10: vim/_core/defaults:166>
                  Opens filepath or URI under cursor with the system handler (file explorer, web browser, …)
 	Last set from Lua (run Nvim with -V1 for more details)
-o  in          * <Lua 69: vim/_core/defaults.lua:0>
+o  in          * <Lua 70: vim/_core/defaults:487>
                  Select child (inner) node
 	Last set from Lua (run Nvim with -V1 for more details)
-x  in          * <Lua 68: vim/_core/defaults.lua:0>
+x  in          * <Lua 69: vim/_core/defaults:487>
                  Select child (inner) node
 	Last set from Lua (run Nvim with -V1 for more details)
 x  <Plug>(MatchitVisualTextObject)   <Plug>(MatchitVisualMultiBackward)o<Plug>(MatchitVisualMultiForward)
-	Last set from /nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 67
+	Last set from /nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 67
 o  <Plug>(MatchitOperationMultiForward) * :<C-U>call matchit#MultiMatch("W",  "o")<CR>
-	Last set from /nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 64
+	Last set from /nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 64
 o  <Plug>(MatchitOperationMultiBackward) * :<C-U>call matchit#MultiMatch("bW", "o")<CR>
-	Last set from /nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 63
+	Last set from /nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 63
 x  <Plug>(MatchitVisualMultiForward) * :<C-U>call matchit#MultiMatch("W",  "n")<CR>m'gv``
-	Last set from /nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 62
+	Last set from /nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 62
 x  <Plug>(MatchitVisualMultiBackward) * :<C-U>call matchit#MultiMatch("bW", "n")<CR>m'gv``
-	Last set from /nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 61
+	Last set from /nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 61
 n  <Plug>(MatchitNormalMultiForward) * :<C-U>call matchit#MultiMatch("W",  "n")<CR>
-	Last set from /nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 60
+	Last set from /nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 60
 n  <Plug>(MatchitNormalMultiBackward) * :<C-U>call matchit#MultiMatch("bW", "n")<CR>
-	Last set from /nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 59
+	Last set from /nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 59
 o  <Plug>(MatchitOperationBackward) * :<C-U>call matchit#Match_wrapper('',0,'o')<CR>
-	Last set from /nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 56
+	Last set from /nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 56
 o  <Plug>(MatchitOperationForward) * :<C-U>call matchit#Match_wrapper('',1,'o')<CR>
-	Last set from /nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 55
+	Last set from /nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 55
 x  <Plug>(MatchitVisualBackward) * :<C-U>call matchit#Match_wrapper('',0,'v')<CR>m'gv``
-	Last set from /nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 54
-x  <Plug>(MatchitVisualForward) * :<C-U>call matchit#Match_wrapper('',1,'v')<CR>:if col("''") != col("$") | exe ":normal! m'" | endif<CR>gv``
-	Last set from /nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 52
+	Last set from /nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 54
+x  <Plug>(MatchitVisualForward) * :<C-U>call matchit#Match_wrapper('',1,'v')<CR>:if line("''") != line(".") || col("''") != col("$") | exe ":normal! m'" | endif<CR>gv``
+	Last set from /nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 52
 n  <Plug>(MatchitNormalBackward) * :<C-U>call matchit#Match_wrapper('',0,'n')<CR>
-	Last set from /nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 51
+	Last set from /nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 51
 n  <Plug>(MatchitNormalForward) * :<C-U>call matchit#Match_wrapper('',1,'n')<CR>
-	Last set from /nix/store/lyj427qbi1jbv5klsqkaz3y678mxgfm8-neovim-unwrapped-d5516da/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 50
+	Last set from /nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 50
+n  <Plug>(fzf-normal) * <Nop>
+	Last set from /nix/store/pmddi2yfyf2ldrngm9yr4qa2q8mssa59-fzf-0.73.1/share/vim-plugins/fzf/plugin/fzf.vim line 861
+n  <Plug>(fzf-insert) * i
+	Last set from /nix/store/pmddi2yfyf2ldrngm9yr4qa2q8mssa59-fzf-0.73.1/share/vim-plugins/fzf/plugin/fzf.vim line 860
 n  <C-W><C-D>    <C-W>d
                  Show diagnostics under the cursor
 	Last set from Lua (run Nvim with -V1 for more details)
-n  <C-W>d      * <Lua 35: vim/_core/defaults.lua:0>
+n  <C-W>d      * <Lua 34: vim/_core/defaults:288>
                  Show diagnostics under the cursor
 	Last set from Lua (run Nvim with -V1 for more details)
-s  <S-Tab>     * <Lua 30: vim/_core/defaults.lua:0>
+s  <S-Tab>     * <Lua 29: vim/_core/defaults:250>
                  vim.snippet.jump if active, otherwise <S-Tab>
 	Last set from Lua (run Nvim with -V1 for more details)
-s  <C-S>       * <Lua 26: vim/_core/defaults.lua:0>
+s  <C-S>       * <Lua 25: vim/_core/defaults:241>
                  vim.lsp.buf.signature_help()
 	Last set from Lua (run Nvim with -V1 for more details)
 n  <C-L>       * <Cmd>nohlsearch|diffupdate|normal! <C-L><CR>

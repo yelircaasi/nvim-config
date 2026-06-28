@@ -42,14 +42,25 @@ class Patterns:
         "start",
         "stop",
     )
+    # COMMAND_PATTERN = re.compile(
+    #     (
+    #         r"^(?P<annotation>[^ ]+)"
+    #         r" +(?P<name>[A-Za-z]+ [A-Za-z]+|[^ ]+)"
+    #         r" +(?P<args>[\d+\?\+\*]+)"
+    #         r"( +(?P<address>[0\.%clb]+(?: {0,2}\?)?))?"
+    #         r"( +(?P<complete><Lua function>|[a-z_]+))?"
+    #         r" +(?P<definition>(?:call|:call|<Lua|lua)[^\n]+)"
+    #         r"(\n?\t\t+\s*(?P<description>[^\n]+))?"
+    #     )
+    # )
     COMMAND_PATTERN = re.compile(
         (
             r"^(?P<annotation>[^ ]+)"
-            r" +(?P<name>[A-Za-z]+ [A-Za-z]+|[^ ]+)"
+            r" +(?P<name>[^ ]+)"
             r" +(?P<args>[\d+\?\+\*]+)"
             r"( +(?P<address>[0\.%clb]+(?: {0,2}\?)?))?"
             r"( +(?P<complete><Lua function>|[a-z_]+))?"
-            r" +(?P<definition>(?:call|:call|<Lua|lua)[^\n]+)"
+            r" +(?P<definition>(?::?call|<Lua|:?lua|exe|:?exec|<line)[^\n]+)"
             r"(\n?\t\t+\s*(?P<description>[^\n]+))?"
         )
     )

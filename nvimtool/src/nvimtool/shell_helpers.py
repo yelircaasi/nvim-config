@@ -15,19 +15,55 @@ from .utils import join_filtered
 def export_nvim_info(task: str, cfg: Config) -> Path:
     name_segments = join_filtered("--", (task, cfg.g.DEVICE_NAME, cfg.g.CONFIG_NAME))
     destination = cfg.paths.info_dir / f"nvim-{name_segments}.txt"
+    tmp_script = Path(f"/tmp/tmp_nvim_{task}.lua")
     print(destination)
     # os.system(f'nvim --headless -c "set columns=1000" -c "redir! > {destination}"   -c "verbose {task}"  -c "redir END" -c "q" > /dev/null')
-    main_command = (
-        "lua print(vim.inspect(vim.opt.rtp))"
+    output_expression = (
+        "vim.inspect(vim.opt.rtp)"
         if task == "rtp"
-        else f"verbose {task}"
+        else f'vim.api.nvim_exec2("verbose {task}", {{ output = true }}).output'
     )
-    print(main_command)
+    script_src = f"""
+        local out = {output_expression}
+        local f = io.open("{destination}", "w")
+        f:write(out)
+        f:close()
+        """
+    tmp_script.write_text(script_src)
+    # main_command = (
+    #     "lua print(vim.inspect(vim.opt.rtp))"
+    #     if task == "rtp"
+    #     else f"verbose {task}"
+    # )
+    # print(main_command)
     config = (
         ("-u", str(cfg.paths.nvim_config_init))
         if cfg.paths.nvim_config_init
         else tuple()
     )
+
+    # def OLD_make_command(main_cmd: str,  dest: str) -> str:
+    #     cmd_ = (
+    #         f"'call writefile(split(execute(\"{main_cmd}\"), \"\\n\"),"
+    #         f" \"{dest}\")'"
+    #     )
+    #     return cmd_
+
+    # def make_command(main_cmd: str,  dest: str) -> str:
+    #     cmd_ = (
+    #         f"'lua local out = vim.api.nvim_exec2(\"{main_cmd}\", {{ output = true }}).output;"
+    #         f" local f = io.open(\"{dest}\", \"w\"); f:write(out); f:close()'"
+    #     )
+    #     return cmd_
+
+    # '''
+    # alternative (TODO):
+    # pde --headless \
+    #     -c 'set columns=1000' \
+    #     -lua 'local out = vim.api.nvim_exec2("verbose command", { output = true }).output; local f = io.open("/home/isaac/repos/nvim-config/data/snapshots/info/nvim-command--info--commands.txt", "w"); f:write(out); f:close()' \
+    #     -c 'qa!'
+    # '''
+
     # cmd = [
     #     cfg.g.NVIM_COMMAND,
     #     *config,
@@ -44,23 +80,37 @@ def export_nvim_info(task: str, cfg: Config) -> Path:
     #     "'qa!'",
     # ]
     cmd = [
-        cfg.g.NVIM_COMMAND,
+        "pde",
         *config,
         "--headless",
         "-c",
-        "set columns=1000",
+        "'set columns=1000 nomore'",
+        "-l",
+        str(tmp_script),
         "-c",
-        f"redir! > {destination}",
-        "-c",
-        main_command,
-        "-c",
-        "redir END",
-        "-c",
-        "qa!",
+        "'qa!'",
     ]
+    # cmd = [
+    #     cfg.g.NVIM_COMMAND,
+    #     *config,
+    #     "--headless",
+    #     "-c",
+    #     "set columns=1000",
+    #     "-c",
+    #     f"redir! > {destination}",
+    #     "-c",
+    #     "verbose",
+    #     "-c",
+    #     main_command,
+    #     "-c",
+    #     "redir END",
+    #     "-c",
+    #     "qa!",
+    # ]
     cmd = list(map(str, cmd))
     print(" ".join(cmd))
     subprocess.run(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+    # tmp_script.unlink()
     return destination
 
 

@@ -114,6 +114,8 @@ Special        xxx ctermfg=14 guifg=NvimLightCyan
 SpecialChar    xxx links to Special
 SpecialComment xxx links to Special
 Debug          xxx links to Special
+Dimmed         xxx links to Comment
+Comment        xxx guifg=NvimLightGrey4
 Ignore         xxx links to Normal
 LspCodeLens    xxx links to NonText
 LspCodeLensSeparator xxx links to LspCodeLens
@@ -151,7 +153,6 @@ DiagnosticSignInfo xxx links to DiagnosticInfo
 DiagnosticSignHint xxx links to DiagnosticHint
 DiagnosticSignOk xxx links to DiagnosticOk
 DiagnosticUnnecessary xxx links to Comment
-Comment        xxx guifg=NvimLightGrey4
 @variable      xxx guifg=NvimLightGrey2
 @variable.builtin xxx links to Special
 @variable.parameter.builtin xxx links to Special
