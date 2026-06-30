@@ -1,0 +1,66 @@
+GOOD ACTIVE MAPS ======================================
+wildfire             3
+_core                55
+.config              25
+config               153
+Comment              9      submaps of gb and gc
+markit               82     submaps of <leader>m
+marks                30     submaps of m and dm
+lazyclip             1      <leader>Cw
+urlview              2      [u, ]u
+mini.align           4      ga, gA
+retrospect           2      seem reasonable: <Space>\\, <Space><BS>
+vim-caser            20     all submaps of gs -> changed to <leader>c
+vim-sandwich         15     need to sit down with it and review it; submaps of i and s -> keep only powerful `is` and `as`; delete rest?
+sort                 13     by default remaps builtins; chaotic -> using leader instead: <leader>s
+arrow                1      ;  -> impossible to remap with leader? maybe <leader>; ?
+beam                 156    changed forward and backward prefixes; may be room for improvement
+nvim-surround        9      seems good, but need to sit down with it and review it
+
+REMOVED ===============================================
+vim-abolish          1
+wrapping             3
+switch.vim           1      set to gs
+vim-commentary       2      gc submaps -> using Comment instead
+
+TODO: MAKE LAZY/FT-SPECIFIC =======================================
+vim-wordmotion       16     remaps many builtins -> scope to specific filetypes only, or use different maps
+flash                14     remaps many simple builtins -> use <leader>fl (or similar) lazily activate/deactivate
+vim-visual-multi     13     feels chaotic, lots of \\ submaps -> make lazy with <leader>vm
+
+PLUG MAPS ========================================
+yanky                174
+vim-sandwich         68
+marks                62
+leap                 42
+vim-visual-multi     35
+vim-wordmotion       16
+nvim-surround        9
+Comment              8
+vim-commentary       6
+vim-abolish          3
+wrapping             3
+share                2
+switch.vim           2
+plenary              1
+=================== DUPLICATES ===================
+Duplicates: 0
+Total: 1087
+Active: 636
+Plug: 451
+Defaults: 55
+
+Leader: 179
+Localleader: 9
+g: 64
+m: 18
+z: 4
+Ctrl: 21
+Meta: 10
+Tab: 1
+Shift: 3
+Comma: 156
+[: 26
+]: 26
+Other: 112
+['#', '&', '*', ';', ';', ';', '=P', '=p', '>P', '>p', '@', 'F', 'F', 'F', 'F', 'P', 'P', 'Q', 'R', 'R', 'S', 'S', 'S', 'T', 'T', 'T', 'T', 'Y', 'ac', 'ac', 'aw', 'aw', 'am', 'am', 'as', 'as', 'ab', 'ab', 'ao', 'ao', 'an', 'an', 'b', 'b', 'b', 'cS', 'cs', 'cr', 'dm5', 'dm<Space>', 'dm-', 'dm4', 'dm3', 'dm2', 'dm', 'dm=', 'dm6', 'dm1', 'dm7', 'dm0', 'dm8', 'dm9', 'ds', 'e', 'e', 'e', 'f', 'f', 'f', 'f', 'ic', 'ic', 'iw', 'iw', 'im', 'im', 'is', 'is', 'ib', 'ib', 'io', 'io', 'in', 'in', 'p', 'p', 'r', 's', 's', 's', 's', 'srb', 'sr', 'sr', 'sdb', 'sd', 'sd', 'sa', 'sa', 'sa', 't', 't', 't', 't', 'w', 'w', 'w', 'ySS', 'yS', 'yss', 'ys', 'yow']
