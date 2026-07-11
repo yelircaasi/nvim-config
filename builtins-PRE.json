@@ -1,0 +1,554 @@
+{
+    "i::CTRL-@": {
+        "mode": "i",
+        "keybind": "CTRL-@",
+        "description": "insert previously inserted text and stop insert"
+    },
+    "i::CTRL-A": {
+        "mode": "i",
+        "keybind": "CTRL-A",
+        "description": "insert previously inserted text"
+    },
+    "i::CTRL-C": {
+        "mode": "i",
+        "keybind": "CTRL-C",
+        "description": "quit insert mode, without checking for abbreviation"
+    },
+    "i::CTRL-D": {
+        "mode": "i",
+        "keybind": "CTRL-D",
+        "description": "delete one shiftwidth of indent in the current line"
+    },
+    "i::CTRL-E": {
+        "mode": "i",
+        "keybind": "CTRL-E",
+        "description": "insert the character which is below the cursor"
+    },
+    "i::CTRL-G_CTRL-j": {
+        "mode": "i",
+        "keybind": "CTRL-G CTRL-J",
+        "description": "line down, to column where inserting started"
+    },
+    "i::CTRL-G_j": {
+        "mode": "i",
+        "keybind": "CTRL-G j",
+        "description": "line down, to column where inserting started"
+    },
+    "i::CTRL-G_<Down>": {
+        "mode": "i",
+        "keybind": "CTRL-G <Down>",
+        "description": "line down, to column where inserting started"
+    },
+    "i::CTRL-G_CTRL-k": {
+        "mode": "i",
+        "keybind": "CTRL-G CTRL-K",
+        "description": "line up, to column where inserting started"
+    },
+    "i::CTRL-G_k": {
+        "mode": "i",
+        "keybind": "CTRL-G k",
+        "description": "line up, to column where inserting started"
+    },
+    "i::CTRL-G_<Up>": {
+        "mode": "i",
+        "keybind": "CTRL-G <Up>",
+        "description": "line up, to column where inserting started"
+    },
+    "i::CTRL-G_u": {
+        "mode": "i",
+        "keybind": "CTRL-G u",
+        "description": "start new undoable edit"
+    },
+    "i::CTRL-G_U": {
+        "mode": "i",
+        "keybind": "CTRL-G U",
+        "description": "don't break undo with next cursor movement"
+    },
+    "i::<BS>": {
+        "mode": "i",
+        "keybind": "<BS>",
+        "description": "delete character before the cursor"
+    },
+    "i::<CR>": {
+        "mode": "i",
+        "keybind": "<CR>",
+        "description": "begin new line"
+    },
+    "i::<Esc>": {
+        "mode": "i",
+        "keybind": "<Esc>",
+        "description": "end insert mode"
+    },
+    "i::<NL>": {
+        "mode": "i",
+        "keybind": "<NL>",
+        "description": "same as <CR>"
+    },
+    "i::<Tab>": {
+        "mode": "i",
+        "keybind": "<Tab>",
+        "description": "insert a <Tab> character"
+    },
+    "i::CTRL-[": {
+        "mode": "i",
+        "keybind": "CTRL-[",
+        "description": "same as <Esc>"
+    },
+    "i::CTRL-H": {
+        "mode": "i",
+        "keybind": "CTRL-H",
+        "description": "same as <BS>"
+    },
+    "i::CTRL-I": {
+        "mode": "i",
+        "keybind": "CTRL-I",
+        "description": "same as <Tab>"
+    },
+    "i::CTRL-J": {
+        "mode": "i",
+        "keybind": "CTRL-J",
+        "description": "same as <CR>"
+    },
+    "i::CTRL-M": {
+        "mode": "i",
+        "keybind": "CTRL-M",
+        "description": "same as <CR>"
+    },
+    "i::CTRL-N": {
+        "mode": "i",
+        "keybind": "CTRL-N",
+        "description": "find next match for keyword in front of the cursor"
+    },
+    "i::CTRL-O": {
+        "mode": "i",
+        "keybind": "CTRL-O",
+        "description": "execute a single command and return to insert mode"
+    },
+    "i::CTRL-P": {
+        "mode": "i",
+        "keybind": "CTRL-P",
+        "description": "find previous match for keyword in front of the cursor"
+    },
+    "i::CTRL-Q": {
+        "mode": "i",
+        "keybind": "CTRL-Q",
+        "description": "same as CTRL-V, unless used for terminal control flow"
+    },
+    "i::CTRL-T": {
+        "mode": "i",
+        "keybind": "CTRL-T",
+        "description": "insert one shiftwidth of indent in current line"
+    },
+    "i::CTRL-U": {
+        "mode": "i",
+        "keybind": "CTRL-U",
+        "description": "delete all entered characters in the current line"
+    },
+    "i::CTRL-V": {
+        "mode": "i",
+        "keybind": "CTRL-V {char}",
+        "description": "insert next non-digit literally"
+    },
+    "i::CTRL-W": {
+        "mode": "i",
+        "keybind": "CTRL-W",
+        "description": "delete word before the cursor"
+    },
+    "i::CTRL-X": {
+        "mode": "i",
+        "keybind": "CTRL-X {mode}",
+        "description": "enter CTRL-X sub mode, see |i_CTRL-X_index|"
+    },
+    "i::CTRL-Y": {
+        "mode": "i",
+        "keybind": "CTRL-Y",
+        "description": "insert the character which is above the cursor"
+    },
+    "i::CTRL-]": {
+        "mode": "i",
+        "keybind": "CTRL-]",
+        "description": "trigger abbreviation"
+    },
+    "i::CTRL-^": {
+        "mode": "i",
+        "keybind": "CTRL-^",
+        "description": "toggle use of |:lmap| mappings"
+    },
+    "i::CTRL-_": {
+        "mode": "i",
+        "keybind": "CTRL-_",
+        "description": "When 'allowrevins' set: toggle 'revins'"
+    },
+    "i::0_CTRL-D": {
+        "mode": "i",
+        "keybind": "0 CTRL-D",
+        "description": "delete all indent in the current line"
+    },
+    "i::^_CTRL-D": {
+        "mode": "i",
+        "keybind": "^ CTRL-D",
+        "description": "delete all indent in the current line, restore it in the next line"
+    },
+    "i::<Del>": {
+        "mode": "i",
+        "keybind": "<Del>",
+        "description": "delete character under the cursor"
+    },
+    "i::<Left>": {
+        "mode": "i",
+        "keybind": "<Left>",
+        "description": "cursor one character left"
+    },
+    "i::<S-Left>": {
+        "mode": "i",
+        "keybind": "<S-Left>",
+        "description": "cursor one word left"
+    },
+    "i::<C-Left>": {
+        "mode": "i",
+        "keybind": "<C-Left>",
+        "description": "cursor one word left"
+    },
+    "i::<Right>": {
+        "mode": "i",
+        "keybind": "<Right>",
+        "description": "cursor one character right"
+    },
+    "i::<S-Right>": {
+        "mode": "i",
+        "keybind": "<S-Right>",
+        "description": "cursor one word right"
+    },
+    "i::<C-Right>": {
+        "mode": "i",
+        "keybind": "<C-Right>",
+        "description": "cursor one word right"
+    },
+    "i::<Up>": {
+        "mode": "i",
+        "keybind": "<Up>",
+        "description": "cursor one line up"
+    },
+    "i::<S-Up>": {
+        "mode": "i",
+        "keybind": "<S-Up>",
+        "description": "same as <PageUp>"
+    },
+    "i::<Down>": {
+        "mode": "i",
+        "keybind": "<Down>",
+        "description": "cursor one line down"
+    },
+    "i::<S-Down>": {
+        "mode": "i",
+        "keybind": "<S-Down>",
+        "description": "same as <PageDown>"
+    },
+    "i::<Home>": {
+        "mode": "i",
+        "keybind": "<Home>",
+        "description": "cursor to start of line"
+    },
+    "i::<C-Home>": {
+        "mode": "i",
+        "keybind": "<C-Home>",
+        "description": "cursor to start of file"
+    },
+    "i::<End>": {
+        "mode": "i",
+        "keybind": "<End>",
+        "description": "cursor past end of line"
+    },
+    "i::<C-End>": {
+        "mode": "i",
+        "keybind": "<C-End>",
+        "description": "cursor past end of file"
+    },
+    "i::<PageUp>": {
+        "mode": "i",
+        "keybind": "<PageUp>",
+        "description": "one screenful backward"
+    },
+    "i::<PageDown>": {
+        "mode": "i",
+        "keybind": "<PageDown>",
+        "description": "one screenful forward"
+    },
+    "i::<F1>": {
+        "mode": "i",
+        "keybind": "<F1>",
+        "description": "same as <Help>"
+    },
+    "i::<Help>": {
+        "mode": "i",
+        "keybind": "<Help>",
+        "description": "stop insert mode and display help window"
+    },
+    "i::<Insert>": {
+        "mode": "i",
+        "keybind": "<Insert>",
+        "description": "toggle Insert/Replace mode"
+    },
+    "i::<LeftMouse>": {
+        "mode": "i",
+        "keybind": "<LeftMouse>",
+        "description": "cursor at mouse click"
+    },
+    "i::<ScrollWheelDown>": {
+        "mode": "i",
+        "keybind": "<ScrollWheelDown>",
+        "description": "move window three lines down"
+    },
+    "i::<S-ScrollWheelDown>": {
+        "mode": "i",
+        "keybind": "<S-ScrollWheelDown>",
+        "description": "move window one page down"
+    },
+    "i::<ScrollWheelUp>": {
+        "mode": "i",
+        "keybind": "<ScrollWheelUp>",
+        "description": "move window three lines up"
+    },
+    "i::<S-ScrollWheelUp>": {
+        "mode": "i",
+        "keybind": "<S-ScrollWheelUp>",
+        "description": "move window one page up"
+    },
+    "i::<ScrollWheelLeft>": {
+        "mode": "i",
+        "keybind": "<ScrollWheelLeft>",
+        "description": "move window six columns left"
+    },
+    "i::<S-ScrollWheelLeft>": {
+        "mode": "i",
+        "keybind": "<S-ScrollWheelLeft>",
+        "description": "move window one page left"
+    },
+    "i::<ScrollWheelRight>": {
+        "mode": "i",
+        "keybind": "<ScrollWheelRight>",
+        "description": "move window six columns right"
+    },
+    "i::CTRL-X_CTRL-D": {
+        "mode": "i",
+        "keybind": "CTRL-X CTRL-D",
+        "description": "complete defined identifiers"
+    },
+    "i::CTRL-X_CTRL-E": {
+        "mode": "i",
+        "keybind": "CTRL-X CTRL-E",
+        "description": "scroll up"
+    },
+    "i::CTRL-X_CTRL-F": {
+        "mode": "i",
+        "keybind": "CTRL-X CTRL-F",
+        "description": "complete file names"
+    },
+    "i::CTRL-X_CTRL-I": {
+        "mode": "i",
+        "keybind": "CTRL-X CTRL-I",
+        "description": "complete identifiers"
+    },
+    "i::CTRL-X_CTRL-K": {
+        "mode": "i",
+        "keybind": "CTRL-X CTRL-K",
+        "description": "complete identifiers from dictionary"
+    },
+    "i::CTRL-X_CTRL-L": {
+        "mode": "i",
+        "keybind": "CTRL-X CTRL-L",
+        "description": "complete whole lines"
+    },
+    "i::CTRL-X_CTRL-N": {
+        "mode": "i",
+        "keybind": "CTRL-X CTRL-N",
+        "description": "next completion"
+    },
+    "i::CTRL-X_CTRL-O": {
+        "mode": "i",
+        "keybind": "CTRL-X CTRL-O",
+        "description": "omni completion"
+    },
+    "i::CTRL-X_CTRL-P": {
+        "mode": "i",
+        "keybind": "CTRL-X CTRL-P",
+        "description": "previous completion"
+    },
+    "i::CTRL-X_CTRL-R": {
+        "mode": "i",
+        "keybind": "CTRL-X CTRL-R",
+        "description": "complete contents from registers"
+    },
+    "i::CTRL-X_CTRL-S": {
+        "mode": "i",
+        "keybind": "CTRL-X CTRL-S",
+        "description": "spelling suggestions"
+    },
+    "i::CTRL-X_CTRL-T": {
+        "mode": "i",
+        "keybind": "CTRL-X CTRL-T",
+        "description": "complete identifiers from thesaurus"
+    },
+    "i::CTRL-X_CTRL-Y": {
+        "mode": "i",
+        "keybind": "CTRL-X CTRL-Y",
+        "description": "scroll down"
+    },
+    "i::CTRL-X_CTRL-U": {
+        "mode": "i",
+        "keybind": "CTRL-X CTRL-U",
+        "description": "complete with 'completefunc'"
+    },
+    "i::CTRL-X_CTRL-V": {
+        "mode": "i",
+        "keybind": "CTRL-X CTRL-V",
+        "description": "complete like in : command line"
+    },
+    "i::CTRL-X_CTRL-Z": {
+        "mode": "i",
+        "keybind": "CTRL-X CTRL-Z",
+        "description": "stop completion, text is unchanged"
+    },
+    "i::CTRL-X_CTRL-]": {
+        "mode": "i",
+        "keybind": "CTRL-X CTRL-]",
+        "description": "complete tags"
+    },
+    "i::CTRL-X_s": {
+        "mode": "i",
+        "keybind": "CTRL-X s",
+        "description": "spelling suggestions"
+    },
+
+    "v::CTRL-A": { "mode": "v", "keybind": "CTRL-A", "description": "2  add N to number in highlighted text" },
+"v::CTRL-C": { "mode": "v", "keybind": "CTRL-C", "description": "   stop Visual mode" },
+"v::CTRL-G": { "mode": "v", "keybind": "CTRL-G", "description": "   toggle between Visual mode and Select mode" },
+"v::<BS>": { "mode": "v", "keybind": "<BS>", "description": "2  Select mode: delete highlighted area" },
+"v::CTRL-H": { "mode": "v", "keybind": "CTRL-H", "description": "2  same as <BS>" },
+"v::CTRL-O": { "mode": "v", "keybind": "CTRL-O", "description": "   switch from Select to Visual mode for one command" },
+"v::CTRL-V": { "mode": "v", "keybind": "CTRL-V", "description": "   make Visual mode blockwise or stop Visual mode" },
+"v::CTRL-X": { "mode": "v", "keybind": "CTRL-X", "description": "2  subtract N from number in highlighted text" },
+"v::<Esc>": { "mode": "v", "keybind": "<Esc>", "description": "   stop Visual mode" },
+"v::CTRL-]": { "mode": "v", "keybind": "CTRL-]", "description": "   jump to highlighted tag" },
+"v::!": { "mode": "v", "keybind": "!{filter}", "description": "2  filter the highlighted lines through the external command {filter}" },
+"v:::": { "mode": "v", "keybind": ":", "description": "   start a command-line with the highlighted lines as a range" },
+"v::<": { "mode": "v", "keybind": "<", "description": "2  shift the highlighted lines one 'shiftwidth' left" },
+"v::=": { "mode": "v", "keybind": "=", "description": "2  filter the highlighted lines through the external program given with the 'equalprg' option" },
+"v::>": { "mode": "v", "keybind": ">", "description": "2  shift the highlighted lines one 'shiftwidth' right" },
+"v::b_A": { "mode": "v", "keybind": "A", "description": "2  block mode: append same text in all lines, after the highlighted area" },
+"v::C": { "mode": "v", "keybind": "C", "description": "2  delete the highlighted lines and start insert" },
+"v::D": { "mode": "v", "keybind": "D", "description": "2  delete the highlighted lines" },
+"v::b_I": { "mode": "v", "keybind": "I", "description": "2  block mode: insert same text in all lines, before the highlighted area" },
+"v::J": { "mode": "v", "keybind": "J", "description": "2  join the highlighted lines" },
+"v::K": { "mode": "v", "keybind": "K", "description": "   run 'keywordprg' on the highlighted area" },
+"v::O": { "mode": "v", "keybind": "O", "description": "   move horizontally to other corner of area" },
+"v::P": { "mode": "v", "keybind": "P", "description": "   replace highlighted area with register contents; registers are unchanged" },
+"v::R": { "mode": "v", "keybind": "R", "description": "2  delete the highlighted lines and start insert" },
+"v::S": { "mode": "v", "keybind": "S", "description": "2  delete the highlighted lines and start insert" },
+"v::U": { "mode": "v", "keybind": "U", "description": "2  make highlighted area uppercase" },
+"v::V": { "mode": "v", "keybind": "V", "description": "   make Visual mode linewise or stop Visual mode" },
+"v::X": { "mode": "v", "keybind": "X", "description": "2  delete the highlighted lines" },
+"v::Y": { "mode": "v", "keybind": "Y", "description": "   yank the highlighted lines" },
+"v::aquote": { "mode": "v", "keybind": "a\"", "description": "   extend highlighted area with a double quoted string" },
+"v::a(": { "mode": "v", "keybind": "a(", "description": "   same as ab" },
+"v::a)": { "mode": "v", "keybind": "a)", "description": "   same as ab" },
+"v::a<": { "mode": "v", "keybind": "a<", "description": "   extend highlighted area with a <> block" },
+"v::a>": { "mode": "v", "keybind": "a>", "description": "   same as a<" },
+"v::aB": { "mode": "v", "keybind": "aB", "description": "   extend highlighted area with a {} block" },
+"v::aW": { "mode": "v", "keybind": "aW", "description": "   extend highlighted area with \"a WORD\"" },
+"v::a[": { "mode": "v", "keybind": "a[", "description": "   extend highlighted area with a [] block" },
+"v::a]": { "mode": "v", "keybind": "a]", "description": "   same as a[" },
+"v::a`": { "mode": "v", "keybind": "a`", "description": "   extend highlighted area with a backtick quoted string" },
+"v::ab": { "mode": "v", "keybind": "ab", "description": "   extend highlighted area with a () block" },
+"v::al": { "mode": "v", "keybind": "al", "description": "   extend highlighted area to all lines" },
+"v::ap": { "mode": "v", "keybind": "ap", "description": "   extend highlighted area with a paragraph" },
+"v::as": { "mode": "v", "keybind": "as", "description": "   extend highlighted area with a sentence" },
+"v::at": { "mode": "v", "keybind": "at", "description": "   extend highlighted area with a tag block" },
+"v::aw": { "mode": "v", "keybind": "aw", "description": "   extend highlighted area with \"a word\"" },
+"v::a{": { "mode": "v", "keybind": "a{", "description": "   same as aB" },
+"v::a}": { "mode": "v", "keybind": "a}", "description": "   same as aB" },
+"v::c": { "mode": "v", "keybind": "c", "description": "2  delete highlighted area and start insert" },
+"v::d": { "mode": "v", "keybind": "d", "description": "2  delete highlighted area" },
+"v::g_CTRL-A": { "mode": "v", "keybind": "g CTRL-A", "description": "2  add N to number in highlighted text" },
+"v::g_CTRL-X": { "mode": "v", "keybind": "g CTRL-X", "description": "2  subtract N from number in highlighted text" },
+"v::gJ": { "mode": "v", "keybind": "gJ", "description": "2  join the highlighted lines without inserting spaces" },
+"v::gq": { "mode": "v", "keybind": "gq", "description": "2  format the highlighted lines" },
+"v::gv": { "mode": "v", "keybind": "gv", "description": "   exchange current and previous highlighted area" },
+"v::iquote": { "mode": "v", "keybind": "i\"", "description": "   extend highlighted area with a double quoted string (without quotes)" },
+"v::i'": { "mode": "v", "keybind": "i'", "description": "   extend highlighted area with a single quoted string (without quotes)" },
+"v::i(": { "mode": "v", "keybind": "i(", "description": "   same as ib" },
+"v::i)": { "mode": "v", "keybind": "i)", "description": "   same as ib" },
+"v::i<": { "mode": "v", "keybind": "i<", "description": "   extend highlighted area with inner <> block" },
+"v::i>": { "mode": "v", "keybind": "i>", "description": "   same as i<" },
+"v::iB": { "mode": "v", "keybind": "iB", "description": "   extend highlighted area with inner {} block" },
+"v::iW": { "mode": "v", "keybind": "iW", "description": "   extend highlighted area with \"inner WORD\"" },
+"v::i[": { "mode": "v", "keybind": "i[", "description": "   extend highlighted area with inner [] block" },
+"v::i]": { "mode": "v", "keybind": "i]", "description": "   same as i[" },
+"v::i`": { "mode": "v", "keybind": "i`", "description": "   extend highlighted area with a backtick quoted string (without the backticks)" },
+"v::ib": { "mode": "v", "keybind": "ib", "description": "   extend highlighted area with inner () block" },
+"v::il": { "mode": "v", "keybind": "il", "description": "   select inner line under cursor" },
+"v::ip": { "mode": "v", "keybind": "ip", "description": "   extend highlighted area with inner paragraph" },
+"v::is": { "mode": "v", "keybind": "is", "description": "   extend highlighted area with inner sentence" },
+"v::it": { "mode": "v", "keybind": "it", "description": "   extend highlighted area with inner tag block" },
+"v::iw": { "mode": "v", "keybind": "iw", "description": "   extend highlighted area with \"inner word\"" },
+"v::i{": { "mode": "v", "keybind": "i{", "description": "   same as iB" },
+"v::i}": { "mode": "v", "keybind": "i}", "description": "   same as iB" },
+"v::o": { "mode": "v", "keybind": "o", "description": "   move cursor to other corner of area" },
+"v::p": { "mode": "v", "keybind": "p", "description": "   replace highlighted area with register contents; deleted text in unnamed register" },
+"v::r": { "mode": "v", "keybind": "r", "description": "2  replace highlighted area with a character" },
+"v::s": { "mode": "v", "keybind": "s", "description": "2  delete highlighted area and start insert" },
+"v::u": { "mode": "v", "keybind": "u", "description": "2  make highlighted area lowercase" },
+"v::v": { "mode": "v", "keybind": "v", "description": "   make Visual mode charwise or stop Visual mode" },
+"v::x": { "mode": "v", "keybind": "x", "description": "2  delete the highlighted area" },
+"v::y": { "mode": "v", "keybind": "y", "description": "   yank the highlighted area" },
+"v::~": { "mode": "v", "keybind": "~", "description": "2  swap case for the highlighted area" },
+
+"c::<BS>": { "mode": "c", "keybind": "<BS>", "description": "delete the character in front of the cursor" },
+"c::<CR>": { "mode": "c", "keybind": "<CR>", "description": "execute entered command" },
+"c::<NL>": { "mode": "c", "keybind": "<NL>", "description": "same as <CR>" },
+"c::<S-Tab>": { "mode": "c", "keybind": "<S-Tab>", "description": "same as CTRL-P" },
+"c::<Tab>": { "mode": "c", "keybind": "<Tab>", "description": "if 'wildchar' is <Tab>: Do completion on the pattern in front of the cursor" },
+"c::CTRL-A": { "mode": "c", "keybind": "CTRL-A", "description": "do completion on the pattern in front of the cursor and insert all matches" },
+"c::CTRL-B": { "mode": "c", "keybind": "CTRL-B", "description": "cursor to begin of command-line" },
+"c::CTRL-C": { "mode": "c", "keybind": "CTRL-C", "description": "same as <Esc>" },
+"c::CTRL-D": { "mode": "c", "keybind": "CTRL-D", "description": "list completions that match the pattern in front of the cursor" },
+"c::CTRL-E": { "mode": "c", "keybind": "CTRL-E", "description": "cursor to end of command-line" },
+"c::CTRL-G": { "mode": "c", "keybind": "CTRL-G", "description": "next match when 'incsearch' is active" },
+"c::CTRL-H": { "mode": "c", "keybind": "CTRL-H", "description": "same as <BS>" },
+"c::CTRL-I": { "mode": "c", "keybind": "CTRL-I", "description": "same as <Tab>" },
+"c::CTRL-J": { "mode": "c", "keybind": "CTRL-J", "description": "same as <CR>" },
+"c::CTRL-L": { "mode": "c", "keybind": "CTRL-L", "description": "do completion on the pattern in front of the cursor and insert the longest common part" },
+"c::CTRL-M": { "mode": "c", "keybind": "CTRL-M", "description": "same as <CR>" },
+"c::CTRL-N": { "mode": "c", "keybind": "CTRL-N", "description": "after using 'wildchar' with multiple matches: go to next match, otherwise: recall older command-line from history." },
+"c::wildchar": { "mode": "c", "keybind": "'wildchar'", "description": "Do completion on the pattern in front of the cursor (default: <Tab>)" },
+"c::CTRL-P": { "mode": "c", "keybind": "CTRL-P", "description": "after using 'wildchar' with multiple matches: go to previous match, otherwise: recall older command-line from history." },
+"c::CTRL-Q": { "mode": "c", "keybind": "CTRL-Q", "description": "same as CTRL-V, unless it's used for terminal control flow" },
+"c::CTRL-T": { "mode": "c", "keybind": "CTRL-T", "description": "previous match when 'incsearch' is active" },
+"c::CTRL-U": { "mode": "c", "keybind": "CTRL-U", "description": "remove all characters between the cursor and beginning of command-line" },
+"c::CTRL-V": { "mode": "c", "keybind": "CTRL-V", "description": "insert next non-digit literally, insert three digit decimal number as a single byte." },
+"c::CTRL-W": { "mode": "c", "keybind": "CTRL-W", "description": "delete the word in front of the cursor" },
+"c::CTRL-]": { "mode": "c", "keybind": "CTRL-]", "description": "trigger abbreviation" },
+"c::CTRL-^": { "mode": "c", "keybind": "CTRL-^", "description": "toggle use of |:lmap| mappings" },
+"c::<Del>": { "mode": "c", "keybind": "<Del>", "description": "delete the character under the cursor" },
+
+"c::<Left>": { "mode": "c", "keybind": "<Left>", "description": "cursor left" },
+"c::<S-Left>": { "mode": "c", "keybind": "<S-Left>", "description": "cursor one word left" },
+"c::<C-Left>": { "mode": "c", "keybind": "<C-Left>", "description": "cursor one word left" },
+"c::<Right>": { "mode": "c", "keybind": "<Right>", "description": "cursor right" },
+"c::<S-Right>": { "mode": "c", "keybind": "<S-Right>", "description": "cursor one word right" },
+"c::<C-Right>": { "mode": "c", "keybind": "<C-Right>", "description": "cursor one word right" },
+"c::<Up>": { "mode": "c", "keybind": "<Up>", "description": "recall previous command-line from history that matches pattern in front of the cursor" },
+"c::<S-Up>": { "mode": "c", "keybind": "<S-Up>", "description": "recall previous command-line from history" },
+"c::<Down>": { "mode": "c", "keybind": "<Down>", "description": "recall next command-line from history that matches pattern in front of the cursor" },
+"c::<S-Down>": { "mode": "c", "keybind": "<S-Down>", "description": "recall next command-line from history" },
+"c::<Home>": { "mode": "c", "keybind": "<Home>", "description": "cursor to start of command-line" },
+"c::<End>": { "mode": "c", "keybind": "<End>", "description": "cursor to end of command-line" },
+"c::<PageDown>": { "mode": "c", "keybind": "<PageDown>", "description": "same as <S-Down>" },
+"c::<PageUp>": { "mode": "c", "keybind": "<PageUp>", "description": "same as <S-Up>" },
+"c::<Insert>": { "mode": "c", "keybind": "<Insert>", "description": "toggle insert/overstrike mode" },
+"c::<LeftMouse>": { "mode": "c", "keybind": "<LeftMouse>", "description": "cursor at mouse click" },
+"v::a'": { "mode": "v", "keybind": "a'", "description": "   single quoted string" },
+"": {}
+
+
+}

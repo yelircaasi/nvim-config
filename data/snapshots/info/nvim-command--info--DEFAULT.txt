@@ -1,0 +1,705 @@
+    Name              Args Address Complete    Definition
+!|  Abolish           +    0       custom      :exec s:dispatcher(<bang>0,<line
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/vim-abolish/plugin/abolish.vim line 625
+!   AddTabularPattern +                        call AddTabularPattern(<q-args>,
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/tabular/plugin/Tabular.vim line 169
+!   AddTabularPipeline +                       call AddTabularPipeline(<q-args>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/tabular/plugin/Tabular.vim line 223
+    AdvancedGitSearch ?    .       <Lua function> <Lua 1174: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/advanced_git_search/lua/advanced_git_search/utils/setup.lua:4>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/advanced_git_search/lua/advanced_git_search/utils/setup.lua line 4
+    Arrow             ?            <Lua function> <Lua 752: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/arrow/lua/arrow/commands.lua:50>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/arrow/lua/arrow/commands.lua line 50
+    AsyncReset        0                        call asyncrun#reset()
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/asyncrun/plugin/asyncrun.vim line 2373
+!   AsyncRun          +    0       file        call asyncrun#run('<bang>', '', 
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/asyncrun/plugin/asyncrun.vim line 2368
+!|  AsyncStop         0                        call asyncrun#stop('<bang>')
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/asyncrun/plugin/asyncrun.vim line 2371
+    AutoSaveToggle    0                        :call AutoSaveToggle()
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/vim-auto-save/plugin/AutoSave.vim line 52
+    Ax                *                        <Lua 620: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/ax/lua/ax/init.lua:306>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/ax/lua/ax/init.lua line 306
+    AxAudit           *                        <Lua 203: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/ax/lua/ax/init.lua:338>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/ax/lua/ax/init.lua line 338
+    AxForget          *                        <Lua 209: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/ax/lua/ax/init.lua:314>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/ax/lua/ax/init.lua line 314
+    AxMove            *                        <Lua 208: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/ax/lua/ax/init.lua:322>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/ax/lua/ax/init.lua line 322
+    AxMoved           *                        <Lua 207: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/ax/lua/ax/init.lua:330>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/ax/lua/ax/init.lua line 330
+    BeamDiscoverNow   0                        <Lua 357: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/beam/plugin/beam.lua:31>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/beam/plugin/beam.lua line 31
+    BeamReload        0                        <Lua 355: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/beam/plugin/beam.lua:6>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/beam/plugin/beam.lua line 6
+    BeamShowTextObjects 0                      <Lua 356: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/beam/plugin/beam.lua:15>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/beam/plugin/beam.lua line 15
+    BlinkCmp          1            <Lua function> <Lua 1137: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/blink.cmp/plugin/blink-cmp.lua:15>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/blink.cmp/plugin/blink-cmp.lua line 15
+    BookmarksList     1                        exe "lua require'marks'.bookmark
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/marks/plugin/marks.vim line 19
+    BookmarksListAll  0                        exe "lua require'marks'.bookmark
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/marks/plugin/marks.vim line 20
+    BookmarksQFList   1                        exe "lua require'marks'.bookmark
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/marks/plugin/marks.vim line 22
+    BookmarksQFListAll 0                       exe "lua require'marks'.bookmark
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/marks/plugin/marks.vim line 23
+    BqfAutoToggle     0                        lua require('bqf').toggleAuto()
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/bqf/plugin/bqf.vim line 7
+    BufferLineCloseLeft 0                      <Lua 692: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/bufferline/lua/bufferline.lua:163>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/bufferline/lua/bufferline.lua line 155
+    BufferLineCloseOthers 0                    <Lua 691: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/bufferline/lua/bufferline.lua:164>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/bufferline/lua/bufferline.lua line 155
+    BufferLineCloseRight 0                     <Lua 693: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/bufferline/lua/bufferline.lua:162>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/bufferline/lua/bufferline.lua line 155
+    BufferLineCycleNext 0                      <Lua 695: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/bufferline/lua/bufferline.lua:160>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/bufferline/lua/bufferline.lua line 155
+    BufferLineCyclePrev 0                      <Lua 694: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/bufferline/lua/bufferline.lua:161>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/bufferline/lua/bufferline.lua line 155
+    BufferLineGoToBuffer 1                     <Lua 684: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/bufferline/lua/bufferline.lua:171>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/bufferline/lua/bufferline.lua line 155
+    BufferLineGroupClose 1         <Lua function> <Lua 680: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/bufferline/lua/bufferline.lua:174>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/bufferline/lua/bufferline.lua line 155
+    BufferLineGroupToggle 1        <Lua function> <Lua 678: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/bufferline/lua/bufferline.lua:178>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/bufferline/lua/bufferline.lua line 155
+    BufferLineMoveNext 0                       <Lua 690: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/bufferline/lua/bufferline.lua:165>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/bufferline/lua/bufferline.lua line 155
+    BufferLineMovePrev 0                       <Lua 689: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/bufferline/lua/bufferline.lua:166>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/bufferline/lua/bufferline.lua line 155
+    BufferLinePick    0                        <Lua 697: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/bufferline/lua/bufferline.lua:158>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/bufferline/lua/bufferline.lua line 155
+    BufferLinePickClose 0                      <Lua 696: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/bufferline/lua/bufferline.lua:159>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/bufferline/lua/bufferline.lua line 155
+    BufferLineSortByDirectory 0                <Lua 687: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/bufferline/lua/bufferline.lua:168>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/bufferline/lua/bufferline.lua line 155
+    BufferLineSortByExtension 0                <Lua 688: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/bufferline/lua/bufferline.lua:167>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/bufferline/lua/bufferline.lua line 155
+    BufferLineSortByRelativeDirectory 0        <Lua 686: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/bufferline/lua/bufferline.lua:169>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/bufferline/lua/bufferline.lua line 155
+    BufferLineSortByTabs 0                     <Lua 685: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/bufferline/lua/bufferline.lua:170>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/bufferline/lua/bufferline.lua line 155
+    BufferLineTabRename *                      <Lua 682: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/bufferline/lua/bufferline.lua:173>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/bufferline/lua/bufferline.lua line 155
+    BufferLineTogglePin 0                      <Lua 683: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/bufferline/lua/bufferline.lua:172>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/bufferline/lua/bufferline.lua line 155
+    CmpStatus         0                        <Lua 1093: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/cmp/plugin/cmp.lua:62>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/cmp/plugin/cmp.lua line 62
+!|  Commentary        0    .                   call s:go(<line1>,<line2>,<bang>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/vim-commentary/plugin/commentary.vim line 105
+    ConformInfo       0                        <Lua 204: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/conform/plugin/conform.lua:1>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/conform/plugin/conform.lua line 1
+    ConjureClientState ?                       <Lua 1016: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/conjure/lua/conjure/mapping.lua:189>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/conjure/lua/conjure/mapping.lua line 192
+    ConjureConnect    *    .       file        <Lua 1015: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/conjure/lua/conjure/mapping.lua:185>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/conjure/lua/conjure/mapping.lua line 188
+    ConjureEval       ?    .                   <Lua 1014: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/conjure/lua/conjure/mapping.lua:181>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/conjure/lua/conjure/mapping.lua line 184
+    ConjureSchool     0                        <Lua 1017: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/conjure/lua/conjure/mapping.lua:193>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/conjure/lua/conjure/mapping.lua line 196
+    Corn              +            <Lua function> <Lua 121: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/corn/lua/corn.lua:37>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/corn/lua/corn.lua line 37
+    DapClearBreakpoints 0                      <Lua 1471: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/dap/plugin/dap.lua:22>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/dap/plugin/dap.lua line 22
+    DapContinue       0                        <Lua 1469: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/dap/plugin/dap.lua:20>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/dap/plugin/dap.lua line 20
+    DapDisconnect     0                        <Lua 1478: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/dap/plugin/dap.lua:29>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/dap/plugin/dap.lua line 29
+!|  DapEval           0    %                   <Lua 1467: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/dap/plugin/dap.lua:43>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/dap/plugin/dap.lua line 43
+    DapNew            *            <Lua function> <Lua 1468: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/dap/plugin/dap.lua:32>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/dap/plugin/dap.lua line 35
+    DapPause          0                        <Lua 1476: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/dap/plugin/dap.lua:27>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/dap/plugin/dap.lua line 27
+    DapRestartFrame   0                        <Lua 1479: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/dap/plugin/dap.lua:30>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/dap/plugin/dap.lua line 30
+    DapSetLogLevel    1            <Lua function> <Lua 1565: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/dap/plugin/dap.lua:9>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/dap/plugin/dap.lua line 7
+    DapShowLog        0                        <Lua 1457: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/dap/plugin/dap.lua:19>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/dap/plugin/dap.lua line 19
+    DapStepInto       0                        <Lua 1474: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/dap/plugin/dap.lua:25>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/dap/plugin/dap.lua line 25
+    DapStepOut        0                        <Lua 1475: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/dap/plugin/dap.lua:26>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/dap/plugin/dap.lua line 26
+    DapStepOver       0                        <Lua 1473: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/dap/plugin/dap.lua:24>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/dap/plugin/dap.lua line 24
+    DapTerminate      0                        <Lua 1477: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/dap/plugin/dap.lua:28>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/dap/plugin/dap.lua line 28
+    DapToggleBreakpoint 0                      <Lua 1470: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/dap/plugin/dap.lua:21>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/dap/plugin/dap.lua line 21
+    DapToggleRepl     0                        <Lua 1472: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/dap/plugin/dap.lua:23>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/dap/plugin/dap.lua line 23
+    DiagflowToggle    0                        lua require('diagflow').toggle()
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/diagflow/plugin/diagflow.vim line 1
+!   DiffviewClose     0                        <Lua 1184: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/diffview/plugin/diffview.lua:37>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/diffview/plugin/diffview.lua line 37
+    DiffviewFileHistory *  .       <Lua function> <Lua 1183: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/diffview/plugin/diffview.lua:27>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/diffview/plugin/diffview.lua line 27
+!   DiffviewFocusFiles 0                       <Lua 1185: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/diffview/plugin/diffview.lua:41>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/diffview/plugin/diffview.lua line 41
+!   DiffviewLog       0                        <Lua 1188: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/diffview/plugin/diffview.lua:53>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/diffview/plugin/diffview.lua line 53
+    DiffviewOpen      *            <Lua function> <Lua 1181: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/diffview/plugin/diffview.lua:23>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/diffview/plugin/diffview.lua line 23
+!   DiffviewRefresh   0                        <Lua 1187: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/diffview/plugin/diffview.lua:49>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/diffview/plugin/diffview.lua line 49
+!   DiffviewToggleFiles 0                      <Lua 1186: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/diffview/plugin/diffview.lua:45>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/diffview/plugin/diffview.lua line 45
+    EditQuery         ?            <Lua function> <Lua 7: vim/_core/defaults:28>
+	Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 28
+    FTerm             *                        <Lua 1462: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/termim/plugin/termim.lua:36>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/termim/plugin/termim.lua line 36
+!   FZF               *            dir         call s:cmd(<bang>0, <f-args>)
+	Last set from /nix/store/pmddi2yfyf2ldrngm9yr4qa2q8mssa59-fzf-0.73.1/share/vim-plugins/fzf/plugin/fzf.vim line 1154
+    Fidget            +            <Lua function> <Lua 821: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/fidget/lua/fidget/commands.lua:177>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/fidget/lua/fidget/commands.lua line 530
+    FloatermFirst     0                        call floaterm#first()
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/vim-floaterm/plugin/floaterm.vim line 48
+!   FloatermHide      ?    0c ?    customlist  call floaterm#hide(<bang>0, <cou
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/vim-floaterm/plugin/floaterm.vim line 38
+!   FloatermKill      ?    0c ?    customlist  call floaterm#kill(<bang>0, <cou
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/vim-floaterm/plugin/floaterm.vim line 40
+    FloatermLast      0                        call floaterm#last()
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/vim-floaterm/plugin/floaterm.vim line 49
+!   FloatermNew       *    .       customlist  call floaterm#run('new', <bang>0
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/vim-floaterm/plugin/floaterm.vim line 32
+    FloatermNext      0                        call floaterm#next()
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/vim-floaterm/plugin/floaterm.vim line 47
+    FloatermPrev      0                        call floaterm#prev()
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/vim-floaterm/plugin/floaterm.vim line 46
+!   FloatermSend      ?    .       customlist  call floaterm#send(<bang>0, visu
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/vim-floaterm/plugin/floaterm.vim line 44
+!   FloatermShow      ?    0c ?    customlist  call floaterm#show(<bang>0, <cou
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/vim-floaterm/plugin/floaterm.vim line 36
+!   FloatermToggle    ?    0c ?    customlist  call floaterm#toggle(<bang>0, <c
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/vim-floaterm/plugin/floaterm.vim line 42
+    FloatermUpdate    *            customlist  call floaterm#run('update', 0, [
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/vim-floaterm/plugin/floaterm.vim line 34
+    FlyBuf            0                        <Lua 343: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/flybuf/plugin/flybuf.lua:8>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/flybuf/plugin/flybuf.lua line 8
+|   Format            *                        <Lua 146: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/lsp-format/lua/lsp-format/init.lua:38>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/lsp-format/lua/lsp-format/init.lua line 38
+|   FormatDisable     ?            filetype    <Lua 148: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/lsp-format/lua/lsp-format/init.lua:152>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/lsp-format/lua/lsp-format/init.lua line 47
+!|  FormatEnable      ?            filetype    <Lua 149: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/lsp-format/lua/lsp-format/init.lua:161>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/lsp-format/lua/lsp-format/init.lua line 52
+|   FormatToggle      ?            filetype    <Lua 147: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/lsp-format/lua/lsp-format/init.lua:173>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/lsp-format/lua/lsp-format/init.lua line 42
+    Fterm             *                        <Lua 1461: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/termim/plugin/termim.lua:32>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/termim/plugin/termim.lua line 32
+    GTabularize       *    %       customlist  <line1>,<line2> call Tabularize(
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/tabular/plugin/Tabular.vim line 342
+    Glance            1            <Lua function> <Lua 268: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/glance/plugin/glance.lua:1>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/glance/plugin/glance.lua line 1
+    GundoHide         0                        call mundo#util#Hide()
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/vim-mundo/plugin/mundo.vim line 137
+    GundoRenderGraph  0                        call mundo#util#RenderGraph()
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/vim-mundo/plugin/mundo.vim line 138
+    GundoShow         0                        call mundo#util#Show()
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/vim-mundo/plugin/mundo.vim line 136
+    GundoToggle       0                        call mundo#util#Toggle()
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/vim-mundo/plugin/mundo.vim line 135
+    HardWrapMode      0                        <Lua 201: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/wrapping/lua/wrapping/init.lua:458>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/wrapping/lua/wrapping/init.lua line 458
+    HomerowsAre       0                        <Lua 1519: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/homerows/lua/homerows/commands.lua:103>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/homerows/lua/homerows/commands.lua line 108
+    HomerowsTo        *            <Lua function> <Lua 1521: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/homerows/lua/homerows/commands.lua:113>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/homerows/lua/homerows/commands.lua line 113
+    HopAnywhere       0                        <Lua 654: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/lua/hop/init.lua:488>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua line 21
+    HopAnywhereAC     0                        <Lua 514: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua:27>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua line 27
+    HopAnywhereBC     0                        <Lua 572: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua:23>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua line 23
+    HopAnywhereCurrentLine 0                   <Lua 515: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua:31>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua line 31
+    HopAnywhereCurrentLineAC 0                 <Lua 517: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua:39>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua line 39
+    HopAnywhereCurrentLineBC 0                 <Lua 516: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua:35>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua line 35
+    HopAnywhereMW     0                        <Lua 518: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua:43>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua line 43
+    HopCamelCase      0                        <Lua 519: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/lua/hop/init.lua:395>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua line 21
+    HopCamelCaseAC    0                        <Lua 549: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua:27>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua line 27
+    HopCamelCaseBC    0                        <Lua 548: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua:23>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua line 23
+    HopCamelCaseCurrentLine 0                  <Lua 550: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua:31>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua line 31
+    HopCamelCaseCurrentLineAC 0                <Lua 552: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua:39>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua line 39
+    HopCamelCaseCurrentLineBC 0                <Lua 551: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua:35>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua line 35
+    HopCamelCaseMW    0                        <Lua 553: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua:43>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua line 43
+    HopChar1          0                        <Lua 554: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/lua/hop/init.lua:438>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua line 21
+    HopChar1AC        0                        <Lua 521: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua:27>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua line 27
+    HopChar1BC        0                        <Lua 520: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua:23>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua line 23
+    HopChar1CurrentLine 0                      <Lua 522: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua:31>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua line 31
+    HopChar1CurrentLineAC 0                    <Lua 524: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua:39>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua line 39
+    HopChar1CurrentLineBC 0                    <Lua 523: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua:35>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua line 35
+    HopChar1MW        0                        <Lua 525: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua:43>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua line 43
+    HopChar2          0                        <Lua 526: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/lua/hop/init.lua:451>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua line 21
+    HopChar2AC        0                        <Lua 528: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua:27>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua line 27
+    HopChar2BC        0                        <Lua 527: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua:23>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua line 23
+    HopChar2CurrentLine 0                      <Lua 529: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua:31>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua line 31
+    HopChar2CurrentLineAC 0                    <Lua 531: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua:39>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua line 39
+    HopChar2CurrentLineBC 0                    <Lua 530: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua:35>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua line 35
+    HopChar2MW        0                        <Lua 532: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua:43>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua line 43
+    HopLine           0                        <Lua 562: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/lua/hop/init.lua:464>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua line 55
+    HopLineAC         0                        <Lua 564: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua:61>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua line 61
+    HopLineBC         0                        <Lua 563: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua:57>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua line 57
+    HopLineMW         0                        <Lua 565: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua:65>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua line 65
+    HopLineStart      0                        <Lua 558: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/lua/hop/init.lua:480>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua line 55
+    HopLineStartAC    0                        <Lua 560: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua:61>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua line 61
+    HopLineStartBC    0                        <Lua 559: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua:57>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua line 57
+    HopLineStartMW    0                        <Lua 561: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua:65>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua line 65
+    HopNodes          0                        <Lua 587: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/lua/hop-treesitter/init.lua:13>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/lua/hop-treesitter/init.lua line 13
+    HopPasteChar1     0                        <Lua 580: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/lua/hop-yank/init.lua:52>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/lua/hop-yank/init.lua line 93
+    HopPasteChar1AC   0                        <Lua 582: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/lua/hop-yank/init.lua:99>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/lua/hop-yank/init.lua line 99
+    HopPasteChar1BC   0                        <Lua 581: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/lua/hop-yank/init.lua:95>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/lua/hop-yank/init.lua line 95
+    HopPasteChar1CurrentLine 0                 <Lua 583: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/lua/hop-yank/init.lua:103>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/lua/hop-yank/init.lua line 103
+    HopPasteChar1CurrentLineAC 0               <Lua 585: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/lua/hop-yank/init.lua:111>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/lua/hop-yank/init.lua line 111
+    HopPasteChar1CurrentLineBC 0               <Lua 584: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/lua/hop-yank/init.lua:107>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/lua/hop-yank/init.lua line 107
+    HopPasteChar1MW   0                        <Lua 586: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/lua/hop-yank/init.lua:115>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/lua/hop-yank/init.lua line 115
+    HopPattern        0                        <Lua 540: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/lua/hop/init.lua:404>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua line 21
+    HopPatternAC      0                        <Lua 542: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua:27>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua line 27
+    HopPatternBC      0                        <Lua 541: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua:23>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua line 23
+    HopPatternCurrentLine 0                    <Lua 543: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua:31>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua line 31
+    HopPatternCurrentLineAC 0                  <Lua 545: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua:39>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua line 39
+    HopPatternCurrentLineBC 0                  <Lua 544: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua:35>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua line 35
+    HopPatternMW      0                        <Lua 546: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua:43>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua line 43
+    HopVertical       0                        <Lua 547: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/lua/hop/init.lua:472>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua line 55
+    HopVerticalAC     0                        <Lua 556: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua:61>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua line 61
+    HopVerticalBC     0                        <Lua 555: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua:57>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua line 57
+    HopVerticalMW     0                        <Lua 557: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua:65>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua line 65
+    HopWord           0                        <Lua 533: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/lua/hop/init.lua:387>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua line 21
+    HopWordAC         0                        <Lua 535: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua:27>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua line 27
+    HopWordBC         0                        <Lua 534: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua:23>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua line 23
+    HopWordCurrentLine 0                       <Lua 536: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua:31>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua line 31
+    HopWordCurrentLineAC 0                     <Lua 538: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua:39>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua line 39
+    HopWordCurrentLineBC 0                     <Lua 537: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua:35>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua line 35
+    HopWordMW         0                        <Lua 539: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua:43>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/plugin/hop.lua line 43
+    HopYankChar1      0                        <Lua 573: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/lua/hop-yank/init.lua:9>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/lua/hop-yank/init.lua line 93
+    HopYankChar1AC    0                        <Lua 575: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/lua/hop-yank/init.lua:99>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/lua/hop-yank/init.lua line 99
+    HopYankChar1BC    0                        <Lua 574: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/lua/hop-yank/init.lua:95>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/lua/hop-yank/init.lua line 95
+    HopYankChar1CurrentLine 0                  <Lua 576: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/lua/hop-yank/init.lua:103>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/lua/hop-yank/init.lua line 103
+    HopYankChar1CurrentLineAC 0                <Lua 578: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/lua/hop-yank/init.lua:111>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/lua/hop-yank/init.lua line 111
+    HopYankChar1CurrentLineBC 0                <Lua 577: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/lua/hop-yank/init.lua:107>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/lua/hop-yank/init.lua line 107
+    HopYankChar1MW    0                        <Lua 579: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/lua/hop-yank/init.lua:115>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/hop/lua/hop-yank/init.lua line 115
+|   IBLDisable        0                        <Lua 1610: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/indent-blankline/after/plugin/commands.lua:11>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/indent-blankline/after/plugin/commands.lua line 11
+|   IBLDisableScope   0                        <Lua 1613: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/indent-blankline/after/plugin/commands.lua:36>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/indent-blankline/after/plugin/commands.lua line 36
+|   IBLEnable         0                        <Lua 1609: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/indent-blankline/after/plugin/commands.lua:4>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/indent-blankline/after/plugin/commands.lua line 4
+|   IBLEnableScope    0                        <Lua 1612: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/indent-blankline/after/plugin/commands.lua:29>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/indent-blankline/after/plugin/commands.lua line 29
+|   IBLToggle         0                        <Lua 1611: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/indent-blankline/after/plugin/commands.lua:18>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/indent-blankline/after/plugin/commands.lua line 18
+|   IBLToggleScope    0                        <Lua 1614: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/indent-blankline/after/plugin/commands.lua:43>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/indent-blankline/after/plugin/commands.lua line 43
+!   IlluminateDebug   0                        <Lua 195: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/illuminate/lua/illuminate.lua:305>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/config/lua/utils.lua line 112
+!   IlluminatePause   0                        <Lua 189: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/illuminate/lua/illuminate.lua:235>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/config/lua/utils.lua line 112
+!   IlluminatePauseBuf 0                       <Lua 192: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/illuminate/lua/illuminate.lua:251>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/config/lua/utils.lua line 112
+!   IlluminateResume  0                        <Lua 190: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/illuminate/lua/illuminate.lua:239>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/config/lua/utils.lua line 112
+!   IlluminateResumeBuf 0                      <Lua 193: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/illuminate/lua/illuminate.lua:259>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/config/lua/utils.lua line 112
+!   IlluminateToggle  0                        <Lua 191: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/illuminate/lua/illuminate.lua:243>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/config/lua/utils.lua line 112
+!   IlluminateToggleBuf 0                      <Lua 194: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/illuminate/lua/illuminate.lua:247>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/config/lua/utils.lua line 112
+    IndentDisable     0                        <Lua 267: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/indentmini/plugin/indentmini.lua:15>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/indentmini/plugin/indentmini.lua line 13
+    IndentEnable      0                        <Lua 266: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/indentmini/plugin/indentmini.lua:9>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/indentmini/plugin/indentmini.lua line 7
+    IndentToggle      0                        <Lua 1574: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/indentmini/plugin/indentmini.lua:3>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/indentmini/plugin/indentmini.lua line 1
+    InsertDate        *                        <Lua 221: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/date-time-inserter/lua/date-time-inserter/controller.lua:37>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/date-time-inserter/lua/date-time-inserter/controller.lua line 37
+    InsertDateTime    *                        <Lua 219: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/date-time-inserter/lua/date-time-inserter/controller.lua:37>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/date-time-inserter/lua/date-time-inserter/controller.lua line 37
+    InsertTime        *                        <Lua 218: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/date-time-inserter/lua/date-time-inserter/controller.lua:37>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/date-time-inserter/lua/date-time-inserter/controller.lua line 37
+!   Inspect           0                        <Lua 4: vim/_core/defaults:7>
+	Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 7
+    InspectTree       ?    0c ?                <Lua 5: vim/_core/defaults:15>
+	Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 15
+    Jaq               ?            customlist  :lua require('jaq-nvim').Jaq(<f-
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/jaq-nvim/plugin/jaq-nvim.lua line 16
+    KeySeer           ?                        <Lua 1564: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/keyseer/plugin/keyseer.lua:8>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/keyseer/plugin/keyseer.lua line 8
+    LazyClip          0                        lua require('lazyclip.ui').open_
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/lazyclip/plugin/lazyclip.vim line 6
+    LiveCommand       1            <Lua function> <Lua 1048: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/live-command/lua/live-command/user_command.lua:12>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/live-command/lua/live-command/user_command.lua line 12
+    Lspsaga           +    .       <Lua function> <Lua 151: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/lspsaga/plugin/lspsaga.lua:7>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/lspsaga/plugin/lspsaga.lua line 7
+    LuaSnipListAvailable 0                     <Lua 1074: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/luasnip/plugin/luasnip.lua:66>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/luasnip/plugin/luasnip.lua line 66
+    LuaSnipUnlinkCurrent 0                     <Lua 1101: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/luasnip/plugin/luasnip.lua:61>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/luasnip/plugin/luasnip.lua line 61
+    MCclear           0                        <Lua 175: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/multicursors/lua/multicursors/init.lua:31>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/multicursors/lua/multicursors/init.lua line 31
+    MCpattern         0                        <Lua 176: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/multicursors/lua/multicursors/init.lua:35>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/multicursors/lua/multicursors/init.lua line 35
+    MCstart           0                        <Lua 172: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/multicursors/lua/multicursors/init.lua:19>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/multicursors/lua/multicursors/init.lua line 19
+    MCunderCursor     0                        <Lua 174: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/multicursors/lua/multicursors/init.lua:27>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/multicursors/lua/multicursors/init.lua line 27
+    MCvisual          0    0                   <Lua 173: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/multicursors/lua/multicursors/init.lua:23>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/multicursors/lua/multicursors/init.lua line 23
+    MCvisualPattern   0    0                   <Lua 177: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/multicursors/lua/multicursors/init.lua:39>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/multicursors/lua/multicursors/init.lua line 39
+    MacroDelete       0                        <Lua 1508: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/nvim-macros/plugin/nvim-macros.lua:13>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/nvim-macros/plugin/nvim-macros.lua line 13
+    MacroSave         *                        <Lua 1506: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/nvim-macros/plugin/nvim-macros.lua:5>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/nvim-macros/plugin/nvim-macros.lua line 5
+    MacroSelect       0                        <Lua 1507: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/nvim-macros/plugin/nvim-macros.lua:9>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/nvim-macros/plugin/nvim-macros.lua line 9
+    MacroYank         *                        <Lua 1518: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/nvim-macros/plugin/nvim-macros.lua:1>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/nvim-macros/plugin/nvim-macros.lua line 1
+!|  Man               *    .  ?    <Lua function> <Lua 1586: /nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/plugin/man.lua:6>
+	Last set from /nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/plugin/man.lua line 6
+    Markit            *            <Lua function> <Lua 761: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/markit/lua/markit/commands.lua:291>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/markit/lua/markit/commands.lua line 550
+    MarksListAll      0                        exe "lua require'marks'.mark_sta
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/marks/plugin/marks.vim line 14
+    MarksListBuf      0                        exe "lua require'marks'.mark_sta
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/marks/plugin/marks.vim line 12
+    MarksListGlobal   0                        exe "lua require'marks'.mark_sta
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/marks/plugin/marks.vim line 13
+    MarksQFListAll    0                        exe "lua require'marks'.mark_sta
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/marks/plugin/marks.vim line 17
+    MarksQFListBuf    0                        exe "lua require'marks'.mark_sta
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/marks/plugin/marks.vim line 15
+    MarksQFListGlobal 0                        exe "lua require'marks'.mark_sta
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/marks/plugin/marks.vim line 16
+    MarksToggleSigns  ?                        silent lua require'marks'.toggle
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/marks/plugin/marks.vim line 11
+    MundoHide         0                        call mundo#MundoHide()
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/vim-mundo/plugin/mundo.vim line 134
+    MundoShow         0                        call mundo#MundoShow()
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/vim-mundo/plugin/mundo.vim line 133
+    MundoToggle       0                        call mundo#MundoToggle()
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/vim-mundo/plugin/mundo.vim line 132
+    Neaterm           *            <Lua function> <Lua 1415: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/neaterm/lua/neaterm/utils.lua:43>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/neaterm/lua/neaterm/utils.lua line 118
+    NeatermBtop       0                        <Lua 1413: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/neaterm/lua/neaterm/utils.lua:108>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/neaterm/lua/neaterm/utils.lua line 118
+    NeatermFloat      0                        <Lua 1420: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/neaterm/lua/neaterm/utils.lua:73>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/neaterm/lua/neaterm/utils.lua line 118
+    NeatermFull       0                        <Lua 1421: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/neaterm/lua/neaterm/utils.lua:78>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/neaterm/lua/neaterm/utils.lua line 118
+    NeatermHistory    0                        <Lua 1411: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/neaterm/lua/neaterm/utils.lua:93>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/neaterm/lua/neaterm/utils.lua line 118
+    NeatermHorizontal 0                        <Lua 1419: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/neaterm/lua/neaterm/utils.lua:68>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/neaterm/lua/neaterm/utils.lua line 118
+    NeatermLazygit    0                        <Lua 1416: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/neaterm/lua/neaterm/utils.lua:108>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/neaterm/lua/neaterm/utils.lua line 118
+    NeatermREPL       0                        <Lua 1410: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/neaterm/lua/neaterm/utils.lua:88>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/neaterm/lua/neaterm/utils.lua line 118
+    NeatermRanger     0                        <Lua 1417: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/neaterm/lua/neaterm/utils.lua:108>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/neaterm/lua/neaterm/utils.lua line 118
+    NeatermToggle     0                        <Lua 1409: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/neaterm/lua/neaterm/utils.lua:83>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/neaterm/lua/neaterm/utils.lua line 118
+    NeatermVariables  0                        <Lua 1412: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/neaterm/lua/neaterm/utils.lua:98>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/neaterm/lua/neaterm/utils.lua line 118
+    NeatermVertical   *                        <Lua 1418: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/neaterm/lua/neaterm/utils.lua:59>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/neaterm/lua/neaterm/utils.lua line 118
+    NeoComposerClear  0                        lua require ('NeoComposer.store'
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/NeoComposer/lua/NeoComposer/maps.lua line 10
+    NeoComposerEditMacros 0                    lua require ('NeoComposer.ui').e
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/NeoComposer/lua/NeoComposer/maps.lua line 8
+    NeoComposerToggleDelay 0                   lua require ('NeoComposer.macro'
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/NeoComposer/lua/NeoComposer/maps.lua line 9
+    Neotree           *            custom      <Lua 26: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/neo-tree/plugin/neo-tree.lua:6>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/neo-tree/plugin/neo-tree.lua line 6
+|   NvimTreeClipboard 0                        <Lua 1123: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/nvim-tree/lua/nvim-tree/commands.lua:68>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/nvim-tree/lua/nvim-tree/commands.lua line 159
+|   NvimTreeClose     0                        <Lua 1119: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/nvim-tree/lua/nvim-tree/commands.lua:22>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/nvim-tree/lua/nvim-tree/commands.lua line 159
+|   NvimTreeCollapse  0                        <Lua 1127: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/nvim-tree/lua/nvim-tree/commands.lua:126>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/nvim-tree/lua/nvim-tree/commands.lua line 159
+|   NvimTreeCollapseKeepBuffers 0              <Lua 1128: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/nvim-tree/lua/nvim-tree/commands.lua:136>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/nvim-tree/lua/nvim-tree/commands.lua line 159
+!|  NvimTreeFindFile  0                        <Lua 1124: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/nvim-tree/lua/nvim-tree/commands.lua:79>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/nvim-tree/lua/nvim-tree/commands.lua line 159
+!   NvimTreeFindFileToggle ?       dir         <Lua 1125: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/nvim-tree/lua/nvim-tree/commands.lua:95>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/nvim-tree/lua/nvim-tree/commands.lua line 159
+|   NvimTreeFocus     0                        <Lua 1121: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/nvim-tree/lua/nvim-tree/commands.lua:48>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/nvim-tree/lua/nvim-tree/commands.lua line 159
+    NvimTreeHiTest    0                        <Lua 1129: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/nvim-tree/lua/nvim-tree/commands.lua:145>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/nvim-tree/lua/nvim-tree/commands.lua line 159
+    NvimTreeOpen      ?            dir         <Lua 1131: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/nvim-tree/lua/nvim-tree/commands.lua:12>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/nvim-tree/lua/nvim-tree/commands.lua line 159
+|   NvimTreeRefresh   0                        <Lua 1122: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/nvim-tree/lua/nvim-tree/commands.lua:58>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/nvim-tree/lua/nvim-tree/commands.lua line 159
+|   NvimTreeResize    1                        <Lua 1126: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/nvim-tree/lua/nvim-tree/commands.lua:111>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/nvim-tree/lua/nvim-tree/commands.lua line 159
+    NvimTreeToggle    ?            dir         <Lua 1120: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/nvim-tree/lua/nvim-tree/commands.lua:33>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/nvim-tree/lua/nvim-tree/commands.lua line 159
+    Oil               *    0c ?    dir         <Lua 1139: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/oil/lua/oil/init.lua:1138>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/oil/lua/oil/init.lua line 1196
+    Open              ?            file        <Lua 8: vim/_core/defaults:38>
+	Last set from ~/repos/nvim-config/nvimtool/vim/_core/defaults line 38
+    OtterActivate     0                        <Lua 1562: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/otter/plugin/otter.lua:4>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/otter/plugin/otter.lua line 4
+    OtterDeactivate   0                        <Lua 1539: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/otter/plugin/otter.lua:7>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/otter/plugin/otter.lua line 7
+!   OtterExport       0                        <Lua 1540: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/otter/plugin/otter.lua:10>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/otter/plugin/otter.lua line 10
+!   OtterExportAs     *            <Lua function> <Lua 1563: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/otter/plugin/otter.lua:13>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/otter/plugin/otter.lua line 13
+!|  PinBuffer         0                        <Lua 351: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/stickybuf/lua/stickybuf.lua:147>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/stickybuf/lua/stickybuf.lua line 249
+!|  PinBuftype        0                        <Lua 352: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/stickybuf/lua/stickybuf.lua:160>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/stickybuf/lua/stickybuf.lua line 249
+!|  PinFiletype       0                        <Lua 353: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/stickybuf/lua/stickybuf.lua:173>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/stickybuf/lua/stickybuf.lua line 249
+    PlenaryBustedDirectory +       file        lua require('plenary.test_harnes
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/plenary/plugin/plenary.vim line 6
+    PlenaryBustedFile 1            file        lua require('plenary.test_harnes
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/plenary/plugin/plenary.vim line 3
+    PrEdit            1                        <Lua 1509: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/projector/plugin/init.lua:3>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/projector/plugin/init.lua line 1
+    PrLoad            1                        <Lua 1492: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/projector/plugin/init.lua:11>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/projector/plugin/init.lua line 9
+    Preview           *    .                   <Lua 1050: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/live-command/lua/live-command/init.lua:84>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/live-command/lua/live-command/init.lua line 84
+!   REPLAttachBufferToREPL 0 0c ?              <Lua 1206: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/yarepl/lua/yarepl/init.lua:1386>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/yarepl/lua/yarepl/init.lua line 1459
+    REPLCleanup       0                        <Lua 1200: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/yarepl/lua/yarepl/init.lua:1386>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/yarepl/lua/yarepl/init.lua line 1416
+    REPLClose         ?    0c ?                <Lua 1204: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/yarepl/lua/yarepl/init.lua:1386>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/yarepl/lua/yarepl/init.lua line 1446
+    REPLDetachBufferToREPL 0 0c ?              <Lua 1207: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/yarepl/lua/yarepl/init.lua:1386>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/yarepl/lua/yarepl/init.lua line 1467
+    REPLExec          *    0c ?                <Lua 1213: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/yarepl/lua/yarepl/init.lua:1386>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/yarepl/lua/yarepl/init.lua line 1512
+    REPLFocus         ?    0c ?                <Lua 1201: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/yarepl/lua/yarepl/init.lua:1386>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/yarepl/lua/yarepl/init.lua line 1422
+    REPLHide          ?    0c ?                <Lua 1202: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/yarepl/lua/yarepl/init.lua:1386>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/yarepl/lua/yarepl/init.lua line 1430
+    REPLHideOrFocus   ?    0c ?                <Lua 1203: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/yarepl/lua/yarepl/init.lua:1386>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/yarepl/lua/yarepl/init.lua line 1438
+    REPLSendLine      ?    0c ?                <Lua 1209: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/yarepl/lua/yarepl/init.lua:1386>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/yarepl/lua/yarepl/init.lua line 1480
+    REPLSendOperator  ?    0c ?                <Lua 1210: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/yarepl/lua/yarepl/init.lua:1386>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/yarepl/lua/yarepl/init.lua line 1488
+    REPLSendVisual    ?    0c ?                <Lua 1208: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/yarepl/lua/yarepl/init.lua:1386>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/yarepl/lua/yarepl/init.lua line 1472
+    REPLSourceOperator ?   0c ?                <Lua 1212: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/yarepl/lua/yarepl/init.lua:1386>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/yarepl/lua/yarepl/init.lua line 1504
+    REPLSourceVisual  ?    0c ?                <Lua 1211: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/yarepl/lua/yarepl/init.lua:1386>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/yarepl/lua/yarepl/init.lua line 1496
+!   REPLStart         ?    0c ?    <Lua function> <Lua 1197: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/yarepl/lua/yarepl/init.lua:1386>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/yarepl/lua/yarepl/init.lua line 1392
+!   REPLStartOrFocusOrHide ? 0c ?  <Lua function> <Lua 1199: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/yarepl/lua/yarepl/init.lua:1386>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/yarepl/lua/yarepl/init.lua line 1402
+    REPLSwap          *                        <Lua 1205: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/yarepl/lua/yarepl/init.lua:1386>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/yarepl/lua/yarepl/init.lua line 1454
+    Refactor          *    %       <Lua function> <Lua 1575: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/refactoring/lua/refactoring/command.lua:10>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/refactoring/lua/refactoring/command.lua line 112
+!|  S                 1    0       custom      :exec s:subvert_dispatcher(<bang
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/vim-abolish/plugin/abolish.vim line 630
+    STerm             *                        <Lua 1464: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/termim/plugin/termim.lua:44>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/termim/plugin/termim.lua line 44
+    SessionConfig     0                        <Lua 349: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/retrospect/lua/retrospect/init.lua:36>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/retrospect/lua/retrospect/init.lua line 94
+    SessionDelete     0                        <Lua 348: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/retrospect/lua/retrospect/init.lua:31>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/retrospect/lua/retrospect/init.lua line 90
+    SessionLoad       0                        <Lua 347: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/retrospect/lua/retrospect/init.lua:22>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/retrospect/lua/retrospect/init.lua line 86
+    SessionSave       0                        <Lua 346: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/retrospect/lua/retrospect/init.lua:17>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/retrospect/lua/retrospect/init.lua line 82
+|   SlimeConfig       0                        call slime#config()
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/vim-slime/plugin/slime.vim line 10
+|   SlimeSend         0    .                   call slime#send_range(<line1>, <
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/vim-slime/plugin/slime.vim line 11
+    SlimeSend0        +                        call slime#send(<args>)
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/vim-slime/plugin/slime.vim line 13
+    SlimeSend1        +                        call slime#send(<q-args> . "\r")
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/vim-slime/plugin/slime.vim line 12
+    SlimeSendCurrentLine 0                     call slime#send(getline(".") . "
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/vim-slime/plugin/slime.vim line 14
+    SmartCursorMoveDown 0                      <Lua 313: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/smart-splits/lua/smart-splits/lazy.lua:72>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/smart-splits/plugin/smart-splits.lua line 4
+    SmartCursorMoveLeft *                      <Lua 310: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/smart-splits/lua/smart-splits/commands.lua:15>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/smart-splits/plugin/smart-splits.lua line 4
+    SmartCursorMoveRight *                     <Lua 311: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/smart-splits/lua/smart-splits/commands.lua:15>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/smart-splits/plugin/smart-splits.lua line 4
+    SmartCursorMoveUp 0                        <Lua 312: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/smart-splits/lua/smart-splits/lazy.lua:72>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/smart-splits/plugin/smart-splits.lua line 4
+    SmartResizeDown   *                        <Lua 309: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/smart-splits/lua/smart-splits/commands.lua:4>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/smart-splits/plugin/smart-splits.lua line 4
+    SmartResizeLeft   *                        <Lua 566: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/smart-splits/lua/smart-splits/commands.lua:4>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/smart-splits/plugin/smart-splits.lua line 4
+    SmartResizeRight  *                        <Lua 306: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/smart-splits/lua/smart-splits/commands.lua:4>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/smart-splits/plugin/smart-splits.lua line 4
+    SmartResizeUp     *                        <Lua 308: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/smart-splits/lua/smart-splits/commands.lua:4>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/smart-splits/plugin/smart-splits.lua line 4
+    SmartSplitsLog    0                        <Lua 318: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/smart-splits/lua/smart-splits/commands.lua:54>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/smart-splits/plugin/smart-splits.lua line 4
+    SmartSplitsLogLevel 1                      <Lua 319: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/smart-splits/lua/smart-splits/commands.lua:61>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/smart-splits/plugin/smart-splits.lua line 4
+    SmartSwapDown     0                        <Lua 317: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/smart-splits/lua/smart-splits/lazy.lua:72>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/smart-splits/plugin/smart-splits.lua line 4
+    SmartSwapLeft     *                        <Lua 314: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/smart-splits/lua/smart-splits/commands.lua:25>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/smart-splits/plugin/smart-splits.lua line 4
+    SmartSwapRight    *                        <Lua 315: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/smart-splits/lua/smart-splits/commands.lua:25>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/smart-splits/plugin/smart-splits.lua line 4
+    SmartSwapUp       0                        <Lua 316: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/smart-splits/lua/smart-splits/lazy.lua:72>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/smart-splits/plugin/smart-splits.lua line 4
+    SnipClose         0                        :lua require'sniprun.display'.cl
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/sniprun/lua/sniprun.lua line 181
+    SnipInfo          *            customlist  :lua require'sniprun'.info(<q-ar
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/sniprun/lua/sniprun.lua line 188
+    SnipReplMemoryClean 0                      :lua require'sniprun'.clear_repl
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/sniprun/lua/sniprun.lua line 179
+    SnipReset         0                        :lua require'sniprun'.reset()
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/sniprun/lua/sniprun.lua line 178
+    SnipRun           ?    .                   <line1>,<line2>call SnipRunLaunc
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/sniprun/lua/sniprun.lua line 193
+    SoftWrapMode      0                        <Lua 199: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/wrapping/lua/wrapping/init.lua:453>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/wrapping/lua/wrapping/init.lua line 453
+!   Sort              *    .                   :lua require('sort').sort("<bang
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/sort/plugin/sort.lua line 1
+    Sterm             *                        <Lua 1463: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/termim/plugin/termim.lua:40>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/termim/plugin/termim.lua line 40
+!|  Subvert           1    0       custom      :exec s:subvert_dispatcher(<bang
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/vim-abolish/plugin/abolish.vim line 627
+!   Symbols           0                        <Lua 669: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/symbols/lua/symbols/init.lua:3091>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/symbols/lua/symbols/init.lua line 35
+    SymbolsClose      0                        <Lua 667: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/symbols/lua/symbols/init.lua:3134>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/symbols/lua/symbols/init.lua line 35
+    SymbolsDebugToggle 0                       <Lua 665: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/symbols/lua/symbols/init.lua:3166>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/symbols/lua/symbols/init.lua line 35
+    SymbolsLogLevel   1            <Lua function> <Lua 663: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/symbols/lua/symbols/log.lua:58>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/symbols/lua/symbols/init.lua line 35
+!   SymbolsOpen       0                        <Lua 668: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/symbols/lua/symbols/init.lua:3116>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/symbols/lua/symbols/init.lua line 35
+!   SymbolsToggle     0                        <Lua 666: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/symbols/lua/symbols/init.lua:3144>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/symbols/lua/symbols/init.lua line 35
+    TSJJoin           0                        <Lua 213: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/treesj/lua/treesj/settings.lua:78>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/treesj/lua/treesj/settings.lua line 78
+    TSJSplit          0                        <Lua 214: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/treesj/lua/treesj/settings.lua:78>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/treesj/lua/treesj/settings.lua line 78
+    TSJToggle         0                        <Lua 212: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/treesj/lua/treesj/settings.lua:78>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/treesj/lua/treesj/settings.lua line 78
+    TTerm             *                        <Lua 1460: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/termim/plugin/termim.lua:28>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/termim/plugin/termim.lua line 28
+    Tabularize        *    .       customlist  <line1>,<line2>call Tabularize(<
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/tabular/plugin/Tabular.vim line 263
+    Telescope         *            <Lua function> <Lua 1170: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/telescope/plugin/telescope.lua:107>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/telescope/plugin/telescope.lua line 107
+    ToggleWrapMode    0                        <Lua 202: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/wrapping/lua/wrapping/init.lua:463>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/wrapping/lua/wrapping/init.lua line 463
+    Tterm             *                        <Lua 1459: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/termim/plugin/termim.lua:24>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/termim/plugin/termim.lua line 24
+    Tutor             ?            custom      call tutor#TutorCmd(<q-args>)
+	Last set from /nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/plugin/tutor.vim line 12
+    UltiSnipsAddFiletypes 1                    :call UltiSnips#AddFiletypes(<q-
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/ultisnips/plugin/UltiSnips.vim line 38
+!   UltiSnipsEdit     ?            customlist  :call UltiSnips#Edit(<q-bang>, <
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/ultisnips/plugin/UltiSnips.vim line 35
+|   Unpin             0                        <Lua 354: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/stickybuf/lua/stickybuf.lua:186>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/stickybuf/lua/stickybuf.lua line 249
+|   UpdateRemotePlugins 0                      call remote#host#UpdateRemotePlu
+	Last set from /nix/store/r0rckj1qdcskjqj61a9d7gwc4vskizvc-neovim-unwrapped-cd72e13/share/nvim/runtime/plugin/rplugin.vim line 69
+    UrlView           *            <Lua function> <Lua 750: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/urlview/lua/urlview/command.lua:8>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/urlview/lua/urlview/command.lua line 62
+|   VMClear           0                        call vm#hard_reset()
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/vim-visual-multi/plugin/visual-multi.vim line 29
+|   VMDebug           0                        call vm#special#commands#debug()
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/vim-visual-multi/plugin/visual-multi.vim line 28
+!   VMFromSearch      0                        call vm#special#commands#depreca
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/vim-visual-multi/plugin/visual-multi.vim line 36
+|   VMLive            0                        call vm#special#commands#live()
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/vim-visual-multi/plugin/visual-multi.vim line 30
+!   VMRegisters       ?                        call vm#special#commands#show_re
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/vim-visual-multi/plugin/visual-multi.vim line 32
+!   VMSearch          ?    .                   call vm#special#commands#search(
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/vim-visual-multi/plugin/visual-multi.vim line 33
+    VMTheme           ?            customlist  call vm#themes#load(<q-args>)
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/vim-visual-multi/plugin/visual-multi.vim line 26
+    VTerm             *                        <Lua 1466: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/termim/plugin/termim.lua:52>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/termim/plugin/termim.lua line 52
+    Vale              0    .                   <Lua 130: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/vale/plugin/vale.lua:11>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/vale/plugin/vale.lua line 15
+    Vterm             *                        <Lua 1465: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/termim/plugin/termim.lua:48>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/termim/plugin/termim.lua line 48
+    Whaler            0                        <Lua 1566: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/whaler/plugin/whaler.lua:1>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/whaler/plugin/whaler.lua line 1
+    WhalerSwitch      0                        <Lua 653: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/whaler/plugin/whaler.lua:5>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/whaler/plugin/whaler.lua line 5
+    WhichKey          *                        <Lua 1525: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/which-key/lua/which-key/config.lua:306>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/which-key/lua/which-key/config.lua line 306
+    WrappingOpenLog   0                        <Lua 215: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/wrapping/lua/wrapping/init.lua:468>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/wrapping/lua/wrapping/init.lua line 468
+    YankyClearHistory 0                        <Lua 1004: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/yanky/lua/yanky.lua:286>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/yanky/lua/yanky.lua line 60
+    YankyRingHistory  0                        <Lua 1001: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/yanky/lua/yanky/picker.lua:11>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/yanky/lua/yanky/picker.lua line 8
+!   Yarepl            +    0c ?    <Lua function> <Lua 1215: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/yarepl/lua/yarepl/init.lua:1574>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/yarepl/lua/yarepl/init.lua line 1574
+!   Yazi              *            <Lua function> <Lua 1482: /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/yazi/lua/yazi/commands.lua:24>
+	Last set from /nix/store/gk2vpz6nz59asz2m40znikbxzid20rji-pde/pack/bundle/opt/yazi/lua/yazi/commands.lua line 55
