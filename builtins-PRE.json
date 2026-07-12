@@ -419,136 +419,3140 @@
         "keybind": "CTRL-X s",
         "description": "spelling suggestions"
     },
-
-    "v::CTRL-A": { "mode": "v", "keybind": "CTRL-A", "description": "2  add N to number in highlighted text" },
-"v::CTRL-C": { "mode": "v", "keybind": "CTRL-C", "description": "   stop Visual mode" },
-"v::CTRL-G": { "mode": "v", "keybind": "CTRL-G", "description": "   toggle between Visual mode and Select mode" },
-"v::<BS>": { "mode": "v", "keybind": "<BS>", "description": "2  Select mode: delete highlighted area" },
-"v::CTRL-H": { "mode": "v", "keybind": "CTRL-H", "description": "2  same as <BS>" },
-"v::CTRL-O": { "mode": "v", "keybind": "CTRL-O", "description": "   switch from Select to Visual mode for one command" },
-"v::CTRL-V": { "mode": "v", "keybind": "CTRL-V", "description": "   make Visual mode blockwise or stop Visual mode" },
-"v::CTRL-X": { "mode": "v", "keybind": "CTRL-X", "description": "2  subtract N from number in highlighted text" },
-"v::<Esc>": { "mode": "v", "keybind": "<Esc>", "description": "   stop Visual mode" },
-"v::CTRL-]": { "mode": "v", "keybind": "CTRL-]", "description": "   jump to highlighted tag" },
-"v::!": { "mode": "v", "keybind": "!{filter}", "description": "2  filter the highlighted lines through the external command {filter}" },
-"v:::": { "mode": "v", "keybind": ":", "description": "   start a command-line with the highlighted lines as a range" },
-"v::<": { "mode": "v", "keybind": "<", "description": "2  shift the highlighted lines one 'shiftwidth' left" },
-"v::=": { "mode": "v", "keybind": "=", "description": "2  filter the highlighted lines through the external program given with the 'equalprg' option" },
-"v::>": { "mode": "v", "keybind": ">", "description": "2  shift the highlighted lines one 'shiftwidth' right" },
-"v::b_A": { "mode": "v", "keybind": "A", "description": "2  block mode: append same text in all lines, after the highlighted area" },
-"v::C": { "mode": "v", "keybind": "C", "description": "2  delete the highlighted lines and start insert" },
-"v::D": { "mode": "v", "keybind": "D", "description": "2  delete the highlighted lines" },
-"v::b_I": { "mode": "v", "keybind": "I", "description": "2  block mode: insert same text in all lines, before the highlighted area" },
-"v::J": { "mode": "v", "keybind": "J", "description": "2  join the highlighted lines" },
-"v::K": { "mode": "v", "keybind": "K", "description": "   run 'keywordprg' on the highlighted area" },
-"v::O": { "mode": "v", "keybind": "O", "description": "   move horizontally to other corner of area" },
-"v::P": { "mode": "v", "keybind": "P", "description": "   replace highlighted area with register contents; registers are unchanged" },
-"v::R": { "mode": "v", "keybind": "R", "description": "2  delete the highlighted lines and start insert" },
-"v::S": { "mode": "v", "keybind": "S", "description": "2  delete the highlighted lines and start insert" },
-"v::U": { "mode": "v", "keybind": "U", "description": "2  make highlighted area uppercase" },
-"v::V": { "mode": "v", "keybind": "V", "description": "   make Visual mode linewise or stop Visual mode" },
-"v::X": { "mode": "v", "keybind": "X", "description": "2  delete the highlighted lines" },
-"v::Y": { "mode": "v", "keybind": "Y", "description": "   yank the highlighted lines" },
-"v::aquote": { "mode": "v", "keybind": "a\"", "description": "   extend highlighted area with a double quoted string" },
-"v::a(": { "mode": "v", "keybind": "a(", "description": "   same as ab" },
-"v::a)": { "mode": "v", "keybind": "a)", "description": "   same as ab" },
-"v::a<": { "mode": "v", "keybind": "a<", "description": "   extend highlighted area with a <> block" },
-"v::a>": { "mode": "v", "keybind": "a>", "description": "   same as a<" },
-"v::aB": { "mode": "v", "keybind": "aB", "description": "   extend highlighted area with a {} block" },
-"v::aW": { "mode": "v", "keybind": "aW", "description": "   extend highlighted area with \"a WORD\"" },
-"v::a[": { "mode": "v", "keybind": "a[", "description": "   extend highlighted area with a [] block" },
-"v::a]": { "mode": "v", "keybind": "a]", "description": "   same as a[" },
-"v::a`": { "mode": "v", "keybind": "a`", "description": "   extend highlighted area with a backtick quoted string" },
-"v::ab": { "mode": "v", "keybind": "ab", "description": "   extend highlighted area with a () block" },
-"v::al": { "mode": "v", "keybind": "al", "description": "   extend highlighted area to all lines" },
-"v::ap": { "mode": "v", "keybind": "ap", "description": "   extend highlighted area with a paragraph" },
-"v::as": { "mode": "v", "keybind": "as", "description": "   extend highlighted area with a sentence" },
-"v::at": { "mode": "v", "keybind": "at", "description": "   extend highlighted area with a tag block" },
-"v::aw": { "mode": "v", "keybind": "aw", "description": "   extend highlighted area with \"a word\"" },
-"v::a{": { "mode": "v", "keybind": "a{", "description": "   same as aB" },
-"v::a}": { "mode": "v", "keybind": "a}", "description": "   same as aB" },
-"v::c": { "mode": "v", "keybind": "c", "description": "2  delete highlighted area and start insert" },
-"v::d": { "mode": "v", "keybind": "d", "description": "2  delete highlighted area" },
-"v::g_CTRL-A": { "mode": "v", "keybind": "g CTRL-A", "description": "2  add N to number in highlighted text" },
-"v::g_CTRL-X": { "mode": "v", "keybind": "g CTRL-X", "description": "2  subtract N from number in highlighted text" },
-"v::gJ": { "mode": "v", "keybind": "gJ", "description": "2  join the highlighted lines without inserting spaces" },
-"v::gq": { "mode": "v", "keybind": "gq", "description": "2  format the highlighted lines" },
-"v::gv": { "mode": "v", "keybind": "gv", "description": "   exchange current and previous highlighted area" },
-"v::iquote": { "mode": "v", "keybind": "i\"", "description": "   extend highlighted area with a double quoted string (without quotes)" },
-"v::i'": { "mode": "v", "keybind": "i'", "description": "   extend highlighted area with a single quoted string (without quotes)" },
-"v::i(": { "mode": "v", "keybind": "i(", "description": "   same as ib" },
-"v::i)": { "mode": "v", "keybind": "i)", "description": "   same as ib" },
-"v::i<": { "mode": "v", "keybind": "i<", "description": "   extend highlighted area with inner <> block" },
-"v::i>": { "mode": "v", "keybind": "i>", "description": "   same as i<" },
-"v::iB": { "mode": "v", "keybind": "iB", "description": "   extend highlighted area with inner {} block" },
-"v::iW": { "mode": "v", "keybind": "iW", "description": "   extend highlighted area with \"inner WORD\"" },
-"v::i[": { "mode": "v", "keybind": "i[", "description": "   extend highlighted area with inner [] block" },
-"v::i]": { "mode": "v", "keybind": "i]", "description": "   same as i[" },
-"v::i`": { "mode": "v", "keybind": "i`", "description": "   extend highlighted area with a backtick quoted string (without the backticks)" },
-"v::ib": { "mode": "v", "keybind": "ib", "description": "   extend highlighted area with inner () block" },
-"v::il": { "mode": "v", "keybind": "il", "description": "   select inner line under cursor" },
-"v::ip": { "mode": "v", "keybind": "ip", "description": "   extend highlighted area with inner paragraph" },
-"v::is": { "mode": "v", "keybind": "is", "description": "   extend highlighted area with inner sentence" },
-"v::it": { "mode": "v", "keybind": "it", "description": "   extend highlighted area with inner tag block" },
-"v::iw": { "mode": "v", "keybind": "iw", "description": "   extend highlighted area with \"inner word\"" },
-"v::i{": { "mode": "v", "keybind": "i{", "description": "   same as iB" },
-"v::i}": { "mode": "v", "keybind": "i}", "description": "   same as iB" },
-"v::o": { "mode": "v", "keybind": "o", "description": "   move cursor to other corner of area" },
-"v::p": { "mode": "v", "keybind": "p", "description": "   replace highlighted area with register contents; deleted text in unnamed register" },
-"v::r": { "mode": "v", "keybind": "r", "description": "2  replace highlighted area with a character" },
-"v::s": { "mode": "v", "keybind": "s", "description": "2  delete highlighted area and start insert" },
-"v::u": { "mode": "v", "keybind": "u", "description": "2  make highlighted area lowercase" },
-"v::v": { "mode": "v", "keybind": "v", "description": "   make Visual mode charwise or stop Visual mode" },
-"v::x": { "mode": "v", "keybind": "x", "description": "2  delete the highlighted area" },
-"v::y": { "mode": "v", "keybind": "y", "description": "   yank the highlighted area" },
-"v::~": { "mode": "v", "keybind": "~", "description": "2  swap case for the highlighted area" },
-
-"c::<BS>": { "mode": "c", "keybind": "<BS>", "description": "delete the character in front of the cursor" },
-"c::<CR>": { "mode": "c", "keybind": "<CR>", "description": "execute entered command" },
-"c::<NL>": { "mode": "c", "keybind": "<NL>", "description": "same as <CR>" },
-"c::<S-Tab>": { "mode": "c", "keybind": "<S-Tab>", "description": "same as CTRL-P" },
-"c::<Tab>": { "mode": "c", "keybind": "<Tab>", "description": "if 'wildchar' is <Tab>: Do completion on the pattern in front of the cursor" },
-"c::CTRL-A": { "mode": "c", "keybind": "CTRL-A", "description": "do completion on the pattern in front of the cursor and insert all matches" },
-"c::CTRL-B": { "mode": "c", "keybind": "CTRL-B", "description": "cursor to begin of command-line" },
-"c::CTRL-C": { "mode": "c", "keybind": "CTRL-C", "description": "same as <Esc>" },
-"c::CTRL-D": { "mode": "c", "keybind": "CTRL-D", "description": "list completions that match the pattern in front of the cursor" },
-"c::CTRL-E": { "mode": "c", "keybind": "CTRL-E", "description": "cursor to end of command-line" },
-"c::CTRL-G": { "mode": "c", "keybind": "CTRL-G", "description": "next match when 'incsearch' is active" },
-"c::CTRL-H": { "mode": "c", "keybind": "CTRL-H", "description": "same as <BS>" },
-"c::CTRL-I": { "mode": "c", "keybind": "CTRL-I", "description": "same as <Tab>" },
-"c::CTRL-J": { "mode": "c", "keybind": "CTRL-J", "description": "same as <CR>" },
-"c::CTRL-L": { "mode": "c", "keybind": "CTRL-L", "description": "do completion on the pattern in front of the cursor and insert the longest common part" },
-"c::CTRL-M": { "mode": "c", "keybind": "CTRL-M", "description": "same as <CR>" },
-"c::CTRL-N": { "mode": "c", "keybind": "CTRL-N", "description": "after using 'wildchar' with multiple matches: go to next match, otherwise: recall older command-line from history." },
-"c::wildchar": { "mode": "c", "keybind": "'wildchar'", "description": "Do completion on the pattern in front of the cursor (default: <Tab>)" },
-"c::CTRL-P": { "mode": "c", "keybind": "CTRL-P", "description": "after using 'wildchar' with multiple matches: go to previous match, otherwise: recall older command-line from history." },
-"c::CTRL-Q": { "mode": "c", "keybind": "CTRL-Q", "description": "same as CTRL-V, unless it's used for terminal control flow" },
-"c::CTRL-T": { "mode": "c", "keybind": "CTRL-T", "description": "previous match when 'incsearch' is active" },
-"c::CTRL-U": { "mode": "c", "keybind": "CTRL-U", "description": "remove all characters between the cursor and beginning of command-line" },
-"c::CTRL-V": { "mode": "c", "keybind": "CTRL-V", "description": "insert next non-digit literally, insert three digit decimal number as a single byte." },
-"c::CTRL-W": { "mode": "c", "keybind": "CTRL-W", "description": "delete the word in front of the cursor" },
-"c::CTRL-]": { "mode": "c", "keybind": "CTRL-]", "description": "trigger abbreviation" },
-"c::CTRL-^": { "mode": "c", "keybind": "CTRL-^", "description": "toggle use of |:lmap| mappings" },
-"c::<Del>": { "mode": "c", "keybind": "<Del>", "description": "delete the character under the cursor" },
-
-"c::<Left>": { "mode": "c", "keybind": "<Left>", "description": "cursor left" },
-"c::<S-Left>": { "mode": "c", "keybind": "<S-Left>", "description": "cursor one word left" },
-"c::<C-Left>": { "mode": "c", "keybind": "<C-Left>", "description": "cursor one word left" },
-"c::<Right>": { "mode": "c", "keybind": "<Right>", "description": "cursor right" },
-"c::<S-Right>": { "mode": "c", "keybind": "<S-Right>", "description": "cursor one word right" },
-"c::<C-Right>": { "mode": "c", "keybind": "<C-Right>", "description": "cursor one word right" },
-"c::<Up>": { "mode": "c", "keybind": "<Up>", "description": "recall previous command-line from history that matches pattern in front of the cursor" },
-"c::<S-Up>": { "mode": "c", "keybind": "<S-Up>", "description": "recall previous command-line from history" },
-"c::<Down>": { "mode": "c", "keybind": "<Down>", "description": "recall next command-line from history that matches pattern in front of the cursor" },
-"c::<S-Down>": { "mode": "c", "keybind": "<S-Down>", "description": "recall next command-line from history" },
-"c::<Home>": { "mode": "c", "keybind": "<Home>", "description": "cursor to start of command-line" },
-"c::<End>": { "mode": "c", "keybind": "<End>", "description": "cursor to end of command-line" },
-"c::<PageDown>": { "mode": "c", "keybind": "<PageDown>", "description": "same as <S-Down>" },
-"c::<PageUp>": { "mode": "c", "keybind": "<PageUp>", "description": "same as <S-Up>" },
-"c::<Insert>": { "mode": "c", "keybind": "<Insert>", "description": "toggle insert/overstrike mode" },
-"c::<LeftMouse>": { "mode": "c", "keybind": "<LeftMouse>", "description": "cursor at mouse click" },
-"v::a'": { "mode": "v", "keybind": "a'", "description": "   single quoted string" },
-"": {}
-
-
+    "v::CTRL-A": {
+        "mode": "v",
+        "keybind": "CTRL-A",
+        "description": "2  add N to number in highlighted text"
+    },
+    "v::CTRL-C": {
+        "mode": "v",
+        "keybind": "CTRL-C",
+        "description": "stop Visual mode"
+    },
+    "v::CTRL-G": {
+        "mode": "v",
+        "keybind": "CTRL-G",
+        "description": "toggle between Visual mode and Select mode"
+    },
+    "v::<BS>": {
+        "mode": "v",
+        "keybind": "<BS>",
+        "description": "2  Select mode: delete highlighted area"
+    },
+    "v::CTRL-H": {
+        "mode": "v",
+        "keybind": "CTRL-H",
+        "description": "2  same as <BS>"
+    },
+    "v::CTRL-O": {
+        "mode": "v",
+        "keybind": "CTRL-O",
+        "description": "switch from Select to Visual mode for one command"
+    },
+    "v::CTRL-V": {
+        "mode": "v",
+        "keybind": "CTRL-V",
+        "description": "make Visual mode blockwise or stop Visual mode"
+    },
+    "v::CTRL-X": {
+        "mode": "v",
+        "keybind": "CTRL-X",
+        "description": "2  subtract N from number in highlighted text"
+    },
+    "v::<Esc>": {
+        "mode": "v",
+        "keybind": "<Esc>",
+        "description": "stop Visual mode"
+    },
+    "v::CTRL-]": {
+        "mode": "v",
+        "keybind": "CTRL-]",
+        "description": "jump to highlighted tag"
+    },
+    "v::!": {
+        "mode": "v",
+        "keybind": "!{filter}",
+        "description": "2  filter the highlighted lines through the external command {filter}"
+    },
+    "v:::": {
+        "mode": "v",
+        "keybind": ":",
+        "description": "start a command-line with the highlighted lines as a range"
+    },
+    "v::<": {
+        "mode": "v",
+        "keybind": "<",
+        "description": "2  shift the highlighted lines one 'shiftwidth' left"
+    },
+    "v::=": {
+        "mode": "v",
+        "keybind": "=",
+        "description": "2  filter the highlighted lines through the external program given with the 'equalprg' option"
+    },
+    "v::>": {
+        "mode": "v",
+        "keybind": ">",
+        "description": "2  shift the highlighted lines one 'shiftwidth' right"
+    },
+    "v::b_A": {
+        "mode": "v",
+        "keybind": "A",
+        "description": "2  block mode: append same text in all lines, after the highlighted area"
+    },
+    "v::C": {
+        "mode": "v",
+        "keybind": "C",
+        "description": "2  delete the highlighted lines and start insert"
+    },
+    "v::D": {
+        "mode": "v",
+        "keybind": "D",
+        "description": "2  delete the highlighted lines"
+    },
+    "v::b_I": {
+        "mode": "v",
+        "keybind": "I",
+        "description": "2  block mode: insert same text in all lines, before the highlighted area"
+    },
+    "v::J": {
+        "mode": "v",
+        "keybind": "J",
+        "description": "2  join the highlighted lines"
+    },
+    "v::K": {
+        "mode": "v",
+        "keybind": "K",
+        "description": "run 'keywordprg' on the highlighted area"
+    },
+    "v::O": {
+        "mode": "v",
+        "keybind": "O",
+        "description": "move horizontally to other corner of area"
+    },
+    "v::P": {
+        "mode": "v",
+        "keybind": "P",
+        "description": "replace highlighted area with register contents; registers are unchanged"
+    },
+    "v::R": {
+        "mode": "v",
+        "keybind": "R",
+        "description": "2  delete the highlighted lines and start insert"
+    },
+    "v::S": {
+        "mode": "v",
+        "keybind": "S",
+        "description": "2  delete the highlighted lines and start insert"
+    },
+    "v::U": {
+        "mode": "v",
+        "keybind": "U",
+        "description": "2  make highlighted area uppercase"
+    },
+    "v::V": {
+        "mode": "v",
+        "keybind": "V",
+        "description": "make Visual mode linewise or stop Visual mode"
+    },
+    "v::X": {
+        "mode": "v",
+        "keybind": "X",
+        "description": "2  delete the highlighted lines"
+    },
+    "v::Y": {
+        "mode": "v",
+        "keybind": "Y",
+        "description": "yank the highlighted lines"
+    },
+    "v::aquote": {
+        "mode": "v",
+        "keybind": "a\\'",
+        "description": "extend highlighted area with a double quoted string"
+    },
+    "v::a(": {
+        "mode": "v",
+        "keybind": "a(",
+        "description": "same as ab"
+    },
+    "v::a)": {
+        "mode": "v",
+        "keybind": "a)",
+        "description": "same as ab"
+    },
+    "v::a<": {
+        "mode": "v",
+        "keybind": "a<",
+        "description": "extend highlighted area with a <> block"
+    },
+    "v::a>": {
+        "mode": "v",
+        "keybind": "a>",
+        "description": "same as a<"
+    },
+    "v::aB": {
+        "mode": "v",
+        "keybind": "aB",
+        "description": "extend highlighted area with a {} block"
+    },
+    "v::aW": {
+        "mode": "v",
+        "keybind": "aW",
+        "description": "extend highlighted area with 'a WORD'"
+    },
+    "v::a[": {
+        "mode": "v",
+        "keybind": "a[",
+        "description": "extend highlighted area with a [] block"
+    },
+    "v::a]": {
+        "mode": "v",
+        "keybind": "a]",
+        "description": "same as a["
+    },
+    "v::a`": {
+        "mode": "v",
+        "keybind": "a`",
+        "description": "extend highlighted area with a backtick quoted string"
+    },
+    "v::ab": {
+        "mode": "v",
+        "keybind": "ab",
+        "description": "extend highlighted area with a () block"
+    },
+    "v::al": {
+        "mode": "v",
+        "keybind": "al",
+        "description": "extend highlighted area to all lines"
+    },
+    "v::ap": {
+        "mode": "v",
+        "keybind": "ap",
+        "description": "extend highlighted area with a paragraph"
+    },
+    "v::as": {
+        "mode": "v",
+        "keybind": "as",
+        "description": "extend highlighted area with a sentence"
+    },
+    "v::at": {
+        "mode": "v",
+        "keybind": "at",
+        "description": "extend highlighted area with a tag block"
+    },
+    "v::aw": {
+        "mode": "v",
+        "keybind": "aw",
+        "description": "extend highlighted area with 'a word'"
+    },
+    "v::a{": {
+        "mode": "v",
+        "keybind": "a{",
+        "description": "same as aB"
+    },
+    "v::a}": {
+        "mode": "v",
+        "keybind": "a}",
+        "description": "same as aB"
+    },
+    "v::c": {
+        "mode": "v",
+        "keybind": "c",
+        "description": "2  delete highlighted area and start insert"
+    },
+    "v::d": {
+        "mode": "v",
+        "keybind": "d",
+        "description": "2  delete highlighted area"
+    },
+    "v::g_CTRL-A": {
+        "mode": "v",
+        "keybind": "g CTRL-A",
+        "description": "2  add N to number in highlighted text"
+    },
+    "v::g_CTRL-X": {
+        "mode": "v",
+        "keybind": "g CTRL-X",
+        "description": "2  subtract N from number in highlighted text"
+    },
+    "v::gJ": {
+        "mode": "v",
+        "keybind": "gJ",
+        "description": "2  join the highlighted lines without inserting spaces"
+    },
+    "v::gq": {
+        "mode": "v",
+        "keybind": "gq",
+        "description": "2  format the highlighted lines"
+    },
+    "v::gv": {
+        "mode": "v",
+        "keybind": "gv",
+        "description": "exchange current and previous highlighted area"
+    },
+    "v::iquote": {
+        "mode": "v",
+        "keybind": "i\\'",
+        "description": "extend highlighted area with a double quoted string (without quotes)"
+    },
+    "v::i'": {
+        "mode": "v",
+        "keybind": "i'",
+        "description": "extend highlighted area with a single quoted string (without quotes)"
+    },
+    "v::i(": {
+        "mode": "v",
+        "keybind": "i(",
+        "description": "same as ib"
+    },
+    "v::i)": {
+        "mode": "v",
+        "keybind": "i)",
+        "description": "same as ib"
+    },
+    "v::i<": {
+        "mode": "v",
+        "keybind": "i<",
+        "description": "extend highlighted area with inner <> block"
+    },
+    "v::i>": {
+        "mode": "v",
+        "keybind": "i>",
+        "description": "same as i<"
+    },
+    "v::iB": {
+        "mode": "v",
+        "keybind": "iB",
+        "description": "extend highlighted area with inner {} block"
+    },
+    "v::iW": {
+        "mode": "v",
+        "keybind": "iW",
+        "description": "extend highlighted area with `inner WORD`"
+    },
+    "v::i[": {
+        "mode": "v",
+        "keybind": "i[",
+        "description": "extend highlighted area with inner [] block"
+    },
+    "v::i]": {
+        "mode": "v",
+        "keybind": "i]",
+        "description": "same as i["
+    },
+    "v::i`": {
+        "mode": "v",
+        "keybind": "i`",
+        "description": "extend highlighted area with a backtick quoted string (without the backticks)"
+    },
+    "v::ib": {
+        "mode": "v",
+        "keybind": "ib",
+        "description": "extend highlighted area with inner () block"
+    },
+    "v::il": {
+        "mode": "v",
+        "keybind": "il",
+        "description": "select inner line under cursor"
+    },
+    "v::ip": {
+        "mode": "v",
+        "keybind": "ip",
+        "description": "extend highlighted area with inner paragraph"
+    },
+    "v::is": {
+        "mode": "v",
+        "keybind": "is",
+        "description": "extend highlighted area with inner sentence"
+    },
+    "v::it": {
+        "mode": "v",
+        "keybind": "it",
+        "description": "extend highlighted area with inner tag block"
+    },
+    "v::iw": {
+        "mode": "v",
+        "keybind": "iw",
+        "description": "extend highlighted area with `inner word`"
+    },
+    "v::i{": {
+        "mode": "v",
+        "keybind": "i{",
+        "description": "same as iB"
+    },
+    "v::i}": {
+        "mode": "v",
+        "keybind": "i}",
+        "description": "same as iB"
+    },
+    "v::o": {
+        "mode": "v",
+        "keybind": "o",
+        "description": "move cursor to other corner of area"
+    },
+    "v::p": {
+        "mode": "v",
+        "keybind": "p",
+        "description": "replace highlighted area with register contents; deleted text in unnamed register"
+    },
+    "v::r": {
+        "mode": "v",
+        "keybind": "r",
+        "description": "2  replace highlighted area with a character"
+    },
+    "v::s": {
+        "mode": "v",
+        "keybind": "s",
+        "description": "2  delete highlighted area and start insert"
+    },
+    "v::u": {
+        "mode": "v",
+        "keybind": "u",
+        "description": "2  make highlighted area lowercase"
+    },
+    "v::v": {
+        "mode": "v",
+        "keybind": "v",
+        "description": "make Visual mode charwise or stop Visual mode"
+    },
+    "v::x": {
+        "mode": "v",
+        "keybind": "x",
+        "description": "2  delete the highlighted area"
+    },
+    "v::y": {
+        "mode": "v",
+        "keybind": "y",
+        "description": "yank the highlighted area"
+    },
+    "v::~": {
+        "mode": "v",
+        "keybind": "~",
+        "description": "2  swap case for the highlighted area"
+    },
+    "c::<BS>": {
+        "mode": "c",
+        "keybind": "<BS>",
+        "description": "delete the character in front of the cursor"
+    },
+    "c::<CR>": {
+        "mode": "c",
+        "keybind": "<CR>",
+        "description": "execute entered command"
+    },
+    "c::<NL>": {
+        "mode": "c",
+        "keybind": "<NL>",
+        "description": "same as <CR>"
+    },
+    "c::<S-Tab>": {
+        "mode": "c",
+        "keybind": "<S-Tab>",
+        "description": "same as CTRL-P"
+    },
+    "c::<Tab>": {
+        "mode": "c",
+        "keybind": "<Tab>",
+        "description": "if 'wildchar' is <Tab>: Do completion on the pattern in front of the cursor"
+    },
+    "c::CTRL-A": {
+        "mode": "c",
+        "keybind": "CTRL-A",
+        "description": "do completion on the pattern in front of the cursor and insert all matches"
+    },
+    "c::CTRL-B": {
+        "mode": "c",
+        "keybind": "CTRL-B",
+        "description": "cursor to begin of command-line"
+    },
+    "c::CTRL-C": {
+        "mode": "c",
+        "keybind": "CTRL-C",
+        "description": "same as <Esc>"
+    },
+    "c::CTRL-D": {
+        "mode": "c",
+        "keybind": "CTRL-D",
+        "description": "list completions that match the pattern in front of the cursor"
+    },
+    "c::CTRL-E": {
+        "mode": "c",
+        "keybind": "CTRL-E",
+        "description": "cursor to end of command-line"
+    },
+    "c::CTRL-G": {
+        "mode": "c",
+        "keybind": "CTRL-G",
+        "description": "next match when 'incsearch' is active"
+    },
+    "c::CTRL-H": {
+        "mode": "c",
+        "keybind": "CTRL-H",
+        "description": "same as <BS>"
+    },
+    "c::CTRL-I": {
+        "mode": "c",
+        "keybind": "CTRL-I",
+        "description": "same as <Tab>"
+    },
+    "c::CTRL-J": {
+        "mode": "c",
+        "keybind": "CTRL-J",
+        "description": "same as <CR>"
+    },
+    "c::CTRL-L": {
+        "mode": "c",
+        "keybind": "CTRL-L",
+        "description": "do completion on the pattern in front of the cursor and insert the longest common part"
+    },
+    "c::CTRL-M": {
+        "mode": "c",
+        "keybind": "CTRL-M",
+        "description": "same as <CR>"
+    },
+    "c::CTRL-N": {
+        "mode": "c",
+        "keybind": "CTRL-N",
+        "description": "after using 'wildchar' with multiple matches: go to next match, otherwise: recall older command-line from history."
+    },
+    "c::wildchar": {
+        "mode": "c",
+        "keybind": "'wildchar'",
+        "description": "Do completion on the pattern in front of the cursor (default: <Tab>)"
+    },
+    "c::CTRL-P": {
+        "mode": "c",
+        "keybind": "CTRL-P",
+        "description": "after using 'wildchar' with multiple matches: go to previous match, otherwise: recall older command-line from history."
+    },
+    "c::CTRL-Q": {
+        "mode": "c",
+        "keybind": "CTRL-Q",
+        "description": "same as CTRL-V, unless it's used for terminal control flow"
+    },
+    "c::CTRL-T": {
+        "mode": "c",
+        "keybind": "CTRL-T",
+        "description": "previous match when 'incsearch' is active"
+    },
+    "c::CTRL-U": {
+        "mode": "c",
+        "keybind": "CTRL-U",
+        "description": "remove all characters between the cursor and beginning of command-line"
+    },
+    "c::CTRL-V": {
+        "mode": "c",
+        "keybind": "CTRL-V",
+        "description": "insert next non-digit literally, insert three digit decimal number as a single byte."
+    },
+    "c::CTRL-W": {
+        "mode": "c",
+        "keybind": "CTRL-W",
+        "description": "delete the word in front of the cursor"
+    },
+    "c::CTRL-]": {
+        "mode": "c",
+        "keybind": "CTRL-]",
+        "description": "trigger abbreviation"
+    },
+    "c::CTRL-^": {
+        "mode": "c",
+        "keybind": "CTRL-^",
+        "description": "toggle use of |:lmap| mappings"
+    },
+    "c::<Del>": {
+        "mode": "c",
+        "keybind": "<Del>",
+        "description": "delete the character under the cursor"
+    },
+    "c::<Left>": {
+        "mode": "c",
+        "keybind": "<Left>",
+        "description": "cursor left"
+    },
+    "c::<S-Left>": {
+        "mode": "c",
+        "keybind": "<S-Left>",
+        "description": "cursor one word left"
+    },
+    "c::<C-Left>": {
+        "mode": "c",
+        "keybind": "<C-Left>",
+        "description": "cursor one word left"
+    },
+    "c::<Right>": {
+        "mode": "c",
+        "keybind": "<Right>",
+        "description": "cursor right"
+    },
+    "c::<S-Right>": {
+        "mode": "c",
+        "keybind": "<S-Right>",
+        "description": "cursor one word right"
+    },
+    "c::<C-Right>": {
+        "mode": "c",
+        "keybind": "<C-Right>",
+        "description": "cursor one word right"
+    },
+    "c::<Up>": {
+        "mode": "c",
+        "keybind": "<Up>",
+        "description": "recall previous command-line from history that matches pattern in front of the cursor"
+    },
+    "c::<S-Up>": {
+        "mode": "c",
+        "keybind": "<S-Up>",
+        "description": "recall previous command-line from history"
+    },
+    "c::<Down>": {
+        "mode": "c",
+        "keybind": "<Down>",
+        "description": "recall next command-line from history that matches pattern in front of the cursor"
+    },
+    "c::<S-Down>": {
+        "mode": "c",
+        "keybind": "<S-Down>",
+        "description": "recall next command-line from history"
+    },
+    "c::<Home>": {
+        "mode": "c",
+        "keybind": "<Home>",
+        "description": "cursor to start of command-line"
+    },
+    "c::<End>": {
+        "mode": "c",
+        "keybind": "<End>",
+        "description": "cursor to end of command-line"
+    },
+    "c::<PageDown>": {
+        "mode": "c",
+        "keybind": "<PageDown>",
+        "description": "same as <S-Down>"
+    },
+    "c::<PageUp>": {
+        "mode": "c",
+        "keybind": "<PageUp>",
+        "description": "same as <S-Up>"
+    },
+    "c::<Insert>": {
+        "mode": "c",
+        "keybind": "<Insert>",
+        "description": "toggle insert/overstrike mode"
+    },
+    "c::<LeftMouse>": {
+        "mode": "c",
+        "keybind": "<LeftMouse>",
+        "description": "cursor at mouse click"
+    },
+    "v::a'": {
+        "mode": "v",
+        "keybind": "a'",
+        "description": "single quoted string"
+    },
+    "n::CTRL-W_CTRL-B": {
+        "mode": "n",
+        "keybind": "CTRL-W CTRL-B",
+        "description": "same as 'CTRL-W b'"
+    },
+    "n::CTRL-W_CTRL-C": {
+        "mode": "n",
+        "keybind": "CTRL-W CTRL-C",
+        "description": "no-op"
+    },
+    "n::CTRL-W_CTRL-D": {
+        "mode": "n",
+        "keybind": "CTRL-W CTRL-D",
+        "description": "same as 'CTRL-W d'"
+    },
+    "n::CTRL-W_CTRL-F": {
+        "mode": "n",
+        "keybind": "CTRL-W CTRL-F",
+        "description": "same as 'CTRL-W f'"
+    },
+    "n::CTRL-W_CTRL-H": {
+        "mode": "n",
+        "keybind": "CTRL-W CTRL-H",
+        "description": "same as 'CTRL-W h'"
+    },
+    "n::CTRL-W_CTRL-I": {
+        "mode": "n",
+        "keybind": "CTRL-W CTRL-I",
+        "description": "same as 'CTRL-W i'"
+    },
+    "n::CTRL-W_CTRL-J": {
+        "mode": "n",
+        "keybind": "CTRL-W CTRL-J",
+        "description": "same as 'CTRL-W j'"
+    },
+    "n::CTRL-W_CTRL-K": {
+        "mode": "n",
+        "keybind": "CTRL-W CTRL-K",
+        "description": "same as 'CTRL-W k'"
+    },
+    "n::CTRL-W_CTRL-L": {
+        "mode": "n",
+        "keybind": "CTRL-W CTRL-L",
+        "description": "same as 'CTRL-W l'"
+    },
+    "n::CTRL-W_CTRL-N": {
+        "mode": "n",
+        "keybind": "CTRL-W CTRL-N",
+        "description": "same as 'CTRL-W n'"
+    },
+    "n::CTRL-W_CTRL-O": {
+        "mode": "n",
+        "keybind": "CTRL-W CTRL-O",
+        "description": "same as 'CTRL-W o'"
+    },
+    "n::CTRL-W_CTRL-P": {
+        "mode": "n",
+        "keybind": "CTRL-W CTRL-P",
+        "description": "same as 'CTRL-W p'"
+    },
+    "n::CTRL-W_CTRL-Q": {
+        "mode": "n",
+        "keybind": "CTRL-W CTRL-Q",
+        "description": "same as 'CTRL-W q'"
+    },
+    "n::CTRL-W_CTRL-R": {
+        "mode": "n",
+        "keybind": "CTRL-W CTRL-R",
+        "description": "same as 'CTRL-W r'"
+    },
+    "n::CTRL-W_CTRL-S": {
+        "mode": "n",
+        "keybind": "CTRL-W CTRL-S",
+        "description": "same as 'CTRL-W s'"
+    },
+    "n::CTRL-W_CTRL-T": {
+        "mode": "n",
+        "keybind": "CTRL-W CTRL-T",
+        "description": "same as 'CTRL-W t'"
+    },
+    "n::CTRL-W_CTRL-V": {
+        "mode": "n",
+        "keybind": "CTRL-W CTRL-V",
+        "description": "same as 'CTRL-W v'"
+    },
+    "n::CTRL-W_CTRL-W": {
+        "mode": "n",
+        "keybind": "CTRL-W CTRL-W",
+        "description": "same as 'CTRL-W w'"
+    },
+    "n::CTRL-W_CTRL-X": {
+        "mode": "n",
+        "keybind": "CTRL-W CTRL-X",
+        "description": "same as 'CTRL-W x'"
+    },
+    "n::CTRL-W_CTRL-Z": {
+        "mode": "n",
+        "keybind": "CTRL-W CTRL-Z",
+        "description": "same as 'CTRL-W z'"
+    },
+    "n::CTRL-W_CTRL-]": {
+        "mode": "n",
+        "keybind": "CTRL-W CTRL-]",
+        "description": "same as 'CTRL-W ]'"
+    },
+    "n::CTRL-W_CTRL-^": {
+        "mode": "n",
+        "keybind": "CTRL-W CTRL-^",
+        "description": "same as 'CTRL-W ^'"
+    },
+    "n::CTRL-W_CTRL-_": {
+        "mode": "n",
+        "keybind": "CTRL-W CTRL-_",
+        "description": "same as 'CTRL-W _'"
+    },
+    "n::CTRL-W_+": {
+        "mode": "n",
+        "keybind": "CTRL-W +",
+        "description": "increase current window height N lines"
+    },
+    "n::CTRL-W_-": {
+        "mode": "n",
+        "keybind": "CTRL-W -",
+        "description": "decrease current window height N lines"
+    },
+    "n::CTRL-W_<": {
+        "mode": "n",
+        "keybind": "CTRL-W <",
+        "description": "decrease current window width N columns"
+    },
+    "n::CTRL-W_=": {
+        "mode": "n",
+        "keybind": "CTRL-W =",
+        "description": "make all windows the same height & width"
+    },
+    "n::CTRL-W_>": {
+        "mode": "n",
+        "keybind": "CTRL-W >",
+        "description": "increase current window width N columns"
+    },
+    "n::CTRL-W_H": {
+        "mode": "n",
+        "keybind": "CTRL-W H",
+        "description": "move current window to the far left"
+    },
+    "n::CTRL-W_J": {
+        "mode": "n",
+        "keybind": "CTRL-W J",
+        "description": "move current window to the very bottom"
+    },
+    "n::CTRL-W_K": {
+        "mode": "n",
+        "keybind": "CTRL-W K",
+        "description": "move current window to the very top"
+    },
+    "n::CTRL-W_L": {
+        "mode": "n",
+        "keybind": "CTRL-W L",
+        "description": "move current window to the far right"
+    },
+    "n::CTRL-W_P": {
+        "mode": "n",
+        "keybind": "CTRL-W P",
+        "description": "go to preview window"
+    },
+    "n::CTRL-W_R": {
+        "mode": "n",
+        "keybind": "CTRL-W R",
+        "description": "rotate windows upwards N times"
+    },
+    "n::CTRL-W_S": {
+        "mode": "n",
+        "keybind": "CTRL-W S",
+        "description": "same as 'CTRL-W s'"
+    },
+    "n::CTRL-W_T": {
+        "mode": "n",
+        "keybind": "CTRL-W T",
+        "description": "move current window to a new tabpage"
+    },
+    "n::CTRL-W_W": {
+        "mode": "n",
+        "keybind": "CTRL-W W",
+        "description": "go to N previous window (wrap around)"
+    },
+    "n::CTRL-W_]": {
+        "mode": "n",
+        "keybind": "CTRL-W ]",
+        "description": "split window and jump to tag under cursor"
+    },
+    "n::CTRL-W_^": {
+        "mode": "n",
+        "keybind": "CTRL-W ^",
+        "description": "split current window and edit alternate file N"
+    },
+    "n::CTRL-W__": {
+        "mode": "n",
+        "keybind": "CTRL-W _",
+        "description": "set current window height to N (default: very high)"
+    },
+    "n::CTRL-W_b": {
+        "mode": "n",
+        "keybind": "CTRL-W b",
+        "description": "go to bottom window"
+    },
+    "n::CTRL-W_c": {
+        "mode": "n",
+        "keybind": "CTRL-W c",
+        "description": "close current window (like |:close|)"
+    },
+    "n::CTRL-W_d": {
+        "mode": "n",
+        "keybind": "CTRL-W d",
+        "description": "split window and jump to definition under the cursor"
+    },
+    "n::CTRL-W_f": {
+        "mode": "n",
+        "keybind": "CTRL-W f",
+        "description": "split window and edit file name under the cursor"
+    },
+    "n::CTRL-W_F": {
+        "mode": "n",
+        "keybind": "CTRL-W F",
+        "description": "split window and edit file name under the cursor and jump to the line number following the file name."
+    },
+    "n::CTRL-W_g]": {
+        "mode": "n",
+        "keybind": "CTRL-W g ]",
+        "description": "split window and do |:tselect| for tag under cursor"
+    },
+    "n::CTRL-W_g}": {
+        "mode": "n",
+        "keybind": "CTRL-W g }",
+        "description": "do a |:ptjump| to the tag under the cursor"
+    },
+    "n::CTRL-W_gf": {
+        "mode": "n",
+        "keybind": "CTRL-W g f",
+        "description": "edit file name under the cursor in a new tabpage"
+    },
+    "n::CTRL-W_gF": {
+        "mode": "n",
+        "keybind": "CTRL-W g F",
+        "description": "edit file name under the cursor in a new tabpage and jump to the line number following the file name."
+    },
+    "n::CTRL-W_gt": {
+        "mode": "n",
+        "keybind": "CTRL-W g t",
+        "description": "same as `gt`: go to next tabpage"
+    },
+    "n::CTRL-W_gT": {
+        "mode": "n",
+        "keybind": "CTRL-W g T",
+        "description": "same as `gT`: go to previous tabpage"
+    },
+    "n::CTRL-W_g<Tab>": {
+        "mode": "n",
+        "keybind": "CTRL-W g <Tab>",
+        "description": "same as |g<Tab>|: go to last accessed tab page"
+    },
+    "n::CTRL-W_CTRL-G_]": {
+        "mode": "n",
+        "keybind": "CTRL-W CTRL-G ]",
+        "description": "split window and do |:tselect| for tag under cursor"
+    },
+    "n::CTRL-W_CTRL-G_}": {
+        "mode": "n",
+        "keybind": "CTRL-W CTRL-G }",
+        "description": "do a |:ptjump| to the tag under the cursor"
+    },
+    "n::CTRL-W_CTRL-G_f": {
+        "mode": "n",
+        "keybind": "CTRL-W CTRL-G f",
+        "description": "edit file name under the cursor in a new tabpage"
+    },
+    "n::CTRL-W_CTRL-G_F": {
+        "mode": "n",
+        "keybind": "CTRL-W CTRL-G F",
+        "description": "edit file name under the cursor in a new tabpage and jump to the line number following the file name."
+    },
+    "n::CTRL-W_CTRL-G_t": {
+        "mode": "n",
+        "keybind": "CTRL-W CTRL-G t",
+        "description": "same as `gt`: go to next tabpage"
+    },
+    "n::CTRL-W_CTRL-G_T": {
+        "mode": "n",
+        "keybind": "CTRL-W CTRL-G T",
+        "description": "same as `gT`: go to previous tabpage"
+    },
+    "n::CTRL-W_CTRL-G_<Tab>": {
+        "mode": "n",
+        "keybind": "CTRL-W CTRL-G <Tab>",
+        "description": "same as |g<Tab>|: go to last accessed tab page"
+    },
+    "n::CTRL-W_h": {
+        "mode": "n",
+        "keybind": "CTRL-W h",
+        "description": "go to Nth left window (stop at first window)"
+    },
+    "n::CTRL-W_i": {
+        "mode": "n",
+        "keybind": "CTRL-W i",
+        "description": "split window and jump to declaration of identifier under the cursor"
+    },
+    "n::CTRL-W_j": {
+        "mode": "n",
+        "keybind": "CTRL-W j",
+        "description": "go N windows down (stop at last window)"
+    },
+    "n::CTRL-W_k": {
+        "mode": "n",
+        "keybind": "CTRL-W k",
+        "description": "go N windows up (stop at first window)"
+    },
+    "n::CTRL-W_l": {
+        "mode": "n",
+        "keybind": "CTRL-W l",
+        "description": "go to Nth right window (stop at last window)"
+    },
+    "n::CTRL-W_n": {
+        "mode": "n",
+        "keybind": "CTRL-W n",
+        "description": "open new window, N lines high"
+    },
+    "n::CTRL-W_o": {
+        "mode": "n",
+        "keybind": "CTRL-W o",
+        "description": "close all but current window (like |:only|)"
+    },
+    "n::CTRL-W_p": {
+        "mode": "n",
+        "keybind": "CTRL-W p",
+        "description": "go to previous (last accessed) window"
+    },
+    "n::CTRL-W_q": {
+        "mode": "n",
+        "keybind": "CTRL-W q",
+        "description": "quit current window (like |:quit|)"
+    },
+    "n::CTRL-W_r": {
+        "mode": "n",
+        "keybind": "CTRL-W r",
+        "description": "rotate windows downwards N times"
+    },
+    "n::CTRL-W_s": {
+        "mode": "n",
+        "keybind": "CTRL-W s",
+        "description": "split current window in two parts, new window N lines high"
+    },
+    "n::CTRL-W_t": {
+        "mode": "n",
+        "keybind": "CTRL-W t",
+        "description": "go to top window"
+    },
+    "n::CTRL-W_v": {
+        "mode": "n",
+        "keybind": "CTRL-W v",
+        "description": "split current window vertically, new window N columns wide"
+    },
+    "n::CTRL-W_w": {
+        "mode": "n",
+        "keybind": "CTRL-W w",
+        "description": "go to N next window (wrap around)"
+    },
+    "n::CTRL-W_x": {
+        "mode": "n",
+        "keybind": "CTRL-W x",
+        "description": "exchange current window with window N (default: next window)"
+    },
+    "n::CTRL-W_z": {
+        "mode": "n",
+        "keybind": "CTRL-W z",
+        "description": "close preview window"
+    },
+    "n::CTRL-W_bar": {
+        "mode": "n",
+        "keybind": "CTRL-W |",
+        "description": "set window width to N columns"
+    },
+    "n::CTRL-W_}": {
+        "mode": "n",
+        "keybind": "CTRL-W }",
+        "description": "show tag under cursor in preview window"
+    },
+    "n::CTRL-W_<Down>": {
+        "mode": "n",
+        "keybind": "CTRL-W <Down>",
+        "description": "same as 'CTRL-W j'"
+    },
+    "n::CTRL-W_<Up>": {
+        "mode": "n",
+        "keybind": "CTRL-W <Up>",
+        "description": "same as 'CTRL-W k'"
+    },
+    "n::CTRL-W_<Left>": {
+        "mode": "n",
+        "keybind": "CTRL-W <Left>",
+        "description": "same as 'CTRL-W h'"
+    },
+    "n::g_CTRL-G": {
+        "mode": "n",
+        "keybind": "g CTRL-G",
+        "description": "show information about current cursor position"
+    },
+    "n::g_CTRL-H": {
+        "mode": "n",
+        "keybind": "g CTRL-H",
+        "description": "start Select block mode"
+    },
+    "n::g_CTRL-]": {
+        "mode": "n",
+        "keybind": "g CTRL-]",
+        "description": "|:tjump| to the tag under the cursor"
+    },
+    "n::g#": {
+        "mode": "n",
+        "keybind": "g#",
+        "description": "1  like '#', but without using '\\<' and '\\>'"
+    },
+    "n::g$": {
+        "mode": "n",
+        "keybind": "g$",
+        "description": "1  when 'wrap' off go to rightmost character of the current line that is on the screen; when 'wrap' on go to the rightmost character of the current screen line"
+    },
+    "n::g&": {
+        "mode": "n",
+        "keybind": "g&",
+        "description": "2  repeat last ':s' on all lines"
+    },
+    "n::g'": {
+        "mode": "n",
+        "keybind": "g'{mark}",
+        "description": "1  like |'| but without changing the jumplist"
+    },
+    "n::g`": {
+        "mode": "n",
+        "keybind": "g`{mark}",
+        "description": "1  like |`| but without changing the jumplist"
+    },
+    "n::gstar": {
+        "mode": "n",
+        "keybind": "g*",
+        "description": "1  like '*', but without using '\\<' and '\\>'"
+    },
+    "n::g+": {
+        "mode": "n",
+        "keybind": "g+",
+        "description": "go to newer text state N times"
+    },
+    "n::g,": {
+        "mode": "n",
+        "keybind": "g,",
+        "description": "1  go to N newer position in change list"
+    },
+    "n::g-": {
+        "mode": "n",
+        "keybind": "g-",
+        "description": "go to older text state N times"
+    },
+    "n::g0": {
+        "mode": "n",
+        "keybind": "g0",
+        "description": "1  when 'wrap' off go to leftmost character of the current line that is on the screen; when 'wrap' on go to the leftmost character of the current screen line"
+    },
+    "n::g8": {
+        "mode": "n",
+        "keybind": "g8",
+        "description": "print hex value of bytes used in UTF-8 character under the cursor"
+    },
+    "n::g;": {
+        "mode": "n",
+        "keybind": "g;",
+        "description": "1  go to N older position in change list"
+    },
+    "n::g<": {
+        "mode": "n",
+        "keybind": "g<",
+        "description": "display previous command output"
+    },
+    "n::g?": {
+        "mode": "n",
+        "keybind": "g?",
+        "description": "2  Rot13 encoding operator"
+    },
+    "n::g??": {
+        "mode": "n",
+        "keybind": "g??",
+        "description": "2  Rot13 encode current line"
+    },
+    "n::g?g?": {
+        "mode": "n",
+        "keybind": "g?g?",
+        "description": "2  Rot13 encode current line"
+    },
+    "n::gD": {
+        "mode": "n",
+        "keybind": "gD",
+        "description": "1  go to definition of word under the cursor in current file"
+    },
+    "n::gE": {
+        "mode": "n",
+        "keybind": "gE",
+        "description": "1  go backwards to the end of the previous WORD"
+    },
+    "n::gH": {
+        "mode": "n",
+        "keybind": "gH",
+        "description": "start Select line mode"
+    },
+    "n::gI": {
+        "mode": "n",
+        "keybind": "gI",
+        "description": "2  like 'I', but always start in column 1"
+    },
+    "n::gJ": {
+        "mode": "n",
+        "keybind": "gJ",
+        "description": "2  join lines without inserting space"
+    },
+    "n::gN": {
+        "mode": "n",
+        "keybind": "gN",
+        "description": "1,2  find the previous match with the last used search pattern and Visually select it"
+    },
+    "n::gP": {
+        "mode": "n",
+        "keybind": "[\"x]gP",
+        "description": "2  put the text [from register x] before the cursor N times, leave the cursor after it"
+    },
+    "n::gQ": {
+        "mode": "n",
+        "keybind": "gQ",
+        "description": "switch to 'Ex' mode with Vim editing"
+    },
+    "n::gR": {
+        "mode": "n",
+        "keybind": "gR",
+        "description": "2  enter Virtual Replace mode"
+    },
+    "n::gT": {
+        "mode": "n",
+        "keybind": "gT",
+        "description": "go to the previous tabpage"
+    },
+    "n::gU": {
+        "mode": "n",
+        "keybind": "gU{motion}",
+        "description": "2  make Nmove text uppercase"
+    },
+    "n::gV": {
+        "mode": "n",
+        "keybind": "gV",
+        "description": "don't reselect the previous Visual area when executing a mapping or menu in Select mode"
+    },
+    "n::g]": {
+        "mode": "n",
+        "keybind": "g]",
+        "description": ":tselect on the tag under the cursor"
+    },
+    "n::g^": {
+        "mode": "n",
+        "keybind": "g^",
+        "description": "1  when 'wrap' off go to leftmost non-white character of the current line that is on the screen; when 'wrap' on go to the leftmost non-white character of the current screen line"
+    },
+    "n::g_": {
+        "mode": "n",
+        "keybind": "g_",
+        "description": "1  cursor to the last CHAR N - 1 lines lower"
+    },
+    "n::ga": {
+        "mode": "n",
+        "keybind": "ga",
+        "description": "print ascii value of character under the cursor"
+    },
+    "n::gd": {
+        "mode": "n",
+        "keybind": "gd",
+        "description": "1  go to definition of word under the cursor in current function"
+    },
+    "n::ge": {
+        "mode": "n",
+        "keybind": "ge",
+        "description": "1  go backwards to the end of the previous word"
+    },
+    "n::gf": {
+        "mode": "n",
+        "keybind": "gf",
+        "description": "start editing the file whose name is under the cursor"
+    },
+    "n::gF": {
+        "mode": "n",
+        "keybind": "gF",
+        "description": "start editing the file whose name is under the cursor and jump to the line number following the filename."
+    },
+    "n::gg": {
+        "mode": "n",
+        "keybind": "gg",
+        "description": "1  cursor to line N, default first line"
+    },
+    "n::gh": {
+        "mode": "n",
+        "keybind": "gh",
+        "description": "start Select mode"
+    },
+    "n::gi": {
+        "mode": "n",
+        "keybind": "gi",
+        "description": "2  like 'i', but first move to the |'^| mark"
+    },
+    "n::gj": {
+        "mode": "n",
+        "keybind": "gj",
+        "description": "1  like 'j', but when 'wrap' on go N screen lines down"
+    },
+    "n::gk": {
+        "mode": "n",
+        "keybind": "gk",
+        "description": "1  like 'k', but when 'wrap' on go N screen lines up"
+    },
+    "n::gm": {
+        "mode": "n",
+        "keybind": "gm",
+        "description": "1  go to character at middle of the screenline"
+    },
+    "n::gM": {
+        "mode": "n",
+        "keybind": "gM",
+        "description": "1  go to character at middle of the text line"
+    },
+    "n::gn": {
+        "mode": "n",
+        "keybind": "gn",
+        "description": "1,2  find the next match with the last used search pattern and Visually select it"
+    },
+    "n::go": {
+        "mode": "n",
+        "keybind": "go",
+        "description": "1  cursor to byte N in the buffer"
+    },
+    "n::gp": {
+        "mode": "n",
+        "keybind": "[\"x]gp",
+        "description": "2  put the text [from register x] after the cursor N times, leave the cursor after it"
+    },
+    "n::gq": {
+        "mode": "n",
+        "keybind": "gq{motion}",
+        "description": "2  format Nmove text"
+    },
+    "n::gr": {
+        "mode": "n",
+        "keybind": "gr{char}",
+        "description": "2  virtual replace N chars with {char}"
+    },
+    "n::gs": {
+        "mode": "n",
+        "keybind": "gs",
+        "description": "go to sleep for N seconds (default 1)"
+    },
+    "n::gt": {
+        "mode": "n",
+        "keybind": "gt",
+        "description": "go to the next tabpage"
+    },
+    "n::gu": {
+        "mode": "n",
+        "keybind": "gu{motion}",
+        "description": "2  make Nmove text lowercase"
+    },
+    "n::gv": {
+        "mode": "n",
+        "keybind": "gv",
+        "description": "reselect the previous Visual area"
+    },
+    "n::gw": {
+        "mode": "n",
+        "keybind": "gw{motion}",
+        "description": "2  format Nmove text and keep cursor"
+    },
+    "n::gx": {
+        "mode": "n",
+        "keybind": "gx",
+        "description": "execute application for filepath at cursor"
+    },
+    "n::g@": {
+        "mode": "n",
+        "keybind": "g@{motion}",
+        "description": "call 'operatorfunc'"
+    },
+    "n::g~": {
+        "mode": "n",
+        "keybind": "g~{motion}",
+        "description": "2  swap case for Nmove text"
+    },
+    "n::g<Down>": {
+        "mode": "n",
+        "keybind": "g<Down>",
+        "description": "1  same as 'gj'"
+    },
+    "n::g<End>": {
+        "mode": "n",
+        "keybind": "g<End>",
+        "description": "1  same as 'g$' but go to the rightmost non-blank character instead"
+    },
+    "n::g<Home>": {
+        "mode": "n",
+        "keybind": "g<Home>",
+        "description": "1  same as 'g0'"
+    },
+    "n::g<LeftMouse>": {
+        "mode": "n",
+        "keybind": "g<LeftMouse>",
+        "description": "same as <C-LeftMouse> g<MiddleMouse>; same as <C-MiddleMouse>"
+    },
+    "n::g<RightMouse>": {
+        "mode": "n",
+        "keybind": "g<RightMouse>",
+        "description": "same as <C-RightMouse>"
+    },
+    "n::g<Tab>": {
+        "mode": "n",
+        "keybind": "g<Tab>",
+        "description": "go to last accessed tabpage"
+    },
+    "n::g<Up>": {
+        "mode": "n",
+        "keybind": "g<Up>",
+        "description": "1  same as 'gk'"
+    },
+    "n::z<CR>": {
+        "mode": "n",
+        "keybind": "z<CR>",
+        "description": "redraw, cursor line to top of window, cursor on first non-blank"
+    },
+    "n::zN<CR>": {
+        "mode": "n",
+        "keybind": "z{height}<CR>",
+        "description": "redraw, make window {height} lines high"
+    },
+    "n::z+": {
+        "mode": "n",
+        "keybind": "z+",
+        "description": "cursor on line N (default line below window), otherwise like 'z<CR>'"
+    },
+    "n::z-": {
+        "mode": "n",
+        "keybind": "z-",
+        "description": "redraw, cursor line at bottom of window, cursor on first non-blank"
+    },
+    "n::z.": {
+        "mode": "n",
+        "keybind": "z.",
+        "description": "redraw, cursor line to center of window, cursor on first non-blank"
+    },
+    "n::z=": {
+        "mode": "n",
+        "keybind": "z=",
+        "description": "give spelling suggestions"
+    },
+    "n::zA": {
+        "mode": "n",
+        "keybind": "zA",
+        "description": "open a closed fold or close an open fold recursively"
+    },
+    "n::zC": {
+        "mode": "n",
+        "keybind": "zC",
+        "description": "close folds recursively"
+    },
+    "n::zD": {
+        "mode": "n",
+        "keybind": "zD",
+        "description": "delete folds recursively"
+    },
+    "n::zE": {
+        "mode": "n",
+        "keybind": "zE",
+        "description": "eliminate all folds"
+    },
+    "n::zF": {
+        "mode": "n",
+        "keybind": "zF",
+        "description": "create a fold for N lines"
+    },
+    "n::zG": {
+        "mode": "n",
+        "keybind": "zG",
+        "description": "temporarily mark word as correctly spelled"
+    },
+    "n::zH": {
+        "mode": "n",
+        "keybind": "zH",
+        "description": "when 'wrap' off scroll half a screenwidth to the right"
+    },
+    "n::zL": {
+        "mode": "n",
+        "keybind": "zL",
+        "description": "when 'wrap' off scroll half a screenwidth to the left"
+    },
+    "n::zM": {
+        "mode": "n",
+        "keybind": "zM",
+        "description": "set 'foldlevel' to zero"
+    },
+    "n::zN": {
+        "mode": "n",
+        "keybind": "zN",
+        "description": "set 'foldenable'"
+    },
+    "n::zO": {
+        "mode": "n",
+        "keybind": "zO",
+        "description": "open folds recursively"
+    },
+    "n::zR": {
+        "mode": "n",
+        "keybind": "zR",
+        "description": "set 'foldlevel' to the deepest fold"
+    },
+    "n::zW": {
+        "mode": "n",
+        "keybind": "zW",
+        "description": "temporarily mark word as incorrectly spelled"
+    },
+    "n::zX": {
+        "mode": "n",
+        "keybind": "zX",
+        "description": "re-apply 'foldlevel'"
+    },
+    "n::z^": {
+        "mode": "n",
+        "keybind": "z^",
+        "description": "cursor on line N (default line above window), otherwise like 'z-'"
+    },
+    "n::za": {
+        "mode": "n",
+        "keybind": "za",
+        "description": "open a closed fold, close an open fold"
+    },
+    "n::zb": {
+        "mode": "n",
+        "keybind": "zb",
+        "description": "redraw, cursor line at bottom of window"
+    },
+    "n::zc": {
+        "mode": "n",
+        "keybind": "zc",
+        "description": "close a fold"
+    },
+    "n::zd": {
+        "mode": "n",
+        "keybind": "zd",
+        "description": "delete a fold"
+    },
+    "n::ze": {
+        "mode": "n",
+        "keybind": "ze",
+        "description": "when 'wrap' off scroll horizontally to position the cursor at the end (right side) of the screen"
+    },
+    "n::zf": {
+        "mode": "n",
+        "keybind": "zf{motion}",
+        "description": "create a fold for Nmove text"
+    },
+    "n::zg": {
+        "mode": "n",
+        "keybind": "zg",
+        "description": "permanently mark word as correctly spelled"
+    },
+    "n::zh": {
+        "mode": "n",
+        "keybind": "zh",
+        "description": "when 'wrap' off scroll screen N characters to the right"
+    },
+    "n::zi": {
+        "mode": "n",
+        "keybind": "zi",
+        "description": "toggle 'foldenable'"
+    },
+    "n::zj": {
+        "mode": "n",
+        "keybind": "zj",
+        "description": "1  move to the start of the next fold"
+    },
+    "n::zk": {
+        "mode": "n",
+        "keybind": "zk",
+        "description": "1  move to the end of the previous fold"
+    },
+    "n::zl": {
+        "mode": "n",
+        "keybind": "zl",
+        "description": "when 'wrap' off scroll screen N characters to the left"
+    },
+    "n::zm": {
+        "mode": "n",
+        "keybind": "zm",
+        "description": "subtract one from 'foldlevel'"
+    },
+    "n::zn": {
+        "mode": "n",
+        "keybind": "zn",
+        "description": "reset 'foldenable'"
+    },
+    "n::zo": {
+        "mode": "n",
+        "keybind": "zo",
+        "description": "open fold"
+    },
+    "n::zp": {
+        "mode": "n",
+        "keybind": "zp",
+        "description": "paste in block-mode without trailing spaces"
+    },
+    "n::zP": {
+        "mode": "n",
+        "keybind": "zP",
+        "description": "paste in block-mode without trailing spaces"
+    },
+    "n::zr": {
+        "mode": "n",
+        "keybind": "zr",
+        "description": "add one to 'foldlevel'"
+    },
+    "n::zs": {
+        "mode": "n",
+        "keybind": "zs",
+        "description": "when 'wrap' off scroll horizontally to position the cursor at the start (left side) of the screen"
+    },
+    "n::zt": {
+        "mode": "n",
+        "keybind": "zt",
+        "description": "redraw, cursor line at top of window"
+    },
+    "n::zuw": {
+        "mode": "n",
+        "keybind": "zuw",
+        "description": "undo |zw|"
+    },
+    "n::zug": {
+        "mode": "n",
+        "keybind": "zug",
+        "description": "undo |zg|"
+    },
+    "n::zuW": {
+        "mode": "n",
+        "keybind": "zuW",
+        "description": "undo |zW|"
+    },
+    "n::zuG": {
+        "mode": "n",
+        "keybind": "zuG",
+        "description": "undo |zG|"
+    },
+    "n::zv": {
+        "mode": "n",
+        "keybind": "zv",
+        "description": "open enough folds to view the cursor line"
+    },
+    "n::zw": {
+        "mode": "n",
+        "keybind": "zw",
+        "description": "permanently mark word as incorrectly spelled"
+    },
+    "n::zx": {
+        "mode": "n",
+        "keybind": "zx",
+        "description": "re-apply 'foldlevel' and do 'zv'"
+    },
+    "n::zy": {
+        "mode": "n",
+        "keybind": "zy",
+        "description": "yank without trailing spaces"
+    },
+    "n::zz": {
+        "mode": "n",
+        "keybind": "zz",
+        "description": "redraw, cursor line at center of window"
+    },
+    "n::z<Left>": {
+        "mode": "n",
+        "keybind": "z<Left>",
+        "description": "same as 'zh'"
+    },
+    "n::z<Right>": {
+        "mode": "n",
+        "keybind": "z<Right>",
+        "description": "same as 'zl'"
+    },
+    "n::[_CTRL-D": {
+        "mode": "n",
+        "command": "[CTRL-D",
+        "description": "jump to first #define found in current and included files matching the word under the cursor, start searching at beginning of current file"
+    },
+    "n::[_CTRL-I": {
+        "mode": "n",
+        "command": "[CTRL-I",
+        "description": "jump to first line in current and included files that contains the word under the cursor, start searching at beginning of current file"
+    },
+    "n::[#": {
+        "mode": "n",
+        "command": "[#",
+        "description": "1  cursor to N previous unmatched #if, #else or #ifdef"
+    },
+    "n::['": {
+        "mode": "n",
+        "command": "['",
+        "description": "1  cursor to previous lowercase mark, on first non-blank"
+    },
+    "n::[(": {
+        "mode": "n",
+        "command": "[(",
+        "description": "1  cursor N times back to unmatched '('"
+    },
+    "n::[star": {
+        "mode": "n",
+        "command": "[*",
+        "description": "1  same as `[/`"
+    },
+    "n::[`": {
+        "mode": "n",
+        "command": "[`",
+        "description": "1  cursor to previous lowercase mark"
+    },
+    "n::[/": {
+        "mode": "n",
+        "command": "[/",
+        "description": "1  cursor to N previous start of a C comment"
+    },
+    "n::[D": {
+        "mode": "n",
+        "command": "[D",
+        "description": "list all defines found in current and included files matching the word under the cursor, start searching at beginning of current file"
+    },
+    "n::[I": {
+        "mode": "n",
+        "command": "[I",
+        "description": "list all lines found in current and included files that contain the word under the cursor, start searching at beginning of current file"
+    },
+    "n::[P": {
+        "mode": "n",
+        "command": "[P",
+        "description": "2  same as `[p`"
+    },
+    "n::[[": {
+        "mode": "n",
+        "command": "[[",
+        "description": "1  cursor N sections backward"
+    },
+    "n::[]": {
+        "mode": "n",
+        "command": "[]",
+        "description": "1  cursor N SECTIONS backward"
+    },
+    "n::[c": {
+        "mode": "n",
+        "command": "[c",
+        "description": "1  cursor N times backwards to start of change"
+    },
+    "n::[d": {
+        "mode": "n",
+        "command": "[d",
+        "description": "show first #define found in current and included files matching the word under the cursor, start searching at beginning of current file"
+    },
+    "n::[f": {
+        "mode": "n",
+        "command": "[f",
+        "description": "same as `gf`"
+    },
+    "n::[i": {
+        "mode": "n",
+        "command": "[i",
+        "description": "show first line found in current and included files that contains the word under the cursor, start searching at beginning of current file"
+    },
+    "n::[m": {
+        "mode": "n",
+        "command": "[m",
+        "description": "1  cursor N times back to start of member function"
+    },
+    "n::[p": {
+        "mode": "n",
+        "command": "[p",
+        "description": "2  like `P`, but adjust indent to current line"
+    },
+    "n::[s": {
+        "mode": "n",
+        "command": "[s",
+        "description": "1  move to the previous misspelled word"
+    },
+    "n::[z": {
+        "mode": "n",
+        "command": "[z",
+        "description": "1  move to start of open fold"
+    },
+    "n::[{": {
+        "mode": "n",
+        "command": "[{",
+        "description": "1  cursor N times back to unmatched '{'"
+    },
+    "n::[<MiddleMouse>": {
+        "mode": "n",
+        "command": "[<MiddleMouse>",
+        "description": "2  same as `[p`"
+    },
+    "n::]_CTRL-D": {
+        "mode": "n",
+        "command": "] CTRL-D",
+        "description": "jump to first #define found in current and included files matching the word under the cursor, start searching at cursor position"
+    },
+    "n::]_CTRL-I": {
+        "mode": "n",
+        "command": "] CTRL-I",
+        "description": "jump to first line in current and included files that contains the word under the cursor, start searching at cursor position"
+    },
+    "n::]#": {
+        "mode": "n",
+        "command": "]#",
+        "description": "1  cursor to N next unmatched #endif or #else"
+    },
+    "n::]'": {
+        "mode": "n",
+        "command": "]'",
+        "description": "1  cursor to next lowercase mark, on first non-blank"
+    },
+    "n::])": {
+        "mode": "n",
+        "command": "])",
+        "description": "1  cursor N times forward to unmatched ')'"
+    },
+    "n::]star": {
+        "mode": "n",
+        "command": "]*",
+        "description": "1  same as `]/`"
+    },
+    "n::]`": {
+        "mode": "n",
+        "command": "]`",
+        "description": "1  cursor to next lowercase mark"
+    },
+    "n::]/": {
+        "mode": "n",
+        "command": "]/",
+        "description": "1  cursor to N next end of a C comment"
+    },
+    "n::]D": {
+        "mode": "n",
+        "command": "]D",
+        "description": "list all #defines found in current and included files matching the word under the cursor, start searching at cursor position"
+    },
+    "n::]I": {
+        "mode": "n",
+        "command": "]I",
+        "description": "list all lines found in current and included files that contain the word under the cursor, start searching at cursor position"
+    },
+    "n::]P": {
+        "mode": "n",
+        "command": "]P",
+        "description": "2  same as `[p`"
+    },
+    "n::][": {
+        "mode": "n",
+        "command": "][",
+        "description": "1  cursor N SECTIONS forward"
+    },
+    "n::]]": {
+        "mode": "n",
+        "command": "]]",
+        "description": "1  cursor N sections forward"
+    },
+    "n::]c": {
+        "mode": "n",
+        "command": "]c",
+        "description": "1  cursor N times forward to start of change"
+    },
+    "n::]d": {
+        "mode": "n",
+        "command": "]d",
+        "description": "show first #define found in current and included files matching the word under the cursor, start searching at cursor position"
+    },
+    "n::]f": {
+        "mode": "n",
+        "command": "]f",
+        "description": "same as `gf`"
+    },
+    "n::]i": {
+        "mode": "n",
+        "command": "]i",
+        "description": "show first line found in current and included files that contains the word under the cursor, start searching at cursor position"
+    },
+    "n::]m": {
+        "mode": "n",
+        "command": "]m",
+        "description": "1  cursor N times forward to end of member function"
+    },
+    "n::]p": {
+        "mode": "n",
+        "command": "]p",
+        "description": "2  like `p`, but adjust indent to current line"
+    },
+    "n::]s": {
+        "mode": "n",
+        "command": "]s",
+        "description": "1  move to next misspelled word"
+    },
+    "n::]z": {
+        "mode": "n",
+        "command": "]z",
+        "description": "1  move to end of open fold"
+    },
+    "n::]}": {
+        "mode": "n",
+        "command": "]}",
+        "description": "1  cursor N times forward to unmatched '}'"
+    },
+    "n::]<MiddleMouse>": {
+        "mode": "n",
+        "command": "]<MiddleMouse>",
+        "description": "2  same as `]p`"
+    },
+    "o::v": {
+        "mode": "o",
+        "command": "v",
+        "description": "force operator to work charwise"
+    },
+    "o::V": {
+        "mode": "o",
+        "command": "V",
+        "description": "force operator to work linewise"
+    },
+    "o::CTRL-V": {
+        "mode": "o",
+        "command": "CTRL-V",
+        "description": "force operator to work blockwise"
+    },
+    "v::CTRL-\\_CTRL-N": {
+        "mode": "v",
+        "command": "CTRL-\\ CTRL-N",
+        "description": "stop Visual mode"
+    },
+    "v::CTRL-\\_CTRL-G": {
+        "mode": "v",
+        "command": "CTRL-\\ CTRL-G",
+        "description": "go to Normal mode"
+    },
+    "i::CTRL-\\_CTRL-N": {
+        "mode": "v",
+        "command": "CTRL-\\ CTRL-N",
+        "description": "go to Normal mode"
+    },
+    "i::CTRL-K": {
+        "mode": "v",
+        "command": "CTRL-K",
+        "description": "{char1} {char2} enter digraph"
+    },
+    "i::CTRL-R_CTRL-O": {
+        "mode": "v",
+        "command": "CTRL-R CTRL-O",
+        "description": "{register} insert the contents of a register literally and don't auto-indent"
+    },
+    "i::CTRL-R_CTRL-P": {
+        "mode": "v",
+        "command": "CTRL-R CTRL-P",
+        "description": "{register} insert the contents of a register literally and fix indent."
+    },
+    "i::CTRL-R_CTRL-R": {
+        "mode": "v",
+        "command": "CTRL-R CTRL-R",
+        "description": "{register} insert the contents of a register literally"
+    },
+    "i::CTRL-R": {
+        "mode": "v",
+        "command": "CTRL-R",
+        "description": "{register} insert the contents of a register"
+    },
+    "i::CTRL-SHIFT-Q": {
+        "mode": "v",
+        "command": "CTRL-SHIFT-Q",
+        "description": "{char} like CTRL-Q unless |tui-modifyOtherKeys| is active"
+    },
+    "i::CTRL-SHIFT-V": {
+        "mode": "v",
+        "command": "CTRL-SHIFT-V",
+        "description": "{char} like CTRL-V unless |tui-modifyOtherKeys| is active"
+    },
+    "i::CTRL-V_digit": {
+        "mode": "v",
+        "command": "CTRL-V",
+        "description": "{number} insert three digit decimal number as a single byte."
+    },
+    "i::digraph": {
+        "mode": "v",
+        "command": "{char1}<BS>{char2}",
+        "description": "enter digraph (only when 'digraph' option set)"
+    },
+    "i::CTRL-\\_CTRL-G": {
+        "mode": "v",
+        "command": "CTRL-\\ CTRL-G",
+        "description": "go to Normal mode"
+    },
+    "i::<S-ScrollWheelRight>": {
+        "mode": "v",
+        "command": "<S-ScrollWheelRight>",
+        "description": "move window one page right"
+    },
+    "n::CTRL-A": {
+        "mode": "n",
+        "command": "CTRL-A",
+        "description": "2  add N to number at/after cursor"
+    },
+    "n::CTRL-B": {
+        "mode": "n",
+        "command": "CTRL-B",
+        "description": "1  scroll N screens Backwards"
+    },
+    "n::CTRL-C": {
+        "mode": "n",
+        "command": "CTRL-C",
+        "description": "interrupt current (search) command"
+    },
+    "n::CTRL-D": {
+        "mode": "n",
+        "command": "CTRL-D",
+        "description": "scroll Down N lines (default: half a screen)"
+    },
+    "n::CTRL-E": {
+        "mode": "n",
+        "command": "CTRL-E",
+        "description": "scroll N lines upwards (N lines Extra)"
+    },
+    "n::CTRL-F": {
+        "mode": "n",
+        "command": "CTRL-F",
+        "description": "1  scroll N screens Forward"
+    },
+    "n::CTRL-G": {
+        "mode": "n",
+        "command": "CTRL-G",
+        "description": "display current file name and position"
+    },
+    "n::<BS>": {
+        "mode": "n",
+        "command": "<BS>",
+        "description": "1  same as `h`"
+    },
+    "n::CTRL-H": {
+        "mode": "n",
+        "command": "CTRL-H",
+        "description": "1  same as `h`"
+    },
+    "n::<Tab>": {
+        "mode": "n",
+        "command": "<Tab>",
+        "description": "1  go to N newer entry in jump list"
+    },
+    "n::CTRL-I": {
+        "mode": "n",
+        "command": "CTRL-I",
+        "description": "1  same as <Tab>"
+    },
+    "n::<NL>": {
+        "mode": "n",
+        "command": "<NL>",
+        "description": "1  same as `j`"
+    },
+    "n::<S-NL>": {
+        "mode": "n",
+        "command": "<S-NL>",
+        "description": "1  same as CTRL-F"
+    },
+    "n::CTRL-J": {
+        "mode": "n",
+        "command": "CTRL-J",
+        "description": "1  same as `j`"
+    },
+    "n::CTRL-L": {
+        "mode": "n",
+        "command": "CTRL-L",
+        "description": "redraw screen"
+    },
+    "n::<CR>": {
+        "mode": "n",
+        "command": "<CR>",
+        "description": "1  cursor to the first CHAR N lines lower"
+    },
+    "n::<S-CR>": {
+        "mode": "n",
+        "command": "<S-CR>",
+        "description": "1  same as CTRL-F"
+    },
+    "n::CTRL-M": {
+        "mode": "n",
+        "command": "CTRL-M",
+        "description": "1  same as <CR>"
+    },
+    "n::CTRL-N": {
+        "mode": "n",
+        "command": "CTRL-N",
+        "description": "1  same as `j`"
+    },
+    "n::CTRL-O": {
+        "mode": "n",
+        "command": "CTRL-O",
+        "description": "1  go to N older entry in jump list"
+    },
+    "n::CTRL-P": {
+        "mode": "n",
+        "command": "CTRL-P",
+        "description": "1  same as `k`"
+    },
+    "n::CTRL-R": {
+        "mode": "n",
+        "command": "CTRL-R",
+        "description": "2  redo changes which were undone with 'u'"
+    },
+    "n::CTRL-T": {
+        "mode": "n",
+        "command": "CTRL-T",
+        "description": "jump to N older Tag in tag list"
+    },
+    "n::CTRL-U": {
+        "mode": "n",
+        "command": "CTRL-U",
+        "description": "scroll N lines Upwards (default: half a screen)"
+    },
+    "n::CTRL-V": {
+        "mode": "n",
+        "command": "CTRL-V",
+        "description": "start blockwise Visual mode"
+    },
+    "n::CTRL-W": {
+        "mode": "n",
+        "command": "CTRL-W",
+        "description": "{char}  window commands, see |CTRL-W|"
+    },
+    "n::CTRL-X": {
+        "mode": "n",
+        "command": "CTRL-X",
+        "description": "2  subtract N from number at/after cursor"
+    },
+    "n::CTRL-Y": {
+        "mode": "n",
+        "command": "CTRL-Y",
+        "description": "scroll N lines downwards"
+    },
+    "n::CTRL-Z": {
+        "mode": "n",
+        "command": "CTRL-Z",
+        "description": "suspend program (or start new shell)"
+    },
+    "n::CTRL-\\_CTRL-N": {
+        "mode": "n",
+        "command": "CTRL-\\ CTRL-N",
+        "description": "go to Normal mode (no-op)"
+    },
+    "n::CTRL-\\_CTRL-G": {
+        "mode": "n",
+        "command": "CTRL-\\ CTRL-G",
+        "description": "go to Normal mode (no-op)"
+    },
+    "n::CTRL-]": {
+        "mode": "n",
+        "command": "CTRL-]",
+        "description": ":ta to ident under cursor"
+    },
+    "n::CTRL-^": {
+        "mode": "n",
+        "command": "CTRL-^",
+        "description": "edit Nth alternate file (equivalent to `:e #N`)"
+    },
+    "n::CTRL-<Tab>": {
+        "mode": "n",
+        "command": "CTRL-<Tab>",
+        "description": "same as `g<Tab>` : go to last accessed tab page"
+    },
+    "n::<Space>": {
+        "mode": "n",
+        "command": "<Space>",
+        "description": "1  same as `l`"
+    },
+    "n::!": {
+        "mode": "n",
+        "command": "!{motion}{filter}",
+        "description": "2  filter Nmove text through the {filter} command"
+    },
+    "n::!!": {
+        "mode": "n",
+        "command": "!!{filter}",
+        "description": "2  filter N lines through the {filter} command"
+    },
+    "n::quote": {
+        "mode": "n",
+        "command": "\"{register}",
+        "description": "use {register} for next delete, yank or put ({.%#:} only work with put)"
+    },
+    "n::#": {
+        "mode": "n",
+        "command": "#",
+        "description": "1  search backward for the Nth occurrence of the ident under the cursor"
+    },
+    "n::$": {
+        "mode": "n",
+        "command": "$",
+        "description": "1  cursor to the end of Nth next line"
+    },
+    "n::%": {
+        "mode": "n",
+        "command": "%",
+        "description": "1  find the next (curly/square) bracket on this line and go to its match, or go to matching comment bracket, or go to matching preprocessor directive."
+    },
+    "n::N%": {
+        "mode": "n",
+        "command": "{count}%",
+        "description": "1  go to N percentage in the file"
+    },
+    "n::&": {
+        "mode": "n",
+        "command": "&",
+        "description": "2  repeat last :s"
+    },
+    "n::'": {
+        "mode": "n",
+        "command": "'{a-zA-Z0-9}",
+        "description": "1  cursor to the first CHAR on the line with mark {a-zA-Z0-9}"
+    },
+    "n::''": {
+        "mode": "n",
+        "command": "''",
+        "description": "1  cursor to the first CHAR of the line where the cursor was before the latest jump."
+    },
+    "n::'(": {
+        "mode": "n",
+        "command": "'(",
+        "description": "1  cursor to the first CHAR on the line of the start of the current sentence"
+    },
+    "n::')": {
+        "mode": "n",
+        "command": "')",
+        "description": "1  cursor to the first CHAR on the line of the end of the current sentence"
+    },
+    "n::'<": {
+        "mode": "n",
+        "command": "'<",
+        "description": "1  cursor to the first CHAR of the line where highlighted area starts/started in the current buffer."
+    },
+    "n::'>": {
+        "mode": "n",
+        "command": "'>",
+        "description": "1  cursor to the first CHAR of the line where highlighted area ends/ended in the current buffer."
+    },
+    "n::'[": {
+        "mode": "n",
+        "command": "'[",
+        "description": "1  cursor to the first CHAR on the line of the start of last operated text or start of put text"
+    },
+    "n::']": {
+        "mode": "n",
+        "command": "']",
+        "description": "1  cursor to the first CHAR on the line of the end of last operated text or end of put text"
+    },
+    "n::'{": {
+        "mode": "n",
+        "command": "'{",
+        "description": "1  cursor to the first CHAR on the line of the start of the current paragraph"
+    },
+    "n::'}": {
+        "mode": "n",
+        "command": "'}",
+        "description": "1  cursor to the first CHAR on the line of the end of the current paragraph"
+    },
+    "n::(": {
+        "mode": "n",
+        "command": "(",
+        "description": "1  cursor N sentences backward"
+    },
+    "n::)": {
+        "mode": "n",
+        "command": ")",
+        "description": "1  cursor N sentences forward"
+    },
+    "n::star": {
+        "mode": "n",
+        "command": "*",
+        "description": "1  search forward for the Nth occurrence of the ident under the cursor"
+    },
+    "n::+": {
+        "mode": "n",
+        "command": "+",
+        "description": "1  same as <CR>"
+    },
+    "n::<S-Plus>": {
+        "mode": "n",
+        "command": "<S-+>",
+        "description": "1  same as CTRL-F"
+    },
+    "n::,": {
+        "mode": "n",
+        "command": ",",
+        "description": "1  repeat latest f, t, F or T in opposite direction N times"
+    },
+    "n::-": {
+        "mode": "n",
+        "command": "-",
+        "description": "1  cursor to the first CHAR N lines higher"
+    },
+    "n::<S-Minus>": {
+        "mode": "n",
+        "command": "<S-->",
+        "description": "1  same as CTRL-B"
+    },
+    "n::.": {
+        "mode": "n",
+        "command": ".",
+        "description": "2  repeat last change with count replaced with N"
+    },
+    "n::/": {
+        "mode": "n",
+        "command": "/{pattern}<CR>",
+        "description": "1  search forward for the Nth occurrence of {pattern}"
+    },
+    "n::/<CR>": {
+        "mode": "n",
+        "command": "/<CR>",
+        "description": "1  search forward for {pattern} of last search"
+    },
+    "n::0": {
+        "mode": "n",
+        "command": "0",
+        "description": "1  cursor to the first char of the line"
+    },
+    "n::count 1": {
+        "mode": "n",
+        "command": "1",
+        "description": "prepend to command to give a count"
+    },
+    "n::count 2": {
+        "mode": "n",
+        "command": "2",
+        "description": ""
+    },
+    "n::count 3": {
+        "mode": "n",
+        "command": "3",
+        "description": ""
+    },
+    "n::count 4": {
+        "mode": "n",
+        "command": "4",
+        "description": ""
+    },
+    "n::count 5": {
+        "mode": "n",
+        "command": "5",
+        "description": ""
+    },
+    "n::count 6": {
+        "mode": "n",
+        "command": "6",
+        "description": ""
+    },
+    "n::count 7": {
+        "mode": "n",
+        "command": "7",
+        "description": ""
+    },
+    "n::count 8": {
+        "mode": "n",
+        "command": "8",
+        "description": ""
+    },
+    "n::count 9": {
+        "mode": "n",
+        "command": "9",
+        "description": ""
+    },
+    "n:::": {
+        "mode": "n",
+        "command": ":",
+        "description": "1  start entering an Ex command"
+    },
+    "n::N:": {
+        "mode": "n",
+        "command": "{count}:",
+        "description": "start entering an Ex command with range from current line to N-1 lines down"
+    },
+    "n::;": {
+        "mode": "n",
+        "command": ";",
+        "description": "1  repeat latest f, t, F or T N times"
+    },
+    "n::<": {
+        "mode": "n",
+        "command": "<{motion}",
+        "description": "2  shift Nmove lines one 'shiftwidth' leftwards"
+    },
+    "n::<<": {
+        "mode": "n",
+        "command": "<<",
+        "description": "2  shift N lines one 'shiftwidth' leftwards"
+    },
+    "n::=": {
+        "mode": "n",
+        "command": "={motion}",
+        "description": "2  filter Nmove lines through `indent`"
+    },
+    "n::==": {
+        "mode": "n",
+        "command": "==",
+        "description": "2  filter N lines through `indent`"
+    },
+    "n::>": {
+        "mode": "n",
+        "command": ">{motion}",
+        "description": "2  shift Nmove lines one 'shiftwidth' rightwards"
+    },
+    "n::>>": {
+        "mode": "n",
+        "command": ">>",
+        "description": "2  shift N lines one 'shiftwidth' rightwards"
+    },
+    "n::?": {
+        "mode": "n",
+        "command": "?{pattern}<CR>",
+        "description": "1  search backward for the Nth previous occurrence of {pattern}"
+    },
+    "n::?<CR>": {
+        "mode": "n",
+        "command": "?<CR>",
+        "description": "1  search backward for {pattern} of last search"
+    },
+    "n::@": {
+        "mode": "n",
+        "command": "@{a-z}",
+        "description": "2  execute the contents of register {a-z} N times"
+    },
+    "n::@:": {
+        "mode": "n",
+        "command": "@:",
+        "description": "repeat the previous `:` command N times"
+    },
+    "n::@@": {
+        "mode": "n",
+        "command": "@@",
+        "description": "2  repeat the previous @{a-z} N times"
+    },
+    "n::A": {
+        "mode": "n",
+        "command": "A",
+        "description": "2  append text after the end of the line N times"
+    },
+    "n::B": {
+        "mode": "n",
+        "command": "B",
+        "description": "1  cursor N WORDS backward"
+    },
+    "n::C": {
+        "mode": "n",
+        "command": "[\"x]C",
+        "description": "2  change from the cursor position to the end of the line, and N-1 more lines [into register x]; synonym for `c$`"
+    },
+    "n::D": {
+        "mode": "n",
+        "command": "[\"x]D",
+        "description": "2  delete the characters under the cursor until the end of the line and N-1 more lines [into register x]; synonym for `d$`"
+    },
+    "n::E": {
+        "mode": "n",
+        "command": "E",
+        "description": "1  cursor forward to the end of WORD N"
+    },
+    "n::F": {
+        "mode": "n",
+        "command": "F{char}",
+        "description": "1  cursor to the Nth occurrence of {char} to the left"
+    },
+    "n::G": {
+        "mode": "n",
+        "command": "G",
+        "description": "1  cursor to line N, default last line"
+    },
+    "n::H": {
+        "mode": "n",
+        "command": "H",
+        "description": "1  cursor to line N from top of screen"
+    },
+    "n::I": {
+        "mode": "n",
+        "command": "I",
+        "description": "2  insert text before the first CHAR on the line N times"
+    },
+    "n::J": {
+        "mode": "n",
+        "command": "J",
+        "description": "2  Join N lines; default is 2"
+    },
+    "n::K": {
+        "mode": "n",
+        "command": "K",
+        "description": "lookup Keyword under the cursor with 'keywordprg'"
+    },
+    "n::L": {
+        "mode": "n",
+        "command": "L",
+        "description": "1  cursor to line N from bottom of screen"
+    },
+    "n::M": {
+        "mode": "n",
+        "command": "M",
+        "description": "1  cursor to middle line of screen"
+    },
+    "n::N": {
+        "mode": "n",
+        "command": "N",
+        "description": "1  repeat the latest '/' or '?' N times in opposite direction"
+    },
+    "n::O": {
+        "mode": "n",
+        "command": "O",
+        "description": "2  begin a new line above the cursor and insert text, repeat N times"
+    },
+    "n::P": {
+        "mode": "n",
+        "command": "[\"x]P",
+        "description": "2  put the text [from register x] before the cursor N times"
+    },
+    "n::R": {
+        "mode": "n",
+        "command": "R",
+        "description": "2  enter replace mode: overtype existing characters, repeat the entered text N-1 times"
+    },
+    "n::S": {
+        "mode": "n",
+        "command": "[\"x]S",
+        "description": "2  delete N lines [into register x] and start insert; synonym for `cc`."
+    },
+    "n::T": {
+        "mode": "n",
+        "command": "T{char}",
+        "description": "1  cursor till after Nth occurrence of {char} to the left"
+    },
+    "n::U": {
+        "mode": "n",
+        "command": "U",
+        "description": "2  undo all latest changes on one line"
+    },
+    "n::V": {
+        "mode": "n",
+        "command": "V",
+        "description": "start linewise Visual mode"
+    },
+    "n::W": {
+        "mode": "n",
+        "command": "W",
+        "description": "1  cursor N WORDS forward"
+    },
+    "n::X": {
+        "mode": "n",
+        "command": "[\"x]X",
+        "description": "2  delete N characters before the cursor [into register x]"
+    },
+    "n::Y": {
+        "mode": "n",
+        "command": "[\"x]Y",
+        "description": "yank N lines [into register x]; synonym for `yy` Note: Mapped to `y$` by default. |default-mappings|"
+    },
+    "n::ZZ": {
+        "mode": "n",
+        "command": "ZZ",
+        "description": "write if buffer changed and close window"
+    },
+    "n::ZQ": {
+        "mode": "n",
+        "command": "ZQ",
+        "description": "close window without writing"
+    },
+    "n::[": {
+        "mode": "n",
+        "command": "[{char}",
+        "description": "square bracket command (see |[| below)"
+    },
+    "n::]": {
+        "mode": "n",
+        "command": "]{char}",
+        "description": "square bracket command (see |]| below)"
+    },
+    "n::^": {
+        "mode": "n",
+        "command": "^",
+        "description": "1  cursor to the first CHAR of the line"
+    },
+    "n::_": {
+        "mode": "n",
+        "command": "_",
+        "description": "1  cursor to the first CHAR N - 1 lines lower"
+    },
+    "n::`": {
+        "mode": "n",
+        "command": "`{a-zA-Z0-9}",
+        "description": "1  cursor to the mark {a-zA-Z0-9}"
+    },
+    "n::`(": {
+        "mode": "n",
+        "command": "`(",
+        "description": "1  cursor to the start of the current sentence"
+    },
+    "n::`)": {
+        "mode": "n",
+        "command": "`)",
+        "description": "1  cursor to the end of the current sentence"
+    },
+    "n::`<": {
+        "mode": "n",
+        "command": "`<",
+        "description": "1  cursor to the start of the highlighted area"
+    },
+    "n::`>": {
+        "mode": "n",
+        "command": "`>",
+        "description": "1  cursor to the end of the highlighted area"
+    },
+    "n::`[": {
+        "mode": "n",
+        "command": "`[",
+        "description": "1  cursor to the start of last operated text or start of putted text"
+    },
+    "n::`]": {
+        "mode": "n",
+        "command": "`]",
+        "description": "1  cursor to the end of last operated text or end of putted text"
+    },
+    "n::``": {
+        "mode": "n",
+        "command": "``",
+        "description": "1  cursor to the position before latest jump"
+    },
+    "n::`{": {
+        "mode": "n",
+        "command": "`{",
+        "description": "1  cursor to the start of the current paragraph"
+    },
+    "n::`}": {
+        "mode": "n",
+        "command": "`}",
+        "description": "1  cursor to the end of the current paragraph"
+    },
+    "n::a": {
+        "mode": "n",
+        "command": "a",
+        "description": "2  append text after the cursor N times"
+    },
+    "n::b": {
+        "mode": "n",
+        "command": "b",
+        "description": "1  cursor N words backward"
+    },
+    "n::c": {
+        "mode": "n",
+        "command": "[\"x]c{motion}",
+        "description": "2  delete Nmove text [into register x] and start insert"
+    },
+    "n::cc": {
+        "mode": "n",
+        "command": "[\"x]cc",
+        "description": "2  delete N lines [into register x] and start insert"
+    },
+    "n::d": {
+        "mode": "n",
+        "command": "[\"x]d{motion}",
+        "description": "2  delete Nmove text [into register x]"
+    },
+    "n::dd": {
+        "mode": "n",
+        "command": "[\"x]dd",
+        "description": "2  delete N lines [into register x]"
+    },
+    "n::do": {
+        "mode": "n",
+        "command": "do",
+        "description": "2  same as `:diffget`"
+    },
+    "n::dp": {
+        "mode": "n",
+        "command": "dp",
+        "description": "2  same as `:diffput`"
+    },
+    "n::e": {
+        "mode": "n",
+        "command": "e",
+        "description": "1  cursor forward to the end of word N"
+    },
+    "n::f": {
+        "mode": "n",
+        "command": "f{char}",
+        "description": "1   cursor to Nth occurrence of {char} to the right"
+    },
+    "n::h": {
+        "mode": "n",
+        "command": "h",
+        "description": "1  cursor N chars to the left"
+    },
+    "n::i": {
+        "mode": "n",
+        "command": "i",
+        "description": "2  insert text before the cursor N times"
+    },
+    "n::j": {
+        "mode": "n",
+        "command": "j",
+        "description": "1  cursor N lines downward"
+    },
+    "n::k": {
+        "mode": "n",
+        "command": "k",
+        "description": "1  cursor N lines upward"
+    },
+    "n::l": {
+        "mode": "n",
+        "command": "l",
+        "description": "1  cursor N chars to the right"
+    },
+    "n::m": {
+        "mode": "n",
+        "command": "m{A-Za-z}",
+        "description": "set mark {A-Za-z} at cursor position"
+    },
+    "n::n": {
+        "mode": "n",
+        "command": "n",
+        "description": "1  repeat the latest '/' or '?' N times"
+    },
+    "n::o": {
+        "mode": "n",
+        "command": "o",
+        "description": "2  begin a new line below the cursor and insert text, repeat N times"
+    },
+    "n::p": {
+        "mode": "n",
+        "command": "[\"x]p",
+        "description": "2  put the text [from register x] after the cursor N times"
+    },
+    "n::q__ALT": {
+        "mode": "n",
+        "command": "q{0-9a-zA-Z\"}",
+        "description": "record typed characters into named register {0-9a-zA-Z\"} (uppercase to append)"
+    },
+    "n::q": {
+        "mode": "n",
+        "command": "q",
+        "description": "(while recording) stops recording"
+    },
+    "n::Q": {
+        "mode": "n",
+        "command": "Q",
+        "description": "2  replay last recorded register"
+    },
+    "n::q:": {
+        "mode": "n",
+        "command": "q:",
+        "description": "edit : command-line in command-line window"
+    },
+    "n::q/": {
+        "mode": "n",
+        "command": "q/",
+        "description": "edit / command-line in command-line window"
+    },
+    "n::q?": {
+        "mode": "n",
+        "command": "q?",
+        "description": "edit ? command-line in command-line window"
+    },
+    "n::r": {
+        "mode": "n",
+        "command": "r{char}",
+        "description": "2  replace N chars with {char}"
+    },
+    "n::s": {
+        "mode": "n",
+        "command": "[\"x]s",
+        "description": "2  (substitute) delete N characters [into register x] and start insert"
+    },
+    "n::t": {
+        "mode": "n",
+        "command": "t{char}",
+        "description": "1  cursor till before Nth occurrence of {char} to the right"
+    },
+    "n::u": {
+        "mode": "n",
+        "command": "u",
+        "description": "2  undo changes"
+    },
+    "n::v": {
+        "mode": "n",
+        "command": "v",
+        "description": "start charwise Visual mode"
+    },
+    "n::w": {
+        "mode": "n",
+        "command": "w",
+        "description": "1  cursor N words forward"
+    },
+    "n::x": {
+        "mode": "n",
+        "command": "[\"x]x",
+        "description": "2  delete N characters under and after the cursor [into register x]"
+    },
+    "n::y": {
+        "mode": "n",
+        "command": "[\"x]y{motion}",
+        "description": "yank Nmove text [into register x]"
+    },
+    "n::yy": {
+        "mode": "n",
+        "command": "[\"x]yy",
+        "description": "yank N lines [into register x]"
+    },
+    "n::z": {
+        "mode": "n",
+        "command": "z{char}",
+        "description": "commands starting with 'z', see |z| below"
+    },
+    "n::{": {
+        "mode": "n",
+        "command": "{",
+        "description": "1  cursor N paragraphs backward"
+    },
+    "n::bar": {
+        "mode": "n",
+        "command": "|",
+        "description": "1   cursor to column N"
+    },
+    "n::}": {
+        "mode": "n",
+        "command": "}",
+        "description": "1   cursor N paragraphs forward"
+    },
+    "n::~": {
+        "mode": "n",
+        "command": "~",
+        "description": "2  'tildeop' off: switch case of N characters under cursor and move the cursor N characters to the right"
+    },
+    "n::~{motion}": {
+        "mode": "n",
+        "command": "~{motion}",
+        "description": "'tildeop' on: switch case of Nmove text"
+    },
+    "n::<C-End>": {
+        "mode": "n",
+        "command": "<C-End>",
+        "description": "1  same as `G`"
+    },
+    "n::<C-Home>": {
+        "mode": "n",
+        "command": "<C-Home>",
+        "description": "1  same as `gg`"
+    },
+    "n::<C-Left>": {
+        "mode": "n",
+        "command": "<C-Left>",
+        "description": "1  same as `b`"
+    },
+    "n::<C-LeftMouse>": {
+        "mode": "n",
+        "command": "<C-LeftMouse>",
+        "description": "`:ta` to the keyword at the mouse click"
+    },
+    "n::<C-Right>": {
+        "mode": "n",
+        "command": "<C-Right>",
+        "description": "1   same as `w`"
+    },
+    "n::<C-RightMouse>": {
+        "mode": "n",
+        "command": "<C-RightMouse>",
+        "description": "same as `CTRL-T`"
+    },
+    "n::<C-Tab>": {
+        "mode": "n",
+        "command": "<C-Tab>",
+        "description": "same as `g<Tab>`"
+    },
+    "n::<Del>": {
+        "mode": "n",
+        "command": "[\"x]<Del>",
+        "description": "2   same as `x`"
+    },
+    "n::N<Del>": {
+        "mode": "n",
+        "command": "{count}<Del>",
+        "description": "remove the last digit from {count}"
+    },
+    "n::<Down>": {
+        "mode": "n",
+        "command": "<Down>",
+        "description": "1  same as `j`"
+    },
+    "n::<End>": {
+        "mode": "n",
+        "command": "<End>",
+        "description": "1  same as `$`"
+    },
+    "n::<F1>": {
+        "mode": "n",
+        "command": "<F1>",
+        "description": "same as <Help>"
+    },
+    "n::<Help>": {
+        "mode": "n",
+        "command": "<Help>",
+        "description": "open a help window"
+    },
+    "n::<Home>": {
+        "mode": "n",
+        "command": "<Home>",
+        "description": "1  same as `0`"
+    },
+    "n::<Insert>": {
+        "mode": "n",
+        "command": "<Insert>",
+        "description": "2  same as `i`"
+    },
+    "n::<Left>": {
+        "mode": "n",
+        "command": "<Left>",
+        "description": "1  same as `h`"
+    },
+    "n::<LeftMouse>": {
+        "mode": "n",
+        "command": "<LeftMouse>",
+        "description": "1   move cursor to the mouse click position"
+    },
+    "n::<MiddleMouse>": {
+        "mode": "n",
+        "command": "<MiddleMouse>",
+        "description": "2  same as `gP` at the mouse click position"
+    },
+    "n::<PageDown>": {
+        "mode": "n",
+        "command": "<PageDown>",
+        "description": "same as CTRL-F"
+    },
+    "n::<PageUp>": {
+        "mode": "n",
+        "command": "<PageUp>",
+        "description": "same as CTRL-B"
+    },
+    "n::<Right>": {
+        "mode": "n",
+        "command": "<Right>",
+        "description": "1  same as `l`"
+    },
+    "n::<RightMouse>": {
+        "mode": "n",
+        "command": "<RightMouse>",
+        "description": "start Visual mode, move cursor to the mouse click position"
+    },
+    "n::<S-Down>": {
+        "mode": "n",
+        "command": "<S-Down>",
+        "description": "1  same as CTRL-F"
+    },
+    "n::<S-Left>": {
+        "mode": "n",
+        "command": "<S-Left>",
+        "description": "1  same as `b`"
+    },
+    "n::<S-LeftMouse>": {
+        "mode": "n",
+        "command": "<S-LeftMouse>",
+        "description": "same as `*` at the mouse click position"
+    },
+    "n::<S-Right>": {
+        "mode": "n",
+        "command": "<S-Right>",
+        "description": "1   same as `w`"
+    },
+    "n::<S-RightMouse>": {
+        "mode": "n",
+        "command": "<S-RightMouse>",
+        "description": "same as `#` at the mouse click position"
+    },
+    "n::<S-Up>": {
+        "mode": "n",
+        "command": "<S-Up>",
+        "description": "1  same as CTRL-B"
+    },
+    "n::<Undo>": {
+        "mode": "n",
+        "command": "<Undo>",
+        "description": "2  same as `u`"
+    },
+    "n::<Up>": {
+        "mode": "n",
+        "command": "<Up>",
+        "description": "1  same as `k`"
+    },
+    "t::CTRL-backslash-CTRL-N": {
+        "mode": "t",
+        "keybind": "CTRL-\\ CTRL-N",
+        "description": "go to Normal mode from terminal mode"
+    },
+    "t::CTRL-backslash-CTRL-O": {
+        "mode": "t",
+        "keybind": "CTRL-\\ CTRL-O",
+        "description": "execute one Normal mode command then return to terminal mode"
+    },
+    "ic::CTRL-E": {
+        "mode": "ic",
+        "keybind": "CTRL-E",
+        "description": "stop completion and go back to original text"
+    },
+    "ic::CTRL-Y": {
+        "mode": "ic",
+        "keybind": "CTRL-Y",
+        "description": "accept selected match and stop completion"
+    },
+    "ic::CTRL-L": {
+        "mode": "ic",
+        "keybind": "CTRL-L",
+        "description": "insert one character from the current match"
+    },
+    "ic::CR": {
+        "mode": "ic",
+        "keybind": "<CR>",
+        "description": "insert currently selected match"
+    },
+    "ic::BS": {
+        "mode": "ic",
+        "keybind": "<BS>",
+        "description": "delete one character and redo search"
+    },
+    "ic::CTRL-H": {
+        "mode": "ic",
+        "keybind": "CTRL-H",
+        "description": "same as <BS>: delete one character and redo search"
+    },
+    "ic::Up": {
+        "mode": "ic",
+        "keybind": "<Up>",
+        "description": "select the previous match in completion mode"
+    },
+    "ic::Down": {
+        "mode": "ic",
+        "keybind": "<Down>",
+        "description": "select the next match in completion mode"
+    },
+    "ic::PageUp": {
+        "mode": "ic",
+        "keybind": "<PageUp>",
+        "description": "select a match several entries back in completion mode"
+    },
+    "ic::PageDown": {
+        "mode": "ic",
+        "keybind": "<PageDown>",
+        "description": "select a match several entries forward in completion mode"
+    },
+    "n::ScrollWheelDown": {
+        "mode": "n",
+        "keybind": "<ScrollWheelDown>",
+        "description": "move window three lines down"
+    },
+    "n::S-ScrollWheelDown": {
+        "mode": "n",
+        "keybind": "<S-ScrollWheelDown>",
+        "description": "move window one page down"
+    },
+    "n::ScrollWheelUp": {
+        "mode": "n",
+        "keybind": "<ScrollWheelUp>",
+        "description": "move window three lines up"
+    },
+    "n::S-ScrollWheelUp": {
+        "mode": "n",
+        "keybind": "<S-ScrollWheelUp>",
+        "description": "move window one page up"
+    },
+    "n::ScrollWheelLeft": {
+        "mode": "n",
+        "keybind": "<ScrollWheelLeft>",
+        "description": "move window six columns left"
+    },
+    "n::S-ScrollWheelLeft": {
+        "mode": "n",
+        "keybind": "<S-ScrollWheelLeft>",
+        "description": "move window one page left"
+    },
+    "n::ScrollWheelRight": {
+        "mode": "n",
+        "keybind": "<ScrollWheelRight>",
+        "description": "move window six columns right"
+    },
+    "n::S-ScrollWheelRight": {
+        "mode": "n",
+        "keybind": "<S-ScrollWheelRight>",
+        "description": "move window one page right"
+    },
+    "n::CTRL-W-g-CTRL-]": {
+        "mode": "n",
+        "keybind": "CTRL-W g CTRL-]",
+        "description": "split window and do :tjump to tag under cursor"
+    },
+    "n::CTRL-W-Right": {
+        "mode": "n",
+        "keybind": "CTRL-W <Right>",
+        "description": "same as CTRL-W l: move cursor to window right"
+    },
+    "c::CTRL-K": {
+        "mode": "c",
+        "keybind": "CTRL-K {char1} {char2}",
+        "description": "enter digraph"
+    },
+    "c::digraph": {
+        "mode": "c",
+        "keybind": "{char1} <BS> {char2}",
+        "description": "enter digraph when 'digraph' option is on"
+    },
+    "c::CTRL-R": {
+        "mode": "c",
+        "keybind": "CTRL-R {regname}",
+        "description": "insert the contents of a register or object under the cursor as if typed"
+    },
+    "c::CTRL-R-CTRL-R": {
+        "mode": "c",
+        "keybind": "CTRL-R CTRL-R {regname}",
+        "description": "insert the contents of a register or object under the cursor literally (no special characters)"
+    },
+    "c::CTRL-R-CTRL-O": {
+        "mode": "c",
+        "keybind": "CTRL-R CTRL-O {regname}",
+        "description": "insert the contents of a register or object under the cursor literally"
+    },
+    "c::CTRL-Y": {
+        "mode": "c",
+        "keybind": "CTRL-Y",
+        "description": "copy (yank) modeless selection"
+    },
+    "c::Esc": {
+        "mode": "c",
+        "keybind": "<Esc>",
+        "description": "abandon command-line without executing it"
+    },
+    "c::CTRL-[": {
+        "mode": "c",
+        "keybind": "CTRL-[",
+        "description": "same as <Esc>: abandon command-line without executing it"
+    },
+    "c::CTRL-backslash-CTRL-N": {
+        "mode": "c",
+        "keybind": "CTRL-\\ CTRL-N",
+        "description": "go to Normal mode, abandon command-line"
+    },
+    "c::CTRL-backslash-CTRL-G": {
+        "mode": "c",
+        "keybind": "CTRL-\\ CTRL-G",
+        "description": "go to Normal mode, abandon command-line"
+    },
+    "c::CTRL-backslash-e": {
+        "mode": "c",
+        "keybind": "CTRL-\\ e {expr}",
+        "description": "replace the command line with the result of {expr}"
+    },
+    "c::wildmenu-Up": {
+        "mode": "c",
+        "keybind": "<Up>",
+        "description": "move up to parent in wildmenu mode"
+    },
+    "c::wildmenu-Down": {
+        "mode": "c",
+        "keybind": "<Down>",
+        "description": "move down to submenu in wildmenu mode"
+    },
+    "c::wildmenu-Left": {
+        "mode": "c",
+        "keybind": "<Left>",
+        "description": "select the previous match in wildmenu mode"
+    },
+    "c::wildmenu-Right": {
+        "mode": "c",
+        "keybind": "<Right>",
+        "description": "select the next match in wildmenu mode"
+    },
+    "c::wildmenu-CR": {
+        "mode": "c",
+        "keybind": "<CR>",
+        "description": "move into submenu when doing menu completion in wildmenu mode"
+    },
+    "c::wildmenu-CTRL-E": {
+        "mode": "c",
+        "keybind": "CTRL-E",
+        "description": "stop completion and go back to original text in wildmenu mode"
+    },
+    "c::wildmenu-CTRL-Y": {
+        "mode": "c",
+        "keybind": "CTRL-Y",
+        "description": "accept selected match and stop completion in wildmenu mode"
+    },
+    "c::wildmenu-pum-PageUp": {
+        "mode": "c",
+        "keybind": "<PageUp>",
+        "description": "select a match several entries back in wildmenu pum mode"
+    },
+    "c::wildmenu-pum-PageDown": {
+        "mode": "c",
+        "keybind": "<PageDown>",
+        "description": "select a match several entries forward in wildmenu pum mode"
+    },
+    "": {}
 }
