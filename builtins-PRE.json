@@ -422,7 +422,8 @@
     "v::CTRL-A": {
         "mode": "v",
         "keybind": "CTRL-A",
-        "description": "2  add N to number in highlighted text"
+        "note": 2,
+        "description": "add N to number in highlighted text"
     },
     "v::CTRL-C": {
         "mode": "v",
@@ -437,12 +438,14 @@
     "v::<BS>": {
         "mode": "v",
         "keybind": "<BS>",
-        "description": "2  Select mode: delete highlighted area"
+        "note": 2,
+        "description": "Select mode: delete highlighted area"
     },
     "v::CTRL-H": {
         "mode": "v",
         "keybind": "CTRL-H",
-        "description": "2  same as <BS>"
+        "note": 2,
+        "description": "same as <BS>"
     },
     "v::CTRL-O": {
         "mode": "v",
@@ -457,7 +460,8 @@
     "v::CTRL-X": {
         "mode": "v",
         "keybind": "CTRL-X",
-        "description": "2  subtract N from number in highlighted text"
+        "note": 2,
+        "description": "subtract N from number in highlighted text"
     },
     "v::<Esc>": {
         "mode": "v",
@@ -472,7 +476,8 @@
     "v::!": {
         "mode": "v",
         "keybind": "!{filter}",
-        "description": "2  filter the highlighted lines through the external command {filter}"
+        "note": 2,
+        "description": "filter the highlighted lines through the external command {filter}"
     },
     "v:::": {
         "mode": "v",
@@ -482,42 +487,50 @@
     "v::<": {
         "mode": "v",
         "keybind": "<",
-        "description": "2  shift the highlighted lines one 'shiftwidth' left"
+        "note": 2,
+        "description": "shift the highlighted lines one 'shiftwidth' left"
     },
     "v::=": {
         "mode": "v",
         "keybind": "=",
-        "description": "2  filter the highlighted lines through the external program given with the 'equalprg' option"
+        "note": 2,
+        "description": "filter the highlighted lines through the external program given with the 'equalprg' option"
     },
     "v::>": {
         "mode": "v",
         "keybind": ">",
-        "description": "2  shift the highlighted lines one 'shiftwidth' right"
+        "note": 2,
+        "description": "shift the highlighted lines one 'shiftwidth' right"
     },
     "v::b_A": {
         "mode": "v",
         "keybind": "A",
-        "description": "2  block mode: append same text in all lines, after the highlighted area"
+        "note": 2,
+        "description": "block mode: append same text in all lines, after the highlighted area"
     },
     "v::C": {
         "mode": "v",
         "keybind": "C",
-        "description": "2  delete the highlighted lines and start insert"
+        "note": 2,
+        "description": "delete the highlighted lines and start insert"
     },
     "v::D": {
         "mode": "v",
         "keybind": "D",
-        "description": "2  delete the highlighted lines"
+        "note": 2,
+        "description": "delete the highlighted lines"
     },
     "v::b_I": {
         "mode": "v",
         "keybind": "I",
-        "description": "2  block mode: insert same text in all lines, before the highlighted area"
+        "note": 2,
+        "description": "block mode: insert same text in all lines, before the highlighted area"
     },
     "v::J": {
         "mode": "v",
         "keybind": "J",
-        "description": "2  join the highlighted lines"
+        "note": 2,
+        "description": "join the highlighted lines"
     },
     "v::K": {
         "mode": "v",
@@ -537,17 +550,20 @@
     "v::R": {
         "mode": "v",
         "keybind": "R",
-        "description": "2  delete the highlighted lines and start insert"
+        "note": 2,
+        "description": "delete the highlighted lines and start insert"
     },
     "v::S": {
         "mode": "v",
         "keybind": "S",
-        "description": "2  delete the highlighted lines and start insert"
+        "note": 2,
+        "description": "delete the highlighted lines and start insert"
     },
     "v::U": {
         "mode": "v",
         "keybind": "U",
-        "description": "2  make highlighted area uppercase"
+        "note": 2,
+        "description": "make highlighted area uppercase"
     },
     "v::V": {
         "mode": "v",
@@ -557,7 +573,8 @@
     "v::X": {
         "mode": "v",
         "keybind": "X",
-        "description": "2  delete the highlighted lines"
+        "note": 2,
+        "description": "delete the highlighted lines"
     },
     "v::Y": {
         "mode": "v",
@@ -657,32 +674,38 @@
     "v::c": {
         "mode": "v",
         "keybind": "c",
-        "description": "2  delete highlighted area and start insert"
+        "note": 2,
+        "description": "delete highlighted area and start insert"
     },
     "v::d": {
         "mode": "v",
         "keybind": "d",
-        "description": "2  delete highlighted area"
+        "note": 2,
+        "description": "delete highlighted area"
     },
     "v::g_CTRL-A": {
         "mode": "v",
         "keybind": "g CTRL-A",
-        "description": "2  add N to number in highlighted text"
+        "note": 2,
+        "description": "add N to number in highlighted text"
     },
     "v::g_CTRL-X": {
         "mode": "v",
         "keybind": "g CTRL-X",
-        "description": "2  subtract N from number in highlighted text"
+        "note": 2,
+        "description": "subtract N from number in highlighted text"
     },
     "v::gJ": {
         "mode": "v",
         "keybind": "gJ",
-        "description": "2  join the highlighted lines without inserting spaces"
+        "note": 2,
+        "description": "join the highlighted lines without inserting spaces"
     },
     "v::gq": {
         "mode": "v",
         "keybind": "gq",
-        "description": "2  format the highlighted lines"
+        "note": 2,
+        "description": "format the highlighted lines"
     },
     "v::gv": {
         "mode": "v",
@@ -797,17 +820,20 @@
     "v::r": {
         "mode": "v",
         "keybind": "r",
-        "description": "2  replace highlighted area with a character"
+        "note": 2,
+        "description": "replace highlighted area with a character"
     },
     "v::s": {
         "mode": "v",
         "keybind": "s",
-        "description": "2  delete highlighted area and start insert"
+        "note": 2,
+        "description": "delete highlighted area and start insert"
     },
     "v::u": {
         "mode": "v",
         "keybind": "u",
-        "description": "2  make highlighted area lowercase"
+        "note": 2,
+        "description": "make highlighted area lowercase"
     },
     "v::v": {
         "mode": "v",
@@ -817,7 +843,8 @@
     "v::x": {
         "mode": "v",
         "keybind": "x",
-        "description": "2  delete the highlighted area"
+        "note": 2,
+        "description": "delete the highlighted area"
     },
     "v::y": {
         "mode": "v",
@@ -827,7 +854,8 @@
     "v::~": {
         "mode": "v",
         "keybind": "~",
-        "description": "2  swap case for the highlighted area"
+        "note": 2,
+        "description": "swap case for the highlighted area"
     },
     "c::<BS>": {
         "mode": "c",
@@ -1467,32 +1495,38 @@
     "n::g#": {
         "mode": "n",
         "keybind": "g#",
-        "description": "1  like '#', but without using '\\<' and '\\>'"
+        "note": 1,
+        "description": "like '#', but without using '\\<' and '\\>'"
     },
     "n::g$": {
         "mode": "n",
         "keybind": "g$",
-        "description": "1  when 'wrap' off go to rightmost character of the current line that is on the screen; when 'wrap' on go to the rightmost character of the current screen line"
+        "note": 1,
+        "description": "when 'wrap' off go to rightmost character of the current line that is on the screen; when 'wrap' on go to the rightmost character of the current screen line"
     },
     "n::g&": {
         "mode": "n",
         "keybind": "g&",
-        "description": "2  repeat last ':s' on all lines"
+        "note": 2,
+        "description": "repeat last ':s' on all lines"
     },
     "n::g'": {
         "mode": "n",
         "keybind": "g'{mark}",
-        "description": "1  like |'| but without changing the jumplist"
+        "note": 1,
+        "description": "like |'| but without changing the jumplist"
     },
     "n::g`": {
         "mode": "n",
         "keybind": "g`{mark}",
-        "description": "1  like |`| but without changing the jumplist"
+        "note": 1,
+        "description": "like |`| but without changing the jumplist"
     },
     "n::gstar": {
         "mode": "n",
         "keybind": "g*",
-        "description": "1  like '*', but without using '\\<' and '\\>'"
+        "note": 1,
+        "description": "like '*', but without using '\\<' and '\\>'"
     },
     "n::g+": {
         "mode": "n",
@@ -1502,7 +1536,8 @@
     "n::g,": {
         "mode": "n",
         "keybind": "g,",
-        "description": "1  go to N newer position in change list"
+        "note": 1,
+        "description": "go to N newer position in change list"
     },
     "n::g-": {
         "mode": "n",
@@ -1512,7 +1547,8 @@
     "n::g0": {
         "mode": "n",
         "keybind": "g0",
-        "description": "1  when 'wrap' off go to leftmost character of the current line that is on the screen; when 'wrap' on go to the leftmost character of the current screen line"
+        "note": 1,
+        "description": "when 'wrap' off go to leftmost character of the current line that is on the screen; when 'wrap' on go to the leftmost character of the current screen line"
     },
     "n::g8": {
         "mode": "n",
@@ -1522,7 +1558,8 @@
     "n::g;": {
         "mode": "n",
         "keybind": "g;",
-        "description": "1  go to N older position in change list"
+        "note": 1,
+        "description": "go to N older position in change list"
     },
     "n::g<": {
         "mode": "n",
@@ -1532,27 +1569,32 @@
     "n::g?": {
         "mode": "n",
         "keybind": "g?",
-        "description": "2  Rot13 encoding operator"
+        "note": 2,
+        "description": "Rot13 encoding operator"
     },
     "n::g??": {
         "mode": "n",
         "keybind": "g??",
-        "description": "2  Rot13 encode current line"
+        "note": 2,
+        "description": "Rot13 encode current line"
     },
     "n::g?g?": {
         "mode": "n",
         "keybind": "g?g?",
-        "description": "2  Rot13 encode current line"
+        "note": 2,
+        "description": "Rot13 encode current line"
     },
     "n::gD": {
         "mode": "n",
         "keybind": "gD",
-        "description": "1  go to definition of word under the cursor in current file"
+        "note": 1,
+        "description": "go to definition of word under the cursor in current file"
     },
     "n::gE": {
         "mode": "n",
         "keybind": "gE",
-        "description": "1  go backwards to the end of the previous WORD"
+        "note": 1,
+        "description": "go backwards to the end of the previous WORD"
     },
     "n::gH": {
         "mode": "n",
@@ -1562,12 +1604,14 @@
     "n::gI": {
         "mode": "n",
         "keybind": "gI",
-        "description": "2  like 'I', but always start in column 1"
+        "note": 2,
+        "description": "like 'I', but always start in column 1"
     },
     "n::gJ": {
         "mode": "n",
         "keybind": "gJ",
-        "description": "2  join lines without inserting space"
+        "note": 2,
+        "description": "join lines without inserting space"
     },
     "n::gN": {
         "mode": "n",
@@ -1577,7 +1621,8 @@
     "n::gP": {
         "mode": "n",
         "keybind": "[\"x]gP",
-        "description": "2  put the text [from register x] before the cursor N times, leave the cursor after it"
+        "note": 2,
+        "description": "put the text [from register x] before the cursor N times, leave the cursor after it"
     },
     "n::gQ": {
         "mode": "n",
@@ -1587,7 +1632,8 @@
     "n::gR": {
         "mode": "n",
         "keybind": "gR",
-        "description": "2  enter Virtual Replace mode"
+        "note": 2,
+        "description": "enter Virtual Replace mode"
     },
     "n::gT": {
         "mode": "n",
@@ -1597,7 +1643,8 @@
     "n::gU": {
         "mode": "n",
         "keybind": "gU{motion}",
-        "description": "2  make Nmove text uppercase"
+        "note": 2,
+        "description": "make Nmove text uppercase"
     },
     "n::gV": {
         "mode": "n",
@@ -1612,12 +1659,14 @@
     "n::g^": {
         "mode": "n",
         "keybind": "g^",
-        "description": "1  when 'wrap' off go to leftmost non-white character of the current line that is on the screen; when 'wrap' on go to the leftmost non-white character of the current screen line"
+        "note": 1,
+        "description": "when 'wrap' off go to leftmost non-white character of the current line that is on the screen; when 'wrap' on go to the leftmost non-white character of the current screen line"
     },
     "n::g_": {
         "mode": "n",
         "keybind": "g_",
-        "description": "1  cursor to the last CHAR N - 1 lines lower"
+        "note": 1,
+        "description": "cursor to the last CHAR N - 1 lines lower"
     },
     "n::ga": {
         "mode": "n",
@@ -1627,12 +1676,14 @@
     "n::gd": {
         "mode": "n",
         "keybind": "gd",
-        "description": "1  go to definition of word under the cursor in current function"
+        "note": 1,
+        "description": "go to definition of word under the cursor in current function"
     },
     "n::ge": {
         "mode": "n",
         "keybind": "ge",
-        "description": "1  go backwards to the end of the previous word"
+        "note": 1,
+        "description": "go backwards to the end of the previous word"
     },
     "n::gf": {
         "mode": "n",
@@ -1647,7 +1698,8 @@
     "n::gg": {
         "mode": "n",
         "keybind": "gg",
-        "description": "1  cursor to line N, default first line"
+        "note": 1,
+        "description": "cursor to line N, default first line"
     },
     "n::gh": {
         "mode": "n",
@@ -1657,27 +1709,32 @@
     "n::gi": {
         "mode": "n",
         "keybind": "gi",
-        "description": "2  like 'i', but first move to the |'^| mark"
+        "note": 2,
+        "description": "like 'i', but first move to the |'^| mark"
     },
     "n::gj": {
         "mode": "n",
         "keybind": "gj",
-        "description": "1  like 'j', but when 'wrap' on go N screen lines down"
+        "note": 1,
+        "description": "like 'j', but when 'wrap' on go N screen lines down"
     },
     "n::gk": {
         "mode": "n",
         "keybind": "gk",
-        "description": "1  like 'k', but when 'wrap' on go N screen lines up"
+        "note": 1,
+        "description": "like 'k', but when 'wrap' on go N screen lines up"
     },
     "n::gm": {
         "mode": "n",
         "keybind": "gm",
-        "description": "1  go to character at middle of the screenline"
+        "note": 1,
+        "description": "go to character at middle of the screenline"
     },
     "n::gM": {
         "mode": "n",
         "keybind": "gM",
-        "description": "1  go to character at middle of the text line"
+        "note": 1,
+        "description": "go to character at middle of the text line"
     },
     "n::gn": {
         "mode": "n",
@@ -1687,22 +1744,26 @@
     "n::go": {
         "mode": "n",
         "keybind": "go",
-        "description": "1  cursor to byte N in the buffer"
+        "note": 1,
+        "description": "cursor to byte N in the buffer"
     },
     "n::gp": {
         "mode": "n",
         "keybind": "[\"x]gp",
-        "description": "2  put the text [from register x] after the cursor N times, leave the cursor after it"
+        "note": 2,
+        "description": "put the text [from register x] after the cursor N times, leave the cursor after it"
     },
     "n::gq": {
         "mode": "n",
         "keybind": "gq{motion}",
-        "description": "2  format Nmove text"
+        "note": 2,
+        "description": "format Nmove text"
     },
     "n::gr": {
         "mode": "n",
         "keybind": "gr{char}",
-        "description": "2  virtual replace N chars with {char}"
+        "note": 2,
+        "description": "virtual replace N chars with {char}"
     },
     "n::gs": {
         "mode": "n",
@@ -1717,7 +1778,8 @@
     "n::gu": {
         "mode": "n",
         "keybind": "gu{motion}",
-        "description": "2  make Nmove text lowercase"
+        "note": 2,
+        "description": "make Nmove text lowercase"
     },
     "n::gv": {
         "mode": "n",
@@ -1727,7 +1789,8 @@
     "n::gw": {
         "mode": "n",
         "keybind": "gw{motion}",
-        "description": "2  format Nmove text and keep cursor"
+        "note": 2,
+        "description": "format Nmove text and keep cursor"
     },
     "n::gx": {
         "mode": "n",
@@ -1742,22 +1805,26 @@
     "n::g~": {
         "mode": "n",
         "keybind": "g~{motion}",
-        "description": "2  swap case for Nmove text"
+        "note": 2,
+        "description": "swap case for Nmove text"
     },
     "n::g<Down>": {
         "mode": "n",
         "keybind": "g<Down>",
-        "description": "1  same as 'gj'"
+        "note": 1,
+        "description": "same as 'gj'"
     },
     "n::g<End>": {
         "mode": "n",
         "keybind": "g<End>",
-        "description": "1  same as 'g$' but go to the rightmost non-blank character instead"
+        "note": 1,
+        "description": "same as 'g$' but go to the rightmost non-blank character instead"
     },
     "n::g<Home>": {
         "mode": "n",
         "keybind": "g<Home>",
-        "description": "1  same as 'g0'"
+        "note": 1,
+        "description": "same as 'g0'"
     },
     "n::g<LeftMouse>": {
         "mode": "n",
@@ -1777,7 +1844,8 @@
     "n::g<Up>": {
         "mode": "n",
         "keybind": "g<Up>",
-        "description": "1  same as 'gk'"
+        "note": 1,
+        "description": "same as 'gk'"
     },
     "n::z<CR>": {
         "mode": "n",
@@ -1932,12 +2000,14 @@
     "n::zj": {
         "mode": "n",
         "keybind": "zj",
-        "description": "1  move to the start of the next fold"
+        "note": 1,
+        "description": "move to the start of the next fold"
     },
     "n::zk": {
         "mode": "n",
         "keybind": "zk",
-        "description": "1  move to the end of the previous fold"
+        "note": 1,
+        "description": "move to the end of the previous fold"
     },
     "n::zl": {
         "mode": "n",
@@ -2052,32 +2122,38 @@
     "n::[#": {
         "mode": "n",
         "command": "[#",
-        "description": "1  cursor to N previous unmatched #if, #else or #ifdef"
+        "note": 1,
+        "description": "cursor to N previous unmatched #if, #else or #ifdef"
     },
     "n::['": {
         "mode": "n",
         "command": "['",
-        "description": "1  cursor to previous lowercase mark, on first non-blank"
+        "note": 1,
+        "description": "cursor to previous lowercase mark, on first non-blank"
     },
     "n::[(": {
         "mode": "n",
         "command": "[(",
-        "description": "1  cursor N times back to unmatched '('"
+        "note": 1,
+        "description": "cursor N times back to unmatched '('"
     },
     "n::[star": {
         "mode": "n",
         "command": "[*",
-        "description": "1  same as `[/`"
+        "note": 1,
+        "description": "same as `[/`"
     },
     "n::[`": {
         "mode": "n",
         "command": "[`",
-        "description": "1  cursor to previous lowercase mark"
+        "note": 1,
+        "description": "cursor to previous lowercase mark"
     },
     "n::[/": {
         "mode": "n",
         "command": "[/",
-        "description": "1  cursor to N previous start of a C comment"
+        "note": 1,
+        "description": "cursor to N previous start of a C comment"
     },
     "n::[D": {
         "mode": "n",
@@ -2092,22 +2168,26 @@
     "n::[P": {
         "mode": "n",
         "command": "[P",
-        "description": "2  same as `[p`"
+        "note": 2,
+        "description": "same as `[p`"
     },
     "n::[[": {
         "mode": "n",
         "command": "[[",
-        "description": "1  cursor N sections backward"
+        "note": 1,
+        "description": "cursor N sections backward"
     },
     "n::[]": {
         "mode": "n",
         "command": "[]",
-        "description": "1  cursor N SECTIONS backward"
+        "note": 1,
+        "description": "cursor N SECTIONS backward"
     },
     "n::[c": {
         "mode": "n",
         "command": "[c",
-        "description": "1  cursor N times backwards to start of change"
+        "note": 1,
+        "description": "cursor N times backwards to start of change"
     },
     "n::[d": {
         "mode": "n",
@@ -2127,32 +2207,38 @@
     "n::[m": {
         "mode": "n",
         "command": "[m",
-        "description": "1  cursor N times back to start of member function"
+        "note": 1,
+        "description": "cursor N times back to start of member function"
     },
     "n::[p": {
         "mode": "n",
         "command": "[p",
-        "description": "2  like `P`, but adjust indent to current line"
+        "note": 2,
+        "description": "like `P`, but adjust indent to current line"
     },
     "n::[s": {
         "mode": "n",
         "command": "[s",
-        "description": "1  move to the previous misspelled word"
+        "note": 1,
+        "description": "move to the previous misspelled word"
     },
     "n::[z": {
         "mode": "n",
         "command": "[z",
-        "description": "1  move to start of open fold"
+        "note": 1,
+        "description": "move to start of open fold"
     },
     "n::[{": {
         "mode": "n",
         "command": "[{",
-        "description": "1  cursor N times back to unmatched '{'"
+        "note": 1,
+        "description": "cursor N times back to unmatched '{'"
     },
     "n::[<MiddleMouse>": {
         "mode": "n",
         "command": "[<MiddleMouse>",
-        "description": "2  same as `[p`"
+        "note": 2,
+        "description": "same as `[p`"
     },
     "n::]_CTRL-D": {
         "mode": "n",
@@ -2167,32 +2253,38 @@
     "n::]#": {
         "mode": "n",
         "command": "]#",
-        "description": "1  cursor to N next unmatched #endif or #else"
+        "note": 1,
+        "description": "cursor to N next unmatched #endif or #else"
     },
     "n::]'": {
         "mode": "n",
         "command": "]'",
-        "description": "1  cursor to next lowercase mark, on first non-blank"
+        "note": 1,
+        "description": "cursor to next lowercase mark, on first non-blank"
     },
     "n::])": {
         "mode": "n",
         "command": "])",
-        "description": "1  cursor N times forward to unmatched ')'"
+        "note": 1,
+        "description": "cursor N times forward to unmatched ')'"
     },
     "n::]star": {
         "mode": "n",
         "command": "]*",
-        "description": "1  same as `]/`"
+        "note": 1,
+        "description": "same as `]/`"
     },
     "n::]`": {
         "mode": "n",
         "command": "]`",
-        "description": "1  cursor to next lowercase mark"
+        "note": 1,
+        "description": "cursor to next lowercase mark"
     },
     "n::]/": {
         "mode": "n",
         "command": "]/",
-        "description": "1  cursor to N next end of a C comment"
+        "note": 1,
+        "description": "cursor to N next end of a C comment"
     },
     "n::]D": {
         "mode": "n",
@@ -2207,22 +2299,26 @@
     "n::]P": {
         "mode": "n",
         "command": "]P",
-        "description": "2  same as `[p`"
+        "note": 2,
+        "description": "same as `[p`"
     },
     "n::][": {
         "mode": "n",
         "command": "][",
-        "description": "1  cursor N SECTIONS forward"
+        "note": 1,
+        "description": "cursor N SECTIONS forward"
     },
     "n::]]": {
         "mode": "n",
         "command": "]]",
-        "description": "1  cursor N sections forward"
+        "note": 1,
+        "description": "cursor N sections forward"
     },
     "n::]c": {
         "mode": "n",
         "command": "]c",
-        "description": "1  cursor N times forward to start of change"
+        "note": 1,
+        "description": "cursor N times forward to start of change"
     },
     "n::]d": {
         "mode": "n",
@@ -2242,32 +2338,38 @@
     "n::]m": {
         "mode": "n",
         "command": "]m",
-        "description": "1  cursor N times forward to end of member function"
+        "note": 1,
+        "description": "cursor N times forward to end of member function"
     },
     "n::]p": {
         "mode": "n",
         "command": "]p",
-        "description": "2  like `p`, but adjust indent to current line"
+        "note": 2,
+        "description": "like `p`, but adjust indent to current line"
     },
     "n::]s": {
         "mode": "n",
         "command": "]s",
-        "description": "1  move to next misspelled word"
+        "note": 1,
+        "description": "move to next misspelled word"
     },
     "n::]z": {
         "mode": "n",
         "command": "]z",
-        "description": "1  move to end of open fold"
+        "note": 1,
+        "description": "move to end of open fold"
     },
     "n::]}": {
         "mode": "n",
         "command": "]}",
-        "description": "1  cursor N times forward to unmatched '}'"
+        "note": 1,
+        "description": "cursor N times forward to unmatched '}'"
     },
     "n::]<MiddleMouse>": {
         "mode": "n",
         "command": "]<MiddleMouse>",
-        "description": "2  same as `]p`"
+        "note": 2,
+        "description": "same as `]p`"
     },
     "o::v": {
         "mode": "o",
@@ -2357,12 +2459,14 @@
     "n::CTRL-A": {
         "mode": "n",
         "command": "CTRL-A",
-        "description": "2  add N to number at/after cursor"
+        "note": 2,
+        "description": "add N to number at/after cursor"
     },
     "n::CTRL-B": {
         "mode": "n",
         "command": "CTRL-B",
-        "description": "1  scroll N screens Backwards"
+        "note": 1,
+        "description": "scroll N screens Backwards"
     },
     "n::CTRL-C": {
         "mode": "n",
@@ -2382,7 +2486,8 @@
     "n::CTRL-F": {
         "mode": "n",
         "command": "CTRL-F",
-        "description": "1  scroll N screens Forward"
+        "note": 1,
+        "description": "scroll N screens Forward"
     },
     "n::CTRL-G": {
         "mode": "n",
@@ -2392,37 +2497,44 @@
     "n::<BS>": {
         "mode": "n",
         "command": "<BS>",
-        "description": "1  same as `h`"
+        "note": 1,
+        "description": "same as `h`"
     },
     "n::CTRL-H": {
         "mode": "n",
         "command": "CTRL-H",
-        "description": "1  same as `h`"
+        "note": 1,
+        "description": "same as `h`"
     },
     "n::<Tab>": {
         "mode": "n",
         "command": "<Tab>",
-        "description": "1  go to N newer entry in jump list"
+        "note": 1,
+        "description": "go to N newer entry in jump list"
     },
     "n::CTRL-I": {
         "mode": "n",
         "command": "CTRL-I",
-        "description": "1  same as <Tab>"
+        "note": 1,
+        "description": "same as <Tab>"
     },
     "n::<NL>": {
         "mode": "n",
         "command": "<NL>",
-        "description": "1  same as `j`"
+        "note": 1,
+        "description": "same as `j`"
     },
     "n::<S-NL>": {
         "mode": "n",
         "command": "<S-NL>",
-        "description": "1  same as CTRL-F"
+        "note": 1,
+        "description": "same as CTRL-F"
     },
     "n::CTRL-J": {
         "mode": "n",
         "command": "CTRL-J",
-        "description": "1  same as `j`"
+        "note": 1,
+        "description": "same as `j`"
     },
     "n::CTRL-L": {
         "mode": "n",
@@ -2432,37 +2544,44 @@
     "n::<CR>": {
         "mode": "n",
         "command": "<CR>",
-        "description": "1  cursor to the first CHAR N lines lower"
+        "note": 1,
+        "description": "cursor to the first CHAR N lines lower"
     },
     "n::<S-CR>": {
         "mode": "n",
         "command": "<S-CR>",
-        "description": "1  same as CTRL-F"
+        "note": 1,
+        "description": "same as CTRL-F"
     },
     "n::CTRL-M": {
         "mode": "n",
         "command": "CTRL-M",
-        "description": "1  same as <CR>"
+        "note": 1,
+        "description": "same as <CR>"
     },
     "n::CTRL-N": {
         "mode": "n",
         "command": "CTRL-N",
-        "description": "1  same as `j`"
+        "note": 1,
+        "description": "same as `j`"
     },
     "n::CTRL-O": {
         "mode": "n",
         "command": "CTRL-O",
-        "description": "1  go to N older entry in jump list"
+        "note": 1,
+        "description": "go to N older entry in jump list"
     },
     "n::CTRL-P": {
         "mode": "n",
         "command": "CTRL-P",
-        "description": "1  same as `k`"
+        "note": 1,
+        "description": "same as `k`"
     },
     "n::CTRL-R": {
         "mode": "n",
         "command": "CTRL-R",
-        "description": "2  redo changes which were undone with 'u'"
+        "note": 2,
+        "description": "redo changes which were undone with 'u'"
     },
     "n::CTRL-T": {
         "mode": "n",
@@ -2487,7 +2606,8 @@
     "n::CTRL-X": {
         "mode": "n",
         "command": "CTRL-X",
-        "description": "2  subtract N from number at/after cursor"
+        "note": 2,
+        "description": "subtract N from number at/after cursor"
     },
     "n::CTRL-Y": {
         "mode": "n",
@@ -2527,17 +2647,20 @@
     "n::<Space>": {
         "mode": "n",
         "command": "<Space>",
-        "description": "1  same as `l`"
+        "note": 1,
+        "description": "same as `l`"
     },
     "n::!": {
         "mode": "n",
         "command": "!{motion}{filter}",
-        "description": "2  filter Nmove text through the {filter} command"
+        "note": 2,
+        "description": "filter Nmove text through the {filter} command"
     },
     "n::!!": {
         "mode": "n",
         "command": "!!{filter}",
-        "description": "2  filter N lines through the {filter} command"
+        "note": 2,
+        "description": "filter N lines through the {filter} command"
     },
     "n::quote": {
         "mode": "n",
@@ -2547,137 +2670,164 @@
     "n::#": {
         "mode": "n",
         "command": "#",
-        "description": "1  search backward for the Nth occurrence of the ident under the cursor"
+        "note": 1,
+        "description": "search backward for the Nth occurrence of the ident under the cursor"
     },
     "n::$": {
         "mode": "n",
         "command": "$",
-        "description": "1  cursor to the end of Nth next line"
+        "note": 1,
+        "description": "cursor to the end of Nth next line"
     },
     "n::%": {
         "mode": "n",
         "command": "%",
-        "description": "1  find the next (curly/square) bracket on this line and go to its match, or go to matching comment bracket, or go to matching preprocessor directive."
+        "note": 1,
+        "description": "find the next (curly/square) bracket on this line and go to its match, or go to matching comment bracket, or go to matching preprocessor directive."
     },
     "n::N%": {
         "mode": "n",
         "command": "{count}%",
-        "description": "1  go to N percentage in the file"
+        "note": 1,
+        "description": "go to N percentage in the file"
     },
     "n::&": {
         "mode": "n",
         "command": "&",
-        "description": "2  repeat last :s"
+        "note": 2,
+        "description": "repeat last :s"
     },
     "n::'": {
         "mode": "n",
         "command": "'{a-zA-Z0-9}",
-        "description": "1  cursor to the first CHAR on the line with mark {a-zA-Z0-9}"
+        "note": 1,
+        "description": "cursor to the first CHAR on the line with mark {a-zA-Z0-9}"
     },
     "n::''": {
         "mode": "n",
         "command": "''",
-        "description": "1  cursor to the first CHAR of the line where the cursor was before the latest jump."
+        "note": 1,
+        "description": "cursor to the first CHAR of the line where the cursor was before the latest jump."
     },
     "n::'(": {
         "mode": "n",
         "command": "'(",
-        "description": "1  cursor to the first CHAR on the line of the start of the current sentence"
+        "note": 1,
+        "description": "cursor to the first CHAR on the line of the start of the current sentence"
     },
     "n::')": {
         "mode": "n",
         "command": "')",
-        "description": "1  cursor to the first CHAR on the line of the end of the current sentence"
+        "note": 1,
+        "description": "cursor to the first CHAR on the line of the end of the current sentence"
     },
     "n::'<": {
         "mode": "n",
         "command": "'<",
-        "description": "1  cursor to the first CHAR of the line where highlighted area starts/started in the current buffer."
+        "note": 1,
+        "description": "cursor to the first CHAR of the line where highlighted area starts/started in the current buffer."
     },
     "n::'>": {
         "mode": "n",
         "command": "'>",
-        "description": "1  cursor to the first CHAR of the line where highlighted area ends/ended in the current buffer."
+        "note": 1,
+        "description": "cursor to the first CHAR of the line where highlighted area ends/ended in the current buffer."
     },
     "n::'[": {
         "mode": "n",
         "command": "'[",
-        "description": "1  cursor to the first CHAR on the line of the start of last operated text or start of put text"
+        "note": 1,
+        "description": "cursor to the first CHAR on the line of the start of last operated text or start of put text"
     },
     "n::']": {
         "mode": "n",
         "command": "']",
-        "description": "1  cursor to the first CHAR on the line of the end of last operated text or end of put text"
+        "note": 1,
+        "description": "cursor to the first CHAR on the line of the end of last operated text or end of put text"
     },
     "n::'{": {
         "mode": "n",
         "command": "'{",
-        "description": "1  cursor to the first CHAR on the line of the start of the current paragraph"
+        "note": 1,
+        "description": "cursor to the first CHAR on the line of the start of the current paragraph"
     },
     "n::'}": {
         "mode": "n",
         "command": "'}",
-        "description": "1  cursor to the first CHAR on the line of the end of the current paragraph"
+        "note": 1,
+        "description": "cursor to the first CHAR on the line of the end of the current paragraph"
     },
     "n::(": {
         "mode": "n",
         "command": "(",
-        "description": "1  cursor N sentences backward"
+        "note": 1,
+        "description": "cursor N sentences backward"
     },
     "n::)": {
         "mode": "n",
         "command": ")",
-        "description": "1  cursor N sentences forward"
+        "note": 1,
+        "description": "cursor N sentences forward"
     },
     "n::star": {
         "mode": "n",
         "command": "*",
-        "description": "1  search forward for the Nth occurrence of the ident under the cursor"
+        "note": 1,
+        "description": "search forward for the Nth occurrence of the ident under the cursor"
     },
     "n::+": {
         "mode": "n",
         "command": "+",
-        "description": "1  same as <CR>"
+        "note": 1,
+        "description": "same as <CR>"
     },
     "n::<S-Plus>": {
         "mode": "n",
         "command": "<S-+>",
-        "description": "1  same as CTRL-F"
+        "note": 1,
+        "description": "same as CTRL-F"
     },
     "n::,": {
         "mode": "n",
         "command": ",",
-        "description": "1  repeat latest f, t, F or T in opposite direction N times"
+        "note": 1,
+        "description": "repeat latest f, t, F or T in opposite direction N times"
     },
     "n::-": {
         "mode": "n",
         "command": "-",
-        "description": "1  cursor to the first CHAR N lines higher"
+        "note": 1,
+        "description": "cursor to the first CHAR N lines higher"
     },
     "n::<S-Minus>": {
         "mode": "n",
         "command": "<S-->",
-        "description": "1  same as CTRL-B"
+        "note": 1,
+        "description": "same as CTRL-B"
     },
     "n::.": {
         "mode": "n",
         "command": ".",
-        "description": "2  repeat last change with count replaced with N"
+        "note": 2,
+        "description": "repeat last change with count replaced with N"
     },
     "n::/": {
         "mode": "n",
         "command": "/{pattern}<CR>",
-        "description": "1  search forward for the Nth occurrence of {pattern}"
+        "note": 1,
+        "description": "search forward for the Nth occurrence of {pattern}"
     },
     "n::/<CR>": {
         "mode": "n",
         "command": "/<CR>",
-        "description": "1  search forward for {pattern} of last search"
+        "note": 1,
+        "description": "search forward for {pattern} of last search"
     },
     "n::0": {
         "mode": "n",
         "command": "0",
-        "description": "1  cursor to the first char of the line"
+        "note": 1,
+        "description": "cursor to the first char of the line"
     },
     "n::count 1": {
         "mode": "n",
@@ -2687,47 +2837,48 @@
     "n::count 2": {
         "mode": "n",
         "command": "2",
-        "description": ""
+        "description": "count operator (motion/action pending)"
     },
     "n::count 3": {
         "mode": "n",
         "command": "3",
-        "description": ""
+        "description": "count operator (motion/action pending)"
     },
     "n::count 4": {
         "mode": "n",
         "command": "4",
-        "description": ""
+        "description": "count operator (motion/action pending)"
     },
     "n::count 5": {
         "mode": "n",
         "command": "5",
-        "description": ""
+        "description": "count operator (motion/action pending)"
     },
     "n::count 6": {
         "mode": "n",
         "command": "6",
-        "description": ""
+        "description": "count operator (motion/action pending)"
     },
     "n::count 7": {
         "mode": "n",
         "command": "7",
-        "description": ""
+        "description": "count operator (motion/action pending)"
     },
     "n::count 8": {
         "mode": "n",
         "command": "8",
-        "description": ""
+        "description": "count operator (motion/action pending)"
     },
     "n::count 9": {
         "mode": "n",
         "command": "9",
-        "description": ""
+        "description": "count operator (motion/action pending)"
     },
     "n:::": {
         "mode": "n",
         "command": ":",
-        "description": "1  start entering an Ex command"
+        "note": 1,
+        "description": "start entering an Ex command"
     },
     "n::N:": {
         "mode": "n",
@@ -2737,52 +2888,62 @@
     "n::;": {
         "mode": "n",
         "command": ";",
-        "description": "1  repeat latest f, t, F or T N times"
+        "note": 1,
+        "description": "repeat latest f, t, F or T N times"
     },
     "n::<": {
         "mode": "n",
         "command": "<{motion}",
-        "description": "2  shift Nmove lines one 'shiftwidth' leftwards"
+        "note": 2,
+        "description": "shift Nmove lines one 'shiftwidth' leftwards"
     },
     "n::<<": {
         "mode": "n",
         "command": "<<",
-        "description": "2  shift N lines one 'shiftwidth' leftwards"
+        "note": 2,
+        "description": "shift N lines one 'shiftwidth' leftwards"
     },
     "n::=": {
         "mode": "n",
         "command": "={motion}",
-        "description": "2  filter Nmove lines through `indent`"
+        "note": 2,
+        "description": "filter Nmove lines through `indent`"
     },
     "n::==": {
         "mode": "n",
         "command": "==",
-        "description": "2  filter N lines through `indent`"
+        "note": 2,
+        "description": "filter N lines through `indent`"
     },
     "n::>": {
         "mode": "n",
         "command": ">{motion}",
-        "description": "2  shift Nmove lines one 'shiftwidth' rightwards"
+        "note": 2,
+        "description": "shift Nmove lines one 'shiftwidth' rightwards"
     },
     "n::>>": {
         "mode": "n",
         "command": ">>",
-        "description": "2  shift N lines one 'shiftwidth' rightwards"
+        "note": 2,
+        "description": "shift N lines one 'shiftwidth' rightwards"
     },
     "n::?": {
         "mode": "n",
         "command": "?{pattern}<CR>",
-        "description": "1  search backward for the Nth previous occurrence of {pattern}"
+        "note": 1,
+        "description": "search backward for the Nth previous occurrence of {pattern}"
     },
     "n::?<CR>": {
         "mode": "n",
         "command": "?<CR>",
-        "description": "1  search backward for {pattern} of last search"
+        "note": 1,
+        "description": "search backward for {pattern} of last search"
     },
     "n::@": {
         "mode": "n",
         "command": "@{a-z}",
-        "description": "2  execute the contents of register {a-z} N times"
+        "note": 2,
+        "description": "execute the contents of register {a-z} N times"
     },
     "n::@:": {
         "mode": "n",
@@ -2792,57 +2953,68 @@
     "n::@@": {
         "mode": "n",
         "command": "@@",
-        "description": "2  repeat the previous @{a-z} N times"
+        "note": 2,
+        "description": "repeat the previous @{a-z} N times"
     },
     "n::A": {
         "mode": "n",
         "command": "A",
-        "description": "2  append text after the end of the line N times"
+        "note": 2,
+        "description": "append text after the end of the line N times"
     },
     "n::B": {
         "mode": "n",
         "command": "B",
-        "description": "1  cursor N WORDS backward"
+        "note": 1,
+        "description": "cursor N WORDS backward"
     },
     "n::C": {
         "mode": "n",
         "command": "[\"x]C",
-        "description": "2  change from the cursor position to the end of the line, and N-1 more lines [into register x]; synonym for `c$`"
+        "note": 2,
+        "description": "change from the cursor position to the end of the line, and N-1 more lines [into register x]; synonym for `c$`"
     },
     "n::D": {
         "mode": "n",
         "command": "[\"x]D",
-        "description": "2  delete the characters under the cursor until the end of the line and N-1 more lines [into register x]; synonym for `d$`"
+        "note": 2,
+        "description": "delete the characters under the cursor until the end of the line and N-1 more lines [into register x]; synonym for `d$`"
     },
     "n::E": {
         "mode": "n",
         "command": "E",
-        "description": "1  cursor forward to the end of WORD N"
+        "note": 1,
+        "description": "cursor forward to the end of WORD N"
     },
     "n::F": {
         "mode": "n",
         "command": "F{char}",
-        "description": "1  cursor to the Nth occurrence of {char} to the left"
+        "note": 1,
+        "description": "cursor to the Nth occurrence of {char} to the left"
     },
     "n::G": {
         "mode": "n",
         "command": "G",
-        "description": "1  cursor to line N, default last line"
+        "note": 1,
+        "description": "cursor to line N, default last line"
     },
     "n::H": {
         "mode": "n",
         "command": "H",
-        "description": "1  cursor to line N from top of screen"
+        "note": 1,
+        "description": "cursor to line N from top of screen"
     },
     "n::I": {
         "mode": "n",
         "command": "I",
-        "description": "2  insert text before the first CHAR on the line N times"
+        "note": 2,
+        "description": "insert text before the first CHAR on the line N times"
     },
     "n::J": {
         "mode": "n",
         "command": "J",
-        "description": "2  Join N lines; default is 2"
+        "note": 2,
+        "description": "Join N lines; default is 2"
     },
     "n::K": {
         "mode": "n",
@@ -2852,47 +3024,56 @@
     "n::L": {
         "mode": "n",
         "command": "L",
-        "description": "1  cursor to line N from bottom of screen"
+        "note": 1,
+        "description": "cursor to line N from bottom of screen"
     },
     "n::M": {
         "mode": "n",
         "command": "M",
-        "description": "1  cursor to middle line of screen"
+        "note": 1,
+        "description": "cursor to middle line of screen"
     },
     "n::N": {
         "mode": "n",
         "command": "N",
-        "description": "1  repeat the latest '/' or '?' N times in opposite direction"
+        "note": 1,
+        "description": "repeat the latest '/' or '?' N times in opposite direction"
     },
     "n::O": {
         "mode": "n",
         "command": "O",
-        "description": "2  begin a new line above the cursor and insert text, repeat N times"
+        "note": 2,
+        "description": "begin a new line above the cursor and insert text, repeat N times"
     },
     "n::P": {
         "mode": "n",
         "command": "[\"x]P",
-        "description": "2  put the text [from register x] before the cursor N times"
+        "note": 2,
+        "description": "put the text [from register x] before the cursor N times"
     },
     "n::R": {
         "mode": "n",
         "command": "R",
-        "description": "2  enter replace mode: overtype existing characters, repeat the entered text N-1 times"
+        "note": 2,
+        "description": "enter replace mode: overtype existing characters, repeat the entered text N-1 times"
     },
     "n::S": {
         "mode": "n",
         "command": "[\"x]S",
-        "description": "2  delete N lines [into register x] and start insert; synonym for `cc`."
+        "note": 2,
+        "description": "delete N lines [into register x] and start insert; synonym for `cc`."
     },
     "n::T": {
         "mode": "n",
         "command": "T{char}",
-        "description": "1  cursor till after Nth occurrence of {char} to the left"
+        "note": 1,
+        "description": "cursor till after Nth occurrence of {char} to the left"
     },
     "n::U": {
         "mode": "n",
         "command": "U",
-        "description": "2  undo all latest changes on one line"
+        "note": 2,
+        "description": "undo all latest changes on one line"
     },
     "n::V": {
         "mode": "n",
@@ -2902,12 +3083,14 @@
     "n::W": {
         "mode": "n",
         "command": "W",
-        "description": "1  cursor N WORDS forward"
+        "note": 1,
+        "description": "cursor N WORDS forward"
     },
     "n::X": {
         "mode": "n",
         "command": "[\"x]X",
-        "description": "2  delete N characters before the cursor [into register x]"
+        "note": 2,
+        "description": "delete N characters before the cursor [into register x]"
     },
     "n::Y": {
         "mode": "n",
@@ -2937,137 +3120,164 @@
     "n::^": {
         "mode": "n",
         "command": "^",
-        "description": "1  cursor to the first CHAR of the line"
+        "note": 1,
+        "description": "cursor to the first CHAR of the line"
     },
     "n::_": {
         "mode": "n",
         "command": "_",
-        "description": "1  cursor to the first CHAR N - 1 lines lower"
+        "note": 1,
+        "description": "cursor to the first CHAR N - 1 lines lower"
     },
     "n::`": {
         "mode": "n",
         "command": "`{a-zA-Z0-9}",
-        "description": "1  cursor to the mark {a-zA-Z0-9}"
+        "note": 1,
+        "description": "cursor to the mark {a-zA-Z0-9}"
     },
     "n::`(": {
         "mode": "n",
         "command": "`(",
-        "description": "1  cursor to the start of the current sentence"
+        "note": 1,
+        "description": "cursor to the start of the current sentence"
     },
     "n::`)": {
         "mode": "n",
         "command": "`)",
-        "description": "1  cursor to the end of the current sentence"
+        "note": 1,
+        "description": "cursor to the end of the current sentence"
     },
     "n::`<": {
         "mode": "n",
         "command": "`<",
-        "description": "1  cursor to the start of the highlighted area"
+        "note": 1,
+        "description": "cursor to the start of the highlighted area"
     },
     "n::`>": {
         "mode": "n",
         "command": "`>",
-        "description": "1  cursor to the end of the highlighted area"
+        "note": 1,
+        "description": "cursor to the end of the highlighted area"
     },
     "n::`[": {
         "mode": "n",
         "command": "`[",
-        "description": "1  cursor to the start of last operated text or start of putted text"
+        "note": 1,
+        "description": "cursor to the start of last operated text or start of putted text"
     },
     "n::`]": {
         "mode": "n",
         "command": "`]",
-        "description": "1  cursor to the end of last operated text or end of putted text"
+        "note": 1,
+        "description": "cursor to the end of last operated text or end of putted text"
     },
     "n::``": {
         "mode": "n",
         "command": "``",
-        "description": "1  cursor to the position before latest jump"
+        "note": 1,
+        "description": "cursor to the position before latest jump"
     },
     "n::`{": {
         "mode": "n",
         "command": "`{",
-        "description": "1  cursor to the start of the current paragraph"
+        "note": 1,
+        "description": "cursor to the start of the current paragraph"
     },
     "n::`}": {
         "mode": "n",
         "command": "`}",
-        "description": "1  cursor to the end of the current paragraph"
+        "note": 1,
+        "description": "cursor to the end of the current paragraph"
     },
     "n::a": {
         "mode": "n",
         "command": "a",
-        "description": "2  append text after the cursor N times"
+        "note": 2,
+        "description": "append text after the cursor N times"
     },
     "n::b": {
         "mode": "n",
         "command": "b",
-        "description": "1  cursor N words backward"
+        "note": 1,
+        "description": "cursor N words backward"
     },
     "n::c": {
         "mode": "n",
         "command": "[\"x]c{motion}",
-        "description": "2  delete Nmove text [into register x] and start insert"
+        "note": 2,
+        "description": "delete Nmove text [into register x] and start insert"
     },
     "n::cc": {
         "mode": "n",
         "command": "[\"x]cc",
-        "description": "2  delete N lines [into register x] and start insert"
+        "note": 2,
+        "description": "delete N lines [into register x] and start insert"
     },
     "n::d": {
         "mode": "n",
         "command": "[\"x]d{motion}",
-        "description": "2  delete Nmove text [into register x]"
+        "note": 2,
+        "description": "delete Nmove text [into register x]"
     },
     "n::dd": {
         "mode": "n",
         "command": "[\"x]dd",
-        "description": "2  delete N lines [into register x]"
+        "note": 2,
+        "description": "delete N lines [into register x]"
     },
     "n::do": {
         "mode": "n",
         "command": "do",
-        "description": "2  same as `:diffget`"
+        "note": 2,
+        "description": "same as `:diffget`"
     },
     "n::dp": {
         "mode": "n",
         "command": "dp",
-        "description": "2  same as `:diffput`"
+        "note": 2,
+        "description": "same as `:diffput`"
     },
     "n::e": {
         "mode": "n",
         "command": "e",
-        "description": "1  cursor forward to the end of word N"
+        "note": 1,
+        "description": "cursor forward to the end of word N"
     },
     "n::f": {
         "mode": "n",
         "command": "f{char}",
-        "description": "1   cursor to Nth occurrence of {char} to the right"
+        "note": 1,
+        "description": " cursor to Nth occurrence of {char} to the right"
     },
     "n::h": {
         "mode": "n",
         "command": "h",
-        "description": "1  cursor N chars to the left"
+        "note": 1,
+        "description": "cursor N chars to the left"
     },
     "n::i": {
         "mode": "n",
         "command": "i",
-        "description": "2  insert text before the cursor N times"
+        "note": 2,
+        "description": "insert text before the cursor N times"
     },
     "n::j": {
         "mode": "n",
         "command": "j",
-        "description": "1  cursor N lines downward"
+        "note": 1,
+        "description": "cursor N lines downward"
     },
     "n::k": {
         "mode": "n",
         "command": "k",
-        "description": "1  cursor N lines upward"
+        "note": 1,
+        "description": "cursor N lines upward"
     },
     "n::l": {
         "mode": "n",
         "command": "l",
-        "description": "1  cursor N chars to the right"
+        "note": 1,
+        "description": "cursor N chars to the right"
     },
     "n::m": {
         "mode": "n",
@@ -3077,17 +3287,20 @@
     "n::n": {
         "mode": "n",
         "command": "n",
-        "description": "1  repeat the latest '/' or '?' N times"
+        "note": 1,
+        "description": "repeat the latest '/' or '?' N times"
     },
     "n::o": {
         "mode": "n",
         "command": "o",
-        "description": "2  begin a new line below the cursor and insert text, repeat N times"
+        "note": 2,
+        "description": "begin a new line below the cursor and insert text, repeat N times"
     },
     "n::p": {
         "mode": "n",
         "command": "[\"x]p",
-        "description": "2  put the text [from register x] after the cursor N times"
+        "note": 2,
+        "description": "put the text [from register x] after the cursor N times"
     },
     "n::q__ALT": {
         "mode": "n",
@@ -3102,7 +3315,8 @@
     "n::Q": {
         "mode": "n",
         "command": "Q",
-        "description": "2  replay last recorded register"
+        "note": 2,
+        "description": "replay last recorded register"
     },
     "n::q:": {
         "mode": "n",
@@ -3122,22 +3336,26 @@
     "n::r": {
         "mode": "n",
         "command": "r{char}",
-        "description": "2  replace N chars with {char}"
+        "note": 2,
+        "description": "replace N chars with {char}"
     },
     "n::s": {
         "mode": "n",
         "command": "[\"x]s",
-        "description": "2  (substitute) delete N characters [into register x] and start insert"
+        "note": 2,
+        "description": "(substitute) delete N characters [into register x] and start insert"
     },
     "n::t": {
         "mode": "n",
         "command": "t{char}",
-        "description": "1  cursor till before Nth occurrence of {char} to the right"
+        "note": 1,
+        "description": "cursor till before Nth occurrence of {char} to the right"
     },
     "n::u": {
         "mode": "n",
         "command": "u",
-        "description": "2  undo changes"
+        "note": 2,
+        "description": "undo changes"
     },
     "n::v": {
         "mode": "n",
@@ -3147,12 +3365,14 @@
     "n::w": {
         "mode": "n",
         "command": "w",
-        "description": "1  cursor N words forward"
+        "note": 1,
+        "description": "cursor N words forward"
     },
     "n::x": {
         "mode": "n",
         "command": "[\"x]x",
-        "description": "2  delete N characters under and after the cursor [into register x]"
+        "note": 2,
+        "description": "delete N characters under and after the cursor [into register x]"
     },
     "n::y": {
         "mode": "n",
@@ -3172,22 +3392,26 @@
     "n::{": {
         "mode": "n",
         "command": "{",
-        "description": "1  cursor N paragraphs backward"
+        "note": 1,
+        "description": "cursor N paragraphs backward"
     },
     "n::bar": {
         "mode": "n",
         "command": "|",
-        "description": "1   cursor to column N"
+        "note": 1,
+        "description": " cursor to column N"
     },
     "n::}": {
         "mode": "n",
         "command": "}",
-        "description": "1   cursor N paragraphs forward"
+        "note": 1,
+        "description": " cursor N paragraphs forward"
     },
     "n::~": {
         "mode": "n",
         "command": "~",
-        "description": "2  'tildeop' off: switch case of N characters under cursor and move the cursor N characters to the right"
+        "note": 2,
+        "description": "'tildeop' off: switch case of N characters under cursor and move the cursor N characters to the right"
     },
     "n::~{motion}": {
         "mode": "n",
@@ -3197,17 +3421,20 @@
     "n::<C-End>": {
         "mode": "n",
         "command": "<C-End>",
-        "description": "1  same as `G`"
+        "note": 1,
+        "description": "same as `G`"
     },
     "n::<C-Home>": {
         "mode": "n",
         "command": "<C-Home>",
-        "description": "1  same as `gg`"
+        "note": 1,
+        "description": "same as `gg`"
     },
     "n::<C-Left>": {
         "mode": "n",
         "command": "<C-Left>",
-        "description": "1  same as `b`"
+        "note": 1,
+        "description": "same as `b`"
     },
     "n::<C-LeftMouse>": {
         "mode": "n",
@@ -3217,7 +3444,8 @@
     "n::<C-Right>": {
         "mode": "n",
         "command": "<C-Right>",
-        "description": "1   same as `w`"
+        "note": 1,
+        "description": " same as `w`"
     },
     "n::<C-RightMouse>": {
         "mode": "n",
@@ -3232,7 +3460,8 @@
     "n::<Del>": {
         "mode": "n",
         "command": "[\"x]<Del>",
-        "description": "2   same as `x`"
+        "note": 2,
+        "description": " same as `x`"
     },
     "n::N<Del>": {
         "mode": "n",
@@ -3242,12 +3471,14 @@
     "n::<Down>": {
         "mode": "n",
         "command": "<Down>",
-        "description": "1  same as `j`"
+        "note": 1,
+        "description": "same as `j`"
     },
     "n::<End>": {
         "mode": "n",
         "command": "<End>",
-        "description": "1  same as `$`"
+        "note": 1,
+        "description": "same as `$`"
     },
     "n::<F1>": {
         "mode": "n",
@@ -3262,27 +3493,32 @@
     "n::<Home>": {
         "mode": "n",
         "command": "<Home>",
-        "description": "1  same as `0`"
+        "note": 1,
+        "description": "same as `0`"
     },
     "n::<Insert>": {
         "mode": "n",
         "command": "<Insert>",
-        "description": "2  same as `i`"
+        "note": 2,
+        "description": "same as `i`"
     },
     "n::<Left>": {
         "mode": "n",
         "command": "<Left>",
-        "description": "1  same as `h`"
+        "note": 1,
+        "description": "same as `h`"
     },
     "n::<LeftMouse>": {
         "mode": "n",
         "command": "<LeftMouse>",
-        "description": "1   move cursor to the mouse click position"
+        "note": 1,
+        "description": " move cursor to the mouse click position"
     },
     "n::<MiddleMouse>": {
         "mode": "n",
         "command": "<MiddleMouse>",
-        "description": "2  same as `gP` at the mouse click position"
+        "note": 2,
+        "description": "same as `gP` at the mouse click position"
     },
     "n::<PageDown>": {
         "mode": "n",
@@ -3297,7 +3533,8 @@
     "n::<Right>": {
         "mode": "n",
         "command": "<Right>",
-        "description": "1  same as `l`"
+        "note": 1,
+        "description": "same as `l`"
     },
     "n::<RightMouse>": {
         "mode": "n",
@@ -3307,12 +3544,14 @@
     "n::<S-Down>": {
         "mode": "n",
         "command": "<S-Down>",
-        "description": "1  same as CTRL-F"
+        "note": 1,
+        "description": "same as CTRL-F"
     },
     "n::<S-Left>": {
         "mode": "n",
         "command": "<S-Left>",
-        "description": "1  same as `b`"
+        "note": 1,
+        "description": "same as `b`"
     },
     "n::<S-LeftMouse>": {
         "mode": "n",
@@ -3322,7 +3561,8 @@
     "n::<S-Right>": {
         "mode": "n",
         "command": "<S-Right>",
-        "description": "1   same as `w`"
+        "note": 1,
+        "description": " same as `w`"
     },
     "n::<S-RightMouse>": {
         "mode": "n",
@@ -3332,17 +3572,20 @@
     "n::<S-Up>": {
         "mode": "n",
         "command": "<S-Up>",
-        "description": "1  same as CTRL-B"
+        "note": 1,
+        "description": "same as CTRL-B"
     },
     "n::<Undo>": {
         "mode": "n",
         "command": "<Undo>",
-        "description": "2  same as `u`"
+        "note": 2,
+        "description": "same as `u`"
     },
     "n::<Up>": {
         "mode": "n",
         "command": "<Up>",
-        "description": "1  same as `k`"
+        "note": 1,
+        "description": "same as `k`"
     },
     "t::CTRL-backslash-CTRL-N": {
         "mode": "t",
@@ -3553,6 +3796,5 @@
         "mode": "c",
         "keybind": "<PageDown>",
         "description": "select a match several entries forward in wildmenu pum mode"
-    },
-    "": {}
+    }
 }
