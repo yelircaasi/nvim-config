@@ -1,7 +1,7 @@
 {
   description = "nvim plugins bundled in a single directory using linkFarm";
 
-  inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
+  inputs.nixpkgs.url = "github:NixOS/nixpkgs/c57a028c30068aa2a7e00fa87300804dab748ff5";  # updated 2026-10-27
 
   outputs = {
     self,
